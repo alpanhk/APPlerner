@@ -1,0 +1,229 @@
+{
+  "unit": 205,
+  "level": "B1",
+  "theme": "Umwelt & Klima",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Klima",
+      "article": "das",
+      "plural": "die Klimas",
+      "meaning_id": "iklim",
+      "example_de": "Das Klima verändert sich.",
+      "example_id": "Iklimnya berubah.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Klimawandel",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "perubahan iklim",
+      "example_de": "Der Klimawandel ist eine große Herausforderung.",
+      "example_id": "Perubahan iklim adalah tantangan besar.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Umweltschutz",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "perlindungan lingkungan",
+      "example_de": "Umweltschutz beginnt zu Hause.",
+      "example_id": "Perlindungan lingkungan dimulai dari rumah.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Energiequelle",
+      "article": "die",
+      "plural": "die Energiequellen",
+      "meaning_id": "sumber energi",
+      "example_de": "Die Sonne ist eine Energiequelle.",
+      "example_id": "Matahari adalah sumber energi.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Verpackung",
+      "article": "die",
+      "plural": "die Verpackungen",
+      "meaning_id": "kemasan",
+      "example_de": "Die Verpackung ist aus Plastik.",
+      "example_id": "Kemasannya dari plastik.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Verkehrsmittel",
+      "article": "das",
+      "plural": "die Verkehrsmittel",
+      "meaning_id": "alat transportasi",
+      "example_de": "Öffentliche Verkehrsmittel sind besser.",
+      "example_id": "Transportasi umum lebih baik.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Folge",
+      "article": "die",
+      "plural": "die Folgen",
+      "meaning_id": "akibat",
+      "example_de": "Die Folgen sind ernst.",
+      "example_id": "Akibatnya serius.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Maßnahme",
+      "article": "die",
+      "plural": "die Maßnahmen",
+      "meaning_id": "tindakan",
+      "example_de": "Die Regierung plant Maßnahmen.",
+      "example_id": "Pemerintah merencanakan tindakan.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "adj",
+      "de": "erneuerbar",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terbarukan",
+      "example_de": "Erneuerbare Energie ist wichtig.",
+      "example_id": "Energi terbarukan itu penting.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "verbrauchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengonsumsi",
+      "example_de": "Wir verbrauchen zu viel Strom.",
+      "example_id": "Kami mengonsumsi terlalu banyak listrik.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "vermeiden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghindari",
+      "example_de": "Man sollte Plastik vermeiden.",
+      "example_id": "Orang sebaiknya menghindari plastik.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "reduzieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengurangi",
+      "example_de": "Wir müssen den Verbrauch reduzieren.",
+      "example_id": "Kita harus mengurangi konsumsi.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Solarstrom",
+      "article": "der",
+      "plural": "die Solarströme",
+      "meaning_id": "listrik surya",
+      "example_de": "Solarstrom wird immer billiger.",
+      "example_id": "Listrik surya makin murah.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Windkraft",
+      "article": "die",
+      "plural": "die Windkräfte",
+      "meaning_id": "tenaga angin",
+      "example_de": "Windkraft ist erneuerbar.",
+      "example_id": "Tenaga angin terbarukan.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Dürre",
+      "article": "die",
+      "plural": "die Dürren",
+      "meaning_id": "kekeringan",
+      "example_de": "Die Dürre dauert an.",
+      "example_id": "Kekeringannya berlanjut.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Überschwemmung",
+      "article": "die",
+      "plural": "die Überschwemmungen",
+      "meaning_id": "banjir",
+      "example_de": "Die Überschwemmung war schlimm.",
+      "example_id": "Banjirnya parah.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Artenvielfalt",
+      "article": "die",
+      "plural": "die Artenvielfalt",
+      "meaning_id": "keanekaragaman hayati",
+      "example_de": "Die Artenvielfalt nimmt ab.",
+      "example_id": "Keanekaragaman hayati menurun.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Hitzewelle",
+      "article": "die",
+      "plural": "die Hitzewellen",
+      "meaning_id": "gelombang panas",
+      "example_de": "Die Hitzewelle hält an.",
+      "example_id": "Gelombang panasnya berlanjut.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Gletscher",
+      "article": "der",
+      "plural": "die Gletscher",
+      "meaning_id": "gletser",
+      "example_de": "Der Gletscher schmilzt.",
+      "example_id": "Gletsernya mencair.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Kompensation",
+      "article": "die",
+      "plural": "die Kompensationen",
+      "meaning_id": "kompensasi",
+      "example_de": "Kompensation allein reicht nicht.",
+      "example_id": "Kompensasi saja tidak cukup.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Anpassung",
+      "article": "die",
+      "plural": "die Anpassungen",
+      "meaning_id": "adaptasi",
+      "example_de": "Anpassung ist notwendig.",
+      "example_id": "Adaptasi itu perlu.",
+      "tags": "b1,unit5,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Klimaschutz",
+      "article": "der",
+      "plural": "die Klimaschutze",
+      "meaning_id": "perlindungan iklim",
+      "example_de": "Klimaschutz ist eine Aufgabe für alle.",
+      "example_id": "Perlindungan iklim tugas semua.",
+      "tags": "b1,unit5,umwelt"
+    }
+  ]
+}

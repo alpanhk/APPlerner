@@ -1,0 +1,682 @@
+{
+  "task": "RAK-DIALOG-20261120",
+  "owner": "1a",
+  "rule": "satu resolver untuk rak dan cuplikan; judul dirender sebagai teks HTML, gambar sebagai ilustrasi",
+  "counts": {
+    "total": 67,
+    "khusus": 18,
+    "tematik": 49
+  },
+  "covers": [
+    {
+      "textId": 1,
+      "title": "Hallo, ich bin Anna",
+      "level": "A1",
+      "label": "A1 · unit 1 · perkenalan",
+      "src": "/klab/sampul/1/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "ebb40a9388d6d592c87ce91edc8a862239c9744fc98fdd60a400264a9591f6bb"
+    },
+    {
+      "textId": 2,
+      "title": "Meine Familie",
+      "level": "A1",
+      "label": "A1 · unit 1 · keluarga",
+      "src": "/klab/sampul/2/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "ece851cce82dcaf98f7a7bf5b7330062033620ddd91a158096107fc8ff8ff71b"
+    },
+    {
+      "textId": 3,
+      "title": "In der Stadt",
+      "level": "A1",
+      "label": "A1 · unit 1 · kota",
+      "src": "/klab/sampul/3/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "4c7dd99827e564f693e454aceff754761a7b758f40dd1eb39b50a8bb819e310e"
+    },
+    {
+      "textId": 4,
+      "title": "Ein Tag in Berlin",
+      "level": "A1",
+      "label": "A1 · unit 1 · kegiatan harian",
+      "src": "/klab/sampul/4/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "e08a920a2b20b1c16a27ec8f754ff22e61e78fca329eafdc36757f401e382a76"
+    },
+    {
+      "textId": 5,
+      "title": "Ein Wochenende in Hamburg",
+      "level": "A2",
+      "label": "A2 · A2 · cerita",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 6,
+      "title": "Der Wochenmarkt",
+      "level": "A1",
+      "label": "A1 · unit 2 · harga",
+      "src": "/klab/sampul/6/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "27cc62f99748ee7fa708265c0c3405ff04e592feb1d92e8d52b6c90a212b3be9"
+    },
+    {
+      "textId": 7,
+      "title": "Uhrzeit und Termine",
+      "level": "A1",
+      "label": "A1 · unit 2 · waktu",
+      "src": "/klab/sampul/7/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "bdf5516bf3d646faa5d4ba9643ee2376f743c54aafe1be149bb7b1d760e1076f"
+    },
+    {
+      "textId": 8,
+      "title": "Meine große Familie",
+      "level": "A1",
+      "label": "A1 · unit 3 · keluarga",
+      "src": "/klab/sampul/8/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "3c174c78e4acb6919737b217eac2f8c2dfa3a882e346df159e9caeaceeafac02"
+    },
+    {
+      "textId": 9,
+      "title": "Ein Besuch bei Oma",
+      "level": "A1",
+      "label": "A1 · unit 3 · kunjungan",
+      "src": "/klab/sampul/9/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "57f1edc01ccba3f31141b7f601fb9db26fce3d649991452ff2c9da5d7aa71829"
+    },
+    {
+      "textId": 10,
+      "title": "Im Café",
+      "level": "A1",
+      "label": "A1 · unit 4 · restoran",
+      "src": "/klab/sampul/10/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "c6ad8eab1c592a8ccc475d2a04d8b139cc6d22a972f9c574f6f303adf14ccb58"
+    },
+    {
+      "textId": 11,
+      "title": "Einkaufen für das Abendessen",
+      "level": "A1",
+      "label": "A1 · unit 4 · belanja",
+      "src": "/klab/sampul/11/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "12d8cec1311c876914d58fc4e936d6de8228d1166f62d72b1c7c4b5088f7688a"
+    },
+    {
+      "textId": 12,
+      "title": "Im Kleidungsgeschäft",
+      "level": "A1",
+      "label": "A1 · A1 · unit 5 · belanja",
+      "src": "/klab/sampul/12/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "386c1433702e1039aeb31212423cc379610266c537be849b941bb2a17857baf6"
+    },
+    {
+      "textId": 13,
+      "title": "Ein Geschenk für Tom",
+      "level": "A1",
+      "label": "A1 · A1 · unit 5 · belanja",
+      "src": "/klab/sampul/13/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "5b7e4ac135eaf7d74633c08736e63d4951353ada5d87cfcc2493f44d8745d7f8"
+    },
+    {
+      "textId": 14,
+      "title": "Unsere neue Wohnung",
+      "level": "A1",
+      "label": "A1 · A1 · unit 6 · rumah",
+      "src": "/klab/sampul/14/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "0394c3ee591ec6f1983f29c72530f1058eab772593e8eaca44266c6840cac5d8"
+    },
+    {
+      "textId": 15,
+      "title": "Ein ruhiger Abend zu Hause",
+      "level": "A1",
+      "label": "A1 · A1 · unit 6 · rumah",
+      "src": "/klab/sampul/15/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "3e8d38cdc30a805d988236b293ca2ed7fd52b373c557a0f842fe034998ddf714"
+    },
+    {
+      "textId": 16,
+      "title": "Der Weg zum Bahnhof",
+      "level": "A1",
+      "label": "A1 · A1 · unit 7 · kota",
+      "src": "/klab/sampul/16/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "14031b8ca8c9068c2d074567745bf2127ea852f2752a1708ed50adc511991c00"
+    },
+    {
+      "textId": 17,
+      "title": "Ein Nachmittag im Park",
+      "level": "A1",
+      "label": "A1 · A1 · unit 7 · kota",
+      "src": "/klab/sampul/17/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "13b3cb5778651880fba78c084e030676b32f8920e9d62a46697f90398074fa53"
+    },
+    {
+      "textId": 18,
+      "title": "Mein erster Arbeitstag",
+      "level": "A1",
+      "label": "A1 · A1 · unit 8 · pekerjaan",
+      "src": "/klab/sampul/18/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "cc70301a5bf50b36929ab19a9cfc19c7ac5279a6141471a5ebb772070e59e48e"
+    },
+    {
+      "textId": 19,
+      "title": "Ein Termin beim Arzt",
+      "level": "A1",
+      "label": "A1 · A1 · unit 9 · kesehatan",
+      "src": "/klab/sampul/19/cover.webp",
+      "kind": "khusus",
+      "status": "verified",
+      "hash": "e6b5460e772244eb82dfbc4cca2ed20496512d95cf215662c715cea7c52d64a1"
+    },
+    {
+      "textId": 20,
+      "title": "Ein Wochenende ohne Stress",
+      "level": "A2",
+      "label": "A2 · A2 · hobi · akhir pekan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 21,
+      "title": "Musik und Bewegung",
+      "level": "A2",
+      "label": "A2 · A2 · hobi · musik",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 22,
+      "title": "Mit dem Zug nach Hamburg",
+      "level": "A2",
+      "label": "A2 · A2 · unit 11 · perjalanan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 23,
+      "title": "Ein Tag am Meer",
+      "level": "A2",
+      "label": "A2 · A2 · unit 11 · liburan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 24,
+      "title": "Eine Einladung zum Abendessen",
+      "level": "A2",
+      "label": "A2 · A2 · unit 12 · janji",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 25,
+      "title": "Eine Nachricht für den Chef",
+      "level": "A2",
+      "label": "A2 · A2 · unit 12 · komunikasi",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 26,
+      "title": "Ein Tag auf dem Markt",
+      "level": "A2",
+      "label": "A2 · A2 · unit 5 · belanja",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 27,
+      "title": "Die Heizung ist kaputt",
+      "level": "A2",
+      "label": "A2 · A2 · rumah · layanan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 28,
+      "title": "Ein Arzttermin am Morgen",
+      "level": "A2",
+      "label": "A2 · A2 · kesehatan · janji",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 29,
+      "title": "Die neue Wohnung",
+      "level": "A2",
+      "label": "A2 · A2 · unit 1",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 30,
+      "title": "Ein neuer Job",
+      "level": "A2",
+      "label": "A2 · A2 · unit 2",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 31,
+      "title": "Samstag im Supermarkt",
+      "level": "A2",
+      "label": "A2 · A2 · unit 3",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 32,
+      "title": "Beim Arzt",
+      "level": "A2",
+      "label": "A2 · A2 · unit 4",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 33,
+      "title": "Urlaub an der Ostsee",
+      "level": "A2",
+      "label": "A2 · A2 · unit 5",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 34,
+      "title": "Mit dem Bus zur Arbeit",
+      "level": "A2",
+      "label": "A2 · A2 · unit 6",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 35,
+      "title": "Mein Wochenende",
+      "level": "A2",
+      "label": "A2 · A2 · unit 7",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 36,
+      "title": "Ohne Handy",
+      "level": "A2",
+      "label": "A2 · A2 · unit 8",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 37,
+      "title": "Ein Geburtstag im Sommer",
+      "level": "A2",
+      "label": "A2 · A2 · unit 9",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 38,
+      "title": "Müll trennen in Deutschland",
+      "level": "A2",
+      "label": "A2 · A2 · unit 10",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 39,
+      "title": "Ein neuer Nachbar",
+      "level": "B1",
+      "label": "B1 · B1 · unit 1",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 40,
+      "title": "Ein gesünderer Alltag",
+      "level": "B1",
+      "label": "B1 · B1 · unit 2",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 41,
+      "title": "Eine neue Aufgabe",
+      "level": "B1",
+      "label": "B1 · B1 · unit 3",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 42,
+      "title": "Eine Diskussion über Medien",
+      "level": "B1",
+      "label": "B1 · B1 · unit 4",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 43,
+      "title": "Was können wir tun?",
+      "level": "B1",
+      "label": "B1 · B1 · unit 5",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 44,
+      "title": "Eine Woche in Wien",
+      "level": "B1",
+      "label": "B1 · B1 · unit 6",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 45,
+      "title": "Zusammenleben im Viertel",
+      "level": "B1",
+      "label": "B1 · B1 · unit 7",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 46,
+      "title": "Lernen mit Plan",
+      "level": "B1",
+      "label": "B1 · B1 · unit 8",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 47,
+      "title": "Ein eigenes Budget",
+      "level": "B1",
+      "label": "B1 · B1 · unit 9",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 48,
+      "title": "Leben mit Technik",
+      "level": "B1",
+      "label": "B1 · B1 · unit 10",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 49,
+      "title": "Arbeit 2030",
+      "level": "B2",
+      "label": "B2 · B2 · unit 1",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 50,
+      "title": "Die Debatte um die Reform",
+      "level": "B2",
+      "label": "B2 · B2 · unit 2",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 51,
+      "title": "Was die Studie zeigt",
+      "level": "B2",
+      "label": "B2 · B2 · unit 3",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 52,
+      "title": "Ein Unternehmen in der Krise",
+      "level": "B2",
+      "label": "B2 · B2 · unit 4",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 53,
+      "title": "Die Energiewende",
+      "level": "B2",
+      "label": "B2 · B2 · unit 5",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 54,
+      "title": "Falsche Nachrichten",
+      "level": "B2",
+      "label": "B2 · B2 · unit 6",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 55,
+      "title": "Zwei Kulturen",
+      "level": "B2",
+      "label": "B2 · B2 · unit 7",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 56,
+      "title": "Leben mit einer chronischen Krankheit",
+      "level": "B2",
+      "label": "B2 · B2 · unit 8",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 57,
+      "title": "Ein Termin bei der Behörde",
+      "level": "B2",
+      "label": "B2 · B2 · unit 9",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 58,
+      "title": "KI und Verantwortung",
+      "level": "B2",
+      "label": "B2 · B2 · unit 10",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 59,
+      "title": "Der Umzug",
+      "level": "A2",
+      "label": "A2 · A2 · tambahan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 60,
+      "title": "Ein Tag am See",
+      "level": "A2",
+      "label": "A2 · A2 · tambahan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 61,
+      "title": "Beim Zahnarzt",
+      "level": "A2",
+      "label": "A2 · A2 · tambahan",
+      "src": "/media/themes/galeri.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "81b6b89072bcbcfbf00f4fc34efc2ea007e859ab386d762d78e179782522fac0"
+    },
+    {
+      "textId": 62,
+      "title": "Die Bewerbung",
+      "level": "B1",
+      "label": "B1 · B1 · tambahan",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 63,
+      "title": "Ein Streit im Haus",
+      "level": "B1",
+      "label": "B1 · B1 · tambahan",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 64,
+      "title": "Klimafreundlich leben",
+      "level": "B1",
+      "label": "B1 · B1 · tambahan",
+      "src": "/media/themes/elbe.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "27b87162b2eeb7c54e4a6cd19172e8ef2dc635cea01cf4cb858e6df345c9e09b"
+    },
+    {
+      "textId": 65,
+      "title": "Die Debatte über das Gesetz",
+      "level": "B2",
+      "label": "B2 · B2 · tambahan",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 66,
+      "title": "Künstliche Intelligenz am Arbeitsplatz",
+      "level": "B2",
+      "label": "B2 · B2 · tambahan",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    },
+    {
+      "textId": 67,
+      "title": "Eine Studie zur Gesundheit",
+      "level": "B2",
+      "label": "B2 · B2 · tambahan",
+      "src": "/media/themes/ostsee.webp",
+      "kind": "tematik-editorial",
+      "status": "tersedia",
+      "hash": "87889cc2b8356903e41ac2f1283e3732b10982aa03c8b9531de78047bb624279"
+    }
+  ]
+}

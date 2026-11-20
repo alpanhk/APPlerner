@@ -1,0 +1,181 @@
+{
+  "id": "dialog-28",
+  "title": "Ein Arzttermin am Morgen",
+  "textId": 28,
+  "level": "A2",
+  "tags": "seed · A2 · kesehatan · janji",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "praxis": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "rezept": {
+        "kind": "prop"
+      },
+      "tablette": {
+        "kind": "prop"
+      },
+      "terminkarte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Vor dem Termin füllt Jonas ein Formular aus.",
+      "id": "Sebelum janji, Jonas mengisi sebuah formulir.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Ärztin fragt ihn nach seinen Beschwerden.",
+      "id": "Dokter perempuan itu menanyakan keluhannya.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Jonas erklärt, dass sein Rücken seit einer Woche weh tut.",
+      "id": "Jonas menjelaskan bahwa punggungnya sakit sejak seminggu lalu.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Ärztin empfiehlt leichte Bewegung und eine Pause am Arbeitsplatz.",
+      "id": "Dokter menyarankan gerakan ringan dan istirahat di tempat kerja.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Jonas vereinbart in zwei Wochen einen Kontrolltermin.",
+      "id": "Jonas membuat janji pemeriksaan ulang dua minggu lagi.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Vor dem Termin füllt Jonas ein Formular aus.",
+      "id": "Sebelum janji, Jonas mengisi sebuah formulir.",
+      "pose": "fragen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "terminkarte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Ärztin fragt ihn nach seinen Beschwerden.",
+      "id": "Dokter perempuan itu menanyakan keluhannya.",
+      "pose": "offscreen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Jonas erklärt, dass sein Rücken seit einer Woche weh tut.",
+      "id": "Jonas menjelaskan bahwa punggungnya sakit sejak seminggu lalu.",
+      "pose": "erzaehlen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "tablette"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Ärztin empfiehlt leichte Bewegung und eine Pause am Arbeitsplatz.",
+      "id": "Dokter menyarankan gerakan ringan dan istirahat di tempat kerja.",
+      "pose": "offscreen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "terminkarte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Jonas vereinbart in zwei Wochen einen Kontrolltermin.",
+      "id": "Jonas membuat janji pemeriksaan ulang dua minggu lagi.",
+      "pose": "antworten",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

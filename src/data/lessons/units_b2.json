@@ -1,0 +1,1310 @@
+{
+  "level": "B2",
+  "source": "Konten B2 - kurikulum Goethe + kurasi manual (dibuat scripts/generate_levels.py)",
+  "units": [
+    {
+      "unit": 301,
+      "title": "Arbeitswelt im Wandel",
+      "goals": [
+        "Membahas perubahan dunia kerja",
+        "Menjelaskan konsekuensi sosial",
+        "Memakai nominalisasi dan konjungsi lanjut"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Nominalisierung",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada arbeitswelt im wandel.",
+            "Nominalisierung; Konjunktiv II mit Modalverben; Konnektoren: sodass, dennoch"
+          ],
+          "slides": [
+            {
+              "title": "Nominalisierung",
+              "body": [
+                "Verba/adjektiva menjadi kata benda: sich verändern → die Veränderung.",
+                "Berguna untuk teks formal.",
+                "Perhatikan artikel: die Veränderung, der Wandel."
+              ],
+              "example_de": "Die Digitalisierung verändert die Arbeitswelt.",
+              "example_id": "Digitalisasi mengubah dunia kerja."
+            },
+            {
+              "title": "Konjunktiv II mit Modalverben",
+              "body": [
+                "müsste, könnte, sollte untuk kemungkinan.",
+                "Die Politik müsste schneller reagieren.",
+                "Bentuk lampau: hätte … können."
+              ],
+              "example_de": "Die Politik müsste schneller reagieren.",
+              "example_id": "Politik seharusnya bereaksi lebih cepat."
+            },
+            {
+              "title": "Konnektoren: sodass, dennoch",
+              "body": [
+                "sodass menyatakan akibat: … sodass viele Jobs entstehen.",
+                "dennoch = meskipun demikian.",
+                "Keduanya umum di teks B2."
+              ],
+              "example_de": "Neue Technologien entstehen, sodass neue Berufe entstehen.",
+              "example_id": "Teknologi baru muncul, sehingga profesi baru tumbuh."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Wandel",
+            "Globalisierung",
+            "Digitalisierung",
+            "Automatisierung",
+            "Fachkraft"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Arbeitswelt im Wandel",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Qualifikation, Weiterbildung, Betrieb, Gewerkschaft."
+          ],
+          "slides": [
+            {
+              "title": "Qualifikation",
+              "body": [
+                "kualifikasi",
+                "Plural: die Qualifikationen"
+              ],
+              "example_de": "Gute Qualifikationen sind wichtig.",
+              "example_id": "Kualifikasi yang baik itu penting."
+            },
+            {
+              "title": "Weiterbildung",
+              "body": [
+                "pendidikan lanjutan",
+                "Plural: die Weiterbildungen"
+              ],
+              "example_de": "Weiterbildung ist heute notwendig.",
+              "example_id": "Pendidikan lanjutan kini diperlukan."
+            },
+            {
+              "title": "Betrieb",
+              "body": [
+                "perusahaan operasional",
+                "Plural: die Betriebe"
+              ],
+              "example_de": "Der Betrieb stellt neue Leute ein.",
+              "example_id": "Perusahaannya merekrut orang baru."
+            },
+            {
+              "title": "Gewerkschaft",
+              "body": [
+                "serikat pekerja",
+                "Plural: die Gewerkschaften"
+              ],
+              "example_de": "Die Gewerkschaft fordert mehr Lohn.",
+              "example_id": "Serikat pekerja menuntut upah lebih tinggi."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Qualifikation",
+            "Weiterbildung",
+            "Betrieb",
+            "Gewerkschaft",
+            "Arbeitsmarkt"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D3",
+          "D7",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 302,
+      "title": "Politik & Gesellschaft",
+      "goals": [
+        "Membahas politik dan demokrasi",
+        "Menyampaikan pendapat kritis",
+        "Memakai Konjunktiv I dalam laporan"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Indirekte Rede: Konjunktiv I",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada politik & gesellschaft.",
+            "Indirekte Rede: Konjunktiv I; Nominalisierung mit Genitiv; Konnektoren: zwar … aber, allerdings"
+          ],
+          "slides": [
+            {
+              "title": "Indirekte Rede: Konjunktiv I",
+              "body": [
+                "Die Regierung erklärt, sie wolle reformieren.",
+                "Bentuk verba sering sama dengan infinitif.",
+                "Dipakai untuk melaporkan tanpa mengaku."
+              ],
+              "example_de": "Der Minister sagt, die Reform sei notwendig.",
+              "example_id": "Menteri mengatakan reformasi itu perlu."
+            },
+            {
+              "title": "Nominalisierung mit Genitiv",
+              "body": [
+                "die Einführung des Gesetzes, die Steigerung der Steuern.",
+                "Genitiv menjelaskan pelaku/objek.",
+                "Gaya bahasa formal."
+              ],
+              "example_de": "Die Einführung des Gesetzes war umstritten.",
+              "example_id": "Pengenalan undang-undang itu kontroversial."
+            },
+            {
+              "title": "Konnektoren: zwar … aber, allerdings",
+              "body": [
+                "zwar … aber = memang … tetapi.",
+                "allerdings = namun (lebih formal).",
+                "Membuat argumen berimbang."
+              ],
+              "example_de": "Die Reform ist zwar nötig, aber sie ist umstritten.",
+              "example_id": "Reformasi itu memang perlu, tetapi kontroversial."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Politik",
+            "Demokratie",
+            "Wahl",
+            "Partei",
+            "Regierung"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Politik & Gesellschaft",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Gesetz, Bürger, Reform, Steuer."
+          ],
+          "slides": [
+            {
+              "title": "Gesetz",
+              "body": [
+                "undang-undang",
+                "Plural: die Gesetze"
+              ],
+              "example_de": "Das Gesetz gilt seit Januar.",
+              "example_id": "Undang-undang itu berlaku sejak Januari."
+            },
+            {
+              "title": "Bürger",
+              "body": [
+                "warga negara",
+                "Plural: die Bürger"
+              ],
+              "example_de": "Die Bürger sollen mitentscheiden.",
+              "example_id": "Warga seharusnya ikut memutuskan."
+            },
+            {
+              "title": "Reform",
+              "body": [
+                "reformasi",
+                "Plural: die Reformen"
+              ],
+              "example_de": "Die Reform ist umstritten.",
+              "example_id": "Reformasinya kontroversial."
+            },
+            {
+              "title": "Steuer",
+              "body": [
+                "pajak",
+                "Plural: die Steuern"
+              ],
+              "example_de": "Die Steuern werden gesenkt.",
+              "example_id": "Pajaknya diturunkan."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Gesetz",
+            "Bürger",
+            "Reform",
+            "Steuer",
+            "wählen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D4",
+          "D9",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 303,
+      "title": "Wissenschaft & Forschung",
+      "goals": [
+        "Membahas penelitian dan hasil studi",
+        "Menjelaskan bukti dan teori",
+        "Memakai Partizipialkonstruktionen"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Partizipialkonstruktionen",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada wissenschaft & forschung.",
+            "Partizipialkonstruktionen; Passiv mit Zustand; Konnektoren: infolgedessen, daher"
+          ],
+          "slides": [
+            {
+              "title": "Partizipialkonstruktionen",
+              "body": [
+                "die steigende Zahl, die untersuchten Fälle.",
+                "Partizip sebagai adjektiva sebelum kata benda.",
+                "Gaya bahasa akademik singkat."
+              ],
+              "example_de": "Die untersuchten Fälle zeigen ein klares Bild.",
+              "example_id": "Kasus-kasus yang diteliti menunjukkan gambaran jelas."
+            },
+            {
+              "title": "Passiv mit Zustand",
+              "body": [
+                "Das Ergebnis ist bewiesen (sein + Partizip II).",
+                "Menyatakan keadaan, bukan proses.",
+                "Bandingkan: wurde bewiesen (proses)."
+              ],
+              "example_de": "Der Zusammenhang ist noch nicht bewiesen.",
+              "example_id": "Kaitannya belum terbukti."
+            },
+            {
+              "title": "Konnektoren: infolgedessen, daher",
+              "body": [
+                "infolgedessen = sebagai akibatnya.",
+                "daher = karena itu.",
+                "Verba di posisi 2 setelah konjungsi ini."
+              ],
+              "example_de": "Die Daten fehlten, daher ist die Studie unvollständig.",
+              "example_id": "Datanya kurang, karena itu studinya tidak lengkap."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Forschung",
+            "Wissenschaft",
+            "Studie",
+            "Ergebnis",
+            "Hypothese"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Wissenschaft & Forschung",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Experiment, Theorie, Beweis, Erkenntnis."
+          ],
+          "slides": [
+            {
+              "title": "Experiment",
+              "body": [
+                "eksperimen",
+                "Plural: die Experimente"
+              ],
+              "example_de": "Das Experiment dauerte Wochen.",
+              "example_id": "Eksperimennya berlangsung pekan."
+            },
+            {
+              "title": "Theorie",
+              "body": [
+                "teori",
+                "Plural: die Theorien"
+              ],
+              "example_de": "Die Theorie ist nicht neu.",
+              "example_id": "Teorinya bukan hal baru."
+            },
+            {
+              "title": "Beweis",
+              "body": [
+                "bukti",
+                "Plural: die Beweise"
+              ],
+              "example_de": "Es gibt keinen Beweis.",
+              "example_id": "Tidak ada bukti."
+            },
+            {
+              "title": "Erkenntnis",
+              "body": [
+                "temuan, pengetahuan",
+                "Plural: die Erkenntnisse"
+              ],
+              "example_de": "Die Erkenntnis ist wichtig.",
+              "example_id": "Temuannya penting."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Experiment",
+            "Theorie",
+            "Beweis",
+            "Erkenntnis",
+            "forschen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D7",
+          "D10",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 304,
+      "title": "Wirtschaft & Unternehmen",
+      "goals": [
+        "Membahas ekonomi dan bisnis",
+        "Menjelaskan tren pasar",
+        "Memakai Funktionsverbgefüge"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Funktionsverbgefüge",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada wirtschaft & unternehmen.",
+            "Funktionsverbgefüge; Passiv mit sein; Konnektoren: einerseits, dennoch"
+          ],
+          "slides": [
+            {
+              "title": "Funktionsverbgefüge",
+              "body": [
+                "eine Entscheidung treffen, zur Verfügung stellen.",
+                "Bentuk formal dari verba biasa.",
+                "Kata benda lebih menonjol."
+              ],
+              "example_de": "Das Unternehmen stellt neue Stellen zur Verfügung.",
+              "example_id": "Perusahaan menyediakan lowongan baru."
+            },
+            {
+              "title": "Passiv mit sein",
+              "body": [
+                "Die Stellen sind bereits besetzt.",
+                "Menyatakan keadaan setelah proses.",
+                "Bandingkan: wurden besetzt (proses)."
+              ],
+              "example_de": "Die Stellen sind bereits besetzt.",
+              "example_id": "Lowongannya sudah terisi."
+            },
+            {
+              "title": "Konnektoren: einerseits, dennoch",
+              "body": [
+                "einerseits … andererseits …",
+                "dennoch = meskipun demikian.",
+                "Umum dalam analisis ekonomi."
+              ],
+              "example_de": "Einerseits wächst der Umsatz, andererseits steigen die Kosten.",
+              "example_id": "Di satu sisi omzet tumbuh, di sisi lain biaya naik."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Wirtschaft",
+            "Unternehmen",
+            "Umsatz",
+            "Gewinn",
+            "Investition"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Wirtschaft & Unternehmen",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Krise, Wettbewerb, Nachfrage, Standort."
+          ],
+          "slides": [
+            {
+              "title": "Krise",
+              "body": [
+                "krisis",
+                "Plural: die Krisen"
+              ],
+              "example_de": "Die Krise hat viele getroffen.",
+              "example_id": "Krisisnya mengenai banyak pihak."
+            },
+            {
+              "title": "Wettbewerb",
+              "body": [
+                "persaingan",
+                "Plural: die Wettbewerbe"
+              ],
+              "example_de": "Der Wettbewerb ist hart.",
+              "example_id": "Persaingannya keras."
+            },
+            {
+              "title": "Nachfrage",
+              "body": [
+                "permintaan",
+                "Plural: die Nachfragen"
+              ],
+              "example_de": "Die Nachfrage steigt.",
+              "example_id": "Permintaannya naik."
+            },
+            {
+              "title": "Standort",
+              "body": [
+                "lokasi usaha",
+                "Plural: die Standorte"
+              ],
+              "example_de": "Der Standort ist günstig.",
+              "example_id": "Lokasinya menguntungkan."
+            }
+          ],
+          "drill": {
+            "code": "D2",
+            "count": 5
+          },
+          "vocab": [
+            "Krise",
+            "Wettbewerb",
+            "Nachfrage",
+            "Standort",
+            "Strategie"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D9",
+          "D2",
+          "D1",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 305,
+      "title": "Klimapolitik & Ressourcen",
+      "goals": [
+        "Membahas kebijakan iklim",
+        "Menjelaskan target dan tindakan",
+        "Memakai konjungsi lanjut dan nominalisasi"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Nominalisierung mit Präposition",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada klimapolitik & ressourcen.",
+            "Nominalisierung mit Präposition; Konnektoren: sofern, falls; Passiv mit Modalverben"
+          ],
+          "slides": [
+            {
+              "title": "Nominalisierung mit Präposition",
+              "body": [
+                "die Reduktion von Emissionen, der Verzicht auf Plastik.",
+                "Kombinasi kata benda + preposisi.",
+                "Gaya bahasa kebijakan."
+              ],
+              "example_de": "Die Reduktion von Emissionen ist das Ziel.",
+              "example_id": "Pengurangan emisi adalah tujuannya."
+            },
+            {
+              "title": "Konnektoren: sofern, falls",
+              "body": [
+                "sofern = sejauh/asal.",
+                "falls = jika (formal).",
+                "Verba di akhir klausa."
+              ],
+              "example_de": "Falls die Ziele nicht erreicht werden, drohen Sanktionen.",
+              "example_id": "Jika target tidak tercapai, akan ada sanksi."
+            },
+            {
+              "title": "Passiv mit Modalverben",
+              "body": [
+                "Emissionen müssen gesenkt werden.",
+                "Modal + Partizip II + werden.",
+                "Sering dalam dokumen kebijakan."
+              ],
+              "example_de": "Die Emissionen müssen deutlich gesenkt werden.",
+              "example_id": "Emisinya harus diturunkan secara signifikan."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Klimapolitik",
+            "Emission",
+            "Treibhausgas",
+            "Energiewende",
+            "Ressource"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Klimapolitik & Ressourcen",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Verbrauch, Vereinbarung, ausstoßen, senken."
+          ],
+          "slides": [
+            {
+              "title": "Verbrauch",
+              "body": [
+                "konsumsi"
+              ],
+              "example_de": "Der Verbrauch ist zu hoch.",
+              "example_id": "Konsumsinya terlalu tinggi."
+            },
+            {
+              "title": "Vereinbarung",
+              "body": [
+                "kesepakatan",
+                "Plural: die Vereinbarungen"
+              ],
+              "example_de": "Die Vereinbarung gilt bis 2030.",
+              "example_id": "Kesepakatannya berlaku sampai 2030."
+            },
+            {
+              "title": "ausstoßen",
+              "body": [
+                "mengeluarkan (emisi)"
+              ],
+              "example_de": "Autos stoßen CO2 aus.",
+              "example_id": "Mobil mengeluarkan CO2."
+            },
+            {
+              "title": "senken",
+              "body": [
+                "menurunkan"
+              ],
+              "example_de": "Wir müssen den Verbrauch senken.",
+              "example_id": "Kita harus menurunkan konsumsi."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Verbrauch",
+            "Vereinbarung",
+            "ausstoßen",
+            "senken",
+            "verbindlich"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D5",
+          "D3",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 306,
+      "title": "Medien & Desinformation",
+      "goals": [
+        "Menganalisis pemberitaan",
+        "Memakai indirekte Rede secara kritis",
+        "Menilai sumber informasi"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Indirekte Rede mit Konjunktiv I",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada medien & desinformation.",
+            "Indirekte Rede mit Konjunktiv I; Partizipialattribute; Konnektoren: weshalb, wobei"
+          ],
+          "slides": [
+            {
+              "title": "Indirekte Rede mit Konjunktiv I",
+              "body": [
+                "Sie behauptet, der Bericht sei falsch.",
+                "Konjunktiv I mempertahankan jarak.",
+                "Bentuk lampau konjunktif: habe … gesagt."
+              ],
+              "example_de": "Er behauptet, die Quelle sei unbekannt.",
+              "example_id": "Dia menyatakan sumbernya tidak dikenal."
+            },
+            {
+              "title": "Partizipialattribute",
+              "body": [
+                "die von ihm genannte Quelle, die wiederholten Fehler.",
+                "Partizip + informasi tambahan.",
+                "Membuat kalimat padat."
+              ],
+              "example_de": "Die oft wiederholten Fehler sind ein Problem.",
+              "example_id": "Kesalahan yang sering diulang itu masalah."
+            },
+            {
+              "title": "Konnektoren: weshalb, wobei",
+              "body": [
+                "weshalb = sehingga (lebih formal).",
+                "wobei = sementara/sedangkan.",
+                "Keduanya menambah nuansa."
+              ],
+              "example_de": "Die Meldung war falsch, weshalb sie zurückgenommen wurde.",
+              "example_id": "Beritanya salah, sehingga ditarik kembali."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Manipulation",
+            "Desinformation",
+            "Journalismus",
+            "Pressefreiheit",
+            "Berichterstattung"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Medien & Desinformation",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Glaubwürdigkeit, Tendenz, Zensur, manipulieren."
+          ],
+          "slides": [
+            {
+              "title": "Glaubwürdigkeit",
+              "body": [
+                "kredibilitas"
+              ],
+              "example_de": "Die Glaubwürdigkeit der Quelle ist fraglich.",
+              "example_id": "Kredibilitas sumbernya diragukan."
+            },
+            {
+              "title": "Tendenz",
+              "body": [
+                "kecenderungan",
+                "Plural: die Tendenzen"
+              ],
+              "example_de": "Der Artikel hat eine klare Tendenz.",
+              "example_id": "Artikelnya jelas cenderung ke satu arah."
+            },
+            {
+              "title": "Zensur",
+              "body": [
+                "sensor",
+                "Plural: die Zensuren"
+              ],
+              "example_de": "Zensur widerspricht der Pressefreiheit.",
+              "example_id": "Sensor bertentangan dengan kebebasan pers."
+            },
+            {
+              "title": "manipulieren",
+              "body": [
+                "memanipulasi"
+              ],
+              "example_de": "Bilder können manipulieren.",
+              "example_id": "Gambar bisa memanipulasi."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Glaubwürdigkeit",
+            "Tendenz",
+            "Zensur",
+            "manipulieren",
+            "hinterfragen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D6",
+          "D4",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 307,
+      "title": "Kultur & Identität",
+      "goals": [
+        "Membahas identitas dan budaya",
+        "Menyampaikan refleksi pribadi",
+        "Memakai kalimat relatif dan nominalisasi"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Relativsätze im Genitiv",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada kultur & identität.",
+            "Relativsätze im Genitiv; Nominalisierung von Adjektiven; Konnektoren: indem, dadurch dass"
+          ],
+          "slides": [
+            {
+              "title": "Relativsätze im Genitiv",
+              "body": [
+                "der Autor, dessen Buch bekannt ist.",
+                "Relativpronomen dessen/deren.",
+                "Menghubungkan kepemilikan."
+              ],
+              "example_de": "Das ist die Autorin, deren Roman ich mag.",
+              "example_id": "Itu penulis yang novelnya saya suka."
+            },
+            {
+              "title": "Nominalisierung von Adjektiven",
+              "body": [
+                "das Eigene, das Fremde, das Bekannte.",
+                "Adjektiva menjadi kata benda netral.",
+                "Umum dalam teks budaya."
+              ],
+              "example_de": "Das Fremde wirkt oft spannend.",
+              "example_id": "Yang asing sering terasa menarik."
+            },
+            {
+              "title": "Konnektoren: indem, dadurch dass",
+              "body": [
+                "indem = dengan cara.",
+                "dadurch dass = karena/dengan.",
+                "Menjelaskan cara mencapai sesuatu."
+              ],
+              "example_de": "Identität entsteht, indem man sich austauscht.",
+              "example_id": "Identitas terbentuk dengan saling bertukar pikiran."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Identität",
+            "Herkunft",
+            "Vielfalt",
+            "Zugehörigkeit",
+            "Tradition"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Kultur & Identität",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Werte, prägen, sich identifizieren, interkulturell."
+          ],
+          "slides": [
+            {
+              "title": "Werte",
+              "body": [
+                "nilai-nilai",
+                "Plural: die Werte"
+              ],
+              "example_de": "Werte verbinden Menschen.",
+              "example_id": "Nilai-nilai menyatukan orang."
+            },
+            {
+              "title": "prägen",
+              "body": [
+                "membentuk"
+              ],
+              "example_de": "Die Kindheit prägt uns.",
+              "example_id": "Masa kecil membentuk kita."
+            },
+            {
+              "title": "sich identifizieren",
+              "body": [
+                "mengidentifikasi diri"
+              ],
+              "example_de": "Ich identifiziere mich mit dieser Kultur.",
+              "example_id": "Saya mengidentifikasi diri dengan budaya ini."
+            },
+            {
+              "title": "interkulturell",
+              "body": [
+                "antarbudaya"
+              ],
+              "example_de": "Interkulturelle Projekte helfen.",
+              "example_id": "Proyek antarbudaya membantu."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Werte",
+            "prägen",
+            "sich identifizieren",
+            "interkulturell",
+            "vielfältig"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D4",
+          "D5",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 308,
+      "title": "Medizin & Gesundheit",
+      "goals": [
+        "Membahas diagnosa dan pengobatan",
+        "Menjelaskan risiko kesehatan",
+        "Memakai pasif dan nominalisasi medis"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv mit Modalverben",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada medizin & gesundheit.",
+            "Passiv mit Modalverben; Kausale Nominalisierung; Konjunktiv II für Empfehlungen"
+          ],
+          "slides": [
+            {
+              "title": "Passiv mit Modalverben",
+              "body": [
+                "Die Behandlung muss fortgesetzt werden.",
+                "Modal + Partizip II + werden.",
+                "Sering dalam teks medis."
+              ],
+              "example_de": "Die Therapie muss fortgesetzt werden.",
+              "example_id": "Terapinya harus dilanjutkan."
+            },
+            {
+              "title": "Kausale Nominalisierung",
+              "body": [
+                "die Ursache für, der Grund für.",
+                "Wegen + Genitiv untuk sebab.",
+                "Membuat teks lebih padat."
+              ],
+              "example_de": "Die Ursache für die Krankheit ist unklar.",
+              "example_id": "Penyebab penyakitnya tidak jelas."
+            },
+            {
+              "title": "Konjunktiv II für Empfehlungen",
+              "body": [
+                "Es wäre sinnvoll, früher zu handeln.",
+                "Man sollte regelmäßig untersuchen lassen.",
+                "Nada sopan dan hati-hati."
+              ],
+              "example_de": "Es wäre sinnvoll, früher zum Arzt zu gehen.",
+              "example_id": "Akan masuk akal untuk lebih awal ke dokter."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Diagnose",
+            "Behandlung",
+            "Nebenwirkung",
+            "Prävention",
+            "Risiko"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Medizin & Gesundheit",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Ursache, Symptom, Aufklärung, behandeln."
+          ],
+          "slides": [
+            {
+              "title": "Ursache",
+              "body": [
+                "penyebab",
+                "Plural: die Ursachen"
+              ],
+              "example_de": "Die Ursache ist unklar.",
+              "example_id": "Penyebabnya tidak jelas."
+            },
+            {
+              "title": "Symptom",
+              "body": [
+                "gejala",
+                "Plural: die Symptome"
+              ],
+              "example_de": "Die Symptome sind typisch.",
+              "example_id": "Gejalanya khas."
+            },
+            {
+              "title": "Aufklärung",
+              "body": [
+                "edukasi, penjelasan",
+                "Plural: die Aufklärungen"
+              ],
+              "example_de": "Aufklärung ist wichtig.",
+              "example_id": "Edukasi itu penting."
+            },
+            {
+              "title": "behandeln",
+              "body": [
+                "mengobati"
+              ],
+              "example_de": "Der Arzt behandelt den Patienten.",
+              "example_id": "Dokter mengobati pasien."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Ursache",
+            "Symptom",
+            "Aufklärung",
+            "behandeln",
+            "verschreiben"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D10",
+          "D6",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 309,
+      "title": "Recht & Verwaltung",
+      "goals": [
+        "Mengurus urusan administratif",
+        "Menjelaskan hak dan kewajiban",
+        "Memakai kalimat pasif formal"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv in Amtsdeutsch",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada recht & verwaltung.",
+            "Passiv in Amtsdeutsch; Nominalisierung mit Genitiv; Konnektoren: sofern, andernfalls"
+          ],
+          "slides": [
+            {
+              "title": "Passiv in Amtsdeutsch",
+              "body": [
+                "Der Antrag muss bis Freitag eingereicht werden.",
+                "Passiv sering tanpa pelaku.",
+                "Gaya bahasa kantor."
+              ],
+              "example_de": "Der Antrag muss bis Freitag eingereicht werden.",
+              "example_id": "Permohonan harus diajukan sampai Jumat."
+            },
+            {
+              "title": "Nominalisierung mit Genitiv",
+              "body": [
+                "die Erteilung der Genehmigung, die Frist des Antrags.",
+                "Genitiv menandai hubungan.",
+                "Umum dalam surat resmi."
+              ],
+              "example_de": "Die Erteilung der Genehmigung dauert Wochen.",
+              "example_id": "Penerbitan izinnya berpekan-pekan."
+            },
+            {
+              "title": "Konnektoren: sofern, andernfalls",
+              "body": [
+                "sofern = asalkan.",
+                "andernfalls = jika tidak.",
+                "Menyatakan syarat hukum."
+              ],
+              "example_de": "Sofern die Frist gilt, muss man zahlen; andernfalls droht ein Bußgeld.",
+              "example_id": "Asalkan tenggat berlaku, orang harus membayar; jika tidak, ada denda."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Recht",
+            "Klage",
+            "Gericht",
+            "Anwalt",
+            "Urteil"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Recht & Verwaltung",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Bußgeld, Antrag, Genehmigung, Behörde."
+          ],
+          "slides": [
+            {
+              "title": "Bußgeld",
+              "body": [
+                "denda",
+                "Plural: die Bußgelder"
+              ],
+              "example_de": "Das Bußgeld war hoch.",
+              "example_id": "Dendanya tinggi."
+            },
+            {
+              "title": "Antrag",
+              "body": [
+                "permohonan",
+                "Plural: die Anträge"
+              ],
+              "example_de": "Der Antrag fehlt noch.",
+              "example_id": "Permohonannya belum ada."
+            },
+            {
+              "title": "Genehmigung",
+              "body": [
+                "izin",
+                "Plural: die Genehmigungen"
+              ],
+              "example_de": "Die Genehmigung liegt vor.",
+              "example_id": "Izinnnya sudah ada."
+            },
+            {
+              "title": "Behörde",
+              "body": [
+                "kantor pemerintah",
+                "Plural: die Behörden"
+              ],
+              "example_de": "Die Behörde antwortet langsam.",
+              "example_id": "Kantor pemerintahnya lambat menjawab."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Bußgeld",
+            "Antrag",
+            "Genehmigung",
+            "Behörde",
+            "klagen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D9",
+          "D7",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 310,
+      "title": "Zukunft & Ethik",
+      "goals": [
+        "Membahas dilema etika teknologi",
+        "Menyampaikan pertimbangan seimbang",
+        "Memakai Konjunktiv II dan pasif"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Abwägen mit einerseits … andererseits",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada zukunft & ethik.",
+            "Abwägen mit einerseits … andererseits; Konjunktiv II der Vergangenheit; Ethik mit Passiv"
+          ],
+          "slides": [
+            {
+              "title": "Abwägen mit einerseits … andererseits",
+              "body": [
+                "Struktur klasik untuk dilema.",
+                "Alternatif: zwar … aber, dennoch.",
+                "Berguna dalam esai B2."
+              ],
+              "example_de": "Einerseits nützt die Technik, andererseits bedroht sie die Freiheit.",
+              "example_id": "Di satu sisi teknologi berguna, di sisi lain mengancam kebebasan."
+            },
+            {
+              "title": "Konjunktiv II der Vergangenheit",
+              "body": [
+                "hätte + Partizip II + können/müssen.",
+                "Man hätte früher handeln müssen.",
+                "Menyatakan penyesalan/kritik."
+              ],
+              "example_de": "Man hätte früher über Datenschutz diskutieren müssen.",
+              "example_id": "Kita seharusnya lebih awal mendiskusikan perlindungan data."
+            },
+            {
+              "title": "Ethik mit Passiv",
+              "body": [
+                "Entscheidungen müssen begründet werden.",
+                "Passiv menyorot tindakan, bukan pelaku.",
+                "Cocok untuk teks argumentatif."
+              ],
+              "example_de": "Entscheidungen müssen ethisch begründet werden.",
+              "example_id": "Keputusan harus dibenarkan secara etis."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Ethik",
+            "Moral",
+            "Datenschutz",
+            "Überwachung",
+            "Freiheit"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Zukunft & Ethik",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Gerechtigkeit, Würde, Entscheidung, abwägen."
+          ],
+          "slides": [
+            {
+              "title": "Gerechtigkeit",
+              "body": [
+                "keadilan"
+              ],
+              "example_de": "Gerechtigkeit ist nicht selbstverständlich.",
+              "example_id": "Keadilan tidak otomatis."
+            },
+            {
+              "title": "Würde",
+              "body": [
+                "martabat"
+              ],
+              "example_de": "Die Würde des Menschen ist unantastbar.",
+              "example_id": "Martabat manusia tidak boleh dilanggar."
+            },
+            {
+              "title": "Entscheidung",
+              "body": [
+                "keputusan",
+                "Plural: die Entscheidungen"
+              ],
+              "example_de": "Die Entscheidung war schwierig.",
+              "example_id": "Keputusannya sulit."
+            },
+            {
+              "title": "abwägen",
+              "body": [
+                "menimbang"
+              ],
+              "example_de": "Wir müssen die Risiken abwägen.",
+              "example_id": "Kami harus menimbang risikonya."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Gerechtigkeit",
+            "Würde",
+            "Entscheidung",
+            "abwägen",
+            "ethisch"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D6",
+          "D9",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    }
+  ]
+}

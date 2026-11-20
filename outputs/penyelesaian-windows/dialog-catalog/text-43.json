@@ -1,0 +1,206 @@
+{
+  "id": "dialog-43",
+  "title": "Was können wir tun?",
+  "textId": 43,
+  "level": "B1",
+  "tags": "seed · B1 · unit 5",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Der Klimawandel ist eines der wichtigsten Themen unserer Zeit.",
+      "id": "Perubahan iklim adalah salah satu topik terpenting zaman ini.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Wegen des Klimawandels ändern sich Wetter und Jahreszeiten.",
+      "id": "Karena perubahan iklim cuaca dan musim berubah.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Vieles kann getan werden, um Energie zu sparen.",
+      "id": "Banyak hal bisa dilakukan untuk menghemat energi.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Plastikverpackungen sollten vermieden werden.",
+      "id": "Kemasan plastik sebaiknya dihindari.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Es gibt aber auch Kritik an manchen Maßnahmen.",
+      "id": "Namun ada juga kritik terhadap sebagian tindakan.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Trotzdem bleibt es wichtig, jetzt zu handeln.",
+      "id": "Meskipun begitu tetap penting untuk bertindak sekarang.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Der Klimawandel ist eines der wichtigsten Themen unserer Zeit.",
+      "id": "Perubahan iklim adalah salah satu topik terpenting zaman ini.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "nachbarin",
+      "de": "Wegen des Klimawandels ändern sich Wetter und Jahreszeiten.",
+      "id": "Karena perubahan iklim cuaca dan musim berubah.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "kollege",
+      "de": "Vieles kann getan werden, um Energie zu sparen.",
+      "id": "Banyak hal bisa dilakukan untuk menghemat energi.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Plastikverpackungen sollten vermieden werden.",
+      "id": "Kemasan plastik sebaiknya dihindari.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Es gibt aber auch Kritik an manchen Maßnahmen.",
+      "id": "Namun ada juga kritik terhadap sebagian tindakan.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollege",
+      "de": "Trotzdem bleibt es wichtig, jetzt zu handeln.",
+      "id": "Meskipun begitu tetap penting untuk bertindak sekarang.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

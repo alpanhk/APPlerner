@@ -1,0 +1,88 @@
+{
+  "status": "kandidat-v02-menunggu-penilaian-pengguna",
+  "note": "Paket komik retro dari outputs/aset-bacaan-percakapan-review/Im-Cafe/v02/ untuk pratinjau dialog 11 giliran.",
+  "versionLabel": "v02 · aset untuk review",
+  "assetPackage": "../aset-bacaan-percakapan-review/Im-Cafe/v02/",
+  "audioBase": "../../src/assets/tts_core/",
+  "audioNote": "Memakai WAV 2a yang cocok dengan kalimat sumber.",
+  "masterHashes": {
+    "ich": "0c87ba5d9f61ef14f02a5e689c5537687db8e010575a3a9c4bf7fe25773fe99f",
+    "kellner": "1abbe76ed1448cbc214291881d23fc2ec434dc99f5f434668ca00b53549e000b",
+    "mascot": "5fa8fc2c2edda932ef64a4a93ae4be6ec11b0a23b70c9b14a6df9b8340f194b5",
+    "freundin": "0bd149f1ac2263db0a6d921c65cbbf60dd44578b3c9d1b7f1abf172bedcd6c9b"
+  },
+  "characters": {
+    "ich": {
+      "label": "Aku (pembelajar)",
+      "visible": true,
+      "poses": {
+        "offscreen": null,
+        "order": "characters/ich/ich-master-neutral-v02.png",
+        "accept": "characters/ich/ich-speaking-v02.png",
+        "ask_bill": "characters/ich/ich-master-neutral-v02.png",
+        "pay": "characters/ich/ich-speaking-v02.png"
+      },
+      "poseNote": "Pose khusus order/ask_bill belum ada: memakai master netral. accept/pay memakai speaking. Tersedia pula surprised, tidak dipakai dialog 2a."
+    },
+    "freundin": {
+      "label": "Teman perempuan",
+      "visible": true,
+      "poses": {
+        "offscreen": null,
+        "order": "characters/freundin/freundin-master-neutral-v02.png"
+      },
+      "poseNote": "Pose bicara tersedia tetapi dialog 2a hanya memakai pose order; dipertahankan master."
+    },
+    "kellner": {
+      "label": "Pelayan kafe",
+      "visible": true,
+      "poses": {
+        "greet": "characters/kellner/kellner-master-neutral-v02.png",
+        "serve": "characters/kellner/kellner-speaking-v02.png",
+        "present_bill": "characters/kellner/kellner-master-neutral-v02.png"
+      },
+      "poseNote": "Pose khusus greet/present_bill belum ada: memakai master netral."
+    },
+    "narrator": {
+      "label": "Narasi (di luar layar)",
+      "visible": false,
+      "poses": { "offscreen": null }
+    },
+    "mascot": {
+      "label": "Maskot kucing (kandidat v02)",
+      "visible": true,
+      "static": true,
+      "poses": { "rest": "characters/mascot/mascot-master-rest-v02.png" },
+      "poseNote": "Satu pose diam; bukan penutur dialog."
+    }
+  },
+  "backgrounds": {
+    "cafe": "background/cafe.webp"
+  },
+  "props": {
+    "tasse_kaffee": "props/tasse_kaffee.webp",
+    "tasse_tee": "props/tasse_tee.webp",
+    "kuchen": "props/kuchen.webp",
+    "rechnung": "props/rechnung.webp",
+    "euro": "props/euro.webp",
+    "counter": "props/counter.webp"
+  },
+  "layout": {
+    "note": "Posisi persentase panggung mengikuti review/LAYER-DAN-QA.md v02.",
+    "background": { "left": "0%", "top": "0%", "width": "100%", "height": "100%" },
+    "counter": { "left": "68%", "top": "76%", "width": "70%", "transform": "translate(-50%,-50%)" },
+    "props": {
+      "tasse_kaffee": { "left": "51%", "top": "67.8%", "width": "7.4%", "transform": "translate(-50%,-50%)" },
+      "tasse_tee": { "left": "61.5%", "top": "69.2%", "width": "8.9%", "transform": "translate(-50%,-50%)" },
+      "kuchen": { "left": "72.4%", "top": "70.3%", "width": "10.5%", "transform": "translate(-50%,-50%)" },
+      "rechnung": { "left": "84.7%", "top": "72.2%", "width": "8.8%", "transform": "translate(-50%,-50%)" },
+      "euro": { "left": "88%", "top": "72.3%", "width": "8.5%", "transform": "translate(-50%,-50%)" }
+    },
+    "characters": {
+      "ich": { "left": "26%", "top": "102%", "width": "51%", "transform": "translate(-50%,-100%)" },
+      "kellner": { "left": "80%", "top": "100%", "width": "51%", "transform": "translate(-50%,-100%)" },
+      "freundin": { "left": "14%", "top": "103%", "width": "42%", "transform": "translate(-50%,-100%)" },
+      "mascot": { "left": "43%", "top": "100%", "width": "23%", "transform": "translate(-50%,-100%)" }
+    }
+  }
+}

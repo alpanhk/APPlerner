@@ -1,0 +1,181 @@
+{
+  "id": "dialog-20",
+  "title": "Ein Wochenende ohne Stress",
+  "textId": 20,
+  "level": "A2",
+  "tags": "seed · A2 · hobi · akhir pekan",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Samstag muss Dimas nicht arbeiten.",
+      "id": "Pada hari Sabtu Dimas tidak harus bekerja.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Er schläft lange und frühstückt auf dem Balkon.",
+      "id": "Dia tidur sampai siang dan sarapan di balkon.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Danach trifft er seine Freunde im Stadtzentrum.",
+      "id": "Setelah itu dia bertemu teman-temannya di pusat kota.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Sie besuchen eine Ausstellung, weil sie sich für Fotografie interessieren.",
+      "id": "Mereka mengunjungi pameran karena tertarik pada fotografi.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Abend kochen sie gemeinsam und hören Musik.",
+      "id": "Malam harinya mereka memasak bersama dan mendengarkan musik.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Am Samstag muss Dimas nicht arbeiten.",
+      "id": "Pada hari Sabtu Dimas tidak harus bekerja.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Er schläft lange und frühstückt auf dem Balkon.",
+      "id": "Dia tidur sampai siang dan sarapan di balkon.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Danach trifft er seine Freunde im Stadtzentrum.",
+      "id": "Setelah itu dia bertemu teman-temannya di pusat kota.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Sie besuchen eine Ausstellung, weil sie sich für Fotografie interessieren.",
+      "id": "Mereka mengunjungi pameran karena tertarik pada fotografi.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Am Abend kochen sie gemeinsam und hören Musik.",
+      "id": "Malam harinya mereka memasak bersama dan mendengarkan musik.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

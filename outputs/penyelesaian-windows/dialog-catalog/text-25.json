@@ -1,0 +1,181 @@
+{
+  "id": "dialog-25",
+  "title": "Eine Nachricht für den Chef",
+  "textId": 25,
+  "level": "A2",
+  "tags": "seed · A2 · unit 12 · komunikasi",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Bima kann heute nicht ins Büro kommen.",
+      "id": "Bima tidak bisa datang ke kantor hari ini.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Er schreibt seinem Chef eine kurze Nachricht.",
+      "id": "Dia menulis pesan singkat kepada atasannya.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Er erklärt, dass sein Zug ausgefallen ist.",
+      "id": "Dia menjelaskan bahwa keretanya dibatalkan.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Sein Chef antwortet sofort und wünscht ihm eine gute Fahrt.",
+      "id": "Atasannya segera membalas dan mendoakan perjalanan yang lancar.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Bima kommt am nächsten Morgen pünktlich.",
+      "id": "Bima datang tepat waktu keesokan paginya.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Bima kann heute nicht ins Büro kommen.",
+      "id": "Bima tidak bisa datang ke kantor hari ini.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Er schreibt seinem Chef eine kurze Nachricht.",
+      "id": "Dia menulis pesan singkat kepada atasannya.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Er erklärt, dass sein Zug ausgefallen ist.",
+      "id": "Dia menjelaskan bahwa keretanya dibatalkan.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Sein Chef antwortet sofort und wünscht ihm eine gute Fahrt.",
+      "id": "Atasannya segera membalas dan mendoakan perjalanan yang lancar.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Bima kommt am nächsten Morgen pünktlich.",
+      "id": "Bima datang tepat waktu keesokan paginya.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "unit": 210,
+  "level": "B1",
+  "theme": "Technik & Zukunft",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Technik",
+      "article": "die",
+      "plural": "die Techniken",
+      "meaning_id": "teknologi, teknik",
+      "example_de": "Die Technik entwickelt sich schnell.",
+      "example_id": "Teknologinya berkembang cepat.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Erfindung",
+      "article": "die",
+      "plural": "die Erfindungen",
+      "meaning_id": "penemuan",
+      "example_de": "Die Erfindung war ein Zufall.",
+      "example_id": "Penemuannya kebetulan.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Zukunft",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "masa depan",
+      "example_de": "Die Zukunft ist offen.",
+      "example_id": "Masa depan terbuka.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Roboter",
+      "article": "der",
+      "plural": "die Roboter",
+      "meaning_id": "robot",
+      "example_de": "Roboter übernehmen viele Aufgaben.",
+      "example_id": "Robot mengambil banyak tugas.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Intelligenz",
+      "article": "die",
+      "plural": "die Intelligenzen",
+      "meaning_id": "kecerdasan",
+      "example_de": "Künstliche Intelligenz ist ein großes Thema.",
+      "example_id": "Kecerdasan buatan adalah topik besar.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Gerät",
+      "article": "das",
+      "plural": "die Geräte",
+      "meaning_id": "perangkat",
+      "example_de": "Das Gerät ist neu.",
+      "example_id": "Perangkatnya baru.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildschirm",
+      "article": "der",
+      "plural": "die Bildschirme",
+      "meaning_id": "layar",
+      "example_de": "Der Bildschirm ist groß.",
+      "example_id": "Layarnya besar.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Daten",
+      "article": "die",
+      "plural": "die Daten",
+      "meaning_id": "data",
+      "example_de": "Die Daten sind sicher.",
+      "example_id": "Datanya aman.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Sicherheit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "keamanan",
+      "example_de": "Sicherheit ist wichtig.",
+      "example_id": "Keamanan itu penting.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "verb",
+      "de": "entwickeln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengembangkan",
+      "example_de": "Sie entwickeln eine neue App.",
+      "example_id": "Mereka mengembangkan aplikasi baru.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "adj",
+      "de": "künstlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "buatan",
+      "example_de": "Künstliche Intelligenz hilft im Alltag.",
+      "example_id": "Kecerdasan buatan membantu sehari-hari.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "adj",
+      "de": "modern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "modern",
+      "example_de": "Das Gebäude ist modern.",
+      "example_id": "Gedungnya modern.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Software",
+      "article": "die",
+      "plural": "die Softwares",
+      "meaning_id": "perangkat lunak",
+      "example_de": "Die Software ist veraltet.",
+      "example_id": "Perangkat lunaknya usang.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Hardware",
+      "article": "die",
+      "plural": "die Hardwares",
+      "meaning_id": "perangkat keras",
+      "example_de": "Die Hardware ist neu.",
+      "example_id": "Perangkat kerasnya baru.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Update",
+      "article": "das",
+      "plural": "die Updates",
+      "meaning_id": "pembaruan",
+      "example_de": "Das Update ist verfügbar.",
+      "example_id": "Pembaruannya tersedia.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Algorithmus",
+      "article": "der",
+      "plural": "die Algorithmen",
+      "meaning_id": "algoritma",
+      "example_de": "Der Algorithmus lernt schnell.",
+      "example_id": "Algoritmanya belajar cepat.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Innovation",
+      "article": "die",
+      "plural": "die Innovationen",
+      "meaning_id": "inovasi",
+      "example_de": "Innovation braucht Zeit.",
+      "example_id": "Inovasi butuh waktu.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Cloud",
+      "article": "die",
+      "plural": "die Clouds",
+      "meaning_id": "cloud",
+      "example_de": "Die Daten liegen in der Cloud.",
+      "example_id": "Datanya ada di cloud.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Server",
+      "article": "der",
+      "plural": "die Server",
+      "meaning_id": "server",
+      "example_de": "Der Server ist ausgefallen.",
+      "example_id": "Servernya mati.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Verschlüsselung",
+      "article": "die",
+      "plural": "die Verschlüsselungen",
+      "meaning_id": "enkripsi",
+      "example_de": "Verschlüsselung schützt Daten.",
+      "example_id": "Enkripsi melindungi data.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Benutzerkonto",
+      "article": "das",
+      "plural": "die Benutzerkonten",
+      "meaning_id": "akun pengguna",
+      "example_de": "Das Benutzerkonto wurde gesperrt.",
+      "example_id": "Akun penggunanya diblokir.",
+      "tags": "b1,unit10,technik"
+    },
+    {
+      "kind": "noun",
+      "de": "Schnittstelle",
+      "article": "die",
+      "plural": "die Schnittstellen",
+      "meaning_id": "antarmuka",
+      "example_de": "Die Schnittstelle ist offen.",
+      "example_id": "Antarmukanya terbuka.",
+      "tags": "b1,unit10,technik"
+    }
+  ]
+}

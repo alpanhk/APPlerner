@@ -1,0 +1,347 @@
+{
+  "level": "A1-A2",
+  "source": "Teks pendek orisinal bertema unit 1-4 (kerangka Goethe A1); bertambah bersama unit berikutnya",
+  "texts": [
+    {
+      "title": "Hallo, ich bin Anna",
+      "level": "A1",
+      "tags": "seed · unit 1 · perkenalan",
+      "sentences": [
+        {
+          "de": "Hallo! Ich heiße Anna.",
+          "id": "Halo! Nama saya Anna."
+        },
+        {
+          "de": "Ich komme aus Indonesien.",
+          "id": "Saya berasal dari Indonesia."
+        },
+        {
+          "de": "Ich wohne in Berlin.",
+          "id": "Saya tinggal di Berlin."
+        },
+        {
+          "de": "Das ist mein Freund Budi.",
+          "id": "Ini teman saya Budi."
+        },
+        {
+          "de": "Er kommt aus Bandung.",
+          "id": "Dia berasal dari Bandung."
+        },
+        {
+          "de": "Wir lernen Deutsch.",
+          "id": "Kami belajar bahasa Jerman."
+        }
+      ]
+    },
+    {
+      "title": "Meine Familie",
+      "level": "A1",
+      "tags": "seed · unit 1 · keluarga",
+      "sentences": [
+        {
+          "de": "Meine Familie ist klein.",
+          "id": "Keluarga saya kecil."
+        },
+        {
+          "de": "Ich habe einen Vater und eine Mutter.",
+          "id": "Saya punya seorang ayah dan seorang ibu."
+        },
+        {
+          "de": "Mein Vater heißt Herr Müller.",
+          "id": "Ayah saya bernama Tuan Müller."
+        },
+        {
+          "de": "Meine Mutter ist Lehrerin.",
+          "id": "Ibu saya adalah guru."
+        },
+        {
+          "de": "Ich habe keine Geschwister.",
+          "id": "Saya tidak punya saudara kandung."
+        },
+        {
+          "de": "Wir wohnen in einer kleinen Stadt.",
+          "id": "Kami tinggal di sebuah kota kecil."
+        }
+      ]
+    },
+    {
+      "title": "In der Stadt",
+      "level": "A1",
+      "tags": "seed · unit 1 · kota",
+      "sentences": [
+        {
+          "de": "Ich wohne in Berlin.",
+          "id": "Saya tinggal di Berlin."
+        },
+        {
+          "de": "Die Stadt ist groß und laut.",
+          "id": "Kota itu besar dan berisik."
+        },
+        {
+          "de": "Hier gibt es viele Cafés.",
+          "id": "Di sini ada banyak kafe."
+        },
+        {
+          "de": "Mein Freund wohnt in der Nähe.",
+          "id": "Teman saya tinggal di dekat sini."
+        },
+        {
+          "de": "Wir treffen uns am Bahnhof.",
+          "id": "Kami bertemu di stasiun."
+        },
+        {
+          "de": "Der Bahnhof ist nicht weit.",
+          "id": "Stasiun itu tidak jauh."
+        }
+      ]
+    },
+    {
+      "title": "Ein Tag in Berlin",
+      "level": "A1",
+      "tags": "seed · unit 1 · kegiatan harian",
+      "sentences": [
+        {
+          "de": "Am Morgen trinke ich Kaffee.",
+          "id": "Pada pagi hari saya minum kopi."
+        },
+        {
+          "de": "Dann fahre ich zur Arbeit.",
+          "id": "Lalu saya pergi ke tempat kerja."
+        },
+        {
+          "de": "Die Arbeit beginnt um acht Uhr.",
+          "id": "Pekerjaan dimulai pukul delapan."
+        },
+        {
+          "de": "Am Abend treffe ich meine Freunde.",
+          "id": "Pada malam hari saya bertemu teman-teman saya."
+        },
+        {
+          "de": "Wir essen zusammen und sprechen über den Tag.",
+          "id": "Kami makan bersama dan berbicara tentang hari itu."
+        },
+        {
+          "de": "Um zehn Uhr gehe ich nach Hause.",
+          "id": "Pukul sepuluh saya pulang ke rumah."
+        }
+      ]
+    },
+    {
+      "title": "Ein Wochenende in Hamburg",
+      "level": "A2",
+      "tags": "seed · A2 · cerita",
+      "sentences": [
+        {
+          "de": "Am Wochenende bin ich nach Hamburg gefahren.",
+          "id": "Pada akhir pekan saya pergi ke Hamburg."
+        },
+        {
+          "de": "Die Fahrt hat drei Stunden gedauert.",
+          "id": "Perjalanannya memakan waktu tiga jam."
+        },
+        {
+          "de": "Ich habe meine Tante besucht.",
+          "id": "Saya mengunjungi bibi saya."
+        },
+        {
+          "de": "Wir haben einen Spaziergang an der Elbe gemacht.",
+          "id": "Kami berjalan-jalan di tepi sungai Elbe."
+        },
+        {
+          "de": "Das Wetter war leider kalt und windig.",
+          "id": "Cuacanya sayangnya dingin dan berangin."
+        },
+        {
+          "de": "Am Abend sind wir in einem kleinen Restaurant gegessen.",
+          "id": "Pada malam hari kami makan di sebuah restoran kecil."
+        }
+      ]
+    },
+    {
+      "title": "Der Wochenmarkt",
+      "level": "A1",
+      "tags": "seed · unit 2 · harga",
+      "sentences": [
+        {
+          "de": "Am Samstag gehe ich auf den Wochenmarkt.",
+          "id": "Hari Sabtu saya pergi ke pasar mingguan."
+        },
+        {
+          "de": "Ein Kilo Äpfel kostet drei Euro.",
+          "id": "Satu kilo apel harganya tiga euro."
+        },
+        {
+          "de": "Der Käse ist heute billig.",
+          "id": "Kejunya hari ini murah."
+        },
+        {
+          "de": "Ich kaufe Brot und Tomaten.",
+          "id": "Saya membeli roti dan tomat."
+        },
+        {
+          "de": "Das kostet zusammen sechs Euro fünfzig.",
+          "id": "Itu semuanya enam euro lima puluh."
+        },
+        {
+          "de": "Ich zahle mit Karte.",
+          "id": "Saya membayar dengan kartu."
+        }
+      ]
+    },
+    {
+      "title": "Uhrzeit und Termine",
+      "level": "A1",
+      "tags": "seed · unit 2 · waktu",
+      "sentences": [
+        {
+          "de": "Es ist halb acht.",
+          "id": "Sekarang pukul 07.30."
+        },
+        {
+          "de": "Um neun Uhr beginnt der Deutschkurs.",
+          "id": "Pukul sembilan kursus bahasa Jerman mulai."
+        },
+        {
+          "de": "Der Kurs dauert zwei Stunden.",
+          "id": "Kursusnya berlangsung dua jam."
+        },
+        {
+          "de": "Am Montag und am Mittwoch habe ich Unterricht.",
+          "id": "Hari Senin dan Rabu saya ada kelas."
+        },
+        {
+          "de": "Am Wochenende habe ich frei.",
+          "id": "Akhir pekan saya libur."
+        },
+        {
+          "de": "Heute habe ich keine Zeit.",
+          "id": "Hari ini saya tidak punya waktu."
+        }
+      ]
+    },
+    {
+      "title": "Meine große Familie",
+      "level": "A1",
+      "tags": "seed · unit 3 · keluarga",
+      "sentences": [
+        {
+          "de": "Meine Familie ist groß.",
+          "id": "Keluarga saya besar."
+        },
+        {
+          "de": "Meine Eltern wohnen in Bandung.",
+          "id": "Orang tua saya tinggal di Bandung."
+        },
+        {
+          "de": "Ich habe zwei Brüder und eine Schwester.",
+          "id": "Saya punya dua saudara laki-laki dan satu saudara perempuan."
+        },
+        {
+          "de": "Mein Bruder ist verheiratet.",
+          "id": "Saudara laki-laki saya sudah menikah."
+        },
+        {
+          "de": "Meine Schwester ist noch ledig.",
+          "id": "Saudara perempuan saya masih belum menikah."
+        },
+        {
+          "de": "Meine Großmutter wohnt bei uns.",
+          "id": "Nenek saya tinggal bersama kami."
+        }
+      ]
+    },
+    {
+      "title": "Ein Besuch bei Oma",
+      "level": "A1",
+      "tags": "seed · unit 3 · kunjungan",
+      "sentences": [
+        {
+          "de": "Am Sonntag besuche ich meine Großmutter.",
+          "id": "Hari Minggu saya mengunjungi nenek saya."
+        },
+        {
+          "de": "Sie wohnt in einem kleinen Haus.",
+          "id": "Dia tinggal di sebuah rumah kecil."
+        },
+        {
+          "de": "Mein Onkel und meine Tante kommen auch.",
+          "id": "Paman dan bibi saya juga datang."
+        },
+        {
+          "de": "Meine Cousine bringt einen Kuchen.",
+          "id": "Sepupu perempuan saya membawa kue."
+        },
+        {
+          "de": "Wir essen zusammen und erzählen viel.",
+          "id": "Kami makan bersama dan banyak bercerita."
+        },
+        {
+          "de": "Ich liebe meine Familie.",
+          "id": "Saya mencintai keluarga saya."
+        }
+      ]
+    },
+    {
+      "title": "Im Café",
+      "level": "A1",
+      "tags": "seed · unit 4 · restoran",
+      "sentences": [
+        {
+          "de": "Wir gehen heute ins Café.",
+          "id": "Hari ini kami pergi ke kafe."
+        },
+        {
+          "de": "Ich möchte einen Kaffee, bitte.",
+          "id": "Saya ingin kopi, tolong."
+        },
+        {
+          "de": "Meine Freundin bestellt einen Tee.",
+          "id": "Teman perempuan saya memesan teh."
+        },
+        {
+          "de": "Der Kuchen ist sehr lecker.",
+          "id": "Kuenya sangat enak."
+        },
+        {
+          "de": "Die Rechnung, bitte!",
+          "id": "Tagihannya, tolong!"
+        },
+        {
+          "de": "Wir zahlen zusammen zehn Euro.",
+          "id": "Kami membayar sepuluh euro bersama."
+        }
+      ]
+    },
+    {
+      "title": "Einkaufen für das Abendessen",
+      "level": "A1",
+      "tags": "seed · unit 4 · belanja",
+      "sentences": [
+        {
+          "de": "Ich kaufe heute Gemüse und Fisch.",
+          "id": "Hari ini saya membeli sayur dan ikan."
+        },
+        {
+          "de": "Meine Mutter kocht Reis mit Gemüse.",
+          "id": "Ibu saya memasak nasi dengan sayur."
+        },
+        {
+          "de": "Mein Vater trinkt Wasser, ich trinke Saft.",
+          "id": "Ayah saya minum air, saya minum jus."
+        },
+        {
+          "de": "Zum Frühstück esse ich Brot mit Käse.",
+          "id": "Untuk sarapan saya makan roti dengan keju."
+        },
+        {
+          "de": "Das Abendessen ist um sieben Uhr.",
+          "id": "Makan malamnya pukul tujuh."
+        },
+        {
+          "de": "Ich bin hungrig und durstig.",
+          "id": "Saya lapar dan haus."
+        }
+      ]
+    }
+  ]
+}

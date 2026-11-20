@@ -1,0 +1,372 @@
+{
+  "level": "A1",
+  "unit": 8,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 8. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u8-o1-01",
+      "objectiveId": "a1-u8-o1",
+      "code": "D6",
+      "prompt": "___ komme ich ins Büro, dann beginne ich mit der Arbeit.",
+      "sub": "Pilih penanda urutan untuk langkah pertama.",
+      "mode": "choice",
+      "options": ["Erst", "Dann", "Danach", "Bis"],
+      "answer": "Erst",
+      "wrongFeedback": {
+        "Dann": "Dann berarti 'lalu', dipakai setelah langkah pertama.",
+        "Danach": "Danach berarti 'sesudah itu', bukan langkah pertama.",
+        "Bis": "Bis berarti 'sampai', bukan penanda urutan."
+      },
+      "explanation": "Erst komme ich ins Büro, dann beginne ich mit der Arbeit. erst = pertama."
+    },
+    {
+      "id": "u8-o1-02",
+      "objectiveId": "a1-u8-o1",
+      "code": "D6",
+      "prompt": "Ich lese die E-Mails. ___ beginne ich mit dem Bericht.",
+      "sub": "Pilih penanda urutan untuk langkah berikutnya.",
+      "mode": "choice",
+      "options": ["Danach", "Erst", "Zuerst", "Bis"],
+      "answer": "Danach",
+      "wrongFeedback": {
+        "Erst": "Erst berarti 'baru/pertama', bukan sesudah kegiatan sebelumnya.",
+        "Zuerst": "Zuerst berarti 'pertama', tetapi kalimat ini melanjutkan kegiatan sebelumnya.",
+        "Bis": "Bis berarti 'sampai', bukan penanda urutan."
+      },
+      "explanation": "Danach beginne ich mit dem Bericht. danach = sesudah itu."
+    },
+    {
+      "id": "u8-o1-03",
+      "objectiveId": "a1-u8-o1",
+      "code": "D6",
+      "prompt": "Ich mache die E-Mails ___ , danach den Bericht.",
+      "sub": "Pilih penanda urutan yang sesuai.",
+      "mode": "choice",
+      "options": ["zuerst", "dann", "danach", "bis"],
+      "answer": "zuerst",
+      "wrongFeedback": {
+        "dann": "dann dipakai untuk langkah berikutnya; di sini ditandai dengan danach.",
+        "danach": "danach sudah muncul di bagian kedua; langkah pertama memakai zuerst.",
+        "bis": "bis berarti 'sampai', bukan penanda urutan."
+      },
+      "explanation": "zuerst ... danach ... = pertama ... sesudah itu ..."
+    },
+    {
+      "id": "u8-o1-04",
+      "objectiveId": "a1-u8-o1",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'sesudah itu'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "danach",
+      "altAnswers": ["Danach"],
+      "hintOnWrong": "Sesudah itu = danach. Bedakan dari dann (lalu) dan zuerst (pertama).",
+      "explanation": "danach berarti 'sesudah itu'."
+    },
+    {
+      "id": "u8-o1-05",
+      "objectiveId": "a1-u8-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Pertama saya membuka email.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Zuerst", "öffne", "ich", "die", "E-Mails."],
+      "answer": "Zuerst öffne ich die E-Mails.",
+      "hintOnWrong": "Mulai dengan Zuerst, lalu kata kerja öffne di posisi kedua, lalu ich die E-Mails.",
+      "explanation": "Zuerst öffne ich die E-Mails. Keterangan waktu di posisi 1, kata kerja finit di posisi 2."
+    },
+    {
+      "id": "u8-o2-01",
+      "objectiveId": "a1-u8-o2",
+      "code": "D3",
+      "prompt": "Meine Frühschicht ___ um sechs Uhr an.",
+      "sub": "Konjugasi anfangen untuk die Frühschicht.",
+      "mode": "choice",
+      "options": ["fängt", "fange", "fangen", "fängst"],
+      "answer": "fängt",
+      "wrongFeedback": {
+        "fange": "fange dipakai untuk ich.",
+        "fangen": "fangen dipakai untuk wir/sie/Sie.",
+        "fängst": "fängst dipakai untuk du."
+      },
+      "explanation": "anfangen → er/sie/es fängt ... an: Meine Frühschicht fängt um sechs Uhr an."
+    },
+    {
+      "id": "u8-o2-02",
+      "objectiveId": "a1-u8-o2",
+      "code": "D3",
+      "prompt": "Ich ___ um acht Uhr an.",
+      "sub": "Konjugasi anfangen untuk ich.",
+      "mode": "choice",
+      "options": ["fange", "fängst", "fängt", "fangen"],
+      "answer": "fange",
+      "wrongFeedback": {
+        "fängst": "fängst dipakai untuk du.",
+        "fängt": "fängt dipakai untuk er/sie/es.",
+        "fangen": "fangen dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "anfangen → ich fange ... an: Ich fange um acht Uhr an."
+    },
+    {
+      "id": "u8-o2-03",
+      "objectiveId": "a1-u8-o2",
+      "code": "D3",
+      "prompt": "Wann ___ die Besprechung an?",
+      "sub": "Konjugasi anfangen untuk die Besprechung.",
+      "mode": "choice",
+      "options": ["fängt", "fange", "fangen", "fängst"],
+      "answer": "fängt",
+      "wrongFeedback": {
+        "fange": "fange dipakai untuk ich.",
+        "fangen": "fangen dipakai untuk wir/sie/Sie.",
+        "fängst": "fängst dipakai untuk du."
+      },
+      "explanation": "Die Besprechung fängt an. Subjek tunggal memakai fängt."
+    },
+    {
+      "id": "u8-o2-04",
+      "objectiveId": "a1-u8-o2",
+      "code": "D3",
+      "prompt": "Lengkapi: Du ___ um sieben Uhr an. (anfangen)",
+      "sub": "Ketik bentuk untuk du.",
+      "mode": "type",
+      "answer": "fängst",
+      "altAnswers": ["faengst", "Fängst", "Faengst"],
+      "hintOnWrong": "anfangen → du fängst ... an. Umlaut ä dan akhiran -st.",
+      "explanation": "Du fängst um sieben Uhr an. Awalan an- tetap di akhir."
+    },
+    {
+      "id": "u8-o2-05",
+      "objectiveId": "a1-u8-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Rapat itu mulai pukul sembilan.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Die", "Besprechung", "fängt", "um", "neun", "Uhr", "an."],
+      "answer": "Die Besprechung fängt um neun Uhr an.",
+      "hintOnWrong": "Mulai dengan Die Besprechung, lalu fängt um neun Uhr, lalu an di akhir.",
+      "explanation": "Die Besprechung fängt um neun Uhr an. Awalan an- berada di akhir kalimat."
+    },
+    {
+      "id": "u8-o3-01",
+      "objectiveId": "a1-u8-o3",
+      "code": "D9",
+      "prompt": "Ich arbeite ___ Schreibtisch.",
+      "sub": "Pilih preposisi tempat untuk Schreibtisch.",
+      "mode": "choice",
+      "options": ["am", "im", "in der", "auf dem"],
+      "answer": "am",
+      "wrongFeedback": {
+        "im": "im dipakai untuk berada di dalam ruangan; di meja kerja memakai an + dem.",
+        "in der": "in der dipakai untuk kata feminin; Schreibtisch maskulin.",
+        "auf dem": "auf dem berarti 'di atas'; bekerja di meja memakai am Schreibtisch."
+      },
+      "explanation": "an + dem = am: Ich arbeite am Schreibtisch."
+    },
+    {
+      "id": "u8-o3-02",
+      "objectiveId": "a1-u8-o3",
+      "code": "D9",
+      "prompt": "Meine Kollegin arbeitet ___ Abteilung.",
+      "sub": "Pilih preposisi untuk departemen.",
+      "mode": "choice",
+      "options": ["in der", "im", "am", "auf der"],
+      "answer": "in der",
+      "wrongFeedback": {
+        "im": "im dipakai untuk maskulin/netral; Abteilung feminin.",
+        "am": "am berarti 'di tepi', bukan 'di dalam departemen'.",
+        "auf der": "auf der berarti 'di atas'; departemen memakai in + Dativ."
+      },
+      "explanation": "in + Dativ feminin = in der Abteilung."
+    },
+    {
+      "id": "u8-o3-03",
+      "objectiveId": "a1-u8-o3",
+      "code": "D9",
+      "prompt": "___ Arbeitsplatz habe ich einen Computer.",
+      "sub": "Pilih preposisi untuk tempat kerja.",
+      "mode": "choice",
+      "options": ["Am", "Im", "In der", "Auf dem"],
+      "answer": "Am",
+      "wrongFeedback": {
+        "Im": "im dipakai untuk ruangan; Arbeitsplatz memakai an + dem.",
+        "In der": "in der dipakai untuk kata feminin; Arbeitsplatz maskulin.",
+        "Auf dem": "auf dem berarti 'di atas'; tempat kerja memakai am Arbeitsplatz."
+      },
+      "explanation": "am Arbeitsplatz = di tempat kerja."
+    },
+    {
+      "id": "u8-o3-04",
+      "objectiveId": "a1-u8-o3",
+      "code": "D1",
+      "prompt": "Tulis kata Jerman untuk 'tempat kerja' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "der Arbeitsplatz",
+      "altAnswers": ["Arbeitsplatz"],
+      "hintOnWrong": "Tempat kerja = der Arbeitsplatz. Kata Arbeitsplatz maskulin.",
+      "explanation": "der Arbeitsplatz berarti 'tempat kerja'."
+    },
+    {
+      "id": "u8-o3-05",
+      "objectiveId": "a1-u8-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Saya bekerja di sebuah kantor.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "arbeite", "in", "einem", "Büro."],
+      "answer": "Ich arbeite in einem Büro.",
+      "hintOnWrong": "Mulai dengan Ich arbeite, lalu in einem Büro.",
+      "explanation": "Ich arbeite in einem Büro. in + Dativ netral = in einem Büro."
+    },
+    {
+      "id": "u8-o4-01",
+      "objectiveId": "a1-u8-o4",
+      "code": "D3",
+      "prompt": "Ich ___ die Aufgabe vor der Pause.",
+      "sub": "Konjugasi erledigen untuk ich.",
+      "mode": "choice",
+      "options": ["erledige", "erledigst", "erledigt", "erledigen"],
+      "answer": "erledige",
+      "wrongFeedback": {
+        "erledigst": "erledigst dipakai untuk du.",
+        "erledigt": "erledigt dipakai untuk er/sie/es.",
+        "erledigen": "erledigen dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "erledigen → ich erledige: Ich erledige die Aufgabe vor der Pause."
+    },
+    {
+      "id": "u8-o4-02",
+      "objectiveId": "a1-u8-o4",
+      "code": "D9",
+      "prompt": "Wir sprechen ___ unserer Kollegin.",
+      "sub": "Pilih preposisi untuk 'bersama'.",
+      "mode": "choice",
+      "options": ["mit", "zu", "bei", "nach"],
+      "answer": "mit",
+      "wrongFeedback": {
+        "zu": "zu berarti 'kepada/menuju', bukan 'bersama'.",
+        "bei": "bei berarti 'di dekat/pada', bukan 'bersama'.",
+        "nach": "nach berarti 'setelah/menuju', bukan 'bersama'."
+      },
+      "explanation": "mit + Dativ = bersama: mit unserer Kollegin."
+    },
+    {
+      "id": "u8-o4-03",
+      "objectiveId": "a1-u8-o4",
+      "code": "D4",
+      "prompt": "Sie schreibt ___ Lebenslauf.",
+      "sub": "Pilih Akkusativ untuk Lebenslauf.",
+      "mode": "choice",
+      "options": ["einen", "ein", "eine", "einer"],
+      "answer": "einen",
+      "wrongFeedback": {
+        "ein": "ein adalah bentuk nominatif maskulin/netral; setelah schreiben objeknya Akkusativ.",
+        "eine": "eine dipakai untuk kata feminin; Lebenslauf maskulin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "Lebenslauf maskulin dan menjadi objek schreiben, jadi Akkusativ: einen Lebenslauf."
+    },
+    {
+      "id": "u8-o4-04",
+      "objectiveId": "a1-u8-o4",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'rapat' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Besprechung",
+      "altAnswers": ["Besprechung"],
+      "hintOnWrong": "Rapat = die Besprechung. Kata berakhiran -ung umumnya feminin.",
+      "explanation": "die Besprechung berarti 'rapat'."
+    },
+    {
+      "id": "u8-o4-05",
+      "objectiveId": "a1-u8-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Saya menyelesaikan tugas bersama rekan kerja saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "erledige", "die", "Aufgabe", "mit", "meiner", "Kollegin."],
+      "answer": "Ich erledige die Aufgabe mit meiner Kollegin.",
+      "hintOnWrong": "Mulai dengan Ich erledige die Aufgabe, lalu mit meiner Kollegin.",
+      "explanation": "Ich erledige die Aufgabe mit meiner Kollegin. mit + Dativ feminin = mit meiner Kollegin."
+    },
+    {
+      "id": "u8-o5-01",
+      "objectiveId": "a1-u8-o5",
+      "code": "D10",
+      "prompt": "Ich ___ heute bis fünf Uhr arbeiten.",
+      "sub": "Konjugasi müssen untuk ich.",
+      "mode": "choice",
+      "options": ["muss", "musst", "müssen", "müsst"],
+      "answer": "muss",
+      "wrongFeedback": {
+        "musst": "musst dipakai untuk du.",
+        "müssen": "müssen dipakai untuk wir/sie/Sie.",
+        "müsst": "müsst dipakai untuk ihr."
+      },
+      "explanation": "müssen → ich muss: Ich muss heute bis fünf Uhr arbeiten."
+    },
+    {
+      "id": "u8-o5-02",
+      "objectiveId": "a1-u8-o5",
+      "code": "D10",
+      "prompt": "Ihr ___ um zwölf Uhr eine Pause machen.",
+      "sub": "Konjugasi müssen untuk ihr.",
+      "mode": "choice",
+      "options": ["müsst", "müssen", "muss", "musst"],
+      "answer": "müsst",
+      "wrongFeedback": {
+        "müssen": "müssen dipakai untuk wir/sie/Sie, bukan ihr.",
+        "muss": "muss dipakai untuk ich atau er/sie/es.",
+        "musst": "musst dipakai untuk du."
+      },
+      "explanation": "müssen → ihr müsst: Ihr müsst um zwölf Uhr eine Pause machen."
+    },
+    {
+      "id": "u8-o5-03",
+      "objectiveId": "a1-u8-o5",
+      "code": "D10",
+      "prompt": "___ du das Werkzeug holen?",
+      "sub": "Konjugasi können untuk du.",
+      "mode": "choice",
+      "options": ["Kannst", "Kann", "Können", "Könnt"],
+      "answer": "Kannst",
+      "wrongFeedback": {
+        "Kann": "Kann dipakai untuk ich atau er/sie/es.",
+        "Können": "Können dipakai untuk wir/sie/Sie.",
+        "Könnt": "Könnt dipakai untuk ihr."
+      },
+      "explanation": "können → du kannst: Kannst du das Werkzeug holen?"
+    },
+    {
+      "id": "u8-o5-04",
+      "objectiveId": "a1-u8-o5",
+      "code": "D9",
+      "prompt": "Meine Schicht dauert ___ sieben ___ drei.",
+      "sub": "Pilih pola 'dari … sampai …'.",
+      "mode": "choice",
+      "options": ["von … bis", "um … am", "in … bis", "ab … zu"],
+      "answer": "von … bis",
+      "wrongFeedback": {
+        "um … am": "um dipakai untuk jam dan am untuk hari; pola rentang waktu memakai von … bis.",
+        "in … bis": "in bukan preposisi awal untuk rentang jam kerja.",
+        "ab … zu": "ab berarti 'mulai dari', tetapi pasangan yang benar untuk rentang adalah von … bis."
+      },
+      "explanation": "von sieben bis drei = dari pukul tujuh sampai pukul tiga."
+    },
+    {
+      "id": "u8-o5-05",
+      "objectiveId": "a1-u8-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya harus bekerja sampai pukul lima.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "muss", "bis", "fünf", "Uhr", "arbeiten."],
+      "answer": "Ich muss bis fünf Uhr arbeiten.",
+      "hintOnWrong": "Mulai dengan Ich muss, lalu bis fünf Uhr, lalu infinitif arbeiten di akhir.",
+      "explanation": "Ich muss bis fünf Uhr arbeiten. Setelah modal, infinitif arbeiten berada di akhir."
+    }
+  ]
+}

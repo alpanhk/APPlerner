@@ -1,0 +1,229 @@
+{
+  "unit": 206,
+  "level": "B1",
+  "theme": "Reisen & Kultur",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Kultur",
+      "article": "die",
+      "plural": "die Kulturen",
+      "meaning_id": "budaya",
+      "example_de": "Die Kultur ist hier sehr alt.",
+      "example_id": "Budayanya di sini sangat tua.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Veranstaltung",
+      "article": "die",
+      "plural": "die Veranstaltungen",
+      "meaning_id": "acara",
+      "example_de": "Die Veranstaltung ist kostenlos.",
+      "example_id": "Acaranya gratis.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Eintritt",
+      "article": "der",
+      "plural": "die Eintritte",
+      "meaning_id": "tiket masuk",
+      "example_de": "Der Eintritt kostet zehn Euro.",
+      "example_id": "Tiket masuknya sepuluh euro.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Führung",
+      "article": "die",
+      "plural": "die Führungen",
+      "meaning_id": "tur berpemandu",
+      "example_de": "Die Führung beginnt um elf.",
+      "example_id": "Tur berpemandunya mulai pukul sebelas.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Denkmal",
+      "article": "das",
+      "plural": "die Denkmäler",
+      "meaning_id": "monumen",
+      "example_de": "Das Denkmal ist alt.",
+      "example_id": "Monumennya tua.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausland",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "luar negeri",
+      "example_de": "Sie studiert im Ausland.",
+      "example_id": "Dia kuliah di luar negeri.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufenthalt",
+      "article": "der",
+      "plural": "die Aufenthalte",
+      "meaning_id": "masa tinggal",
+      "example_de": "Der Aufenthalt war kurz.",
+      "example_id": "Masa tinggalnya singkat.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterkunft",
+      "article": "die",
+      "plural": "die Unterkünfte",
+      "meaning_id": "akomodasi",
+      "example_de": "Die Unterkunft ist einfach.",
+      "example_id": "Akomodasinya sederhana.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Reiseführer",
+      "article": "der",
+      "plural": "die Reiseführer",
+      "meaning_id": "pemandu wisata, buku panduan",
+      "example_de": "Der Reiseführer erklärt die Geschichte.",
+      "example_id": "Pemandunya menjelaskan sejarah.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "verb",
+      "de": "besichtigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengunjungi (tempat)",
+      "example_de": "Wir besichtigen die Burg.",
+      "example_id": "Kami mengunjungi kastil.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "verb",
+      "de": "übernachten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menginap",
+      "example_de": "Wir übernachten in einem Hostel.",
+      "example_id": "Kami menginap di hostel.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "adj",
+      "de": "einheimisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lokal, penduduk asli",
+      "example_de": "Einheimische kennen die besten Orte.",
+      "example_id": "Penduduk lokal tahu tempat terbaik.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufführung",
+      "article": "die",
+      "plural": "die Aufführungen",
+      "meaning_id": "pertunjukan",
+      "example_de": "Die Aufführung beginnt um acht.",
+      "example_id": "Pertunjukannya mulai pukul delapan.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kostüm",
+      "article": "das",
+      "plural": "die Kostüme",
+      "meaning_id": "kostum",
+      "example_de": "Das Kostüm ist bunt.",
+      "example_id": "Kostumnya berwarna-warni.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Orchester",
+      "article": "das",
+      "plural": "die Orchester",
+      "meaning_id": "orkestra",
+      "example_de": "Das Orchester spielt Mozart.",
+      "example_id": "Orkestra memainkan Mozart.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Galerie",
+      "article": "die",
+      "plural": "die Galerien",
+      "meaning_id": "galeri",
+      "example_de": "Die Galerie zeigt moderne Kunst.",
+      "example_id": "Galeri menampilkan seni modern.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Übersetzung",
+      "article": "die",
+      "plural": "die Übersetzungen",
+      "meaning_id": "terjemahan",
+      "example_de": "Die Übersetzung ist gelungen.",
+      "example_id": "Terjemahannya bagus.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Volksfest",
+      "article": "das",
+      "plural": "die Volksfeste",
+      "meaning_id": "festival rakyat",
+      "example_de": "Das Volksfest dauert zwei Wochen.",
+      "example_id": "Festival rakyatnya dua pekan.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Mundart",
+      "article": "die",
+      "plural": "die Mundarten",
+      "meaning_id": "dialek",
+      "example_de": "Die Mundart ist schwer zu verstehen.",
+      "example_id": "Dialeknya sulit dipahami.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Literatur",
+      "article": "die",
+      "plural": "die Literaturen",
+      "meaning_id": "kesusastraan",
+      "example_de": "Die Literatur ist wichtig.",
+      "example_id": "Kesusastraannya penting.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Drehbuch",
+      "article": "das",
+      "plural": "die Drehbücher",
+      "meaning_id": "skenario",
+      "example_de": "Das Drehbuch ist fertig.",
+      "example_id": "Skenarionya selesai.",
+      "tags": "b1,unit6,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Brauchtum",
+      "article": "das",
+      "plural": "die Brauchtümer",
+      "meaning_id": "adat istiadat",
+      "example_de": "Das Brauchtum wird gepflegt.",
+      "example_id": "Adat istiadatnya dilestarikan.",
+      "tags": "b1,unit6,reisen"
+    }
+  ]
+}

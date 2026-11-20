@@ -1,0 +1,177 @@
+{
+  "id": "dialog-14",
+  "title": "Unsere neue Wohnung",
+  "textId": 14,
+  "level": "A1",
+  "tags": "seed · A1 · unit 6 · rumah",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Unsere Wohnung hat drei Zimmer.",
+      "id": "Apartemen kami mempunyai tiga kamar.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Küche ist klein, aber hell.",
+      "id": "Dapurnya kecil, tetapi terang.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Im Wohnzimmer stehen ein Tisch und ein Sofa.",
+      "id": "Di ruang keluarga ada sebuah meja dan sofa.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Mein Bruder schläft im Zimmer neben der Küche.",
+      "id": "Saudara laki-laki saya tidur di kamar di sebelah dapur.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Samstag räumen wir zusammen auf.",
+      "id": "Pada hari Sabtu kami beres-beres bersama.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Unsere Wohnung hat drei Zimmer.",
+      "id": "Apartemen kami mempunyai tiga kamar.",
+      "pose": "reply",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_088.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Küche ist klein, aber hell.",
+      "id": "Dapurnya kecil, tetapi terang.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_026.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Im Wohnzimmer stehen ein Tisch und ein Sofa.",
+      "id": "Di ruang keluarga ada sebuah meja dan sofa.",
+      "pose": "order",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_055.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "freundin",
+      "de": "Mein Bruder schläft im Zimmer neben der Küche.",
+      "id": "Saudara laki-laki saya tidur di kamar di sebelah dapur.",
+      "pose": "reply",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_058.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Am Samstag räumen wir zusammen auf.",
+      "id": "Pada hari Sabtu kami beres-beres bersama.",
+      "pose": "calm",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_006.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

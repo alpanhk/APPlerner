@@ -1,0 +1,5150 @@
+{
+  "level": "B2",
+  "source": "Kurikulum Goethe B2 + kurasi manual",
+  "units": [
+    {
+      "no": 301,
+      "title": "Arbeitswelt im Wandel",
+      "topic": "arbeit",
+      "goals": [
+        "Membahas perubahan dunia kerja",
+        "Menjelaskan konsekuensi sosial",
+        "Memakai nominalisasi dan konjungsi lanjut"
+      ],
+      "drill": "D3",
+      "grammar": [
+        {
+          "title": "Nominalisierung",
+          "points": [
+            "Verba/adjektiva menjadi kata benda: sich verändern → die Veränderung.",
+            "Berguna untuk teks formal.",
+            "Perhatikan artikel: die Veränderung, der Wandel."
+          ],
+          "de": "Die Digitalisierung verändert die Arbeitswelt.",
+          "id": "Digitalisasi mengubah dunia kerja."
+        },
+        {
+          "title": "Konjunktiv II mit Modalverben",
+          "points": [
+            "müsste, könnte, sollte untuk kemungkinan.",
+            "Die Politik müsste schneller reagieren.",
+            "Bentuk lampau: hätte … können."
+          ],
+          "de": "Die Politik müsste schneller reagieren.",
+          "id": "Politik seharusnya bereaksi lebih cepat."
+        },
+        {
+          "title": "Konnektoren: sodass, dennoch",
+          "points": [
+            "sodass menyatakan akibat: … sodass viele Jobs entstehen.",
+            "dennoch = meskipun demikian.",
+            "Keduanya umum di teks B2."
+          ],
+          "de": "Neue Technologien entstehen, sodass neue Berufe entstehen.",
+          "id": "Teknologi baru muncul, sehingga profesi baru tumbuh."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Wandel",
+          "article": "der",
+          "plural": null,
+          "meaning": "perubahan (bertahap)",
+          "ex_de": "Der Wandel der Arbeitswelt ist deutlich.",
+          "ex_id": "Perubahan dunia kerja terlihat jelas."
+        },
+        {
+          "kind": "noun",
+          "de": "Globalisierung",
+          "article": "die",
+          "plural": null,
+          "meaning": "globalisasi",
+          "ex_de": "Die Globalisierung bringt Chancen und Risiken.",
+          "ex_id": "Globalisasi membawa peluang dan risiko."
+        },
+        {
+          "kind": "noun",
+          "de": "Digitalisierung",
+          "article": "die",
+          "plural": null,
+          "meaning": "digitalisasi",
+          "ex_de": "Die Digitalisierung betrifft alle Branchen.",
+          "ex_id": "Digitalisasi menyentuh semua sektor."
+        },
+        {
+          "kind": "noun",
+          "de": "Automatisierung",
+          "article": "die",
+          "plural": "die Automatisierungen",
+          "meaning": "otomatisasi",
+          "ex_de": "Die Automatisierung ersetzt einfache Aufgaben.",
+          "ex_id": "Otomatisasi menggantikan tugas sederhana."
+        },
+        {
+          "kind": "noun",
+          "de": "Fachkraft",
+          "article": "die",
+          "plural": "die Fachkräfte",
+          "meaning": "tenaga ahli",
+          "ex_de": "Fachkräfte werden gesucht.",
+          "ex_id": "Tenaga ahli dicari."
+        },
+        {
+          "kind": "noun",
+          "de": "Qualifikation",
+          "article": "die",
+          "plural": "die Qualifikationen",
+          "meaning": "kualifikasi",
+          "ex_de": "Gute Qualifikationen sind wichtig.",
+          "ex_id": "Kualifikasi yang baik itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Weiterbildung",
+          "article": "die",
+          "plural": "die Weiterbildungen",
+          "meaning": "pendidikan lanjutan",
+          "ex_de": "Weiterbildung ist heute notwendig.",
+          "ex_id": "Pendidikan lanjutan kini diperlukan."
+        },
+        {
+          "kind": "noun",
+          "de": "Betrieb",
+          "article": "der",
+          "plural": "die Betriebe",
+          "meaning": "perusahaan operasional",
+          "ex_de": "Der Betrieb stellt neue Leute ein.",
+          "ex_id": "Perusahaannya merekrut orang baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Gewerkschaft",
+          "article": "die",
+          "plural": "die Gewerkschaften",
+          "meaning": "serikat pekerja",
+          "ex_de": "Die Gewerkschaft fordert mehr Lohn.",
+          "ex_id": "Serikat pekerja menuntut upah lebih tinggi."
+        },
+        {
+          "kind": "noun",
+          "de": "Arbeitsmarkt",
+          "article": "der",
+          "plural": "die Arbeitsmärkte",
+          "meaning": "pasar kerja",
+          "ex_de": "Der Arbeitsmarkt ist angespannt.",
+          "ex_id": "Pasar kerjanya ketat."
+        },
+        {
+          "kind": "verb",
+          "de": "sich verändern",
+          "article": null,
+          "plural": null,
+          "meaning": "berubah",
+          "ex_de": "Die Arbeit verändert sich stark.",
+          "ex_id": "Pekerjaan berubah drastis."
+        },
+        {
+          "kind": "adj",
+          "de": "wettbewerbsfähig",
+          "article": null,
+          "plural": null,
+          "meaning": "kompetitif",
+          "ex_de": "Wir müssen wettbewerbsfähig bleiben.",
+          "ex_id": "Kita harus tetap kompetitif."
+        },
+        {
+          "kind": "noun",
+          "de": "Tarifvertrag",
+          "article": "der",
+          "plural": "die Tarifverträge",
+          "meaning": "perjanjian kerja bersama",
+          "ex_de": "Der Tarifvertrag gilt ab Januar.",
+          "ex_id": "Perjanjian kerjanya berlaku Januari."
+        },
+        {
+          "kind": "noun",
+          "de": "Betriebsrat",
+          "article": "der",
+          "plural": "die Betriebsräte",
+          "meaning": "dewan pekerja",
+          "ex_de": "Der Betriebsrat wurde gewählt.",
+          "ex_id": "Dewan pekerja sudah dipilih."
+        },
+        {
+          "kind": "noun",
+          "de": "Mitbestimmung",
+          "article": "die",
+          "plural": "die Mitbestimmungen",
+          "meaning": "keputusan bersama",
+          "ex_de": "Mitbestimmung stärkt die Belegschaft.",
+          "ex_id": "Keputusan bersama memperkuat karyawan."
+        },
+        {
+          "kind": "noun",
+          "de": "Teilzeit",
+          "article": "die",
+          "plural": "die Teilzeiten",
+          "meaning": "kerja paruh waktu",
+          "ex_de": "Viele arbeiten in Teilzeit.",
+          "ex_id": "Banyak orang bekerja paruh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Produktivität",
+          "article": "die",
+          "plural": "die Produktivitäten",
+          "meaning": "produktivitas",
+          "ex_de": "Die Produktivität ist gestiegen.",
+          "ex_id": "Produktivitasnya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Leiharbeit",
+          "article": "die",
+          "plural": "die Leiharbeiten",
+          "meaning": "kerja kontrak",
+          "ex_de": "Leiharbeit ist umstritten.",
+          "ex_id": "Kerja kontraknya kontroversial."
+        },
+        {
+          "kind": "noun",
+          "de": "Vollzeit",
+          "article": "die",
+          "plural": "die Vollzeiten",
+          "meaning": "kerja penuh waktu",
+          "ex_de": "Er arbeitet in Vollzeit.",
+          "ex_id": "Dia bekerja penuh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Homeoffice",
+          "article": "das",
+          "plural": "die Homeoffices",
+          "meaning": "kerja dari rumah",
+          "ex_de": "Homeoffice ist heute üblich.",
+          "ex_id": "Kerja dari rumah kini umum."
+        },
+        {
+          "kind": "noun",
+          "de": "Fachkräftemangel",
+          "article": "der",
+          "plural": "die Fachkräftemängel",
+          "meaning": "kekurangan tenaga ahli",
+          "ex_de": "Der Fachkräftemangel wächst.",
+          "ex_id": "Kekurangan tenaga ahli meningkat."
+        },
+        {
+          "kind": "noun",
+          "de": "Umstrukturierung",
+          "article": "die",
+          "plural": "die Umstrukturierungen",
+          "meaning": "restrukturisasi",
+          "ex_de": "Die Umstrukturierung kostet Stellen.",
+          "ex_id": "Restrukturisasi menghilangkan posisi."
+        }
+      ],
+      "text": {
+        "title": "Arbeit 2030",
+        "sentences": [
+          [
+            "Die Arbeitswelt befindet sich in einem tiefen Wandel.",
+            "Dunia kerja berada dalam perubahan mendalam."
+          ],
+          [
+            "Digitalisierung und Automatisierung verändern viele Berufe.",
+            "Digitalisasi dan otomatisasi mengubah banyak profesi."
+          ],
+          [
+            "Gleichzeitig entstehen neue Berufe, die spezielle Qualifikationen verlangen.",
+            "Pada saat yang sama muncul profesi baru yang menuntut kualifikasi khusus."
+          ],
+          [
+            "Weiterbildung wird deshalb immer wichtiger.",
+            "Karena itu pendidikan lanjutan makin penting."
+          ],
+          [
+            "Die Gewerkschaften fordern bessere Bedingungen für die Beschäftigten.",
+            "Serikat pekerja menuntut kondisi lebih baik bagi pekerja."
+          ],
+          [
+            "Nur wer flexibel bleibt, kann auf dem Arbeitsmarkt bestehen.",
+            "Hanya yang tetap fleksibel dapat bertahan di pasar kerja."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 302,
+      "title": "Politik & Gesellschaft",
+      "topic": "politik",
+      "goals": [
+        "Membahas politik dan demokrasi",
+        "Menyampaikan pendapat kritis",
+        "Memakai Konjunktiv I dalam laporan"
+      ],
+      "drill": "D4",
+      "grammar": [
+        {
+          "title": "Indirekte Rede: Konjunktiv I",
+          "points": [
+            "Die Regierung erklärt, sie wolle reformieren.",
+            "Bentuk verba sering sama dengan infinitif.",
+            "Dipakai untuk melaporkan tanpa mengaku."
+          ],
+          "de": "Der Minister sagt, die Reform sei notwendig.",
+          "id": "Menteri mengatakan reformasi itu perlu."
+        },
+        {
+          "title": "Nominalisierung mit Genitiv",
+          "points": [
+            "die Einführung des Gesetzes, die Steigerung der Steuern.",
+            "Genitiv menjelaskan pelaku/objek.",
+            "Gaya bahasa formal."
+          ],
+          "de": "Die Einführung des Gesetzes war umstritten.",
+          "id": "Pengenalan undang-undang itu kontroversial."
+        },
+        {
+          "title": "Konnektoren: zwar … aber, allerdings",
+          "points": [
+            "zwar … aber = memang … tetapi.",
+            "allerdings = namun (lebih formal).",
+            "Membuat argumen berimbang."
+          ],
+          "de": "Die Reform ist zwar nötig, aber sie ist umstritten.",
+          "id": "Reformasi itu memang perlu, tetapi kontroversial."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Politik",
+          "article": "die",
+          "plural": null,
+          "meaning": "politik",
+          "ex_de": "Politik betrifft alle.",
+          "ex_id": "Politik menyentuh semua orang."
+        },
+        {
+          "kind": "noun",
+          "de": "Demokratie",
+          "article": "die",
+          "plural": "die Demokratien",
+          "meaning": "demokrasi",
+          "ex_de": "Die Demokratie lebt von Beteiligung.",
+          "ex_id": "Demokrasi hidup dari partisipasi."
+        },
+        {
+          "kind": "noun",
+          "de": "Wahl",
+          "article": "die",
+          "plural": "die Wahlen",
+          "meaning": "pemilu",
+          "ex_de": "Die Wahl findet im Herbst statt.",
+          "ex_id": "Pemilu berlangsung musim gugur."
+        },
+        {
+          "kind": "noun",
+          "de": "Partei",
+          "article": "die",
+          "plural": "die Parteien",
+          "meaning": "partai",
+          "ex_de": "Die Partei hat ein neues Programm.",
+          "ex_id": "Partainya punya program baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Regierung",
+          "article": "die",
+          "plural": "die Regierungen",
+          "meaning": "pemerintah",
+          "ex_de": "Die Regierung plant Reformen.",
+          "ex_id": "Pemerintah merencanakan reformasi."
+        },
+        {
+          "kind": "noun",
+          "de": "Gesetz",
+          "article": "das",
+          "plural": "die Gesetze",
+          "meaning": "undang-undang",
+          "ex_de": "Das Gesetz gilt seit Januar.",
+          "ex_id": "Undang-undang itu berlaku sejak Januari."
+        },
+        {
+          "kind": "noun",
+          "de": "Bürger",
+          "article": "der",
+          "plural": "die Bürger",
+          "meaning": "warga negara",
+          "ex_de": "Die Bürger sollen mitentscheiden.",
+          "ex_id": "Warga seharusnya ikut memutuskan."
+        },
+        {
+          "kind": "noun",
+          "de": "Reform",
+          "article": "die",
+          "plural": "die Reformen",
+          "meaning": "reformasi",
+          "ex_de": "Die Reform ist umstritten.",
+          "ex_id": "Reformasinya kontroversial."
+        },
+        {
+          "kind": "noun",
+          "de": "Steuer",
+          "article": "die",
+          "plural": "die Steuern",
+          "meaning": "pajak",
+          "ex_de": "Die Steuern werden gesenkt.",
+          "ex_id": "Pajaknya diturunkan."
+        },
+        {
+          "kind": "verb",
+          "de": "wählen",
+          "article": null,
+          "plural": null,
+          "meaning": "memilih",
+          "ex_de": "Wir wählen am Sonntag.",
+          "ex_id": "Kami memilih hari Minggu."
+        },
+        {
+          "kind": "verb",
+          "de": "entscheiden",
+          "article": null,
+          "plural": null,
+          "meaning": "memutuskan",
+          "ex_de": "Der Bundestag entscheidet morgen.",
+          "ex_id": "Parlemen memutuskan besok."
+        },
+        {
+          "kind": "adj",
+          "de": "politisch",
+          "article": null,
+          "plural": null,
+          "meaning": "politis",
+          "ex_de": "Das ist eine politische Frage.",
+          "ex_id": "Ini pertanyaan politis."
+        },
+        {
+          "kind": "noun",
+          "de": "Koalition",
+          "article": "die",
+          "plural": "die Koalitionen",
+          "meaning": "koalisi",
+          "ex_de": "Die Koalition ist instabil.",
+          "ex_id": "Koalisinya tidak stabil."
+        },
+        {
+          "kind": "noun",
+          "de": "Opposition",
+          "article": "die",
+          "plural": "die Oppositionen",
+          "meaning": "oposisi",
+          "ex_de": "Die Opposition fordert Änderungen.",
+          "ex_id": "Oposisi menuntut perubahan."
+        },
+        {
+          "kind": "noun",
+          "de": "Wahlkampf",
+          "article": "der",
+          "plural": "die Wahlkämpfe",
+          "meaning": "kampanye pemilu",
+          "ex_de": "Der Wahlkampf hat begonnen.",
+          "ex_id": "Kampanye pemilunya dimulai."
+        },
+        {
+          "kind": "noun",
+          "de": "Verfassung",
+          "article": "die",
+          "plural": "die Verfassungen",
+          "meaning": "konstitusi",
+          "ex_de": "Die Verfassung schützt Rechte.",
+          "ex_id": "Konstitusi melindungi hak."
+        },
+        {
+          "kind": "noun",
+          "de": "Grundrecht",
+          "article": "das",
+          "plural": "die Grundrechte",
+          "meaning": "hak dasar",
+          "ex_de": "Das ist ein Grundrecht.",
+          "ex_id": "Itu hak dasar."
+        },
+        {
+          "kind": "noun",
+          "de": "Mandat",
+          "article": "das",
+          "plural": "die Mandate",
+          "meaning": "mandat",
+          "ex_de": "Das Mandat endet 2027.",
+          "ex_id": "Mandatnya berakhir 2027."
+        },
+        {
+          "kind": "noun",
+          "de": "Abstimmung",
+          "article": "die",
+          "plural": "die Abstimmungen",
+          "meaning": "pemungutan suara",
+          "ex_de": "Die Abstimmung war knapp.",
+          "ex_id": "Pemungutan suaranya tipis."
+        },
+        {
+          "kind": "noun",
+          "de": "Parlament",
+          "article": "das",
+          "plural": "die Parlamente",
+          "meaning": "parlemen",
+          "ex_de": "Das Parlament debattiert.",
+          "ex_id": "Parlemen berdebat."
+        },
+        {
+          "kind": "noun",
+          "de": "Ministerium",
+          "article": "das",
+          "plural": "die Ministerien",
+          "meaning": "kementerian",
+          "ex_de": "Das Ministerium bestätigt den Plan.",
+          "ex_id": "Kementerian mengonfirmasi rencana."
+        },
+        {
+          "kind": "noun",
+          "de": "Lobby",
+          "article": "die",
+          "plural": "die Lobbys",
+          "meaning": "lobi",
+          "ex_de": "Die Lobby hat Einfluss.",
+          "ex_id": "Lobinya berpengaruh."
+        }
+      ],
+      "text": {
+        "title": "Die Debatte um die Reform",
+        "sentences": [
+          [
+            "Die Regierung hat eine neue Reform vorgeschlagen.",
+            "Pemerintah mengusulkan reformasi baru."
+          ],
+          [
+            "Der Minister sagt, die Reform sei notwendig für die Zukunft.",
+            "Menteri mengatakan reformasi itu perlu untuk masa depan."
+          ],
+          [
+            "Die Opposition kritisiert, die Kosten seien zu hoch.",
+            "Oposisi mengkritik bahwa biayanya terlalu tinggi."
+          ],
+          [
+            "Zwar ist eine Reform nötig, aber der Zeitpunkt ist umstritten.",
+            "Memang reformasi perlu, tetapi waktunya kontroversial."
+          ],
+          [
+            "Viele Bürger wünschen sich mehr Beteiligung.",
+            "Banyak warga menginginkan lebih banyak partisipasi."
+          ],
+          [
+            "Bei der Wahl im Herbst wird sich zeigen, wer Recht hat.",
+            "Pada pemilu musim gugur akan terlihat siapa yang benar."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 303,
+      "title": "Wissenschaft & Forschung",
+      "topic": "wissenschaft",
+      "goals": [
+        "Membahas penelitian dan hasil studi",
+        "Menjelaskan bukti dan teori",
+        "Memakai Partizipialkonstruktionen"
+      ],
+      "drill": "D7",
+      "grammar": [
+        {
+          "title": "Partizipialkonstruktionen",
+          "points": [
+            "die steigende Zahl, die untersuchten Fälle.",
+            "Partizip sebagai adjektiva sebelum kata benda.",
+            "Gaya bahasa akademik singkat."
+          ],
+          "de": "Die untersuchten Fälle zeigen ein klares Bild.",
+          "id": "Kasus-kasus yang diteliti menunjukkan gambaran jelas."
+        },
+        {
+          "title": "Passiv mit Zustand",
+          "points": [
+            "Das Ergebnis ist bewiesen (sein + Partizip II).",
+            "Menyatakan keadaan, bukan proses.",
+            "Bandingkan: wurde bewiesen (proses)."
+          ],
+          "de": "Der Zusammenhang ist noch nicht bewiesen.",
+          "id": "Kaitannya belum terbukti."
+        },
+        {
+          "title": "Konnektoren: infolgedessen, daher",
+          "points": [
+            "infolgedessen = sebagai akibatnya.",
+            "daher = karena itu.",
+            "Verba di posisi 2 setelah konjungsi ini."
+          ],
+          "de": "Die Daten fehlten, daher ist die Studie unvollständig.",
+          "id": "Datanya kurang, karena itu studinya tidak lengkap."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Forschung",
+          "article": "die",
+          "plural": "die Forschungen",
+          "meaning": "penelitian",
+          "ex_de": "Die Forschung wird gefördert.",
+          "ex_id": "Penelitiannya didanai."
+        },
+        {
+          "kind": "noun",
+          "de": "Wissenschaft",
+          "article": "die",
+          "plural": "die Wissenschaften",
+          "meaning": "ilmu pengetahuan",
+          "ex_de": "Die Wissenschaft sucht Antworten.",
+          "ex_id": "Ilmu pengetahuan mencari jawaban."
+        },
+        {
+          "kind": "noun",
+          "de": "Studie",
+          "article": "die",
+          "plural": "die Studien",
+          "meaning": "studi",
+          "ex_de": "Die Studie zeigt ein Risiko.",
+          "ex_id": "Studi menunjukkan risiko."
+        },
+        {
+          "kind": "noun",
+          "de": "Ergebnis",
+          "article": "das",
+          "plural": "die Ergebnisse",
+          "meaning": "hasil",
+          "ex_de": "Das Ergebnis überrascht.",
+          "ex_id": "Hasilnya mengejutkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Hypothese",
+          "article": "die",
+          "plural": "die Hypothesen",
+          "meaning": "hipotesis",
+          "ex_de": "Die Hypothese muss geprüft werden.",
+          "ex_id": "Hipotesisnya harus diuji."
+        },
+        {
+          "kind": "noun",
+          "de": "Experiment",
+          "article": "das",
+          "plural": "die Experimente",
+          "meaning": "eksperimen",
+          "ex_de": "Das Experiment dauerte Wochen.",
+          "ex_id": "Eksperimennya berlangsung pekan."
+        },
+        {
+          "kind": "noun",
+          "de": "Theorie",
+          "article": "die",
+          "plural": "die Theorien",
+          "meaning": "teori",
+          "ex_de": "Die Theorie ist nicht neu.",
+          "ex_id": "Teorinya bukan hal baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Beweis",
+          "article": "der",
+          "plural": "die Beweise",
+          "meaning": "bukti",
+          "ex_de": "Es gibt keinen Beweis.",
+          "ex_id": "Tidak ada bukti."
+        },
+        {
+          "kind": "noun",
+          "de": "Erkenntnis",
+          "article": "die",
+          "plural": "die Erkenntnisse",
+          "meaning": "temuan, pengetahuan",
+          "ex_de": "Die Erkenntnis ist wichtig.",
+          "ex_id": "Temuannya penting."
+        },
+        {
+          "kind": "verb",
+          "de": "forschen",
+          "article": null,
+          "plural": null,
+          "meaning": "meneliti",
+          "ex_de": "Sie forschen seit Jahren.",
+          "ex_id": "Mereka meneliti bertahun-tahun."
+        },
+        {
+          "kind": "verb",
+          "de": "beweisen",
+          "article": null,
+          "plural": null,
+          "meaning": "membuktikan",
+          "ex_de": "Das lässt sich schwer beweisen.",
+          "ex_id": "Itu sulit dibuktikan."
+        },
+        {
+          "kind": "adj",
+          "de": "wissenschaftlich",
+          "article": null,
+          "plural": null,
+          "meaning": "ilmiah",
+          "ex_de": "Das ist eine wissenschaftliche Frage.",
+          "ex_id": "Ini pertanyaan ilmiah."
+        },
+        {
+          "kind": "noun",
+          "de": "Publikation",
+          "article": "die",
+          "plural": "die Publikationen",
+          "meaning": "publikasi",
+          "ex_de": "Die Publikation erscheint im Mai.",
+          "ex_id": "Publikasinya terbit Mei."
+        },
+        {
+          "kind": "noun",
+          "de": "Methode",
+          "article": "die",
+          "plural": "die Methoden",
+          "meaning": "metode",
+          "ex_de": "Die Methode ist umstritten.",
+          "ex_id": "Metodenya kontroversial."
+        },
+        {
+          "kind": "noun",
+          "de": "Stichprobe",
+          "article": "die",
+          "plural": "die Stichproben",
+          "meaning": "sampel",
+          "ex_de": "Die Stichprobe war klein.",
+          "ex_id": "Sampelnya kecil."
+        },
+        {
+          "kind": "noun",
+          "de": "Auswertung",
+          "article": "die",
+          "plural": "die Auswertungen",
+          "meaning": "analisis hasil",
+          "ex_de": "Die Auswertung dauert an.",
+          "ex_id": "Analisisnya masih berlangsung."
+        },
+        {
+          "kind": "noun",
+          "de": "Reproduzierbarkeit",
+          "article": "die",
+          "plural": "die Reproduzierbarkeiten",
+          "meaning": "reproduksibilitas",
+          "ex_de": "Reproduzierbarkeit ist zentral.",
+          "ex_id": "Reproduksibilitas itu krusial."
+        },
+        {
+          "kind": "noun",
+          "de": "Zitat",
+          "article": "das",
+          "plural": "die Zitate",
+          "meaning": "kutipan",
+          "ex_de": "Das Zitat ist unvollständig.",
+          "ex_id": "Kutipannya tidak lengkap."
+        },
+        {
+          "kind": "noun",
+          "de": "Fälschung",
+          "article": "die",
+          "plural": "die Fälschungen",
+          "meaning": "pemalsuan",
+          "ex_de": "Die Fälschung wurde entdeckt.",
+          "ex_id": "Pemalsuannya terdeteksi."
+        },
+        {
+          "kind": "noun",
+          "de": "Ethikkommission",
+          "article": "die",
+          "plural": "die Ethikkommissionen",
+          "meaning": "komisi etik",
+          "ex_de": "Die Ethikkommission prüft den Fall.",
+          "ex_id": "Komisi etik memeriksa kasusnya."
+        },
+        {
+          "kind": "noun",
+          "de": "Förderung",
+          "article": "die",
+          "plural": "die Förderungen",
+          "meaning": "pendanaan",
+          "ex_de": "Die Förderung läuft aus.",
+          "ex_id": "Pendanaannya berakhir."
+        },
+        {
+          "kind": "noun",
+          "de": "Begutachtung",
+          "article": "die",
+          "plural": "die Begutachtungen",
+          "meaning": "penilaian sejawat",
+          "ex_de": "Die Begutachtung dauerte Monate.",
+          "ex_id": "Penilaiannya berbulan-bulan."
+        }
+      ],
+      "text": {
+        "title": "Was die Studie zeigt",
+        "sentences": [
+          [
+            "Eine neue Studie wurde letzte Woche veröffentlicht.",
+            "Sebuah studi baru diterbitkan pekan lalu."
+          ],
+          [
+            "Die untersuchten Fälle zeigen einen klaren Zusammenhang.",
+            "Kasus yang diteliti menunjukkan kaitan yang jelas."
+          ],
+          [
+            "Allerdings ist der Zusammenhang noch nicht bewiesen.",
+            "Namun kaitannya belum terbukti."
+          ],
+          [
+            "Die Forscher betonen, dass weitere Experimente nötig seien.",
+            "Para peneliti menekankan bahwa eksperimen lanjutan masih perlu."
+          ],
+          [
+            "Infolgedessen fordern sie mehr Förderung für die Wissenschaft.",
+            "Sebagai akibatnya mereka menuntut lebih banyak dana untuk ilmu pengetahuan."
+          ],
+          [
+            "Die Ergebnisse müssen unabhängig geprüft werden.",
+            "Hasilnya harus diperiksa secara independen."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 304,
+      "title": "Wirtschaft & Unternehmen",
+      "topic": "wirtschaft",
+      "goals": [
+        "Membahas ekonomi dan bisnis",
+        "Menjelaskan tren pasar",
+        "Memakai Funktionsverbgefüge"
+      ],
+      "drill": "D9",
+      "grammar": [
+        {
+          "title": "Funktionsverbgefüge",
+          "points": [
+            "eine Entscheidung treffen, zur Verfügung stellen.",
+            "Bentuk formal dari verba biasa.",
+            "Kata benda lebih menonjol."
+          ],
+          "de": "Das Unternehmen stellt neue Stellen zur Verfügung.",
+          "id": "Perusahaan menyediakan lowongan baru."
+        },
+        {
+          "title": "Passiv mit sein",
+          "points": [
+            "Die Stellen sind bereits besetzt.",
+            "Menyatakan keadaan setelah proses.",
+            "Bandingkan: wurden besetzt (proses)."
+          ],
+          "de": "Die Stellen sind bereits besetzt.",
+          "id": "Lowongannya sudah terisi."
+        },
+        {
+          "title": "Konnektoren: einerseits, dennoch",
+          "points": [
+            "einerseits … andererseits …",
+            "dennoch = meskipun demikian.",
+            "Umum dalam analisis ekonomi."
+          ],
+          "de": "Einerseits wächst der Umsatz, andererseits steigen die Kosten.",
+          "id": "Di satu sisi omzet tumbuh, di sisi lain biaya naik."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Wirtschaft",
+          "article": "die",
+          "plural": "die Wirtschaften",
+          "meaning": "ekonomi",
+          "ex_de": "Die Wirtschaft wächst langsam.",
+          "ex_id": "Ekonominya tumbuh lambat."
+        },
+        {
+          "kind": "noun",
+          "de": "Unternehmen",
+          "article": "das",
+          "plural": "die Unternehmen",
+          "meaning": "perusahaan",
+          "ex_de": "Das Unternehmen hat 500 Mitarbeiter.",
+          "ex_id": "Perusahaan itu punya 500 karyawan."
+        },
+        {
+          "kind": "noun",
+          "de": "Umsatz",
+          "article": "der",
+          "plural": "die Umsätze",
+          "meaning": "omzet",
+          "ex_de": "Der Umsatz ist gestiegen.",
+          "ex_id": "Omzetnya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Gewinn",
+          "article": "der",
+          "plural": "die Gewinne",
+          "meaning": "laba",
+          "ex_de": "Der Gewinn ist kleiner geworden.",
+          "ex_id": "Labanya mengecil."
+        },
+        {
+          "kind": "noun",
+          "de": "Investition",
+          "article": "die",
+          "plural": "die Investitionen",
+          "meaning": "investasi",
+          "ex_de": "Die Investition war riskant.",
+          "ex_id": "Investasinya berisiko."
+        },
+        {
+          "kind": "noun",
+          "de": "Krise",
+          "article": "die",
+          "plural": "die Krisen",
+          "meaning": "krisis",
+          "ex_de": "Die Krise hat viele getroffen.",
+          "ex_id": "Krisisnya mengenai banyak pihak."
+        },
+        {
+          "kind": "noun",
+          "de": "Wettbewerb",
+          "article": "der",
+          "plural": "die Wettbewerbe",
+          "meaning": "persaingan",
+          "ex_de": "Der Wettbewerb ist hart.",
+          "ex_id": "Persaingannya keras."
+        },
+        {
+          "kind": "noun",
+          "de": "Nachfrage",
+          "article": "die",
+          "plural": "die Nachfragen",
+          "meaning": "permintaan",
+          "ex_de": "Die Nachfrage steigt.",
+          "ex_id": "Permintaannya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Standort",
+          "article": "der",
+          "plural": "die Standorte",
+          "meaning": "lokasi usaha",
+          "ex_de": "Der Standort ist günstig.",
+          "ex_id": "Lokasinya menguntungkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Strategie",
+          "article": "die",
+          "plural": "die Strategien",
+          "meaning": "strategi",
+          "ex_de": "Die Strategie muss sich ändern.",
+          "ex_id": "Strateginya harus berubah."
+        },
+        {
+          "kind": "verb",
+          "de": "investieren",
+          "article": null,
+          "plural": null,
+          "meaning": "berinvestasi",
+          "ex_de": "Sie investieren in Technik.",
+          "ex_id": "Mereka berinvestasi di teknologi."
+        },
+        {
+          "kind": "adj",
+          "de": "rentabel",
+          "article": null,
+          "plural": null,
+          "meaning": "menguntungkan",
+          "ex_de": "Das Geschäft ist rentabel.",
+          "ex_id": "Usahanya menguntungkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Bilanz",
+          "article": "die",
+          "plural": "die Bilanzen",
+          "meaning": "neraca",
+          "ex_de": "Die Bilanz zeigt Verluste.",
+          "ex_id": "Neracanya menunjukkan kerugian."
+        },
+        {
+          "kind": "noun",
+          "de": "Aktie",
+          "article": "die",
+          "plural": "die Aktien",
+          "meaning": "saham",
+          "ex_de": "Die Aktie ist gefallen.",
+          "ex_id": "Sahamnya turun."
+        },
+        {
+          "kind": "noun",
+          "de": "Insolvenz",
+          "article": "die",
+          "plural": "die Insolvenzen",
+          "meaning": "pailit",
+          "ex_de": "Die Firma meldet Insolvenz an.",
+          "ex_id": "Perusahaan mengajukan pailit."
+        },
+        {
+          "kind": "noun",
+          "de": "Inflation",
+          "article": "die",
+          "plural": "die Inflationen",
+          "meaning": "inflasi",
+          "ex_de": "Die Inflation steigt.",
+          "ex_id": "Inflasinya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Konjunktur",
+          "article": "die",
+          "plural": "die Konjunkturen",
+          "meaning": "siklus ekonomi",
+          "ex_de": "Die Konjunktur kühlt ab.",
+          "ex_id": "Siklus ekonominya mendingin."
+        },
+        {
+          "kind": "noun",
+          "de": "Börse",
+          "article": "die",
+          "plural": "die Börsen",
+          "meaning": "bursa",
+          "ex_de": "Die Börse reagiert nervös.",
+          "ex_id": "Bursanya bereaksi gugup."
+        },
+        {
+          "kind": "noun",
+          "de": "Fusion",
+          "article": "die",
+          "plural": "die Fusionen",
+          "meaning": "merger",
+          "ex_de": "Die Fusion wurde genehmigt.",
+          "ex_id": "Mergernya disetujui."
+        },
+        {
+          "kind": "noun",
+          "de": "Subvention",
+          "article": "die",
+          "plural": "die Subventionen",
+          "meaning": "subsidi",
+          "ex_de": "Die Subvention wird gekürzt.",
+          "ex_id": "Subsidinya dipotong."
+        },
+        {
+          "kind": "noun",
+          "de": "Export",
+          "article": "der",
+          "plural": "die Exporte",
+          "meaning": "ekspor",
+          "ex_de": "Der Export steigt.",
+          "ex_id": "Ekspornya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Import",
+          "article": "der",
+          "plural": "die Importe",
+          "meaning": "impor",
+          "ex_de": "Der Import ist teuer.",
+          "ex_id": "Impornya mahal."
+        }
+      ],
+      "text": {
+        "title": "Ein Unternehmen in der Krise",
+        "sentences": [
+          [
+            "Das Unternehmen steckt seit zwei Jahren in einer Krise.",
+            "Perusahaan itu dua tahun dalam krisis."
+          ],
+          [
+            "Der Umsatz ist gesunken, während die Kosten gestiegen sind.",
+            "Omzet menurun sementara biaya naik."
+          ],
+          [
+            "Einerseits braucht die Firma Investitionen, andererseits fehlt das Geld.",
+            "Di satu sisi perusahaan butuh investasi, di sisi lain uangnya kurang."
+          ],
+          [
+            "Die Geschäftsführung hat eine neue Strategie beschlossen.",
+            "Manajemen memutuskan strategi baru."
+          ],
+          [
+            "Ein Teil der Produktion ist bereits verlagert.",
+            "Sebagian produksi sudah dipindahkan."
+          ],
+          [
+            "Ob die Strategie rentabel ist, wird sich nächstes Jahr zeigen.",
+            "Apakah strateginya menguntungkan akan terlihat tahun depan."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 305,
+      "title": "Klimapolitik & Ressourcen",
+      "topic": "klima",
+      "goals": [
+        "Membahas kebijakan iklim",
+        "Menjelaskan target dan tindakan",
+        "Memakai konjungsi lanjut dan nominalisasi"
+      ],
+      "drill": "D5",
+      "grammar": [
+        {
+          "title": "Nominalisierung mit Präposition",
+          "points": [
+            "die Reduktion von Emissionen, der Verzicht auf Plastik.",
+            "Kombinasi kata benda + preposisi.",
+            "Gaya bahasa kebijakan."
+          ],
+          "de": "Die Reduktion von Emissionen ist das Ziel.",
+          "id": "Pengurangan emisi adalah tujuannya."
+        },
+        {
+          "title": "Konnektoren: sofern, falls",
+          "points": [
+            "sofern = sejauh/asal.",
+            "falls = jika (formal).",
+            "Verba di akhir klausa."
+          ],
+          "de": "Falls die Ziele nicht erreicht werden, drohen Sanktionen.",
+          "id": "Jika target tidak tercapai, akan ada sanksi."
+        },
+        {
+          "title": "Passiv mit Modalverben",
+          "points": [
+            "Emissionen müssen gesenkt werden.",
+            "Modal + Partizip II + werden.",
+            "Sering dalam dokumen kebijakan."
+          ],
+          "de": "Die Emissionen müssen deutlich gesenkt werden.",
+          "id": "Emisinya harus diturunkan secara signifikan."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Klimapolitik",
+          "article": "die",
+          "plural": null,
+          "meaning": "kebijakan iklim",
+          "ex_de": "Die Klimapolitik ist umstritten.",
+          "ex_id": "Kebijakan iklimnya kontroversial."
+        },
+        {
+          "kind": "noun",
+          "de": "Emission",
+          "article": "die",
+          "plural": "die Emissionen",
+          "meaning": "emisi",
+          "ex_de": "Die Emissionen sinken langsam.",
+          "ex_id": "Emisinya turun perlahan."
+        },
+        {
+          "kind": "noun",
+          "de": "Treibhausgas",
+          "article": "das",
+          "plural": "die Treibhausgase",
+          "meaning": "gas rumah kaca",
+          "ex_de": "Treibhausgase erwärmen die Erde.",
+          "ex_id": "Gas rumah kaca memanaskan bumi."
+        },
+        {
+          "kind": "noun",
+          "de": "Energiewende",
+          "article": "die",
+          "plural": null,
+          "meaning": "transisi energi",
+          "ex_de": "Die Energiewende braucht Zeit.",
+          "ex_id": "Transisi energi butuh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Ressource",
+          "article": "die",
+          "plural": "die Ressourcen",
+          "meaning": "sumber daya",
+          "ex_de": "Die Ressourcen sind begrenzt.",
+          "ex_id": "Sumber dayanya terbatas."
+        },
+        {
+          "kind": "noun",
+          "de": "Verbrauch",
+          "article": "der",
+          "plural": null,
+          "meaning": "konsumsi",
+          "ex_de": "Der Verbrauch ist zu hoch.",
+          "ex_id": "Konsumsinya terlalu tinggi."
+        },
+        {
+          "kind": "noun",
+          "de": "Vereinbarung",
+          "article": "die",
+          "plural": "die Vereinbarungen",
+          "meaning": "kesepakatan",
+          "ex_de": "Die Vereinbarung gilt bis 2030.",
+          "ex_id": "Kesepakatannya berlaku sampai 2030."
+        },
+        {
+          "kind": "verb",
+          "de": "ausstoßen",
+          "article": null,
+          "plural": null,
+          "meaning": "mengeluarkan (emisi)",
+          "ex_de": "Autos stoßen CO2 aus.",
+          "ex_id": "Mobil mengeluarkan CO2."
+        },
+        {
+          "kind": "verb",
+          "de": "senken",
+          "article": null,
+          "plural": null,
+          "meaning": "menurunkan",
+          "ex_de": "Wir müssen den Verbrauch senken.",
+          "ex_id": "Kita harus menurunkan konsumsi."
+        },
+        {
+          "kind": "adj",
+          "de": "verbindlich",
+          "article": null,
+          "plural": null,
+          "meaning": "mengikat",
+          "ex_de": "Die Ziele sind verbindlich.",
+          "ex_id": "Targetnya mengikat."
+        },
+        {
+          "kind": "adj",
+          "de": "klimaneutral",
+          "article": null,
+          "plural": null,
+          "meaning": "netral karbon",
+          "ex_de": "Die Firma will klimaneutral werden.",
+          "ex_id": "Perusahaannya ingin netral karbon."
+        },
+        {
+          "kind": "adj",
+          "de": "drastisch",
+          "article": null,
+          "plural": null,
+          "meaning": "drastis",
+          "ex_de": "Die Werte müssen drastisch sinken.",
+          "ex_id": "Nilainya harus turun drastis."
+        },
+        {
+          "kind": "noun",
+          "de": "Klimakonferenz",
+          "article": "die",
+          "plural": "die Klimakonferenzen",
+          "meaning": "konferensi iklim",
+          "ex_de": "Die Klimakonferenz endet morgen.",
+          "ex_id": "Konferensi iklimnya berakhir besok."
+        },
+        {
+          "kind": "noun",
+          "de": "Anreiz",
+          "article": "der",
+          "plural": "die Anreize",
+          "meaning": "insentif",
+          "ex_de": "Es braucht finanzielle Anreize.",
+          "ex_id": "Perlu insentif finansial."
+        },
+        {
+          "kind": "noun",
+          "de": "Sanktion",
+          "article": "die",
+          "plural": "die Sanktionen",
+          "meaning": "sanksi",
+          "ex_de": "Sanktionen wurden angekündigt.",
+          "ex_id": "Sanksi diumumkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Zielvorgabe",
+          "article": "die",
+          "plural": "die Zielvorgaben",
+          "meaning": "target yang ditetapkan",
+          "ex_de": "Die Zielvorgabe ist verbindlich.",
+          "ex_id": "Targetnya mengikat."
+        },
+        {
+          "kind": "noun",
+          "de": "Förderprogramm",
+          "article": "das",
+          "plural": "die Förderprogramme",
+          "meaning": "program pendanaan",
+          "ex_de": "Das Förderprogramm startet 2027.",
+          "ex_id": "Program pendanaannya mulai 2027."
+        },
+        {
+          "kind": "noun",
+          "de": "Emissionshandel",
+          "article": "der",
+          "plural": "die Emissionshändel",
+          "meaning": "perdagangan emisi",
+          "ex_de": "Der Emissionshandel soll lenken.",
+          "ex_id": "Perdagangan emisi bertujuan mengarahkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Zwischenziel",
+          "article": "das",
+          "plural": "die Zwischenziele",
+          "meaning": "target antara",
+          "ex_de": "Das Zwischenziel wurde verfehlt.",
+          "ex_id": "Target antaranya tidak tercapai."
+        },
+        {
+          "kind": "noun",
+          "de": "Nachrüstung",
+          "article": "die",
+          "plural": "die Nachrüstungen",
+          "meaning": "pemasangan tambahan",
+          "ex_de": "Die Nachrüstung ist teuer.",
+          "ex_id": "Pemasangan tambahannya mahal."
+        },
+        {
+          "kind": "noun",
+          "de": "Stilllegung",
+          "article": "die",
+          "plural": "die Stilllegungen",
+          "meaning": "penonaktifan",
+          "ex_de": "Die Stilllegung ist beschlossen.",
+          "ex_id": "Penonaktifannya diputuskan."
+        },
+        {
+          "kind": "noun",
+          "de": "Klimafonds",
+          "article": "der",
+          "plural": "die Klimafonds",
+          "meaning": "dana iklim",
+          "ex_de": "Der Klimafonds ist leer.",
+          "ex_id": "Dana iklimnya kosong."
+        }
+      ],
+      "text": {
+        "title": "Die Energiewende",
+        "sentences": [
+          [
+            "Die Klimapolitik steht vor großen Aufgaben.",
+            "Kebijakan iklim menghadapi tugas besar."
+          ],
+          [
+            "Die Emissionen müssen deutlich gesenkt werden.",
+            "Emisinya harus diturunkan secara signifikan."
+          ],
+          [
+            "Die Energiewende wird langfristig Arbeitsplätze schaffen.",
+            "Transisi energi akan menciptakan lapangan kerja jangka panjang."
+          ],
+          [
+            "Allerdings sind nicht alle Ziele verbindlich.",
+            "Namun tidak semua target bersifat mengikat."
+          ],
+          [
+            "Falls die Vereinbarungen nicht eingehalten werden, drohen neue Konflikte.",
+            "Jika kesepakatan tidak dipatuhi, ancaman konflik baru muncul."
+          ],
+          [
+            "Der Verbrauch von Ressourcen muss sinken, damit die Ziele erreicht werden.",
+            "Konsumsi sumber daya harus turun agar target tercapai."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 306,
+      "title": "Medien & Desinformation",
+      "topic": "medien",
+      "goals": [
+        "Menganalisis pemberitaan",
+        "Memakai indirekte Rede secara kritis",
+        "Menilai sumber informasi"
+      ],
+      "drill": "D6",
+      "grammar": [
+        {
+          "title": "Indirekte Rede mit Konjunktiv I",
+          "points": [
+            "Sie behauptet, der Bericht sei falsch.",
+            "Konjunktiv I mempertahankan jarak.",
+            "Bentuk lampau konjunktif: habe … gesagt."
+          ],
+          "de": "Er behauptet, die Quelle sei unbekannt.",
+          "id": "Dia menyatakan sumbernya tidak dikenal."
+        },
+        {
+          "title": "Partizipialattribute",
+          "points": [
+            "die von ihm genannte Quelle, die wiederholten Fehler.",
+            "Partizip + informasi tambahan.",
+            "Membuat kalimat padat."
+          ],
+          "de": "Die oft wiederholten Fehler sind ein Problem.",
+          "id": "Kesalahan yang sering diulang itu masalah."
+        },
+        {
+          "title": "Konnektoren: weshalb, wobei",
+          "points": [
+            "weshalb = sehingga (lebih formal).",
+            "wobei = sementara/sedangkan.",
+            "Keduanya menambah nuansa."
+          ],
+          "de": "Die Meldung war falsch, weshalb sie zurückgenommen wurde.",
+          "id": "Beritanya salah, sehingga ditarik kembali."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Manipulation",
+          "article": "die",
+          "plural": "die Manipulationen",
+          "meaning": "manipulasi",
+          "ex_de": "Manipulation ist schwer zu erkennen.",
+          "ex_id": "Manipulasi sulit dikenali."
+        },
+        {
+          "kind": "noun",
+          "de": "Desinformation",
+          "article": "die",
+          "plural": "die Desinformationen",
+          "meaning": "disinformasi",
+          "ex_de": "Desinformation verbreitet sich schnell.",
+          "ex_id": "Disinformasi menyebar cepat."
+        },
+        {
+          "kind": "noun",
+          "de": "Journalismus",
+          "article": "der",
+          "plural": null,
+          "meaning": "jurnalisme",
+          "ex_de": "Guter Journalismus braucht Zeit.",
+          "ex_id": "Jurnalisme bagus butuh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Pressefreiheit",
+          "article": "die",
+          "plural": null,
+          "meaning": "kebebasan pers",
+          "ex_de": "Pressefreiheit ist ein Grundrecht.",
+          "ex_id": "Kebebasan pers adalah hak dasar."
+        },
+        {
+          "kind": "noun",
+          "de": "Berichterstattung",
+          "article": "die",
+          "plural": null,
+          "meaning": "pemberitaan",
+          "ex_de": "Die Berichterstattung war einseitig.",
+          "ex_id": "Pemberitaannya sepihak."
+        },
+        {
+          "kind": "noun",
+          "de": "Glaubwürdigkeit",
+          "article": "die",
+          "plural": null,
+          "meaning": "kredibilitas",
+          "ex_de": "Die Glaubwürdigkeit der Quelle ist fraglich.",
+          "ex_id": "Kredibilitas sumbernya diragukan."
+        },
+        {
+          "kind": "noun",
+          "de": "Tendenz",
+          "article": "die",
+          "plural": "die Tendenzen",
+          "meaning": "kecenderungan",
+          "ex_de": "Der Artikel hat eine klare Tendenz.",
+          "ex_id": "Artikelnya jelas cenderung ke satu arah."
+        },
+        {
+          "kind": "noun",
+          "de": "Zensur",
+          "article": "die",
+          "plural": "die Zensuren",
+          "meaning": "sensor",
+          "ex_de": "Zensur widerspricht der Pressefreiheit.",
+          "ex_id": "Sensor bertentangan dengan kebebasan pers."
+        },
+        {
+          "kind": "verb",
+          "de": "manipulieren",
+          "article": null,
+          "plural": null,
+          "meaning": "memanipulasi",
+          "ex_de": "Bilder können manipulieren.",
+          "ex_id": "Gambar bisa memanipulasi."
+        },
+        {
+          "kind": "verb",
+          "de": "hinterfragen",
+          "article": null,
+          "plural": null,
+          "meaning": "mempertanyakan",
+          "ex_de": "Man sollte Quellen hinterfragen.",
+          "ex_id": "Orang sebaiknya mempertanyakan sumber."
+        },
+        {
+          "kind": "verb",
+          "de": "recherchieren",
+          "article": null,
+          "plural": null,
+          "meaning": "menelusuri",
+          "ex_de": "Sie recherchieren den Fall.",
+          "ex_id": "Mereka menelusuri kasusnya."
+        },
+        {
+          "kind": "adj",
+          "de": "einseitig",
+          "article": null,
+          "plural": null,
+          "meaning": "sepihak",
+          "ex_de": "Die Darstellung ist einseitig.",
+          "ex_id": "Penyajiannya sepihak."
+        },
+        {
+          "kind": "noun",
+          "de": "Propaganda",
+          "article": "die",
+          "plural": "die Propaganden",
+          "meaning": "propaganda",
+          "ex_de": "Propaganda verzerrt die Wahrheit.",
+          "ex_id": "Propaganda memutar kebenaran."
+        },
+        {
+          "kind": "noun",
+          "de": "Filterblase",
+          "article": "die",
+          "plural": "die Filterblasen",
+          "meaning": "filter bubble",
+          "ex_de": "Filterblasen verstärken Meinungen.",
+          "ex_id": "Filter bubble memperkuat opini."
+        },
+        {
+          "kind": "noun",
+          "de": "Faktencheck",
+          "article": "der",
+          "plural": "die Faktenchecks",
+          "meaning": "pemeriksaan fakta",
+          "ex_de": "Der Faktencheck widerlegt die Meldung.",
+          "ex_id": "Pemeriksaan fakta menyangkal berita itu."
+        },
+        {
+          "kind": "noun",
+          "de": "Reichweite",
+          "article": "die",
+          "plural": "die Reichweiten",
+          "meaning": "jangkauan",
+          "ex_de": "Die Reichweite war enorm.",
+          "ex_id": "Jangkauannya luar biasa."
+        },
+        {
+          "kind": "noun",
+          "de": "Richtigstellung",
+          "article": "die",
+          "plural": "die Richtigstellungen",
+          "meaning": "koreksi",
+          "ex_de": "Die Zeitung veröffentlichte eine Richtigstellung.",
+          "ex_id": "Surat kabar itu menerbitkan koreksi."
+        },
+        {
+          "kind": "noun",
+          "de": "Troll",
+          "article": "der",
+          "plural": "die Trolle",
+          "meaning": "troll",
+          "ex_de": "Trolle stören die Diskussion.",
+          "ex_id": "Troll mengganggu diskusi."
+        },
+        {
+          "kind": "noun",
+          "de": "Medienkompetenz",
+          "article": "die",
+          "plural": "die Medienkompetenzen",
+          "meaning": "literasi media",
+          "ex_de": "Medienkompetenz ist wichtig.",
+          "ex_id": "Literasi media itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Quellenkritik",
+          "article": "die",
+          "plural": "die Quellenkritiken",
+          "meaning": "kritik sumber",
+          "ex_de": "Quellenkritik gehört zum Handwerk.",
+          "ex_id": "Kritik sumber bagian dari keahlian."
+        },
+        {
+          "kind": "noun",
+          "de": "Aufmerksamkeit",
+          "article": "die",
+          "plural": "die Aufmerksamkeiten",
+          "meaning": "perhatian",
+          "ex_de": "Aufmerksamkeit ist die Währung.",
+          "ex_id": "Perhatian adalah mata uangnya."
+        },
+        {
+          "kind": "noun",
+          "de": "Skandal",
+          "article": "der",
+          "plural": "die Skandale",
+          "meaning": "skandal",
+          "ex_de": "Der Skandal war schnell vergessen.",
+          "ex_id": "Skandalnya cepat dilupakan."
+        }
+      ],
+      "text": {
+        "title": "Falsche Nachrichten",
+        "sentences": [
+          [
+            "Falsche Nachrichten verbreiten sich in Sekunden.",
+            "Berita palsu menyebar dalam hitungan detik."
+          ],
+          [
+            "Oft werden Bilder manipuliert, um Emotionen zu erzeugen.",
+            "Sering gambar dimanipulasi untuk memicu emosi."
+          ],
+          [
+            "Die Berichterstattung war in diesem Fall einseitig.",
+            "Pemberitaan dalam kasus ini sepihak."
+          ],
+          [
+            "Experten behaupten, die Quelle sei nicht glaubwürdig.",
+            "Pakar menyatakan sumbernya tidak kredibel."
+          ],
+          [
+            "Deshalb sollte man jede Meldung hinterfragen.",
+            "Karena itu setiap berita sebaiknya dipertanyakan."
+          ],
+          [
+            "Guter Journalismus recherchiert, bevor er veröffentlicht.",
+            "Jurnalisme yang baik menelusuri sebelum menerbitkan."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 307,
+      "title": "Kultur & Identität",
+      "topic": "kultur",
+      "goals": [
+        "Membahas identitas dan budaya",
+        "Menyampaikan refleksi pribadi",
+        "Memakai kalimat relatif dan nominalisasi"
+      ],
+      "drill": "D4",
+      "grammar": [
+        {
+          "title": "Relativsätze im Genitiv",
+          "points": [
+            "der Autor, dessen Buch bekannt ist.",
+            "Relativpronomen dessen/deren.",
+            "Menghubungkan kepemilikan."
+          ],
+          "de": "Das ist die Autorin, deren Roman ich mag.",
+          "id": "Itu penulis yang novelnya saya suka."
+        },
+        {
+          "title": "Nominalisierung von Adjektiven",
+          "points": [
+            "das Eigene, das Fremde, das Bekannte.",
+            "Adjektiva menjadi kata benda netral.",
+            "Umum dalam teks budaya."
+          ],
+          "de": "Das Fremde wirkt oft spannend.",
+          "id": "Yang asing sering terasa menarik."
+        },
+        {
+          "title": "Konnektoren: indem, dadurch dass",
+          "points": [
+            "indem = dengan cara.",
+            "dadurch dass = karena/dengan.",
+            "Menjelaskan cara mencapai sesuatu."
+          ],
+          "de": "Identität entsteht, indem man sich austauscht.",
+          "id": "Identitas terbentuk dengan saling bertukar pikiran."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Identität",
+          "article": "die",
+          "plural": "die Identitäten",
+          "meaning": "identitas",
+          "ex_de": "Identität hat viele Seiten.",
+          "ex_id": "Identitas punya banyak sisi."
+        },
+        {
+          "kind": "noun",
+          "de": "Herkunft",
+          "article": "die",
+          "plural": null,
+          "meaning": "asal-usul",
+          "ex_de": "Meine Herkunft prägt mich.",
+          "ex_id": "Asal-usul saya membentuk saya."
+        },
+        {
+          "kind": "noun",
+          "de": "Vielfalt",
+          "article": "die",
+          "plural": null,
+          "meaning": "keberagaman",
+          "ex_de": "Vielfalt ist eine Chance.",
+          "ex_id": "Keberagaman adalah peluang."
+        },
+        {
+          "kind": "noun",
+          "de": "Zugehörigkeit",
+          "article": "die",
+          "plural": null,
+          "meaning": "rasa memiliki",
+          "ex_de": "Zugehörigkeit ist ein Grundbedürfnis.",
+          "ex_id": "Rasa memiliki adalah kebutuhan dasar."
+        },
+        {
+          "kind": "noun",
+          "de": "Tradition",
+          "article": "die",
+          "plural": "die Traditionen",
+          "meaning": "tradisi",
+          "ex_de": "Die Tradition wird weitergegeben.",
+          "ex_id": "Tradisinya diwariskan."
+        },
+        {
+          "kind": "noun",
+          "de": "Werte",
+          "article": "die",
+          "plural": "die Werte",
+          "meaning": "nilai-nilai",
+          "ex_de": "Werte verbinden Menschen.",
+          "ex_id": "Nilai-nilai menyatukan orang."
+        },
+        {
+          "kind": "verb",
+          "de": "prägen",
+          "article": null,
+          "plural": null,
+          "meaning": "membentuk",
+          "ex_de": "Die Kindheit prägt uns.",
+          "ex_id": "Masa kecil membentuk kita."
+        },
+        {
+          "kind": "verb",
+          "de": "sich identifizieren",
+          "article": null,
+          "plural": null,
+          "meaning": "mengidentifikasi diri",
+          "ex_de": "Ich identifiziere mich mit dieser Kultur.",
+          "ex_id": "Saya mengidentifikasi diri dengan budaya ini."
+        },
+        {
+          "kind": "adj",
+          "de": "interkulturell",
+          "article": null,
+          "plural": null,
+          "meaning": "antarbudaya",
+          "ex_de": "Interkulturelle Projekte helfen.",
+          "ex_id": "Proyek antarbudaya membantu."
+        },
+        {
+          "kind": "adj",
+          "de": "vielfältig",
+          "article": null,
+          "plural": null,
+          "meaning": "beragam",
+          "ex_de": "Die Stadt ist vielfältig.",
+          "ex_id": "Kotanya beragam."
+        },
+        {
+          "kind": "adj",
+          "de": "tolerant",
+          "article": null,
+          "plural": null,
+          "meaning": "toleran",
+          "ex_de": "Eine tolerante Gesellschaft ist stärker.",
+          "ex_id": "Masyarakat toleran lebih kuat."
+        },
+        {
+          "kind": "adj",
+          "de": "respektvoll",
+          "article": null,
+          "plural": null,
+          "meaning": "penuh hormat",
+          "ex_de": "Wir sprechen respektvoll miteinander.",
+          "ex_id": "Kami berbicara dengan saling menghormati."
+        },
+        {
+          "kind": "noun",
+          "de": "Heimat",
+          "article": "die",
+          "plural": "die Heimate",
+          "meaning": "tanah air",
+          "ex_de": "Heimat ist ein Gefühl.",
+          "ex_id": "Tanah air adalah perasaan."
+        },
+        {
+          "kind": "noun",
+          "de": "Muttersprache",
+          "article": "die",
+          "plural": "die Muttersprachen",
+          "meaning": "bahasa ibu",
+          "ex_de": "Meine Muttersprache ist Indonesisch.",
+          "ex_id": "Bahasa ibu saya Indonesia."
+        },
+        {
+          "kind": "noun",
+          "de": "Stereotyp",
+          "article": "das",
+          "plural": "die Stereotype",
+          "meaning": "stereotip",
+          "ex_de": "Stereotype sind oft falsch.",
+          "ex_id": "Stereotip sering salah."
+        },
+        {
+          "kind": "noun",
+          "de": "Klischee",
+          "article": "das",
+          "plural": "die Klischees",
+          "meaning": "klise",
+          "ex_de": "Das ist ein Klischee.",
+          "ex_id": "Itu sebuah klise."
+        },
+        {
+          "kind": "noun",
+          "de": "Selbstbild",
+          "article": "das",
+          "plural": "die Selbstbilder",
+          "meaning": "citra diri",
+          "ex_de": "Das Selbstbild verändert sich.",
+          "ex_id": "Citra dirinya berubah."
+        },
+        {
+          "kind": "noun",
+          "de": "Diaspora",
+          "article": "die",
+          "plural": "die Diasporen",
+          "meaning": "diaspora",
+          "ex_de": "Die Diaspora pflegt die Sprache.",
+          "ex_id": "Diaspora merawat bahasanya."
+        },
+        {
+          "kind": "noun",
+          "de": "Zweitsprache",
+          "article": "die",
+          "plural": "die Zweitsprachen",
+          "meaning": "bahasa kedua",
+          "ex_de": "Deutsch ist meine Zweitsprache.",
+          "ex_id": "Jerman adalah bahasa kedua saya."
+        },
+        {
+          "kind": "noun",
+          "de": "Fremdbild",
+          "article": "das",
+          "plural": "die Fremdbilder",
+          "meaning": "citra dari luar",
+          "ex_de": "Das Fremdbild ist oft verzerrt.",
+          "ex_id": "Citra dari luar sering terdistorsi."
+        },
+        {
+          "kind": "noun",
+          "de": "Wertewandel",
+          "article": "der",
+          "plural": "die Wertewandel",
+          "meaning": "pergeseran nilai",
+          "ex_de": "Der Wertewandel ist spürbar.",
+          "ex_id": "Pergeseran nilainya terasa."
+        },
+        {
+          "kind": "noun",
+          "de": "Mehrsprachigkeit",
+          "article": "die",
+          "plural": "die Mehrsprachigkeiten",
+          "meaning": "kemampuan multibahasa",
+          "ex_de": "Mehrsprachigkeit ist ein Vorteil.",
+          "ex_id": "Kemampuan multibahasa itu keunggulan."
+        }
+      ],
+      "text": {
+        "title": "Zwei Kulturen",
+        "sentences": [
+          [
+            "Ich bin in Indonesien geboren und lebe jetzt in Deutschland.",
+            "Saya lahir di Indonesia dan kini tinggal di Jerman."
+          ],
+          [
+            "Meine Herkunft prägt mich, aber sie bestimmt mich nicht allein.",
+            "Asal-usul saya membentuk saya, tetapi tidak menentukan segalanya."
+          ],
+          [
+            "Identität entsteht, indem man Erfahrungen sammelt.",
+            "Identitas terbentuk dengan mengumpulkan pengalaman."
+          ],
+          [
+            "Die Vielfalt der Kulturen empfinde ich als Bereicherung.",
+            "Keberagaman budaya saya rasakan sebagai kekayaan."
+          ],
+          [
+            "Manchmal ist das Fremde zunächst irritierend.",
+            "Kadang yang asing awalnya mengganggu."
+          ],
+          [
+            "Wer respektvoll miteinander umgeht, lernt am meisten.",
+            "Siapa yang saling menghormati belajar paling banyak."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 308,
+      "title": "Medizin & Gesundheit",
+      "topic": "medizin",
+      "goals": [
+        "Membahas diagnosa dan pengobatan",
+        "Menjelaskan risiko kesehatan",
+        "Memakai pasif dan nominalisasi medis"
+      ],
+      "drill": "D10",
+      "grammar": [
+        {
+          "title": "Passiv mit Modalverben",
+          "points": [
+            "Die Behandlung muss fortgesetzt werden.",
+            "Modal + Partizip II + werden.",
+            "Sering dalam teks medis."
+          ],
+          "de": "Die Therapie muss fortgesetzt werden.",
+          "id": "Terapinya harus dilanjutkan."
+        },
+        {
+          "title": "Kausale Nominalisierung",
+          "points": [
+            "die Ursache für, der Grund für.",
+            "Wegen + Genitiv untuk sebab.",
+            "Membuat teks lebih padat."
+          ],
+          "de": "Die Ursache für die Krankheit ist unklar.",
+          "id": "Penyebab penyakitnya tidak jelas."
+        },
+        {
+          "title": "Konjunktiv II für Empfehlungen",
+          "points": [
+            "Es wäre sinnvoll, früher zu handeln.",
+            "Man sollte regelmäßig untersuchen lassen.",
+            "Nada sopan dan hati-hati."
+          ],
+          "de": "Es wäre sinnvoll, früher zum Arzt zu gehen.",
+          "id": "Akan masuk akal untuk lebih awal ke dokter."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Diagnose",
+          "article": "die",
+          "plural": "die Diagnosen",
+          "meaning": "diagnosis",
+          "ex_de": "Die Diagnose war ein Schock.",
+          "ex_id": "Diagnosisnya mengejutkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Behandlung",
+          "article": "die",
+          "plural": "die Behandlungen",
+          "meaning": "pengobatan",
+          "ex_de": "Die Behandlung dauert Monate.",
+          "ex_id": "Pengobatannya berbulan-bulan."
+        },
+        {
+          "kind": "noun",
+          "de": "Nebenwirkung",
+          "article": "die",
+          "plural": "die Nebenwirkungen",
+          "meaning": "efek samping",
+          "ex_de": "Die Nebenwirkungen sind selten.",
+          "ex_id": "Efek sampingnya jarang."
+        },
+        {
+          "kind": "noun",
+          "de": "Prävention",
+          "article": "die",
+          "plural": "die Präventionen",
+          "meaning": "pencegahan",
+          "ex_de": "Prävention rettet Leben.",
+          "ex_id": "Pencegahan menyelamatkan nyawa."
+        },
+        {
+          "kind": "noun",
+          "de": "Risiko",
+          "article": "das",
+          "plural": "die Risiken",
+          "meaning": "risiko",
+          "ex_de": "Das Risiko ist bekannt.",
+          "ex_id": "Risikonya diketahui."
+        },
+        {
+          "kind": "noun",
+          "de": "Ursache",
+          "article": "die",
+          "plural": "die Ursachen",
+          "meaning": "penyebab",
+          "ex_de": "Die Ursache ist unklar.",
+          "ex_id": "Penyebabnya tidak jelas."
+        },
+        {
+          "kind": "noun",
+          "de": "Symptom",
+          "article": "das",
+          "plural": "die Symptome",
+          "meaning": "gejala",
+          "ex_de": "Die Symptome sind typisch.",
+          "ex_id": "Gejalanya khas."
+        },
+        {
+          "kind": "noun",
+          "de": "Aufklärung",
+          "article": "die",
+          "plural": "die Aufklärungen",
+          "meaning": "edukasi, penjelasan",
+          "ex_de": "Aufklärung ist wichtig.",
+          "ex_id": "Edukasi itu penting."
+        },
+        {
+          "kind": "verb",
+          "de": "behandeln",
+          "article": null,
+          "plural": null,
+          "meaning": "mengobati",
+          "ex_de": "Der Arzt behandelt den Patienten.",
+          "ex_id": "Dokter mengobati pasien."
+        },
+        {
+          "kind": "verb",
+          "de": "verschreiben",
+          "article": null,
+          "plural": null,
+          "meaning": "meresepkan",
+          "ex_de": "Sie verschreibt ein Medikament.",
+          "ex_id": "Dia meresepkan obat."
+        },
+        {
+          "kind": "adj",
+          "de": "chronisch",
+          "article": null,
+          "plural": null,
+          "meaning": "kronis",
+          "ex_de": "Die Krankheit ist chronisch.",
+          "ex_id": "Penyakitnya kronis."
+        },
+        {
+          "kind": "adj",
+          "de": "wirksam",
+          "article": null,
+          "plural": null,
+          "meaning": "efektif",
+          "ex_de": "Das Medikament ist wirksam.",
+          "ex_id": "Obatnya efektif."
+        },
+        {
+          "kind": "noun",
+          "de": "Wirkstoff",
+          "article": "der",
+          "plural": "die Wirkstoffe",
+          "meaning": "zat aktif",
+          "ex_de": "Der Wirkstoff ist getestet.",
+          "ex_id": "Zat aktifnya sudah diuji."
+        },
+        {
+          "kind": "noun",
+          "de": "Dosierung",
+          "article": "die",
+          "plural": "die Dosierungen",
+          "meaning": "dosis",
+          "ex_de": "Die Dosierung ist wichtig.",
+          "ex_id": "Dosisnya penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Impfstoff",
+          "article": "der",
+          "plural": "die Impfstoffe",
+          "meaning": "vaksin",
+          "ex_de": "Der Impfstoff ist zugelassen.",
+          "ex_id": "Vaksinnya sudah diizinkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Allergie",
+          "article": "die",
+          "plural": "die Allergien",
+          "meaning": "alergi",
+          "ex_de": "Ich habe eine Allergie.",
+          "ex_id": "Saya punya alergi."
+        },
+        {
+          "kind": "noun",
+          "de": "Pflegekraft",
+          "article": "die",
+          "plural": "die Pflegekräfte",
+          "meaning": "perawat",
+          "ex_de": "Pflegekräfte fehlen überall.",
+          "ex_id": "Perawat kurang di mana-mana."
+        },
+        {
+          "kind": "noun",
+          "de": "Rezeptpflicht",
+          "article": "die",
+          "plural": "die Rezeptpflichten",
+          "meaning": "kewajiban resep",
+          "ex_de": "Die Rezeptpflicht gilt für dieses Mittel.",
+          "ex_id": "Kewajiban resep berlaku untuk obat ini."
+        },
+        {
+          "kind": "noun",
+          "de": "Vorsorgeuntersuchung",
+          "article": "die",
+          "plural": "die Vorsorgeuntersuchungen",
+          "meaning": "pemeriksaan dini",
+          "ex_de": "Die Vorsorgeuntersuchung ist kostenlos.",
+          "ex_id": "Pemeriksaan dininya gratis."
+        },
+        {
+          "kind": "noun",
+          "de": "Rehabilitation",
+          "article": "die",
+          "plural": "die Rehabilitationen",
+          "meaning": "rehabilitasi",
+          "ex_de": "Die Rehabilitation dauert Wochen.",
+          "ex_id": "Rehabilitasinya berpekan-pekan."
+        },
+        {
+          "kind": "noun",
+          "de": "Krankenakte",
+          "article": "die",
+          "plural": "die Krankenakten",
+          "meaning": "rekam medis",
+          "ex_de": "Die Krankenakte wird digitalisiert.",
+          "ex_id": "Rekam medisnya didigitalkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Verträglichkeit",
+          "article": "die",
+          "plural": "die Verträglichkeiten",
+          "meaning": "toleransi obat",
+          "ex_de": "Die Verträglichkeit ist gut.",
+          "ex_id": "Toleransinya baik."
+        }
+      ],
+      "text": {
+        "title": "Leben mit einer chronischen Krankheit",
+        "sentences": [
+          [
+            "Die Diagnose kam vor drei Jahren.",
+            "Diagnosisnya datang tiga tahun lalu."
+          ],
+          [
+            "Seitdem wird sie regelmäßig behandelt.",
+            "Sejak itu dia diobati secara teratur."
+          ],
+          [
+            "Die Behandlung wirkt, hat aber Nebenwirkungen.",
+            "Pengobatannya efektif, tetapi ada efek samping."
+          ],
+          [
+            "Die Ursache der Krankheit ist bis heute unklar.",
+            "Penyebab penyakitnya sampai kini tidak jelas."
+          ],
+          [
+            "Prävention wäre früher möglich gewesen.",
+            "Pencegahan sebenarnya bisa dilakukan lebih awal."
+          ],
+          [
+            "Gute Aufklärung hilft anderen Betroffenen.",
+            "Edukasi yang baik membantu penderita lain."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 309,
+      "title": "Recht & Verwaltung",
+      "topic": "recht",
+      "goals": [
+        "Mengurus urusan administratif",
+        "Menjelaskan hak dan kewajiban",
+        "Memakai kalimat pasif formal"
+      ],
+      "drill": "D9",
+      "grammar": [
+        {
+          "title": "Passiv in Amtsdeutsch",
+          "points": [
+            "Der Antrag muss bis Freitag eingereicht werden.",
+            "Passiv sering tanpa pelaku.",
+            "Gaya bahasa kantor."
+          ],
+          "de": "Der Antrag muss bis Freitag eingereicht werden.",
+          "id": "Permohonan harus diajukan sampai Jumat."
+        },
+        {
+          "title": "Nominalisierung mit Genitiv",
+          "points": [
+            "die Erteilung der Genehmigung, die Frist des Antrags.",
+            "Genitiv menandai hubungan.",
+            "Umum dalam surat resmi."
+          ],
+          "de": "Die Erteilung der Genehmigung dauert Wochen.",
+          "id": "Penerbitan izinnya berpekan-pekan."
+        },
+        {
+          "title": "Konnektoren: sofern, andernfalls",
+          "points": [
+            "sofern = asalkan.",
+            "andernfalls = jika tidak.",
+            "Menyatakan syarat hukum."
+          ],
+          "de": "Sofern die Frist gilt, muss man zahlen; andernfalls droht ein Bußgeld.",
+          "id": "Asalkan tenggat berlaku, orang harus membayar; jika tidak, ada denda."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Recht",
+          "article": "das",
+          "plural": "die Rechte",
+          "meaning": "hak, hukum",
+          "ex_de": "Jeder hat das Recht auf Bildung.",
+          "ex_id": "Setiap orang berhak atas pendidikan."
+        },
+        {
+          "kind": "noun",
+          "de": "Klage",
+          "article": "die",
+          "plural": "die Klagen",
+          "meaning": "gugatan",
+          "ex_de": "Die Klage wurde abgewiesen.",
+          "ex_id": "Gugatannya ditolak."
+        },
+        {
+          "kind": "noun",
+          "de": "Gericht",
+          "article": "das",
+          "plural": "die Gerichte",
+          "meaning": "pengadilan",
+          "ex_de": "Das Gericht entscheidet im Mai.",
+          "ex_id": "Pengadilan memutuskan bulan Mei."
+        },
+        {
+          "kind": "noun",
+          "de": "Anwalt",
+          "article": "der",
+          "plural": "die Anwälte",
+          "meaning": "pengacara",
+          "ex_de": "Sie hat einen Anwalt.",
+          "ex_id": "Dia punya pengacara."
+        },
+        {
+          "kind": "noun",
+          "de": "Urteil",
+          "article": "das",
+          "plural": "die Urteile",
+          "meaning": "putusan",
+          "ex_de": "Das Urteil ist noch nicht rechtskräftig.",
+          "ex_id": "Putusannya belum berkekuatan hukum."
+        },
+        {
+          "kind": "noun",
+          "de": "Bußgeld",
+          "article": "das",
+          "plural": "die Bußgelder",
+          "meaning": "denda",
+          "ex_de": "Das Bußgeld war hoch.",
+          "ex_id": "Dendanya tinggi."
+        },
+        {
+          "kind": "noun",
+          "de": "Antrag",
+          "article": "der",
+          "plural": "die Anträge",
+          "meaning": "permohonan",
+          "ex_de": "Der Antrag fehlt noch.",
+          "ex_id": "Permohonannya belum ada."
+        },
+        {
+          "kind": "noun",
+          "de": "Genehmigung",
+          "article": "die",
+          "plural": "die Genehmigungen",
+          "meaning": "izin",
+          "ex_de": "Die Genehmigung liegt vor.",
+          "ex_id": "Izinnnya sudah ada."
+        },
+        {
+          "kind": "noun",
+          "de": "Behörde",
+          "article": "die",
+          "plural": "die Behörden",
+          "meaning": "kantor pemerintah",
+          "ex_de": "Die Behörde antwortet langsam.",
+          "ex_id": "Kantor pemerintahnya lambat menjawab."
+        },
+        {
+          "kind": "verb",
+          "de": "klagen",
+          "article": null,
+          "plural": null,
+          "meaning": "menggugat",
+          "ex_de": "Sie klagt gegen die Firma.",
+          "ex_id": "Dia menggugat perusahaan."
+        },
+        {
+          "kind": "verb",
+          "de": "beantragen",
+          "article": null,
+          "plural": null,
+          "meaning": "mengajukan",
+          "ex_de": "Ich beantrage einen Termin.",
+          "ex_id": "Saya mengajukan janji temu."
+        },
+        {
+          "kind": "adj",
+          "de": "zuständig",
+          "article": null,
+          "plural": null,
+          "meaning": "berwenang",
+          "ex_de": "Diese Abteilung ist zuständig.",
+          "ex_id": "Departemen ini berwenang."
+        },
+        {
+          "kind": "noun",
+          "de": "Einspruch",
+          "article": "der",
+          "plural": "die Einsprüche",
+          "meaning": "keberatan",
+          "ex_de": "Sie legt Einspruch ein.",
+          "ex_id": "Dia mengajukan keberatan."
+        },
+        {
+          "kind": "noun",
+          "de": "Berufung",
+          "article": "die",
+          "plural": "die Berufungen",
+          "meaning": "banding",
+          "ex_de": "Die Berufung wurde abgelehnt.",
+          "ex_id": "Bandingnya ditolak."
+        },
+        {
+          "kind": "noun",
+          "de": "Haftung",
+          "article": "die",
+          "plural": "die Haftungen",
+          "meaning": "tanggung jawab hukum",
+          "ex_de": "Die Haftung liegt beim Vermieter.",
+          "ex_id": "Tanggung jawab hukum ada pada pemilik."
+        },
+        {
+          "kind": "noun",
+          "de": "Notar",
+          "article": "der",
+          "plural": "die Notare",
+          "meaning": "notaris",
+          "ex_de": "Der Vertrag wird beim Notar unterschrieben.",
+          "ex_id": "Kontraknya ditandatangani di notaris."
+        },
+        {
+          "kind": "noun",
+          "de": "Bescheid",
+          "article": "der",
+          "plural": "die Bescheide",
+          "meaning": "surat keputusan",
+          "ex_de": "Der Bescheid kam per Post.",
+          "ex_id": "Surat keputusannya datang lewat pos."
+        },
+        {
+          "kind": "noun",
+          "de": "Vollstreckung",
+          "article": "die",
+          "plural": "die Vollstreckungen",
+          "meaning": "eksekusi",
+          "ex_de": "Die Vollstreckung wurde angeordnet.",
+          "ex_id": "Eksekusinya diperintahkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Widerspruch",
+          "article": "der",
+          "plural": "die Widersprüche",
+          "meaning": "keberatan",
+          "ex_de": "Der Widerspruch hat keine Frist mehr.",
+          "ex_id": "Keberatannya sudah lewat tenggat."
+        },
+        {
+          "kind": "noun",
+          "de": "Schadensersatz",
+          "article": "der",
+          "plural": "die Schadensersätze",
+          "meaning": "ganti rugi",
+          "ex_de": "Er fordert Schadensersatz.",
+          "ex_id": "Dia menuntut ganti rugi."
+        },
+        {
+          "kind": "noun",
+          "de": "Vertragsstrafe",
+          "article": "die",
+          "plural": "die Vertragsstrafen",
+          "meaning": "denda kontrak",
+          "ex_de": "Die Vertragsstrafe ist hoch.",
+          "ex_id": "Denda kontraknya tinggi."
+        },
+        {
+          "kind": "noun",
+          "de": "Satzung",
+          "article": "die",
+          "plural": "die Satzungen",
+          "meaning": "anggaran dasar",
+          "ex_de": "Die Satzung regelt die Aufgaben.",
+          "ex_id": "Anggaran dasarnya mengatur tugas."
+        }
+      ],
+      "text": {
+        "title": "Ein Termin bei der Behörde",
+        "sentences": [
+          [
+            "Für den Antrag braucht man einen Termin.",
+            "Untuk permohonan itu butuh janji temu."
+          ],
+          [
+            "Der Antrag muss persönlich abgegeben werden.",
+            "Permohonannya harus diserahkan langsung."
+          ],
+          [
+            "Falls Unterlagen fehlen, wird der Antrag abgelehnt.",
+            "Jika dokumen kurang, permohonan ditolak."
+          ],
+          [
+            "Die Genehmigung wird nach der Prüfung erteilt.",
+            "Izin diterbitkan setelah pemeriksaan."
+          ],
+          [
+            "Gegen den Bescheid kann man klagen.",
+            "Terhadap keputusan itu orang bisa menggugat."
+          ],
+          [
+            "Zuständig ist das Amt am Hauptbahnhof.",
+            "Yang berwenang adalah kantor di stasiun utama."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 310,
+      "title": "Zukunft & Ethik",
+      "topic": "ethik",
+      "goals": [
+        "Membahas dilema etika teknologi",
+        "Menyampaikan pertimbangan seimbang",
+        "Memakai Konjunktiv II dan pasif"
+      ],
+      "drill": "D6",
+      "grammar": [
+        {
+          "title": "Abwägen mit einerseits … andererseits",
+          "points": [
+            "Struktur klasik untuk dilema.",
+            "Alternatif: zwar … aber, dennoch.",
+            "Berguna dalam esai B2."
+          ],
+          "de": "Einerseits nützt die Technik, andererseits bedroht sie die Freiheit.",
+          "id": "Di satu sisi teknologi berguna, di sisi lain mengancam kebebasan."
+        },
+        {
+          "title": "Konjunktiv II der Vergangenheit",
+          "points": [
+            "hätte + Partizip II + können/müssen.",
+            "Man hätte früher handeln müssen.",
+            "Menyatakan penyesalan/kritik."
+          ],
+          "de": "Man hätte früher über Datenschutz diskutieren müssen.",
+          "id": "Kita seharusnya lebih awal mendiskusikan perlindungan data."
+        },
+        {
+          "title": "Ethik mit Passiv",
+          "points": [
+            "Entscheidungen müssen begründet werden.",
+            "Passiv menyorot tindakan, bukan pelaku.",
+            "Cocok untuk teks argumentatif."
+          ],
+          "de": "Entscheidungen müssen ethisch begründet werden.",
+          "id": "Keputusan harus dibenarkan secara etis."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Ethik",
+          "article": "die",
+          "plural": null,
+          "meaning": "etika",
+          "ex_de": "Die Ethik fragt nach dem Richtigen.",
+          "ex_id": "Etika menanyakan apa yang benar."
+        },
+        {
+          "kind": "noun",
+          "de": "Moral",
+          "article": "die",
+          "plural": null,
+          "meaning": "moral",
+          "ex_de": "Moral ist kulturell geprägt.",
+          "ex_id": "Moral dibentuk budaya."
+        },
+        {
+          "kind": "noun",
+          "de": "Datenschutz",
+          "article": "der",
+          "plural": null,
+          "meaning": "perlindungan data",
+          "ex_de": "Datenschutz ist ein Grundrecht.",
+          "ex_id": "Perlindungan data adalah hak dasar."
+        },
+        {
+          "kind": "noun",
+          "de": "Überwachung",
+          "article": "die",
+          "plural": "die Überwachungen",
+          "meaning": "pengawasan",
+          "ex_de": "Überwachung kann Freiheit einschränken.",
+          "ex_id": "Pengawasan bisa membatasi kebebasan."
+        },
+        {
+          "kind": "noun",
+          "de": "Freiheit",
+          "article": "die",
+          "plural": "die Freiheiten",
+          "meaning": "kebebasan",
+          "ex_de": "Freiheit braucht Verantwortung.",
+          "ex_id": "Kebebasan butuh tanggung jawab."
+        },
+        {
+          "kind": "noun",
+          "de": "Gerechtigkeit",
+          "article": "die",
+          "plural": null,
+          "meaning": "keadilan",
+          "ex_de": "Gerechtigkeit ist nicht selbstverständlich.",
+          "ex_id": "Keadilan tidak otomatis."
+        },
+        {
+          "kind": "noun",
+          "de": "Würde",
+          "article": "die",
+          "plural": null,
+          "meaning": "martabat",
+          "ex_de": "Die Würde des Menschen ist unantastbar.",
+          "ex_id": "Martabat manusia tidak boleh dilanggar."
+        },
+        {
+          "kind": "noun",
+          "de": "Entscheidung",
+          "article": "die",
+          "plural": "die Entscheidungen",
+          "meaning": "keputusan",
+          "ex_de": "Die Entscheidung war schwierig.",
+          "ex_id": "Keputusannya sulit."
+        },
+        {
+          "kind": "verb",
+          "de": "abwägen",
+          "article": null,
+          "plural": null,
+          "meaning": "menimbang",
+          "ex_de": "Wir müssen die Risiken abwägen.",
+          "ex_id": "Kami harus menimbang risikonya."
+        },
+        {
+          "kind": "adj",
+          "de": "ethisch",
+          "article": null,
+          "plural": null,
+          "meaning": "etis",
+          "ex_de": "Das ist ethisch problematisch.",
+          "ex_id": "Itu bermasalah secara etis."
+        },
+        {
+          "kind": "adj",
+          "de": "moralisch",
+          "article": null,
+          "plural": null,
+          "meaning": "moral",
+          "ex_de": "Die Frage ist moralisch schwierig.",
+          "ex_id": "Pertanyaannya sulit secara moral."
+        },
+        {
+          "kind": "adj",
+          "de": "verantwortungsvoll",
+          "article": null,
+          "plural": null,
+          "meaning": "bertanggung jawab",
+          "ex_de": "Wir brauchen verantwortungsvolle Entscheidungen.",
+          "ex_id": "Kita butuh keputusan yang bertanggung jawab."
+        },
+        {
+          "kind": "noun",
+          "de": "Menschenwürde",
+          "article": "die",
+          "plural": "die Menschenwürden",
+          "meaning": "martabat manusia",
+          "ex_de": "Die Menschenwürde ist unantastbar.",
+          "ex_id": "Martabat manusia tidak boleh dilanggar."
+        },
+        {
+          "kind": "noun",
+          "de": "Autonomie",
+          "article": "die",
+          "plural": "die Autonomien",
+          "meaning": "otonomi",
+          "ex_de": "Autonomie hat Grenzen.",
+          "ex_id": "Otonomi punya batas."
+        },
+        {
+          "kind": "noun",
+          "de": "Dilemma",
+          "article": "das",
+          "plural": "die Dilemmata",
+          "meaning": "dilema",
+          "ex_de": "Das ist ein ethisches Dilemma.",
+          "ex_id": "Ini dilema etis."
+        },
+        {
+          "kind": "noun",
+          "de": "Transparenz",
+          "article": "die",
+          "plural": "die Transparenzen",
+          "meaning": "transparansi",
+          "ex_de": "Transparenz schafft Vertrauen.",
+          "ex_id": "Transparansi menciptakan kepercayaan."
+        },
+        {
+          "kind": "noun",
+          "de": "Missbrauch",
+          "article": "der",
+          "plural": "die Missbräuche",
+          "meaning": "penyalahgunaan",
+          "ex_de": "Missbrauch muss bestraft werden.",
+          "ex_id": "Penyalahgunaan harus dihukum."
+        },
+        {
+          "kind": "noun",
+          "de": "Verantwortungsethik",
+          "article": "die",
+          "plural": "die Verantwortungsethiken",
+          "meaning": "etika tanggung jawab",
+          "ex_de": "Verantwortungsethik fragt nach Folgen.",
+          "ex_id": "Etika tanggung jawab menanyakan akibat."
+        },
+        {
+          "kind": "noun",
+          "de": "Gesinnungsethik",
+          "article": "die",
+          "plural": "die Gesinnungsethiken",
+          "meaning": "etika niat",
+          "ex_de": "Gesinnungsethik betont die Absicht.",
+          "ex_id": "Etika niat menekankan maksud."
+        },
+        {
+          "kind": "noun",
+          "de": "Güterabwägung",
+          "article": "die",
+          "plural": "die Güterabwägungen",
+          "meaning": "penimbangan nilai",
+          "ex_de": "Güterabwägung ist schwierig.",
+          "ex_id": "Penimbangan nilainya sulit."
+        },
+        {
+          "kind": "noun",
+          "de": "Rechenschaft",
+          "article": "die",
+          "plural": "die Rechenschaften",
+          "meaning": "pertanggungjawaban",
+          "ex_de": "Sie legt Rechenschaft ab.",
+          "ex_id": "Dia memberi pertanggungjawaban."
+        },
+        {
+          "kind": "noun",
+          "de": "Menschenbild",
+          "article": "das",
+          "plural": "die Menschenbilder",
+          "meaning": "pandangan tentang manusia",
+          "ex_de": "Das Menschenbild prägt die Regeln.",
+          "ex_id": "Pandangan tentang manusia membentuk aturan."
+        }
+      ],
+      "text": {
+        "title": "KI und Verantwortung",
+        "sentences": [
+          [
+            "Künstliche Intelligenz bietet viele Chancen, wirft aber auch Fragen auf.",
+            "Kecerdasan buatan menawarkan banyak peluang, tetapi juga memunculkan pertanyaan."
+          ],
+          [
+            "Einerseits kann sie Menschen helfen, andererseits kann sie überwachen.",
+            "Di satu sisi ia membantu, di sisi lain bisa mengawasi."
+          ],
+          [
+            "Entscheidungen müssen ethisch begründet werden.",
+            "Keputusan harus dibenarkan secara etis."
+          ],
+          [
+            "Man hätte früher über Datenschutz diskutieren müssen.",
+            "Kita seharusnya lebih awal mendiskusikan perlindungan data."
+          ],
+          [
+            "Die Würde des Menschen darf nicht verletzt werden.",
+            "Martabat manusia tidak boleh dilanggar."
+          ],
+          [
+            "Nur verantwortungsvolle Regeln schaffen Vertrauen.",
+            "Hanya aturan yang bertanggung jawab menciptakan kepercayaan."
+          ]
+        ]
+      }
+    }
+  ],
+  "extras": [
+    [
+      "noun",
+      "Analyse",
+      "die",
+      "die Analysen",
+      "analisis"
+    ],
+    [
+      "noun",
+      "These",
+      "die",
+      "die Thesen",
+      "tesis"
+    ],
+    [
+      "noun",
+      "Befund",
+      "der",
+      "die Befunde",
+      "temuan"
+    ],
+    [
+      "noun",
+      "Erhebung",
+      "die",
+      "die Erhebungen",
+      "pengumpulan data"
+    ],
+    [
+      "noun",
+      "Datensatz",
+      "der",
+      "die Datensätze",
+      "kumpulan data"
+    ],
+    [
+      "noun",
+      "Statistik",
+      "die",
+      "die Statistiken",
+      "statistik"
+    ],
+    [
+      "noun",
+      "Korrelation",
+      "die",
+      "die Korrelationen",
+      "korelasi"
+    ],
+    [
+      "noun",
+      "Kausalität",
+      "die",
+      "die Kausalitäten",
+      "kausalitas"
+    ],
+    [
+      "noun",
+      "Validität",
+      "die",
+      "die Validitäten",
+      "validitas"
+    ],
+    [
+      "noun",
+      "Reliabilität",
+      "die",
+      "die Reliabilitäten",
+      "reliabilitas"
+    ],
+    [
+      "noun",
+      "Interpretation",
+      "die",
+      "die Interpretationen",
+      "interpretasi"
+    ],
+    [
+      "noun",
+      "Schlussfolgerung",
+      "die",
+      "die Schlussfolgerungen",
+      "kesimpulan"
+    ],
+    [
+      "noun",
+      "Annahme",
+      "die",
+      "die Annahmen",
+      "asumsi"
+    ],
+    [
+      "noun",
+      "Prämisse",
+      "die",
+      "die Prämissen",
+      "premis"
+    ],
+    [
+      "noun",
+      "Antithese",
+      "die",
+      "die Antithesen",
+      "antitesis"
+    ],
+    [
+      "noun",
+      "Synthese",
+      "die",
+      "die Synthesen",
+      "sintesis"
+    ],
+    [
+      "noun",
+      "Diskurs",
+      "der",
+      "die Diskurse",
+      "wacana"
+    ],
+    [
+      "noun",
+      "Narrativ",
+      "das",
+      "die Narrative",
+      "narasi"
+    ],
+    [
+      "noun",
+      "Paradigma",
+      "das",
+      "die Paradigmen",
+      "paradigma"
+    ],
+    [
+      "noun",
+      "Perspektive",
+      "die",
+      "die Perspektiven",
+      "perspektif"
+    ],
+    [
+      "noun",
+      "Standpunkt",
+      "der",
+      "die Standpunkte",
+      "sudut pandang"
+    ],
+    [
+      "noun",
+      "Haltung",
+      "die",
+      "die Haltungen",
+      "sikap"
+    ],
+    [
+      "noun",
+      "Position",
+      "die",
+      "die Positionen",
+      "posisi"
+    ],
+    [
+      "noun",
+      "Konsens",
+      "der",
+      "die Konsense",
+      "konsensus"
+    ],
+    [
+      "noun",
+      "Dissens",
+      "der",
+      "die Dissense",
+      "perbedaan pendapat"
+    ],
+    [
+      "noun",
+      "Mehrheit",
+      "die",
+      "die Mehrheiten",
+      "mayoritas"
+    ],
+    [
+      "noun",
+      "Minderheit",
+      "die",
+      "die Minderheiten",
+      "minoritas"
+    ],
+    [
+      "noun",
+      "Mandat",
+      "das",
+      "die Mandate",
+      "mandat"
+    ],
+    [
+      "noun",
+      "Amtsträger",
+      "der",
+      "die Amtsträger",
+      "pejabat"
+    ],
+    [
+      "noun",
+      "Behörde",
+      "die",
+      "die Behörden",
+      "kantor pemerintah"
+    ],
+    [
+      "noun",
+      "Erlass",
+      "der",
+      "die Erlasse",
+      "surat keputusan"
+    ],
+    [
+      "noun",
+      "Finanzierung",
+      "die",
+      "die Finanzierungen",
+      "pembiayaan"
+    ],
+    [
+      "noun",
+      "Mittel",
+      "die",
+      "die Mittel",
+      "dana"
+    ],
+    [
+      "noun",
+      "Einnahme",
+      "die",
+      "die Einnahmen",
+      "pendapatan"
+    ],
+    [
+      "noun",
+      "Defizit",
+      "das",
+      "die Defizite",
+      "defisit"
+    ],
+    [
+      "noun",
+      "Überschuss",
+      "der",
+      "die Überschüsse",
+      "surplus"
+    ],
+    [
+      "noun",
+      "Verschuldung",
+      "die",
+      "die Verschuldungen",
+      "utang"
+    ],
+    [
+      "noun",
+      "Zins",
+      "der",
+      "die Zinsen",
+      "bunga"
+    ],
+    [
+      "noun",
+      "Rendite",
+      "die",
+      "die Renditen",
+      "imbal hasil"
+    ],
+    [
+      "noun",
+      "Absicherung",
+      "die",
+      "die Absicherungen",
+      "perlindungan"
+    ],
+    [
+      "noun",
+      "Schaden",
+      "der",
+      "die Schäden",
+      "kerusakan"
+    ],
+    [
+      "noun",
+      "Entschädigung",
+      "die",
+      "die Entschädigungen",
+      "kompensasi"
+    ],
+    [
+      "noun",
+      "Anspruch",
+      "der",
+      "die Ansprüche",
+      "hak, tuntutan"
+    ],
+    [
+      "noun",
+      "Zuständigkeit",
+      "die",
+      "die Zuständigkeiten",
+      "kewenangan"
+    ],
+    [
+      "noun",
+      "Befugnis",
+      "die",
+      "die Befugnisse",
+      "wewenang"
+    ],
+    [
+      "noun",
+      "Kontrolle",
+      "die",
+      "die Kontrollen",
+      "kontrol"
+    ],
+    [
+      "noun",
+      "Aufsicht",
+      "die",
+      "die Aufsichten",
+      "pengawasan"
+    ],
+    [
+      "noun",
+      "Revision",
+      "die",
+      "die Revisionen",
+      "revisi"
+    ],
+    [
+      "noun",
+      "Audit",
+      "das",
+      "die Audits",
+      "audit"
+    ],
+    [
+      "noun",
+      "Korruption",
+      "die",
+      "die Korruptionen",
+      "korupsi"
+    ],
+    [
+      "noun",
+      "Bestechung",
+      "die",
+      "die Bestechungen",
+      "penyuapan"
+    ],
+    [
+      "noun",
+      "Betrug",
+      "der",
+      "die Betruge",
+      "penipuan"
+    ],
+    [
+      "noun",
+      "Täuschung",
+      "die",
+      "die Täuschungen",
+      "penyesatan"
+    ],
+    [
+      "noun",
+      "Meinungsfreiheit",
+      "die",
+      "die Meinungsfreiheiten",
+      "kebebasan berpendapat"
+    ],
+    [
+      "noun",
+      "Religionsfreiheit",
+      "die",
+      "die Religionsfreiheiten",
+      "kebebasan beragama"
+    ],
+    [
+      "noun",
+      "Gleichberechtigung",
+      "die",
+      "die Gleichberechtigungen",
+      "kesetaraan hak"
+    ],
+    [
+      "noun",
+      "Asyl",
+      "das",
+      "die Asyle",
+      "suaka"
+    ],
+    [
+      "noun",
+      "Flüchtling",
+      "der",
+      "die Flüchtlinge",
+      "pengungsi"
+    ],
+    [
+      "noun",
+      "Staatsbürgerschaft",
+      "die",
+      "die Staatsbürgerschaften",
+      "kewarganegaraan"
+    ],
+    [
+      "noun",
+      "Einwanderung",
+      "die",
+      "die Einwanderungen",
+      "imigrasi"
+    ],
+    [
+      "noun",
+      "Auswanderung",
+      "die",
+      "die Auswanderungen",
+      "emigrasi"
+    ],
+    [
+      "noun",
+      "Bevölkerung",
+      "die",
+      "die Bevölkerungen",
+      "populasi"
+    ],
+    [
+      "noun",
+      "Gemeinschaft",
+      "die",
+      "die Gemeinschaften",
+      "komunitas"
+    ],
+    [
+      "noun",
+      "Nation",
+      "die",
+      "die Nationen",
+      "bangsa"
+    ],
+    [
+      "noun",
+      "Staat",
+      "der",
+      "die Staaten",
+      "negara"
+    ],
+    [
+      "noun",
+      "Diktatur",
+      "die",
+      "die Diktaturen",
+      "kediktatoran"
+    ],
+    [
+      "noun",
+      "Volksabstimmung",
+      "die",
+      "die Volksabstimmungen",
+      "referendum"
+    ],
+    [
+      "noun",
+      "Regierungschef",
+      "der",
+      "die Regierungschefs",
+      "kepala pemerintahan"
+    ],
+    [
+      "noun",
+      "Oppositionsführer",
+      "der",
+      "die Oppositionsführer",
+      "pemimpin oposisi"
+    ],
+    [
+      "noun",
+      "Grundgesetz",
+      "das",
+      "die Grundgesetze",
+      "undang-undang dasar"
+    ],
+    [
+      "noun",
+      "Verwaltungsakt",
+      "der",
+      "die Verwaltungsakte",
+      "tindakan administratif"
+    ],
+    [
+      "noun",
+      "Widerspruchsverfahren",
+      "das",
+      "die Widerspruchsverfahren",
+      "prosedur keberatan"
+    ],
+    [
+      "noun",
+      "Klageweg",
+      "der",
+      "die Klagewege",
+      "jalur gugatan"
+    ],
+    [
+      "noun",
+      "Rechtsstaat",
+      "der",
+      "die Rechtsstaaten",
+      "negara hukum"
+    ],
+    [
+      "noun",
+      "Gewaltenteilung",
+      "die",
+      "die Gewaltenteilungen",
+      "pemisahan kekuasaan"
+    ],
+    [
+      "noun",
+      "Interessenkonflikt",
+      "der",
+      "die Interessenkonflikte",
+      "konflik kepentingan"
+    ],
+    [
+      "noun",
+      "Regulierung",
+      "die",
+      "die Regulierungen",
+      "regulasi"
+    ],
+    [
+      "noun",
+      "Deregulierung",
+      "die",
+      "die Deregulierungen",
+      "deregulasi"
+    ],
+    [
+      "noun",
+      "Subventionierung",
+      "die",
+      "die Subventionierungen",
+      "pemberian subsidi"
+    ],
+    [
+      "noun",
+      "Wettbewerbsfähigkeit",
+      "die",
+      "die Wettbewerbsfähigkeiten",
+      "daya saing"
+    ],
+    [
+      "noun",
+      "Produktivitätssteigerung",
+      "die",
+      "die Produktivitätssteigerungen",
+      "peningkatan produktivitas"
+    ],
+    [
+      "noun",
+      "Innovationskraft",
+      "die",
+      "die Innovationskräfte",
+      "daya inovasi"
+    ],
+    [
+      "noun",
+      "Fachkräftebedarf",
+      "der",
+      "die Fachkräftebedarfe",
+      "kebutuhan tenaga ahli"
+    ],
+    [
+      "noun",
+      "Bildungsniveau",
+      "das",
+      "die Bildungsniveaus",
+      "tingkat pendidikan"
+    ],
+    [
+      "noun",
+      "Teilhabechance",
+      "die",
+      "die Teilhabechancen",
+      "peluang partisipasi"
+    ],
+    [
+      "noun",
+      "Generationengerechtigkeit",
+      "die",
+      "die Generationengerechtigkeiten",
+      "keadilan antargenerasi"
+    ],
+    [
+      "noun",
+      "Ressourcenschutz",
+      "der",
+      "die Ressourcenschutze",
+      "perlindungan sumber daya"
+    ],
+    [
+      "noun",
+      "Klimaneutralität",
+      "die",
+      "die Klimaneutralitäten",
+      "netralitas iklim"
+    ],
+    [
+      "noun",
+      "Emissionsminderung",
+      "die",
+      "die Emissionsminderungen",
+      "pengurangan emisi"
+    ],
+    [
+      "noun",
+      "Anpassungsstrategie",
+      "die",
+      "die Anpassungsstrategien",
+      "strategi adaptasi"
+    ],
+    [
+      "noun",
+      "Risikobewertung",
+      "die",
+      "die Risikobewertungen",
+      "penilaian risiko"
+    ],
+    [
+      "noun",
+      "Verhältnismäßigkeit",
+      "die",
+      "die Verhältnismäßigkeiten",
+      "proporsionalitas"
+    ],
+    [
+      "noun",
+      "Verantwortungsübernahme",
+      "die",
+      "die Verantwortungsübernahmen",
+      "pengambilan tanggung jawab"
+    ],
+    [
+      "noun",
+      "Entscheidungsbefugnis",
+      "die",
+      "die Entscheidungsbefugnisse",
+      "kewenangan memutuskan"
+    ],
+    [
+      "noun",
+      "Kontrollinstanz",
+      "die",
+      "die Kontrollinstanzen",
+      "lembaga pengawas"
+    ],
+    [
+      "noun",
+      "Öffentlichkeitsarbeit",
+      "die",
+      "die Öffentlichkeitsarbeiten",
+      "hubungan publik"
+    ],
+    [
+      "verb",
+      "abwägen",
+      null,
+      null,
+      "menimbang"
+    ],
+    [
+      "verb",
+      "hinterfragen",
+      null,
+      null,
+      "mempertanyakan"
+    ],
+    [
+      "verb",
+      "rechtfertigen",
+      null,
+      null,
+      "membenarkan"
+    ],
+    [
+      "verb",
+      "legitimieren",
+      null,
+      null,
+      "melegitimasi"
+    ],
+    [
+      "verb",
+      "regulieren",
+      null,
+      null,
+      "meregulasi"
+    ],
+    [
+      "verb",
+      "subventionieren",
+      null,
+      null,
+      "mensubsidi"
+    ],
+    [
+      "noun",
+      "Forschungsstand",
+      "der",
+      "die Forschungsstände",
+      "status penelitian"
+    ],
+    [
+      "noun",
+      "Forschungsfrage",
+      "die",
+      "die Forschungsfragen",
+      "pertanyaan penelitian"
+    ],
+    [
+      "noun",
+      "Methodik",
+      "die",
+      "die Methodiken",
+      "metodologi"
+    ],
+    [
+      "noun",
+      "Empirie",
+      "die",
+      "die Empirien",
+      "empiri"
+    ],
+    [
+      "noun",
+      "Abstraktion",
+      "die",
+      "die Abstraktionen",
+      "abstraksi"
+    ],
+    [
+      "noun",
+      "Deduktion",
+      "die",
+      "die Deduktionen",
+      "deduksi"
+    ],
+    [
+      "noun",
+      "Induktion",
+      "die",
+      "die Induktionen",
+      "induksi"
+    ],
+    [
+      "noun",
+      "Falsifikation",
+      "die",
+      "die Falsifikationen",
+      "falsifikasi"
+    ],
+    [
+      "noun",
+      "Objektivität",
+      "die",
+      "die Objektivitäten",
+      "objektivitas"
+    ],
+    [
+      "noun",
+      "Subjektivität",
+      "die",
+      "die Subjektivitäten",
+      "subjektivitas"
+    ],
+    [
+      "noun",
+      "Plausibilität",
+      "die",
+      "die Plausibilitäten",
+      "plausibilitas"
+    ],
+    [
+      "noun",
+      "Evidenz",
+      "die",
+      "die Evidenzen",
+      "bukti"
+    ],
+    [
+      "noun",
+      "Datenlage",
+      "die",
+      "die Datenlagen",
+      "kondisi data"
+    ],
+    [
+      "noun",
+      "Souveränität",
+      "die",
+      "die Souveränitäten",
+      "kedaulatan"
+    ],
+    [
+      "noun",
+      "Föderalismus",
+      "der",
+      "die Föderalismus",
+      "federalisme"
+    ],
+    [
+      "noun",
+      "Subsidiarität",
+      "die",
+      "die Subsidiaritäten",
+      "subsidiaritas"
+    ],
+    [
+      "noun",
+      "Legislative",
+      "die",
+      "die Legislativen",
+      "legislatif"
+    ],
+    [
+      "noun",
+      "Exekutive",
+      "die",
+      "die Exekutiven",
+      "eksekutif"
+    ],
+    [
+      "noun",
+      "Judikative",
+      "die",
+      "die Judikativen",
+      "yudikatif"
+    ],
+    [
+      "noun",
+      "Legitimität",
+      "die",
+      "die Legitimitäten",
+      "legitimasi"
+    ],
+    [
+      "noun",
+      "Partizipation",
+      "die",
+      "die Partizipationen",
+      "partisipasi"
+    ],
+    [
+      "noun",
+      "Zivilgesellschaft",
+      "die",
+      "die Zivilgesellschaften",
+      "masyarakat sipil"
+    ],
+    [
+      "noun",
+      "Interessenvertretung",
+      "die",
+      "die Interessenvertretungen",
+      "perwakilan kepentingan"
+    ],
+    [
+      "noun",
+      "Rezession",
+      "die",
+      "die Rezessionen",
+      "resesi"
+    ],
+    [
+      "noun",
+      "Aufschwung",
+      "der",
+      "die Aufschwünge",
+      "pemulihan ekonomi"
+    ],
+    [
+      "noun",
+      "Abschwung",
+      "der",
+      "die Abschwünge",
+      "penurunan ekonomi"
+    ],
+    [
+      "noun",
+      "Haushalt",
+      "der",
+      "die Haushalte",
+      "anggaran, rumah tangga"
+    ],
+    [
+      "noun",
+      "Staatsausgaben",
+      "die",
+      "die Staatsausgaben",
+      "belanja negara"
+    ],
+    [
+      "noun",
+      "Staatsverschuldung",
+      "die",
+      "die Staatsverschuldungen",
+      "utang negara"
+    ],
+    [
+      "noun",
+      "Haushaltsdefizit",
+      "das",
+      "die Haushaltsdefizite",
+      "defisit anggaran"
+    ],
+    [
+      "noun",
+      "Steuerpolitik",
+      "die",
+      "die Steuerpolitiken",
+      "kebijakan pajak"
+    ],
+    [
+      "noun",
+      "Geldpolitik",
+      "die",
+      "die Geldpolitiken",
+      "kebijakan moneter"
+    ],
+    [
+      "noun",
+      "Leitzins",
+      "der",
+      "die Leitzinsen",
+      "suku bunga acuan"
+    ],
+    [
+      "noun",
+      "Währung",
+      "die",
+      "die Währungen",
+      "mata uang"
+    ],
+    [
+      "noun",
+      "Wechselkurs",
+      "der",
+      "die Wechselkurse",
+      "kurs tukar"
+    ],
+    [
+      "noun",
+      "Handelsbilanz",
+      "die",
+      "die Handelsbilanzen",
+      "neraca dagang"
+    ],
+    [
+      "noun",
+      "Lieferkette",
+      "die",
+      "die Lieferketten",
+      "rantai pasok"
+    ],
+    [
+      "noun",
+      "Wertschöpfung",
+      "die",
+      "die Wertschöpfungen",
+      "nilai tambah"
+    ],
+    [
+      "noun",
+      "Datenethik",
+      "die",
+      "die Datenethiken",
+      "etika data"
+    ],
+    [
+      "noun",
+      "Überwachungsstaat",
+      "der",
+      "die Überwachungsstaaten",
+      "negara pengawas"
+    ],
+    [
+      "noun",
+      "Privatheit",
+      "die",
+      "die Privatheiten",
+      "privasi"
+    ],
+    [
+      "noun",
+      "Netzpolitik",
+      "die",
+      "die Netzpolitiken",
+      "politik internet"
+    ],
+    [
+      "noun",
+      "Plattformökonomie",
+      "die",
+      "die Plattformökonomien",
+      "ekonomi platform"
+    ],
+    [
+      "noun",
+      "Urheberrecht",
+      "das",
+      "die Urheberrechte",
+      "hak cipta"
+    ],
+    [
+      "noun",
+      "Lizenz",
+      "die",
+      "die Lizenzen",
+      "lisensi"
+    ],
+    [
+      "noun",
+      "Quellcode",
+      "der",
+      "die Quellcodes",
+      "kode sumber"
+    ],
+    [
+      "noun",
+      "Gesetzgebung",
+      "die",
+      "die Gesetzgebungen",
+      "pembuatan undang-undang"
+    ],
+    [
+      "noun",
+      "Rechtsprechung",
+      "die",
+      "die Rechtsprechungen",
+      "yurisprudensi"
+    ],
+    [
+      "noun",
+      "Verfahren",
+      "das",
+      "die Verfahren",
+      "prosedur, perkara"
+    ],
+    [
+      "noun",
+      "Instanz",
+      "die",
+      "die Instanzen",
+      "instansi, tingkat pengadilan"
+    ],
+    [
+      "verb",
+      "gewährleisten",
+      null,
+      null,
+      "menjamin"
+    ],
+    [
+      "verb",
+      "sicherstellen",
+      null,
+      null,
+      "memastikan"
+    ],
+    [
+      "verb",
+      "umsetzen",
+      null,
+      null,
+      "menerapkan"
+    ],
+    [
+      "verb",
+      "voraussetzen",
+      null,
+      null,
+      "mengandaikan"
+    ],
+    [
+      "verb",
+      "beruhen",
+      null,
+      null,
+      "berdasar pada"
+    ],
+    [
+      "verb",
+      "zunehmen",
+      null,
+      null,
+      "meningkat"
+    ],
+    [
+      "verb",
+      "abnehmen",
+      null,
+      null,
+      "menurun"
+    ],
+    [
+      "verb",
+      "sinken",
+      null,
+      null,
+      "turun"
+    ],
+    [
+      "verb",
+      "steigen",
+      null,
+      null,
+      "naik"
+    ],
+    [
+      "verb",
+      "fallen",
+      null,
+      null,
+      "jatuh"
+    ],
+    [
+      "verb",
+      "betragen",
+      null,
+      null,
+      "berjumlah"
+    ],
+    [
+      "verb",
+      "umfassen",
+      null,
+      null,
+      "mencakup"
+    ],
+    [
+      "verb",
+      "gefährden",
+      null,
+      null,
+      "membahayakan"
+    ],
+    [
+      "verb",
+      "beeinträchtigen",
+      null,
+      null,
+      "mengganggu"
+    ],
+    [
+      "verb",
+      "zerstören",
+      null,
+      null,
+      "menghancurkan"
+    ],
+    [
+      "verb",
+      "erhalten",
+      null,
+      null,
+      "mempertahankan, menerima"
+    ],
+    [
+      "verb",
+      "bewahren",
+      null,
+      null,
+      "melestarikan"
+    ],
+    [
+      "verb",
+      "verankern",
+      null,
+      null,
+      "menanamkan, mengatur dalam hukum"
+    ],
+    [
+      "verb",
+      "verpflichten",
+      null,
+      null,
+      "mewajibkan"
+    ],
+    [
+      "noun",
+      "Interessenkonflikt",
+      "der",
+      "die Interessenkonflikte",
+      "konflik kepentingan"
+    ],
+    [
+      "noun",
+      "Regulierung",
+      "die",
+      "die Regulierungen",
+      "regulasi"
+    ],
+    [
+      "noun",
+      "Wettbewerbsfähigkeit",
+      "die",
+      "die Wettbewerbsfähigkeiten",
+      "daya saing"
+    ],
+    [
+      "noun",
+      "Produktivitätssteigerung",
+      "die",
+      "die Produktivitätssteigerungen",
+      "peningkatan produktivitas"
+    ],
+    [
+      "noun",
+      "Innovationskraft",
+      "die",
+      "die Innovationskräfte",
+      "daya inovasi"
+    ],
+    [
+      "noun",
+      "Fachkräftebedarf",
+      "der",
+      "die Fachkräftebedarfe",
+      "kebutuhan tenaga ahli"
+    ],
+    [
+      "noun",
+      "Bildungsniveau",
+      "das",
+      "die Bildungsniveaus",
+      "tingkat pendidikan"
+    ],
+    [
+      "noun",
+      "Teilhabechance",
+      "die",
+      "die Teilhabechancen",
+      "peluang partisipasi"
+    ],
+    [
+      "noun",
+      "Generationengerechtigkeit",
+      "die",
+      "die Generationengerechtigkeiten",
+      "keadilan antargenerasi"
+    ],
+    [
+      "noun",
+      "Ressourcenschutz",
+      "der",
+      "die Ressourcenschutze",
+      "perlindungan sumber daya"
+    ],
+    [
+      "noun",
+      "Klimaneutralität",
+      "die",
+      "die Klimaneutralitäten",
+      "netralitas iklim"
+    ],
+    [
+      "noun",
+      "Emissionsminderung",
+      "die",
+      "die Emissionsminderungen",
+      "pengurangan emisi"
+    ],
+    [
+      "noun",
+      "Anpassungsstrategie",
+      "die",
+      "die Anpassungsstrategien",
+      "strategi adaptasi"
+    ],
+    [
+      "noun",
+      "Risikobewertung",
+      "die",
+      "die Risikobewertungen",
+      "penilaian risiko"
+    ],
+    [
+      "noun",
+      "Verhältnismäßigkeit",
+      "die",
+      "die Verhältnismäßigkeiten",
+      "proporsionalitas"
+    ],
+    [
+      "noun",
+      "Verantwortungsübernahme",
+      "die",
+      "die Verantwortungsübernahmen",
+      "pengambilan tanggung jawab"
+    ],
+    [
+      "noun",
+      "Entscheidungsbefugnis",
+      "die",
+      "die Entscheidungsbefugnisse",
+      "kewenangan memutuskan"
+    ],
+    [
+      "noun",
+      "Kontrollinstanz",
+      "die",
+      "die Kontrollinstanzen",
+      "lembaga pengawas"
+    ],
+    [
+      "noun",
+      "Öffentlichkeitsarbeit",
+      "die",
+      "die Öffentlichkeitsarbeiten",
+      "hubungan publik"
+    ],
+    [
+      "noun",
+      "Grundversorgung",
+      "die",
+      "die Grundversorgungen",
+      "layanan dasar"
+    ],
+    [
+      "noun",
+      "Daseinsvorsorge",
+      "die",
+      "die Daseinsvorsorgen",
+      "pelayanan publik"
+    ],
+    [
+      "noun",
+      "Standortfaktor",
+      "der",
+      "die Standortfaktoren",
+      "faktor lokasi"
+    ],
+    [
+      "noun",
+      "Strukturreform",
+      "die",
+      "die Strukturreformen",
+      "reformasi struktural"
+    ],
+    [
+      "noun",
+      "Umsetzungsplan",
+      "der",
+      "die Umsetzungspläne",
+      "rencana implementasi"
+    ],
+    [
+      "noun",
+      "Zeithorizont",
+      "der",
+      "die Zeithorizonte",
+      "horizon waktu"
+    ],
+    [
+      "noun",
+      "Zielkonflikt",
+      "der",
+      "die Zielkonflikte",
+      "konflik tujuan"
+    ],
+    [
+      "verb",
+      "bewältigen",
+      null,
+      null,
+      "mengatasi"
+    ],
+    [
+      "verb",
+      "verschärfen",
+      null,
+      null,
+      "memperketat"
+    ],
+    [
+      "verb",
+      "lockern",
+      null,
+      null,
+      "melonggarkan"
+    ],
+    [
+      "verb",
+      "ausweiten",
+      null,
+      null,
+      "memperluas"
+    ],
+    [
+      "verb",
+      "einschränken",
+      null,
+      null,
+      "membatasi"
+    ],
+    [
+      "verb",
+      "beschränken",
+      null,
+      null,
+      "membatasi"
+    ],
+    [
+      "verb",
+      "begrenzen",
+      null,
+      null,
+      "membatasi"
+    ],
+    [
+      "verb",
+      "ausgleichen",
+      null,
+      null,
+      "menyeimbangkan"
+    ],
+    [
+      "verb",
+      "kompensieren",
+      null,
+      null,
+      "mengompensasi"
+    ],
+    [
+      "verb",
+      "priorisieren",
+      null,
+      null,
+      "memprioritaskan"
+    ],
+    [
+      "verb",
+      "koordinieren",
+      null,
+      null,
+      "mengoordinasikan"
+    ],
+    [
+      "verb",
+      "integrieren",
+      null,
+      null,
+      "mengintegrasikan"
+    ],
+    [
+      "verb",
+      "implementieren",
+      null,
+      null,
+      "mengimplementasikan"
+    ],
+    [
+      "verb",
+      "evaluieren",
+      null,
+      null,
+      "mengevaluasi"
+    ],
+    [
+      "verb",
+      "reflektieren",
+      null,
+      null,
+      "merefleksikan"
+    ],
+    [
+      "verb",
+      "argumentieren",
+      null,
+      null,
+      "berargumen"
+    ],
+    [
+      "verb",
+      "kritisieren",
+      null,
+      null,
+      "mengkritik"
+    ],
+    [
+      "noun",
+      "Kriterium",
+      "das",
+      "die Kriterien",
+      "kriteria"
+    ],
+    [
+      "noun",
+      "Indikator",
+      "der",
+      "die Indikatoren",
+      "indikator"
+    ],
+    [
+      "noun",
+      "Parameter",
+      "der",
+      "die Parameter",
+      "parameter"
+    ],
+    [
+      "noun",
+      "Faktor",
+      "der",
+      "die Faktoren",
+      "faktor"
+    ],
+    [
+      "noun",
+      "Dimension",
+      "die",
+      "die Dimensionen",
+      "dimensi"
+    ],
+    [
+      "noun",
+      "Aspekt",
+      "der",
+      "die Aspekte",
+      "aspek"
+    ],
+    [
+      "noun",
+      "Kontext",
+      "der",
+      "die Kontexte",
+      "konteks"
+    ],
+    [
+      "noun",
+      "Rahmen",
+      "der",
+      "die Rahmen",
+      "kerangka"
+    ],
+    [
+      "noun",
+      "Muster",
+      "das",
+      "die Muster",
+      "pola"
+    ],
+    [
+      "noun",
+      "Dynamik",
+      "die",
+      "die Dynamiken",
+      "dinamika"
+    ],
+    [
+      "noun",
+      "Stabilität",
+      "die",
+      "die Stabilitäten",
+      "stabilitas"
+    ],
+    [
+      "noun",
+      "Gleichgewicht",
+      "das",
+      "die Gleichgewichte",
+      "keseimbangan"
+    ],
+    [
+      "noun",
+      "Umbruch",
+      "der",
+      "die Umbrüche",
+      "perubahan besar"
+    ],
+    [
+      "noun",
+      "Kontinuität",
+      "die",
+      "die Kontinuitäten",
+      "kontinuitas"
+    ],
+    [
+      "noun",
+      "Ambivalenz",
+      "die",
+      "die Ambivalenzen",
+      "ambivalensi"
+    ],
+    [
+      "noun",
+      "Paradox",
+      "das",
+      "die Paradoxe",
+      "paradoks"
+    ],
+    [
+      "noun",
+      "Schicht",
+      "die",
+      "die Schichten",
+      "lapisan sosial"
+    ],
+    [
+      "noun",
+      "Milieu",
+      "das",
+      "die Milieus",
+      "lingkungan sosial"
+    ],
+    [
+      "noun",
+      "Elite",
+      "die",
+      "die Eliten",
+      "elite"
+    ],
+    [
+      "noun",
+      "Mittelstand",
+      "der",
+      "die Mittelstände",
+      "kelas menengah"
+    ],
+    [
+      "noun",
+      "Oberschicht",
+      "die",
+      "die Oberschichten",
+      "kelas atas"
+    ],
+    [
+      "noun",
+      "Unterschicht",
+      "die",
+      "die Unterschichten",
+      "kelas bawah"
+    ],
+    [
+      "noun",
+      "Abstieg",
+      "der",
+      "die Abstiege",
+      "penurunan status"
+    ],
+    [
+      "noun",
+      "Kompetenz",
+      "die",
+      "die Kompetenzen",
+      "kompetensi"
+    ],
+    [
+      "noun",
+      "Zertifizierung",
+      "die",
+      "die Zertifizierungen",
+      "sertifikasi"
+    ],
+    [
+      "noun",
+      "Akkreditierung",
+      "die",
+      "die Akkreditierungen",
+      "akreditasi"
+    ],
+    [
+      "noun",
+      "Lehrplan",
+      "der",
+      "die Lehrpläne",
+      "kurikulum sekolah"
+    ],
+    [
+      "noun",
+      "Didaktik",
+      "die",
+      "die Didaktiken",
+      "didaktik"
+    ],
+    [
+      "noun",
+      "Pädagogik",
+      "die",
+      "die Pädagogiken",
+      "pedagogi"
+    ],
+    [
+      "noun",
+      "Evaluation",
+      "die",
+      "die Evaluationen",
+      "evaluasi"
+    ],
+    [
+      "noun",
+      "Bildungsauftrag",
+      "der",
+      "die Bildungsaufträge",
+      "mandat pendidikan"
+    ],
+    [
+      "noun",
+      "Chancenungleichheit",
+      "die",
+      "die Chancenungleichheiten",
+      "ketimpangan kesempatan"
+    ],
+    [
+      "noun",
+      "Sozialisation",
+      "die",
+      "die Sozialisationen",
+      "sosialisasi"
+    ],
+    [
+      "noun",
+      "Norm",
+      "die",
+      "die Normen",
+      "norma"
+    ],
+    [
+      "noun",
+      "Wertewandel",
+      "der",
+      "die Wertewandel",
+      "pergeseran nilai"
+    ],
+    [
+      "noun",
+      "Bürgerbeteiligung",
+      "die",
+      "die Bürgerbeteiligungen",
+      "partisipasi warga"
+    ],
+    [
+      "noun",
+      "Verwaltungsreform",
+      "die",
+      "die Verwaltungsreformen",
+      "reformasi administrasi"
+    ],
+    [
+      "noun",
+      "Haushaltsplan",
+      "der",
+      "die Haushaltspläne",
+      "rencana anggaran"
+    ],
+    [
+      "noun",
+      "Finanzausgleich",
+      "der",
+      "die Finanzausgleiche",
+      "perimbangan keuangan"
+    ],
+    [
+      "noun",
+      "Standortpolitik",
+      "die",
+      "die Standortpolitiken",
+      "politik lokasi usaha"
+    ],
+    [
+      "noun",
+      "Innovationspolitik",
+      "die",
+      "die Innovationspolitiken",
+      "politik inovasi"
+    ],
+    [
+      "noun",
+      "Bildungspolitik",
+      "die",
+      "die Bildungspolitiken",
+      "politik pendidikan"
+    ],
+    [
+      "noun",
+      "Sozialpolitik",
+      "die",
+      "die Sozialpolitiken",
+      "politik sosial"
+    ],
+    [
+      "noun",
+      "Umweltpolitik",
+      "die",
+      "die Umweltpolitiken",
+      "politik lingkungan"
+    ],
+    [
+      "noun",
+      "Außenpolitik",
+      "die",
+      "die Außenpolitiken",
+      "politik luar negeri"
+    ],
+    [
+      "noun",
+      "Innenpolitik",
+      "die",
+      "die Innenpolitiken",
+      "politik dalam negeri"
+    ],
+    [
+      "noun",
+      "Sicherheitspolitik",
+      "die",
+      "die Sicherheitspolitiken",
+      "politik keamanan"
+    ],
+    [
+      "noun",
+      "Verteidigung",
+      "die",
+      "die Verteidigungen",
+      "pertahanan"
+    ],
+    [
+      "noun",
+      "Bündnis",
+      "das",
+      "die Bündnisse",
+      "aliansi"
+    ],
+    [
+      "noun",
+      "Diplomatie",
+      "die",
+      "die Diplomatien",
+      "diplomasi"
+    ],
+    [
+      "noun",
+      "Vertragswerk",
+      "das",
+      "die Vertragswerke",
+      "perangkat perjanjian"
+    ],
+    [
+      "noun",
+      "Gipfeltreffen",
+      "das",
+      "die Gipfeltreffen",
+      "pertemuan puncak"
+    ],
+    [
+      "noun",
+      "Vereinbarung",
+      "die",
+      "die Vereinbarungen",
+      "kesepakatan"
+    ],
+    [
+      "noun",
+      "Sanktionsmechanismus",
+      "der",
+      "die Sanktionsmechanismen",
+      "mekanisme sanksi"
+    ],
+    [
+      "noun",
+      "Kontrollmechanismus",
+      "der",
+      "die Kontrollmechanismen",
+      "mekanisme kontrol"
+    ],
+    [
+      "noun",
+      "Anreizsystem",
+      "das",
+      "die Anreizsysteme",
+      "sistem insentif"
+    ],
+    [
+      "noun",
+      "Regelwerk",
+      "das",
+      "die Regelwerke",
+      "perangkat aturan"
+    ],
+    [
+      "noun",
+      "Ordnungsrahmen",
+      "der",
+      "die Ordnungsrahmen",
+      "kerangka regulasi"
+    ],
+    [
+      "noun",
+      "Handlungsspielraum",
+      "der",
+      "die Handlungsspielräume",
+      "ruang gerak"
+    ],
+    [
+      "noun",
+      "Ermessensspielraum",
+      "der",
+      "die Ermessensspielräume",
+      "ruang diskresi"
+    ],
+    [
+      "noun",
+      "Verhältnismäßigkeitsprüfung",
+      "die",
+      "die Verhältnismäßigkeitsprüfungen",
+      "uji proporsionalitas"
+    ],
+    [
+      "noun",
+      "Grundrechtsschutz",
+      "der",
+      "die Grundrechtsschutze",
+      "perlindungan hak dasar"
+    ],
+    [
+      "noun",
+      "Datenschutzaufsicht",
+      "die",
+      "die Datenschutzaufsichten",
+      "pengawas perlindungan data"
+    ],
+    [
+      "noun",
+      "Transparenzgebot",
+      "das",
+      "die Transparenzgebote",
+      "prinsip transparansi"
+    ],
+    [
+      "noun",
+      "Begründungspflicht",
+      "die",
+      "die Begründungspflichten",
+      "kewajiban memberi alasan"
+    ],
+    [
+      "noun",
+      "Verantwortungslücke",
+      "die",
+      "die Verantwortungslücken",
+      "kekosongan tanggung jawab"
+    ],
+    [
+      "noun",
+      "Fehlanreiz",
+      "der",
+      "die Fehlanreize",
+      "insentif yang salah"
+    ],
+    [
+      "noun",
+      "Zielerreichung",
+      "die",
+      "die Zielerreichungen",
+      "pencapaian target"
+    ],
+    [
+      "noun",
+      "Wirkungsanalyse",
+      "die",
+      "die Wirkungsanalysen",
+      "analisis dampak"
+    ],
+    [
+      "noun",
+      "Kosten-Nutzen-Abwägung",
+      "die",
+      "die Kosten-Nutzen-Abwägungen",
+      "pertimbangan biaya-manfaat"
+    ],
+    [
+      "noun",
+      "Nachhaltigkeitsstrategie",
+      "die",
+      "die Nachhaltigkeitsstrategien",
+      "strategi keberlanjutan"
+    ],
+    [
+      "noun",
+      "Kreislaufwirtschaft",
+      "die",
+      "die Kreislaufwirtschaften",
+      "ekonomi sirkular"
+    ],
+    [
+      "noun",
+      "Ressourceneffizienz",
+      "die",
+      "die Ressourceneffizienzen",
+      "efisiensi sumber daya"
+    ],
+    [
+      "noun",
+      "Energieversorgung",
+      "die",
+      "die Energieversorgungen",
+      "pasokan energi"
+    ],
+    [
+      "noun",
+      "Versorgungssicherheit",
+      "die",
+      "die Versorgungssicherheiten",
+      "keamanan pasokan"
+    ],
+    [
+      "noun",
+      "Preisniveau",
+      "das",
+      "die Preisniveaus",
+      "tingkat harga"
+    ],
+    [
+      "noun",
+      "Kaufkraft",
+      "die",
+      "die Kaufkräfte",
+      "daya beli"
+    ],
+    [
+      "noun",
+      "Einkommensverteilung",
+      "die",
+      "die Einkommensverteilungen",
+      "distribusi pendapatan"
+    ],
+    [
+      "noun",
+      "Vermögensverteilung",
+      "die",
+      "die Vermögensverteilungen",
+      "distribusi kekayaan"
+    ],
+    [
+      "noun",
+      "Steuerbelastung",
+      "die",
+      "die Steuerbelastungen",
+      "beban pajak"
+    ],
+    [
+      "noun",
+      "Sozialausgaben",
+      "die",
+      "die Sozialausgaben",
+      "belanja sosial"
+    ],
+    [
+      "noun",
+      "Bildungsinvestition",
+      "die",
+      "die Bildungsinvestitionen",
+      "investasi pendidikan"
+    ],
+    [
+      "noun",
+      "Wirksamkeit",
+      "die",
+      "die Wirksamkeiten",
+      "efektivitas"
+    ],
+    [
+      "noun",
+      "Effizienz",
+      "die",
+      "die Effizienzen",
+      "efisiensi"
+    ],
+    [
+      "noun",
+      "Effektivität",
+      "die",
+      "die Effektivitäten",
+      "efektivitas"
+    ],
+    [
+      "noun",
+      "Akzeptanz",
+      "die",
+      "die Akzeptanzen",
+      "penerimaan"
+    ],
+    [
+      "noun",
+      "Umsetzbarkeit",
+      "die",
+      "die Umsetzbarkeiten",
+      "kelayakan implementasi"
+    ],
+    [
+      "noun",
+      "Verantwortbarkeit",
+      "die",
+      "die Verantwortbarkeiten",
+      "kelayakan tanggung jawab"
+    ],
+    [
+      "noun",
+      "Zurechenbarkeit",
+      "die",
+      "die Zurechenbarkeiten",
+      "keteratribusian"
+    ],
+    [
+      "noun",
+      "Rechenschaftspflicht",
+      "die",
+      "die Rechenschaftspflichten",
+      "kewajiban akuntabilitas"
+    ],
+    [
+      "noun",
+      "Sorgfaltspflicht",
+      "die",
+      "die Sorgfaltspflichten",
+      "kewajiban kehati-hatian"
+    ],
+    [
+      "noun",
+      "Fürsorgepflicht",
+      "die",
+      "die Fürsorgepflichten",
+      "kewajiban perlindungan"
+    ],
+    [
+      "noun",
+      "Informationspflicht",
+      "die",
+      "die Informationspflichten",
+      "kewajiban informasi"
+    ],
+    [
+      "noun",
+      "Mitwirkungspflicht",
+      "die",
+      "die Mitwirkungspflichten",
+      "kewajiban partisipasi"
+    ],
+    [
+      "noun",
+      "Nachweispflicht",
+      "die",
+      "die Nachweispflichten",
+      "kewajiban pembuktian"
+    ],
+    [
+      "noun",
+      "Dokumentationspflicht",
+      "die",
+      "die Dokumentationspflichten",
+      "kewajiban dokumentasi"
+    ],
+    [
+      "noun",
+      "Verschwiegenheit",
+      "die",
+      "die Verschwiegenheiten",
+      "kerahasiaan"
+    ],
+    [
+      "noun",
+      "Vertraulichkeit",
+      "die",
+      "die Vertraulichkeiten",
+      "konfidensialitas"
+    ],
+    [
+      "noun",
+      "Geheimhaltung",
+      "die",
+      "die Geheimhaltungen",
+      "penyimpanan rahasia"
+    ],
+    [
+      "noun",
+      "Offenlegung",
+      "die",
+      "die Offenlegungen",
+      "pengungkapan"
+    ],
+    [
+      "noun",
+      "Nachvollziehbarkeit",
+      "die",
+      "die Nachvollziehbarkeiten",
+      "ketertelusuran"
+    ],
+    [
+      "noun",
+      "Stichhaltigkeit",
+      "die",
+      "die Stichhaltigkeiten",
+      "kekuatan argumen"
+    ],
+    [
+      "noun",
+      "Tragfähigkeit",
+      "die",
+      "die Tragfähigkeiten",
+      "daya dukung"
+    ],
+    [
+      "noun",
+      "Belastbarkeit",
+      "die",
+      "die Belastbarkeiten",
+      "ketahanan"
+    ],
+    [
+      "noun",
+      "Resilienz",
+      "die",
+      "die Resilienzen",
+      "resiliensi"
+    ],
+    [
+      "noun",
+      "Anfälligkeit",
+      "die",
+      "die Anfälligkeiten",
+      "kerentanan"
+    ],
+    [
+      "noun",
+      "Verwundbarkeit",
+      "die",
+      "die Verwundbarkeiten",
+      "kerentanan"
+    ],
+    [
+      "noun",
+      "Abhängigkeit",
+      "die",
+      "die Abhängigkeiten",
+      "ketergantungan"
+    ],
+    [
+      "noun",
+      "Interdependenz",
+      "die",
+      "die Interdependenzen",
+      "saling ketergantungan"
+    ],
+    [
+      "noun",
+      "Divergenz",
+      "die",
+      "die Divergenzen",
+      "divergensi"
+    ],
+    [
+      "noun",
+      "Konvergenz",
+      "die",
+      "die Konvergenzen",
+      "konvergensi"
+    ],
+    [
+      "noun",
+      "Kohärenz",
+      "die",
+      "die Kohärenzen",
+      "koherensi"
+    ],
+    [
+      "noun",
+      "Konsistenz",
+      "die",
+      "die Konsistenzen",
+      "konsistensi"
+    ],
+    [
+      "noun",
+      "Widersprüchlichkeit",
+      "die",
+      "die Widersprüchlichkeiten",
+      "kontradiksi"
+    ],
+    [
+      "noun",
+      "Komplexität",
+      "die",
+      "die Komplexitäten",
+      "kompleksitas"
+    ],
+    [
+      "noun",
+      "Unsicherheit",
+      "die",
+      "die Unsicherheiten",
+      "ketidakpastian"
+    ],
+    [
+      "noun",
+      "Mehrdeutigkeit",
+      "die",
+      "die Mehrdeutigkeiten",
+      "ambiguitas"
+    ],
+    [
+      "noun",
+      "Zielgenauigkeit",
+      "die",
+      "die Zielgenauigkeiten",
+      "ketepatan sasaran"
+    ],
+    [
+      "noun",
+      "Treffsicherheit",
+      "die",
+      "die Treffsicherheiten",
+      "akurasi"
+    ],
+    [
+      "noun",
+      "Wirksamkeitsprüfung",
+      "die",
+      "die Wirksamkeitsprüfungen",
+      "uji efektivitas"
+    ],
+    [
+      "noun",
+      "Folgenabschätzung",
+      "die",
+      "die Folgenabschätzungen",
+      "penilaian dampak"
+    ],
+    [
+      "noun",
+      "Gesetzesfolgenabschätzung",
+      "die",
+      "die Gesetzesfolgenabschätzungen",
+      "penilaian dampak regulasi"
+    ],
+    [
+      "noun",
+      "Nachhaltigkeitsprüfung",
+      "die",
+      "die Nachhaltigkeitsprüfungen",
+      "uji keberlanjutan"
+    ],
+    [
+      "noun",
+      "Evaluationsbericht",
+      "der",
+      "die Evaluationsberichte",
+      "laporan evaluasi"
+    ],
+    [
+      "noun",
+      "Sachstandsbericht",
+      "der",
+      "die Sachstandsberichte",
+      "laporan status"
+    ],
+    [
+      "noun",
+      "Fortschrittsbericht",
+      "der",
+      "die Fortschrittsberichte",
+      "laporan kemajuan"
+    ],
+    [
+      "noun",
+      "Umsetzungsbericht",
+      "der",
+      "die Umsetzungsberichte",
+      "laporan implementasi"
+    ],
+    [
+      "noun",
+      "Steuerung",
+      "die",
+      "die Steuerungen",
+      "pengendalian"
+    ],
+    [
+      "noun",
+      "Lenkung",
+      "die",
+      "die Lenkungen",
+      "pengarahan"
+    ],
+    [
+      "noun",
+      "Sorgfalt",
+      "die",
+      "die Sorgfalten",
+      "kehati-hatian"
+    ],
+    [
+      "noun",
+      "Umsicht",
+      "die",
+      "die Umsichten",
+      "kearifan"
+    ],
+    [
+      "noun",
+      "Weitsicht",
+      "die",
+      "die Weitsichten",
+      "pandangan jauh"
+    ]
+  ]
+}

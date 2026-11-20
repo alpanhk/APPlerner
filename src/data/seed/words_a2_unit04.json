@@ -1,0 +1,269 @@
+{
+  "unit": 104,
+  "level": "A2",
+  "theme": "Gesundheit & Arzt",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Gesundheit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "kesehatan",
+      "example_de": "Gesundheit ist wichtig.",
+      "example_id": "Kesehatan itu penting.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Arzt",
+      "article": "der",
+      "plural": "die Ärzte",
+      "meaning_id": "dokter",
+      "example_de": "Der Arzt untersucht mich.",
+      "example_id": "Dokter memeriksa saya.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ärztin",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "meaning_id": "dokter (perempuan)",
+      "example_de": "Die Ärztin ist freundlich.",
+      "example_id": "Dokternya ramah.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Praxis",
+      "article": "die",
+      "plural": "die Praxen",
+      "meaning_id": "praktik dokter",
+      "example_de": "Die Praxis öffnet um acht.",
+      "example_id": "Praktiknya buka pukul delapan.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Termin",
+      "article": "der",
+      "plural": "die Termine",
+      "meaning_id": "janji temu",
+      "example_de": "Ich habe einen Termin um zehn.",
+      "example_id": "Saya punya janji pukul sepuluh.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Rezept",
+      "article": "das",
+      "plural": "die Rezepte",
+      "meaning_id": "resep",
+      "example_de": "Der Arzt schreibt ein Rezept.",
+      "example_id": "Dokter menulis resep.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Apotheke",
+      "article": "die",
+      "plural": "die Apotheken",
+      "meaning_id": "apotek",
+      "example_de": "Die Apotheke ist nebenan.",
+      "example_id": "Apoteknya di sebelah.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Medikament",
+      "article": "das",
+      "plural": "die Medikamente",
+      "meaning_id": "obat",
+      "example_de": "Nehmen Sie das Medikament täglich.",
+      "example_id": "Minum obatnya setiap hari.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Schmerz",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "meaning_id": "rasa sakit",
+      "example_de": "Ich habe starke Schmerzen.",
+      "example_id": "Saya sakit sekali.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Erkältung",
+      "article": "die",
+      "plural": "die Erkältungen",
+      "meaning_id": "pilek",
+      "example_de": "Ich habe eine Erkältung.",
+      "example_id": "Saya pilek.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Fieber",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "demam",
+      "example_de": "Das Kind hat Fieber.",
+      "example_id": "Anaknya demam.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "verb",
+      "de": "fühlen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merasa (sich fühlen)",
+      "example_de": "Ich fühle mich nicht gut.",
+      "example_id": "Saya merasa tidak enak badan.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "verb",
+      "de": "untersuchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memeriksa",
+      "example_de": "Der Arzt untersucht den Patienten.",
+      "example_id": "Dokter memeriksa pasien.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "verb",
+      "de": "ausruhen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "beristirahat (sich ausruhen)",
+      "example_de": "Du musst dich ausruhen.",
+      "example_id": "Kamu harus beristirahat.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "adj",
+      "de": "krank",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sakit",
+      "example_de": "Ich bin krank.",
+      "example_id": "Saya sakit.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "adj",
+      "de": "gesund",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sehat",
+      "example_de": "Bleib gesund!",
+      "example_id": "Tetap sehat!",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Tablette",
+      "article": "die",
+      "plural": "die Tabletten",
+      "meaning_id": "tablet obat",
+      "example_de": "Nehmen Sie zwei Tabletten.",
+      "example_id": "Minum dua tablet.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Husten",
+      "article": "der",
+      "plural": "die Husten",
+      "meaning_id": "batuk",
+      "example_de": "Ich habe Husten.",
+      "example_id": "Saya batuk.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Verband",
+      "article": "der",
+      "plural": "die Verbände",
+      "meaning_id": "perban",
+      "example_de": "Der Verband ist frisch.",
+      "example_id": "Perbannya baru.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Notfall",
+      "article": "der",
+      "plural": "die Notfälle",
+      "meaning_id": "keadaan darurat",
+      "example_de": "Das ist ein Notfall.",
+      "example_id": "Ini keadaan darurat.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Wartezimmer",
+      "article": "das",
+      "plural": "die Wartezimmer",
+      "meaning_id": "ruang tunggu",
+      "example_de": "Das Wartezimmer ist voll.",
+      "example_id": "Ruang tunggunya penuh.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Salbe",
+      "article": "die",
+      "plural": "die Salben",
+      "meaning_id": "salep",
+      "example_de": "Die Salbe hilft sofort.",
+      "example_id": "Salepnya langsung membantu.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Pflaster",
+      "article": "das",
+      "plural": "die Pflaster",
+      "meaning_id": "plester",
+      "example_de": "Ich brauche ein Pflaster.",
+      "example_id": "Saya butuh plester.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Schnupfen",
+      "article": "der",
+      "plural": "die Schnupfen",
+      "meaning_id": "pilek",
+      "example_de": "Ich habe Schnupfen.",
+      "example_id": "Saya pilek.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Krankenkasse",
+      "article": "die",
+      "plural": "die Krankenkassen",
+      "meaning_id": "asuransi kesehatan",
+      "example_de": "Die Krankenkasse zahlt.",
+      "example_id": "Asuransi kesehatannya membayar.",
+      "tags": "a2,unit4,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Rettungswagen",
+      "article": "der",
+      "plural": "die Rettungswagen",
+      "meaning_id": "ambulans",
+      "example_de": "Der Rettungswagen kommt gleich.",
+      "example_id": "Ambulansnya segera datang.",
+      "tags": "a2,unit4,gesundheit"
+    }
+  ]
+}

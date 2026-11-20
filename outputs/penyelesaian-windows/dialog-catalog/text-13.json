@@ -1,0 +1,177 @@
+{
+  "id": "dialog-13",
+  "title": "Ein Geschenk für Tom",
+  "textId": 13,
+  "level": "A1",
+  "tags": "seed · A1 · unit 5 · belanja",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop"
+      },
+      "kuchen": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Heute hat Leila Geburtstag.",
+      "id": "Hari ini Leila berulang tahun.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Tom möchte ein Geschenk kaufen.",
+      "id": "Tom ingin membeli hadiah.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Er nimmt ein Buch und eine Karte.",
+      "id": "Dia mengambil sebuah buku dan sebuah kartu.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Das Buch kostet zwölf Euro.",
+      "id": "Buku itu harganya dua belas euro.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Leila freut sich über das Geschenk.",
+      "id": "Leila senang menerima hadiah itu.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Heute hat Leila Geburtstag.",
+      "id": "Hari ini Leila berulang tahun.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_040.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Tom möchte ein Geschenk kaufen.",
+      "id": "Tom ingin membeli hadiah.",
+      "pose": "reply",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_083.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Er nimmt ein Buch und eine Karte.",
+      "id": "Dia mengambil sebuah buku dan sebuah kartu.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_034.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Das Buch kostet zwölf Euro.",
+      "id": "Buku itu harganya dua belas euro.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_014.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Leila freut sich über das Geschenk.",
+      "id": "Leila senang menerima hadiah itu.",
+      "pose": "reply",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_056.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

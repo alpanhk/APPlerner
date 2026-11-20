@@ -1,0 +1,159 @@
+{
+  "unit": 8,
+  "level": "A1",
+  "theme": "Pekerjaan & kegiatan harian",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Dienstplan",
+      "article": "der",
+      "plural": "die Dienstpläne",
+      "meaning_id": "jadwal kerja",
+      "example_de": "Das ist der Dienstplan.",
+      "example_id": "Ini jadwal kerja.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Dienstreise",
+      "article": "die",
+      "plural": "die Dienstreisen",
+      "meaning_id": "perjalanan dinas",
+      "example_de": "Das ist die Dienstreise.",
+      "example_id": "Ini perjalanan dinas.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürogebäude",
+      "article": "das",
+      "plural": "die Bürogebäude",
+      "meaning_id": "gedung perkantoran",
+      "example_de": "Das ist das Bürogebäude.",
+      "example_id": "Ini gedung perkantoran.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Lohnabrechnung",
+      "article": "die",
+      "plural": "die Lohnabrechnungen",
+      "meaning_id": "slip gaji",
+      "example_de": "Das ist die Lohnabrechnung.",
+      "example_id": "Ini slip gaji.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Teamleiterin",
+      "article": "die",
+      "plural": "die Teamleiterinnen",
+      "meaning_id": "ketua tim perempuan",
+      "example_de": "Das ist die Teamleiterin.",
+      "example_id": "Ini ketua tim perempuan.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Empfang",
+      "article": "der",
+      "plural": "die Empfänge",
+      "meaning_id": "resepsionis",
+      "example_de": "Das ist der Empfang.",
+      "example_id": "Ini resepsionis.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Kantine",
+      "article": "die",
+      "plural": "die Kantinen",
+      "meaning_id": "kantin",
+      "example_de": "Das ist die Kantine.",
+      "example_id": "Ini kantin.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Aktenordner",
+      "article": "der",
+      "plural": "die Aktenordner",
+      "meaning_id": "map arsip",
+      "example_de": "Das ist der Aktenordner.",
+      "example_id": "Ini map arsip.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Schulungsraum",
+      "article": "der",
+      "plural": "die Schulungsräume",
+      "meaning_id": "ruang pelatihan",
+      "example_de": "Das ist der Schulungsraum.",
+      "example_id": "Ini ruang pelatihan.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Pausenbrot",
+      "article": "das",
+      "plural": "die Pausenbrote",
+      "meaning_id": "bekal makan siang",
+      "example_de": "Das ist das Pausenbrot.",
+      "example_id": "Ini bekal makan siang.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Frühschicht",
+      "article": "die",
+      "plural": "die Frühschichten",
+      "meaning_id": "shift pagi",
+      "example_de": "Das ist die Frühschicht.",
+      "example_id": "Ini shift pagi.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Pausenraum",
+      "article": "der",
+      "plural": "die Pausenräume",
+      "meaning_id": "ruang istirahat",
+      "example_de": "Das ist der Pausenraum.",
+      "example_id": "Ini ruang istirahat.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsweg",
+      "article": "der",
+      "plural": "die Arbeitswege",
+      "meaning_id": "perjalanan ke tempat kerja",
+      "example_de": "Das ist der Arbeitsweg.",
+      "example_id": "Ini perjalanan ke tempat kerja.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Telefonzentrale",
+      "article": "die",
+      "plural": "die Telefonzentralen",
+      "meaning_id": "sentral telepon",
+      "example_de": "Das ist die Telefonzentrale.",
+      "example_id": "Ini sentral telepon.",
+      "tags": "a1,unit8,pekerjaan"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittagspause",
+      "article": "die",
+      "plural": "die Mittagspausen",
+      "meaning_id": "istirahat siang",
+      "example_de": "Das ist die Mittagspause.",
+      "example_id": "Ini istirahat siang.",
+      "tags": "a1,unit8,pekerjaan"
+    }
+  ]
+}

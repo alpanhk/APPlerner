@@ -1,0 +1,671 @@
+{
+  "captured_at": "2026-11-17T17:02:18.178720+07:00",
+  "git_head": "c45e0dd7ed3a79307452057e32f5e5602d64dc0a",
+  "git_status": " M README.md\n M src-tauri/Cargo.lock\n M src-tauri/Cargo.toml\n M src-tauri/src/lib.rs\n M src-tauri/tauri.conf.json\n M src/App.css\n M src/App.tsx\n M src/data/importWords.ts\n M src/data/lessons/units_a1.json\n M src/data/pronunciation.ts\n M src/data/seedLoader.ts\n M src/drills/attempts.ts\n M src/drills/items.ts\n M src/drills/session.ts\n M src/reading/dictionary.ts\n M src/reading/texts.ts\n M src/srs/answers.ts\n M src/srs/queue.ts\n M src/srs/review.ts\n M src/srs/session.ts\n M src/srs/tts.ts\n M src/stats/queries.ts\n M src/stores/backup.ts\n M src/ui/FatalDatabase.tsx\n M src/ui/Layout.tsx\n M src/ui/PageShell.tsx\n M src/ui/lessons/CheckpointRunner.tsx\n M src/ui/lessons/LessonRunner.tsx\n M src/ui/lessons/MiniDrill.tsx\n M src/ui/pages/Drill.tsx\n M src/ui/pages/HariIni.tsx\n M src/ui/pages/Kosakata.tsx\n M src/ui/pages/Kurikulum.tsx\n M src/ui/pages/Membaca.tsx\n M src/ui/pages/Pengaturan.tsx\n M src/ui/pages/Statistik.tsx\n M src/ui/pages/index.ts\n M src/ui/review/ReviewCard.tsx\n?? HANDOFF-LERNEN.md\n?? PRD-Aplikasi-Belajar-Bahasa-Jerman.md\n?? docs/\n?? outputs/\n?? scripts/generate_a1_completion.py\n?? scripts/generate_a1_core_tts.py\n?? scripts/generate_a1_reading_tts.py\n?? scripts/generate_conversation_tts.py\n?? scripts/generate_dialogue_tts.py\n?? scripts/generate_tts_bundle.py\n?? scripts/konten/a1_units_05_12.json\n?? scripts/qa/\n?? scripts/test_a1_audio.cjs\n?? scripts/test_a1_conversation.cjs\n?? scripts/test_a1_mock_exam.cjs\n?? scripts/test_a1_objectives.cjs\n?? scripts/test_a1_option_order.cjs\n?? scripts/test_a1_practice.cjs\n?? scripts/test_audio_lookup.cjs\n?? scripts/test_checkpoint_result.cjs\n?? scripts/test_draft_migration.cjs\n?? scripts/test_drill_session.cjs\n?? scripts/test_lesson_practice.cjs\n?? scripts/test_lesson_resume.cjs\n?? scripts/test_seed_sync.cjs\n?? scripts/test_seed_upgrade.cjs\n?? scripts/test_study_clock.cjs\n?? src/assets/tts_core/\n?? src/data/lessons/a1_lesson_practice.json\n?? src/data/lessons/a1_objectives.json\n?? src/data/lessons/a1_unit10_bank.json\n?? src/data/lessons/a1_unit11_bank.json\n?? src/data/lessons/a1_unit12_bank.json\n?? src/data/lessons/a1_unit1_bank.json\n?? src/data/lessons/a1_unit2_bank.json\n?? src/data/lessons/a1_unit3_bank.json\n?? src/data/lessons/a1_unit4_bank.json\n?? src/data/lessons/a1_unit5_bank.json\n?? src/data/lessons/a1_unit6_bank.json\n?? src/data/lessons/a1_unit7_bank.json\n?? src/data/lessons/a1_unit8_bank.json\n?? src/data/lessons/a1_unit9_bank.json\n?? src/data/practice/\n?? src/data/reading/texts_a1a2_extra.json\n?? src/data/seed/seed_v11_manifest.json\n?? src/data/seed/words_a1_unit05.json\n?? src/data/seed/words_a1_unit06.json\n?? src/data/seed/words_a1_unit07.json\n?? src/data/seed/words_a1_unit08.json\n?? src/data/seed/words_a1_unit09.json\n?? src/data/seed/words_a1_unit10.json\n?? src/data/seed/words_a1_unit11.json\n?? src/data/seed/words_a1_unit12.json\n?? src/lessons/answerMatch.ts\n?? src/lessons/checkpointResult.ts\n?? src/lessons/checkpointStore.ts\n?? src/lessons/drillDraft.ts\n?? src/lessons/feedback.ts\n?? src/lessons/objectives.ts\n?? src/lessons/optionOrder.ts\n?? src/lessons/persistence.ts\n?? src/lessons/practice.ts\n?? src/stats/studyClock.ts\n?? src/ui/pages/Latihan.tsx\n?? src/ui/pages/UjiTiruan.tsx\n",
+  "files": {
+    "HANDOFF-LERNEN.md": {
+      "bytes": 35887,
+      "sha256": "9a00a2262212735e810202b67a4b66774da0f299e42e139b8dcb4a228f05ec2c"
+    },
+    "package.json": {
+      "bytes": 722,
+      "sha256": "4ded19007ffe433052d9423639a59af71ccba432f4b6527750dd672b193b7fee"
+    },
+    "pnpm-lock.yaml": {
+      "bytes": 30959,
+      "sha256": "47f4b4805ac78b4234dd2f55e18f93deb2a507e8a31e305e0990ed62be66dacb"
+    },
+    "PRD-Aplikasi-Belajar-Bahasa-Jerman.md": {
+      "bytes": 52111,
+      "sha256": "14d9335e0ea81d0df5d48c004735adc38bbe46481f46c85b5ebe7f79b10517b3"
+    },
+    "scripts/konten/a1_units_05_12.json": {
+      "bytes": 59342,
+      "sha256": "c12c6c958bdec6c86c9fd127cfe28529a38343ae76982e60613a5dc0525f6060"
+    },
+    "scripts/konten/a2.json": {
+      "bytes": 144574,
+      "sha256": "473679c7387dcf3791f7e8dd961a345c0a2604de82f009244b0b8775b1962b39"
+    },
+    "scripts/konten/b1.json": {
+      "bytes": 134823,
+      "sha256": "3d3c2d54bf65e7addab78b4271f11c5270ba622cb85149cb2471812b16f31887"
+    },
+    "scripts/konten/b2.json": {
+      "bytes": 130537,
+      "sha256": "23e10beb9068b02c670393d9927d413b14d5338104b96a9597e27d1e93babcdc"
+    },
+    "scripts/test_a1_audio.cjs": {
+      "bytes": 2123,
+      "sha256": "f3a601e4c4c1f97b042a03fe2b001fc0701b1d70b5be8b23f2ccdd3f1b2df986"
+    },
+    "scripts/test_a1_conversation.cjs": {
+      "bytes": 3053,
+      "sha256": "c2b54370b1dbc010c38ec07420b9624a0d7fce70ee9e90072a5d14ba3c6300db"
+    },
+    "scripts/test_a1_mock_exam.cjs": {
+      "bytes": 3381,
+      "sha256": "539b29c9b4eccd83b6189f165df61a4e3d76da810433bf3edc3f58534b94ed7b"
+    },
+    "scripts/test_a1_objectives.cjs": {
+      "bytes": 12924,
+      "sha256": "0ad4e344a8354fa462b40f5b21c0d8d5ce7556b6554673da44a2d4553f260368"
+    },
+    "scripts/test_a1_option_order.cjs": {
+      "bytes": 14785,
+      "sha256": "ad68261da812cdb154197a5e70002db6bd2a65fc8937a3405c030680db029638"
+    },
+    "scripts/test_a1_practice.cjs": {
+      "bytes": 3866,
+      "sha256": "495944b3d2b542ff058efbd548cd7da9b8455fed4631fe76cad540504ab9bfd7"
+    },
+    "scripts/test_audio_lookup.cjs": {
+      "bytes": 4693,
+      "sha256": "a441b319d8f40a97a872c71c66a874abb39738910a3c2d380c41e42e3632005c"
+    },
+    "scripts/test_checkpoint_result.cjs": {
+      "bytes": 3863,
+      "sha256": "58ab09b069ed9889e91a6f7b264195d296011e8a2455761c1d14a8c070403da7"
+    },
+    "scripts/test_draft_migration.cjs": {
+      "bytes": 2681,
+      "sha256": "4d5f7d74d02a6181d19a73aa260d24c9e20572f9051f5df8ffd2aec453b23d8e"
+    },
+    "scripts/test_drill_session.cjs": {
+      "bytes": 2488,
+      "sha256": "cc02b7c32e320b6c706031ac4b8e237c19831c8e248ef140a5e96eba0d5fd632"
+    },
+    "scripts/test_lesson_practice.cjs": {
+      "bytes": 8333,
+      "sha256": "032f53299a74cc6059c6117e45f5bdfde23c12552acc74c7e7ba57b7eb518293"
+    },
+    "scripts/test_lesson_resume.cjs": {
+      "bytes": 1188,
+      "sha256": "6f7ddaf5566d1c2772e832e794ded110218bf20b4fe322c53594f83a6e3aacf5"
+    },
+    "scripts/test_seed_sync.cjs": {
+      "bytes": 4907,
+      "sha256": "58bc9119a2edf269f7146bcc82214e3ab0a27925501890643dce1c3a9704f657"
+    },
+    "scripts/test_seed_upgrade.cjs": {
+      "bytes": 8883,
+      "sha256": "e0becceb0086d993225b5b22d66d69aab164d4866e378c8f6cd1194b138c68a6"
+    },
+    "scripts/test_study_clock.cjs": {
+      "bytes": 2641,
+      "sha256": "5d7ad27e8fc3893c66f7ee9adb20baa642d40291ec375018168a50c6960cedc0"
+    },
+    "src/App.css": {
+      "bytes": 1741,
+      "sha256": "d9af4c6069456c821704ed5f6787f0bf18edf30e37c878f28cb1e4a2753d3c8f"
+    },
+    "src/App.tsx": {
+      "bytes": 5055,
+      "sha256": "d21739d53a9887915540c0209fbc7107dc4d98626bf4a7bcc3722b664182b422"
+    },
+    "src/assets/tts_core/manifest.json": {
+      "bytes": 38717,
+      "sha256": "f3c939e6ced18e0630d8a430584174afa4fc040da95f52714c9b6ee9ad46c2fe"
+    },
+    "src/data/drills/d10_items.json": {
+      "bytes": 3402,
+      "sha256": "e49b0fb862b470f74d0c6294c4c097d11be4c8b464f11df522e7f62cf4af6624"
+    },
+    "src/data/drills/d4_items.json": {
+      "bytes": 2077,
+      "sha256": "5c76b2f180ec822f98b06b5c0484b217f4303cb1a1f9c338b75b8d68337d57d8"
+    },
+    "src/data/drills/d5_items.json": {
+      "bytes": 3130,
+      "sha256": "47f277f1af166efea1d03db35794efed91f222d8b1f72eb5af6cdc9d05a0c965"
+    },
+    "src/data/drills/d6_items.json": {
+      "bytes": 4589,
+      "sha256": "6b407ae1f8757a161c09f97ea8eedec74f208c907d23335b6336963636047185"
+    },
+    "src/data/drills/d7_items.json": {
+      "bytes": 3330,
+      "sha256": "a033155f71d75e9f697751450c453c31739f4b100e59576ef5ba3de557334a06"
+    },
+    "src/data/drills/d8_items.json": {
+      "bytes": 2972,
+      "sha256": "dc3cce56e7b6ac61c4cfc85769db47479b876b9a6ab129e34013734ac05160d3"
+    },
+    "src/data/drills/d9_items.json": {
+      "bytes": 5588,
+      "sha256": "f42aaaa1fc188a7f8db85eec1ff6fa2e568c3e53667ab23cbed38167eb907e45"
+    },
+    "src/data/importWords.ts": {
+      "bytes": 8561,
+      "sha256": "d091bfa7df474bc3292466218507e163a8bee93e61896f63bab4f419e56ea66d"
+    },
+    "src/data/lessons/a1_lesson_practice.json": {
+      "bytes": 20672,
+      "sha256": "6a77752481c478791b363a2e2ce118984a934448cdc58545d90426e3296c3714"
+    },
+    "src/data/lessons/a1_objectives.json": {
+      "bytes": 42634,
+      "sha256": "7784d38e43431a1e65276a3bd5fe8075b74bc13bafd5be057498b4f04324a1f3"
+    },
+    "src/data/lessons/a1_unit10_bank.json": {
+      "bytes": 14387,
+      "sha256": "19f1045a16e15b8b1cb69fe4a3ad1262909b425efabc60fb1c70e4b11779c7be"
+    },
+    "src/data/lessons/a1_unit11_bank.json": {
+      "bytes": 14728,
+      "sha256": "ebd1f6494ce85193eb1ebc76de92cac52308ce5f9bd2f5f17c85284d5d2f6d00"
+    },
+    "src/data/lessons/a1_unit12_bank.json": {
+      "bytes": 13970,
+      "sha256": "f5c574a8541c3cb216d790e5fae69db9858a7b8d6a53ac51fb8bf793bfd0c0c1"
+    },
+    "src/data/lessons/a1_unit1_bank.json": {
+      "bytes": 15138,
+      "sha256": "7fed97a1087b38cf2578be21540ee37f8445b9a66b7a99b51e88f84787050cc4"
+    },
+    "src/data/lessons/a1_unit2_bank.json": {
+      "bytes": 14764,
+      "sha256": "2ef0b7eed27766a8a13d9e6ac3df13bf486805317b574fa2a1d0fecf49b7c165"
+    },
+    "src/data/lessons/a1_unit3_bank.json": {
+      "bytes": 15397,
+      "sha256": "2d34bf4ec7aababe3c11053687a4958cc2e23259fdefa0020d20d2f53fd2ba00"
+    },
+    "src/data/lessons/a1_unit4_bank.json": {
+      "bytes": 14609,
+      "sha256": "03503d1aef06ea81215acceec3381968adb2b988bde53c0046396573dddf9bbb"
+    },
+    "src/data/lessons/a1_unit5_bank.json": {
+      "bytes": 14943,
+      "sha256": "0045469d30232cf7e23b0ab0d51dfe58fc3758cf79b9f95438a832e6612053c8"
+    },
+    "src/data/lessons/a1_unit6_bank.json": {
+      "bytes": 14619,
+      "sha256": "8c48e815ff9d393b1e8e80ba6df5c65bf4bf8341e3d35cefdc86916852a7be60"
+    },
+    "src/data/lessons/a1_unit7_bank.json": {
+      "bytes": 14504,
+      "sha256": "049b4b4fcd0760a8ca7920d0bdf4293fb17418021ff5972f9a3784da10ab72ec"
+    },
+    "src/data/lessons/a1_unit8_bank.json": {
+      "bytes": 14701,
+      "sha256": "566733f550474c5b73d1b158d6f44ac7991a261fc27c5f345c3080f47d976915"
+    },
+    "src/data/lessons/a1_unit9_bank.json": {
+      "bytes": 14453,
+      "sha256": "46441ace116a696bd154c1073931317550c4e794ad8d5ae2d1a3859c06c1b35e"
+    },
+    "src/data/lessons/units_a1.json": {
+      "bytes": 78190,
+      "sha256": "8a66d1f90ddb260838b52e34ea9e006876685dd32fb76d1d5e2dcbc15fce85e5"
+    },
+    "src/data/lessons/units_a2.json": {
+      "bytes": 41077,
+      "sha256": "26d003af3734d500f1e41ae149dba3f47e47c377be1f34b4faa7de7c485f155b"
+    },
+    "src/data/lessons/units_b1.json": {
+      "bytes": 41524,
+      "sha256": "2b89de2666e10492ffa9ad8f2bcc53ca59cbc0ad9c7f61f14bb8380fb9952d96"
+    },
+    "src/data/lessons/units_b2.json": {
+      "bytes": 41806,
+      "sha256": "6ac26ae475d51ece6f45b4f054df2b42f1183e2bc0fd877d29f868fd247f3681"
+    },
+    "src/data/practice/a1_conversation.json": {
+      "bytes": 15342,
+      "sha256": "7a5eef936e70d88c1de6aba02278deb79d8d5e71c39e8b803ded4bf09c930d1a"
+    },
+    "src/data/practice/a1_listening.json": {
+      "bytes": 5337,
+      "sha256": "d99d377e42024fcd9845005c8403acc9fabc60b7beaa99d0a33bb10c997e67ce"
+    },
+    "src/data/practice/a1_mock_exam.json": {
+      "bytes": 4404,
+      "sha256": "320ffb9482ffdb060f42430f80c69640d459b8b86c6384372f206e5283e9aa02"
+    },
+    "src/data/practice/a1_writing.json": {
+      "bytes": 3473,
+      "sha256": "0ced2b6295f9ea43262f2bfc67c2c4bf1866dbf3540765e243513e3b92955d43"
+    },
+    "src/data/pronunciation.ts": {
+      "bytes": 12075,
+      "sha256": "1fcae698a3f5a53233e36a01a8349e88d5dcfbbd4c16353a7d814c1a9c96e586"
+    },
+    "src/data/reading/texts_a1.json": {
+      "bytes": 10178,
+      "sha256": "270d609650c19dd749d9d3386b66cdefb5afb514170dc629eebe9d667f0afb85"
+    },
+    "src/data/reading/texts_a1a2_extra.json": {
+      "bytes": 12623,
+      "sha256": "eaf3ca5e8c4b200b270540053c1ae4548267de22a00594f3063811ea56c68fd2"
+    },
+    "src/data/reading/texts_a2.json": {
+      "bytes": 10557,
+      "sha256": "5331f36b28ab7851be315e6d3b214683e7606f588cb5fc193f7090a683f62f03"
+    },
+    "src/data/reading/texts_b1.json": {
+      "bytes": 11329,
+      "sha256": "99d6796d81477a428f0cf7206e4955f6b529291b20b9446ad941ae55c9fb2f2a"
+    },
+    "src/data/reading/texts_b2.json": {
+      "bytes": 11561,
+      "sha256": "0bed887fc1726de4bb3b8715a708d08f25a9f8f731e61bba29fe9d7263f22d2f"
+    },
+    "src/data/reading/texts_extra.json": {
+      "bytes": 9028,
+      "sha256": "1888d5a72e5e4083ec1ae2a1c0da82f7ede5412cc5ce599cb691a927b91df4aa"
+    },
+    "src/data/seed/seed_v11_manifest.json": {
+      "bytes": 33964,
+      "sha256": "e598cb002265c83d7a5d86d0b7fcd7070ea1260da3b59078d0056d26c83d860f"
+    },
+    "src/data/seed/words_a1_unit05.json": {
+      "bytes": 4433,
+      "sha256": "7cea9eec64a298cd3d186848ef20417d0f6a1a785d85999848fb309f69dbb592"
+    },
+    "src/data/seed/words_a1_unit06.json": {
+      "bytes": 4429,
+      "sha256": "e132e545205cf08b476ebd8118d3fb48b6cc249076979fc57a2d75f3b174e2ea"
+    },
+    "src/data/seed/words_a1_unit07.json": {
+      "bytes": 4593,
+      "sha256": "7286918b9bbd1cf9593d5331e8cb1b0bd29a196a29c3021b2f1b628efa0c25c2"
+    },
+    "src/data/seed/words_a1_unit08.json": {
+      "bytes": 4673,
+      "sha256": "9eb98701f5bdfdaef0cf9a9dea466a0dcca9012f0c54ddae0a5c7daabba3a132"
+    },
+    "src/data/seed/words_a1_unit09.json": {
+      "bytes": 4630,
+      "sha256": "8b2be5c6acefd757eb42c4193a993b14fd40b4b52afc47f89bae22ac9485a24f"
+    },
+    "src/data/seed/words_a1_unit10.json": {
+      "bytes": 4560,
+      "sha256": "c5a25fb4c7aa5305ef39658eb090dfb74198cfaab21c0c2bcdb2c85b23ebafcc"
+    },
+    "src/data/seed/words_a1_unit11.json": {
+      "bytes": 4747,
+      "sha256": "7fbd2445eab9980a5e36f9e5385540982889e2e3744cbccfbe5ba46a30da86d4"
+    },
+    "src/data/seed/words_a1_unit12.json": {
+      "bytes": 4530,
+      "sha256": "d367d052c25909ddaaab58c02a69b5e9385f7e8957e1ed438fd124d164e8eb33"
+    },
+    "src/data/seed/words_a2_extras.json": {
+      "bytes": 110308,
+      "sha256": "1c3e77ed8007c12c461991974dd69ac3aee7a337f57eacebee093f3ded6f1de9"
+    },
+    "src/data/seed/words_a2_unit01.json": {
+      "bytes": 7444,
+      "sha256": "457ebf53cc71220f16d00e1d2d7f7dd208b440452a47be3e6798c460f8a9d2f0"
+    },
+    "src/data/seed/words_a2_unit02.json": {
+      "bytes": 7795,
+      "sha256": "4046c34f2f815726a00af0f185c79651af2bfeba956b6c86fae2f09085fd0add"
+    },
+    "src/data/seed/words_a2_unit03.json": {
+      "bytes": 7695,
+      "sha256": "22bf7db21f66da5394b956b053d234d6bdb6cbd726736cc310bd1a7447c362fc"
+    },
+    "src/data/seed/words_a2_unit04.json": {
+      "bytes": 7582,
+      "sha256": "0dfb4c305629db5a41f46f574c3ac8032cf37c56c15827ebafb51b1b03d544e8"
+    },
+    "src/data/seed/words_a2_unit05.json": {
+      "bytes": 7579,
+      "sha256": "1d4c79b0fa354a7e30273aa1447a6d8cdc21e5d70eefa11069a88a3b7f57647b"
+    },
+    "src/data/seed/words_a2_unit06.json": {
+      "bytes": 7669,
+      "sha256": "e9c8c421a46b839be97af1ec602e0078bf1a7fdbda7229b7e11a6932b715ea31"
+    },
+    "src/data/seed/words_a2_unit07.json": {
+      "bytes": 7604,
+      "sha256": "a5fd43e1672e0d537269dd2dff3b16558bd215ed804aa9f1ab4811578078c62b"
+    },
+    "src/data/seed/words_a2_unit08.json": {
+      "bytes": 7522,
+      "sha256": "78d48a44d7f1e7a0d086e46155e5299028bffa877bccc57219bb325b8b1a96b6"
+    },
+    "src/data/seed/words_a2_unit09.json": {
+      "bytes": 7561,
+      "sha256": "1f780398e7c58faa9ac5cb244d92dc7d0b4c9838532c99247c2cf7a67c28beb1"
+    },
+    "src/data/seed/words_a2_unit10.json": {
+      "bytes": 7697,
+      "sha256": "990f91e2ec1091e38105fe73171523774ff1cb8ac2534ad72c7d951ee78ebc10"
+    },
+    "src/data/seed/words_b1_extras.json": {
+      "bytes": 101671,
+      "sha256": "9959129267fcaf93113000b1a31cbc27b26988bef50dc5d9e5844e3be1f2be8a"
+    },
+    "src/data/seed/words_b1_unit01.json": {
+      "bytes": 6882,
+      "sha256": "fa282c8beb2dc64dddf03ad67b9aeb0dc66de92a17b5d365ce5ae85e3227c725"
+    },
+    "src/data/seed/words_b1_unit02.json": {
+      "bytes": 6861,
+      "sha256": "f7847e727ad3ab87a8216dab2a98f082128d3aa8d19b66852b11fb7acdd2901b"
+    },
+    "src/data/seed/words_b1_unit03.json": {
+      "bytes": 6801,
+      "sha256": "9fd2f7325bfb925f7ec4353b0729ace8783f97ebbcaede74f7867c85f6d3d139"
+    },
+    "src/data/seed/words_b1_unit04.json": {
+      "bytes": 6562,
+      "sha256": "13e1e5b45bc7a7b7d25a54fb51d08cce6216e132588b2fe7414a71e528d3ac96"
+    },
+    "src/data/seed/words_b1_unit05.json": {
+      "bytes": 6779,
+      "sha256": "361b18cdc649ada57320ec377f7b47d2f3bdc388a7bb37a74eac336338bb4d0c"
+    },
+    "src/data/seed/words_b1_unit06.json": {
+      "bytes": 6702,
+      "sha256": "77fa587995fc8cf5e497bf1d4530cd96bcd8af7da640bb3c0d9b79090fca63c6"
+    },
+    "src/data/seed/words_b1_unit07.json": {
+      "bytes": 6930,
+      "sha256": "cf2ac69b7b550a5bc480b7c8bd21f0bf295dc7c30e8a80327956763f50d190f5"
+    },
+    "src/data/seed/words_b1_unit08.json": {
+      "bytes": 6650,
+      "sha256": "61d2f62fd8cd1d591a4f8555e404660275d5f3bd6c66ad2e9fb05e69cbf68089"
+    },
+    "src/data/seed/words_b1_unit09.json": {
+      "bytes": 6663,
+      "sha256": "d59942211d60b7f31273b234e606ec351dfa7e365e5ab696b1fdd07f4e281da8"
+    },
+    "src/data/seed/words_b1_unit10.json": {
+      "bytes": 6595,
+      "sha256": "7edb91c4eaf84e674757f07bd30c881a59ba0780dd46596b860769551dcbc453"
+    },
+    "src/data/seed/words_b2_extras.json": {
+      "bytes": 80810,
+      "sha256": "3267346728cadc11bd6e1945f64bca03444b6376cdb67883182e6e94296cd7e0"
+    },
+    "src/data/seed/words_b2_unit01.json": {
+      "bytes": 7125,
+      "sha256": "70b77b9f0b3a73a5dad74ff86cc7dcf48055fb2bc31e87150a3bc80bac106769"
+    },
+    "src/data/seed/words_b2_unit02.json": {
+      "bytes": 6631,
+      "sha256": "95fea69c87f586e03b310f3ad16656159d257682e9dfa906c31eaf1870933039"
+    },
+    "src/data/seed/words_b2_unit03.json": {
+      "bytes": 6821,
+      "sha256": "a24af18f3872bf13790eb5710f1185cf46ced8aba780c504c6bc3e2736c8f845"
+    },
+    "src/data/seed/words_b2_unit04.json": {
+      "bytes": 6571,
+      "sha256": "d2e583ab64d590e16d3774021910a95229a84415f48f609c290c7796f46dbf92"
+    },
+    "src/data/seed/words_b2_unit05.json": {
+      "bytes": 6791,
+      "sha256": "10d9b8e70e90905e66b1aa241a9f1840c1774b2a21eddbf7a854ce7a53de4ab8"
+    },
+    "src/data/seed/words_b2_unit06.json": {
+      "bytes": 6926,
+      "sha256": "99e6527dd0b3317050647172ed3f311ac69364b154425792a6e5a36b25e27be4"
+    },
+    "src/data/seed/words_b2_unit07.json": {
+      "bytes": 6745,
+      "sha256": "4e682d97f18adabb982b7f192311edd9c700d442a864cb25a8f2cb051ed6cddc"
+    },
+    "src/data/seed/words_b2_unit08.json": {
+      "bytes": 6695,
+      "sha256": "6f6ceda83711f897485e26009d7d80cd542c1ae0a6ae421120363ea9e3b5a5fd"
+    },
+    "src/data/seed/words_b2_unit09.json": {
+      "bytes": 6677,
+      "sha256": "02124afad6d60bcc0d021cbe6c1561f02703c514784d236865861f4093c39363"
+    },
+    "src/data/seed/words_b2_unit10.json": {
+      "bytes": 6922,
+      "sha256": "aaa82df49e18a612646f61e591d6131e176ab72687cf3961e5989557fe35971c"
+    },
+    "src/data/seed/words_unit1.json": {
+      "bytes": 3853,
+      "sha256": "a6d0f96be5d21363e2ca4a0570983b71cce275b470788a0f5269609b4d2cab2f"
+    },
+    "src/data/seed/words_unit2.json": {
+      "bytes": 8119,
+      "sha256": "4305cf19d9683dd0b3098ffb35caa33297d6dc371a02dc98ddb9b904b5e689d8"
+    },
+    "src/data/seed/words_unit3.json": {
+      "bytes": 7222,
+      "sha256": "b7c637ffc7ac9cb0d47d05954cc662fbd3b31254083b9968643b2fe1e61b09a3"
+    },
+    "src/data/seed/words_unit4.json": {
+      "bytes": 9272,
+      "sha256": "3bb5a2d121e69c8ef1ce257c046b13e3e3125b1fd8e6a349781a7b6fe822269e"
+    },
+    "src/data/seedLoader.ts": {
+      "bytes": 11769,
+      "sha256": "fcfd7b6d603c6e90fadec9a34c786bf8a42d38a5d975310fce3667474aff94be"
+    },
+    "src/drills/attempts.ts": {
+      "bytes": 1904,
+      "sha256": "adcb2cf953179ce6561bf524fdc6ba3050598e3e48f2e4f0486488050f8d57e4"
+    },
+    "src/drills/items.ts": {
+      "bytes": 15617,
+      "sha256": "1fb6a063614b3009dacf91aca6eb205fe7339264fe4c6fc8cab13a59ead8c4ea"
+    },
+    "src/drills/session.ts": {
+      "bytes": 9443,
+      "sha256": "3d0a1dd7862c66f1f7bac6ef4eaeb1b9ccbdc7608799573b39996fb01cc0e2ea"
+    },
+    "src/lessons/answerMatch.ts": {
+      "bytes": 501,
+      "sha256": "b25b397501fcddabdd668ac02a0e9e1ace128fe3da1edcad63f29f733b7c07bb"
+    },
+    "src/lessons/checkpointResult.ts": {
+      "bytes": 2539,
+      "sha256": "f773467a83e00fc7db8d6a3df3d12995f73819f3aff7c3d509c8e5118550ff2c"
+    },
+    "src/lessons/checkpointStore.ts": {
+      "bytes": 1582,
+      "sha256": "7b789cf1012dfb92f54adec9d0a6361f9a90866f08e433ebffbb61b7d566bcd0"
+    },
+    "src/lessons/drillDraft.ts": {
+      "bytes": 1188,
+      "sha256": "0fbf11a540eb3e2cf6a69592e1290957d3d7f40ed460b349da1d598a37f2e77c"
+    },
+    "src/lessons/feedback.ts": {
+      "bytes": 644,
+      "sha256": "3c6903533b0fb4d0c90e0d8f543e1cdec21bb14ddf5d6eca0f6db24ec028d77d"
+    },
+    "src/lessons/objectives.ts": {
+      "bytes": 9149,
+      "sha256": "90de49490fd9e0cac147c4dd085731157c4281700dfe3435c61a08829b31f106"
+    },
+    "src/lessons/optionOrder.ts": {
+      "bytes": 2630,
+      "sha256": "5d9c4bd3d6403153f99b5f4a3eabea92d2b25e3d015435eb545d1d8fe78788fe"
+    },
+    "src/lessons/persistence.ts": {
+      "bytes": 1670,
+      "sha256": "d2608831e67329f9a200522a7bfa4f2b390e4bc3ca36185236150666ec82e614"
+    },
+    "src/lessons/practice.ts": {
+      "bytes": 3506,
+      "sha256": "b8b0d57b1aaf544fc171d00c3428f7de6e69d136b2555ea99200d01089cb7088"
+    },
+    "src/lessons/units.ts": {
+      "bytes": 2954,
+      "sha256": "6baa7041f8c3a0d2a3b93c2641e33e35aa84bcff7b277fc1ddd27ae80a04f7e0"
+    },
+    "src/main.tsx": {
+      "bytes": 238,
+      "sha256": "8f55009f27569355469b6c65ddd242e2b38aa30b7a070ee2e438f4909a47a233"
+    },
+    "src/reading/dictionary.ts": {
+      "bytes": 4472,
+      "sha256": "b30bb0b13cee3c70ededa6207385b89238dff484bb91cdd8e56a33123b417a0b"
+    },
+    "src/reading/texts.ts": {
+      "bytes": 3423,
+      "sha256": "0f3c64b8a30d1e65b3c7e7e14a4b03d2335925af2e27f51381affdec188e34d5"
+    },
+    "src/srs/answers.ts": {
+      "bytes": 2818,
+      "sha256": "928a0b478c8b54562e02216674dae07de1a4104406200b8298e88eafb784371d"
+    },
+    "src/srs/cards.ts": {
+      "bytes": 3683,
+      "sha256": "ff37defb4995575db5d08d11aff97519a2b8f7f69a04f5a97835069265ced0ea"
+    },
+    "src/srs/fsrs.ts": {
+      "bytes": 3683,
+      "sha256": "aa36af78d5387e1437ddcddf0d701a282604236f6378e67803f03d74194e72d8"
+    },
+    "src/srs/queue.ts": {
+      "bytes": 8381,
+      "sha256": "68ec2c3af6014991a08b8962bbb1885fa30d3ad1223b5c45656be0f8b3320c5a"
+    },
+    "src/srs/review.ts": {
+      "bytes": 4011,
+      "sha256": "9eb9b52774e3e284debc26bedd249936b730b20bb209b5ecb7edcf99a7bfa3cb"
+    },
+    "src/srs/session.ts": {
+      "bytes": 3350,
+      "sha256": "ad9c21432104abebb76ffd9da5991c9d825d71402bc6e0e0ca1c09434355ba2a"
+    },
+    "src/srs/tts.ts": {
+      "bytes": 11879,
+      "sha256": "772cf53730decccc25c21334c5c515abd66ff262388c16f83bb87888929a4b01"
+    },
+    "src/stats/dates.ts": {
+      "bytes": 2128,
+      "sha256": "e3e61697225d1121c969f87dbb9bbece3f4591986a52985f722f3d6939ead1da"
+    },
+    "src/stats/queries.ts": {
+      "bytes": 11763,
+      "sha256": "6e7950cbbecfb78fb46d2c472fd8fe6a5c7a8471cf1d8f25b8fa92a513bec994"
+    },
+    "src/stats/studyClock.ts": {
+      "bytes": 2126,
+      "sha256": "137908dc57617e0198a6c0454ce65315acade225607d829aaac6abe5054b9384"
+    },
+    "src/stores/backup.ts": {
+      "bytes": 8721,
+      "sha256": "eecefbf72b9d7ad4b794bbe88ee238dae7d88b1ea787f79204f695aff886dfff"
+    },
+    "src/stores/db.ts": {
+      "bytes": 985,
+      "sha256": "3b49c545992f131227dc2e49afc5f65b865d986c8122317d4d6eb31f5c89c595"
+    },
+    "src/stores/nav.ts": {
+      "bytes": 734,
+      "sha256": "6cc4416dad5ca42338bbfa22a8d66159998c917e137e302d67d69750026a174f"
+    },
+    "src/ui/FatalDatabase.tsx": {
+      "bytes": 4884,
+      "sha256": "ca633ba8ed16116a9be4198b0528446a6b40bc3592e1b21c841b551bb4bc41d0"
+    },
+    "src/ui/Layout.tsx": {
+      "bytes": 2117,
+      "sha256": "29f6a4a08254a2188552b2f071931982da981c3404e3cdecb56624dd4831c82a"
+    },
+    "src/ui/lessons/CheckpointRunner.tsx": {
+      "bytes": 17029,
+      "sha256": "cd7ae2e6e5075bb1643cc655c7df8564b40ed47f218503cd0b040726da198a83"
+    },
+    "src/ui/lessons/LessonRunner.tsx": {
+      "bytes": 19934,
+      "sha256": "76f04c5c98cde62d1621c9a722505f09e5fb285cf0afe25d2ec7e35b0ceee9da"
+    },
+    "src/ui/lessons/MiniDrill.tsx": {
+      "bytes": 10450,
+      "sha256": "a7203781714c63cea77b8a3685b2d8a731ccf1b5c51a00b6d68cb2314b0e6067"
+    },
+    "src/ui/pages/Drill.tsx": {
+      "bytes": 20966,
+      "sha256": "01953da639ec7dc9d8ac558a8b004bc131f60009bb63c4143329063fe70442d7"
+    },
+    "src/ui/pages/HariIni.tsx": {
+      "bytes": 15930,
+      "sha256": "a912c5809a9fc55327934a461dce6f041db97c8ebbe2539e3bb50ebefea0c45f"
+    },
+    "src/ui/pages/index.ts": {
+      "bytes": 1314,
+      "sha256": "4b1cad2b7900e841fe7e56fa5dbae0bfbfbbeeb40df11c1784b0bbd40d784232"
+    },
+    "src/ui/pages/Kosakata.tsx": {
+      "bytes": 35475,
+      "sha256": "0b18c076389218a8dbbc31feb01972c33cdd7750a0ca57f2f272b0567ccab694"
+    },
+    "src/ui/pages/Kurikulum.tsx": {
+      "bytes": 17451,
+      "sha256": "21b87fbfa63b53727d5d6dec5db554332bfddae930aa6008f441d5636f02dc51"
+    },
+    "src/ui/pages/Latihan.tsx": {
+      "bytes": 25827,
+      "sha256": "83d938676ade4bb29dc2dc282ef7a869d2ef35176a9259c3df8a855c3dc1bd1d"
+    },
+    "src/ui/pages/Membaca.tsx": {
+      "bytes": 22901,
+      "sha256": "acc9250be231c72b1d405238cd9d80af7d2032869b4371cf9b4e851984bccfd7"
+    },
+    "src/ui/pages/Pengaturan.tsx": {
+      "bytes": 24261,
+      "sha256": "ce6d9a182a3032b1ea5f89942db7baa9db90bab7fcf89ed17708fbda7213cb03"
+    },
+    "src/ui/pages/Statistik.tsx": {
+      "bytes": 22737,
+      "sha256": "e61fb90c368e77a0302631ab539731858416f339d5f61e795842a683fbe77078"
+    },
+    "src/ui/pages/UjiTiruan.tsx": {
+      "bytes": 28950,
+      "sha256": "525600d92863d07aef713ef3ff43cc8de35714c77078828ae1a3e4ef726387b7"
+    },
+    "src/ui/PageShell.tsx": {
+      "bytes": 832,
+      "sha256": "f482dae882f1ba62bc49b76aa5527dec583f4079b65b4fe72a8a1a7d269232dd"
+    },
+    "src/ui/review/ReviewCard.tsx": {
+      "bytes": 11120,
+      "sha256": "c3e5a1294dc8671349d0430a52cef90185c364a4ab43d821e7ddc62b64c58b57"
+    },
+    "src/vite-env.d.ts": {
+      "bytes": 39,
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92"
+    },
+    "src-tauri/capabilities/default.json": {
+      "bytes": 324,
+      "sha256": "67b433829655aa8c1940f12462e780a6a42bdff5fbb6aa68fdba89b7402a3790"
+    },
+    "src-tauri/Cargo.lock": {
+      "bytes": 141647,
+      "sha256": "c2a8561c1677099d66cf64aa16062077338e90b1dde443e0cdb72b21bee4c70e"
+    },
+    "src-tauri/Cargo.toml": {
+      "bytes": 1253,
+      "sha256": "f7f26524d8e7ecc67ae858d2c0e7ce2864070ead6909c5755ab2333f19a91ed5"
+    },
+    "src-tauri/src/lib.rs": {
+      "bytes": 57247,
+      "sha256": "af19e909fb36fe0460cbaecbd327061e1c3fb5d11a1f2d09f9f69f2b4d34b3fa"
+    },
+    "src-tauri/src/main.rs": {
+      "bytes": 191,
+      "sha256": "a5c5091f329f9d17bfbf04896dd10b0e5928528d33d0550fca46011114837e53"
+    },
+    "src-tauri/tauri.conf.json": {
+      "bytes": 1048,
+      "sha256": "ec9d3e4515382bc88eb84cc65329379f25df1550f67c5bf1b5df7c789c48b1e7"
+    },
+    "tsconfig.json": {
+      "bytes": 614,
+      "sha256": "9671b50541bcb0112d8914cf5f82c838fcaaa25bc3f14ab90cf40a49e929224e"
+    },
+    "tsconfig.node.json": {
+      "bytes": 223,
+      "sha256": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982"
+    },
+    "vite.config.ts": {
+      "bytes": 952,
+      "sha256": "abd8a0a560d67ca3e0adbb5fedf6764b3992e39d6a19c07fb7227835fdaf6bd2"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "dialog-16",
+  "title": "Der Weg zum Bahnhof",
+  "textId": 16,
+  "level": "A1",
+  "tags": "seed · A1 · unit 7 · kota",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "bahnhof": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "ticket": {
+        "kind": "prop"
+      },
+      "koffer": {
+        "kind": "prop"
+      },
+      "karte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+      "id": "Permisi, bagaimana cara saya pergi ke stasiun?",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Gehen Sie hier geradeaus.",
+      "id": "Silakan jalan lurus di sini.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "An der Ampel gehen Sie nach links.",
+      "id": "Di lampu lalu lintas, silakan belok kiri.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Der Bahnhof ist neben dem Hotel.",
+      "id": "Stasiunnya berada di sebelah hotel.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Vielen Dank für Ihre Hilfe!",
+      "id": "Terima kasih banyak atas bantuan Anda!",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+      "id": "Permisi, bagaimana cara saya pergi ke stasiun?",
+      "pose": "order",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": "a1_text_032.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "question"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Gehen Sie hier geradeaus.",
+      "id": "Silakan jalan lurus di sini.",
+      "pose": "reply",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": "a1_text_037.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "An der Ampel gehen Sie nach links.",
+      "id": "Di lampu lalu lintas, silakan belok kiri.",
+      "pose": "calm",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": "a1_text_010.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Der Bahnhof ist neben dem Hotel.",
+      "id": "Stasiunnya berada di sebelah hotel.",
+      "pose": "offscreen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": "a1_text_017.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Vielen Dank für Ihre Hilfe!",
+      "id": "Terima kasih banyak atas bantuan Anda!",
+      "pose": "reply",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": "a1_text_089.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

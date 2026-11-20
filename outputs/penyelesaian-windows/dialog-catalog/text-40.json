@@ -1,0 +1,206 @@
+{
+  "id": "dialog-40",
+  "title": "Ein gesünderer Alltag",
+  "textId": 40,
+  "level": "B1",
+  "tags": "seed · B1 · unit 2",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit einem Jahr lebe ich gesünder.",
+      "id": "Sejak setahun lalu saya hidup lebih sehat.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich achte auf meine Ernährung und koche selbst.",
+      "id": "Saya memperhatikan pola makan dan memasak sendiri.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Außerdem versuche ich, jeden Tag zu laufen.",
+      "id": "Selain itu saya berusaha berlari setiap hari.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Wenn ich gestresst wäre, würde ich mehr Sport machen.",
+      "id": "Kalau saya stres, saya akan lebih banyak olahraga.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Auf Zucker verzichte ich fast ganz.",
+      "id": "Gula hampir sepenuhnya saya hindari.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Guter Schlaf ist für mich genauso wichtig wie Bewegung.",
+      "id": "Tidur yang baik sama pentingnya bagi saya dengan olahraga.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Seit einem Jahr lebe ich gesünder.",
+      "id": "Sejak setahun lalu saya hidup lebih sehat.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "nachbarin",
+      "de": "Ich achte auf meine Ernährung und koche selbst.",
+      "id": "Saya memperhatikan pola makan dan memasak sendiri.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "kollege",
+      "de": "Außerdem versuche ich, jeden Tag zu laufen.",
+      "id": "Selain itu saya berusaha berlari setiap hari.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Wenn ich gestresst wäre, würde ich mehr Sport machen.",
+      "id": "Kalau saya stres, saya akan lebih banyak olahraga.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "nachbarin",
+      "de": "Auf Zucker verzichte ich fast ganz.",
+      "id": "Gula hampir sepenuhnya saya hindari.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollege",
+      "de": "Guter Schlaf ist für mich genauso wichtig wie Bewegung.",
+      "id": "Tidur yang baik sama pentingnya bagi saya dengan olahraga.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

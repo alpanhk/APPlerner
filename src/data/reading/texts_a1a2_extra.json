@@ -1,0 +1,210 @@
+{
+  "level": "A1-A2",
+  "source": "Teks pendek orisinal tambahan beracuan Goethe A1/A2; ditulis untuk melengkapi pustaka MVP",
+  "texts": [
+    {
+      "title": "Im Kleidungsgeschäft",
+      "level": "A1",
+      "tags": "seed · A1 · unit 5 · belanja",
+      "sentences": [
+        { "de": "Mira sucht eine blaue Jacke.", "id": "Mira mencari jaket biru." },
+        { "de": "Die Jacke kostet sechzig Euro.", "id": "Jaket itu harganya enam puluh euro." },
+        { "de": "Sie probiert die Jacke an.", "id": "Dia mencoba jaket itu." },
+        { "de": "Die Ärmel sind ein bisschen lang.", "id": "Lengan jaketnya sedikit panjang." },
+        { "de": "Mira kauft die Jacke an der Kasse.", "id": "Mira membeli jaket itu di kasir." }
+      ]
+    },
+    {
+      "title": "Ein Geschenk für Tom",
+      "level": "A1",
+      "tags": "seed · A1 · unit 5 · belanja",
+      "sentences": [
+        { "de": "Heute hat Leila Geburtstag.", "id": "Hari ini Leila berulang tahun." },
+        { "de": "Tom möchte ein Geschenk kaufen.", "id": "Tom ingin membeli hadiah." },
+        { "de": "Er nimmt ein Buch und eine Karte.", "id": "Dia mengambil sebuah buku dan sebuah kartu." },
+        { "de": "Das Buch kostet zwölf Euro.", "id": "Buku itu harganya dua belas euro." },
+        { "de": "Leila freut sich über das Geschenk.", "id": "Leila senang menerima hadiah itu." }
+      ]
+    },
+    {
+      "title": "Unsere neue Wohnung",
+      "level": "A1",
+      "tags": "seed · A1 · unit 6 · rumah",
+      "sentences": [
+        { "de": "Unsere Wohnung hat drei Zimmer.", "id": "Apartemen kami mempunyai tiga kamar." },
+        { "de": "Die Küche ist klein, aber hell.", "id": "Dapurnya kecil, tetapi terang." },
+        { "de": "Im Wohnzimmer stehen ein Tisch und ein Sofa.", "id": "Di ruang keluarga ada sebuah meja dan sofa." },
+        { "de": "Mein Bruder schläft im Zimmer neben der Küche.", "id": "Saudara laki-laki saya tidur di kamar di sebelah dapur." },
+        { "de": "Am Samstag räumen wir zusammen auf.", "id": "Pada hari Sabtu kami beres-beres bersama." }
+      ]
+    },
+    {
+      "title": "Ein ruhiger Abend zu Hause",
+      "level": "A1",
+      "tags": "seed · A1 · unit 6 · rumah",
+      "sentences": [
+        { "de": "Nach der Arbeit bin ich zu Hause.", "id": "Setelah bekerja saya berada di rumah." },
+        { "de": "Ich mache das Fenster auf.", "id": "Saya membuka jendela." },
+        { "de": "Dann koche ich eine Suppe.", "id": "Lalu saya memasak sup." },
+        { "de": "Mein Nachbar bringt frisches Brot.", "id": "Tetangga saya membawa roti segar." },
+        { "de": "Wir essen zusammen und sprechen über den Tag.", "id": "Kami makan bersama dan berbicara tentang hari ini." }
+      ]
+    },
+    {
+      "title": "Der Weg zum Bahnhof",
+      "level": "A1",
+      "tags": "seed · A1 · unit 7 · kota",
+      "sentences": [
+        { "de": "Entschuldigung, wie komme ich zum Bahnhof?", "id": "Permisi, bagaimana cara saya pergi ke stasiun?" },
+        { "de": "Gehen Sie hier geradeaus.", "id": "Silakan jalan lurus di sini." },
+        { "de": "An der Ampel gehen Sie nach links.", "id": "Di lampu lalu lintas, silakan belok kiri." },
+        { "de": "Der Bahnhof ist neben dem Hotel.", "id": "Stasiunnya berada di sebelah hotel." },
+        { "de": "Vielen Dank für Ihre Hilfe!", "id": "Terima kasih banyak atas bantuan Anda!" }
+      ]
+    },
+    {
+      "title": "Ein Nachmittag im Park",
+      "level": "A1",
+      "tags": "seed · A1 · unit 7 · kota",
+      "sentences": [
+        { "de": "Der Park liegt zwischen der Schule und dem Museum.", "id": "Taman itu berada di antara sekolah dan museum." },
+        { "de": "Wir gehen zu Fuß dorthin.", "id": "Kami berjalan kaki ke sana." },
+        { "de": "Die Kinder spielen auf dem Spielplatz.", "id": "Anak-anak bermain di taman bermain." },
+        { "de": "Meine Freundin liest auf einer Bank.", "id": "Teman perempuan saya membaca di sebuah bangku." },
+        { "de": "Um sechs Uhr fahren wir mit dem Bus nach Hause.", "id": "Pukul enam kami naik bus pulang." }
+      ]
+    },
+    {
+      "title": "Mein erster Arbeitstag",
+      "level": "A1",
+      "tags": "seed · A1 · unit 8 · pekerjaan",
+      "sentences": [
+        { "de": "Am Montag beginnt mein neuer Job.", "id": "Pada hari Senin pekerjaan baru saya dimulai." },
+        { "de": "Ich stehe um sechs Uhr auf.", "id": "Saya bangun pukul enam." },
+        { "de": "Um halb acht fahre ich ins Büro.", "id": "Pukul setengah delapan saya berangkat ke kantor." },
+        { "de": "Meine Kolleginnen sind sehr freundlich.", "id": "Rekan-rekan kerja perempuan saya sangat ramah." },
+        { "de": "Nach der Arbeit kaufe ich noch Brot.", "id": "Sepulang kerja saya membeli roti." }
+      ]
+    },
+    {
+      "title": "Ein Termin beim Arzt",
+      "level": "A1",
+      "tags": "seed · A1 · unit 9 · kesehatan",
+      "sentences": [
+        { "de": "Rudi hat seit gestern Kopfschmerzen.", "id": "Rudi sakit kepala sejak kemarin." },
+        { "de": "Er ruft die Arztpraxis an.", "id": "Dia menelepon tempat praktik dokter." },
+        { "de": "Die Ärztin fragt: Was fehlt Ihnen?", "id": "Dokter perempuan bertanya: Apa keluhan Anda?" },
+        { "de": "Rudi soll viel Wasser trinken und sich ausruhen.", "id": "Rudi sebaiknya banyak minum air dan beristirahat." },
+        { "de": "Am nächsten Tag geht es ihm besser.", "id": "Keesokan harinya keadaannya membaik." }
+      ]
+    },
+    {
+      "title": "Ein Wochenende ohne Stress",
+      "level": "A2",
+      "tags": "seed · A2 · hobi · akhir pekan",
+      "sentences": [
+        { "de": "Am Samstag muss Dimas nicht arbeiten.", "id": "Pada hari Sabtu Dimas tidak harus bekerja." },
+        { "de": "Er schläft lange und frühstückt auf dem Balkon.", "id": "Dia tidur sampai siang dan sarapan di balkon." },
+        { "de": "Danach trifft er seine Freunde im Stadtzentrum.", "id": "Setelah itu dia bertemu teman-temannya di pusat kota." },
+        { "de": "Sie besuchen eine Ausstellung, weil sie sich für Fotografie interessieren.", "id": "Mereka mengunjungi pameran karena tertarik pada fotografi." },
+        { "de": "Am Abend kochen sie gemeinsam und hören Musik.", "id": "Malam harinya mereka memasak bersama dan mendengarkan musik." }
+      ]
+    },
+    {
+      "title": "Musik und Bewegung",
+      "level": "A2",
+      "tags": "seed · A2 · hobi · musik",
+      "sentences": [
+        { "de": "Nina hört gern Musik, wenn sie mit dem Bus fährt.", "id": "Nina senang mendengarkan musik saat naik bus." },
+        { "de": "Seit einem Jahr spielt sie auch Gitarre.", "id": "Dia juga sudah bermain gitar selama setahun." },
+        { "de": "Am Dienstag übt sie mit ihrer Freundin.", "id": "Pada hari Selasa dia berlatih bersama teman perempuannya." },
+        { "de": "Manchmal gehen beide danach zum Tanzkurs.", "id": "Kadang-kadang mereka berdua pergi ke kelas menari setelah itu." },
+        { "de": "Bewegung tut ihnen gut und macht Spaß.", "id": "Bergerak membuat mereka merasa lebih sehat dan senang." }
+      ]
+    },
+    {
+      "title": "Mit dem Zug nach Hamburg",
+      "level": "A2",
+      "tags": "seed · A2 · unit 11 · perjalanan",
+      "sentences": [
+        { "de": "Am Freitag fährt Arif mit dem Zug nach Hamburg.", "id": "Pada hari Jumat Arif pergi ke Hamburg naik kereta." },
+        { "de": "Er hat die Fahrkarte schon im Internet gekauft.", "id": "Dia sudah membeli tiket kereta di internet." },
+        { "de": "Der Zug hat zehn Minuten Verspätung.", "id": "Kereta itu terlambat sepuluh menit." },
+        { "de": "Während der Fahrt liest Arif einen Reiseführer.", "id": "Selama perjalanan Arif membaca buku panduan wisata." },
+        { "de": "Am Bahnhof holt ihn seine Cousine ab.", "id": "Sepupunya menjemputnya di stasiun." }
+      ]
+    },
+    {
+      "title": "Ein Tag am Meer",
+      "level": "A2",
+      "tags": "seed · A2 · unit 11 · liburan",
+      "sentences": [
+        { "de": "Im Sommer verbringen wir eine Woche an der Ostsee.", "id": "Pada musim panas kami menghabiskan seminggu di Laut Baltik." },
+        { "de": "Morgens gehen wir am Strand spazieren.", "id": "Pagi hari kami berjalan-jalan di pantai." },
+        { "de": "Wenn die Sonne scheint, schwimmen die Kinder im Meer.", "id": "Jika matahari bersinar, anak-anak berenang di laut." },
+        { "de": "Bei schlechtem Wetter besuchen wir ein kleines Museum.", "id": "Saat cuaca buruk kami mengunjungi museum kecil." },
+        { "de": "Die Reise war erholsam, obwohl die Anfahrt lang war.", "id": "Liburannya menyenangkan, meskipun perjalanan ke sana lama." }
+      ]
+    },
+    {
+      "title": "Eine Einladung zum Abendessen",
+      "level": "A2",
+      "tags": "seed · A2 · unit 12 · janji",
+      "sentences": [
+        { "de": "Sari lädt ihre Nachbarn zum Abendessen ein.", "id": "Sari mengundang tetangganya untuk makan malam." },
+        { "de": "Sie schreibt die Einladung in eine Nachricht.", "id": "Dia menulis undangannya dalam sebuah pesan." },
+        { "de": "Ihre Nachbarn fragen, ob sie etwas mitbringen sollen.", "id": "Tetangganya bertanya apakah mereka perlu membawa sesuatu." },
+        { "de": "Sari bittet sie, einen Salat mitzubringen.", "id": "Sari meminta mereka membawa salad." },
+        { "de": "Um halb sieben klingeln die Gäste an der Tür.", "id": "Pukul setengah tujuh para tamu membunyikan bel pintu." }
+      ]
+    },
+    {
+      "title": "Eine Nachricht für den Chef",
+      "level": "A2",
+      "tags": "seed · A2 · unit 12 · komunikasi",
+      "sentences": [
+        { "de": "Bima kann heute nicht ins Büro kommen.", "id": "Bima tidak bisa datang ke kantor hari ini." },
+        { "de": "Er schreibt seinem Chef eine kurze Nachricht.", "id": "Dia menulis pesan singkat kepada atasannya." },
+        { "de": "Er erklärt, dass sein Zug ausgefallen ist.", "id": "Dia menjelaskan bahwa keretanya dibatalkan." },
+        { "de": "Sein Chef antwortet sofort und wünscht ihm eine gute Fahrt.", "id": "Atasannya segera membalas dan mendoakan perjalanan yang lancar." },
+        { "de": "Bima kommt am nächsten Morgen pünktlich.", "id": "Bima datang tepat waktu keesokan paginya." }
+      ]
+    },
+    {
+      "title": "Ein Tag auf dem Markt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 5 · belanja",
+      "sentences": [
+        { "de": "Auf dem Wochenmarkt kauft Lani frisches Gemüse.", "id": "Di pasar mingguan Lani membeli sayuran segar." },
+        { "de": "Der Verkäufer wiegt ein Kilo Tomaten ab.", "id": "Penjual menimbang satu kilogram tomat." },
+        { "de": "Lani fragt, ob die Äpfel aus der Region kommen.", "id": "Lani bertanya apakah apel-apel itu berasal dari daerah setempat." },
+        { "de": "Sie bezahlt bar und bekommt das Wechselgeld zurück.", "id": "Dia membayar tunai dan menerima kembaliannya." },
+        { "de": "Zu Hause kocht sie aus dem Gemüse eine Suppe.", "id": "Di rumah dia memasak sup dari sayuran itu." }
+      ]
+    },
+    {
+      "title": "Die Heizung ist kaputt",
+      "level": "A2",
+      "tags": "seed · A2 · rumah · layanan",
+      "sentences": [
+        { "de": "Im Winter funktioniert die Heizung im Schlafzimmer nicht.", "id": "Pada musim dingin pemanas di kamar tidur tidak berfungsi." },
+        { "de": "Frau Berger ruft den Hausmeister an.", "id": "Ibu Berger menelepon pengelola gedung." },
+        { "de": "Er kommt am Nachmittag vorbei und prüft den Heizkörper.", "id": "Dia datang pada sore hari dan memeriksa radiator." },
+        { "de": "Ein kleines Ersatzteil fehlt, deshalb muss er noch einmal kommen.", "id": "Satu suku cadang kecil tidak ada, karena itu dia harus datang lagi." },
+        { "de": "Am Abend ist das Zimmer wieder warm.", "id": "Pada malam hari kamar itu kembali hangat." }
+      ]
+    },
+    {
+      "title": "Ein Arzttermin am Morgen",
+      "level": "A2",
+      "tags": "seed · A2 · kesehatan · janji",
+      "sentences": [
+        { "de": "Vor dem Termin füllt Jonas ein Formular aus.", "id": "Sebelum janji, Jonas mengisi sebuah formulir." },
+        { "de": "Die Ärztin fragt ihn nach seinen Beschwerden.", "id": "Dokter perempuan itu menanyakan keluhannya." },
+        { "de": "Jonas erklärt, dass sein Rücken seit einer Woche weh tut.", "id": "Jonas menjelaskan bahwa punggungnya sakit sejak seminggu lalu." },
+        { "de": "Die Ärztin empfiehlt leichte Bewegung und eine Pause am Arbeitsplatz.", "id": "Dokter menyarankan gerakan ringan dan istirahat di tempat kerja." },
+        { "de": "Jonas vereinbart in zwei Wochen einen Kontrolltermin.", "id": "Jonas membuat janji pemeriksaan ulang dua minggu lagi." }
+      ]
+    }
+  ]
+}

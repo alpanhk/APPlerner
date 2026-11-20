@@ -1,0 +1,229 @@
+{
+  "unit": 301,
+  "level": "B2",
+  "theme": "Arbeitswelt im Wandel",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Wandel",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "perubahan (bertahap)",
+      "example_de": "Der Wandel der Arbeitswelt ist deutlich.",
+      "example_id": "Perubahan dunia kerja terlihat jelas.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Globalisierung",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "globalisasi",
+      "example_de": "Die Globalisierung bringt Chancen und Risiken.",
+      "example_id": "Globalisasi membawa peluang dan risiko.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Digitalisierung",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "digitalisasi",
+      "example_de": "Die Digitalisierung betrifft alle Branchen.",
+      "example_id": "Digitalisasi menyentuh semua sektor.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Automatisierung",
+      "article": "die",
+      "plural": "die Automatisierungen",
+      "meaning_id": "otomatisasi",
+      "example_de": "Die Automatisierung ersetzt einfache Aufgaben.",
+      "example_id": "Otomatisasi menggantikan tugas sederhana.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Fachkraft",
+      "article": "die",
+      "plural": "die Fachkräfte",
+      "meaning_id": "tenaga ahli",
+      "example_de": "Fachkräfte werden gesucht.",
+      "example_id": "Tenaga ahli dicari.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Qualifikation",
+      "article": "die",
+      "plural": "die Qualifikationen",
+      "meaning_id": "kualifikasi",
+      "example_de": "Gute Qualifikationen sind wichtig.",
+      "example_id": "Kualifikasi yang baik itu penting.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Weiterbildung",
+      "article": "die",
+      "plural": "die Weiterbildungen",
+      "meaning_id": "pendidikan lanjutan",
+      "example_de": "Weiterbildung ist heute notwendig.",
+      "example_id": "Pendidikan lanjutan kini diperlukan.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Betrieb",
+      "article": "der",
+      "plural": "die Betriebe",
+      "meaning_id": "perusahaan operasional",
+      "example_de": "Der Betrieb stellt neue Leute ein.",
+      "example_id": "Perusahaannya merekrut orang baru.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewerkschaft",
+      "article": "die",
+      "plural": "die Gewerkschaften",
+      "meaning_id": "serikat pekerja",
+      "example_de": "Die Gewerkschaft fordert mehr Lohn.",
+      "example_id": "Serikat pekerja menuntut upah lebih tinggi.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsmarkt",
+      "article": "der",
+      "plural": "die Arbeitsmärkte",
+      "meaning_id": "pasar kerja",
+      "example_de": "Der Arbeitsmarkt ist angespannt.",
+      "example_id": "Pasar kerjanya ketat.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "verb",
+      "de": "sich verändern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berubah",
+      "example_de": "Die Arbeit verändert sich stark.",
+      "example_id": "Pekerjaan berubah drastis.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "adj",
+      "de": "wettbewerbsfähig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kompetitif",
+      "example_de": "Wir müssen wettbewerbsfähig bleiben.",
+      "example_id": "Kita harus tetap kompetitif.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Tarifvertrag",
+      "article": "der",
+      "plural": "die Tarifverträge",
+      "meaning_id": "perjanjian kerja bersama",
+      "example_de": "Der Tarifvertrag gilt ab Januar.",
+      "example_id": "Perjanjian kerjanya berlaku Januari.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Betriebsrat",
+      "article": "der",
+      "plural": "die Betriebsräte",
+      "meaning_id": "dewan pekerja",
+      "example_de": "Der Betriebsrat wurde gewählt.",
+      "example_id": "Dewan pekerja sudah dipilih.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitbestimmung",
+      "article": "die",
+      "plural": "die Mitbestimmungen",
+      "meaning_id": "keputusan bersama",
+      "example_de": "Mitbestimmung stärkt die Belegschaft.",
+      "example_id": "Keputusan bersama memperkuat karyawan.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Teilzeit",
+      "article": "die",
+      "plural": "die Teilzeiten",
+      "meaning_id": "kerja paruh waktu",
+      "example_de": "Viele arbeiten in Teilzeit.",
+      "example_id": "Banyak orang bekerja paruh waktu.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Produktivität",
+      "article": "die",
+      "plural": "die Produktivitäten",
+      "meaning_id": "produktivitas",
+      "example_de": "Die Produktivität ist gestiegen.",
+      "example_id": "Produktivitasnya naik.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Leiharbeit",
+      "article": "die",
+      "plural": "die Leiharbeiten",
+      "meaning_id": "kerja kontrak",
+      "example_de": "Leiharbeit ist umstritten.",
+      "example_id": "Kerja kontraknya kontroversial.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vollzeit",
+      "article": "die",
+      "plural": "die Vollzeiten",
+      "meaning_id": "kerja penuh waktu",
+      "example_de": "Er arbeitet in Vollzeit.",
+      "example_id": "Dia bekerja penuh waktu.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Homeoffice",
+      "article": "das",
+      "plural": "die Homeoffices",
+      "meaning_id": "kerja dari rumah",
+      "example_de": "Homeoffice ist heute üblich.",
+      "example_id": "Kerja dari rumah kini umum.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Fachkräftemangel",
+      "article": "der",
+      "plural": "die Fachkräftemängel",
+      "meaning_id": "kekurangan tenaga ahli",
+      "example_de": "Der Fachkräftemangel wächst.",
+      "example_id": "Kekurangan tenaga ahli meningkat.",
+      "tags": "b2,unit1,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Umstrukturierung",
+      "article": "die",
+      "plural": "die Umstrukturierungen",
+      "meaning_id": "restrukturisasi",
+      "example_de": "Die Umstrukturierung kostet Stellen.",
+      "example_id": "Restrukturisasi menghilangkan posisi.",
+      "tags": "b2,unit1,arbeit"
+    }
+  ]
+}

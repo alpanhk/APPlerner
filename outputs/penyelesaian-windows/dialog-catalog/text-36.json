@@ -1,0 +1,206 @@
+{
+  "id": "dialog-36",
+  "title": "Ohne Handy",
+  "textId": 36,
+  "level": "A2",
+  "tags": "seed · A2 · unit 8",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Gestern war mein Handy kaputt.",
+      "id": "Kemarin ponsel saya rusak.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich konnte keine Nachrichten lesen und keine E-Mails senden.",
+      "id": "Saya tidak bisa membaca pesan dan tidak bisa mengirim surel.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Mein Passwort hatte ich auch vergessen.",
+      "id": "Kata sandi saya juga lupa.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ich weiß nicht, ob ich die App neu installieren muss.",
+      "id": "Saya tidak tahu apakah saya harus memasang ulang aplikasinya.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Abend habe ich endlich den Computer benutzt.",
+      "id": "Malamnya akhirnya saya memakai komputer.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Ich glaube, dass ich mich zu sehr auf das Handy verlasse.",
+      "id": "Saya rasa saya terlalu bergantung pada ponsel.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Gestern war mein Handy kaputt.",
+      "id": "Kemarin ponsel saya rusak.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Ich konnte keine Nachrichten lesen und keine E-Mails senden.",
+      "id": "Saya tidak bisa membaca pesan dan tidak bisa mengirim surel.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Mein Passwort hatte ich auch vergessen.",
+      "id": "Kata sandi saya juga lupa.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "lehrerin",
+      "de": "Ich weiß nicht, ob ich die App neu installieren muss.",
+      "id": "Saya tidak tahu apakah saya harus memasang ulang aplikasinya.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Am Abend habe ich endlich den Computer benutzt.",
+      "id": "Malamnya akhirnya saya memakai komputer.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "freundin",
+      "de": "Ich glaube, dass ich mich zu sehr auf das Handy verlasse.",
+      "id": "Saya rasa saya terlalu bergantung pada ponsel.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

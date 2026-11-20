@@ -1,0 +1,202 @@
+{
+  "id": "dialog-06",
+  "title": "Der Wochenmarkt",
+  "textId": 6,
+  "level": "A1",
+  "tags": "seed · unit 2 · harga",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop"
+      },
+      "kuchen": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Samstag gehe ich auf den Wochenmarkt.",
+      "id": "Hari Sabtu saya pergi ke pasar mingguan.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ein Kilo Äpfel kostet drei Euro.",
+      "id": "Satu kilo apel harganya tiga euro.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Der Käse ist heute billig.",
+      "id": "Kejunya hari ini murah.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ich kaufe Brot und Tomaten.",
+      "id": "Saya membeli roti dan tomat.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Das kostet zusammen sechs Euro fünfzig.",
+      "id": "Itu semuanya enam euro lima puluh.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Ich zahle mit Karte.",
+      "id": "Saya membayar dengan kartu.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Am Samstag gehe ich auf den Wochenmarkt.",
+      "id": "Hari Sabtu saya pergi ke pasar mingguan.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_005.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Ein Kilo Äpfel kostet drei Euro.",
+      "id": "Satu kilo apel harganya tiga euro.",
+      "pose": "reply",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_031.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Der Käse ist heute billig.",
+      "id": "Kejunya hari ini murah.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_021.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Ich kaufe Brot und Tomaten.",
+      "id": "Saya membeli roti dan tomat.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_046.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Das kostet zusammen sechs Euro fünfzig.",
+      "id": "Itu semuanya enam euro lima puluh.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_016.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Ich zahle mit Karte.",
+      "id": "Saya membayar dengan kartu.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_054.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

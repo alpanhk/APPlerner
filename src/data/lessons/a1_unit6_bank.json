@@ -1,0 +1,367 @@
+{
+  "level": "A1",
+  "unit": 6,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 6. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u6-o1-01",
+      "objectiveId": "a1-u6-o1",
+      "code": "D1",
+      "prompt": "___ Teppich ist neu.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Der", "Die", "Das", "Den"],
+      "answer": "Der",
+      "wrongFeedback": {
+        "Die": "Die dipakai untuk kata feminin atau jamak; Teppich maskulin.",
+        "Das": "Das dipakai untuk kata netral; Teppich maskulin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Teppich menjadi subjek nominatif."
+      },
+      "explanation": "der Teppich. Kata Teppich maskulin."
+    },
+    {
+      "id": "u6-o1-02",
+      "objectiveId": "a1-u6-o1",
+      "code": "D1",
+      "prompt": "___ Gardine ist hell.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Die", "Der", "Das", "Den"],
+      "answer": "Die",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk kata maskulin; Gardine feminin.",
+        "Das": "Das dipakai untuk kata netral; Gardine feminin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Gardine menjadi subjek nominatif."
+      },
+      "explanation": "die Gardine. Kata Gardine feminin."
+    },
+    {
+      "id": "u6-o1-03",
+      "objectiveId": "a1-u6-o1",
+      "code": "D1",
+      "prompt": "Artikel yang tepat untuk 'Möbelstück' adalah ...",
+      "sub": "Pilih artikel nominatif.",
+      "mode": "choice",
+      "options": ["das", "der", "die", "den"],
+      "answer": "das",
+      "wrongFeedback": {
+        "der": "der dipakai untuk kata maskulin; Möbelstück netral.",
+        "die": "die dipakai untuk kata feminin atau jamak; Möbelstück netral.",
+        "den": "den adalah bentuk Akkusativ maskulin; Möbelstück netral nominatif."
+      },
+      "explanation": "das Möbelstück. Bentuk jamaknya die Möbelstücke."
+    },
+    {
+      "id": "u6-o1-04",
+      "objectiveId": "a1-u6-o1",
+      "code": "D1",
+      "prompt": "Tulis plural dari 'die Küche' dengan artikelnya.",
+      "sub": "Ketik artikel dan bentuk pluralnya.",
+      "mode": "type",
+      "answer": "die Küchen",
+      "hintOnWrong": "Plural die Küche adalah die Küchen; semua plural memakai die.",
+      "explanation": "die Küche → die Küchen. Akhiran -n dipakai untuk banyak kata feminin."
+    },
+    {
+      "id": "u6-o1-05",
+      "objectiveId": "a1-u6-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Dapur itu kecil.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Die", "Küche", "ist", "klein."],
+      "answer": "Die Küche ist klein.",
+      "hintOnWrong": "Mulai dengan Die Küche, lalu ist, lalu klein.",
+      "explanation": "Die Küche ist klein. Kata sifat setelah sein tetap bentuk dasar."
+    },
+    {
+      "id": "u6-o2-01",
+      "objectiveId": "a1-u6-o2",
+      "code": "D4",
+      "prompt": "Es gibt ___ Keller.",
+      "sub": "Pilih Akkusativ untuk Keller.",
+      "mode": "choice",
+      "options": ["einen", "ein", "eine", "einer"],
+      "answer": "einen",
+      "wrongFeedback": {
+        "ein": "ein adalah bentuk nominatif maskulin/netral; setelah es gibt objeknya Akkusativ.",
+        "eine": "eine dipakai untuk kata feminin; Keller maskulin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "Keller maskulin dan menjadi objek es gibt, jadi Akkusativ: einen Keller."
+    },
+    {
+      "id": "u6-o2-02",
+      "objectiveId": "a1-u6-o2",
+      "code": "D4",
+      "prompt": "Es gibt ___ Waschmaschine.",
+      "sub": "Pilih Akkusativ untuk Waschmaschine.",
+      "mode": "choice",
+      "options": ["eine", "einen", "ein", "einer"],
+      "answer": "eine",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Waschmaschine feminin.",
+        "ein": "ein dipakai untuk kata netral atau nominatif maskulin; Waschmaschine feminin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ."
+      },
+      "explanation": "Waschmaschine feminin; bentuk Akkusativ feminin tetap eine: eine Waschmaschine."
+    },
+    {
+      "id": "u6-o2-03",
+      "objectiveId": "a1-u6-o2",
+      "code": "D4",
+      "prompt": "Es gibt ___ Bücherregal.",
+      "sub": "Pilih Akkusativ untuk Bücherregal.",
+      "mode": "choice",
+      "options": ["ein", "einen", "eine", "einer"],
+      "answer": "ein",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Bücherregal netral.",
+        "eine": "eine dipakai untuk kata feminin; Bücherregal netral.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ netral."
+      },
+      "explanation": "Bücherregal netral; bentuk Akkusativ netral tetap ein: ein Bücherregal."
+    },
+    {
+      "id": "u6-o2-04",
+      "objectiveId": "a1-u6-o2",
+      "code": "D2",
+      "prompt": "Lengkapi: Es gibt zwei ___ . (Briefkasten)",
+      "sub": "Ketik bentuk plural dari Briefkasten.",
+      "mode": "type",
+      "answer": "Briefkästen",
+      "altAnswers": ["Briefkaesten", "briefkästen", "briefkaesten"],
+      "hintOnWrong": "Plural der Briefkasten adalah die Briefkästen: umlaut pada a dan akhiran -en.",
+      "explanation": "Es gibt zwei Briefkästen. Plural Briefkasten → Briefkästen."
+    },
+    {
+      "id": "u6-o2-05",
+      "objectiveId": "a1-u6-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Di apartemen kami ada dapur.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["In", "unserer", "Wohnung", "gibt", "es", "eine", "Küche."],
+      "answer": "In unserer Wohnung gibt es eine Küche.",
+      "hintOnWrong": "Mulai dengan In unserer Wohnung, lalu gibt es, lalu eine Küche.",
+      "explanation": "In unserer Wohnung gibt es eine Küche. es gibt diikuti Akkusativ eine Küche."
+    },
+    {
+      "id": "u6-o3-01",
+      "objectiveId": "a1-u6-o3",
+      "code": "D9",
+      "prompt": "Die Zeitung liegt flach ___ dem Sofa.",
+      "sub": "Pilih preposisi letak yang tepat untuk benda yang tergeletak di permukaan.",
+      "mode": "choice",
+      "options": ["auf", "in", "an", "unter"],
+      "answer": "auf",
+      "wrongFeedback": {
+        "in": "in berarti 'di dalam'; koran tergeletak di permukaan sofa, bukan di dalamnya.",
+        "an": "an dem Sofa berarti menempel di sisi/bagian tegak sofa; koran yang tergeletak datar memakai auf.",
+        "unter": "unter berarti 'di bawah'; koran berada di atas permukaan sofa."
+      },
+      "explanation": "auf dem Sofa = di atas permukaan sofa. Posisi datar di permukaan memakai auf + Dativ."
+    },
+    {
+      "id": "u6-o3-02",
+      "objectiveId": "a1-u6-o3",
+      "code": "D9",
+      "prompt": "Die Waschmaschine ___ im Keller.",
+      "sub": "Pilih verba yang tepat untuk benda yang berdiri.",
+      "mode": "choice",
+      "options": ["steht", "liegt", "stehen", "liegen"],
+      "answer": "steht",
+      "wrongFeedback": {
+        "liegt": "liegen dipakai untuk benda yang terbaring; mesin cuci berdiri.",
+        "stehen": "stehen dipakai untuk subjek jamak; Die Waschmaschine tunggal.",
+        "liegen": "liegen dipakai untuk subjek jamak yang terbaring; mesin cuci tunggal dan berdiri."
+      },
+      "explanation": "Die Waschmaschine steht im Keller. Benda yang berdiri memakai stehen."
+    },
+    {
+      "id": "u6-o3-03",
+      "objectiveId": "a1-u6-o3",
+      "code": "D9",
+      "prompt": "Der Teppich liegt ___ Flur.",
+      "sub": "Pilih bentuk in + Dativ untuk Flur.",
+      "mode": "choice",
+      "options": ["im", "in der", "am", "auf"],
+      "answer": "im",
+      "wrongFeedback": {
+        "in der": "in der dipakai untuk kata feminin; Flur maskulin.",
+        "am": "am berarti 'di tepi'; karpet berada di dalam lorong.",
+        "auf": "auf berarti 'di atas'; karpet berada di dalam lorong."
+      },
+      "explanation": "Flur maskulin; in + dem = im: Der Teppich liegt im Flur."
+    },
+    {
+      "id": "u6-o3-04",
+      "objectiveId": "a1-u6-o3",
+      "code": "D9",
+      "prompt": "Lengkapi: Das Bild hängt ___ Wand. (an + Dativ)",
+      "sub": "Ketik preposisi dan artikel Dativ yang benar.",
+      "mode": "type",
+      "answer": "an der",
+      "altAnswers": ["An der"],
+      "hintOnWrong": "Wand feminin; an + der = an der Wand. Gambar menempel di dinding.",
+      "explanation": "Das Bild hängt an der Wand. an + Dativ feminin = an der."
+    },
+    {
+      "id": "u6-o3-05",
+      "objectiveId": "a1-u6-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Buku itu terletak di atas meja.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Das", "Buch", "liegt", "auf", "dem", "Tisch."],
+      "answer": "Das Buch liegt auf dem Tisch.",
+      "hintOnWrong": "Mulai dengan Das Buch liegt, lalu auf dem Tisch.",
+      "explanation": "Das Buch liegt auf dem Tisch. auf + Dativ maskulin = auf dem Tisch."
+    },
+    {
+      "id": "u6-o4-01",
+      "objectiveId": "a1-u6-o4",
+      "code": "D3",
+      "prompt": "___ stellst du den Sessel?",
+      "sub": "Pilih kata tanya untuk arah/tujuan.",
+      "mode": "choice",
+      "options": ["Wohin", "Wo", "Wann", "Wie"],
+      "answer": "Wohin",
+      "wrongFeedback": {
+        "Wo": "Wo menanyakan lokasi, bukan tujuan memindahkan kursi.",
+        "Wann": "Wann menanyakan waktu, bukan arah.",
+        "Wie": "Wie menanyakan cara, bukan arah."
+      },
+      "explanation": "Wohin stellst du den Sessel? menanyakan ke mana kursi dipindahkan."
+    },
+    {
+      "id": "u6-o4-02",
+      "objectiveId": "a1-u6-o4",
+      "code": "D3",
+      "prompt": "___ steht der Sessel?",
+      "sub": "Pilih kata tanya untuk lokasi.",
+      "mode": "choice",
+      "options": ["Wo", "Wohin", "Wann", "Wie"],
+      "answer": "Wo",
+      "wrongFeedback": {
+        "Wohin": "Wohin menanyakan tujuan/arah, bukan lokasi kursi sekarang.",
+        "Wann": "Wann menanyakan waktu, bukan lokasi.",
+        "Wie": "Wie menanyakan cara, bukan lokasi."
+      },
+      "explanation": "Wo steht der Sessel? menanyakan di mana kursi berada."
+    },
+    {
+      "id": "u6-o4-03",
+      "objectiveId": "a1-u6-o4",
+      "code": "D9",
+      "prompt": "Ich stelle den Sessel ___ Wohnzimmer.",
+      "sub": "Pilih bentuk in + das untuk arah.",
+      "mode": "choice",
+      "options": ["ins", "im", "in der", "am"],
+      "answer": "ins",
+      "wrongFeedback": {
+        "im": "im menunjukkan lokasi (di dalam), bukan arah memindahkan kursi.",
+        "in der": "in der dipakai untuk Dativ feminin; Wohnzimmer netral dan kalimat ini menyatakan arah.",
+        "am": "am tidak dipakai untuk arah masuk ke ruangan."
+      },
+      "explanation": "in + das = ins: Ich stelle den Sessel ins Wohnzimmer."
+    },
+    {
+      "id": "u6-o4-04",
+      "objectiveId": "a1-u6-o4",
+      "code": "D9",
+      "prompt": "Lengkapi: Wir stellen das Bücherregal ___ Arbeitszimmer. (in + das)",
+      "sub": "Ketik bentuk pendek in + das.",
+      "mode": "type",
+      "answer": "ins",
+      "altAnswers": ["Ins"],
+      "hintOnWrong": "in + das = ins. Arah ke ruang kerja: ins Arbeitszimmer.",
+      "explanation": "Wir stellen das Bücherregal ins Arbeitszimmer. ins menunjukkan arah."
+    },
+    {
+      "id": "u6-o4-05",
+      "objectiveId": "a1-u6-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Saya meletakkan kursi ke dapur.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "stelle", "den", "Sessel", "in", "die", "Küche."],
+      "answer": "Ich stelle den Sessel in die Küche.",
+      "hintOnWrong": "Mulai dengan Ich stelle, lalu den Sessel, lalu in die Küche.",
+      "explanation": "Ich stelle den Sessel in die Küche. Arah memakai Akkusativ: in die Küche."
+    },
+    {
+      "id": "u6-o5-01",
+      "objectiveId": "a1-u6-o5",
+      "code": "D3",
+      "prompt": "Ich ___ das Zimmer auf.",
+      "sub": "Konjugasi aufräumen untuk ich.",
+      "mode": "choice",
+      "options": ["räume", "räumst", "räumen", "aufräume"],
+      "answer": "räume",
+      "wrongFeedback": {
+        "räumst": "räumst dipakai untuk du, bukan ich.",
+        "räumen": "räumen dipakai untuk wir/sie/Sie, bukan ich.",
+        "aufräume": "Pada kalimat utama, awalan auf- dipisah ke akhir: Ich räume ... auf."
+      },
+      "explanation": "Ich räume das Zimmer auf. Kata kerja finit di posisi 2, awalan auf- di akhir."
+    },
+    {
+      "id": "u6-o5-02",
+      "objectiveId": "a1-u6-o5",
+      "code": "D10",
+      "prompt": "Wir ___ den Fußboden putzen.",
+      "sub": "Konjugasi müssen untuk wir.",
+      "mode": "choice",
+      "options": ["müssen", "muss", "musst", "müsst"],
+      "answer": "müssen",
+      "wrongFeedback": {
+        "muss": "muss dipakai untuk ich atau er/sie/es.",
+        "musst": "musst dipakai untuk du.",
+        "müsst": "müsst dipakai untuk ihr."
+      },
+      "explanation": "Wir müssen den Fußboden putzen. müssen untuk wir sama dengan infinitif."
+    },
+    {
+      "id": "u6-o5-03",
+      "objectiveId": "a1-u6-o5",
+      "code": "D3",
+      "prompt": "Er ___ die Küche.",
+      "sub": "Konjugasi putzen untuk er.",
+      "mode": "choice",
+      "options": ["putzt", "putze", "putzen", "putzst"],
+      "answer": "putzt",
+      "wrongFeedback": {
+        "putze": "putze dipakai untuk ich.",
+        "putzen": "putzen dipakai untuk wir/sie/Sie.",
+        "putzst": "putzst bukan bentuk yang benar; du putzt, er putzt."
+      },
+      "explanation": "putzen → er putzt."
+    },
+    {
+      "id": "u6-o5-04",
+      "objectiveId": "a1-u6-o5",
+      "code": "D3",
+      "prompt": "Lengkapi: Du ___ das Bad. (putzen)",
+      "sub": "Ketik bentuk untuk du.",
+      "mode": "type",
+      "answer": "putzt",
+      "altAnswers": ["Putzt"],
+      "hintOnWrong": "Untuk du, putzen menjadi putzt: Du putzt das Bad.",
+      "explanation": "putzen → du putzt. Bentuk du dan er sama-sama putzt."
+    },
+    {
+      "id": "u6-o5-05",
+      "objectiveId": "a1-u6-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Hari ini saya membereskan kamar.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Heute", "räume", "ich", "das", "Zimmer", "auf."],
+      "answer": "Heute räume ich das Zimmer auf.",
+      "hintOnWrong": "Mulai dengan Heute, lalu räume ich das Zimmer auf; awalan auf- tetap di akhir.",
+      "explanation": "Heute räume ich das Zimmer auf. Keterangan waktu di posisi 1, kata kerja finit di posisi 2, awalan auf- di akhir."
+    }
+  ]
+}

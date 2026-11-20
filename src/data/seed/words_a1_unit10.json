@@ -1,0 +1,159 @@
+{
+  "unit": 10,
+  "level": "A1",
+  "theme": "Waktu luang & hobi",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Schachspiel",
+      "article": "das",
+      "plural": "die Schachspiele",
+      "meaning_id": "permainan catur",
+      "example_de": "Das ist das Schachspiel.",
+      "example_id": "Ini permainan catur.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Theaterstück",
+      "article": "das",
+      "plural": "die Theaterstücke",
+      "meaning_id": "pertunjukan teater",
+      "example_de": "Das ist das Theaterstück.",
+      "example_id": "Ini pertunjukan teater.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Wanderung",
+      "article": "die",
+      "plural": "die Wanderungen",
+      "meaning_id": "kegiatan mendaki",
+      "example_de": "Das ist die Wanderung.",
+      "example_id": "Ini kegiatan mendaki.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Malerei",
+      "article": "die",
+      "plural": "die Malereien",
+      "meaning_id": "seni lukis",
+      "example_de": "Das ist die Malerei.",
+      "example_id": "Ini seni lukis.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Kamera",
+      "article": "die",
+      "plural": "die Kameras",
+      "meaning_id": "kamera",
+      "example_de": "Das ist die Kamera.",
+      "example_id": "Ini kamera.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Spielkarte",
+      "article": "die",
+      "plural": "die Spielkarten",
+      "meaning_id": "kartu permainan",
+      "example_de": "Das ist die Spielkarte.",
+      "example_id": "Ini kartu permainan.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Sporthalle",
+      "article": "die",
+      "plural": "die Sporthallen",
+      "meaning_id": "gedung olahraga",
+      "example_de": "Das ist die Sporthalle.",
+      "example_id": "Ini gedung olahraga.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Musikgruppe",
+      "article": "die",
+      "plural": "die Musikgruppen",
+      "meaning_id": "kelompok musik",
+      "example_de": "Das ist die Musikgruppe.",
+      "example_id": "Ini kelompok musik.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Probe",
+      "article": "die",
+      "plural": "die Proben",
+      "meaning_id": "latihan",
+      "example_de": "Das ist die Probe.",
+      "example_id": "Ini latihan.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Wochenendausflug",
+      "article": "der",
+      "plural": "die Wochenendausflüge",
+      "meaning_id": "perjalanan akhir pekan",
+      "example_de": "Das ist der Wochenendausflug.",
+      "example_id": "Ini perjalanan akhir pekan.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Brettspiel",
+      "article": "das",
+      "plural": "die Brettspiele",
+      "meaning_id": "permainan papan",
+      "example_de": "Das ist das Brettspiel.",
+      "example_id": "Ini permainan papan.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Tanzkurs",
+      "article": "der",
+      "plural": "die Tanzkurse",
+      "meaning_id": "kelas menari",
+      "example_de": "Das ist der Tanzkurs.",
+      "example_id": "Ini kelas menari.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Musikfestival",
+      "article": "das",
+      "plural": "die Musikfestivals",
+      "meaning_id": "festival musik",
+      "example_de": "Das ist das Musikfestival.",
+      "example_id": "Ini festival musik.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Musikinstrument",
+      "article": "das",
+      "plural": "die Musikinstrumente",
+      "meaning_id": "alat musik",
+      "example_de": "Das ist das Musikinstrument.",
+      "example_id": "Ini alat musik.",
+      "tags": "a1,unit10,hobi"
+    },
+    {
+      "kind": "noun",
+      "de": "Lesung",
+      "article": "die",
+      "plural": "die Lesungen",
+      "meaning_id": "acara pembacaan karya sastra",
+      "example_de": "Das ist die Lesung.",
+      "example_id": "Ini acara pembacaan karya sastra.",
+      "tags": "a1,unit10,hobi"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "dialog-34",
+  "title": "Mit dem Bus zur Arbeit",
+  "textId": 34,
+  "level": "A2",
+  "tags": "seed · A2 · unit 6",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Ich fahre jeden Tag mit dem Bus zur Arbeit.",
+      "id": "Setiap hari saya naik bus ke tempat kerja.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Haltestelle ist nur fünf Minuten von meiner Wohnung.",
+      "id": "Haltenya hanya lima menit dari apartemen saya.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Ich steige am Hauptbahnhof um.",
+      "id": "Saya ganti kendaraan di stasiun utama.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Straßenbahn fährt dann direkt ins Zentrum.",
+      "id": "Tremnya langsung menuju pusat kota.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Manchmal ist der Verkehr sehr stark.",
+      "id": "Kadang lalu lintasnya sangat padat.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Dann brauche ich eine Stunde statt dreißig Minuten.",
+      "id": "Kalau begitu saya butuh sejam, bukan tiga puluh menit.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Ich fahre jeden Tag mit dem Bus zur Arbeit.",
+      "id": "Setiap hari saya naik bus ke tempat kerja.",
+      "pose": "fragen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Haltestelle ist nur fünf Minuten von meiner Wohnung.",
+      "id": "Haltenya hanya lima menit dari apartemen saya.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Ich steige am Hauptbahnhof um.",
+      "id": "Saya ganti kendaraan di stasiun utama.",
+      "pose": "erzaehlen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Straßenbahn fährt dann direkt ins Zentrum.",
+      "id": "Tremnya langsung menuju pusat kota.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Manchmal ist der Verkehr sehr stark.",
+      "id": "Kadang lalu lintasnya sangat padat.",
+      "pose": "antworten",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "lehrerin",
+      "de": "Dann brauche ich eine Stunde statt dreißig Minuten.",
+      "id": "Kalau begitu saya butuh sejam, bukan tiga puluh menit.",
+      "pose": "erzaehlen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

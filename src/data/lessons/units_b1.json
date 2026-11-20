@@ -1,0 +1,1313 @@
+{
+  "level": "B1",
+  "source": "Konten B1 - kurikulum Goethe + kurasi manual (dibuat scripts/generate_levels.py)",
+  "units": [
+    {
+      "unit": 201,
+      "title": "Wohnen & Nachbarschaft",
+      "goals": [
+        "Mengurus kontrak sewa dan deposit",
+        "Berbicara tentang tetangga dan lingkungan rumah",
+        "Memakai kalimat relatif dan pasif"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Relativsätze",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada wohnen & nachbarschaft.",
+            "Relativsätze; Passiv Präteritum; Genitiv"
+          ],
+          "slides": [
+            {
+              "title": "Relativsätze",
+              "body": [
+                "Relativpronomen mengikuti kasus dan genus: der Mann, der …, die Wohnung, die …",
+                "Dativ: dem Nachbarn, dem ich helfe.",
+                "Relativsatz meletakkan verba di akhir."
+              ],
+              "example_de": "Der Nachbar, dem ich geholfen habe, ist sehr freundlich.",
+              "example_id": "Tetangga yang saya bantu itu sangat ramah."
+            },
+            {
+              "title": "Passiv Präteritum",
+              "body": [
+                "wurde + Partizip II: Das Haus wurde 1990 gebaut.",
+                "Pelaku dengan von + Dativ.",
+                "Cocok untuk laporan dan berita."
+              ],
+              "example_de": "Das Haus wurde vor zwei Jahren renoviert.",
+              "example_id": "Rumah itu direnovasi dua tahun lalu."
+            },
+            {
+              "title": "Genitiv",
+              "body": [
+                "des Nachbarn, der Nachbarin, des Hauses.",
+                "Sering untuk kepemilikan: das Auto des Vermieters.",
+                "Dalam bahasa lisan sering diganti von + Dativ."
+              ],
+              "example_de": "Die Klingel des Nachbarn ist kaputt.",
+              "example_id": "Bel tetangganya rusak."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Nachbar",
+            "Nachbarschaft",
+            "Mietvertrag",
+            "Kaution",
+            "Eigentümer"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Wohnen & Nachbarschaft",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Hausmeister, Renovierung, Umzug, Klingel."
+          ],
+          "slides": [
+            {
+              "title": "Hausmeister",
+              "body": [
+                "petugas gedung",
+                "Plural: die Hausmeister"
+              ],
+              "example_de": "Der Hausmeister repariert die Klingel.",
+              "example_id": "Petugas gedung memperbaiki bel."
+            },
+            {
+              "title": "Renovierung",
+              "body": [
+                "renovasi",
+                "Plural: die Renovierungen"
+              ],
+              "example_de": "Die Renovierung dauert zwei Wochen.",
+              "example_id": "Renovasinya dua pekan."
+            },
+            {
+              "title": "Umzug",
+              "body": [
+                "kepindahan",
+                "Plural: die Umzüge"
+              ],
+              "example_de": "Der Umzug war anstrengend.",
+              "example_id": "Kepindahannya melelahkan."
+            },
+            {
+              "title": "Klingel",
+              "body": [
+                "bel",
+                "Plural: die Klingeln"
+              ],
+              "example_de": "Die Klingel funktioniert nicht.",
+              "example_id": "Belnya tidak berfungsi."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Hausmeister",
+            "Renovierung",
+            "Umzug",
+            "Klingel",
+            "Briefkasten"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D4",
+          "D3",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 202,
+      "title": "Gesundheit & Lebensstil",
+      "goals": [
+        "Berbicara tentang gaya hidup sehat",
+        "Memberi saran dengan Konjunktiv II",
+        "Memakai verba dengan preposisi"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Konjunktiv II: sollte, wäre, hätte",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada gesundheit & lebensstil.",
+            "Konjunktiv II: sollte, wäre, hätte; Infinitiv mit zu; Verben mit Präpositionen"
+          ],
+          "slides": [
+            {
+              "title": "Konjunktiv II: sollte, wäre, hätte",
+              "body": [
+                "Saran: Du solltest mehr schlafen.",
+                "Andai: Wenn ich Zeit hätte, würde ich mehr Sport machen.",
+                "würde + infinitif untuk sebagian besar verba."
+              ],
+              "example_de": "Du solltest mehr Wasser trinken.",
+              "example_id": "Kamu sebaiknya lebih banyak minum air."
+            },
+            {
+              "title": "Infinitiv mit zu",
+              "body": [
+                "Ich versuche, regelmäßig zu laufen.",
+                "nach/ohne/um … zu.",
+                "Cocok setelah versuchen, anfangen, aufhören."
+              ],
+              "example_de": "Ich habe angefangen, jeden Morgen zu laufen.",
+              "example_id": "Saya mulai berlari setiap pagi."
+            },
+            {
+              "title": "Verben mit Präpositionen",
+              "body": [
+                "achten auf + Akkusativ, sich interessieren für.",
+                "Verzeihen Sie, ich achte auf meine Ernährung.",
+                "Preposisi harus dihafal bersama verba."
+              ],
+              "example_de": "Ich achte auf meine Ernährung.",
+              "example_id": "Saya memperhatikan pola makan saya."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Ernährung",
+            "Bewegung",
+            "Stress",
+            "Schlaf",
+            "Vorsorge"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Gesundheit & Lebensstil",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Impfung, Krankenhaus, Patient, sich erholen."
+          ],
+          "slides": [
+            {
+              "title": "Impfung",
+              "body": [
+                "vaksinasi",
+                "Plural: die Impfungen"
+              ],
+              "example_de": "Die Impfung schützt vor Krankheiten.",
+              "example_id": "Vaksinasi melindungi dari penyakit."
+            },
+            {
+              "title": "Krankenhaus",
+              "body": [
+                "rumah sakit",
+                "Plural: die Krankenhäuser"
+              ],
+              "example_de": "Sie liegt im Krankenhaus.",
+              "example_id": "Dia dirawat di rumah sakit."
+            },
+            {
+              "title": "Patient",
+              "body": [
+                "pasien",
+                "Plural: die Patienten"
+              ],
+              "example_de": "Der Patient wartet im Zimmer.",
+              "example_id": "Pasien menunggu di kamar."
+            },
+            {
+              "title": "sich erholen",
+              "body": [
+                "pulih, beristirahat"
+              ],
+              "example_de": "Im Urlaub erhole ich mich.",
+              "example_id": "Saat liburan saya memulihkan diri."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Impfung",
+            "Krankenhaus",
+            "Patient",
+            "sich erholen",
+            "verzichten"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D10",
+          "D4",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 203,
+      "title": "Arbeit & Karriere",
+      "goals": [
+        "Membahas karier dan tanggung jawab",
+        "Memakai pasif lampau dan konjungsi",
+        "Menjelaskan pengalaman kerja"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv mit Modalverben",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada arbeit & karriere.",
+            "Passiv mit Modalverben; Konnektoren: obwohl, trotzdem, deshalb; Nomen-Verb-Verbindungen"
+          ],
+          "slides": [
+            {
+              "title": "Passiv mit Modalverben",
+              "body": [
+                "muss + Partizip II + werden: Das Projekt muss beendet werden.",
+                "konnte + Partizip II + werden: Die Aufgabe konnte gelöst werden.",
+                "Modal di posisi 2, werden di akhir."
+              ],
+              "example_de": "Das Projekt muss bis Freitag beendet werden.",
+              "example_id": "Proyeknya harus diselesaikan sampai Jumat."
+            },
+            {
+              "title": "Konnektoren: obwohl, trotzdem, deshalb",
+              "body": [
+                "obwohl + verba akhir: Obwohl es schwer war, hat sie es geschafft.",
+                "trotzdem/deshalb + verba posisi 2.",
+                "Menyatakan kontras dan sebab."
+              ],
+              "example_de": "Obwohl sie wenig Zeit hatte, hat sie den Kurs beendet.",
+              "example_id": "Meskipun waktunya sedikit, dia menyelesaikan kursusnya."
+            },
+            {
+              "title": "Nomen-Verb-Verbindungen",
+              "body": [
+                "eine Entscheidung treffen, Verantwortung übernehmen.",
+                "Bentuk ini lebih formal daripada verba biasa.",
+                "Sering dipakai dalam surat lamaran."
+              ],
+              "example_de": "Sie übernimmt viel Verantwortung.",
+              "example_id": "Dia mengambil banyak tanggung jawab."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Karriere",
+            "Führungskraft",
+            "Teamarbeit",
+            "Projekt",
+            "Frist"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Arbeit & Karriere",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Vertrag, Fortbildung, Aufstieg, Verantwortung."
+          ],
+          "slides": [
+            {
+              "title": "Vertrag",
+              "body": [
+                "kontrak",
+                "Plural: die Verträge"
+              ],
+              "example_de": "Der Vertrag ist unterschrieben.",
+              "example_id": "Kontraknya sudah ditandatangani."
+            },
+            {
+              "title": "Fortbildung",
+              "body": [
+                "pelatihan lanjutan",
+                "Plural: die Fortbildungen"
+              ],
+              "example_de": "Die Fortbildung dauert drei Tage.",
+              "example_id": "Pelatihan lanjutannya tiga hari."
+            },
+            {
+              "title": "Aufstieg",
+              "body": [
+                "kenaikan jabatan",
+                "Plural: die Aufstiege"
+              ],
+              "example_de": "Der Aufstieg war verdient.",
+              "example_id": "Kenaikan jabatannya memang layak."
+            },
+            {
+              "title": "Verantwortung",
+              "body": [
+                "tanggung jawab",
+                "Plural: die Verantwortungen"
+              ],
+              "example_de": "Sie trägt viel Verantwortung.",
+              "example_id": "Dia memikul banyak tanggung jawab."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Vertrag",
+            "Fortbildung",
+            "Aufstieg",
+            "Verantwortung",
+            "leiten"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D3",
+          "D5",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 204,
+      "title": "Medien & Meinung",
+      "goals": [
+        "Menyampaikan pendapat dan argumen",
+        "Memakai kalimat relatif lanjutan",
+        "Membahas berita dan sumbernya"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Indirekte Rede (Konjunktiv I)",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada medien & meinung.",
+            "Indirekte Rede (Konjunktiv I); Relativsätze mit Präposition; Konnektoren: einerseits/andererseits"
+          ],
+          "slides": [
+            {
+              "title": "Indirekte Rede (Konjunktiv I)",
+              "body": [
+                "Sie sagt, sie habe keine Zeit.",
+                "Bentuk ini lazim dalam berita.",
+                "Untuk verba reguler sering sama dengan infinitif."
+              ],
+              "example_de": "Der Minister sagt, die Lage sei schwierig.",
+              "example_id": "Menteri mengatakan situasinya sulit."
+            },
+            {
+              "title": "Relativsätze mit Präposition",
+              "body": [
+                "Der Bericht, über den wir sprechen, ist neu.",
+                "Preposisi + Relativpronomen.",
+                "Verba di akhir."
+              ],
+              "example_de": "Die Quelle, auf die er sich beruft, ist unbekannt.",
+              "example_id": "Sumber yang dia rujuk tidak diketahui."
+            },
+            {
+              "title": "Konnektoren: einerseits/andererseits",
+              "body": [
+                "Einerseits … andererseits … menyatakan dua sisi.",
+                "Alternatif: zwar …, aber …",
+                "Berguna dalam diskusi."
+              ],
+              "example_de": "Einerseits ist die App praktisch, andererseits kostet sie Zeit.",
+              "example_id": "Di satu sisi aplikasinya praktis, di sisi lain menghabiskan waktu."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Meinung",
+            "Diskussion",
+            "Debatte",
+            "Bericht",
+            "Quelle"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Medien & Meinung",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Interview, Kommentar, Einfluss, Öffentlichkeit."
+          ],
+          "slides": [
+            {
+              "title": "Interview",
+              "body": [
+                "wawancara",
+                "Plural: die Interviews"
+              ],
+              "example_de": "Das Interview ist morgen.",
+              "example_id": "Wawancaranya besok."
+            },
+            {
+              "title": "Kommentar",
+              "body": [
+                "komentar",
+                "Plural: die Kommentare"
+              ],
+              "example_de": "Der Kommentar war kritisch.",
+              "example_id": "Komentarnya kritis."
+            },
+            {
+              "title": "Einfluss",
+              "body": [
+                "pengaruh",
+                "Plural: die Einflüsse"
+              ],
+              "example_de": "Medien haben großen Einfluss.",
+              "example_id": "Media punya pengaruh besar."
+            },
+            {
+              "title": "Öffentlichkeit",
+              "body": [
+                "publik"
+              ],
+              "example_de": "Die Öffentlichkeit diskutiert mit.",
+              "example_id": "Publik ikut berdiskusi."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Interview",
+            "Kommentar",
+            "Einfluss",
+            "Öffentlichkeit",
+            "diskutieren"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D6",
+          "D7",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 205,
+      "title": "Umwelt & Klima",
+      "goals": [
+        "Membahas perubahan iklim",
+        "Menjelaskan sebab dan akibat",
+        "Memakai pasif dengan modalverba"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv mit Modalverben",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada umwelt & klima.",
+            "Passiv mit Modalverben; Infinitiv mit zu nach Adjektiven; Genitiv & Präpositionen"
+          ],
+          "slides": [
+            {
+              "title": "Passiv mit Modalverben",
+              "body": [
+                "Der Müll muss getrennt werden.",
+                "Können + Partizip II + werden: Das kann reduziert werden.",
+                "Modal di posisi 2."
+              ],
+              "example_de": "Plastik muss reduziert werden.",
+              "example_id": "Plastik harus dikurangi."
+            },
+            {
+              "title": "Infinitiv mit zu nach Adjektiven",
+              "body": [
+                "Es ist wichtig, Energie zu sparen.",
+                "schwer/leicht/möglich + zu.",
+                "Subjektsatz dengan es."
+              ],
+              "example_de": "Es ist wichtig, Verpackungen zu vermeiden.",
+              "example_id": "Penting untuk menghindari kemasan."
+            },
+            {
+              "title": "Genitiv & Präpositionen",
+              "body": [
+                "wegen des Klimas, trotz der Kosten.",
+                "Genitiv sering setelah wegen/trotz.",
+                "Perhatikan artikel: des/der."
+              ],
+              "example_de": "Wegen des Klimawandels ändern sich viele Dinge.",
+              "example_id": "Karena perubahan iklim banyak hal berubah."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Klima",
+            "Klimawandel",
+            "Umweltschutz",
+            "Energiequelle",
+            "Verpackung"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Umwelt & Klima",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Verkehrsmittel, Folge, Maßnahme, erneuerbar."
+          ],
+          "slides": [
+            {
+              "title": "Verkehrsmittel",
+              "body": [
+                "alat transportasi",
+                "Plural: die Verkehrsmittel"
+              ],
+              "example_de": "Öffentliche Verkehrsmittel sind besser.",
+              "example_id": "Transportasi umum lebih baik."
+            },
+            {
+              "title": "Folge",
+              "body": [
+                "akibat",
+                "Plural: die Folgen"
+              ],
+              "example_de": "Die Folgen sind ernst.",
+              "example_id": "Akibatnya serius."
+            },
+            {
+              "title": "Maßnahme",
+              "body": [
+                "tindakan",
+                "Plural: die Maßnahmen"
+              ],
+              "example_de": "Die Regierung plant Maßnahmen.",
+              "example_id": "Pemerintah merencanakan tindakan."
+            },
+            {
+              "title": "erneuerbar",
+              "body": [
+                "terbarukan"
+              ],
+              "example_de": "Erneuerbare Energie ist wichtig.",
+              "example_id": "Energi terbarukan itu penting."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Verkehrsmittel",
+            "Folge",
+            "Maßnahme",
+            "erneuerbar",
+            "verbrauchen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D5",
+          "D7",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 206,
+      "title": "Reisen & Kultur",
+      "goals": [
+        "Membahas budaya dan wisata",
+        "Menceritakan pengalaman sebelum perjalanan",
+        "Memakai Plusquamperfekt"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Plusquamperfekt",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada reisen & kultur.",
+            "Plusquamperfekt; Relativsätze; Konnektoren: bevor, nachdem"
+          ],
+          "slides": [
+            {
+              "title": "Plusquamperfekt",
+              "body": [
+                "hatte/war + Partizip II: Ich hatte den Koffer gepackt.",
+                "Dipakai untuk kejadian yang selesai sebelum kejadian lain.",
+                "Sering dengan bevor/nachdem."
+              ],
+              "example_de": "Nachdem wir gebucht hatten, haben wir gepackt.",
+              "example_id": "Setelah kami memesan, kami mengemas."
+            },
+            {
+              "title": "Relativsätze",
+              "body": [
+                "Das Museum, das wir besucht haben, war klein.",
+                "Relativpronomen das untuk netral.",
+                "Verba di akhir."
+              ],
+              "example_de": "Die Ausstellung, die wir gesehen haben, war toll.",
+              "example_id": "Pameran yang kami lihat itu hebat."
+            },
+            {
+              "title": "Konnektoren: bevor, nachdem",
+              "body": [
+                "bevor + verba akhir: Bevor wir fahren, buchen wir.",
+                "nachdem + Plusquamperfekt di klausa pertama.",
+                "Urutan waktu harus jelas."
+              ],
+              "example_de": "Bevor wir fahren, kaufen wir die Tickets.",
+              "example_id": "Sebelum pergi, kami membeli tiket."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Kultur",
+            "Veranstaltung",
+            "Eintritt",
+            "Führung",
+            "Denkmal"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Reisen & Kultur",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Ausland, Aufenthalt, Unterkunft, Reiseführer."
+          ],
+          "slides": [
+            {
+              "title": "Ausland",
+              "body": [
+                "luar negeri"
+              ],
+              "example_de": "Sie studiert im Ausland.",
+              "example_id": "Dia kuliah di luar negeri."
+            },
+            {
+              "title": "Aufenthalt",
+              "body": [
+                "masa tinggal",
+                "Plural: die Aufenthalte"
+              ],
+              "example_de": "Der Aufenthalt war kurz.",
+              "example_id": "Masa tinggalnya singkat."
+            },
+            {
+              "title": "Unterkunft",
+              "body": [
+                "akomodasi",
+                "Plural: die Unterkünfte"
+              ],
+              "example_de": "Die Unterkunft ist einfach.",
+              "example_id": "Akomodasinya sederhana."
+            },
+            {
+              "title": "Reiseführer",
+              "body": [
+                "pemandu wisata, buku panduan",
+                "Plural: die Reiseführer"
+              ],
+              "example_de": "Der Reiseführer erklärt die Geschichte.",
+              "example_id": "Pemandunya menjelaskan sejarah."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Ausland",
+            "Aufenthalt",
+            "Unterkunft",
+            "Reiseführer",
+            "besichtigen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D9",
+          "D10",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 207,
+      "title": "Gesellschaft & Zusammenleben",
+      "goals": [
+        "Membahas masyarakat dan integrasi",
+        "Menyampaikan saran dan harapan",
+        "Memakai verba dengan preposisi"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Konjunktiv II für Wünsche",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada gesellschaft & zusammenleben.",
+            "Konjunktiv II für Wünsche; Verben mit Präpositionen; Passiv Präsens"
+          ],
+          "slides": [
+            {
+              "title": "Konjunktiv II für Wünsche",
+              "body": [
+                "Ich wünschte, es gäbe mehr Toleranz.",
+                "wäre/hätte/würde untuk harapan.",
+                "Juga untuk saran sopan."
+              ],
+              "example_de": "Es wäre schön, wenn alle respektvoll wären.",
+              "example_id": "Akan bagus jika semua orang saling menghormati."
+            },
+            {
+              "title": "Verben mit Präpositionen",
+              "body": [
+                "sich engagieren für, sich interessieren für, sprechen über.",
+                "Präposition tetap, objek mengikuti kasus.",
+                "Er engagiert sich für Integration."
+              ],
+              "example_de": "Sie engagiert sich für Toleranz.",
+              "example_id": "Dia berdedikasi untuk toleransi."
+            },
+            {
+              "title": "Passiv Präsens",
+              "body": [
+                "Konflikte werden oft nicht gelöst.",
+                "werden + Partizip II.",
+                "Pelaku sering tidak penting."
+              ],
+              "example_de": "Viele Konflikte werden nicht offen besprochen.",
+              "example_id": "Banyak konflik tidak dibicarakan terbuka."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Gesellschaft",
+            "Generation",
+            "Integration",
+            "Migration",
+            "Vorurteil"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Gesellschaft & Zusammenleben",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Toleranz, Konflikt, Lösung, Kompromiss."
+          ],
+          "slides": [
+            {
+              "title": "Toleranz",
+              "body": [
+                "toleransi"
+              ],
+              "example_de": "Toleranz ist wichtig.",
+              "example_id": "Toleransi itu penting."
+            },
+            {
+              "title": "Konflikt",
+              "body": [
+                "konflik",
+                "Plural: die Konflikte"
+              ],
+              "example_de": "Der Konflikt wurde gelöst.",
+              "example_id": "Konfliknya terselesaikan."
+            },
+            {
+              "title": "Lösung",
+              "body": [
+                "solusi",
+                "Plural: die Lösungen"
+              ],
+              "example_de": "Wir brauchen eine Lösung.",
+              "example_id": "Kami butuh solusi."
+            },
+            {
+              "title": "Kompromiss",
+              "body": [
+                "kompromi",
+                "Plural: die Kompromisse"
+              ],
+              "example_de": "Ein Kompromiss ist oft nötig.",
+              "example_id": "Kompromi sering diperlukan."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Toleranz",
+            "Konflikt",
+            "Lösung",
+            "Kompromiss",
+            "respektieren"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D4",
+          "D10",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 208,
+      "title": "Bildung & Lernen",
+      "goals": [
+        "Membahas pendidikan dan ujian",
+        "Menjelaskan tujuan belajar",
+        "Memakai infinitif dengan zu"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Infinitiv mit zu",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada bildung & lernen.",
+            "Infinitiv mit zu; Konnektoren: deshalb, sonst, außerdem; Passiv Präsens mit es"
+          ],
+          "slides": [
+            {
+              "title": "Infinitiv mit zu",
+              "body": [
+                "Ich versuche, den Text zu verstehen.",
+                "Es ist schwierig, alles zu behalten.",
+                "Verba di akhir setelah zu."
+              ],
+              "example_de": "Ich versuche, jeden Tag zu üben.",
+              "example_id": "Saya berusaha berlatih setiap hari."
+            },
+            {
+              "title": "Konnektoren: deshalb, sonst, außerdem",
+              "body": [
+                "deshalb menyatakan akibat.",
+                "sonst = jika tidak.",
+                "außerdem menambah informasi."
+              ],
+              "example_de": "Ich lerne täglich, sonst vergesse ich alles.",
+              "example_id": "Saya belajar setiap hari, kalau tidak saya lupa semuanya."
+            },
+            {
+              "title": "Passiv Präsens mit es",
+              "body": [
+                "Es wird viel gelernt.",
+                "Es wird erklärt, wie die Prüfung ist.",
+                "Subjek dapat berupa es."
+              ],
+              "example_de": "In der Prüfung wird viel geschrieben.",
+              "example_id": "Dalam ujian banyak yang ditulis."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Bildung",
+            "Studium",
+            "Prüfung",
+            "Note",
+            "Kenntnis"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Bildung & Lernen",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Fähigkeit, Übung, Fortschritt, Lernziel."
+          ],
+          "slides": [
+            {
+              "title": "Fähigkeit",
+              "body": [
+                "kemampuan",
+                "Plural: die Fähigkeiten"
+              ],
+              "example_de": "Diese Fähigkeit ist wichtig.",
+              "example_id": "Kemampuan ini penting."
+            },
+            {
+              "title": "Übung",
+              "body": [
+                "latihan",
+                "Plural: die Übungen"
+              ],
+              "example_de": "Übung macht den Meister.",
+              "example_id": "Latihan membuat mahir."
+            },
+            {
+              "title": "Fortschritt",
+              "body": [
+                "kemajuan",
+                "Plural: die Fortschritte"
+              ],
+              "example_de": "Der Fortschritt ist langsam.",
+              "example_id": "Kemajuannya lambat."
+            },
+            {
+              "title": "Lernziel",
+              "body": [
+                "tujuan belajar",
+                "Plural: die Lernziele"
+              ],
+              "example_de": "Das Lernziel ist klar.",
+              "example_id": "Tujuan belajarnya jelas."
+            }
+          ],
+          "drill": {
+            "code": "D2",
+            "count": 5
+          },
+          "vocab": [
+            "Fähigkeit",
+            "Übung",
+            "Fortschritt",
+            "Lernziel",
+            "sich vorbereiten"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D7",
+          "D2",
+          "D1",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 209,
+      "title": "Geld & Finanzen",
+      "goals": [
+        "Membahas anggaran dan pengeluaran",
+        "Menjelaskan saran keuangan",
+        "Memakai kalimat syarat"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Konditional mit wenn",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada geld & finanzen.",
+            "Konditional mit wenn; Genitiv & Präpositionen; Nebensätze mit ob/als"
+          ],
+          "slides": [
+            {
+              "title": "Konditional mit wenn",
+              "body": [
+                "Wenn ich mehr verdiente, würde ich mehr sparen.",
+                "wenn + verba akhir.",
+                "Pasangan: würde/hätte/wäre."
+              ],
+              "example_de": "Wenn ich mehr Zeit hätte, würde ich mehr sparen.",
+              "example_id": "Jika punya lebih banyak waktu, saya akan lebih banyak menabung."
+            },
+            {
+              "title": "Genitiv & Präpositionen",
+              "body": [
+                "wegen der Kosten, trotz des Rabatts.",
+                "Genitiv setelah wegen/trotz.",
+                "Artikel harus tepat."
+              ],
+              "example_de": "Wegen der hohen Kosten sparen wir.",
+              "example_id": "Karena biaya tinggi kami menabung."
+            },
+            {
+              "title": "Nebensätze mit ob/als",
+              "body": [
+                "Ich weiß nicht, ob das sinnvoll ist.",
+                "Anders als früher geben wir mehr aus.",
+                "ob untuk pertanyaan tidak langsung."
+              ],
+              "example_de": "Ich weiß nicht, ob das sinnvoll ist.",
+              "example_id": "Saya tidak tahu apakah itu masuk akal."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Konto",
+            "Überweisung",
+            "Budget",
+            "Schulden",
+            "Zinsen"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Geld & Finanzen",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Versicherung, Einkommen, Ausgabe, ausgeben."
+          ],
+          "slides": [
+            {
+              "title": "Versicherung",
+              "body": [
+                "asuransi",
+                "Plural: die Versicherungen"
+              ],
+              "example_de": "Die Versicherung ist teuer.",
+              "example_id": "Asuransinya mahal."
+            },
+            {
+              "title": "Einkommen",
+              "body": [
+                "pendapatan",
+                "Plural: die Einkommen"
+              ],
+              "example_de": "Das Einkommen ist stabil.",
+              "example_id": "Pendapatannya stabil."
+            },
+            {
+              "title": "Ausgabe",
+              "body": [
+                "pengeluaran",
+                "Plural: die Ausgaben"
+              ],
+              "example_de": "Die Ausgaben sind zu hoch.",
+              "example_id": "Pengeluarannya terlalu tinggi."
+            },
+            {
+              "title": "ausgeben",
+              "body": [
+                "membelanjakan"
+              ],
+              "example_de": "Ich gebe zu viel Geld aus.",
+              "example_id": "Saya membelanjakan terlalu banyak uang."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Versicherung",
+            "Einkommen",
+            "Ausgabe",
+            "ausgeben",
+            "überweisen"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D3",
+          "D4",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 210,
+      "title": "Technik & Zukunft",
+      "goals": [
+        "Membahas teknologi dan masa depan",
+        "Menjelaskan perkembangan",
+        "Memakai pasif dan kalimat relatif"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv mit werden (Zukunft)",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada technik & zukunft.",
+            "Passiv mit werden (Zukunft); Relativsätze mit wo; Konnektoren: während, solange"
+          ],
+          "slides": [
+            {
+              "title": "Passiv mit werden (Zukunft)",
+              "body": [
+                "Vieles wird sich verändern.",
+                "Zukunft: wird + Partizip II + werden.",
+                "Contoh: Die Arbeit wird automatisiert werden."
+              ],
+              "example_de": "Vieles wird sich in den nächsten Jahren verändern.",
+              "example_id": "Banyak hal akan berubah dalam beberapa tahun ke depan."
+            },
+            {
+              "title": "Relativsätze mit wo",
+              "body": [
+                "Die Firma, wo er arbeitet, ist groß.",
+                "wo menggantikan in der/in dem.",
+                "Tidak formal tetapi umum."
+              ],
+              "example_de": "Die Firma, wo sie arbeitet, ist international.",
+              "example_id": "Perusahaan tempat dia bekerja bersifat internasional."
+            },
+            {
+              "title": "Konnektoren: während, solange",
+              "body": [
+                "während = sementara.",
+                "solange = selama.",
+                "Keduanya mengirim verba ke akhir."
+              ],
+              "example_de": "Während die Technik sich entwickelt, ändern sich auch die Jobs.",
+              "example_id": "Sementara teknologi berkembang, pekerjaan juga berubah."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Technik",
+            "Erfindung",
+            "Zukunft",
+            "Roboter",
+            "Intelligenz"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Technik & Zukunft",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Gerät, Bildschirm, Daten, Sicherheit."
+          ],
+          "slides": [
+            {
+              "title": "Gerät",
+              "body": [
+                "perangkat",
+                "Plural: die Geräte"
+              ],
+              "example_de": "Das Gerät ist neu.",
+              "example_id": "Perangkatnya baru."
+            },
+            {
+              "title": "Bildschirm",
+              "body": [
+                "layar",
+                "Plural: die Bildschirme"
+              ],
+              "example_de": "Der Bildschirm ist groß.",
+              "example_id": "Layarnya besar."
+            },
+            {
+              "title": "Daten",
+              "body": [
+                "data",
+                "Plural: die Daten"
+              ],
+              "example_de": "Die Daten sind sicher.",
+              "example_id": "Datanya aman."
+            },
+            {
+              "title": "Sicherheit",
+              "body": [
+                "keamanan"
+              ],
+              "example_de": "Sicherheit ist wichtig.",
+              "example_id": "Keamanan itu penting."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Gerät",
+            "Bildschirm",
+            "Daten",
+            "Sicherheit",
+            "entwickeln"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D6",
+          "D4",
+          "D1",
+          "D2"
+        ]
+      }
+    }
+  ]
+}

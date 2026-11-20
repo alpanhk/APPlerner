@@ -1,0 +1,181 @@
+{
+  "id": "dialog-23",
+  "title": "Ein Tag am Meer",
+  "textId": 23,
+  "level": "A2",
+  "tags": "seed · A2 · unit 11 · liburan",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Im Sommer verbringen wir eine Woche an der Ostsee.",
+      "id": "Pada musim panas kami menghabiskan seminggu di Laut Baltik.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Morgens gehen wir am Strand spazieren.",
+      "id": "Pagi hari kami berjalan-jalan di pantai.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Wenn die Sonne scheint, schwimmen die Kinder im Meer.",
+      "id": "Jika matahari bersinar, anak-anak berenang di laut.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Bei schlechtem Wetter besuchen wir ein kleines Museum.",
+      "id": "Saat cuaca buruk kami mengunjungi museum kecil.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Die Reise war erholsam, obwohl die Anfahrt lang war.",
+      "id": "Liburannya menyenangkan, meskipun perjalanan ke sana lama.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Im Sommer verbringen wir eine Woche an der Ostsee.",
+      "id": "Pada musim panas kami menghabiskan seminggu di Laut Baltik.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Morgens gehen wir am Strand spazieren.",
+      "id": "Pagi hari kami berjalan-jalan di pantai.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Wenn die Sonne scheint, schwimmen die Kinder im Meer.",
+      "id": "Jika matahari bersinar, anak-anak berenang di laut.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "lehrerin",
+      "de": "Bei schlechtem Wetter besuchen wir ein kleines Museum.",
+      "id": "Saat cuaca buruk kami mengunjungi museum kecil.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Die Reise war erholsam, obwohl die Anfahrt lang war.",
+      "id": "Liburannya menyenangkan, meskipun perjalanan ke sana lama.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    }
+  ]
+}

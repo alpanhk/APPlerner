@@ -1,0 +1,229 @@
+{
+  "unit": 203,
+  "level": "B1",
+  "theme": "Arbeit & Karriere",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Karriere",
+      "article": "die",
+      "plural": "die Karrieren",
+      "meaning_id": "karier",
+      "example_de": "Sie macht eine gute Karriere.",
+      "example_id": "Dia membangun karier yang bagus.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Führungskraft",
+      "article": "die",
+      "plural": "die Führungskräfte",
+      "meaning_id": "pemimpin, manajer",
+      "example_de": "Die Führungskraft leitet das Team.",
+      "example_id": "Pemimpinnya memimpin tim.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Teamarbeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "kerja tim",
+      "example_de": "Teamarbeit ist hier wichtig.",
+      "example_id": "Kerja tim penting di sini.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Projekt",
+      "article": "das",
+      "plural": "die Projekte",
+      "meaning_id": "proyek",
+      "example_de": "Das Projekt läuft seit Januar.",
+      "example_id": "Proyeknya berjalan sejak Januari.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Frist",
+      "article": "die",
+      "plural": "die Fristen",
+      "meaning_id": "tenggat",
+      "example_de": "Die Frist endet am Freitag.",
+      "example_id": "Tenggatnya berakhir Jumat.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertrag",
+      "article": "der",
+      "plural": "die Verträge",
+      "meaning_id": "kontrak",
+      "example_de": "Der Vertrag ist unterschrieben.",
+      "example_id": "Kontraknya sudah ditandatangani.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Fortbildung",
+      "article": "die",
+      "plural": "die Fortbildungen",
+      "meaning_id": "pelatihan lanjutan",
+      "example_de": "Die Fortbildung dauert drei Tage.",
+      "example_id": "Pelatihan lanjutannya tiga hari.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufstieg",
+      "article": "der",
+      "plural": "die Aufstiege",
+      "meaning_id": "kenaikan jabatan",
+      "example_de": "Der Aufstieg war verdient.",
+      "example_id": "Kenaikan jabatannya memang layak.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Verantwortung",
+      "article": "die",
+      "plural": "die Verantwortungen",
+      "meaning_id": "tanggung jawab",
+      "example_de": "Sie trägt viel Verantwortung.",
+      "example_id": "Dia memikul banyak tanggung jawab.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "verb",
+      "de": "leiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memimpin",
+      "example_de": "Er leitet die Abteilung.",
+      "example_id": "Dia memimpin departemen.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "adj",
+      "de": "engagiert",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berdedikasi",
+      "example_de": "Sie ist sehr engagiert.",
+      "example_id": "Dia sangat berdedikasi.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "adj",
+      "de": "belastbar",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tahan tekanan",
+      "example_de": "Er ist belastbar und ruhig.",
+      "example_id": "Dia tahan tekanan dan tenang.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Zeugnis",
+      "article": "das",
+      "plural": "die Zeugnisse",
+      "meaning_id": "ijazah, rapor",
+      "example_de": "Das Zeugnis ist wichtig.",
+      "example_id": "Ijazahnya penting.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Praktikum",
+      "article": "das",
+      "plural": "die Praktika",
+      "meaning_id": "magang",
+      "example_de": "Das Praktikum dauert drei Monate.",
+      "example_id": "Magangnya tiga bulan.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorgesetzte",
+      "article": "der",
+      "plural": "die Vorgesetzten",
+      "meaning_id": "atasan",
+      "example_de": "Der Vorgesetzte ist zufrieden.",
+      "example_id": "Atasannya puas.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Selbstständigkeit",
+      "article": "die",
+      "plural": "die Selbstständigkeiten",
+      "meaning_id": "kemandirian",
+      "example_de": "Selbstständigkeit wird erwartet.",
+      "example_id": "Kemandirian diharapkan.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Konkurrenz",
+      "article": "die",
+      "plural": "die Konkurrenzen",
+      "meaning_id": "persaingan",
+      "example_de": "Die Konkurrenz ist groß.",
+      "example_id": "Persaingannya besar.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Bewerbungsmappe",
+      "article": "die",
+      "plural": "die Bewerbungsmappen",
+      "meaning_id": "berkas lamaran",
+      "example_de": "Die Bewerbungsmappe ist komplett.",
+      "example_id": "Berkas lamarannya lengkap.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitszeugnis",
+      "article": "das",
+      "plural": "die Arbeitszeugnisse",
+      "meaning_id": "surat keterangan kerja",
+      "example_de": "Das Arbeitszeugnis ist gut.",
+      "example_id": "Surat keterangan kerjanya bagus.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Gehaltsverhandlung",
+      "article": "die",
+      "plural": "die Gehaltsverhandlungen",
+      "meaning_id": "negosiasi gaji",
+      "example_de": "Die Gehaltsverhandlung war erfolgreich.",
+      "example_id": "Negosiasi gajinya berhasil.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Karrieresprung",
+      "article": "der",
+      "plural": "die Karrieresprünge",
+      "meaning_id": "lonjakan karier",
+      "example_de": "Der Karrieresprung kam plötzlich.",
+      "example_id": "Lonjakan kariernya tiba-tiba.",
+      "tags": "b1,unit3,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Fachbereich",
+      "article": "der",
+      "plural": "die Fachbereiche",
+      "meaning_id": "bidang keahlian",
+      "example_de": "Er leitet den Fachbereich.",
+      "example_id": "Dia memimpin bidang keahlian.",
+      "tags": "b1,unit3,arbeit"
+    }
+  ]
+}

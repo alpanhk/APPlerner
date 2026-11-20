@@ -1,0 +1,229 @@
+{
+  "unit": 303,
+  "level": "B2",
+  "theme": "Wissenschaft & Forschung",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Forschung",
+      "article": "die",
+      "plural": "die Forschungen",
+      "meaning_id": "penelitian",
+      "example_de": "Die Forschung wird gefördert.",
+      "example_id": "Penelitiannya didanai.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Wissenschaft",
+      "article": "die",
+      "plural": "die Wissenschaften",
+      "meaning_id": "ilmu pengetahuan",
+      "example_de": "Die Wissenschaft sucht Antworten.",
+      "example_id": "Ilmu pengetahuan mencari jawaban.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Studie",
+      "article": "die",
+      "plural": "die Studien",
+      "meaning_id": "studi",
+      "example_de": "Die Studie zeigt ein Risiko.",
+      "example_id": "Studi menunjukkan risiko.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Ergebnis",
+      "article": "das",
+      "plural": "die Ergebnisse",
+      "meaning_id": "hasil",
+      "example_de": "Das Ergebnis überrascht.",
+      "example_id": "Hasilnya mengejutkan.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Hypothese",
+      "article": "die",
+      "plural": "die Hypothesen",
+      "meaning_id": "hipotesis",
+      "example_de": "Die Hypothese muss geprüft werden.",
+      "example_id": "Hipotesisnya harus diuji.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Experiment",
+      "article": "das",
+      "plural": "die Experimente",
+      "meaning_id": "eksperimen",
+      "example_de": "Das Experiment dauerte Wochen.",
+      "example_id": "Eksperimennya berlangsung pekan.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Theorie",
+      "article": "die",
+      "plural": "die Theorien",
+      "meaning_id": "teori",
+      "example_de": "Die Theorie ist nicht neu.",
+      "example_id": "Teorinya bukan hal baru.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Beweis",
+      "article": "der",
+      "plural": "die Beweise",
+      "meaning_id": "bukti",
+      "example_de": "Es gibt keinen Beweis.",
+      "example_id": "Tidak ada bukti.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Erkenntnis",
+      "article": "die",
+      "plural": "die Erkenntnisse",
+      "meaning_id": "temuan, pengetahuan",
+      "example_de": "Die Erkenntnis ist wichtig.",
+      "example_id": "Temuannya penting.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "verb",
+      "de": "forschen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meneliti",
+      "example_de": "Sie forschen seit Jahren.",
+      "example_id": "Mereka meneliti bertahun-tahun.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "verb",
+      "de": "beweisen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membuktikan",
+      "example_de": "Das lässt sich schwer beweisen.",
+      "example_id": "Itu sulit dibuktikan.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "adj",
+      "de": "wissenschaftlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ilmiah",
+      "example_de": "Das ist eine wissenschaftliche Frage.",
+      "example_id": "Ini pertanyaan ilmiah.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Publikation",
+      "article": "die",
+      "plural": "die Publikationen",
+      "meaning_id": "publikasi",
+      "example_de": "Die Publikation erscheint im Mai.",
+      "example_id": "Publikasinya terbit Mei.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Methode",
+      "article": "die",
+      "plural": "die Methoden",
+      "meaning_id": "metode",
+      "example_de": "Die Methode ist umstritten.",
+      "example_id": "Metodenya kontroversial.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Stichprobe",
+      "article": "die",
+      "plural": "die Stichproben",
+      "meaning_id": "sampel",
+      "example_de": "Die Stichprobe war klein.",
+      "example_id": "Sampelnya kecil.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Auswertung",
+      "article": "die",
+      "plural": "die Auswertungen",
+      "meaning_id": "analisis hasil",
+      "example_de": "Die Auswertung dauert an.",
+      "example_id": "Analisisnya masih berlangsung.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Reproduzierbarkeit",
+      "article": "die",
+      "plural": "die Reproduzierbarkeiten",
+      "meaning_id": "reproduksibilitas",
+      "example_de": "Reproduzierbarkeit ist zentral.",
+      "example_id": "Reproduksibilitas itu krusial.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Zitat",
+      "article": "das",
+      "plural": "die Zitate",
+      "meaning_id": "kutipan",
+      "example_de": "Das Zitat ist unvollständig.",
+      "example_id": "Kutipannya tidak lengkap.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Fälschung",
+      "article": "die",
+      "plural": "die Fälschungen",
+      "meaning_id": "pemalsuan",
+      "example_de": "Die Fälschung wurde entdeckt.",
+      "example_id": "Pemalsuannya terdeteksi.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Ethikkommission",
+      "article": "die",
+      "plural": "die Ethikkommissionen",
+      "meaning_id": "komisi etik",
+      "example_de": "Die Ethikkommission prüft den Fall.",
+      "example_id": "Komisi etik memeriksa kasusnya.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Förderung",
+      "article": "die",
+      "plural": "die Förderungen",
+      "meaning_id": "pendanaan",
+      "example_de": "Die Förderung läuft aus.",
+      "example_id": "Pendanaannya berakhir.",
+      "tags": "b2,unit3,wissenschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Begutachtung",
+      "article": "die",
+      "plural": "die Begutachtungen",
+      "meaning_id": "penilaian sejawat",
+      "example_de": "Die Begutachtung dauerte Monate.",
+      "example_id": "Penilaiannya berbulan-bulan.",
+      "tags": "b2,unit3,wissenschaft"
+    }
+  ]
+}

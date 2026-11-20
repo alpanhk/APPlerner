@@ -1,0 +1,316 @@
+{
+  "level": "A2",
+  "source": "Teks pendek orisinal level A2 - kurikulum Goethe",
+  "texts": [
+    {
+      "title": "Die neue Wohnung",
+      "level": "A2",
+      "tags": "seed · A2 · unit 1",
+      "sentences": [
+        {
+          "de": "Wir haben endlich eine neue Wohnung gefunden.",
+          "id": "Akhirnya kami menemukan apartemen baru."
+        },
+        {
+          "de": "Sie ist hell und liegt im dritten Stock.",
+          "id": "Apartemennya terang dan berada di lantai tiga."
+        },
+        {
+          "de": "Die Miete ist nicht billig, aber die Lage ist gut.",
+          "id": "Sewanya tidak murah, tetapi lokasinya bagus."
+        },
+        {
+          "de": "Der Vermieter hat uns die Nebenkosten erklärt.",
+          "id": "Pemilik sewa menjelaskan biaya tambahan kepada kami."
+        },
+        {
+          "de": "Am Wochenende renovieren wir das Bad.",
+          "id": "Akhir pekan ini kami merenovasi kamar mandi."
+        },
+        {
+          "de": "Im Mai ziehen wir um.",
+          "id": "Bulan Mei kami pindah."
+        }
+      ]
+    },
+    {
+      "title": "Ein neuer Job",
+      "level": "A2",
+      "tags": "seed · A2 · unit 2",
+      "sentences": [
+        {
+          "de": "Sari sucht seit zwei Monaten eine neue Stelle.",
+          "id": "Sari sudah dua bulan mencari posisi baru."
+        },
+        {
+          "de": "Sie hat ihre Bewerbung an eine Firma in Hamburg geschickt.",
+          "id": "Dia mengirim lamarannya ke sebuah perusahaan di Hamburg."
+        },
+        {
+          "de": "Ihr Lebenslauf ist übersichtlich und ihre Erfahrung ist groß.",
+          "id": "CV-nya rapi dan pengalamannya banyak."
+        },
+        {
+          "de": "Am Montag hat sie ein Vorstellungsgespräch.",
+          "id": "Hari Senin dia ada wawancara kerja."
+        },
+        {
+          "de": "Der Chef fragt, warum sie wechseln will.",
+          "id": "Atasan bertanya mengapa dia ingin pindah."
+        },
+        {
+          "de": "Sie sagt, weil sie mehr Verantwortung möchte.",
+          "id": "Dia menjawab, karena ingin lebih banyak tanggung jawab."
+        }
+      ]
+    },
+    {
+      "title": "Samstag im Supermarkt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 3",
+      "sentences": [
+        {
+          "de": "Am Samstag war ich im Supermarkt.",
+          "id": "Hari Sabtu saya di supermarket."
+        },
+        {
+          "de": "Es gab ein Angebot für Kaffee.",
+          "id": "Ada penawaran untuk kopi."
+        },
+        {
+          "de": "Der Kaffee war günstiger als letzte Woche.",
+          "id": "Kopinya lebih murah dari pekan lalu."
+        },
+        {
+          "de": "An der Kasse habe ich mit Karte bezahlt.",
+          "id": "Di kasir saya membayar dengan kartu."
+        },
+        {
+          "de": "Die Quittung habe ich in meine Tasche gelegt.",
+          "id": "Struknya saya simpan di tas."
+        },
+        {
+          "de": "Zu Hause habe ich die Lieferung für Montag bestellt.",
+          "id": "Di rumah saya memesan pengiriman untuk hari Senin."
+        }
+      ]
+    },
+    {
+      "title": "Beim Arzt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 4",
+      "sentences": [
+        {
+          "de": "Ich habe seit drei Tagen Kopfschmerzen.",
+          "id": "Saya sudah tiga hari sakit kepala."
+        },
+        {
+          "de": "Heute habe ich einen Termin beim Arzt.",
+          "id": "Hari ini saya ada janji dengan dokter."
+        },
+        {
+          "de": "Die Praxis ist klein, aber der Arzt ist sehr freundlich.",
+          "id": "Praktiknya kecil, tetapi dokternya sangat ramah."
+        },
+        {
+          "de": "Ich soll viel trinken und mich ausruhen.",
+          "id": "Saya harus banyak minum dan beristirahat."
+        },
+        {
+          "de": "Das Rezept bringe ich in die Apotheke.",
+          "id": "Resepnya saya bawa ke apotek."
+        },
+        {
+          "de": "Morgen fühle ich mich hoffentlich besser.",
+          "id": "Semoga besok saya merasa lebih baik."
+        }
+      ]
+    },
+    {
+      "title": "Urlaub an der Ostsee",
+      "level": "A2",
+      "tags": "seed · A2 · unit 5",
+      "sentences": [
+        {
+          "de": "Letzten Sommer sind wir an die Ostsee gefahren.",
+          "id": "Musim panas lalu kami pergi ke Laut Baltik."
+        },
+        {
+          "de": "Die Reise hat sechs Stunden gedauert.",
+          "id": "Perjalanannya memakan waktu enam jam."
+        },
+        {
+          "de": "Wir haben ein kleines Hotel am Strand gebucht.",
+          "id": "Kami memesan hotel kecil di pantai."
+        },
+        {
+          "de": "Am Morgen sind wir im Meer geschwommen.",
+          "id": "Pagi hari kami berenang di laut."
+        },
+        {
+          "de": "Am Nachmittag haben wir die Stadt besucht.",
+          "id": "Sore hari kami mengunjungi kota."
+        },
+        {
+          "de": "Nächstes Jahr wollen wir nach Wien fahren.",
+          "id": "Tahun depan kami ingin pergi ke Wina."
+        }
+      ]
+    },
+    {
+      "title": "Mit dem Bus zur Arbeit",
+      "level": "A2",
+      "tags": "seed · A2 · unit 6",
+      "sentences": [
+        {
+          "de": "Ich fahre jeden Tag mit dem Bus zur Arbeit.",
+          "id": "Setiap hari saya naik bus ke tempat kerja."
+        },
+        {
+          "de": "Die Haltestelle ist nur fünf Minuten von meiner Wohnung.",
+          "id": "Haltenya hanya lima menit dari apartemen saya."
+        },
+        {
+          "de": "Ich steige am Hauptbahnhof um.",
+          "id": "Saya ganti kendaraan di stasiun utama."
+        },
+        {
+          "de": "Die Straßenbahn fährt dann direkt ins Zentrum.",
+          "id": "Tremnya langsung menuju pusat kota."
+        },
+        {
+          "de": "Manchmal ist der Verkehr sehr stark.",
+          "id": "Kadang lalu lintasnya sangat padat."
+        },
+        {
+          "de": "Dann brauche ich eine Stunde statt dreißig Minuten.",
+          "id": "Kalau begitu saya butuh sejam, bukan tiga puluh menit."
+        }
+      ]
+    },
+    {
+      "title": "Mein Wochenende",
+      "level": "A2",
+      "tags": "seed · A2 · unit 7",
+      "sentences": [
+        {
+          "de": "Am Samstag bin ich mit Freunden gewandert.",
+          "id": "Hari Sabtu saya mendaki bersama teman-teman."
+        },
+        {
+          "de": "Das Wetter war schön und die Landschaft war ruhig.",
+          "id": "Cuacanya bagus dan pemandangannya tenang."
+        },
+        {
+          "de": "Am Abend sind wir ins Kino gegangen.",
+          "id": "Malamnya kami pergi ke bioskop."
+        },
+        {
+          "de": "Der Film war spannend, aber ein bisschen lang.",
+          "id": "Filmnya seru, tapi agak panjang."
+        },
+        {
+          "de": "Am Sonntag habe ich nur gelesen und Musik gehört.",
+          "id": "Hari Minggu saya hanya membaca dan mendengar musik."
+        },
+        {
+          "de": "Nächste Woche werde ich zum ersten Mal ins Museum gehen.",
+          "id": "Pekan depan saya akan pertama kali pergi ke museum."
+        }
+      ]
+    },
+    {
+      "title": "Ohne Handy",
+      "level": "A2",
+      "tags": "seed · A2 · unit 8",
+      "sentences": [
+        {
+          "de": "Gestern war mein Handy kaputt.",
+          "id": "Kemarin ponsel saya rusak."
+        },
+        {
+          "de": "Ich konnte keine Nachrichten lesen und keine E-Mails senden.",
+          "id": "Saya tidak bisa membaca pesan dan tidak bisa mengirim surel."
+        },
+        {
+          "de": "Mein Passwort hatte ich auch vergessen.",
+          "id": "Kata sandi saya juga lupa."
+        },
+        {
+          "de": "Ich weiß nicht, ob ich die App neu installieren muss.",
+          "id": "Saya tidak tahu apakah saya harus memasang ulang aplikasinya."
+        },
+        {
+          "de": "Am Abend habe ich endlich den Computer benutzt.",
+          "id": "Malamnya akhirnya saya memakai komputer."
+        },
+        {
+          "de": "Ich glaube, dass ich mich zu sehr auf das Handy verlasse.",
+          "id": "Saya rasa saya terlalu bergantung pada ponsel."
+        }
+      ]
+    },
+    {
+      "title": "Ein Geburtstag im Sommer",
+      "level": "A2",
+      "tags": "seed · A2 · unit 9",
+      "sentences": [
+        {
+          "de": "Letztes Jahr habe ich meinen Geburtstag im Garten gefeiert.",
+          "id": "Tahun lalu saya merayakan ulang tahun di taman."
+        },
+        {
+          "de": "Ich habe viele Freunde und meine Familie eingeladen.",
+          "id": "Saya mengundang banyak teman dan keluarga."
+        },
+        {
+          "de": "Meine Schwester hat mir ein Buch geschenkt.",
+          "id": "Kakak perempuan saya memberi saya sebuah buku."
+        },
+        {
+          "de": "Wir haben gegrillt und bis Mitternacht gefeiert.",
+          "id": "Kami memanggang dan berpesta sampai tengah malam."
+        },
+        {
+          "de": "Als ich die Gäste gesehen habe, war ich sehr glücklich.",
+          "id": "Saat melihat para tamu, saya sangat bahagia."
+        },
+        {
+          "de": "Nächstes Jahr möchte ich wieder feiern.",
+          "id": "Tahun depan saya ingin merayakannya lagi."
+        }
+      ]
+    },
+    {
+      "title": "Müll trennen in Deutschland",
+      "level": "A2",
+      "tags": "seed · A2 · unit 10",
+      "sentences": [
+        {
+          "de": "In Deutschland wird der Müll zu Hause getrennt.",
+          "id": "Di Jerman sampah dipilah di rumah."
+        },
+        {
+          "de": "Papier, Glas und Plastik kommen in verschiedene Tonnen.",
+          "id": "Kertas, kaca, dan plastik masuk ke tong berbeda."
+        },
+        {
+          "de": "Man spart Energie, wenn man Flaschen recycelt.",
+          "id": "Orang menghemat energi jika mendaur ulang botol."
+        },
+        {
+          "de": "Ich kaufe keine Tüten mehr und benutze eine Tasche.",
+          "id": "Saya tidak membeli kantong lagi dan memakai tas."
+        },
+        {
+          "de": "Umweltschutz ist wichtig, deshalb fahre ich oft Fahrrad.",
+          "id": "Perlindungan lingkungan penting, karena itu saya sering bersepeda."
+        },
+        {
+          "de": "Kleine Dinge ändern viel.",
+          "id": "Hal-hal kecil mengubah banyak hal."
+        }
+      ]
+    }
+  ]
+}

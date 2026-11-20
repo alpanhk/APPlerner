@@ -1,0 +1,206 @@
+{
+  "id": "dialog-58",
+  "title": "KI und Verantwortung",
+  "textId": 58,
+  "level": "B2",
+  "tags": "seed · B2 · unit 10",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Künstliche Intelligenz bietet viele Chancen, wirft aber auch Fragen auf.",
+      "id": "Kecerdasan buatan menawarkan banyak peluang, tetapi juga memunculkan pertanyaan.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Einerseits kann sie Menschen helfen, andererseits kann sie überwachen.",
+      "id": "Di satu sisi ia membantu, di sisi lain bisa mengawasi.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Entscheidungen müssen ethisch begründet werden.",
+      "id": "Keputusan harus dibenarkan secara etis.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Man hätte früher über Datenschutz diskutieren müssen.",
+      "id": "Kita seharusnya lebih awal mendiskusikan perlindungan data.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Die Würde des Menschen darf nicht verletzt werden.",
+      "id": "Martabat manusia tidak boleh dilanggar.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nur verantwortungsvolle Regeln schaffen Vertrauen.",
+      "id": "Hanya aturan yang bertanggung jawab menciptakan kepercayaan.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "vorgesetzte",
+      "de": "Künstliche Intelligenz bietet viele Chancen, wirft aber auch Fragen auf.",
+      "id": "Kecerdasan buatan menawarkan banyak peluang, tetapi juga memunculkan pertanyaan.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Einerseits kann sie Menschen helfen, andererseits kann sie überwachen.",
+      "id": "Di satu sisi ia membantu, di sisi lain bisa mengawasi.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "kollegin",
+      "de": "Entscheidungen müssen ethisch begründet werden.",
+      "id": "Keputusan harus dibenarkan secara etis.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "vorgesetzte",
+      "de": "Man hätte früher über Datenschutz diskutieren müssen.",
+      "id": "Kita seharusnya lebih awal mendiskusikan perlindungan data.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Die Würde des Menschen darf nicht verletzt werden.",
+      "id": "Martabat manusia tidak boleh dilanggar.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollegin",
+      "de": "Nur verantwortungsvolle Regeln schaffen Vertrauen.",
+      "id": "Hanya aturan yang bertanggung jawab menciptakan kepercayaan.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

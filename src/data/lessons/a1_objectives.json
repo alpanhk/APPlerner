@@ -1,0 +1,1096 @@
+{
+  "level": "A1",
+  "reviewed": false,
+  "note": "Inventaris tujuan A1. Status peninjauan bahasa belum dilakukan pengajar; jangan dipakai sebagai bukti penguasaan CEFR.",
+  "objectives": [
+    {
+      "id": "a1-u1-o1",
+      "unit": 1,
+      "title": "Menyapa sesuai waktu hari",
+      "canDo": "Memilih sapaan Jerman yang wajar untuk pagi, siang, malam, dan saat berpisah; membedakan sapaan formal dan santai.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Sapaan sesuai waktu'"
+      ],
+      "remedy": "Ulangi pembedaan waktu: Morgen (pagi), Tag (siang), Abend (malam), Nacht (sebelum tidur). Perhatikan juga sapaan formal dan santai."
+    },
+    {
+      "id": "a1-u1-o2",
+      "unit": 1,
+      "title": "Memperkenalkan dan menanyakan nama",
+      "canDo": "Memperkenalkan nama sendiri dan menanyakan nama orang lain dengan bentuk formal (Sie) atau santai (du).",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Sapaan dasar dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Memperkenalkan diri'",
+        "Pelajaran 1, slide 'Bertanya nama'",
+        "Pelajaran 1, slide 'Kata ganti & konjugasi'"
+      ],
+      "remedy": "Ulangi pola ich heiße, du heißt, er/sie/es heißt, Sie heißen, lalu pilih Wie heißen Sie? untuk situasi formal."
+    },
+    {
+      "id": "a1-u1-o3",
+      "unit": 1,
+      "title": "Menyebut asal dan tempat tinggal",
+      "canDo": "Mengatakan dari mana asal seseorang dan di mana tinggal; memakai kommen aus dan wohnen in dengan konjugasi yang benar.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Nama dan perkenalan diri dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Kommen aus — asal'",
+        "Pelajaran 2, slide 'Wohnen in — tinggal'",
+        "Pelajaran 2, slide 'Konjugasi kommen'",
+        "Pelajaran 2, slide 'Konjugasi wohnen'"
+      ],
+      "remedy": "Ulangi kommen aus untuk asal dan wohnen in untuk tempat tinggal; latih ich komme/wohne, du kommst/wohnst, wir kommen/wohnen."
+    },
+    {
+      "id": "a1-u1-o4",
+      "unit": 1,
+      "title": "Menyebut teman dan umur",
+      "canDo": "Memperkenalkan teman dengan mein/meine dan menanyakan atau menyebut umur dengan Jahre.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Asal dan tempat tinggal dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Freund & Freundin'",
+        "Pelajaran 3, slide 'Umur'",
+        "Pelajaran 3, slide 'Possessiv mein/meine'"
+      ],
+      "remedy": "Ulangi mein untuk kata maskulin/netral dan meine untuk feminin/plural, lalu Wie alt bist du? dan Jahre setelah angka lebih dari satu."
+    },
+    {
+      "id": "a1-u1-o5",
+      "unit": 1,
+      "title": "Artikel dan bentuk plural",
+      "canDo": "Memilih artikel der/die/das untuk kata yang dipelajari dan menyebut bentuk pluralnya dengan artikel die.",
+      "lessonNos": [1, 3],
+      "prerequisites": [
+        "Kosakata benda dari Pelajaran 1 dan 3"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Tiga artikel'",
+        "Pelajaran 3, slide 'Plural benda'"
+      ],
+      "remedy": "Ulangi artikel bersama kata (der Name, die Frau, das Land, das Jahr), lalu bentuk plural die Freunde dan die Jahre; semua plural memakai die."
+    },
+    {
+      "id": "a1-u2-o1",
+      "unit": 2,
+      "title": "Menyebut angka 1–100",
+      "canDo": "Menyebut angka 1–12, 13–19, puluhan, dan angka gabungan seperti 21 atau 99; memahami angka dalam umur dan harga.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Angka 1–12'",
+        "Pelajaran 1, slide '13–19: akhiran -zehn'",
+        "Pelajaran 1, slide 'Puluhan & satuan'"
+      ],
+      "remedy": "Ulangi 13–19 (dreizehn sampai neunzehn; sechzehn dan siebzehn tanpa -s/-en) dan pola 21 = einundzwanzig (satuan + und + puluhan)."
+    },
+    {
+      "id": "a1-u2-o2",
+      "unit": 2,
+      "title": "Menanyakan dan menjawab harga",
+      "canDo": "Menanyakan harga dengan Wie viel kostet ...? dan menjawab dengan angka + Euro; membedakan teuer (mahal) dan billig (murah).",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Angka dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Harga: Wie viel kostet …?'"
+      ],
+      "remedy": "Ulangi pola Wie viel kostet ...? dan jawaban Das/Es kostet ... Euro; bedakan teuer (mahal) dan billig (murah)."
+    },
+    {
+      "id": "a1-u2-o3",
+      "unit": 2,
+      "title": "Menanyakan dan menyebut jam",
+      "canDo": "Menyebut jam penuh, halb, viertel nach, dan viertel vor; memahami bahwa halb neun berarti 08.30.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Angka dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Jam penuh'",
+        "Pelajaran 2, slide 'halb & viertel'"
+      ],
+      "remedy": "Ulangi jam penuh, halb (setengah menuju jam berikutnya), viertel nach (lewat 15 menit), dan viertel vor (kurang 15 menit)."
+    },
+    {
+      "id": "a1-u2-o4",
+      "unit": 2,
+      "title": "Menyebut hari dan menanyakan jadwal",
+      "canDo": "Menyebut tujuh hari dalam urutan yang benar, memakai der untuk semua hari, dan menanyakan jadwal dengan Wann ...? serta am + hari.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Jam dan angka dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Nama hari'",
+        "Pelajaran 2, slide 'Menanyakan jadwal'"
+      ],
+      "remedy": "Ulangi urutan Montag sampai Sonntag, artikel der untuk semua hari, dan am + hari; gunakan Wann ...? untuk menanyakan jadwal."
+    },
+    {
+      "id": "a1-u2-o5",
+      "unit": 2,
+      "title": "Memakai preposisi waktu um, am, im",
+      "canDo": "Memilih um + jam, am + hari/bagian hari, im + bulan/musim; memakai heute, morgen, dan gestern tanpa preposisi.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Jam dan hari dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'um + jam'",
+        "Pelajaran 3, slide 'am + hari / bagian hari'",
+        "Pelajaran 3, slide 'im + bulan / musim'",
+        "Pelajaran 3, slide 'Tanpa preposisi'"
+      ],
+      "remedy": "Ulangi um + jam, am + hari/bagian hari, im + bulan/musim; heute, morgen, dan gestern tidak memakai preposisi."
+    },
+    {
+      "id": "a1-u3-o1",
+      "unit": 3,
+      "title": "Menyebut anggota keluarga dengan artikel",
+      "canDo": "Menyebut anggota keluarga inti dan extended dengan artikel der/die/das yang benar; mengenali Eltern dan Geschwister sebagai bentuk jamak.",
+      "lessonNos": [1, 2],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Keluarga inti'",
+        "Pelajaran 1, slide 'Saudara'",
+        "Pelajaran 1, slide 'Kakek, nenek, paman, bibi'",
+        "Pelajaran 2, slide 'Kata yang selalu jamak'"
+      ],
+      "remedy": "Ulangi artikel bersama kata (der Vater, die Mutter, das Kind) dan bentuk jamak die Eltern/die Geschwister; artikel tidak boleh ditebak dari arti Indonesia."
+    },
+    {
+      "id": "a1-u3-o2",
+      "unit": 3,
+      "title": "Memakai mein/meine sesuai gender dan jumlah",
+      "canDo": "Memilih mein untuk kata maskulin/netral dan meine untuk kata feminin/jamak pada posisi nominatif.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Anggota keluarga dan artikel dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'mein & meine'",
+        "Pelajaran 3, slide 'mein, dein, sein, ihr'"
+      ],
+      "remedy": "Ulangi mein untuk maskulin/netral (mein Vater, mein Kind) dan meine untuk feminin/jamak (meine Mutter, meine Eltern)."
+    },
+    {
+      "id": "a1-u3-o3",
+      "unit": 3,
+      "title": "Menanyakan dan menyebut jumlah saudara/anak",
+      "canDo": "Bertanya dengan Wie viele ...? dan menjawab dengan angka, einen Bruder/eine Schwester, serta bentuk jamak Kinder/Geschwister.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Artikel dan bentuk plural dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Menanyakan jumlah'"
+      ],
+      "remedy": "Ulangi Wie viele ...? untuk menanyakan jumlah, lalu Akkusativ einen Bruder/eine Schwester dan plural zwei Kinder/zwei Geschwister."
+    },
+    {
+      "id": "a1-u3-o4",
+      "unit": 3,
+      "title": "Menyebut status pernikahan dan tinggal bersama",
+      "canDo": "Menyebut verheiratet, ledig, geschieden, dan mengatakan bahwa dua orang tinggal bersama dengan zusammen.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Kosakata keluarga dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Status pernikahan'",
+        "Pelajaran 2, slide 'Tinggal bersama'"
+      ],
+      "remedy": "Ulangi verheiratet (menikah), ledig (belum menikah), geschieden (bercerai), dan zusammen wohnen (tinggal bersama)."
+    },
+    {
+      "id": "a1-u3-o5",
+      "unit": 3,
+      "title": "Memakai possessiv dein/sein/ihr dan Akkusativ setelah besuchen",
+      "canDo": "Memilih dein/sein/ihr sesuai pemilik dan memakai meinen/deinen/seinen untuk objek maskulin Akkusativ setelah besuchen.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "mein/meine dari Pelajaran 1",
+        "Keluarga dan status dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'mein, dein, sein, ihr'",
+        "Pelajaran 3, slide 'Akkusativ setelah besuchen'",
+        "Pelajaran 3, slide 'Kalimat dengan dua keterangan'"
+      ],
+      "remedy": "Ulangi possessiv dein/sein/ihr sesuai pemilik, lalu Akkusativ maskulin meinen/deinen/seinen setelah besuchen; feminin dan netral tidak berubah."
+    },
+    {
+      "id": "a1-u4-o1",
+      "unit": 4,
+      "title": "Menyebut makanan dan minuman dengan artikel",
+      "canDo": "Menyebut makanan dan minuman sehari-hari dengan artikel der/die/das yang benar, termasuk kata massal seperti Milch, Obst, dan Fleisch.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Di meja makan'",
+        "Pelajaran 1, slide 'Buah & sayur'",
+        "Pelajaran 1, slide 'Lauk & bumbu'"
+      ],
+      "remedy": "Ulangi artikel bersama kata (der Käse, die Milch, das Brot, der Apfel, das Wasser); kata massal seperti Milch dan Obst umumnya tidak dipakai dalam bentuk jamak."
+    },
+    {
+      "id": "a1-u4-o2",
+      "unit": 4,
+      "title": "Menyatakan rasa dan keadaan lapar/haus",
+      "canDo": "Memakai lecker untuk makanan enak, hungrig untuk lapar, dan durstig untuk haus; membedakan keadaan orang dari rasa makanan.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Kosakata makanan dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Rasa & keadaan'"
+      ],
+      "remedy": "Ulangi lecker (enak, untuk makanan), hungrig (lapar), dan durstig (haus); jangan memakai hungrig/durstig untuk rasa makanan."
+    },
+    {
+      "id": "a1-u4-o3",
+      "unit": 4,
+      "title": "Memesan dengan möchte + Akkusativ",
+      "canDo": "Memesan makanan atau minuman dengan Ich möchte ... bitte dan memilih bentuk Akkusativ maskulin einen, feminin eine, netral ein.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Artikel makanan dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Memesan dengan sopan'",
+        "Pelajaran 2, slide 'Akkusativ maskulin'"
+      ],
+      "remedy": "Ulangi pola Ich möchte ... bitte; maskulin menjadi einen (einen Kaffee), feminin tetap eine (eine Milch), netral tetap ein (ein Wasser)."
+    },
+    {
+      "id": "a1-u4-o4",
+      "unit": 4,
+      "title": "Berinteraksi di restoran",
+      "canDo": "Menanyakan rekomendasi, meminta menu, meminta tagihan, memahami zusammen/getrennt, dan mengatakan cara membayar.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Pola memesan dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Menanyakan & memilih'",
+        "Pelajaran 2, slide 'Membayar'"
+      ],
+      "remedy": "Ulangi Die Speisekarte, bitte (menu), Die Rechnung, bitte (tagihan), zusammen/getrennt (bersama/terpisah), dan Ich zahle mit Karte."
+    },
+    {
+      "id": "a1-u4-o5",
+      "unit": 4,
+      "title": "Menyebut waktu makan dan kebiasaan dengan essen/trinken",
+      "canDo": "Menyebut Frühstück, Mittagessen, Abendessen dan memakai bentuk essen/trinken yang benar dalam kalimat kebiasaan.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Kosakata makanan dari Pelajaran 1",
+        "Pola memesan dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Waktu makan'",
+        "Pelajaran 3, slide 'essen — bentuk tidak beraturan'",
+        "Pelajaran 3, slide 'trinken & kaufen (beraturan)'",
+        "Pelajaran 3, slide 'Kalimat kebiasaan'"
+      ],
+      "remedy": "Ulangi Frühstück/Mittagessen/Abendessen dan konjugasi essen (du isst, er isst) serta trinken (du trinkst, er trinkt); keterangan waktu di posisi 1 tetap menempatkan kata kerja finit di posisi 2."
+    },
+    {
+      "id": "a1-u5-o1",
+      "unit": 5,
+      "title": "Menyebut warna dan menyelaraskan kata sifat",
+      "canDo": "Menyebut warna dasar dan memilih bentuk kata sifat yang sesuai sebelum kata benda (eine blaue Jacke, ein rotes Kleid); setelah sein tetap bentuk dasar.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Kata sifat warna'"
+      ],
+      "remedy": "Ulangi warna schwarz/weiß/rot/blau/grün dan pola eine blaue Jacke, ein rotes Kleid; setelah sein kata sifat tidak berubah (Die Jacke ist blau)."
+    },
+    {
+      "id": "a1-u5-o2",
+      "unit": 5,
+      "title": "Menanyakan ukuran dan menyatakan cocok/tidak",
+      "canDo": "Menanyakan ukuran dengan Welche Größe tragen Sie?, menyebut ukuran, dan memakai passen serta zu groß/klein/ lang/kurz.",
+      "lessonNos": [1, 2],
+      "prerequisites": [
+        "Warna dan kata sifat dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Menanyakan ukuran'",
+        "Pelajaran 2, slide 'Menyatakan cocok'"
+      ],
+      "remedy": "Ulangi Welche Größe tragen Sie?, Ich trage Größe ..., Die Hose passt mir, dan zu groß/klein/lang/kurz."
+    },
+    {
+      "id": "a1-u5-o3",
+      "unit": 5,
+      "title": "Mencari dan meminta barang dengan Akkusativ",
+      "canDo": "Mencari atau meminta pakaian dengan suchen/haben dan memilih Akkusativ einen/eine/ein serta die untuk plural.",
+      "lessonNos": [1, 2],
+      "prerequisites": [
+        "Artikel dan Akkusativ dasar dari Unit 1–4"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Akkusativ: mencari barang'",
+        "Pelajaran 2, slide 'Meminta barang'"
+      ],
+      "remedy": "Ulangi Akkusativ setelah suchen/haben: der Mantel → einen Mantel, die Jacke → eine Jacke, das Kleid → ein Kleid, plural tetap die Schuhe."
+    },
+    {
+      "id": "a1-u5-o4",
+      "unit": 5,
+      "title": "Mencoba pakaian dan menanyakan ruang ganti",
+      "canDo": "Memakai anprobieren sebagai verba pisah (Ich probiere die Jacke an) dan menanyakan lokasi Umkleidekabine.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Pola mencari barang dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Mencoba pakaian'"
+      ],
+      "remedy": "Ulangi anprobieren: ich probiere ... an, du probierst ... an, Sie probieren ... an; lalu Wo ist die Umkleidekabine?"
+    },
+    {
+      "id": "a1-u5-o5",
+      "unit": 5,
+      "title": "Menanyakan harga, membayar, dan menukar barang",
+      "canDo": "Menanyakan harga dengan Was kostet ...?, membayar bar atau mit Karte, menyebut Quittung, dan meminta umtauschen.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Angka dan harga dari Unit 2",
+        "Pola belanja dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Menanyakan harga'",
+        "Pelajaran 3, slide 'Membayar di kasir'",
+        "Pelajaran 3, slide 'Menukar barang'"
+      ],
+      "remedy": "Ulangi Was kostet ...?, Ich bezahle bar/mit Karte, Quittung, dan Ich möchte ... umtauschen; alasan sederhana: Die Größe passt nicht."
+    },
+    {
+      "id": "a1-u6-o1",
+      "unit": 6,
+      "title": "Menyebut bagian rumah dan perabot dengan artikel",
+      "canDo": "Menyebut ruangan dan perabot dengan artikel der/die/das yang benar serta bentuk pluralnya.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Benda di rumah'",
+        "Pelajaran 1, slide 'Mendeskripsikan kamar'"
+      ],
+      "remedy": "Ulangi artikel bersama kata (der Teppich, die Gardine, das Möbelstück) dan plural kata majemuk mengikuti kata terakhir (der Briefkasten → die Briefkästen)."
+    },
+    {
+      "id": "a1-u6-o2",
+      "unit": 6,
+      "title": "Menyatakan keberadaan dengan es gibt + Akkusativ",
+      "canDo": "Menyatakan bahwa suatu benda ada dengan Es gibt ... dan memilih Akkusativ einen/eine/ein serta bentuk plural.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Artikel perabot dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Es gibt + Akkusativ'"
+      ],
+      "remedy": "Ulangi Es gibt + Akkusativ: einen Keller, eine Waschmaschine, ein Bücherregal; plural tetap angka + kata benda (zwei Briefkästen)."
+    },
+    {
+      "id": "a1-u6-o3",
+      "unit": 6,
+      "title": "Menjelaskan letak dengan Wo? dan preposisi Dativ",
+      "canDo": "Menjawab Wo? dengan in/im/auf + Dativ dan memakai stehen atau liegen sesuai posisi benda.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Kosakata ruangan dan perabot dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Wo? — letak benda'",
+        "Pelajaran 2, slide 'Posisi sein dan stehen'"
+      ],
+      "remedy": "Ulangi Wo? + Dativ (in der Küche, im Keller, auf dem Teppich) dan pilihan stehen/liegen: Die Waschmaschine steht, der Teppich liegt."
+    },
+    {
+      "id": "a1-u6-o4",
+      "unit": 6,
+      "title": "Membedakan Wo? dan Wohin?",
+      "canDo": "Membedakan lokasi (Wo? + Dativ) dari arah/tujuan (Wohin? + Akkusativ) dan memakai ins/in die serta stellen.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Preposisi tempat dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Tempat dan arah'"
+      ],
+      "remedy": "Ulangi Wo? untuk lokasi dan Wohin? untuk tujuan; in das → ins, in die tetap in die; stellen dipakai untuk meletakkan benda."
+    },
+    {
+      "id": "a1-u6-o5",
+      "unit": 6,
+      "title": "Membicarakan pekerjaan rumah dengan aufräumen dan müssen",
+      "canDo": "Memakai aufräumen sebagai verba pisah, putzen/waschen untuk tugas rumah, dan müssen + infinitif di akhir kalimat.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Kosakata ruangan dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Verba pisah aufräumen'",
+        "Pelajaran 3, slide 'Tugas rumah'",
+        "Pelajaran 3, slide 'Müssen untuk kewajiban'"
+      ],
+      "remedy": "Ulangi aufräumen (ich räume ... auf, du räumst ... auf), putzen/waschen, dan müssen + infinitif di akhir (Wir müssen die Gardinen waschen)."
+    },
+    {
+      "id": "a1-u7-o1",
+      "unit": 7,
+      "title": "Menyebut tempat umum di kota dengan artikel",
+      "canDo": "Menyebut tempat umum seperti Rathaus, Post, Bibliothek, Apotheke, dan Bäckerei dengan artikel der/die/das yang benar.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Tempat umum'",
+        "Pelajaran 1, slide 'Kota dan peta'"
+      ],
+      "remedy": "Ulangi artikel bersama nama tempat: das Rathaus, die Post, die Bibliothek, die Apotheke, die Bäckerei; artikel harus dihafal bersama katanya."
+    },
+    {
+      "id": "a1-u7-o2",
+      "unit": 7,
+      "title": "Menjelaskan letak relatif dengan preposisi Dativ",
+      "canDo": "Memakai neben, gegenüber, dan zwischen + Dativ untuk menjelaskan posisi tempat di kota.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Nama tempat umum dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Letak relatif'"
+      ],
+      "remedy": "Ulangi neben/gegenüber/zwischen + Dativ: neben der Post, gegenüber dem Rathaus, zwischen der Apotheke und der Post."
+    },
+    {
+      "id": "a1-u7-o3",
+      "unit": 7,
+      "title": "Memberi arahan dengan imperatif formal",
+      "canDo": "Memberi arahan sopan dengan bentuk Sie: Gehen Sie..., Nehmen Sie..., serta arah geradeaus/links/rechts dan an der Kreuzung.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Nama tempat umum dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Imperatif formal'",
+        "Pelajaran 2, slide 'Kata arah'"
+      ],
+      "remedy": "Ulangi imperatif formal: Gehen Sie geradeaus, Nehmen Sie die zweite Straße, gehen Sie nach links/rechts; perhatikan urutan zuerst/dann/danach."
+    },
+    {
+      "id": "a1-u7-o4",
+      "unit": 7,
+      "title": "Menanyakan jalan dengan zum/zur",
+      "canDo": "Menanyakan jalan dengan Wie komme ich ...? dan memilih zum atau zur sesuai gender tempat.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Nama tempat umum dari Pelajaran 1",
+        "Arah dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Frasa meminta bantuan'"
+      ],
+      "remedy": "Ulangi zu + Dativ: zum Rathaus (maskulin/netral), zur Bibliothek (feminin); Wie komme ich ...?"
+    },
+    {
+      "id": "a1-u7-o5",
+      "unit": 7,
+      "title": "Menyebut transportasi dengan mit + Dativ",
+      "canDo": "Menyebut naik bus/trem/kereta dengan mit + Dativ, membedakan fahren dan halten, serta menyebut Haltestelle.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Arah dan tempat dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Transportasi dengan mit'",
+        "Pelajaran 3, slide 'Halte dan parkir'",
+        "Pelajaran 3, slide 'Waktu dan perjalanan'"
+      ],
+      "remedy": "Ulangi mit + Dativ (mit dem Bus, mit der Straßenbahn), zu Fuß, Haltestelle, serta fahren (bergerak) vs halten (berhenti)."
+    },
+    {
+      "id": "a1-u8-o1",
+      "unit": 8,
+      "title": "Menceritakan urutan rutinitas kerja",
+      "canDo": "Memakai erst/dann/danach untuk mengurutkan kegiatan kerja dan menempatkan verba finit di posisi kedua.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Urutan kegiatan'"
+      ],
+      "remedy": "Ulangi penanda urutan erst (pertama), dann (lalu), danach (sesudah itu); setelah penanda waktu di posisi 1, verba finit tetap di posisi 2."
+    },
+    {
+      "id": "a1-u8-o2",
+      "unit": 8,
+      "title": "Memakai anfangen sebagai verba pisah",
+      "canDo": "Mengkonjugasikan anfangen (ich fange an, du fängst an, er fängt an) dan menempatkan awalan an di akhir kalimat utama.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Pola kalimat dan waktu dari Unit 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Kata kerja pisah anfangen'"
+      ],
+      "remedy": "Ulangi anfangen: ich fange an, du fängst an, er/sie/es fängt an, wir fangen an; awalan an- berada di akhir kalimat utama."
+    },
+    {
+      "id": "a1-u8-o3",
+      "unit": 8,
+      "title": "Menyebut tempat kerja dan departemen",
+      "canDo": "Menyebut am Arbeitsplatz, am Schreibtisch, dan in der Abteilung dengan preposisi serta artikel yang benar.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Preposisi tempat dari Unit 6–7"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Tempat kerja'"
+      ],
+      "remedy": "Ulangi am Arbeitsplatz/am Schreibtisch (an + dem) dan in der Abteilung (in + Dativ feminin); artikel dipelajari bersama kata."
+    },
+    {
+      "id": "a1-u8-o4",
+      "unit": 8,
+      "title": "Membicarakan tugas dan rekan kerja",
+      "canDo": "Memakai Aufgabe erledigen, Besprechung, Bewerbung/Lebenslauf, dan mit + Dativ untuk menyebut rekan kerja.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Kosakata tempat kerja dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Tugas sehari-hari'",
+        "Pelajaran 2, slide 'Membuat kalimat dengan mit'",
+        "Pelajaran 2, slide 'Bewerbung dan Lebenslauf'"
+      ],
+      "remedy": "Ulangi eine Aufgabe erledigen, die Besprechung, einen Lebenslauf schreiben, dan mit + Dativ: mit meiner Kollegin/meinem Kollegen."
+    },
+    {
+      "id": "a1-u8-o5",
+      "unit": 8,
+      "title": "Menyatakan kewajiban, kemampuan, dan jam kerja",
+      "canDo": "Memakai müssen/können + infinitif di akhir serta von ... bis untuk menyebut jam kerja dan istirahat.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Kosakata tugas dan tempat kerja dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Müssen — kewajiban'",
+        "Pelajaran 3, slide 'Können — kemampuan'",
+        "Pelajaran 3, slide 'Jam kerja von … bis'"
+      ],
+      "remedy": "Ulangi müssen (ich muss, du musst, er muss) dan können (ich kann, du kannst, er kann) + infinitif di akhir; jam kerja von ... bis ..."
+    },
+    {
+      "id": "a1-u9-o1",
+      "unit": 9,
+      "title": "Menyebut keluhan kesehatan dengan haben",
+      "canDo": "Menyebut keluhan umum seperti Husten, Fieber, Kopfschmerzen, dan Halsschmerzen dengan haben.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Keluhan dengan haben'"
+      ],
+      "remedy": "Ulangi pola Ich habe Husten/Fieber/Kopfschmerzen/Halsschmerzen; keluhan benda berdiri sendiri memakai artikel saat diperlukan."
+    },
+    {
+      "id": "a1-u9-o2",
+      "unit": 9,
+      "title": "Menanyakan kondisi dan durasi dengan seit",
+      "canDo": "Menanyakan keluhan dengan Was fehlt Ihnen?/Wie geht es Ihnen? dan menyebut durasi dengan seit gestern atau seit zwei Tagen.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Keluhan kesehatan dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Bertanya tentang kondisi'",
+        "Pelajaran 1, slide 'Sejak kapan?'"
+      ],
+      "remedy": "Ulangi Was fehlt Ihnen?, Wie geht es Ihnen?, Mir geht es nicht gut, dan seit + waktu (seit gestern, seit zwei Tagen)."
+    },
+    {
+      "id": "a1-u9-o3",
+      "unit": 9,
+      "title": "Membuat janji dokter",
+      "canDo": "Meminta Arzttermin, menanyakan Termin frei, dan menyebut waktu am Vormittag/am Nachmittag serta Sprechstunde.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Keluhan dan durasi dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Membuat janji'"
+      ],
+      "remedy": "Ulangi Ich brauche einen Arzttermin, Haben Sie heute einen Termin frei?, einen Termin am Vormittag/Nachmittag, dan die Sprechstunde."
+    },
+    {
+      "id": "a1-u9-o4",
+      "unit": 9,
+      "title": "Menjelaskan gejala dan pemeriksaan",
+      "canDo": "Menjelaskan gejala dengan Mein Hals tut weh/Ich fühle mich müde dan menyebut Versicherungskarte serta Untersuchung.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Keluhan dari Pelajaran 1",
+        "Janji dokter dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Di ruang praktik'",
+        "Pelajaran 2, slide 'Menjelaskan gejala'"
+      ],
+      "remedy": "Ulangi Mein Hals tut weh, Ich fühle mich müde, die Versicherungskarte mitbringen, dan die Untersuchung."
+    },
+    {
+      "id": "a1-u9-o5",
+      "unit": 9,
+      "title": "Memahami saran obat dengan sollen",
+      "canDo": "Memahami instruksi obat dengan sollen + infinitif di akhir dan menyebut Rezept, Schmerzmittel, Apotheker, serta Krankmeldung.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Pemeriksaan dokter dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Obat dan resep'",
+        "Pelajaran 3, slide 'Sollen untuk saran'",
+        "Pelajaran 3, slide 'Perban dan izin sakit'"
+      ],
+      "remedy": "Ulangi sollen (ich soll, du sollst, er soll, Sie sollen) + infinitif di akhir; Rezept, Schmerzmittel, Apotheker, dan Krankmeldung."
+    },
+    {
+      "id": "a1-u10-o1",
+      "unit": 10,
+      "title": "Menyatakan kesukaan dengan gern/lieber/am liebsten",
+      "canDo": "Menyatakan kegiatan yang disukai dengan gern, lebih suka dengan lieber, dan paling suka dengan am liebsten.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'gern dan lieber'",
+        "Pelajaran 1, slide 'Mengungkapkan kesukaan'"
+      ],
+      "remedy": "Ulangi tingkatan kesukaan: gern (suka), lieber (lebih suka), am liebsten (paling suka); negasi dengan nicht dan alasan dengan denn."
+    },
+    {
+      "id": "a1-u10-o2",
+      "unit": 10,
+      "title": "Menyebut hobi dan kegiatan waktu luang",
+      "canDo": "Menyebut hobi seperti Musik machen, Karten spielen, schwimmen gehen, dan wandern gehen.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Kata kerja kegiatan dari Unit 8"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Kata kerja untuk hobi'"
+      ],
+      "remedy": "Ulangi Musik machen, Karten spielen, schwimmen gehen, dan wandern gehen; spielen dipakai untuk olahraga/permainan, gehen + infinitif untuk kegiatan."
+    },
+    {
+      "id": "a1-u10-o3",
+      "unit": 10,
+      "title": "Mengajak teman dan merespons ajakan",
+      "canDo": "Mengajak dengan Hast du ... Zeit?/Wollen wir ...? dan merespons dengan Gern!, Das klingt gut!, atau Leider kann ich nicht.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Kosakata hobi dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Mengajak teman'",
+        "Pelajaran 2, slide 'Menerima atau menolak ajakan'"
+      ],
+      "remedy": "Ulangi Hast du am Samstag Zeit?, Wollen wir ...?, Gern!/Das klingt gut!, Leider kann ich nicht, dan Vielleicht am Sonntag?"
+    },
+    {
+      "id": "a1-u10-o4",
+      "unit": 10,
+      "title": "Menyebut jadwal kegiatan dengan am dan um",
+      "canDo": "Menyebut hari dengan am dan jam dengan um, serta menempatkan verba finit di posisi kedua saat keterangan waktu di awal.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Pola waktu dari Unit 2",
+        "Ajakan dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Urutan waktu'"
+      ],
+      "remedy": "Ulangi am + hari (am Samstag), um + jam (um drei Uhr), dan posisi verba: Am Sonntag besuchen wir ..."
+    },
+    {
+      "id": "a1-u10-o5",
+      "unit": 10,
+      "title": "Membicarakan keanggotaan klub dan jadwal latihan",
+      "canDo": "Menyebut Mitglied sein, Verein, jadwal Training, sekali/dua kali per minggu, dan mit + Dativ untuk teman kegiatan.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Hobi dan jadwal dari Pelajaran 1–2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Menjadi anggota'",
+        "Pelajaran 3, slide 'Jadwal latihan'",
+        "Pelajaran 3, slide 'Aktivitas dalam klub'"
+      ],
+      "remedy": "Ulangi Mitglied sein, die Mitglieder, Training beginnt um ..., einmal/zweimal pro Woche, jeden Dienstag, dan mit + Dativ."
+    },
+    {
+      "id": "a1-u11-o1",
+      "unit": 11,
+      "title": "Menyebut tujuan perjalanan dengan nach dan in + negara",
+      "canDo": "Memakai nach untuk kota/negara tanpa artikel dan in + Akkusativ untuk negara berartikel seperti in die Schweiz; memahami Wohin?.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Tujuan dengan nach'"
+      ],
+      "remedy": "Ulangi nach + kota/negara tanpa artikel (nach Berlin) dan in + Akkusativ untuk negara berartikel (in die Schweiz); Wohin? menanyakan tujuan."
+    },
+    {
+      "id": "a1-u11-o2",
+      "unit": 11,
+      "title": "Menyebut jadwal keberangkatan dan kedatangan",
+      "canDo": "Menyebut Abfahrt dan Ankunft dengan um ... Uhr serta menanyakan Wann kommt der Zug an?.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Jam dan waktu dari Unit 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Jadwal perjalanan'"
+      ],
+      "remedy": "Ulangi die Abfahrt (keberangkatan), die Ankunft (kedatangan), um ... Uhr, dan Wann kommt der Zug an?"
+    },
+    {
+      "id": "a1-u11-o3",
+      "unit": 11,
+      "title": "Membawa barang bawaan dengan mitnehmen",
+      "canDo": "Menyebut Koffer, Rucksack, dan Reisepass serta memakai mitnehmen sebagai verba pisah (Ich nehme ... mit).",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Verba pisah dari Unit 8"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Barang bawaan'"
+      ],
+      "remedy": "Ulangi mitnehmen (ich nehme ... mit, du nimmst ... mit) dan kosakata Koffer, Rucksack, Reisepass, Reisetasche."
+    },
+    {
+      "id": "a1-u11-o4",
+      "unit": 11,
+      "title": "Menanyakan peron, keterlambatan, dan sambungan",
+      "canDo": "Menanyakan Auf welchem Gleis ...?, menyebut Verspätung, dan memahami Anschluss/Verbindung.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Jadwal perjalanan dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Menanyakan peron'",
+        "Pelajaran 2, slide 'Keterlambatan'"
+      ],
+      "remedy": "Ulangi Auf welchem Gleis fährt der Zug ab?, Verspätung, später ankommen, Anschluss, dan eine andere Verbindung."
+    },
+    {
+      "id": "a1-u11-o5",
+      "unit": 11,
+      "title": "Memesan tiket/tempat duduk dan meminta informasi",
+      "canDo": "Memesan Sitzplatz dengan reservieren, membeli tiket di Fahrkartenautomat/Ticketschalter, dan meminta Auskunft serta Verbindung.",
+      "lessonNos": [2, 3],
+      "prerequisites": [
+        "Peron dan keterlambatan dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Tiket dan tempat duduk'",
+        "Pelajaran 3, slide 'Meminta informasi'",
+        "Pelajaran 3, slide 'Di biro perjalanan'",
+        "Pelajaran 3, slide 'Memastikan rencana'"
+      ],
+      "remedy": "Ulangi einen Sitzplatz reservieren, Fahrkartenautomat/Ticketschalter, Wo bekomme ich eine Auskunft?, eine Verbindung buchen, dan Reiseplan prüfen."
+    },
+    {
+      "id": "a1-u12-o1",
+      "unit": 12,
+      "title": "Mengundang dan menyepakati waktu",
+      "canDo": "Mengundang dengan einladen/mitkommen dan menyepakati waktu dengan Um wie viel Uhr treffen wir uns? serta sich treffen.",
+      "lessonNos": [1],
+      "prerequisites": [],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Membuat ajakan'",
+        "Pelajaran 1, slide 'Menyepakati waktu'"
+      ],
+      "remedy": "Ulangi Ich möchte dich einladen, Möchtest du mitkommen?, Um wie viel Uhr treffen wir uns?, dan wir treffen uns um ... vor ..."
+    },
+    {
+      "id": "a1-u12-o2",
+      "unit": 12,
+      "title": "Menerima atau menolak ajakan dan mengusulkan waktu lain",
+      "canDo": "Menerima dengan Gern, ich komme, menolak dengan Leider kann ich nicht, dan mengusulkan Können wir uns am Sonntag treffen?.",
+      "lessonNos": [1],
+      "prerequisites": [
+        "Ajakan dan waktu dari Pelajaran 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 1, slide 'Menerima dan membatalkan'"
+      ],
+      "remedy": "Ulangi Gern, ich komme, Leider kann ich nicht, dan Können wir uns am Sonntag treffen?; beri tahu secepatnya bila batal."
+    },
+    {
+      "id": "a1-u12-o3",
+      "unit": 12,
+      "title": "Memulai percakapan telepon",
+      "canDo": "Memperkenalkan diri di telepon dengan hier ist ..., meminta bicara dengan Kann ich bitte mit ... sprechen?, dan meminta waktu dengan Einen Moment bitte.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Sapaan formal dari Unit 1"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Memulai percakapan telepon'"
+      ],
+      "remedy": "Ulangi Hallo, hier ist ..., Kann ich bitte mit ... sprechen?, Einen Moment bitte, dan Wie ist Ihre Telefonnummer?"
+    },
+    {
+      "id": "a1-u12-o4",
+      "unit": 12,
+      "title": "Memakai anrufen pisah dan meninggalkan pesan",
+      "canDo": "Memakai anrufen sebagai verba pisah (Ich rufe dich an) dan meminta meninggalkan Nachricht/Sprachnachricht.",
+      "lessonNos": [2],
+      "prerequisites": [
+        "Verba pisah dari Unit 8 dan 11"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 2, slide 'Verba pisah anrufen'",
+        "Pelajaran 2, slide 'Mencatat pesan'"
+      ],
+      "remedy": "Ulangi anrufen (ich rufe ... an, du rufst ... an), Kann ich eine Nachricht hinterlassen?, dan die Sprachnachricht."
+    },
+    {
+      "id": "a1-u12-o5",
+      "unit": 12,
+      "title": "Menulis dan membalas pesan sederhana",
+      "canDo": "Menulis pesan/E-Mail/kartu pos, menyebut Briefumschlag dan Briefmarke, serta membalas dengan Danke für deine Nachricht dan Ich bestätige den Termin.",
+      "lessonNos": [3],
+      "prerequisites": [
+        "Percakapan telepon dari Pelajaran 2"
+      ],
+      "coverage": "covered",
+      "review": "not-reviewed",
+      "evidence": [
+        "Pelajaran 3, slide 'Pesan tertulis sederhana'",
+        "Pelajaran 3, slide 'E-Mail dan surat'",
+        "Pelajaran 3, slide 'Membalas dan mengonfirmasi'"
+      ],
+      "remedy": "Ulangi struktur salam–tujuan–waktu–penutup, E-Mail/Postkarte, Briefumschlag/Briefmarke, Danke für deine Nachricht, dan Ich bestätige den Termin."
+    }
+  ],
+  "policies": [
+    {
+      "unit": 1,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 2,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 3,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 4,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 5,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 6,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 7,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 8,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 9,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 10,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 11,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    },
+    {
+      "unit": 12,
+      "itemsPerObjective": 3,
+      "perObjectiveMin": 2,
+      "pass": 70,
+      "poolPerObjective": 5
+    }
+  ]
+}

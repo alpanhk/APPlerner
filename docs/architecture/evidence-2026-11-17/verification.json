@@ -1,0 +1,35 @@
+[
+  {
+    "index": 0,
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "e9098a",
+      "wall_time_seconds": 8.0374625,
+      "exit_code": 0,
+      "original_token_count": 800,
+      "output": "test_a1_audio.cjs exit 0\r\nA1 offline audio OK: 178 kata + 122 contoh + 100 kalimat bacaan, 25.4 MiB klip.\r\ntest_a1_conversation.cjs exit 0\r\nP5 A1 conversation OK: 4 skenario, 30 node, 39 opsi bercabang, tanpa siklus.\r\ntest_a1_mock_exam.cjs exit 0\r\nF8 A1 mock exam OK: 4 komponen, 10 item objektif, 1 tugas menulis, 3 prompt bicara.\r\ntest_a1_objectives.cjs exit 0\r\nA1 objective inventory OK:\r\n  Unit 1: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 2: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 3: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 4: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 5: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 6: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 7: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 8: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 9: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 10: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 11: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\n  Unit 12: 5 objectives, 25 bank items, checkpoint 15, remedial 4\r\nCheckpoint keys per unit, retry fresh-first, remedial dari pool tak terpakai, feedback benar/salah/tak dikenal, dan jawaban alternatif lolos.\r\ntest_a1_option_order.cjs exit 0\r\nA1 option order OK:\r\n  reproduksi 184/184 opsi pertama = kunci; Uji A1 5/5 + mendengar 10/10\r\n  4429 sampel posisi checkpoint, posisi pertama 1115; posisi teramati 0,1,2,3\r\n  kunci/identitas stabil, resume identik, alternatif sah diterima, kapitalisasi Musik/musik dan schwimmen/Schwimmen tetap salah\r\n  bank kurang = insufficient, 73 persen dengan satu tujuan gagal = tidak lulus, koreksi koran/an der/ledig terverifikasi, runner gradeCheckpoint sepakat dengan aturan bersama.\r\ntest_a1_practice.cjs exit 0\r\nP4 A1 practice OK: 5 dialog mendengar (10 pertanyaan) dan 5 tugas menulis terpandu.\r\ntest_audio_lookup.cjs exit 0\r\nAudio lookup OK: D8 14/14 (1 kasus eszett tetap tertangkap regresi), bacaan 100, percakapan 28 baris node, listening 21, kosakata 178, contoh 122.\r\ntest_checkpoint_result.cjs exit 0\r\nDB-02 checkpoint: 73% [3,3,2,2,1] gagal, duplikat/stale diabaikan, bank kurang gagal, opsi exact.\r\ntest_draft_migration.cjs exit 0\r\nDB-03 draft: migrasi localStorage -> SQLite, SQLite menang, data rusak ditolak, delete bersih.\r\ntest_drill_session.cjs exit 0\r\nDrill store: start menghasilkan phase question, sessionId, generation; sesi baru menaikkan generation.\r\ntest_lesson_practice.cjs exit 0\r\n96 A1�B2 lessons have valid practice from their own examples.\r\n17 A1 lessons use 35 application items (new prompts, objective-linked, shuffled options, specific feedback).\r\ntest_lesson_resume.cjs exit 0\r\nLesson drill draft restores question order and answers, and rejects damaged data.\r\ntest_seed_sync.cjs exit 0\r\nSeed sync preserves user edits/deletions and applies safe corrections.\r\ntest_seed_upgrade.cjs exit 0\r\nDB-01 seed upgrade: 120 kata + 17 teks, edit/hapus aman, partial+retry, snapshot kosong/lengkap, idempoten.\r\ntest_study_clock.cjs exit 0\r\nStudy clock counts only active, visible time and ignores idle/hidden periods.\r\n"
+    }
+  },
+  {
+    "index": 1,
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "196ffb",
+      "wall_time_seconds": 9.7264818,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "index": 2,
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "103ce7",
+      "wall_time_seconds": 3.8328922,
+      "exit_code": 0,
+      "original_token_count": 300,
+      "output": "    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.06s\n     Running unittests src\\lib.rs (target\\debug\\deps\\lernen_app_lib-9a0129ee409b10dd.exe)\n\nrunning 8 tests\ntest restore_tests::backup_write_publishes_complete_file ... ok\ntest restore_tests::review_and_attempt_commit_together ... ok\ntest restore_tests::attempt_and_draft_commit_together ... ok\ntest restore_tests::checkpoint_progress_failure_rolls_back_snapshot ... ok\ntest restore_tests::checkpoint_progress_and_snapshot_commit_together ... ok\ntest restore_tests::invalid_restore_rolls_back_and_valid_restore_succeeds ... ok\ntest restore_tests::restore_accepts_old_backup_without_lesson_drafts ... ok\ntest restore_tests::recovered_database_can_be_reopened_with_migration_history ... ok\n\ntest result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s\n\n     Running unittests src\\main.rs (target\\debug\\deps\\lernen_app-9016b89db53c2ab7.exe)\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n   Doc-tests lernen_app_lib\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n"
+    }
+  }
+]

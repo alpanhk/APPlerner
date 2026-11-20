@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-11-17T17:02:45.821410+07:00",
+  "results": [
+    {
+      "command": "node scripts/test_a1_audio.cjs",
+      "exit_code": 0,
+      "stdout": "A1 offline audio OK: 178 kata + 122 contoh + 100 kalimat bacaan, 25.4 MiB klip.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_a1_conversation.cjs",
+      "exit_code": 0,
+      "stdout": "P5 A1 conversation OK: 4 skenario, 30 node, 39 opsi bercabang, tanpa siklus.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_a1_mock_exam.cjs",
+      "exit_code": 0,
+      "stdout": "F8 A1 mock exam OK: 4 komponen, 10 item objektif, 1 tugas menulis, 3 prompt bicara.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_a1_objectives.cjs",
+      "exit_code": 0,
+      "stdout": "A1 objective inventory OK:\n  Unit 1: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 2: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 3: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 4: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 5: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 6: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 7: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 8: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 9: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 10: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 11: 5 objectives, 25 bank items, checkpoint 15, remedial 4\n  Unit 12: 5 objectives, 25 bank items, checkpoint 15, remedial 4\nCheckpoint keys per unit, retry fresh-first, remedial dari pool tak terpakai, feedback benar/salah/tak dikenal, dan jawaban alternatif lolos.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_a1_option_order.cjs",
+      "exit_code": 0,
+      "stdout": "A1 option order OK:\n  reproduksi 184/184 opsi pertama = kunci; Uji A1 5/5 + mendengar 10/10\n  4429 sampel posisi checkpoint, posisi pertama 1115; posisi teramati 0,1,2,3\n  kunci/identitas stabil, resume identik, alternatif sah diterima, kapitalisasi Musik/musik dan schwimmen/Schwimmen tetap salah\n  bank kurang = insufficient, 73 persen dengan satu tujuan gagal = tidak lulus, koreksi koran/an der/ledig terverifikasi, runner gradeCheckpoint sepakat dengan aturan bersama.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_a1_practice.cjs",
+      "exit_code": 0,
+      "stdout": "P4 A1 practice OK: 5 dialog mendengar (10 pertanyaan) dan 5 tugas menulis terpandu.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_audio_lookup.cjs",
+      "exit_code": 0,
+      "stdout": "Audio lookup OK: D8 14/14 (1 kasus eszett tetap tertangkap regresi), bacaan 100, percakapan 28 baris node, listening 21, kosakata 178, contoh 122.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_checkpoint_result.cjs",
+      "exit_code": 0,
+      "stdout": "DB-02 checkpoint: 73% [3,3,2,2,1] gagal, duplikat/stale diabaikan, bank kurang gagal, opsi exact.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_draft_migration.cjs",
+      "exit_code": 0,
+      "stdout": "DB-03 draft: migrasi localStorage -> SQLite, SQLite menang, data rusak ditolak, delete bersih.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_drill_session.cjs",
+      "exit_code": 0,
+      "stdout": "Drill store: start menghasilkan phase question, sessionId, generation; sesi baru menaikkan generation.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_lesson_practice.cjs",
+      "exit_code": 0,
+      "stdout": "96 A1–B2 lessons have valid practice from their own examples.\n17 A1 lessons use 35 application items (new prompts, objective-linked, shuffled options, specific feedback).\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_lesson_resume.cjs",
+      "exit_code": 0,
+      "stdout": "Lesson drill draft restores question order and answers, and rejects damaged data.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_seed_sync.cjs",
+      "exit_code": 0,
+      "stdout": "Seed sync preserves user edits/deletions and applies safe corrections.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_seed_upgrade.cjs",
+      "exit_code": 0,
+      "stdout": "DB-01 seed upgrade: 120 kata + 17 teks, edit/hapus aman, partial+retry, snapshot kosong/lengkap, idempoten.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/test_study_clock.cjs",
+      "exit_code": 0,
+      "stdout": "Study clock counts only active, visible time and ignores idle/hidden periods.\n",
+      "stderr": ""
+    }
+  ]
+}

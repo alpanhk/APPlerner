@@ -1,0 +1,309 @@
+{
+  "unit": 2,
+  "level": "A1",
+  "theme": "Angka, waktu, harga",
+  "source": "Kerangka Goethe A1 + kurasi manual (PRD 6.3)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Zahl",
+      "article": "die",
+      "plural": "die Zahlen",
+      "meaning_id": "angka",
+      "example_de": "Die Zahl ist groß.",
+      "example_id": "Angkanya besar.",
+      "tags": "unit2,angka"
+    },
+    {
+      "kind": "noun",
+      "de": "Nummer",
+      "article": "die",
+      "plural": "die Nummern",
+      "meaning_id": "nomor",
+      "example_de": "Meine Nummer ist 0812.",
+      "example_id": "Nomor saya 0812.",
+      "tags": "unit2,angka"
+    },
+    {
+      "kind": "noun",
+      "de": "Uhr",
+      "article": "die",
+      "plural": "die Uhren",
+      "meaning_id": "jam (benda)",
+      "example_de": "Die Uhr ist neu.",
+      "example_id": "Jamnya baru.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Stunde",
+      "article": "die",
+      "plural": "die Stunden",
+      "meaning_id": "jam (durasi)",
+      "example_de": "Der Kurs dauert zwei Stunden.",
+      "example_id": "Kursusnya berlangsung dua jam.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Minute",
+      "article": "die",
+      "plural": "die Minuten",
+      "meaning_id": "menit",
+      "example_de": "Ich habe fünf Minuten Zeit.",
+      "example_id": "Saya punya waktu lima menit.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Woche",
+      "article": "die",
+      "plural": "die Wochen",
+      "meaning_id": "pekan, minggu",
+      "example_de": "Die Woche hat sieben Tage.",
+      "example_id": "Seminggu ada tujuh hari.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Monat",
+      "article": "der",
+      "plural": "die Monate",
+      "meaning_id": "bulan",
+      "example_de": "Der Monat Februar ist kurz.",
+      "example_id": "Bulan Februari singkat.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Montag",
+      "article": "der",
+      "plural": "die Montage",
+      "meaning_id": "hari Senin",
+      "example_de": "Am Montag habe ich Unterricht.",
+      "example_id": "Hari Senin saya ada kelas.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Dienstag",
+      "article": "der",
+      "plural": "die Dienstage",
+      "meaning_id": "hari Selasa",
+      "example_de": "Am Dienstag arbeite ich.",
+      "example_id": "Hari Selasa saya bekerja.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittwoch",
+      "article": "der",
+      "plural": "die Mittwoche",
+      "meaning_id": "hari Rabu",
+      "example_de": "Am Mittwoch ist Deutschkurs.",
+      "example_id": "Hari Rabu ada kursus bahasa Jerman.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Donnerstag",
+      "article": "der",
+      "plural": "die Donnerstage",
+      "meaning_id": "hari Kamis",
+      "example_de": "Am Donnerstag kaufe ich ein.",
+      "example_id": "Hari Kamis saya berbelanja.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Freitag",
+      "article": "der",
+      "plural": "die Freitage",
+      "meaning_id": "hari Jumat",
+      "example_de": "Am Freitag feiern wir.",
+      "example_id": "Hari Jumat kami berpesta.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Samstag",
+      "article": "der",
+      "plural": "die Samstage",
+      "meaning_id": "hari Sabtu",
+      "example_de": "Am Samstag schlafe ich lange.",
+      "example_id": "Hari Sabtu saya tidur lama.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Sonntag",
+      "article": "der",
+      "plural": "die Sonntage",
+      "meaning_id": "hari Minggu",
+      "example_de": "Am Sonntag besuche ich meine Familie.",
+      "example_id": "Hari Minggu saya mengunjungi keluarga.",
+      "tags": "unit2,hari"
+    },
+    {
+      "kind": "noun",
+      "de": "Wochenende",
+      "article": "das",
+      "plural": "die Wochenenden",
+      "meaning_id": "akhir pekan",
+      "example_de": "Am Wochenende bin ich zu Hause.",
+      "example_id": "Akhir pekan saya di rumah.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "other",
+      "de": "heute",
+      "article": null,
+      "plural": null,
+      "meaning_id": "hari ini",
+      "example_de": "Heute lerne ich Deutsch.",
+      "example_id": "Hari ini saya belajar bahasa Jerman.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "other",
+      "de": "morgen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "besok",
+      "example_de": "Morgen habe ich frei.",
+      "example_id": "Besok saya libur.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "other",
+      "de": "gestern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kemarin",
+      "example_de": "Gestern war ich im Kino.",
+      "example_id": "Kemarin saya di bioskop.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "other",
+      "de": "jetzt",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sekarang",
+      "example_de": "Jetzt beginnt der Film.",
+      "example_id": "Sekarang filmnya mulai.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "adj",
+      "de": "früh",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pagi-pagi, awal",
+      "example_de": "Ich stehe früh auf.",
+      "example_id": "Saya bangun pagi.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "adj",
+      "de": "spät",
+      "article": null,
+      "plural": null,
+      "meaning_id": "larut, terlambat",
+      "example_de": "Es ist schon spät.",
+      "example_id": "Sudah larut.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Zeit",
+      "article": "die",
+      "plural": "die Zeiten",
+      "meaning_id": "waktu",
+      "example_de": "Ich habe keine Zeit.",
+      "example_id": "Saya tidak punya waktu.",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "noun",
+      "de": "Preis",
+      "article": "der",
+      "plural": "die Preise",
+      "meaning_id": "harga",
+      "example_de": "Der Preis ist gut.",
+      "example_id": "Harganya bagus.",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "noun",
+      "de": "Euro",
+      "article": "der",
+      "plural": "die Euro",
+      "meaning_id": "euro",
+      "example_de": "Das kostet zehn Euro.",
+      "example_id": "Itu harganya sepuluh euro.",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "adj",
+      "de": "teuer",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mahal",
+      "example_de": "Das Auto ist zu teuer.",
+      "example_id": "Mobil itu terlalu mahal.",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "adj",
+      "de": "billig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "murah",
+      "example_de": "Hier ist es billig.",
+      "example_id": "Di sini murah.",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "verb",
+      "de": "kosten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berharga (sebesar)",
+      "example_de": "Wie viel kostet das Brot?",
+      "example_id": "Berapa harga rotinya?",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "verb",
+      "de": "zahlen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membayar",
+      "example_de": "Ich zahle mit Karte.",
+      "example_id": "Saya membayar dengan kartu.",
+      "tags": "unit2,harga"
+    },
+    {
+      "kind": "other",
+      "de": "halb",
+      "article": null,
+      "plural": null,
+      "meaning_id": "setengah",
+      "example_de": "Es ist halb acht.",
+      "example_id": "Sekarang pukul setengah delapan (07.30).",
+      "tags": "unit2,waktu"
+    },
+    {
+      "kind": "other",
+      "de": "viertel",
+      "article": null,
+      "plural": null,
+      "meaning_id": "seperempat",
+      "example_de": "Es ist viertel nach neun.",
+      "example_id": "Sekarang pukul sembilan lebih seperempat.",
+      "tags": "unit2,waktu"
+    }
+  ]
+}

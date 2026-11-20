@@ -1,0 +1,181 @@
+{
+  "id": "dialog-27",
+  "title": "Die Heizung ist kaputt",
+  "textId": 27,
+  "level": "A2",
+  "tags": "seed · A2 · rumah · layanan",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Im Winter funktioniert die Heizung im Schlafzimmer nicht.",
+      "id": "Pada musim dingin pemanas di kamar tidur tidak berfungsi.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Frau Berger ruft den Hausmeister an.",
+      "id": "Ibu Berger menelepon pengelola gedung.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Er kommt am Nachmittag vorbei und prüft den Heizkörper.",
+      "id": "Dia datang pada sore hari dan memeriksa radiator.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ein kleines Ersatzteil fehlt, deshalb muss er noch einmal kommen.",
+      "id": "Satu suku cadang kecil tidak ada, karena itu dia harus datang lagi.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Abend ist das Zimmer wieder warm.",
+      "id": "Pada malam hari kamar itu kembali hangat.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Im Winter funktioniert die Heizung im Schlafzimmer nicht.",
+      "id": "Pada musim dingin pemanas di kamar tidur tidak berfungsi.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Frau Berger ruft den Hausmeister an.",
+      "id": "Ibu Berger menelepon pengelola gedung.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Er kommt am Nachmittag vorbei und prüft den Heizkörper.",
+      "id": "Dia datang pada sore hari dan memeriksa radiator.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "lehrerin",
+      "de": "Ein kleines Ersatzteil fehlt, deshalb muss er noch einmal kommen.",
+      "id": "Satu suku cadang kecil tidak ada, karena itu dia harus datang lagi.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Am Abend ist das Zimmer wieder warm.",
+      "id": "Pada malam hari kamar itu kembali hangat.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

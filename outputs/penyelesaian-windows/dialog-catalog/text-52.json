@@ -1,0 +1,206 @@
+{
+  "id": "dialog-52",
+  "title": "Ein Unternehmen in der Krise",
+  "textId": 52,
+  "level": "B2",
+  "tags": "seed · B2 · unit 4",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Das Unternehmen steckt seit zwei Jahren in einer Krise.",
+      "id": "Perusahaan itu dua tahun dalam krisis.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Der Umsatz ist gesunken, während die Kosten gestiegen sind.",
+      "id": "Omzet menurun sementara biaya naik.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Einerseits braucht die Firma Investitionen, andererseits fehlt das Geld.",
+      "id": "Di satu sisi perusahaan butuh investasi, di sisi lain uangnya kurang.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Geschäftsführung hat eine neue Strategie beschlossen.",
+      "id": "Manajemen memutuskan strategi baru.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Ein Teil der Produktion ist bereits verlagert.",
+      "id": "Sebagian produksi sudah dipindahkan.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Ob die Strategie rentabel ist, wird sich nächstes Jahr zeigen.",
+      "id": "Apakah strateginya menguntungkan akan terlihat tahun depan.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Das Unternehmen steckt seit zwei Jahren in einer Krise.",
+      "id": "Perusahaan itu dua tahun dalam krisis.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Der Umsatz ist gesunken, während die Kosten gestiegen sind.",
+      "id": "Omzet menurun sementara biaya naik.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "vorgesetzte",
+      "de": "Einerseits braucht die Firma Investitionen, andererseits fehlt das Geld.",
+      "id": "Di satu sisi perusahaan butuh investasi, di sisi lain uangnya kurang.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Geschäftsführung hat eine neue Strategie beschlossen.",
+      "id": "Manajemen memutuskan strategi baru.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "kollegin",
+      "de": "Ein Teil der Produktion ist bereits verlagert.",
+      "id": "Sebagian produksi sudah dipindahkan.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "vorgesetzte",
+      "de": "Ob die Strategie rentabel ist, wird sich nächstes Jahr zeigen.",
+      "id": "Apakah strateginya menguntungkan akan terlihat tahun depan.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

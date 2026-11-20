@@ -1,0 +1,206 @@
+{
+  "id": "dialog-33",
+  "title": "Urlaub an der Ostsee",
+  "textId": 33,
+  "level": "A2",
+  "tags": "seed · A2 · unit 5",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "bahnhof": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "ticket": {
+        "kind": "prop"
+      },
+      "koffer": {
+        "kind": "prop"
+      },
+      "karte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Letzten Sommer sind wir an die Ostsee gefahren.",
+      "id": "Musim panas lalu kami pergi ke Laut Baltik.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Reise hat sechs Stunden gedauert.",
+      "id": "Perjalanannya memakan waktu enam jam.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Wir haben ein kleines Hotel am Strand gebucht.",
+      "id": "Kami memesan hotel kecil di pantai.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Am Morgen sind wir im Meer geschwommen.",
+      "id": "Pagi hari kami berenang di laut.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Nachmittag haben wir die Stadt besucht.",
+      "id": "Sore hari kami mengunjungi kota.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nächstes Jahr wollen wir nach Wien fahren.",
+      "id": "Tahun depan kami ingin pergi ke Wina.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Letzten Sommer sind wir an die Ostsee gefahren.",
+      "id": "Musim panas lalu kami pergi ke Laut Baltik.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Reise hat sechs Stunden gedauert.",
+      "id": "Perjalanannya memakan waktu enam jam.",
+      "pose": "offscreen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Wir haben ein kleines Hotel am Strand gebucht.",
+      "id": "Kami memesan hotel kecil di pantai.",
+      "pose": "offscreen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "freundin",
+      "de": "Am Morgen sind wir im Meer geschwommen.",
+      "id": "Pagi hari kami berenang di laut.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "lehrerin",
+      "de": "Am Nachmittag haben wir die Stadt besucht.",
+      "id": "Sore hari kami mengunjungi kota.",
+      "pose": "erzaehlen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Nächstes Jahr wollen wir nach Wien fahren.",
+      "id": "Tahun depan kami ingin pergi ke Wina.",
+      "pose": "fragen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

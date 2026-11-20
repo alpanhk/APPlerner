@@ -1,0 +1,269 @@
+{
+  "unit": 107,
+  "level": "A2",
+  "theme": "Freizeit & Hobbys",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Freizeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "waktu luang",
+      "example_de": "In meiner Freizeit lese ich.",
+      "example_id": "Di waktu luang saya membaca.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Hobby",
+      "article": "das",
+      "plural": "die Hobbys",
+      "meaning_id": "hobi",
+      "example_de": "Mein Hobby ist Fotografieren.",
+      "example_id": "Hobi saya fotografi.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Verein",
+      "article": "der",
+      "plural": "die Vereine",
+      "meaning_id": "klub",
+      "example_de": "Ich bin in einem Verein.",
+      "example_id": "Saya ikut sebuah klub.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Konzert",
+      "article": "das",
+      "plural": "die Konzerte",
+      "meaning_id": "konser",
+      "example_de": "Das Konzert beginnt um acht.",
+      "example_id": "Konsernya mulai pukul delapan.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Kino",
+      "article": "das",
+      "plural": "die Kinos",
+      "meaning_id": "bioskop",
+      "example_de": "Wir gehen ins Kino.",
+      "example_id": "Kami pergi ke bioskop.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Museum",
+      "article": "das",
+      "plural": "die Museen",
+      "meaning_id": "museum",
+      "example_de": "Das Museum ist heute geschlossen.",
+      "example_id": "Museumnya tutup hari ini.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausstellung",
+      "article": "die",
+      "plural": "die Ausstellungen",
+      "meaning_id": "pameran",
+      "example_de": "Die Ausstellung ist interessant.",
+      "example_id": "Pamerannya menarik.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Sport",
+      "article": "der",
+      "plural": "die Sportarten",
+      "meaning_id": "olahraga",
+      "example_de": "Sport ist gesund.",
+      "example_id": "Olahraga itu sehat.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Spiel",
+      "article": "das",
+      "plural": "die Spiele",
+      "meaning_id": "permainan",
+      "example_de": "Das Spiel war spannend.",
+      "example_id": "Permainannya menegangkan.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Mannschaft",
+      "article": "die",
+      "plural": "die Mannschaften",
+      "meaning_id": "tim",
+      "example_de": "Unsere Mannschaft hat gewonnen.",
+      "example_id": "Tim kami menang.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "verb",
+      "de": "wandern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendaki, berjalan di alam",
+      "example_de": "Wir wandern im Harz.",
+      "example_id": "Kami mendaki di Harz.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "verb",
+      "de": "schwimmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berenang",
+      "example_de": "Sie schwimmt jeden Morgen.",
+      "example_id": "Dia berenang setiap pagi.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "verb",
+      "de": "sammeln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengoleksi",
+      "example_de": "Er sammelt Briefmarken.",
+      "example_id": "Dia mengoleksi perangko.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "verb",
+      "de": "malen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melukis",
+      "example_de": "Sie malt ein Bild.",
+      "example_id": "Dia melukis sebuah gambar.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "adj",
+      "de": "spannend",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menegangkan, seru",
+      "example_de": "Der Film ist spannend.",
+      "example_id": "Filmnya seru.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "adj",
+      "de": "langweilig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membosankan",
+      "example_de": "Das Buch ist langweilig.",
+      "example_id": "Bukunya membosankan.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitglied",
+      "article": "das",
+      "plural": "die Mitglieder",
+      "meaning_id": "anggota",
+      "example_de": "Ich bin Mitglied im Verein.",
+      "example_id": "Saya anggota klub.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Eintrittskarte",
+      "article": "die",
+      "plural": "die Eintrittskarten",
+      "meaning_id": "tiket masuk",
+      "example_de": "Die Eintrittskarte kostet acht Euro.",
+      "example_id": "Tiket masuknya delapan euro.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Bühne",
+      "article": "die",
+      "plural": "die Bühnen",
+      "meaning_id": "panggung",
+      "example_de": "Die Bühne ist groß.",
+      "example_id": "Panggungnya besar.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Publikum",
+      "article": "das",
+      "plural": "die Publiken",
+      "meaning_id": "penonton",
+      "example_de": "Das Publikum klatscht.",
+      "example_id": "Penonton bertepuk tangan.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Training",
+      "article": "das",
+      "plural": "die Trainings",
+      "meaning_id": "latihan",
+      "example_de": "Das Training ist am Dienstag.",
+      "example_id": "Latihannya hari Selasa.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Wettkampf",
+      "article": "der",
+      "plural": "die Wettkämpfe",
+      "meaning_id": "pertandingan",
+      "example_de": "Der Wettkampf beginnt früh.",
+      "example_id": "Pertandingannya mulai pagi.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausrüstung",
+      "article": "die",
+      "plural": "die Ausrüstungen",
+      "meaning_id": "perlengkapan",
+      "example_de": "Die Ausrüstung ist teuer.",
+      "example_id": "Perlengkapannya mahal.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Wanderweg",
+      "article": "der",
+      "plural": "die Wanderwege",
+      "meaning_id": "jalur pendakian",
+      "example_de": "Der Wanderweg ist markiert.",
+      "example_id": "Jalur pendakiannya ditandai.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Festival",
+      "article": "das",
+      "plural": "die Festivals",
+      "meaning_id": "festival",
+      "example_de": "Das Festival dauert drei Tage.",
+      "example_id": "Festivalnya tiga hari.",
+      "tags": "a2,unit7,freizeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Zuschauer",
+      "article": "der",
+      "plural": "die Zuschauer",
+      "meaning_id": "penonton",
+      "example_de": "Die Zuschauer jubeln.",
+      "example_id": "Penonton bersorak.",
+      "tags": "a2,unit7,freizeit"
+    }
+  ]
+}

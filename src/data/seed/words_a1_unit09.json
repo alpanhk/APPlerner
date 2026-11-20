@@ -1,0 +1,159 @@
+{
+  "unit": 9,
+  "level": "A1",
+  "theme": "Kesehatan & tubuh",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Nasenspray",
+      "article": "das",
+      "plural": "die Nasensprays",
+      "meaning_id": "semprotan hidung",
+      "example_de": "Das ist das Nasenspray.",
+      "example_id": "Ini semprotan hidung.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Bauchschmerz",
+      "article": "der",
+      "plural": "die Bauchschmerzen",
+      "meaning_id": "sakit perut",
+      "example_de": "Das ist der Bauchschmerz.",
+      "example_id": "Ini sakit perut.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Grippe",
+      "article": "die",
+      "plural": "die Grippen (selten)",
+      "meaning_id": "flu",
+      "example_de": "Das ist die Grippe.",
+      "example_id": "Ini flu.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Halsschmerz",
+      "article": "der",
+      "plural": "die Halsschmerzen",
+      "meaning_id": "sakit tenggorokan",
+      "example_de": "Das ist der Halsschmerz.",
+      "example_id": "Ini sakit tenggorokan.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Kopfschmerz",
+      "article": "der",
+      "plural": "die Kopfschmerzen",
+      "meaning_id": "sakit kepala",
+      "example_de": "Das ist der Kopfschmerz.",
+      "example_id": "Ini sakit kepala.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Versicherungskarte",
+      "article": "die",
+      "plural": "die Versicherungskarten",
+      "meaning_id": "kartu asuransi",
+      "example_de": "Das ist die Versicherungskarte.",
+      "example_id": "Ini kartu asuransi.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Tropfen",
+      "article": "der",
+      "plural": "die Tropfen",
+      "meaning_id": "obat tetes",
+      "example_de": "Das ist der Tropfen.",
+      "example_id": "Ini obat tetes.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Augentropfen",
+      "article": "die",
+      "plural": "die Augentropfen",
+      "meaning_id": "obat tetes mata",
+      "example_de": "Das ist die Augentropfen.",
+      "example_id": "Ini obat tetes mata.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Schmerzmittel",
+      "article": "das",
+      "plural": "die Schmerzmittel",
+      "meaning_id": "obat pereda nyeri",
+      "example_de": "Das ist das Schmerzmittel.",
+      "example_id": "Ini obat pereda nyeri.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Apotheker",
+      "article": "der",
+      "plural": "die Apotheker",
+      "meaning_id": "apoteker laki-laki",
+      "example_de": "Das ist der Apotheker.",
+      "example_id": "Ini apoteker laki-laki.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Sprechstunde",
+      "article": "die",
+      "plural": "die Sprechstunden",
+      "meaning_id": "jam praktik",
+      "example_de": "Das ist die Sprechstunde.",
+      "example_id": "Ini jam praktik.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Untersuchung",
+      "article": "die",
+      "plural": "die Untersuchungen",
+      "meaning_id": "pemeriksaan",
+      "example_de": "Das ist die Untersuchung.",
+      "example_id": "Ini pemeriksaan.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Arzttermin",
+      "article": "der",
+      "plural": "die Arzttermine",
+      "meaning_id": "janji dokter",
+      "example_de": "Das ist der Arzttermin.",
+      "example_id": "Ini janji dokter.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Sprechzimmer",
+      "article": "das",
+      "plural": "die Sprechzimmer",
+      "meaning_id": "ruang konsultasi dokter",
+      "example_de": "Das ist das Sprechzimmer.",
+      "example_id": "Ini ruang konsultasi dokter.",
+      "tags": "a1,unit9,kesehatan"
+    },
+    {
+      "kind": "noun",
+      "de": "Wundsalbe",
+      "article": "die",
+      "plural": "die Wundsalben",
+      "meaning_id": "salep luka",
+      "example_de": "Das ist die Wundsalbe.",
+      "example_id": "Ini salep luka.",
+      "tags": "a1,unit9,kesehatan"
+    }
+  ]
+}

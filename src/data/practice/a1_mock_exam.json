@@ -1,0 +1,103 @@
+{
+  "level": "A1",
+  "source": "Latihan uji tiruan A1 bergaya Goethe/telc. Bukan ujian resmi dan bukan sertifikasi. Hören/Lesen dinilai objektif; Schreiben/Sprechen memakai rubrik mandiri.",
+  "sections": [
+    {
+      "id": "hoeren",
+      "title": "Hören",
+      "minutes": 8,
+      "kind": "listening",
+      "items": [
+        { "dialogueId": "a1-listen-cafe", "questionIndex": 0 },
+        { "dialogueId": "a1-listen-bahnhof", "questionIndex": 1 },
+        { "dialogueId": "a1-listen-arzt", "questionIndex": 0 },
+        { "dialogueId": "a1-listen-wohnung", "questionIndex": 1 },
+        { "dialogueId": "a1-listen-verabredung", "questionIndex": 0 }
+      ]
+    },
+    {
+      "id": "lesen",
+      "title": "Lesen",
+      "minutes": 10,
+      "kind": "reading",
+      "items": [
+        {
+          "text": "Hallo Sari, ich bin heute krank. Ich komme nicht ins Büro. Morgen bin ich wieder da. Viele Grüße, Budi",
+          "prompt": "Mengapa Budi tidak masuk kantor?",
+          "options": ["Dia sakit", "Dia liburan", "Dia terlambat", "Dia rapat"],
+          "answer": "Dia sakit",
+          "explanation": "Budi menulis: ich bin heute krank."
+        },
+        {
+          "text": "Der Zug nach Hamburg fährt um 14:30 von Gleis 5. Er hat zehn Minuten Verspätung.",
+          "prompt": "Dari peron berapa kereta berangkat?",
+          "options": ["Gleis 5", "Gleis 10", "Gleis 14", "Gleis 30"],
+          "answer": "Gleis 5",
+          "explanation": "Teks menyebut von Gleis 5."
+        },
+        {
+          "text": "Die Wohnung hat zwei Zimmer, eine Küche und einen Balkon. Sie kostet 550 Euro pro Monat.",
+          "prompt": "Berapa sewa apartemen per bulan?",
+          "options": ["550 Euro", "505 Euro", "155 Euro", "1.550 Euro"],
+          "answer": "550 Euro",
+          "explanation": "Teks menyebut 550 Euro pro Monat."
+        },
+        {
+          "text": "Im Café kosten Kaffee 2,50 Euro, Tee 2 Euro und Kuchen 3 Euro.",
+          "prompt": "Minuman mana yang paling murah?",
+          "options": ["Tee", "Kaffee", "Kuchen", "Semua sama"],
+          "answer": "Tee",
+          "explanation": "Tee 2 Euro, lebih murah daripada Kaffee 2,50 Euro."
+        },
+        {
+          "text": "Am Samstag gehen wir ins Kino. Der Film beginnt um 19:30. Wir treffen uns um 19:00 vor dem Kino.",
+          "prompt": "Kapan mereka bertemu?",
+          "options": ["Pukul 19:00", "Pukul 19:30", "Pukul 18:00", "Pukul 20:00"],
+          "answer": "Pukul 19:00",
+          "explanation": "Teks menyebut Wir treffen uns um 19:00."
+        }
+      ]
+    },
+    {
+      "id": "schreiben",
+      "title": "Schreiben",
+      "minutes": 10,
+      "kind": "writing",
+      "task": {
+        "situation": "Tulis pesan singkat kepada temanmu: kamu tidak bisa datang ke bioskop hari Sabtu karena harus bekerja. Usulkan hari Minggu.",
+        "mustInclude": ["Sapaan", "Alasan (bekerja)", "Usul hari Minggu", "Penutup"],
+        "model": "Hallo Sari, leider kann ich am Samstag nicht ins Kino kommen. Ich muss arbeiten. Können wir am Sonntag ins Kino gehen? Viele Grüße, Budi",
+        "checklist": [
+          "Ada sapaan dan nama teman.",
+          "Alasan bekerja disebut dengan jelas.",
+          "Ada usulan hari Minggu.",
+          "Ada penutup yang sopan.",
+          "Kalimat utama memakai verba di posisi kedua."
+        ]
+      }
+    },
+    {
+      "id": "sprechen",
+      "title": "Sprechen",
+      "minutes": 5,
+      "kind": "speaking",
+      "prompts": [
+        {
+          "prompt": "Perkenalkan diri dalam 3 kalimat: nama, asal, dan tempat tinggal.",
+          "model": "Hallo, ich heiße Budi. Ich komme aus Indonesien. Ich wohne in Bandung.",
+          "checklist": ["Menyapa", "Menyebut nama", "Menyebut asal", "Menyebut tempat tinggal"]
+        },
+        {
+          "prompt": "Kamu di kafe. Pesan minuman dan tanyakan harganya.",
+          "model": "Guten Tag. Ich möchte einen Kaffee, bitte. Was kostet der Kaffee?",
+          "checklist": ["Menyapa", "Memesan dengan möchte", "Menanyakan harga", "Mengucapkan bitte/danke"]
+        },
+        {
+          "prompt": "Ceritakan rutinitas pagi hari dalam 3–4 kalimat.",
+          "model": "Am Morgen stehe ich um sechs Uhr auf. Ich frühstücke um sieben Uhr. Danach gehe ich zur Arbeit.",
+          "checklist": ["Menyebut waktu", "Menyebut kegiatan", "Memakai urutan", "Kalimat lengkap"]
+        }
+      ]
+    }
+  ]
+}

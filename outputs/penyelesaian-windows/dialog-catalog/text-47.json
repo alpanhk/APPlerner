@@ -1,0 +1,206 @@
+{
+  "id": "dialog-47",
+  "title": "Ein eigenes Budget",
+  "textId": 47,
+  "level": "B1",
+  "tags": "seed · B1 · unit 9",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit Januar habe ich ein festes Budget.",
+      "id": "Sejak Januari saya punya anggaran tetap.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich schreibe jede Ausgabe auf.",
+      "id": "Saya mencatat setiap pengeluaran.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Wenn ich weniger ausgeben würde, könnte ich mehr sparen.",
+      "id": "Jika saya mengurangi pengeluaran, saya bisa lebih banyak menabung.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Versicherung ist teuer, aber notwendig.",
+      "id": "Asuransinya mahal, tetapi perlu.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Wegen der hohen Kosten koche ich öfter zu Hause.",
+      "id": "Karena biaya tinggi saya lebih sering memasak di rumah.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Ich weiß noch nicht, ob ich dieses Jahr verreisen kann.",
+      "id": "Saya belum tahu apakah bisa bepergian tahun ini.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "nachbarin",
+      "de": "Seit Januar habe ich ein festes Budget.",
+      "id": "Sejak Januari saya punya anggaran tetap.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "kollege",
+      "de": "Ich schreibe jede Ausgabe auf.",
+      "id": "Saya mencatat setiap pengeluaran.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Wenn ich weniger ausgeben würde, könnte ich mehr sparen.",
+      "id": "Jika saya mengurangi pengeluaran, saya bisa lebih banyak menabung.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Versicherung ist teuer, aber notwendig.",
+      "id": "Asuransinya mahal, tetapi perlu.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "kollege",
+      "de": "Wegen der hohen Kosten koche ich öfter zu Hause.",
+      "id": "Karena biaya tinggi saya lebih sering memasak di rumah.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Ich weiß noch nicht, ob ich dieses Jahr verreisen kann.",
+      "id": "Saya belum tahu apakah bisa bepergian tahun ini.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

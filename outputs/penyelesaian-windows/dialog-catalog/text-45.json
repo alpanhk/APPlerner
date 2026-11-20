@@ -1,0 +1,206 @@
+{
+  "id": "dialog-45",
+  "title": "Zusammenleben im Viertel",
+  "textId": 45,
+  "level": "B1",
+  "tags": "seed · B1 · unit 7",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "In meinem Viertel leben Menschen aus vielen Ländern.",
+      "id": "Di lingkungan saya tinggal orang dari banyak negara.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Integration wird oft durch Sprachkurse unterstützt.",
+      "id": "Integrasi sering didukung lewat kursus bahasa.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Manche haben Vorurteile, weil sie wenig wissen.",
+      "id": "Sebagian punya prasangka karena kurang tahu.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ein Konflikt wurde gelöst, indem man miteinander gesprochen hat.",
+      "id": "Sebuah konflik terselesaikan dengan saling bicara.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Es wäre schön, wenn alle respektvoll wären.",
+      "id": "Akan bagus jika semua saling menghormati.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Viele engagieren sich für ein gutes Zusammenleben.",
+      "id": "Banyak orang berdedikasi untuk hidup bersama yang baik.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "nachbarin",
+      "de": "In meinem Viertel leben Menschen aus vielen Ländern.",
+      "id": "Di lingkungan saya tinggal orang dari banyak negara.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "kollege",
+      "de": "Integration wird oft durch Sprachkurse unterstützt.",
+      "id": "Integrasi sering didukung lewat kursus bahasa.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Manche haben Vorurteile, weil sie wenig wissen.",
+      "id": "Sebagian punya prasangka karena kurang tahu.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "nachbarin",
+      "de": "Ein Konflikt wurde gelöst, indem man miteinander gesprochen hat.",
+      "id": "Sebuah konflik terselesaikan dengan saling bicara.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Es wäre schön, wenn alle respektvoll wären.",
+      "id": "Akan bagus jika semua saling menghormati.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Viele engagieren sich für ein gutes Zusammenleben.",
+      "id": "Banyak orang berdedikasi untuk hidup bersama yang baik.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

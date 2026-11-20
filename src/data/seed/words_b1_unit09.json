@@ -1,0 +1,229 @@
+{
+  "unit": 209,
+  "level": "B1",
+  "theme": "Geld & Finanzen",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Konto",
+      "article": "das",
+      "plural": "die Konten",
+      "meaning_id": "rekening",
+      "example_de": "Ich habe ein neues Konto.",
+      "example_id": "Saya punya rekening baru.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Überweisung",
+      "article": "die",
+      "plural": "die Überweisungen",
+      "meaning_id": "transfer",
+      "example_de": "Die Überweisung dauert zwei Tage.",
+      "example_id": "Transfernya dua hari.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Budget",
+      "article": "das",
+      "plural": "die Budgets",
+      "meaning_id": "anggaran",
+      "example_de": "Das Budget ist begrenzt.",
+      "example_id": "Anggarannya terbatas.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Schulden",
+      "article": "die",
+      "plural": "die Schulden",
+      "meaning_id": "utang",
+      "example_de": "Er hat viele Schulden.",
+      "example_id": "Dia punya banyak utang.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Zinsen",
+      "article": "die",
+      "plural": "die Zinsen",
+      "meaning_id": "bunga (bank)",
+      "example_de": "Die Zinsen sind gestiegen.",
+      "example_id": "Bunganya naik.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Versicherung",
+      "article": "die",
+      "plural": "die Versicherungen",
+      "meaning_id": "asuransi",
+      "example_de": "Die Versicherung ist teuer.",
+      "example_id": "Asuransinya mahal.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkommen",
+      "article": "das",
+      "plural": "die Einkommen",
+      "meaning_id": "pendapatan",
+      "example_de": "Das Einkommen ist stabil.",
+      "example_id": "Pendapatannya stabil.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausgabe",
+      "article": "die",
+      "plural": "die Ausgaben",
+      "meaning_id": "pengeluaran",
+      "example_de": "Die Ausgaben sind zu hoch.",
+      "example_id": "Pengeluarannya terlalu tinggi.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "verb",
+      "de": "ausgeben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membelanjakan",
+      "example_de": "Ich gebe zu viel Geld aus.",
+      "example_id": "Saya membelanjakan terlalu banyak uang.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "verb",
+      "de": "überweisen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mentransfer",
+      "example_de": "Ich überweise die Miete.",
+      "example_id": "Saya mentransfer uang sewa.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "verb",
+      "de": "leihen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meminjam/meminjamkan",
+      "example_de": "Er leiht mir Geld.",
+      "example_id": "Dia meminjamkan uang kepada saya.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "adj",
+      "de": "finanziell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "secara finansial",
+      "example_de": "Finanziell ist es schwierig.",
+      "example_id": "Secara finansial itu sulit.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kredit",
+      "article": "der",
+      "plural": "die Kredite",
+      "meaning_id": "kredit",
+      "example_de": "Der Kredit läuft zehn Jahre.",
+      "example_id": "Kreditnya sepuluh tahun.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ratenzahlung",
+      "article": "die",
+      "plural": "die Ratenzahlungen",
+      "meaning_id": "cicilan",
+      "example_de": "Ratenzahlung ist möglich.",
+      "example_id": "Cicilan memungkinkan.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Steuererklärung",
+      "article": "die",
+      "plural": "die Steuererklärungen",
+      "meaning_id": "surat pajak",
+      "example_de": "Die Steuererklärung ist fällig.",
+      "example_id": "Surat pajaknya jatuh tempo.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Bargeld",
+      "article": "das",
+      "plural": "die Bargelder",
+      "meaning_id": "uang tunai",
+      "example_de": "Ich habe kein Bargeld.",
+      "example_id": "Saya tidak punya uang tunai.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kreditkarte",
+      "article": "die",
+      "plural": "die Kreditkarten",
+      "meaning_id": "kartu kredit",
+      "example_de": "Die Kreditkarte wurde gesperrt.",
+      "example_id": "Kartu kreditnya diblokir.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Rücklage",
+      "article": "die",
+      "plural": "die Rücklagen",
+      "meaning_id": "dana cadangan",
+      "example_de": "Die Rücklage ist klein.",
+      "example_id": "Dana cadangannya kecil.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontostand",
+      "article": "der",
+      "plural": "die Kontostände",
+      "meaning_id": "saldo rekening",
+      "example_de": "Der Kontostand ist niedrig.",
+      "example_id": "Saldo rekeningnya rendah.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Zinssatz",
+      "article": "der",
+      "plural": "die Zinssätze",
+      "meaning_id": "suku bunga",
+      "example_de": "Der Zinssatz ist gestiegen.",
+      "example_id": "Suku bunganya naik.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Sparziel",
+      "article": "das",
+      "plural": "die Sparziele",
+      "meaning_id": "target tabungan",
+      "example_de": "Mein Sparziel ist erreicht.",
+      "example_id": "Target tabungan saya tercapai.",
+      "tags": "b1,unit9,finanzen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontoauszug",
+      "article": "der",
+      "plural": "die Kontoauszüge",
+      "meaning_id": "rekening koran",
+      "example_de": "Der Kontoauszug zeigt die Abbuchung.",
+      "example_id": "Rekening korannya menunjukkan pemotongan.",
+      "tags": "b1,unit9,finanzen"
+    }
+  ]
+}

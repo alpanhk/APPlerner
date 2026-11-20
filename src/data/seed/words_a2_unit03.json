@@ -1,0 +1,269 @@
+{
+  "unit": 103,
+  "level": "A2",
+  "theme": "Einkaufen & Konsum",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Geschäft",
+      "article": "das",
+      "plural": "die Geschäfte",
+      "meaning_id": "toko",
+      "example_de": "Das Geschäft schließt um acht.",
+      "example_id": "Tokonya tutup pukul delapan.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Supermarkt",
+      "article": "der",
+      "plural": "die Supermärkte",
+      "meaning_id": "supermarket",
+      "example_de": "Ich kaufe im Supermarkt ein.",
+      "example_id": "Saya berbelanja di supermarket.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kasse",
+      "article": "die",
+      "plural": "die Kassen",
+      "meaning_id": "kasir",
+      "example_de": "Bitte zahlen Sie an der Kasse.",
+      "example_id": "Silakan bayar di kasir.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Rabatt",
+      "article": "der",
+      "plural": "die Rabatte",
+      "meaning_id": "diskon",
+      "example_de": "Es gibt zehn Prozent Rabatt.",
+      "example_id": "Ada diskon sepuluh persen.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Quittung",
+      "article": "die",
+      "plural": "die Quittungen",
+      "meaning_id": "struk",
+      "example_de": "Ich brauche die Quittung.",
+      "example_id": "Saya butuh struknya.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Angebot",
+      "article": "das",
+      "plural": "die Angebote",
+      "meaning_id": "penawaran",
+      "example_de": "Das Angebot gilt nur heute.",
+      "example_id": "Penawarannya hanya berlaku hari ini.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kunde",
+      "article": "der",
+      "plural": "die Kunden",
+      "meaning_id": "pelanggan",
+      "example_de": "Der Kunde fragt nach dem Preis.",
+      "example_id": "Pelanggan bertanya harga.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kundin",
+      "article": "die",
+      "plural": "die Kundinnen",
+      "meaning_id": "pelanggan (perempuan)",
+      "example_de": "Die Kundin bezahlt bar.",
+      "example_id": "Pelanggan itu membayar tunai.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Größe",
+      "article": "die",
+      "plural": "die Größen",
+      "meaning_id": "ukuran",
+      "example_de": "Welche Größe brauchen Sie?",
+      "example_id": "Ukuran apa yang Anda butuhkan?",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Qualität",
+      "article": "die",
+      "plural": "die Qualitäten",
+      "meaning_id": "kualitas",
+      "example_de": "Die Qualität ist gut.",
+      "example_id": "Kualitasnya bagus.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Lieferung",
+      "article": "die",
+      "plural": "die Lieferungen",
+      "meaning_id": "pengiriman",
+      "example_de": "Die Lieferung kommt morgen.",
+      "example_id": "Pengirimannya datang besok.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkauf",
+      "article": "der",
+      "plural": "die Einkäufe",
+      "meaning_id": "belanjaan, kegiatan belanja",
+      "example_de": "Der Einkauf dauert eine Stunde.",
+      "example_id": "Berbelanjanya selama satu jam.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "verb",
+      "de": "umtauschen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menukar barang",
+      "example_de": "Kann ich das umtauschen?",
+      "example_id": "Boleh saya menukar ini?",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "adj",
+      "de": "günstig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "murah, terjangkau",
+      "example_de": "Das ist günstig.",
+      "example_id": "Itu murah.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "adj",
+      "de": "gebraucht",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bekas",
+      "example_de": "Ich kaufe ein gebrauchtes Fahrrad.",
+      "example_id": "Saya membeli sepeda bekas.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "adj",
+      "de": "neu",
+      "article": null,
+      "plural": null,
+      "meaning_id": "baru",
+      "example_de": "Das Handy ist neu.",
+      "example_id": "Ponselnya baru.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ware",
+      "article": "die",
+      "plural": "die Waren",
+      "meaning_id": "barang",
+      "example_de": "Die Ware ist angekommen.",
+      "example_id": "Barangnya sudah tiba.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Marke",
+      "article": "die",
+      "plural": "die Marken",
+      "meaning_id": "merek",
+      "example_de": "Diese Marke ist bekannt.",
+      "example_id": "Merek ini dikenal.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Verkäufer",
+      "article": "der",
+      "plural": "die Verkäufer",
+      "meaning_id": "penjual",
+      "example_de": "Der Verkäufer ist freundlich.",
+      "example_id": "Penjualnya ramah.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Garantie",
+      "article": "die",
+      "plural": "die Garantien",
+      "meaning_id": "garansi",
+      "example_de": "Die Garantie gilt zwei Jahre.",
+      "example_id": "Garasinya berlaku dua tahun.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Sonderangebot",
+      "article": "das",
+      "plural": "die Sonderangebote",
+      "meaning_id": "penawaran khusus",
+      "example_de": "Das Sonderangebot gilt heute.",
+      "example_id": "Penawaran khususnya hari ini.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkaufswagen",
+      "article": "der",
+      "plural": "die Einkaufswagen",
+      "meaning_id": "troli belanja",
+      "example_de": "Der Einkaufswagen ist voll.",
+      "example_id": "Trolinya penuh.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Korb",
+      "article": "der",
+      "plural": "die Körbe",
+      "meaning_id": "keranjang",
+      "example_de": "Ich nehme einen Korb.",
+      "example_id": "Sayaambil keranjang.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Beutel",
+      "article": "der",
+      "plural": "die Beutel",
+      "meaning_id": "kantong",
+      "example_de": "Der Beutel reicht nicht.",
+      "example_id": "Kantongnya tidak cukup.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Etikett",
+      "article": "das",
+      "plural": "die Etiketten",
+      "meaning_id": "label",
+      "example_de": "Das Etikett ist falsch.",
+      "example_id": "Labelnya salah.",
+      "tags": "a2,unit3,einkaufen"
+    },
+    {
+      "kind": "noun",
+      "de": "Umtausch",
+      "article": "der",
+      "plural": "die Umtausche",
+      "meaning_id": "penukaran",
+      "example_de": "Der Umtausch ist kostenlos.",
+      "example_id": "Penukarannya gratis.",
+      "tags": "a2,unit3,einkaufen"
+    }
+  ]
+}

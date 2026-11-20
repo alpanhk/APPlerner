@@ -1,0 +1,206 @@
+{
+  "id": "dialog-53",
+  "title": "Die Energiewende",
+  "textId": 53,
+  "level": "B2",
+  "tags": "seed · B2 · unit 5",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Die Klimapolitik steht vor großen Aufgaben.",
+      "id": "Kebijakan iklim menghadapi tugas besar.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Emissionen müssen deutlich gesenkt werden.",
+      "id": "Emisinya harus diturunkan secara signifikan.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Die Energiewende wird langfristig Arbeitsplätze schaffen.",
+      "id": "Transisi energi akan menciptakan lapangan kerja jangka panjang.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Allerdings sind nicht alle Ziele verbindlich.",
+      "id": "Namun tidak semua target bersifat mengikat.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Falls die Vereinbarungen nicht eingehalten werden, drohen neue Konflikte.",
+      "id": "Jika kesepakatan tidak dipatuhi, ancaman konflik baru muncul.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Der Verbrauch von Ressourcen muss sinken, damit die Ziele erreicht werden.",
+      "id": "Konsumsi sumber daya harus turun agar target tercapai.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Die Klimapolitik steht vor großen Aufgaben.",
+      "id": "Kebijakan iklim menghadapi tugas besar.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Emissionen müssen deutlich gesenkt werden.",
+      "id": "Emisinya harus diturunkan secara signifikan.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Die Energiewende wird langfristig Arbeitsplätze schaffen.",
+      "id": "Transisi energi akan menciptakan lapangan kerja jangka panjang.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "vorgesetzte",
+      "de": "Allerdings sind nicht alle Ziele verbindlich.",
+      "id": "Namun tidak semua target bersifat mengikat.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Falls die Vereinbarungen nicht eingehalten werden, drohen neue Konflikte.",
+      "id": "Jika kesepakatan tidak dipatuhi, ancaman konflik baru muncul.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Der Verbrauch von Ressourcen muss sinken, damit die Ziele erreicht werden.",
+      "id": "Konsumsi sumber daya harus turun agar target tercapai.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "level": "B1",
+  "source": "Teks pendek orisinal level B1 - kurikulum Goethe",
+  "texts": [
+    {
+      "title": "Ein neuer Nachbar",
+      "level": "B1",
+      "tags": "seed · B1 · unit 1",
+      "sentences": [
+        {
+          "de": "Vor zwei Wochen ist ein neuer Nachbar eingezogen.",
+          "id": "Dua pekan lalu seorang tetangga baru pindah masuk."
+        },
+        {
+          "de": "Der Mietvertrag wurde gestern unterschrieben.",
+          "id": "Kontrak sewanya ditandatangani kemarin."
+        },
+        {
+          "de": "Die Klingel, die kaputt war, wurde sofort repariert.",
+          "id": "Bel yang rusak itu langsung diperbaiki."
+        },
+        {
+          "de": "Manchmal beschwert sich jemand über den Lärm.",
+          "id": "Kadang seseorang mengeluh soal kebisingan."
+        },
+        {
+          "de": "Trotzdem ist die Nachbarschaft sehr freundlich.",
+          "id": "Meskipun begitu, lingkungan tetangganya sangat ramah."
+        },
+        {
+          "de": "Bei Problemen hilft der Hausmeister immer.",
+          "id": "Kalau ada masalah, petugas gedung selalu membantu."
+        }
+      ]
+    },
+    {
+      "title": "Ein gesünderer Alltag",
+      "level": "B1",
+      "tags": "seed · B1 · unit 2",
+      "sentences": [
+        {
+          "de": "Seit einem Jahr lebe ich gesünder.",
+          "id": "Sejak setahun lalu saya hidup lebih sehat."
+        },
+        {
+          "de": "Ich achte auf meine Ernährung und koche selbst.",
+          "id": "Saya memperhatikan pola makan dan memasak sendiri."
+        },
+        {
+          "de": "Außerdem versuche ich, jeden Tag zu laufen.",
+          "id": "Selain itu saya berusaha berlari setiap hari."
+        },
+        {
+          "de": "Wenn ich gestresst wäre, würde ich mehr Sport machen.",
+          "id": "Kalau saya stres, saya akan lebih banyak olahraga."
+        },
+        {
+          "de": "Auf Zucker verzichte ich fast ganz.",
+          "id": "Gula hampir sepenuhnya saya hindari."
+        },
+        {
+          "de": "Guter Schlaf ist für mich genauso wichtig wie Bewegung.",
+          "id": "Tidur yang baik sama pentingnya bagi saya dengan olahraga."
+        }
+      ]
+    },
+    {
+      "title": "Eine neue Aufgabe",
+      "level": "B1",
+      "tags": "seed · B1 · unit 3",
+      "sentences": [
+        {
+          "de": "Seit drei Jahren arbeitet Rina in diesem Unternehmen.",
+          "id": "Sudah tiga tahun Rina bekerja di perusahaan ini."
+        },
+        {
+          "de": "Letztes Jahr wurde sie zur Teamleiterin gemacht.",
+          "id": "Tahun lalu dia dijadikan pemimpin tim."
+        },
+        {
+          "de": "Obwohl die Arbeit stressig ist, macht sie ihr Spaß.",
+          "id": "Meskipun pekerjaannya penuh stres, dia menyukainya."
+        },
+        {
+          "de": "Das neue Projekt muss bis Ende des Monats beendet werden.",
+          "id": "Proyek baru harus selesai akhir bulan."
+        },
+        {
+          "de": "Trotzdem nimmt sie sich Zeit für eine Fortbildung.",
+          "id": "Meskipun begitu dia menyempatkan diri untuk pelatihan."
+        },
+        {
+          "de": "Sie hofft, dass ihre Karriere so weitergeht.",
+          "id": "Dia berharap kariernya terus berjalan seperti ini."
+        }
+      ]
+    },
+    {
+      "title": "Eine Diskussion über Medien",
+      "level": "B1",
+      "tags": "seed · B1 · unit 4",
+      "sentences": [
+        {
+          "de": "Gestern haben wir in der Klasse über Medien diskutiert.",
+          "id": "Kemarin kami berdiskusi soal media di kelas."
+        },
+        {
+          "de": "Ein Student meint, soziale Medien hätten zu viel Einfluss.",
+          "id": "Seorang mahasiswa berpendapat media sosial terlalu berpengaruh."
+        },
+        {
+          "de": "Eine andere Meinung war, dass man selbst entscheiden müsse.",
+          "id": "Pendapat lain adalah bahwa kita harus memutuskan sendiri."
+        },
+        {
+          "de": "Wir haben auch über Quellen gesprochen, auf die man sich verlassen kann.",
+          "id": "Kami juga membahas sumber yang bisa diandalkan."
+        },
+        {
+          "de": "Einerseits bieten Medien viele Informationen, andererseits können sie täuschen.",
+          "id": "Di satu sisi media memberi banyak informasi, di sisi lain bisa menipu."
+        },
+        {
+          "de": "Am Ende war die Diskussion sehr konstruktiv.",
+          "id": "Akhirnya diskusinya sangat konstruktif."
+        }
+      ]
+    },
+    {
+      "title": "Was können wir tun?",
+      "level": "B1",
+      "tags": "seed · B1 · unit 5",
+      "sentences": [
+        {
+          "de": "Der Klimawandel ist eines der wichtigsten Themen unserer Zeit.",
+          "id": "Perubahan iklim adalah salah satu topik terpenting zaman ini."
+        },
+        {
+          "de": "Wegen des Klimawandels ändern sich Wetter und Jahreszeiten.",
+          "id": "Karena perubahan iklim cuaca dan musim berubah."
+        },
+        {
+          "de": "Vieles kann getan werden, um Energie zu sparen.",
+          "id": "Banyak hal bisa dilakukan untuk menghemat energi."
+        },
+        {
+          "de": "Plastikverpackungen sollten vermieden werden.",
+          "id": "Kemasan plastik sebaiknya dihindari."
+        },
+        {
+          "de": "Es gibt aber auch Kritik an manchen Maßnahmen.",
+          "id": "Namun ada juga kritik terhadap sebagian tindakan."
+        },
+        {
+          "de": "Trotzdem bleibt es wichtig, jetzt zu handeln.",
+          "id": "Meskipun begitu tetap penting untuk bertindak sekarang."
+        }
+      ]
+    },
+    {
+      "title": "Eine Woche in Wien",
+      "level": "B1",
+      "tags": "seed · B1 · unit 6",
+      "sentences": [
+        {
+          "de": "Bevor wir nach Wien gefahren sind, hatten wir alles gebucht.",
+          "id": "Sebelum pergi ke Wina, kami sudah memesan semuanya."
+        },
+        {
+          "de": "Die Unterkunft, die wir gefunden hatten, war zentral.",
+          "id": "Akomodasi yang kami temukan berada di pusat."
+        },
+        {
+          "de": "Am ersten Tag haben wir eine Führung gemacht.",
+          "id": "Hari pertama kami ikut tur berpemandu."
+        },
+        {
+          "de": "Der Reiseführer hat uns viele Geschichten erzählt.",
+          "id": "Pemandunya bercerita banyak kisah."
+        },
+        {
+          "de": "Nachdem wir das Museum besichtigt hatten, waren wir müde.",
+          "id": "Setelah mengunjungi museum, kami lelah."
+        },
+        {
+          "de": "Am Abend haben wir mit Einheimischen gesprochen.",
+          "id": "Malamnya kami berbicara dengan penduduk lokal."
+        }
+      ]
+    },
+    {
+      "title": "Zusammenleben im Viertel",
+      "level": "B1",
+      "tags": "seed · B1 · unit 7",
+      "sentences": [
+        {
+          "de": "In meinem Viertel leben Menschen aus vielen Ländern.",
+          "id": "Di lingkungan saya tinggal orang dari banyak negara."
+        },
+        {
+          "de": "Integration wird oft durch Sprachkurse unterstützt.",
+          "id": "Integrasi sering didukung lewat kursus bahasa."
+        },
+        {
+          "de": "Manche haben Vorurteile, weil sie wenig wissen.",
+          "id": "Sebagian punya prasangka karena kurang tahu."
+        },
+        {
+          "de": "Ein Konflikt wurde gelöst, indem man miteinander gesprochen hat.",
+          "id": "Sebuah konflik terselesaikan dengan saling bicara."
+        },
+        {
+          "de": "Es wäre schön, wenn alle respektvoll wären.",
+          "id": "Akan bagus jika semua saling menghormati."
+        },
+        {
+          "de": "Viele engagieren sich für ein gutes Zusammenleben.",
+          "id": "Banyak orang berdedikasi untuk hidup bersama yang baik."
+        }
+      ]
+    },
+    {
+      "title": "Lernen mit Plan",
+      "level": "B1",
+      "tags": "seed · B1 · unit 8",
+      "sentences": [
+        {
+          "de": "Seit ich einen Lernplan habe, macht das Lernen mehr Spaß.",
+          "id": "Sejak punya rencana belajar, belajar jadi lebih menyenangkan."
+        },
+        {
+          "de": "Ich versuche, jeden Tag zwanzig Minuten zu üben.",
+          "id": "Saya berusaha berlatih dua puluh menit setiap hari."
+        },
+        {
+          "de": "Neue Wörter wiederhole ich abends vor dem Schlafen.",
+          "id": "Kata-kata baru saya ulang malam sebelum tidur."
+        },
+        {
+          "de": "In der Prüfung wird viel geschrieben und gehört.",
+          "id": "Dalam ujian banyak menulis dan mendengar."
+        },
+        {
+          "de": "Deshalb übe ich auch Hörverstehen.",
+          "id": "Karena itu saya juga berlatih pemahaman mendengar."
+        },
+        {
+          "de": "Der Fortschritt ist langsam, aber ich bin motiviert.",
+          "id": "Kemajuannya lambat, tetapi saya termotivasi."
+        }
+      ]
+    },
+    {
+      "title": "Ein eigenes Budget",
+      "level": "B1",
+      "tags": "seed · B1 · unit 9",
+      "sentences": [
+        {
+          "de": "Seit Januar habe ich ein festes Budget.",
+          "id": "Sejak Januari saya punya anggaran tetap."
+        },
+        {
+          "de": "Ich schreibe jede Ausgabe auf.",
+          "id": "Saya mencatat setiap pengeluaran."
+        },
+        {
+          "de": "Wenn ich weniger ausgeben würde, könnte ich mehr sparen.",
+          "id": "Jika saya mengurangi pengeluaran, saya bisa lebih banyak menabung."
+        },
+        {
+          "de": "Die Versicherung ist teuer, aber notwendig.",
+          "id": "Asuransinya mahal, tetapi perlu."
+        },
+        {
+          "de": "Wegen der hohen Kosten koche ich öfter zu Hause.",
+          "id": "Karena biaya tinggi saya lebih sering memasak di rumah."
+        },
+        {
+          "de": "Ich weiß noch nicht, ob ich dieses Jahr verreisen kann.",
+          "id": "Saya belum tahu apakah bisa bepergian tahun ini."
+        }
+      ]
+    },
+    {
+      "title": "Leben mit Technik",
+      "level": "B1",
+      "tags": "seed · B1 · unit 10",
+      "sentences": [
+        {
+          "de": "Die Technik verändert unseren Alltag sehr schnell.",
+          "id": "Teknologi mengubah keseharian kita dengan cepat."
+        },
+        {
+          "de": "Künstliche Intelligenz wird in vielen Bereichen eingesetzt.",
+          "id": "Kecerdasan buatan dipakai di banyak bidang."
+        },
+        {
+          "de": "Während Roboter Aufgaben übernehmen, bleiben andere Arbeiten menschlich.",
+          "id": "Sementara robot mengambil tugas, pekerjaan lain tetap manusiawi."
+        },
+        {
+          "de": "Die Daten, die wir hinterlassen, werden oft gespeichert.",
+          "id": "Data yang kita tinggalkan sering disimpan."
+        },
+        {
+          "de": "Deshalb ist Sicherheit ein wichtiges Thema.",
+          "id": "Karena itu keamanan menjadi topik penting."
+        },
+        {
+          "de": "Solange wir kritisch bleiben, ist Technik eine Chance.",
+          "id": "Selama kita tetap kritis, teknologi adalah peluang."
+        }
+      ]
+    }
+  ]
+}

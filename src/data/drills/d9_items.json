@@ -1,0 +1,242 @@
+[
+  {
+    "prompt": "Ich fahre ___ Bahnhof.",
+    "sub": "Pilih preposisi yang benar.",
+    "mode": "choice",
+    "options": [
+      "zum",
+      "am",
+      "im"
+    ],
+    "answer": "zum",
+    "explanation": "zu + dem = zum Bahnhof (arah/tujuan, Dativ maskulin)."
+  },
+  {
+    "prompt": "Wir treffen uns ___ Abend.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "am",
+      "im",
+      "um"
+    ],
+    "answer": "am",
+    "explanation": "am Abend — untuk bagian hari dipakai am."
+  },
+  {
+    "prompt": "Der Kurs beginnt ___ acht Uhr.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "um",
+      "am",
+      "in"
+    ],
+    "answer": "um",
+    "explanation": "um + jam yang tepat: um acht Uhr."
+  },
+  {
+    "prompt": "___ Sommer fahren wir nach Italien.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "Im",
+      "Am",
+      "Um"
+    ],
+    "answer": "Im",
+    "explanation": "im Sommer — musim memakai in + dem = im."
+  },
+  {
+    "prompt": "Ich gehe ___ Arzt.",
+    "sub": "Pilih preposisi tujuan yang benar.",
+    "mode": "choice",
+    "options": [
+      "zum",
+      "am",
+      "im"
+    ],
+    "answer": "zum",
+    "explanation": "zu + dem = zum Arzt (menuju seseorang)."
+  },
+  {
+    "prompt": "Sie wohnt ___ Berlin.",
+    "sub": "Pilih preposisi tempat yang benar.",
+    "mode": "choice",
+    "options": [
+      "in",
+      "nach",
+      "zu"
+    ],
+    "answer": "in",
+    "explanation": "in + kota untuk tempat tinggal: in Berlin."
+  },
+  {
+    "prompt": "___ Montag habe ich Schule.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "Am",
+      "Im",
+      "Um"
+    ],
+    "answer": "Am",
+    "explanation": "am Montag — hari memakai am."
+  },
+  {
+    "prompt": "Wir fliegen ___ Deutschland.",
+    "sub": "Pilih preposisi tujuan yang benar.",
+    "mode": "choice",
+    "options": [
+      "nach",
+      "zu",
+      "in"
+    ],
+    "answer": "nach",
+    "explanation": "nach + negara tanpa artikel: nach Deutschland."
+  },
+  {
+    "prompt": "Ich gehe ___ Hause.",
+    "sub": "Pilih preposisi arah yang benar.",
+    "mode": "choice",
+    "options": [
+      "nach",
+      "zu",
+      "aus"
+    ],
+    "answer": "nach",
+    "explanation": "nach Hause = menuju rumah; zu Hause = di rumah."
+  },
+  {
+    "prompt": "___ Wochenende arbeite ich nicht.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "Am",
+      "Im",
+      "Um"
+    ],
+    "answer": "Am",
+    "explanation": "am Wochenende — akhir pekan memakai am."
+  },
+  {
+    "prompt": "Das Hotel ist ___ Zentrum.",
+    "sub": "Pilih preposisi tempat yang benar.",
+    "mode": "choice",
+    "options": [
+      "im",
+      "am",
+      "um"
+    ],
+    "answer": "im",
+    "explanation": "in + dem = im Zentrum (di dalam pusat kota)."
+  },
+  {
+    "prompt": "Ich fahre ___ Supermarkt.",
+    "sub": "Pilih preposisi tujuan yang benar.",
+    "mode": "choice",
+    "options": [
+      "zum",
+      "im",
+      "am"
+    ],
+    "answer": "zum",
+    "explanation": "zu + dem = zum Supermarkt."
+  },
+  {
+    "prompt": "___ Winter ist es kalt.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "Im",
+      "Am",
+      "Um"
+    ],
+    "answer": "Im",
+    "explanation": "im Winter — musim memakai im."
+  },
+  {
+    "prompt": "Wir sind ___ Kino.",
+    "sub": "Pilih preposisi tempat yang benar.",
+    "mode": "choice",
+    "options": [
+      "im",
+      "am",
+      "zum"
+    ],
+    "answer": "im",
+    "explanation": "in + dem = im Kino (berada di dalam bioskop)."
+  },
+  {
+    "prompt": "Ich wohne ___ Hamburg.",
+    "sub": "Pilih preposisi tempat yang benar.",
+    "mode": "choice",
+    "options": [
+      "in",
+      "nach",
+      "zu"
+    ],
+    "answer": "in",
+    "explanation": "Tempat tinggal di kota memakai in + Dativ: in Hamburg."
+  },
+  {
+    "prompt": "Wir fahren ___ Schweiz.",
+    "sub": "Pilih preposisi tujuan yang benar.",
+    "mode": "choice",
+    "options": [
+      "in die",
+      "nach",
+      "zum"
+    ],
+    "answer": "in die",
+    "explanation": "Negara berartikel feminin: in die Schweiz. Negara tanpa artikel memakai nach."
+  },
+  {
+    "prompt": "___ Dienstag habe ich einen Termin.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "Am",
+      "Im",
+      "Um"
+    ],
+    "answer": "Am",
+    "explanation": "Hari memakai am: am Dienstag."
+  },
+  {
+    "prompt": "Das Konzert beginnt ___ 20 Uhr.",
+    "sub": "Pilih preposisi waktu yang benar.",
+    "mode": "choice",
+    "options": [
+      "um",
+      "am",
+      "im"
+    ],
+    "answer": "um",
+    "explanation": "Jam tepat memakai um: um 20 Uhr."
+  },
+  {
+    "prompt": "Sie kommt ___ Indonesien.",
+    "sub": "Pilih preposisi asal yang benar.",
+    "mode": "choice",
+    "options": [
+      "aus",
+      "von",
+      "nach"
+    ],
+    "answer": "aus",
+    "explanation": "Asal negara memakai aus: aus Indonesien."
+  },
+  {
+    "prompt": "Ich gehe ___ Bäcker.",
+    "sub": "Pilih preposisi tujuan yang benar.",
+    "mode": "choice",
+    "options": [
+      "zum",
+      "im",
+      "am"
+    ],
+    "answer": "zum",
+    "explanation": "zu + dem = zum Bäcker (menuju orang/tempat)."
+  }
+]

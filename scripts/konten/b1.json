@@ -1,0 +1,5801 @@
+{
+  "level": "B1",
+  "source": "Kurikulum Goethe B1 + kurasi manual",
+  "units": [
+    {
+      "no": 201,
+      "title": "Wohnen & Nachbarschaft",
+      "topic": "wohnen",
+      "goals": [
+        "Mengurus kontrak sewa dan deposit",
+        "Berbicara tentang tetangga dan lingkungan rumah",
+        "Memakai kalimat relatif dan pasif"
+      ],
+      "drill": "D4",
+      "grammar": [
+        {
+          "title": "Relativsätze",
+          "points": [
+            "Relativpronomen mengikuti kasus dan genus: der Mann, der …, die Wohnung, die …",
+            "Dativ: dem Nachbarn, dem ich helfe.",
+            "Relativsatz meletakkan verba di akhir."
+          ],
+          "de": "Der Nachbar, dem ich geholfen habe, ist sehr freundlich.",
+          "id": "Tetangga yang saya bantu itu sangat ramah."
+        },
+        {
+          "title": "Passiv Präteritum",
+          "points": [
+            "wurde + Partizip II: Das Haus wurde 1990 gebaut.",
+            "Pelaku dengan von + Dativ.",
+            "Cocok untuk laporan dan berita."
+          ],
+          "de": "Das Haus wurde vor zwei Jahren renoviert.",
+          "id": "Rumah itu direnovasi dua tahun lalu."
+        },
+        {
+          "title": "Genitiv",
+          "points": [
+            "des Nachbarn, der Nachbarin, des Hauses.",
+            "Sering untuk kepemilikan: das Auto des Vermieters.",
+            "Dalam bahasa lisan sering diganti von + Dativ."
+          ],
+          "de": "Die Klingel des Nachbarn ist kaputt.",
+          "id": "Bel tetangganya rusak."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Nachbar",
+          "article": "der",
+          "plural": "die Nachbarn",
+          "meaning": "tetangga",
+          "ex_de": "Mein Nachbar hilft mir oft.",
+          "ex_id": "Tetangga saya sering membantu."
+        },
+        {
+          "kind": "noun",
+          "de": "Nachbarschaft",
+          "article": "die",
+          "plural": "die Nachbarschaften",
+          "meaning": "lingkungan tetangga",
+          "ex_de": "Die Nachbarschaft ist ruhig.",
+          "ex_id": "Lingkungan tetangganya tenang."
+        },
+        {
+          "kind": "noun",
+          "de": "Mietvertrag",
+          "article": "der",
+          "plural": "die Mietverträge",
+          "meaning": "kontrak sewa",
+          "ex_de": "Der Mietvertrag gilt drei Jahre.",
+          "ex_id": "Kontrak sewanya berlaku tiga tahun."
+        },
+        {
+          "kind": "noun",
+          "de": "Kaution",
+          "article": "die",
+          "plural": "die Kautionen",
+          "meaning": "deposit",
+          "ex_de": "Die Kaution beträgt zwei Monatsmieten.",
+          "ex_id": "Depositnya dua bulan sewa."
+        },
+        {
+          "kind": "noun",
+          "de": "Eigentümer",
+          "article": "der",
+          "plural": "die Eigentümer",
+          "meaning": "pemilik",
+          "ex_de": "Der Eigentümer wohnt im Ausland.",
+          "ex_id": "Pemiliknya tinggal di luar negeri."
+        },
+        {
+          "kind": "noun",
+          "de": "Hausmeister",
+          "article": "der",
+          "plural": "die Hausmeister",
+          "meaning": "petugas gedung",
+          "ex_de": "Der Hausmeister repariert die Klingel.",
+          "ex_id": "Petugas gedung memperbaiki bel."
+        },
+        {
+          "kind": "noun",
+          "de": "Renovierung",
+          "article": "die",
+          "plural": "die Renovierungen",
+          "meaning": "renovasi",
+          "ex_de": "Die Renovierung dauert zwei Wochen.",
+          "ex_id": "Renovasinya dua pekan."
+        },
+        {
+          "kind": "noun",
+          "de": "Umzug",
+          "article": "der",
+          "plural": "die Umzüge",
+          "meaning": "kepindahan",
+          "ex_de": "Der Umzug war anstrengend.",
+          "ex_id": "Kepindahannya melelahkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Klingel",
+          "article": "die",
+          "plural": "die Klingeln",
+          "meaning": "bel",
+          "ex_de": "Die Klingel funktioniert nicht.",
+          "ex_id": "Belnya tidak berfungsi."
+        },
+        {
+          "kind": "noun",
+          "de": "Briefkasten",
+          "article": "der",
+          "plural": "die Briefkästen",
+          "meaning": "kotak surat",
+          "ex_de": "Der Briefkasten ist unten im Flur.",
+          "ex_id": "Kotak suratnya di bawah, di koridor."
+        },
+        {
+          "kind": "adj",
+          "de": "ordentlich",
+          "article": null,
+          "plural": null,
+          "meaning": "rapi",
+          "ex_de": "Die Wohnung ist ordentlich.",
+          "ex_id": "Apartemennya rapi."
+        },
+        {
+          "kind": "verb",
+          "de": "sich beschweren",
+          "article": null,
+          "plural": null,
+          "meaning": "mengeluh",
+          "ex_de": "Ich beschwere mich beim Hausmeister.",
+          "ex_id": "Saya mengeluh kepada petugas gedung."
+        },
+        {
+          "kind": "noun",
+          "de": "Hausordnung",
+          "article": "die",
+          "plural": "die Hausordnungen",
+          "meaning": "peraturan gedung",
+          "ex_de": "Die Hausordnung hängt im Flur.",
+          "ex_id": "Peraturan gedung tertempel di koridor."
+        },
+        {
+          "kind": "noun",
+          "de": "Lärm",
+          "article": "der",
+          "plural": "die Lärme",
+          "meaning": "kebisingan",
+          "ex_de": "Der Lärm ist unerträglich.",
+          "ex_id": "Kebisingannya tak tertahankan."
+        },
+        {
+          "kind": "noun",
+          "de": "Anwohner",
+          "article": "der",
+          "plural": "die Anwohner",
+          "meaning": "penghuni sekitar",
+          "ex_de": "Die Anwohner beschweren sich.",
+          "ex_id": "Penghuni sekitar mengeluh."
+        },
+        {
+          "kind": "noun",
+          "de": "Wohnfläche",
+          "article": "die",
+          "plural": "die Wohnflächen",
+          "meaning": "luas hunian",
+          "ex_de": "Die Wohnfläche beträgt 70 Quadratmeter.",
+          "ex_id": "Luas huniannya 70 meter persegi."
+        },
+        {
+          "kind": "noun",
+          "de": "Versammlung",
+          "article": "die",
+          "plural": "die Versammlungen",
+          "meaning": "pertemuan",
+          "ex_de": "Die Versammlung ist morgen.",
+          "ex_id": "Pertemuannya besok."
+        },
+        {
+          "kind": "noun",
+          "de": "Umzugskarton",
+          "article": "der",
+          "plural": "die Umzugskartons",
+          "meaning": "kardus pindahan",
+          "ex_de": "Die Umzugskartons sind gepackt.",
+          "ex_id": "Kardus pindahannya sudah dikemas."
+        },
+        {
+          "kind": "noun",
+          "de": "Gemeinschaftsgarten",
+          "article": "der",
+          "plural": "die Gemeinschaftsgärten",
+          "meaning": "taman bersama",
+          "ex_de": "Der Gemeinschaftsgarten ist beliebt.",
+          "ex_id": "Taman bersamanya populer."
+        },
+        {
+          "kind": "noun",
+          "de": "Wohnungsbesichtigung",
+          "article": "die",
+          "plural": "die Wohnungsbesichtigungen",
+          "meaning": "lihat apartemen",
+          "ex_de": "Die Wohnungsbesichtigung ist morgen.",
+          "ex_id": "Lihat apartemennya besok."
+        },
+        {
+          "kind": "noun",
+          "de": "Klingelschild",
+          "article": "das",
+          "plural": "die Klingelschilder",
+          "meaning": "papan bel",
+          "ex_de": "Das Klingelschild ist neu.",
+          "ex_id": "Papan belnya baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Hausflur",
+          "article": "der",
+          "plural": "die Hausflure",
+          "meaning": "koridor gedung",
+          "ex_de": "Der Hausflur ist sauber.",
+          "ex_id": "Koridor gedungnya bersih."
+        }
+      ],
+      "text": {
+        "title": "Ein neuer Nachbar",
+        "sentences": [
+          [
+            "Vor zwei Wochen ist ein neuer Nachbar eingezogen.",
+            "Dua pekan lalu seorang tetangga baru pindah masuk."
+          ],
+          [
+            "Der Mietvertrag wurde gestern unterschrieben.",
+            "Kontrak sewanya ditandatangani kemarin."
+          ],
+          [
+            "Die Klingel, die kaputt war, wurde sofort repariert.",
+            "Bel yang rusak itu langsung diperbaiki."
+          ],
+          [
+            "Manchmal beschwert sich jemand über den Lärm.",
+            "Kadang seseorang mengeluh soal kebisingan."
+          ],
+          [
+            "Trotzdem ist die Nachbarschaft sehr freundlich.",
+            "Meskipun begitu, lingkungan tetangganya sangat ramah."
+          ],
+          [
+            "Bei Problemen hilft der Hausmeister immer.",
+            "Kalau ada masalah, petugas gedung selalu membantu."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 202,
+      "title": "Gesundheit & Lebensstil",
+      "topic": "gesundheit",
+      "goals": [
+        "Berbicara tentang gaya hidup sehat",
+        "Memberi saran dengan Konjunktiv II",
+        "Memakai verba dengan preposisi"
+      ],
+      "drill": "D10",
+      "grammar": [
+        {
+          "title": "Konjunktiv II: sollte, wäre, hätte",
+          "points": [
+            "Saran: Du solltest mehr schlafen.",
+            "Andai: Wenn ich Zeit hätte, würde ich mehr Sport machen.",
+            "würde + infinitif untuk sebagian besar verba."
+          ],
+          "de": "Du solltest mehr Wasser trinken.",
+          "id": "Kamu sebaiknya lebih banyak minum air."
+        },
+        {
+          "title": "Infinitiv mit zu",
+          "points": [
+            "Ich versuche, regelmäßig zu laufen.",
+            "nach/ohne/um … zu.",
+            "Cocok setelah versuchen, anfangen, aufhören."
+          ],
+          "de": "Ich habe angefangen, jeden Morgen zu laufen.",
+          "id": "Saya mulai berlari setiap pagi."
+        },
+        {
+          "title": "Verben mit Präpositionen",
+          "points": [
+            "achten auf + Akkusativ, sich interessieren für.",
+            "Verzeihen Sie, ich achte auf meine Ernährung.",
+            "Preposisi harus dihafal bersama verba."
+          ],
+          "de": "Ich achte auf meine Ernährung.",
+          "id": "Saya memperhatikan pola makan saya."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Ernährung",
+          "article": "die",
+          "plural": null,
+          "meaning": "pola makan",
+          "ex_de": "Eine gesunde Ernährung ist wichtig.",
+          "ex_id": "Pola makan sehat itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Bewegung",
+          "article": "die",
+          "plural": "die Bewegungen",
+          "meaning": "gerakan, aktivitas fisik",
+          "ex_de": "Ich brauche mehr Bewegung.",
+          "ex_id": "Saya butuh lebih banyak aktivitas fisik."
+        },
+        {
+          "kind": "noun",
+          "de": "Stress",
+          "article": "der",
+          "plural": null,
+          "meaning": "stres",
+          "ex_de": "Zu viel Stress macht krank.",
+          "ex_id": "Terlalu banyak stres membuat sakit."
+        },
+        {
+          "kind": "noun",
+          "de": "Schlaf",
+          "article": "der",
+          "plural": null,
+          "meaning": "tidur",
+          "ex_de": "Guter Schlaf ist wichtig.",
+          "ex_id": "Tidur yang baik itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Vorsorge",
+          "article": "die",
+          "plural": null,
+          "meaning": "pencegahan, pemeriksaan dini",
+          "ex_de": "Vorsorge ist besser als Behandlung.",
+          "ex_id": "Pencegahan lebih baik daripada pengobatan."
+        },
+        {
+          "kind": "noun",
+          "de": "Impfung",
+          "article": "die",
+          "plural": "die Impfungen",
+          "meaning": "vaksinasi",
+          "ex_de": "Die Impfung schützt vor Krankheiten.",
+          "ex_id": "Vaksinasi melindungi dari penyakit."
+        },
+        {
+          "kind": "noun",
+          "de": "Krankenhaus",
+          "article": "das",
+          "plural": "die Krankenhäuser",
+          "meaning": "rumah sakit",
+          "ex_de": "Sie liegt im Krankenhaus.",
+          "ex_id": "Dia dirawat di rumah sakit."
+        },
+        {
+          "kind": "noun",
+          "de": "Patient",
+          "article": "der",
+          "plural": "die Patienten",
+          "meaning": "pasien",
+          "ex_de": "Der Patient wartet im Zimmer.",
+          "ex_id": "Pasien menunggu di kamar."
+        },
+        {
+          "kind": "verb",
+          "de": "sich erholen",
+          "article": null,
+          "plural": null,
+          "meaning": "pulih, beristirahat",
+          "ex_de": "Im Urlaub erhole ich mich.",
+          "ex_id": "Saat liburan saya memulihkan diri."
+        },
+        {
+          "kind": "verb",
+          "de": "verzichten",
+          "article": null,
+          "plural": null,
+          "meaning": "menghindari, tidak memakai",
+          "ex_de": "Ich verzichte auf Zucker.",
+          "ex_id": "Saya menghindari gula."
+        },
+        {
+          "kind": "adj",
+          "de": "regelmäßig",
+          "article": null,
+          "plural": null,
+          "meaning": "teratur",
+          "ex_de": "Ich gehe regelmäßig schwimmen.",
+          "ex_id": "Saya berenang secara teratur."
+        },
+        {
+          "kind": "adj",
+          "de": "ausgewogen",
+          "article": null,
+          "plural": null,
+          "meaning": "seimbang",
+          "ex_de": "Eine ausgewogene Ernährung hilft.",
+          "ex_id": "Pola makan seimbang membantu."
+        },
+        {
+          "kind": "noun",
+          "de": "Physiotherapie",
+          "article": "die",
+          "plural": "die Physiotherapien",
+          "meaning": "fisioterapi",
+          "ex_de": "Die Physiotherapie hilft.",
+          "ex_id": "Fisioterapinya membantu."
+        },
+        {
+          "kind": "noun",
+          "de": "Entspannung",
+          "article": "die",
+          "plural": "die Entspannungen",
+          "meaning": "relaksasi",
+          "ex_de": "Entspannung ist wichtig.",
+          "ex_id": "Relaksasi itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Gewohnheit",
+          "article": "die",
+          "plural": "die Gewohnheiten",
+          "meaning": "kebiasaan",
+          "ex_de": "Gute Gewohnheiten helfen.",
+          "ex_id": "Kebiasaan baik membantu."
+        },
+        {
+          "kind": "noun",
+          "de": "Ausdauer",
+          "article": "die",
+          "plural": "die Ausdauern",
+          "meaning": "daya tahan",
+          "ex_de": "Ausdauer braucht Training.",
+          "ex_id": "Daya tahan butuh latihan."
+        },
+        {
+          "kind": "noun",
+          "de": "Wohlbefinden",
+          "article": "das",
+          "plural": "die Wohlbefinden",
+          "meaning": "kesejahteraan",
+          "ex_de": "Sport steigert das Wohlbefinden.",
+          "ex_id": "Olahraga meningkatkan kesejahteraan."
+        },
+        {
+          "kind": "noun",
+          "de": "Vitamin",
+          "article": "das",
+          "plural": "die Vitamine",
+          "meaning": "vitamin",
+          "ex_de": "Vitamine sind wichtig.",
+          "ex_id": "Vitamin itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Kalorie",
+          "article": "die",
+          "plural": "die Kalorien",
+          "meaning": "kalori",
+          "ex_de": "Das Essen hat viele Kalorien.",
+          "ex_id": "Makanannya banyak kalori."
+        },
+        {
+          "kind": "noun",
+          "de": "Schlafrhythmus",
+          "article": "der",
+          "plural": "die Schlafrhythmen",
+          "meaning": "ritme tidur",
+          "ex_de": "Mein Schlafrhythmus ist gestört.",
+          "ex_id": "Ritme tidur saya terganggu."
+        },
+        {
+          "kind": "noun",
+          "de": "Krafttraining",
+          "article": "das",
+          "plural": "die Krafttrainings",
+          "meaning": "latihan kekuatan",
+          "ex_de": "Krafttraining stärkt die Muskeln.",
+          "ex_id": "Latihan kekuatan menguatkan otot."
+        },
+        {
+          "kind": "noun",
+          "de": "Ernährungsberatung",
+          "article": "die",
+          "plural": "die Ernährungsberatungen",
+          "meaning": "konsultasi gizi",
+          "ex_de": "Die Ernährungsberatung hilft.",
+          "ex_id": "Konsultasi gizinya membantu."
+        }
+      ],
+      "text": {
+        "title": "Ein gesünderer Alltag",
+        "sentences": [
+          [
+            "Seit einem Jahr lebe ich gesünder.",
+            "Sejak setahun lalu saya hidup lebih sehat."
+          ],
+          [
+            "Ich achte auf meine Ernährung und koche selbst.",
+            "Saya memperhatikan pola makan dan memasak sendiri."
+          ],
+          [
+            "Außerdem versuche ich, jeden Tag zu laufen.",
+            "Selain itu saya berusaha berlari setiap hari."
+          ],
+          [
+            "Wenn ich gestresst wäre, würde ich mehr Sport machen.",
+            "Kalau saya stres, saya akan lebih banyak olahraga."
+          ],
+          [
+            "Auf Zucker verzichte ich fast ganz.",
+            "Gula hampir sepenuhnya saya hindari."
+          ],
+          [
+            "Guter Schlaf ist für mich genauso wichtig wie Bewegung.",
+            "Tidur yang baik sama pentingnya bagi saya dengan olahraga."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 203,
+      "title": "Arbeit & Karriere",
+      "topic": "arbeit",
+      "goals": [
+        "Membahas karier dan tanggung jawab",
+        "Memakai pasif lampau dan konjungsi",
+        "Menjelaskan pengalaman kerja"
+      ],
+      "drill": "D3",
+      "grammar": [
+        {
+          "title": "Passiv mit Modalverben",
+          "points": [
+            "muss + Partizip II + werden: Das Projekt muss beendet werden.",
+            "konnte + Partizip II + werden: Die Aufgabe konnte gelöst werden.",
+            "Modal di posisi 2, werden di akhir."
+          ],
+          "de": "Das Projekt muss bis Freitag beendet werden.",
+          "id": "Proyeknya harus diselesaikan sampai Jumat."
+        },
+        {
+          "title": "Konnektoren: obwohl, trotzdem, deshalb",
+          "points": [
+            "obwohl + verba akhir: Obwohl es schwer war, hat sie es geschafft.",
+            "trotzdem/deshalb + verba posisi 2.",
+            "Menyatakan kontras dan sebab."
+          ],
+          "de": "Obwohl sie wenig Zeit hatte, hat sie den Kurs beendet.",
+          "id": "Meskipun waktunya sedikit, dia menyelesaikan kursusnya."
+        },
+        {
+          "title": "Nomen-Verb-Verbindungen",
+          "points": [
+            "eine Entscheidung treffen, Verantwortung übernehmen.",
+            "Bentuk ini lebih formal daripada verba biasa.",
+            "Sering dipakai dalam surat lamaran."
+          ],
+          "de": "Sie übernimmt viel Verantwortung.",
+          "id": "Dia mengambil banyak tanggung jawab."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Karriere",
+          "article": "die",
+          "plural": "die Karrieren",
+          "meaning": "karier",
+          "ex_de": "Sie macht eine gute Karriere.",
+          "ex_id": "Dia membangun karier yang bagus."
+        },
+        {
+          "kind": "noun",
+          "de": "Führungskraft",
+          "article": "die",
+          "plural": "die Führungskräfte",
+          "meaning": "pemimpin, manajer",
+          "ex_de": "Die Führungskraft leitet das Team.",
+          "ex_id": "Pemimpinnya memimpin tim."
+        },
+        {
+          "kind": "noun",
+          "de": "Teamarbeit",
+          "article": "die",
+          "plural": null,
+          "meaning": "kerja tim",
+          "ex_de": "Teamarbeit ist hier wichtig.",
+          "ex_id": "Kerja tim penting di sini."
+        },
+        {
+          "kind": "noun",
+          "de": "Projekt",
+          "article": "das",
+          "plural": "die Projekte",
+          "meaning": "proyek",
+          "ex_de": "Das Projekt läuft seit Januar.",
+          "ex_id": "Proyeknya berjalan sejak Januari."
+        },
+        {
+          "kind": "noun",
+          "de": "Frist",
+          "article": "die",
+          "plural": "die Fristen",
+          "meaning": "tenggat",
+          "ex_de": "Die Frist endet am Freitag.",
+          "ex_id": "Tenggatnya berakhir Jumat."
+        },
+        {
+          "kind": "noun",
+          "de": "Vertrag",
+          "article": "der",
+          "plural": "die Verträge",
+          "meaning": "kontrak",
+          "ex_de": "Der Vertrag ist unterschrieben.",
+          "ex_id": "Kontraknya sudah ditandatangani."
+        },
+        {
+          "kind": "noun",
+          "de": "Fortbildung",
+          "article": "die",
+          "plural": "die Fortbildungen",
+          "meaning": "pelatihan lanjutan",
+          "ex_de": "Die Fortbildung dauert drei Tage.",
+          "ex_id": "Pelatihan lanjutannya tiga hari."
+        },
+        {
+          "kind": "noun",
+          "de": "Aufstieg",
+          "article": "der",
+          "plural": "die Aufstiege",
+          "meaning": "kenaikan jabatan",
+          "ex_de": "Der Aufstieg war verdient.",
+          "ex_id": "Kenaikan jabatannya memang layak."
+        },
+        {
+          "kind": "noun",
+          "de": "Verantwortung",
+          "article": "die",
+          "plural": "die Verantwortungen",
+          "meaning": "tanggung jawab",
+          "ex_de": "Sie trägt viel Verantwortung.",
+          "ex_id": "Dia memikul banyak tanggung jawab."
+        },
+        {
+          "kind": "verb",
+          "de": "leiten",
+          "article": null,
+          "plural": null,
+          "meaning": "memimpin",
+          "ex_de": "Er leitet die Abteilung.",
+          "ex_id": "Dia memimpin departemen."
+        },
+        {
+          "kind": "adj",
+          "de": "engagiert",
+          "article": null,
+          "plural": null,
+          "meaning": "berdedikasi",
+          "ex_de": "Sie ist sehr engagiert.",
+          "ex_id": "Dia sangat berdedikasi."
+        },
+        {
+          "kind": "adj",
+          "de": "belastbar",
+          "article": null,
+          "plural": null,
+          "meaning": "tahan tekanan",
+          "ex_de": "Er ist belastbar und ruhig.",
+          "ex_id": "Dia tahan tekanan dan tenang."
+        },
+        {
+          "kind": "noun",
+          "de": "Zeugnis",
+          "article": "das",
+          "plural": "die Zeugnisse",
+          "meaning": "ijazah, rapor",
+          "ex_de": "Das Zeugnis ist wichtig.",
+          "ex_id": "Ijazahnya penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Praktikum",
+          "article": "das",
+          "plural": "die Praktika",
+          "meaning": "magang",
+          "ex_de": "Das Praktikum dauert drei Monate.",
+          "ex_id": "Magangnya tiga bulan."
+        },
+        {
+          "kind": "noun",
+          "de": "Vorgesetzte",
+          "article": "der",
+          "plural": "die Vorgesetzten",
+          "meaning": "atasan",
+          "ex_de": "Der Vorgesetzte ist zufrieden.",
+          "ex_id": "Atasannya puas."
+        },
+        {
+          "kind": "noun",
+          "de": "Selbstständigkeit",
+          "article": "die",
+          "plural": "die Selbstständigkeiten",
+          "meaning": "kemandirian",
+          "ex_de": "Selbstständigkeit wird erwartet.",
+          "ex_id": "Kemandirian diharapkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Konkurrenz",
+          "article": "die",
+          "plural": "die Konkurrenzen",
+          "meaning": "persaingan",
+          "ex_de": "Die Konkurrenz ist groß.",
+          "ex_id": "Persaingannya besar."
+        },
+        {
+          "kind": "noun",
+          "de": "Bewerbungsmappe",
+          "article": "die",
+          "plural": "die Bewerbungsmappen",
+          "meaning": "berkas lamaran",
+          "ex_de": "Die Bewerbungsmappe ist komplett.",
+          "ex_id": "Berkas lamarannya lengkap."
+        },
+        {
+          "kind": "noun",
+          "de": "Arbeitszeugnis",
+          "article": "das",
+          "plural": "die Arbeitszeugnisse",
+          "meaning": "surat keterangan kerja",
+          "ex_de": "Das Arbeitszeugnis ist gut.",
+          "ex_id": "Surat keterangan kerjanya bagus."
+        },
+        {
+          "kind": "noun",
+          "de": "Gehaltsverhandlung",
+          "article": "die",
+          "plural": "die Gehaltsverhandlungen",
+          "meaning": "negosiasi gaji",
+          "ex_de": "Die Gehaltsverhandlung war erfolgreich.",
+          "ex_id": "Negosiasi gajinya berhasil."
+        },
+        {
+          "kind": "noun",
+          "de": "Karrieresprung",
+          "article": "der",
+          "plural": "die Karrieresprünge",
+          "meaning": "lonjakan karier",
+          "ex_de": "Der Karrieresprung kam plötzlich.",
+          "ex_id": "Lonjakan kariernya tiba-tiba."
+        },
+        {
+          "kind": "noun",
+          "de": "Fachbereich",
+          "article": "der",
+          "plural": "die Fachbereiche",
+          "meaning": "bidang keahlian",
+          "ex_de": "Er leitet den Fachbereich.",
+          "ex_id": "Dia memimpin bidang keahlian."
+        }
+      ],
+      "text": {
+        "title": "Eine neue Aufgabe",
+        "sentences": [
+          [
+            "Seit drei Jahren arbeitet Rina in diesem Unternehmen.",
+            "Sudah tiga tahun Rina bekerja di perusahaan ini."
+          ],
+          [
+            "Letztes Jahr wurde sie zur Teamleiterin gemacht.",
+            "Tahun lalu dia dijadikan pemimpin tim."
+          ],
+          [
+            "Obwohl die Arbeit stressig ist, macht sie ihr Spaß.",
+            "Meskipun pekerjaannya penuh stres, dia menyukainya."
+          ],
+          [
+            "Das neue Projekt muss bis Ende des Monats beendet werden.",
+            "Proyek baru harus selesai akhir bulan."
+          ],
+          [
+            "Trotzdem nimmt sie sich Zeit für eine Fortbildung.",
+            "Meskipun begitu dia menyempatkan diri untuk pelatihan."
+          ],
+          [
+            "Sie hofft, dass ihre Karriere so weitergeht.",
+            "Dia berharap kariernya terus berjalan seperti ini."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 204,
+      "title": "Medien & Meinung",
+      "topic": "medien",
+      "goals": [
+        "Menyampaikan pendapat dan argumen",
+        "Memakai kalimat relatif lanjutan",
+        "Membahas berita dan sumbernya"
+      ],
+      "drill": "D6",
+      "grammar": [
+        {
+          "title": "Indirekte Rede (Konjunktiv I)",
+          "points": [
+            "Sie sagt, sie habe keine Zeit.",
+            "Bentuk ini lazim dalam berita.",
+            "Untuk verba reguler sering sama dengan infinitif."
+          ],
+          "de": "Der Minister sagt, die Lage sei schwierig.",
+          "id": "Menteri mengatakan situasinya sulit."
+        },
+        {
+          "title": "Relativsätze mit Präposition",
+          "points": [
+            "Der Bericht, über den wir sprechen, ist neu.",
+            "Preposisi + Relativpronomen.",
+            "Verba di akhir."
+          ],
+          "de": "Die Quelle, auf die er sich beruft, ist unbekannt.",
+          "id": "Sumber yang dia rujuk tidak diketahui."
+        },
+        {
+          "title": "Konnektoren: einerseits/andererseits",
+          "points": [
+            "Einerseits … andererseits … menyatakan dua sisi.",
+            "Alternatif: zwar …, aber …",
+            "Berguna dalam diskusi."
+          ],
+          "de": "Einerseits ist die App praktisch, andererseits kostet sie Zeit.",
+          "id": "Di satu sisi aplikasinya praktis, di sisi lain menghabiskan waktu."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Meinung",
+          "article": "die",
+          "plural": "die Meinungen",
+          "meaning": "pendapat",
+          "ex_de": "Meine Meinung ist anders.",
+          "ex_id": "Pendapat saya berbeda."
+        },
+        {
+          "kind": "noun",
+          "de": "Diskussion",
+          "article": "die",
+          "plural": "die Diskussionen",
+          "meaning": "diskusi",
+          "ex_de": "Die Diskussion war lang.",
+          "ex_id": "Diskusinya panjang."
+        },
+        {
+          "kind": "noun",
+          "de": "Debatte",
+          "article": "die",
+          "plural": "die Debatten",
+          "meaning": "debat",
+          "ex_de": "Die Debatte läuft im Fernsehen.",
+          "ex_id": "Debatnya disiarkan di televisi."
+        },
+        {
+          "kind": "noun",
+          "de": "Bericht",
+          "article": "der",
+          "plural": "die Berichte",
+          "meaning": "laporan, berita",
+          "ex_de": "Der Bericht ist sachlich.",
+          "ex_id": "Laporannya faktual."
+        },
+        {
+          "kind": "noun",
+          "de": "Quelle",
+          "article": "die",
+          "plural": "die Quellen",
+          "meaning": "sumber",
+          "ex_de": "Die Quelle ist nicht klar.",
+          "ex_id": "Sumbernya tidak jelas."
+        },
+        {
+          "kind": "noun",
+          "de": "Interview",
+          "article": "das",
+          "plural": "die Interviews",
+          "meaning": "wawancara",
+          "ex_de": "Das Interview ist morgen.",
+          "ex_id": "Wawancaranya besok."
+        },
+        {
+          "kind": "noun",
+          "de": "Kommentar",
+          "article": "der",
+          "plural": "die Kommentare",
+          "meaning": "komentar",
+          "ex_de": "Der Kommentar war kritisch.",
+          "ex_id": "Komentarnya kritis."
+        },
+        {
+          "kind": "noun",
+          "de": "Einfluss",
+          "article": "der",
+          "plural": "die Einflüsse",
+          "meaning": "pengaruh",
+          "ex_de": "Medien haben großen Einfluss.",
+          "ex_id": "Media punya pengaruh besar."
+        },
+        {
+          "kind": "noun",
+          "de": "Öffentlichkeit",
+          "article": "die",
+          "plural": null,
+          "meaning": "publik",
+          "ex_de": "Die Öffentlichkeit diskutiert mit.",
+          "ex_id": "Publik ikut berdiskusi."
+        },
+        {
+          "kind": "verb",
+          "de": "diskutieren",
+          "article": null,
+          "plural": null,
+          "meaning": "berdiskusi",
+          "ex_de": "Wir diskutieren über das Thema.",
+          "ex_id": "Kami berdiskusi tentang topik itu."
+        },
+        {
+          "kind": "verb",
+          "de": "beeinflussen",
+          "article": null,
+          "plural": null,
+          "meaning": "memengaruhi",
+          "ex_de": "Werbung beeinflusst unsere Meinung.",
+          "ex_id": "Iklan memengaruhi pendapat kita."
+        },
+        {
+          "kind": "adj",
+          "de": "umstritten",
+          "article": null,
+          "plural": null,
+          "meaning": "kontroversial",
+          "ex_de": "Das Thema ist umstritten.",
+          "ex_id": "Topiknya kontroversial."
+        },
+        {
+          "kind": "noun",
+          "de": "Schlagzeile",
+          "article": "die",
+          "plural": "die Schlagzeilen",
+          "meaning": "judul berita",
+          "ex_de": "Die Schlagzeile war falsch.",
+          "ex_id": "Judul beritanya salah."
+        },
+        {
+          "kind": "noun",
+          "de": "Artikel",
+          "article": "der",
+          "plural": "die Artikel",
+          "meaning": "artikel",
+          "ex_de": "Der Artikel ist lang.",
+          "ex_id": "Artikelnya panjang."
+        },
+        {
+          "kind": "noun",
+          "de": "Redaktion",
+          "article": "die",
+          "plural": "die Redaktionen",
+          "meaning": "redaksi",
+          "ex_de": "Die Redaktion prüft die Quelle.",
+          "ex_id": "Redaksi memeriksa sumbernya."
+        },
+        {
+          "kind": "noun",
+          "de": "Recherche",
+          "article": "die",
+          "plural": "die Recherchen",
+          "meaning": "riset, penelusuran",
+          "ex_de": "Die Recherche dauerte Wochen.",
+          "ex_id": "Penelusurannya pekan-pekan."
+        },
+        {
+          "kind": "noun",
+          "de": "Neutralität",
+          "article": "die",
+          "plural": "die Neutralitäten",
+          "meaning": "netralitas",
+          "ex_de": "Neutralität ist schwer.",
+          "ex_id": "Netralitas itu sulit."
+        },
+        {
+          "kind": "noun",
+          "de": "Abonnement",
+          "article": "das",
+          "plural": "die Abonnements",
+          "meaning": "langganan",
+          "ex_de": "Das Abonnement läuft ab.",
+          "ex_id": "Langganannya berakhir."
+        },
+        {
+          "kind": "noun",
+          "de": "Talkshow",
+          "article": "die",
+          "plural": "die Talkshows",
+          "meaning": "talkshow",
+          "ex_de": "Die Talkshow ist live.",
+          "ex_id": "Talkshownya langsung."
+        },
+        {
+          "kind": "noun",
+          "de": "Moderation",
+          "article": "die",
+          "plural": "die Moderationen",
+          "meaning": "pemandu acara",
+          "ex_de": "Die Moderation war gut.",
+          "ex_id": "Pemandu acaranya bagus."
+        },
+        {
+          "kind": "noun",
+          "de": "Sensation",
+          "article": "die",
+          "plural": "die Sensationen",
+          "meaning": "sensasi",
+          "ex_de": "Die Meldung war keine Sensation.",
+          "ex_id": "Beritanya bukan sensasi."
+        },
+        {
+          "kind": "noun",
+          "de": "Medienhaus",
+          "article": "das",
+          "plural": "die Medienhäuser",
+          "meaning": "rumah media",
+          "ex_de": "Das Medienhaus ist groß.",
+          "ex_id": "Rumah medianya besar."
+        }
+      ],
+      "text": {
+        "title": "Eine Diskussion über Medien",
+        "sentences": [
+          [
+            "Gestern haben wir in der Klasse über Medien diskutiert.",
+            "Kemarin kami berdiskusi soal media di kelas."
+          ],
+          [
+            "Ein Student meint, soziale Medien hätten zu viel Einfluss.",
+            "Seorang mahasiswa berpendapat media sosial terlalu berpengaruh."
+          ],
+          [
+            "Eine andere Meinung war, dass man selbst entscheiden müsse.",
+            "Pendapat lain adalah bahwa kita harus memutuskan sendiri."
+          ],
+          [
+            "Wir haben auch über Quellen gesprochen, auf die man sich verlassen kann.",
+            "Kami juga membahas sumber yang bisa diandalkan."
+          ],
+          [
+            "Einerseits bieten Medien viele Informationen, andererseits können sie täuschen.",
+            "Di satu sisi media memberi banyak informasi, di sisi lain bisa menipu."
+          ],
+          [
+            "Am Ende war die Diskussion sehr konstruktiv.",
+            "Akhirnya diskusinya sangat konstruktif."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 205,
+      "title": "Umwelt & Klima",
+      "topic": "umwelt",
+      "goals": [
+        "Membahas perubahan iklim",
+        "Menjelaskan sebab dan akibat",
+        "Memakai pasif dengan modalverba"
+      ],
+      "drill": "D5",
+      "grammar": [
+        {
+          "title": "Passiv mit Modalverben",
+          "points": [
+            "Der Müll muss getrennt werden.",
+            "Können + Partizip II + werden: Das kann reduziert werden.",
+            "Modal di posisi 2."
+          ],
+          "de": "Plastik muss reduziert werden.",
+          "id": "Plastik harus dikurangi."
+        },
+        {
+          "title": "Infinitiv mit zu nach Adjektiven",
+          "points": [
+            "Es ist wichtig, Energie zu sparen.",
+            "schwer/leicht/möglich + zu.",
+            "Subjektsatz dengan es."
+          ],
+          "de": "Es ist wichtig, Verpackungen zu vermeiden.",
+          "id": "Penting untuk menghindari kemasan."
+        },
+        {
+          "title": "Genitiv & Präpositionen",
+          "points": [
+            "wegen des Klimas, trotz der Kosten.",
+            "Genitiv sering setelah wegen/trotz.",
+            "Perhatikan artikel: des/der."
+          ],
+          "de": "Wegen des Klimawandels ändern sich viele Dinge.",
+          "id": "Karena perubahan iklim banyak hal berubah."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Klima",
+          "article": "das",
+          "plural": "die Klimas",
+          "meaning": "iklim",
+          "ex_de": "Das Klima verändert sich.",
+          "ex_id": "Iklimnya berubah."
+        },
+        {
+          "kind": "noun",
+          "de": "Klimawandel",
+          "article": "der",
+          "plural": null,
+          "meaning": "perubahan iklim",
+          "ex_de": "Der Klimawandel ist eine große Herausforderung.",
+          "ex_id": "Perubahan iklim adalah tantangan besar."
+        },
+        {
+          "kind": "noun",
+          "de": "Umweltschutz",
+          "article": "der",
+          "plural": null,
+          "meaning": "perlindungan lingkungan",
+          "ex_de": "Umweltschutz beginnt zu Hause.",
+          "ex_id": "Perlindungan lingkungan dimulai dari rumah."
+        },
+        {
+          "kind": "noun",
+          "de": "Energiequelle",
+          "article": "die",
+          "plural": "die Energiequellen",
+          "meaning": "sumber energi",
+          "ex_de": "Die Sonne ist eine Energiequelle.",
+          "ex_id": "Matahari adalah sumber energi."
+        },
+        {
+          "kind": "noun",
+          "de": "Verpackung",
+          "article": "die",
+          "plural": "die Verpackungen",
+          "meaning": "kemasan",
+          "ex_de": "Die Verpackung ist aus Plastik.",
+          "ex_id": "Kemasannya dari plastik."
+        },
+        {
+          "kind": "noun",
+          "de": "Verkehrsmittel",
+          "article": "das",
+          "plural": "die Verkehrsmittel",
+          "meaning": "alat transportasi",
+          "ex_de": "Öffentliche Verkehrsmittel sind besser.",
+          "ex_id": "Transportasi umum lebih baik."
+        },
+        {
+          "kind": "noun",
+          "de": "Folge",
+          "article": "die",
+          "plural": "die Folgen",
+          "meaning": "akibat",
+          "ex_de": "Die Folgen sind ernst.",
+          "ex_id": "Akibatnya serius."
+        },
+        {
+          "kind": "noun",
+          "de": "Maßnahme",
+          "article": "die",
+          "plural": "die Maßnahmen",
+          "meaning": "tindakan",
+          "ex_de": "Die Regierung plant Maßnahmen.",
+          "ex_id": "Pemerintah merencanakan tindakan."
+        },
+        {
+          "kind": "adj",
+          "de": "erneuerbar",
+          "article": null,
+          "plural": null,
+          "meaning": "terbarukan",
+          "ex_de": "Erneuerbare Energie ist wichtig.",
+          "ex_id": "Energi terbarukan itu penting."
+        },
+        {
+          "kind": "verb",
+          "de": "verbrauchen",
+          "article": null,
+          "plural": null,
+          "meaning": "mengonsumsi",
+          "ex_de": "Wir verbrauchen zu viel Strom.",
+          "ex_id": "Kami mengonsumsi terlalu banyak listrik."
+        },
+        {
+          "kind": "verb",
+          "de": "vermeiden",
+          "article": null,
+          "plural": null,
+          "meaning": "menghindari",
+          "ex_de": "Man sollte Plastik vermeiden.",
+          "ex_id": "Orang sebaiknya menghindari plastik."
+        },
+        {
+          "kind": "verb",
+          "de": "reduzieren",
+          "article": null,
+          "plural": null,
+          "meaning": "mengurangi",
+          "ex_de": "Wir müssen den Verbrauch reduzieren.",
+          "ex_id": "Kita harus mengurangi konsumsi."
+        },
+        {
+          "kind": "noun",
+          "de": "Solarstrom",
+          "article": "der",
+          "plural": "die Solarströme",
+          "meaning": "listrik surya",
+          "ex_de": "Solarstrom wird immer billiger.",
+          "ex_id": "Listrik surya makin murah."
+        },
+        {
+          "kind": "noun",
+          "de": "Windkraft",
+          "article": "die",
+          "plural": "die Windkräfte",
+          "meaning": "tenaga angin",
+          "ex_de": "Windkraft ist erneuerbar.",
+          "ex_id": "Tenaga angin terbarukan."
+        },
+        {
+          "kind": "noun",
+          "de": "Dürre",
+          "article": "die",
+          "plural": "die Dürren",
+          "meaning": "kekeringan",
+          "ex_de": "Die Dürre dauert an.",
+          "ex_id": "Kekeringannya berlanjut."
+        },
+        {
+          "kind": "noun",
+          "de": "Überschwemmung",
+          "article": "die",
+          "plural": "die Überschwemmungen",
+          "meaning": "banjir",
+          "ex_de": "Die Überschwemmung war schlimm.",
+          "ex_id": "Banjirnya parah."
+        },
+        {
+          "kind": "noun",
+          "de": "Artenvielfalt",
+          "article": "die",
+          "plural": "die Artenvielfalt",
+          "meaning": "keanekaragaman hayati",
+          "ex_de": "Die Artenvielfalt nimmt ab.",
+          "ex_id": "Keanekaragaman hayati menurun."
+        },
+        {
+          "kind": "noun",
+          "de": "Hitzewelle",
+          "article": "die",
+          "plural": "die Hitzewellen",
+          "meaning": "gelombang panas",
+          "ex_de": "Die Hitzewelle hält an.",
+          "ex_id": "Gelombang panasnya berlanjut."
+        },
+        {
+          "kind": "noun",
+          "de": "Gletscher",
+          "article": "der",
+          "plural": "die Gletscher",
+          "meaning": "gletser",
+          "ex_de": "Der Gletscher schmilzt.",
+          "ex_id": "Gletsernya mencair."
+        },
+        {
+          "kind": "noun",
+          "de": "Kompensation",
+          "article": "die",
+          "plural": "die Kompensationen",
+          "meaning": "kompensasi",
+          "ex_de": "Kompensation allein reicht nicht.",
+          "ex_id": "Kompensasi saja tidak cukup."
+        },
+        {
+          "kind": "noun",
+          "de": "Anpassung",
+          "article": "die",
+          "plural": "die Anpassungen",
+          "meaning": "adaptasi",
+          "ex_de": "Anpassung ist notwendig.",
+          "ex_id": "Adaptasi itu perlu."
+        },
+        {
+          "kind": "noun",
+          "de": "Klimaschutz",
+          "article": "der",
+          "plural": "die Klimaschutze",
+          "meaning": "perlindungan iklim",
+          "ex_de": "Klimaschutz ist eine Aufgabe für alle.",
+          "ex_id": "Perlindungan iklim tugas semua."
+        }
+      ],
+      "text": {
+        "title": "Was können wir tun?",
+        "sentences": [
+          [
+            "Der Klimawandel ist eines der wichtigsten Themen unserer Zeit.",
+            "Perubahan iklim adalah salah satu topik terpenting zaman ini."
+          ],
+          [
+            "Wegen des Klimawandels ändern sich Wetter und Jahreszeiten.",
+            "Karena perubahan iklim cuaca dan musim berubah."
+          ],
+          [
+            "Vieles kann getan werden, um Energie zu sparen.",
+            "Banyak hal bisa dilakukan untuk menghemat energi."
+          ],
+          [
+            "Plastikverpackungen sollten vermieden werden.",
+            "Kemasan plastik sebaiknya dihindari."
+          ],
+          [
+            "Es gibt aber auch Kritik an manchen Maßnahmen.",
+            "Namun ada juga kritik terhadap sebagian tindakan."
+          ],
+          [
+            "Trotzdem bleibt es wichtig, jetzt zu handeln.",
+            "Meskipun begitu tetap penting untuk bertindak sekarang."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 206,
+      "title": "Reisen & Kultur",
+      "topic": "reisen",
+      "goals": [
+        "Membahas budaya dan wisata",
+        "Menceritakan pengalaman sebelum perjalanan",
+        "Memakai Plusquamperfekt"
+      ],
+      "drill": "D9",
+      "grammar": [
+        {
+          "title": "Plusquamperfekt",
+          "points": [
+            "hatte/war + Partizip II: Ich hatte den Koffer gepackt.",
+            "Dipakai untuk kejadian yang selesai sebelum kejadian lain.",
+            "Sering dengan bevor/nachdem."
+          ],
+          "de": "Nachdem wir gebucht hatten, haben wir gepackt.",
+          "id": "Setelah kami memesan, kami mengemas."
+        },
+        {
+          "title": "Relativsätze",
+          "points": [
+            "Das Museum, das wir besucht haben, war klein.",
+            "Relativpronomen das untuk netral.",
+            "Verba di akhir."
+          ],
+          "de": "Die Ausstellung, die wir gesehen haben, war toll.",
+          "id": "Pameran yang kami lihat itu hebat."
+        },
+        {
+          "title": "Konnektoren: bevor, nachdem",
+          "points": [
+            "bevor + verba akhir: Bevor wir fahren, buchen wir.",
+            "nachdem + Plusquamperfekt di klausa pertama.",
+            "Urutan waktu harus jelas."
+          ],
+          "de": "Bevor wir fahren, kaufen wir die Tickets.",
+          "id": "Sebelum pergi, kami membeli tiket."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Kultur",
+          "article": "die",
+          "plural": "die Kulturen",
+          "meaning": "budaya",
+          "ex_de": "Die Kultur ist hier sehr alt.",
+          "ex_id": "Budayanya di sini sangat tua."
+        },
+        {
+          "kind": "noun",
+          "de": "Veranstaltung",
+          "article": "die",
+          "plural": "die Veranstaltungen",
+          "meaning": "acara",
+          "ex_de": "Die Veranstaltung ist kostenlos.",
+          "ex_id": "Acaranya gratis."
+        },
+        {
+          "kind": "noun",
+          "de": "Eintritt",
+          "article": "der",
+          "plural": "die Eintritte",
+          "meaning": "tiket masuk",
+          "ex_de": "Der Eintritt kostet zehn Euro.",
+          "ex_id": "Tiket masuknya sepuluh euro."
+        },
+        {
+          "kind": "noun",
+          "de": "Führung",
+          "article": "die",
+          "plural": "die Führungen",
+          "meaning": "tur berpemandu",
+          "ex_de": "Die Führung beginnt um elf.",
+          "ex_id": "Tur berpemandunya mulai pukul sebelas."
+        },
+        {
+          "kind": "noun",
+          "de": "Denkmal",
+          "article": "das",
+          "plural": "die Denkmäler",
+          "meaning": "monumen",
+          "ex_de": "Das Denkmal ist alt.",
+          "ex_id": "Monumennya tua."
+        },
+        {
+          "kind": "noun",
+          "de": "Ausland",
+          "article": "das",
+          "plural": null,
+          "meaning": "luar negeri",
+          "ex_de": "Sie studiert im Ausland.",
+          "ex_id": "Dia kuliah di luar negeri."
+        },
+        {
+          "kind": "noun",
+          "de": "Aufenthalt",
+          "article": "der",
+          "plural": "die Aufenthalte",
+          "meaning": "masa tinggal",
+          "ex_de": "Der Aufenthalt war kurz.",
+          "ex_id": "Masa tinggalnya singkat."
+        },
+        {
+          "kind": "noun",
+          "de": "Unterkunft",
+          "article": "die",
+          "plural": "die Unterkünfte",
+          "meaning": "akomodasi",
+          "ex_de": "Die Unterkunft ist einfach.",
+          "ex_id": "Akomodasinya sederhana."
+        },
+        {
+          "kind": "noun",
+          "de": "Reiseführer",
+          "article": "der",
+          "plural": "die Reiseführer",
+          "meaning": "pemandu wisata, buku panduan",
+          "ex_de": "Der Reiseführer erklärt die Geschichte.",
+          "ex_id": "Pemandunya menjelaskan sejarah."
+        },
+        {
+          "kind": "verb",
+          "de": "besichtigen",
+          "article": null,
+          "plural": null,
+          "meaning": "mengunjungi (tempat)",
+          "ex_de": "Wir besichtigen die Burg.",
+          "ex_id": "Kami mengunjungi kastil."
+        },
+        {
+          "kind": "verb",
+          "de": "übernachten",
+          "article": null,
+          "plural": null,
+          "meaning": "menginap",
+          "ex_de": "Wir übernachten in einem Hostel.",
+          "ex_id": "Kami menginap di hostel."
+        },
+        {
+          "kind": "adj",
+          "de": "einheimisch",
+          "article": null,
+          "plural": null,
+          "meaning": "lokal, penduduk asli",
+          "ex_de": "Einheimische kennen die besten Orte.",
+          "ex_id": "Penduduk lokal tahu tempat terbaik."
+        },
+        {
+          "kind": "noun",
+          "de": "Aufführung",
+          "article": "die",
+          "plural": "die Aufführungen",
+          "meaning": "pertunjukan",
+          "ex_de": "Die Aufführung beginnt um acht.",
+          "ex_id": "Pertunjukannya mulai pukul delapan."
+        },
+        {
+          "kind": "noun",
+          "de": "Kostüm",
+          "article": "das",
+          "plural": "die Kostüme",
+          "meaning": "kostum",
+          "ex_de": "Das Kostüm ist bunt.",
+          "ex_id": "Kostumnya berwarna-warni."
+        },
+        {
+          "kind": "noun",
+          "de": "Orchester",
+          "article": "das",
+          "plural": "die Orchester",
+          "meaning": "orkestra",
+          "ex_de": "Das Orchester spielt Mozart.",
+          "ex_id": "Orkestra memainkan Mozart."
+        },
+        {
+          "kind": "noun",
+          "de": "Galerie",
+          "article": "die",
+          "plural": "die Galerien",
+          "meaning": "galeri",
+          "ex_de": "Die Galerie zeigt moderne Kunst.",
+          "ex_id": "Galeri menampilkan seni modern."
+        },
+        {
+          "kind": "noun",
+          "de": "Übersetzung",
+          "article": "die",
+          "plural": "die Übersetzungen",
+          "meaning": "terjemahan",
+          "ex_de": "Die Übersetzung ist gelungen.",
+          "ex_id": "Terjemahannya bagus."
+        },
+        {
+          "kind": "noun",
+          "de": "Volksfest",
+          "article": "das",
+          "plural": "die Volksfeste",
+          "meaning": "festival rakyat",
+          "ex_de": "Das Volksfest dauert zwei Wochen.",
+          "ex_id": "Festival rakyatnya dua pekan."
+        },
+        {
+          "kind": "noun",
+          "de": "Mundart",
+          "article": "die",
+          "plural": "die Mundarten",
+          "meaning": "dialek",
+          "ex_de": "Die Mundart ist schwer zu verstehen.",
+          "ex_id": "Dialeknya sulit dipahami."
+        },
+        {
+          "kind": "noun",
+          "de": "Literatur",
+          "article": "die",
+          "plural": "die Literaturen",
+          "meaning": "kesusastraan",
+          "ex_de": "Die Literatur ist wichtig.",
+          "ex_id": "Kesusastraannya penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Drehbuch",
+          "article": "das",
+          "plural": "die Drehbücher",
+          "meaning": "skenario",
+          "ex_de": "Das Drehbuch ist fertig.",
+          "ex_id": "Skenarionya selesai."
+        },
+        {
+          "kind": "noun",
+          "de": "Brauchtum",
+          "article": "das",
+          "plural": "die Brauchtümer",
+          "meaning": "adat istiadat",
+          "ex_de": "Das Brauchtum wird gepflegt.",
+          "ex_id": "Adat istiadatnya dilestarikan."
+        }
+      ],
+      "text": {
+        "title": "Eine Woche in Wien",
+        "sentences": [
+          [
+            "Bevor wir nach Wien gefahren sind, hatten wir alles gebucht.",
+            "Sebelum pergi ke Wina, kami sudah memesan semuanya."
+          ],
+          [
+            "Die Unterkunft, die wir gefunden hatten, war zentral.",
+            "Akomodasi yang kami temukan berada di pusat."
+          ],
+          [
+            "Am ersten Tag haben wir eine Führung gemacht.",
+            "Hari pertama kami ikut tur berpemandu."
+          ],
+          [
+            "Der Reiseführer hat uns viele Geschichten erzählt.",
+            "Pemandunya bercerita banyak kisah."
+          ],
+          [
+            "Nachdem wir das Museum besichtigt hatten, waren wir müde.",
+            "Setelah mengunjungi museum, kami lelah."
+          ],
+          [
+            "Am Abend haben wir mit Einheimischen gesprochen.",
+            "Malamnya kami berbicara dengan penduduk lokal."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 207,
+      "title": "Gesellschaft & Zusammenleben",
+      "topic": "gesellschaft",
+      "goals": [
+        "Membahas masyarakat dan integrasi",
+        "Menyampaikan saran dan harapan",
+        "Memakai verba dengan preposisi"
+      ],
+      "drill": "D4",
+      "grammar": [
+        {
+          "title": "Konjunktiv II für Wünsche",
+          "points": [
+            "Ich wünschte, es gäbe mehr Toleranz.",
+            "wäre/hätte/würde untuk harapan.",
+            "Juga untuk saran sopan."
+          ],
+          "de": "Es wäre schön, wenn alle respektvoll wären.",
+          "id": "Akan bagus jika semua orang saling menghormati."
+        },
+        {
+          "title": "Verben mit Präpositionen",
+          "points": [
+            "sich engagieren für, sich interessieren für, sprechen über.",
+            "Präposition tetap, objek mengikuti kasus.",
+            "Er engagiert sich für Integration."
+          ],
+          "de": "Sie engagiert sich für Toleranz.",
+          "id": "Dia berdedikasi untuk toleransi."
+        },
+        {
+          "title": "Passiv Präsens",
+          "points": [
+            "Konflikte werden oft nicht gelöst.",
+            "werden + Partizip II.",
+            "Pelaku sering tidak penting."
+          ],
+          "de": "Viele Konflikte werden nicht offen besprochen.",
+          "id": "Banyak konflik tidak dibicarakan terbuka."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Gesellschaft",
+          "article": "die",
+          "plural": "die Gesellschaften",
+          "meaning": "masyarakat",
+          "ex_de": "Die Gesellschaft verändert sich.",
+          "ex_id": "Masyarakat berubah."
+        },
+        {
+          "kind": "noun",
+          "de": "Generation",
+          "article": "die",
+          "plural": "die Generationen",
+          "meaning": "generasi",
+          "ex_de": "Die junge Generation denkt anders.",
+          "ex_id": "Generasi muda berpikir berbeda."
+        },
+        {
+          "kind": "noun",
+          "de": "Integration",
+          "article": "die",
+          "plural": "die Integrationen",
+          "meaning": "integrasi",
+          "ex_de": "Integration braucht Zeit.",
+          "ex_id": "Integrasi butuh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Migration",
+          "article": "die",
+          "plural": "die Migrationen",
+          "meaning": "migrasi",
+          "ex_de": "Migration prägt viele Städte.",
+          "ex_id": "Migrasi membentuk banyak kota."
+        },
+        {
+          "kind": "noun",
+          "de": "Vorurteil",
+          "article": "das",
+          "plural": "die Vorurteile",
+          "meaning": "prasangka",
+          "ex_de": "Vorurteile entstehen oft aus Unwissenheit.",
+          "ex_id": "Prasangka sering muncul dari ketidaktahuan."
+        },
+        {
+          "kind": "noun",
+          "de": "Toleranz",
+          "article": "die",
+          "plural": null,
+          "meaning": "toleransi",
+          "ex_de": "Toleranz ist wichtig.",
+          "ex_id": "Toleransi itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Konflikt",
+          "article": "der",
+          "plural": "die Konflikte",
+          "meaning": "konflik",
+          "ex_de": "Der Konflikt wurde gelöst.",
+          "ex_id": "Konfliknya terselesaikan."
+        },
+        {
+          "kind": "noun",
+          "de": "Lösung",
+          "article": "die",
+          "plural": "die Lösungen",
+          "meaning": "solusi",
+          "ex_de": "Wir brauchen eine Lösung.",
+          "ex_id": "Kami butuh solusi."
+        },
+        {
+          "kind": "noun",
+          "de": "Kompromiss",
+          "article": "der",
+          "plural": "die Kompromisse",
+          "meaning": "kompromi",
+          "ex_de": "Ein Kompromiss ist oft nötig.",
+          "ex_id": "Kompromi sering diperlukan."
+        },
+        {
+          "kind": "verb",
+          "de": "respektieren",
+          "article": null,
+          "plural": null,
+          "meaning": "menghormati",
+          "ex_de": "Wir respektieren andere Meinungen.",
+          "ex_id": "Kami menghormati pendapat lain."
+        },
+        {
+          "kind": "verb",
+          "de": "zusammenarbeiten",
+          "article": null,
+          "plural": null,
+          "meaning": "bekerja sama",
+          "ex_de": "Die Vereine arbeiten zusammen.",
+          "ex_id": "Klub-klub bekerja sama."
+        },
+        {
+          "kind": "adj",
+          "de": "sozial",
+          "article": null,
+          "plural": null,
+          "meaning": "sosial",
+          "ex_de": "Soziale Projekte helfen.",
+          "ex_id": "Proyek sosial membantu."
+        },
+        {
+          "kind": "noun",
+          "de": "Solidarität",
+          "article": "die",
+          "plural": "die Solidaritäten",
+          "meaning": "solidaritas",
+          "ex_de": "Solidarität ist wichtig.",
+          "ex_id": "Solidaritas itu penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Diskriminierung",
+          "article": "die",
+          "plural": "die Diskriminierungen",
+          "meaning": "diskriminasi",
+          "ex_de": "Diskriminierung ist verboten.",
+          "ex_id": "Diskriminasi dilarang."
+        },
+        {
+          "kind": "noun",
+          "de": "Zuwanderung",
+          "article": "die",
+          "plural": "die Zuwanderungen",
+          "meaning": "imigrasi",
+          "ex_de": "Zuwanderung verändert Städte.",
+          "ex_id": "Imigrasi mengubah kota."
+        },
+        {
+          "kind": "noun",
+          "de": "Ehrenamt",
+          "article": "das",
+          "plural": "die Ehrenämter",
+          "meaning": "kerja sukarela",
+          "ex_de": "Sie macht ein Ehrenamt.",
+          "ex_id": "Dia melakukan kerja sukarela."
+        },
+        {
+          "kind": "noun",
+          "de": "Teilhabe",
+          "article": "die",
+          "plural": "die Teilhaben",
+          "meaning": "partisipasi",
+          "ex_de": "Teilhabe braucht Angebote.",
+          "ex_id": "Partisipasi butuh program."
+        },
+        {
+          "kind": "noun",
+          "de": "Bürgerinitiative",
+          "article": "die",
+          "plural": "die Bürgerinitiativen",
+          "meaning": "inisiatif warga",
+          "ex_de": "Die Bürgerinitiative protestiert.",
+          "ex_id": "Inisiatif warga memprotes."
+        },
+        {
+          "kind": "noun",
+          "de": "Chancengleichheit",
+          "article": "die",
+          "plural": "die Chancengleichheiten",
+          "meaning": "kesetaraan kesempatan",
+          "ex_de": "Chancengleichheit ist ein Ziel.",
+          "ex_id": "Kesetaraan kesempatan adalah tujuan."
+        },
+        {
+          "kind": "noun",
+          "de": "Altersarmut",
+          "article": "die",
+          "plural": "die Altersarmuten",
+          "meaning": "kemiskinan lansia",
+          "ex_de": "Altersarmut nimmt zu.",
+          "ex_id": "Kemiskinan lansia meningkat."
+        },
+        {
+          "kind": "noun",
+          "de": "Vereinsleben",
+          "article": "das",
+          "plural": "die Vereinsleben",
+          "meaning": "kehidupan klub",
+          "ex_de": "Das Vereinsleben ist aktiv.",
+          "ex_id": "Kehidupan klubnya aktif."
+        },
+        {
+          "kind": "noun",
+          "de": "Nachbarschaftshilfe",
+          "article": "die",
+          "plural": "die Nachbarschaftshilfen",
+          "meaning": "bantuan tetangga",
+          "ex_de": "Nachbarschaftshilfe ist wichtig.",
+          "ex_id": "Bantuan tetangga itu penting."
+        }
+      ],
+      "text": {
+        "title": "Zusammenleben im Viertel",
+        "sentences": [
+          [
+            "In meinem Viertel leben Menschen aus vielen Ländern.",
+            "Di lingkungan saya tinggal orang dari banyak negara."
+          ],
+          [
+            "Integration wird oft durch Sprachkurse unterstützt.",
+            "Integrasi sering didukung lewat kursus bahasa."
+          ],
+          [
+            "Manche haben Vorurteile, weil sie wenig wissen.",
+            "Sebagian punya prasangka karena kurang tahu."
+          ],
+          [
+            "Ein Konflikt wurde gelöst, indem man miteinander gesprochen hat.",
+            "Sebuah konflik terselesaikan dengan saling bicara."
+          ],
+          [
+            "Es wäre schön, wenn alle respektvoll wären.",
+            "Akan bagus jika semua saling menghormati."
+          ],
+          [
+            "Viele engagieren sich für ein gutes Zusammenleben.",
+            "Banyak orang berdedikasi untuk hidup bersama yang baik."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 208,
+      "title": "Bildung & Lernen",
+      "topic": "bildung",
+      "goals": [
+        "Membahas pendidikan dan ujian",
+        "Menjelaskan tujuan belajar",
+        "Memakai infinitif dengan zu"
+      ],
+      "drill": "D7",
+      "grammar": [
+        {
+          "title": "Infinitiv mit zu",
+          "points": [
+            "Ich versuche, den Text zu verstehen.",
+            "Es ist schwierig, alles zu behalten.",
+            "Verba di akhir setelah zu."
+          ],
+          "de": "Ich versuche, jeden Tag zu üben.",
+          "id": "Saya berusaha berlatih setiap hari."
+        },
+        {
+          "title": "Konnektoren: deshalb, sonst, außerdem",
+          "points": [
+            "deshalb menyatakan akibat.",
+            "sonst = jika tidak.",
+            "außerdem menambah informasi."
+          ],
+          "de": "Ich lerne täglich, sonst vergesse ich alles.",
+          "id": "Saya belajar setiap hari, kalau tidak saya lupa semuanya."
+        },
+        {
+          "title": "Passiv Präsens mit es",
+          "points": [
+            "Es wird viel gelernt.",
+            "Es wird erklärt, wie die Prüfung ist.",
+            "Subjek dapat berupa es."
+          ],
+          "de": "In der Prüfung wird viel geschrieben.",
+          "id": "Dalam ujian banyak yang ditulis."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Bildung",
+          "article": "die",
+          "plural": null,
+          "meaning": "pendidikan",
+          "ex_de": "Bildung ist der Schlüssel.",
+          "ex_id": "Pendidikan adalah kunci."
+        },
+        {
+          "kind": "noun",
+          "de": "Studium",
+          "article": "das",
+          "plural": "die Studien",
+          "meaning": "studi, perkuliahan",
+          "ex_de": "Das Studium dauert vier Jahre.",
+          "ex_id": "Studinya empat tahun."
+        },
+        {
+          "kind": "noun",
+          "de": "Prüfung",
+          "article": "die",
+          "plural": "die Prüfungen",
+          "meaning": "ujian",
+          "ex_de": "Die Prüfung ist nächste Woche.",
+          "ex_id": "Ujiannya pekan depan."
+        },
+        {
+          "kind": "noun",
+          "de": "Note",
+          "article": "die",
+          "plural": "die Noten",
+          "meaning": "nilai",
+          "ex_de": "Sie hat eine gute Note.",
+          "ex_id": "Dia mendapat nilai bagus."
+        },
+        {
+          "kind": "noun",
+          "de": "Kenntnis",
+          "article": "die",
+          "plural": "die Kenntnisse",
+          "meaning": "pengetahuan",
+          "ex_de": "Er hat gute Kenntnisse.",
+          "ex_id": "Dia punya pengetahuan baik."
+        },
+        {
+          "kind": "noun",
+          "de": "Fähigkeit",
+          "article": "die",
+          "plural": "die Fähigkeiten",
+          "meaning": "kemampuan",
+          "ex_de": "Diese Fähigkeit ist wichtig.",
+          "ex_id": "Kemampuan ini penting."
+        },
+        {
+          "kind": "noun",
+          "de": "Übung",
+          "article": "die",
+          "plural": "die Übungen",
+          "meaning": "latihan",
+          "ex_de": "Übung macht den Meister.",
+          "ex_id": "Latihan membuat mahir."
+        },
+        {
+          "kind": "noun",
+          "de": "Fortschritt",
+          "article": "der",
+          "plural": "die Fortschritte",
+          "meaning": "kemajuan",
+          "ex_de": "Der Fortschritt ist langsam.",
+          "ex_id": "Kemajuannya lambat."
+        },
+        {
+          "kind": "noun",
+          "de": "Lernziel",
+          "article": "das",
+          "plural": "die Lernziele",
+          "meaning": "tujuan belajar",
+          "ex_de": "Das Lernziel ist klar.",
+          "ex_id": "Tujuan belajarnya jelas."
+        },
+        {
+          "kind": "verb",
+          "de": "sich vorbereiten",
+          "article": null,
+          "plural": null,
+          "meaning": "mempersiapkan diri",
+          "ex_de": "Ich bereite mich auf die Prüfung vor.",
+          "ex_id": "Saya mempersiapkan diri untuk ujian."
+        },
+        {
+          "kind": "verb",
+          "de": "wiederholen",
+          "article": null,
+          "plural": null,
+          "meaning": "mengulang",
+          "ex_de": "Ich wiederhole die Grammatik.",
+          "ex_id": "Saya mengulang tata bahasa."
+        },
+        {
+          "kind": "adj",
+          "de": "motiviert",
+          "article": null,
+          "plural": null,
+          "meaning": "termotivasi",
+          "ex_de": "Sie ist sehr motiviert.",
+          "ex_id": "Dia sangat termotivasi."
+        },
+        {
+          "kind": "noun",
+          "de": "Nachhilfe",
+          "article": "die",
+          "plural": "die Nachhilfen",
+          "meaning": "les tambahan",
+          "ex_de": "Er gibt Nachhilfe in Mathe.",
+          "ex_id": "Dia mengajar les matematika."
+        },
+        {
+          "kind": "noun",
+          "de": "Seminar",
+          "article": "das",
+          "plural": "die Seminare",
+          "meaning": "seminar",
+          "ex_de": "Das Seminar ist online.",
+          "ex_id": "Seminarnya online."
+        },
+        {
+          "kind": "noun",
+          "de": "Vorlesung",
+          "article": "die",
+          "plural": "die Vorlesungen",
+          "meaning": "kuliah",
+          "ex_de": "Die Vorlesung beginnt um neun.",
+          "ex_id": "Kuliahnya mulai pukul sembilan."
+        },
+        {
+          "kind": "noun",
+          "de": "Zertifikat",
+          "article": "das",
+          "plural": "die Zertifikate",
+          "meaning": "sertifikat",
+          "ex_de": "Das Zertifikat ist gültig.",
+          "ex_id": "Sertifikatnya berlaku."
+        },
+        {
+          "kind": "noun",
+          "de": "Abschluss",
+          "article": "der",
+          "plural": "die Abschlüsse",
+          "meaning": "kelulusan, gelar",
+          "ex_de": "Der Abschluss ist geschafft.",
+          "ex_id": "Kelulusannya sudah tercapai."
+        },
+        {
+          "kind": "noun",
+          "de": "Skript",
+          "article": "das",
+          "plural": "die Skripte",
+          "meaning": "materi kuliah",
+          "ex_de": "Das Skript ist online.",
+          "ex_id": "Materi kuliahnya online."
+        },
+        {
+          "kind": "noun",
+          "de": "Lehrkraft",
+          "article": "die",
+          "plural": "die Lehrkräfte",
+          "meaning": "tenaga pengajar",
+          "ex_de": "Die Lehrkraft ist erfahren.",
+          "ex_id": "Pengajarnya berpengalaman."
+        },
+        {
+          "kind": "noun",
+          "de": "Einschreibung",
+          "article": "die",
+          "plural": "die Einschreibungen",
+          "meaning": "pendaftaran",
+          "ex_de": "Die Einschreibung beginnt im Juli.",
+          "ex_id": "Pendaftarannya mulai Juli."
+        },
+        {
+          "kind": "noun",
+          "de": "Fernunterricht",
+          "article": "der",
+          "plural": "die Fernunterrichte",
+          "meaning": "pembelajaran jarak jauh",
+          "ex_de": "Fernunterricht ist flexibel.",
+          "ex_id": "Pembelajaran jarak jauh fleksibel."
+        },
+        {
+          "kind": "noun",
+          "de": "Curriculum",
+          "article": "das",
+          "plural": "die Curricula",
+          "meaning": "kurikulum",
+          "ex_de": "Das Curriculum wurde geändert.",
+          "ex_id": "Kurikulumnya diubah."
+        }
+      ],
+      "text": {
+        "title": "Lernen mit Plan",
+        "sentences": [
+          [
+            "Seit ich einen Lernplan habe, macht das Lernen mehr Spaß.",
+            "Sejak punya rencana belajar, belajar jadi lebih menyenangkan."
+          ],
+          [
+            "Ich versuche, jeden Tag zwanzig Minuten zu üben.",
+            "Saya berusaha berlatih dua puluh menit setiap hari."
+          ],
+          [
+            "Neue Wörter wiederhole ich abends vor dem Schlafen.",
+            "Kata-kata baru saya ulang malam sebelum tidur."
+          ],
+          [
+            "In der Prüfung wird viel geschrieben und gehört.",
+            "Dalam ujian banyak menulis dan mendengar."
+          ],
+          [
+            "Deshalb übe ich auch Hörverstehen.",
+            "Karena itu saya juga berlatih pemahaman mendengar."
+          ],
+          [
+            "Der Fortschritt ist langsam, aber ich bin motiviert.",
+            "Kemajuannya lambat, tetapi saya termotivasi."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 209,
+      "title": "Geld & Finanzen",
+      "topic": "finanzen",
+      "goals": [
+        "Membahas anggaran dan pengeluaran",
+        "Menjelaskan saran keuangan",
+        "Memakai kalimat syarat"
+      ],
+      "drill": "D3",
+      "grammar": [
+        {
+          "title": "Konditional mit wenn",
+          "points": [
+            "Wenn ich mehr verdiente, würde ich mehr sparen.",
+            "wenn + verba akhir.",
+            "Pasangan: würde/hätte/wäre."
+          ],
+          "de": "Wenn ich mehr Zeit hätte, würde ich mehr sparen.",
+          "id": "Jika punya lebih banyak waktu, saya akan lebih banyak menabung."
+        },
+        {
+          "title": "Genitiv & Präpositionen",
+          "points": [
+            "wegen der Kosten, trotz des Rabatts.",
+            "Genitiv setelah wegen/trotz.",
+            "Artikel harus tepat."
+          ],
+          "de": "Wegen der hohen Kosten sparen wir.",
+          "id": "Karena biaya tinggi kami menabung."
+        },
+        {
+          "title": "Nebensätze mit ob/als",
+          "points": [
+            "Ich weiß nicht, ob das sinnvoll ist.",
+            "Anders als früher geben wir mehr aus.",
+            "ob untuk pertanyaan tidak langsung."
+          ],
+          "de": "Ich weiß nicht, ob das sinnvoll ist.",
+          "id": "Saya tidak tahu apakah itu masuk akal."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Konto",
+          "article": "das",
+          "plural": "die Konten",
+          "meaning": "rekening",
+          "ex_de": "Ich habe ein neues Konto.",
+          "ex_id": "Saya punya rekening baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Überweisung",
+          "article": "die",
+          "plural": "die Überweisungen",
+          "meaning": "transfer",
+          "ex_de": "Die Überweisung dauert zwei Tage.",
+          "ex_id": "Transfernya dua hari."
+        },
+        {
+          "kind": "noun",
+          "de": "Budget",
+          "article": "das",
+          "plural": "die Budgets",
+          "meaning": "anggaran",
+          "ex_de": "Das Budget ist begrenzt.",
+          "ex_id": "Anggarannya terbatas."
+        },
+        {
+          "kind": "noun",
+          "de": "Schulden",
+          "article": "die",
+          "plural": "die Schulden",
+          "meaning": "utang",
+          "ex_de": "Er hat viele Schulden.",
+          "ex_id": "Dia punya banyak utang."
+        },
+        {
+          "kind": "noun",
+          "de": "Zinsen",
+          "article": "die",
+          "plural": "die Zinsen",
+          "meaning": "bunga (bank)",
+          "ex_de": "Die Zinsen sind gestiegen.",
+          "ex_id": "Bunganya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Versicherung",
+          "article": "die",
+          "plural": "die Versicherungen",
+          "meaning": "asuransi",
+          "ex_de": "Die Versicherung ist teuer.",
+          "ex_id": "Asuransinya mahal."
+        },
+        {
+          "kind": "noun",
+          "de": "Einkommen",
+          "article": "das",
+          "plural": "die Einkommen",
+          "meaning": "pendapatan",
+          "ex_de": "Das Einkommen ist stabil.",
+          "ex_id": "Pendapatannya stabil."
+        },
+        {
+          "kind": "noun",
+          "de": "Ausgabe",
+          "article": "die",
+          "plural": "die Ausgaben",
+          "meaning": "pengeluaran",
+          "ex_de": "Die Ausgaben sind zu hoch.",
+          "ex_id": "Pengeluarannya terlalu tinggi."
+        },
+        {
+          "kind": "verb",
+          "de": "ausgeben",
+          "article": null,
+          "plural": null,
+          "meaning": "membelanjakan",
+          "ex_de": "Ich gebe zu viel Geld aus.",
+          "ex_id": "Saya membelanjakan terlalu banyak uang."
+        },
+        {
+          "kind": "verb",
+          "de": "überweisen",
+          "article": null,
+          "plural": null,
+          "meaning": "mentransfer",
+          "ex_de": "Ich überweise die Miete.",
+          "ex_id": "Saya mentransfer uang sewa."
+        },
+        {
+          "kind": "verb",
+          "de": "leihen",
+          "article": null,
+          "plural": null,
+          "meaning": "meminjam/meminjamkan",
+          "ex_de": "Er leiht mir Geld.",
+          "ex_id": "Dia meminjamkan uang kepada saya."
+        },
+        {
+          "kind": "adj",
+          "de": "finanziell",
+          "article": null,
+          "plural": null,
+          "meaning": "secara finansial",
+          "ex_de": "Finanziell ist es schwierig.",
+          "ex_id": "Secara finansial itu sulit."
+        },
+        {
+          "kind": "noun",
+          "de": "Kredit",
+          "article": "der",
+          "plural": "die Kredite",
+          "meaning": "kredit",
+          "ex_de": "Der Kredit läuft zehn Jahre.",
+          "ex_id": "Kreditnya sepuluh tahun."
+        },
+        {
+          "kind": "noun",
+          "de": "Ratenzahlung",
+          "article": "die",
+          "plural": "die Ratenzahlungen",
+          "meaning": "cicilan",
+          "ex_de": "Ratenzahlung ist möglich.",
+          "ex_id": "Cicilan memungkinkan."
+        },
+        {
+          "kind": "noun",
+          "de": "Steuererklärung",
+          "article": "die",
+          "plural": "die Steuererklärungen",
+          "meaning": "surat pajak",
+          "ex_de": "Die Steuererklärung ist fällig.",
+          "ex_id": "Surat pajaknya jatuh tempo."
+        },
+        {
+          "kind": "noun",
+          "de": "Bargeld",
+          "article": "das",
+          "plural": "die Bargelder",
+          "meaning": "uang tunai",
+          "ex_de": "Ich habe kein Bargeld.",
+          "ex_id": "Saya tidak punya uang tunai."
+        },
+        {
+          "kind": "noun",
+          "de": "Kreditkarte",
+          "article": "die",
+          "plural": "die Kreditkarten",
+          "meaning": "kartu kredit",
+          "ex_de": "Die Kreditkarte wurde gesperrt.",
+          "ex_id": "Kartu kreditnya diblokir."
+        },
+        {
+          "kind": "noun",
+          "de": "Rücklage",
+          "article": "die",
+          "plural": "die Rücklagen",
+          "meaning": "dana cadangan",
+          "ex_de": "Die Rücklage ist klein.",
+          "ex_id": "Dana cadangannya kecil."
+        },
+        {
+          "kind": "noun",
+          "de": "Kontostand",
+          "article": "der",
+          "plural": "die Kontostände",
+          "meaning": "saldo rekening",
+          "ex_de": "Der Kontostand ist niedrig.",
+          "ex_id": "Saldo rekeningnya rendah."
+        },
+        {
+          "kind": "noun",
+          "de": "Zinssatz",
+          "article": "der",
+          "plural": "die Zinssätze",
+          "meaning": "suku bunga",
+          "ex_de": "Der Zinssatz ist gestiegen.",
+          "ex_id": "Suku bunganya naik."
+        },
+        {
+          "kind": "noun",
+          "de": "Sparziel",
+          "article": "das",
+          "plural": "die Sparziele",
+          "meaning": "target tabungan",
+          "ex_de": "Mein Sparziel ist erreicht.",
+          "ex_id": "Target tabungan saya tercapai."
+        },
+        {
+          "kind": "noun",
+          "de": "Kontoauszug",
+          "article": "der",
+          "plural": "die Kontoauszüge",
+          "meaning": "rekening koran",
+          "ex_de": "Der Kontoauszug zeigt die Abbuchung.",
+          "ex_id": "Rekening korannya menunjukkan pemotongan."
+        }
+      ],
+      "text": {
+        "title": "Ein eigenes Budget",
+        "sentences": [
+          [
+            "Seit Januar habe ich ein festes Budget.",
+            "Sejak Januari saya punya anggaran tetap."
+          ],
+          [
+            "Ich schreibe jede Ausgabe auf.",
+            "Saya mencatat setiap pengeluaran."
+          ],
+          [
+            "Wenn ich weniger ausgeben würde, könnte ich mehr sparen.",
+            "Jika saya mengurangi pengeluaran, saya bisa lebih banyak menabung."
+          ],
+          [
+            "Die Versicherung ist teuer, aber notwendig.",
+            "Asuransinya mahal, tetapi perlu."
+          ],
+          [
+            "Wegen der hohen Kosten koche ich öfter zu Hause.",
+            "Karena biaya tinggi saya lebih sering memasak di rumah."
+          ],
+          [
+            "Ich weiß noch nicht, ob ich dieses Jahr verreisen kann.",
+            "Saya belum tahu apakah bisa bepergian tahun ini."
+          ]
+        ]
+      }
+    },
+    {
+      "no": 210,
+      "title": "Technik & Zukunft",
+      "topic": "technik",
+      "goals": [
+        "Membahas teknologi dan masa depan",
+        "Menjelaskan perkembangan",
+        "Memakai pasif dan kalimat relatif"
+      ],
+      "drill": "D6",
+      "grammar": [
+        {
+          "title": "Passiv mit werden (Zukunft)",
+          "points": [
+            "Vieles wird sich verändern.",
+            "Zukunft: wird + Partizip II + werden.",
+            "Contoh: Die Arbeit wird automatisiert werden."
+          ],
+          "de": "Vieles wird sich in den nächsten Jahren verändern.",
+          "id": "Banyak hal akan berubah dalam beberapa tahun ke depan."
+        },
+        {
+          "title": "Relativsätze mit wo",
+          "points": [
+            "Die Firma, wo er arbeitet, ist groß.",
+            "wo menggantikan in der/in dem.",
+            "Tidak formal tetapi umum."
+          ],
+          "de": "Die Firma, wo sie arbeitet, ist international.",
+          "id": "Perusahaan tempat dia bekerja bersifat internasional."
+        },
+        {
+          "title": "Konnektoren: während, solange",
+          "points": [
+            "während = sementara.",
+            "solange = selama.",
+            "Keduanya mengirim verba ke akhir."
+          ],
+          "de": "Während die Technik sich entwickelt, ändern sich auch die Jobs.",
+          "id": "Sementara teknologi berkembang, pekerjaan juga berubah."
+        }
+      ],
+      "words": [
+        {
+          "kind": "noun",
+          "de": "Technik",
+          "article": "die",
+          "plural": "die Techniken",
+          "meaning": "teknologi, teknik",
+          "ex_de": "Die Technik entwickelt sich schnell.",
+          "ex_id": "Teknologinya berkembang cepat."
+        },
+        {
+          "kind": "noun",
+          "de": "Erfindung",
+          "article": "die",
+          "plural": "die Erfindungen",
+          "meaning": "penemuan",
+          "ex_de": "Die Erfindung war ein Zufall.",
+          "ex_id": "Penemuannya kebetulan."
+        },
+        {
+          "kind": "noun",
+          "de": "Zukunft",
+          "article": "die",
+          "plural": null,
+          "meaning": "masa depan",
+          "ex_de": "Die Zukunft ist offen.",
+          "ex_id": "Masa depan terbuka."
+        },
+        {
+          "kind": "noun",
+          "de": "Roboter",
+          "article": "der",
+          "plural": "die Roboter",
+          "meaning": "robot",
+          "ex_de": "Roboter übernehmen viele Aufgaben.",
+          "ex_id": "Robot mengambil banyak tugas."
+        },
+        {
+          "kind": "noun",
+          "de": "Intelligenz",
+          "article": "die",
+          "plural": "die Intelligenzen",
+          "meaning": "kecerdasan",
+          "ex_de": "Künstliche Intelligenz ist ein großes Thema.",
+          "ex_id": "Kecerdasan buatan adalah topik besar."
+        },
+        {
+          "kind": "noun",
+          "de": "Gerät",
+          "article": "das",
+          "plural": "die Geräte",
+          "meaning": "perangkat",
+          "ex_de": "Das Gerät ist neu.",
+          "ex_id": "Perangkatnya baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Bildschirm",
+          "article": "der",
+          "plural": "die Bildschirme",
+          "meaning": "layar",
+          "ex_de": "Der Bildschirm ist groß.",
+          "ex_id": "Layarnya besar."
+        },
+        {
+          "kind": "noun",
+          "de": "Daten",
+          "article": "die",
+          "plural": "die Daten",
+          "meaning": "data",
+          "ex_de": "Die Daten sind sicher.",
+          "ex_id": "Datanya aman."
+        },
+        {
+          "kind": "noun",
+          "de": "Sicherheit",
+          "article": "die",
+          "plural": null,
+          "meaning": "keamanan",
+          "ex_de": "Sicherheit ist wichtig.",
+          "ex_id": "Keamanan itu penting."
+        },
+        {
+          "kind": "verb",
+          "de": "entwickeln",
+          "article": null,
+          "plural": null,
+          "meaning": "mengembangkan",
+          "ex_de": "Sie entwickeln eine neue App.",
+          "ex_id": "Mereka mengembangkan aplikasi baru."
+        },
+        {
+          "kind": "adj",
+          "de": "künstlich",
+          "article": null,
+          "plural": null,
+          "meaning": "buatan",
+          "ex_de": "Künstliche Intelligenz hilft im Alltag.",
+          "ex_id": "Kecerdasan buatan membantu sehari-hari."
+        },
+        {
+          "kind": "adj",
+          "de": "modern",
+          "article": null,
+          "plural": null,
+          "meaning": "modern",
+          "ex_de": "Das Gebäude ist modern.",
+          "ex_id": "Gedungnya modern."
+        },
+        {
+          "kind": "noun",
+          "de": "Software",
+          "article": "die",
+          "plural": "die Softwares",
+          "meaning": "perangkat lunak",
+          "ex_de": "Die Software ist veraltet.",
+          "ex_id": "Perangkat lunaknya usang."
+        },
+        {
+          "kind": "noun",
+          "de": "Hardware",
+          "article": "die",
+          "plural": "die Hardwares",
+          "meaning": "perangkat keras",
+          "ex_de": "Die Hardware ist neu.",
+          "ex_id": "Perangkat kerasnya baru."
+        },
+        {
+          "kind": "noun",
+          "de": "Update",
+          "article": "das",
+          "plural": "die Updates",
+          "meaning": "pembaruan",
+          "ex_de": "Das Update ist verfügbar.",
+          "ex_id": "Pembaruannya tersedia."
+        },
+        {
+          "kind": "noun",
+          "de": "Algorithmus",
+          "article": "der",
+          "plural": "die Algorithmen",
+          "meaning": "algoritma",
+          "ex_de": "Der Algorithmus lernt schnell.",
+          "ex_id": "Algoritmanya belajar cepat."
+        },
+        {
+          "kind": "noun",
+          "de": "Innovation",
+          "article": "die",
+          "plural": "die Innovationen",
+          "meaning": "inovasi",
+          "ex_de": "Innovation braucht Zeit.",
+          "ex_id": "Inovasi butuh waktu."
+        },
+        {
+          "kind": "noun",
+          "de": "Cloud",
+          "article": "die",
+          "plural": "die Clouds",
+          "meaning": "cloud",
+          "ex_de": "Die Daten liegen in der Cloud.",
+          "ex_id": "Datanya ada di cloud."
+        },
+        {
+          "kind": "noun",
+          "de": "Server",
+          "article": "der",
+          "plural": "die Server",
+          "meaning": "server",
+          "ex_de": "Der Server ist ausgefallen.",
+          "ex_id": "Servernya mati."
+        },
+        {
+          "kind": "noun",
+          "de": "Verschlüsselung",
+          "article": "die",
+          "plural": "die Verschlüsselungen",
+          "meaning": "enkripsi",
+          "ex_de": "Verschlüsselung schützt Daten.",
+          "ex_id": "Enkripsi melindungi data."
+        },
+        {
+          "kind": "noun",
+          "de": "Benutzerkonto",
+          "article": "das",
+          "plural": "die Benutzerkonten",
+          "meaning": "akun pengguna",
+          "ex_de": "Das Benutzerkonto wurde gesperrt.",
+          "ex_id": "Akun penggunanya diblokir."
+        },
+        {
+          "kind": "noun",
+          "de": "Schnittstelle",
+          "article": "die",
+          "plural": "die Schnittstellen",
+          "meaning": "antarmuka",
+          "ex_de": "Die Schnittstelle ist offen.",
+          "ex_id": "Antarmukanya terbuka."
+        }
+      ],
+      "text": {
+        "title": "Leben mit Technik",
+        "sentences": [
+          [
+            "Die Technik verändert unseren Alltag sehr schnell.",
+            "Teknologi mengubah keseharian kita dengan cepat."
+          ],
+          [
+            "Künstliche Intelligenz wird in vielen Bereichen eingesetzt.",
+            "Kecerdasan buatan dipakai di banyak bidang."
+          ],
+          [
+            "Während Roboter Aufgaben übernehmen, bleiben andere Arbeiten menschlich.",
+            "Sementara robot mengambil tugas, pekerjaan lain tetap manusiawi."
+          ],
+          [
+            "Die Daten, die wir hinterlassen, werden oft gespeichert.",
+            "Data yang kita tinggalkan sering disimpan."
+          ],
+          [
+            "Deshalb ist Sicherheit ein wichtiges Thema.",
+            "Karena itu keamanan menjadi topik penting."
+          ],
+          [
+            "Solange wir kritisch bleiben, ist Technik eine Chance.",
+            "Selama kita tetap kritis, teknologi adalah peluang."
+          ]
+        ]
+      }
+    }
+  ],
+  "extras": [
+    [
+      "noun",
+      "Voraussetzung",
+      "die",
+      "die Voraussetzungen",
+      "prasyarat"
+    ],
+    [
+      "noun",
+      "Bedingung",
+      "die",
+      "die Bedingungen",
+      "syarat"
+    ],
+    [
+      "noun",
+      "Absicht",
+      "die",
+      "die Absichten",
+      "niat"
+    ],
+    [
+      "noun",
+      "Zweck",
+      "der",
+      "die Zwecke",
+      "tujuan"
+    ],
+    [
+      "noun",
+      "Vorteil",
+      "der",
+      "die Vorteile",
+      "keuntungan"
+    ],
+    [
+      "noun",
+      "Nachteil",
+      "der",
+      "die Nachteile",
+      "kerugian"
+    ],
+    [
+      "noun",
+      "Entwicklung",
+      "die",
+      "die Entwicklungen",
+      "perkembangan"
+    ],
+    [
+      "noun",
+      "Veränderung",
+      "die",
+      "die Veränderungen",
+      "perubahan"
+    ],
+    [
+      "noun",
+      "Verbesserung",
+      "die",
+      "die Verbesserungen",
+      "perbaikan"
+    ],
+    [
+      "noun",
+      "Verschlechterung",
+      "die",
+      "die Verschlechterungen",
+      "kemunduran"
+    ],
+    [
+      "noun",
+      "Schwierigkeit",
+      "die",
+      "die Schwierigkeiten",
+      "kesulitan"
+    ],
+    [
+      "noun",
+      "Möglichkeit",
+      "die",
+      "die Möglichkeiten",
+      "kemungkinan"
+    ],
+    [
+      "noun",
+      "Notwendigkeit",
+      "die",
+      "die Notwendigkeiten",
+      "keharusan"
+    ],
+    [
+      "noun",
+      "Bereitschaft",
+      "die",
+      "die Bereitschaften",
+      "kesiapan"
+    ],
+    [
+      "noun",
+      "Erlaubnis",
+      "die",
+      "die Erlaubnisse",
+      "izin"
+    ],
+    [
+      "noun",
+      "Verbot",
+      "das",
+      "die Verbote",
+      "larangan"
+    ],
+    [
+      "noun",
+      "Pflicht",
+      "die",
+      "die Pflichten",
+      "kewajiban"
+    ],
+    [
+      "noun",
+      "Regel",
+      "die",
+      "die Regeln",
+      "aturan"
+    ],
+    [
+      "noun",
+      "Ordnung",
+      "die",
+      "die Ordnungen",
+      "ketertiban"
+    ],
+    [
+      "noun",
+      "Gleichheit",
+      "die",
+      "die Gleichheiten",
+      "kesetaraan"
+    ],
+    [
+      "noun",
+      "Respekt",
+      "der",
+      "die Respekte",
+      "rasa hormat"
+    ],
+    [
+      "noun",
+      "Vertrauen",
+      "das",
+      "die Vertrauen",
+      "kepercayaan"
+    ],
+    [
+      "noun",
+      "Zweifel",
+      "der",
+      "die Zweifel",
+      "keraguan"
+    ],
+    [
+      "noun",
+      "Hoffnung",
+      "die",
+      "die Hoffnungen",
+      "harapan"
+    ],
+    [
+      "noun",
+      "Enttäuschung",
+      "die",
+      "die Enttäuschungen",
+      "kekecewaan"
+    ],
+    [
+      "noun",
+      "Erlebnis",
+      "das",
+      "die Erlebnisse",
+      "pengalaman"
+    ],
+    [
+      "noun",
+      "Ereignis",
+      "das",
+      "die Ereignisse",
+      "peristiwa"
+    ],
+    [
+      "noun",
+      "Gegenwart",
+      "die",
+      "die Gegenwarten",
+      "masa kini"
+    ],
+    [
+      "noun",
+      "Vergangenheit",
+      "die",
+      "die Vergangenheiten",
+      "masa lalu"
+    ],
+    [
+      "noun",
+      "Erinnerung",
+      "die",
+      "die Erinnerungen",
+      "kenangan"
+    ],
+    [
+      "noun",
+      "Rente",
+      "die",
+      "die Renten",
+      "pensiun"
+    ],
+    [
+      "noun",
+      "Verhandlung",
+      "die",
+      "die Verhandlungen",
+      "negosiasi"
+    ],
+    [
+      "noun",
+      "Einigung",
+      "die",
+      "die Einigungen",
+      "kesepakatan"
+    ],
+    [
+      "noun",
+      "Streit",
+      "der",
+      "die Streite",
+      "pertengkaran"
+    ],
+    [
+      "noun",
+      "Kritik",
+      "die",
+      "die Kritiken",
+      "kritik"
+    ],
+    [
+      "noun",
+      "Lob",
+      "das",
+      "die Lobe",
+      "pujian"
+    ],
+    [
+      "noun",
+      "Anerkennung",
+      "die",
+      "die Anerkennungen",
+      "pengakuan"
+    ],
+    [
+      "noun",
+      "Erfolg",
+      "der",
+      "die Erfolge",
+      "keberhasilan"
+    ],
+    [
+      "noun",
+      "Misserfolg",
+      "der",
+      "die Misserfolge",
+      "kegagalan"
+    ],
+    [
+      "noun",
+      "Rückschritt",
+      "der",
+      "die Rückschritte",
+      "kemunduran"
+    ],
+    [
+      "noun",
+      "Chance",
+      "die",
+      "die Chancen",
+      "peluang"
+    ],
+    [
+      "noun",
+      "Gefahr",
+      "die",
+      "die Gefahren",
+      "bahaya"
+    ],
+    [
+      "noun",
+      "Wirkung",
+      "die",
+      "die Wirkungen",
+      "efek"
+    ],
+    [
+      "noun",
+      "Anlass",
+      "der",
+      "die Anlässe",
+      "penyebab"
+    ],
+    [
+      "noun",
+      "Zusammenhang",
+      "der",
+      "die Zusammenhänge",
+      "kaitan"
+    ],
+    [
+      "noun",
+      "Gespräch",
+      "das",
+      "die Gespräche",
+      "percakapan"
+    ],
+    [
+      "noun",
+      "Verständnis",
+      "das",
+      "die Verständnisse",
+      "pemahaman"
+    ],
+    [
+      "noun",
+      "Missverständnis",
+      "das",
+      "die Missverständnisse",
+      "kesalahpahaman"
+    ],
+    [
+      "noun",
+      "Kommunikation",
+      "die",
+      "die Kommunikationen",
+      "komunikasi"
+    ],
+    [
+      "noun",
+      "Information",
+      "die",
+      "die Informationen",
+      "informasi"
+    ],
+    [
+      "noun",
+      "Argument",
+      "das",
+      "die Argumente",
+      "argumen"
+    ],
+    [
+      "noun",
+      "Behauptung",
+      "die",
+      "die Behauptungen",
+      "klaim"
+    ],
+    [
+      "noun",
+      "Vermutung",
+      "die",
+      "die Vermutungen",
+      "dugaan"
+    ],
+    [
+      "noun",
+      "Tatsache",
+      "die",
+      "die Tatsachen",
+      "fakta"
+    ],
+    [
+      "noun",
+      "Wahrheit",
+      "die",
+      "die Wahrheiten",
+      "kebenaran"
+    ],
+    [
+      "noun",
+      "Lüge",
+      "die",
+      "die Lügen",
+      "kebohongan"
+    ],
+    [
+      "noun",
+      "Geheimnis",
+      "das",
+      "die Geheimnisse",
+      "rahasia"
+    ],
+    [
+      "noun",
+      "Vorschlag",
+      "der",
+      "die Vorschläge",
+      "usulan"
+    ],
+    [
+      "noun",
+      "Entwurf",
+      "der",
+      "die Entwürfe",
+      "rancangan"
+    ],
+    [
+      "noun",
+      "Plan",
+      "der",
+      "die Pläne",
+      "rencana"
+    ],
+    [
+      "noun",
+      "Ziel",
+      "das",
+      "die Ziele",
+      "tujuan"
+    ],
+    [
+      "noun",
+      "Wunsch",
+      "der",
+      "die Wünsche",
+      "keinginan"
+    ],
+    [
+      "noun",
+      "Traum",
+      "der",
+      "die Träume",
+      "mimpi"
+    ],
+    [
+      "noun",
+      "Angst",
+      "die",
+      "die Ängste",
+      "rasa takut"
+    ],
+    [
+      "noun",
+      "Freude",
+      "die",
+      "die Freuden",
+      "kegembiraan"
+    ],
+    [
+      "noun",
+      "Wut",
+      "die",
+      "die Wuten",
+      "kemarahan"
+    ],
+    [
+      "noun",
+      "Trauer",
+      "die",
+      "die Trauern",
+      "kesedihan"
+    ],
+    [
+      "noun",
+      "Neugier",
+      "die",
+      "die Neugier",
+      "rasa ingin tahu"
+    ],
+    [
+      "noun",
+      "Geduld",
+      "die",
+      "die Geduld",
+      "kesabaran"
+    ],
+    [
+      "noun",
+      "Mut",
+      "der",
+      "die Mute",
+      "keberanian"
+    ],
+    [
+      "noun",
+      "Kraft",
+      "die",
+      "die Kräfte",
+      "kekuatan"
+    ],
+    [
+      "noun",
+      "Schwäche",
+      "die",
+      "die Schwächen",
+      "kelemahan"
+    ],
+    [
+      "noun",
+      "Stärke",
+      "die",
+      "die Stärken",
+      "kekuatan"
+    ],
+    [
+      "noun",
+      "Begabung",
+      "die",
+      "die Begabungen",
+      "bakat"
+    ],
+    [
+      "noun",
+      "Interesse",
+      "das",
+      "die Interessen",
+      "minat"
+    ],
+    [
+      "noun",
+      "Neigung",
+      "die",
+      "die Neigungen",
+      "kecenderungan"
+    ],
+    [
+      "noun",
+      "Wissen",
+      "das",
+      "die Wissen",
+      "pengetahuan"
+    ],
+    [
+      "noun",
+      "Weisheit",
+      "die",
+      "die Weisheiten",
+      "kebijaksanaan"
+    ],
+    [
+      "noun",
+      "Vernunft",
+      "die",
+      "die Vernunft",
+      "akal sehat"
+    ],
+    [
+      "noun",
+      "Verstand",
+      "der",
+      "die Verstand",
+      "pemahaman"
+    ],
+    [
+      "noun",
+      "Gefühl",
+      "das",
+      "die Gefühle",
+      "perasaan"
+    ],
+    [
+      "noun",
+      "Stimmung",
+      "die",
+      "die Stimmungen",
+      "suasana hati"
+    ],
+    [
+      "noun",
+      "Laune",
+      "die",
+      "die Launen",
+      "mood"
+    ],
+    [
+      "noun",
+      "Charakter",
+      "der",
+      "die Charaktere",
+      "karakter"
+    ],
+    [
+      "noun",
+      "Persönlichkeit",
+      "die",
+      "die Persönlichkeiten",
+      "kepribadian"
+    ],
+    [
+      "noun",
+      "Verhalten",
+      "das",
+      "die Verhalten",
+      "perilaku"
+    ],
+    [
+      "noun",
+      "Sitte",
+      "die",
+      "die Sitten",
+      "adat"
+    ],
+    [
+      "noun",
+      "Wert",
+      "der",
+      "die Werte",
+      "nilai"
+    ],
+    [
+      "noun",
+      "Norm",
+      "die",
+      "die Normen",
+      "norma"
+    ],
+    [
+      "noun",
+      "Ausnahme",
+      "die",
+      "die Ausnahmen",
+      "pengecualian"
+    ],
+    [
+      "noun",
+      "Fall",
+      "der",
+      "die Fälle",
+      "kasus"
+    ],
+    [
+      "noun",
+      "Vergleich",
+      "der",
+      "die Vergleiche",
+      "perbandingan"
+    ],
+    [
+      "noun",
+      "Unterschied",
+      "der",
+      "die Unterschiede",
+      "perbedaan"
+    ],
+    [
+      "noun",
+      "Ähnlichkeit",
+      "die",
+      "die Ähnlichkeiten",
+      "kemiripan"
+    ],
+    [
+      "noun",
+      "Gegenteil",
+      "das",
+      "die Gegenteile",
+      "kebalikan"
+    ],
+    [
+      "noun",
+      "Gegensatz",
+      "der",
+      "die Gegensätze",
+      "pertentangan"
+    ],
+    [
+      "noun",
+      "Bereich",
+      "der",
+      "die Bereiche",
+      "bidang"
+    ],
+    [
+      "noun",
+      "Branche",
+      "die",
+      "die Branchen",
+      "sektor industri"
+    ],
+    [
+      "noun",
+      "Struktur",
+      "die",
+      "die Strukturen",
+      "struktur"
+    ],
+    [
+      "noun",
+      "System",
+      "das",
+      "die Systeme",
+      "sistem"
+    ],
+    [
+      "noun",
+      "Prozess",
+      "der",
+      "die Prozesse",
+      "proses"
+    ],
+    [
+      "noun",
+      "Ergebnis",
+      "das",
+      "die Ergebnisse",
+      "hasil"
+    ],
+    [
+      "noun",
+      "Methode",
+      "die",
+      "die Methoden",
+      "metode"
+    ],
+    [
+      "noun",
+      "Grundlage",
+      "die",
+      "die Grundlagen",
+      "dasar"
+    ],
+    [
+      "adj",
+      "notwendig",
+      null,
+      null,
+      "perlu"
+    ],
+    [
+      "adj",
+      "möglich",
+      null,
+      null,
+      "mungkin"
+    ],
+    [
+      "adj",
+      "unmöglich",
+      null,
+      null,
+      "tidak mungkin"
+    ],
+    [
+      "adj",
+      "wahrscheinlich",
+      null,
+      null,
+      "kemungkinan besar"
+    ],
+    [
+      "adj",
+      "unwahrscheinlich",
+      null,
+      null,
+      "kecil kemungkinan"
+    ],
+    [
+      "adj",
+      "deutlich",
+      null,
+      null,
+      "jelas"
+    ],
+    [
+      "adj",
+      "eindeutig",
+      null,
+      null,
+      "tidak ambigu"
+    ],
+    [
+      "adj",
+      "komplex",
+      null,
+      null,
+      "kompleks"
+    ],
+    [
+      "adj",
+      "kompliziert",
+      null,
+      null,
+      "rumit"
+    ],
+    [
+      "adj",
+      "wesentlich",
+      null,
+      null,
+      "esensial"
+    ],
+    [
+      "adj",
+      "entscheidend",
+      null,
+      null,
+      "menentukan"
+    ],
+    [
+      "adj",
+      "geeignet",
+      null,
+      null,
+      "cocok"
+    ],
+    [
+      "adj",
+      "bereit",
+      null,
+      null,
+      "siap"
+    ],
+    [
+      "adj",
+      "fähig",
+      null,
+      null,
+      "mampu"
+    ],
+    [
+      "adj",
+      "verantwortlich",
+      null,
+      null,
+      "bertanggung jawab"
+    ],
+    [
+      "adj",
+      "flexibel",
+      null,
+      null,
+      "fleksibel"
+    ],
+    [
+      "adj",
+      "kreativ",
+      null,
+      null,
+      "kreatif"
+    ],
+    [
+      "adj",
+      "effektiv",
+      null,
+      null,
+      "efektif"
+    ],
+    [
+      "adj",
+      "effizient",
+      null,
+      null,
+      "efisien"
+    ],
+    [
+      "adj",
+      "erfolgreich",
+      null,
+      null,
+      "berhasil"
+    ],
+    [
+      "adj",
+      "erfolglos",
+      null,
+      null,
+      "tidak berhasil"
+    ],
+    [
+      "adj",
+      "sinnvoll",
+      null,
+      null,
+      "bermakna"
+    ],
+    [
+      "adj",
+      "sinnlos",
+      null,
+      null,
+      "sia-sia"
+    ],
+    [
+      "adj",
+      "nützlich",
+      null,
+      null,
+      "berguna"
+    ],
+    [
+      "adj",
+      "schädlich",
+      null,
+      null,
+      "berbahaya"
+    ],
+    [
+      "adj",
+      "gefährlich",
+      null,
+      null,
+      "berbahaya"
+    ],
+    [
+      "adj",
+      "sicher",
+      null,
+      null,
+      "aman"
+    ],
+    [
+      "adj",
+      "unsicher",
+      null,
+      null,
+      "tidak aman"
+    ],
+    [
+      "adj",
+      "offen",
+      null,
+      null,
+      "terbuka"
+    ],
+    [
+      "adj",
+      "geschlossen",
+      null,
+      null,
+      "tertutup"
+    ],
+    [
+      "adj",
+      "öffentlich",
+      null,
+      null,
+      "publik"
+    ],
+    [
+      "adj",
+      "privat",
+      null,
+      null,
+      "pribadi"
+    ],
+    [
+      "adj",
+      "persönlich",
+      null,
+      null,
+      "personal"
+    ],
+    [
+      "adj",
+      "sachlich",
+      null,
+      null,
+      "faktual"
+    ],
+    [
+      "adj",
+      "objektiv",
+      null,
+      null,
+      "objektif"
+    ],
+    [
+      "verb",
+      "ermöglichen",
+      null,
+      null,
+      "memungkinkan"
+    ],
+    [
+      "verb",
+      "verhindern",
+      null,
+      null,
+      "mencegah"
+    ],
+    [
+      "verb",
+      "fördern",
+      null,
+      null,
+      "mendorong"
+    ],
+    [
+      "verb",
+      "fordern",
+      null,
+      null,
+      "menuntut"
+    ],
+    [
+      "verb",
+      "verursachen",
+      null,
+      null,
+      "menyebabkan"
+    ],
+    [
+      "verb",
+      "bewirken",
+      null,
+      null,
+      "mengakibatkan"
+    ],
+    [
+      "verb",
+      "erlauben",
+      null,
+      null,
+      "mengizinkan"
+    ],
+    [
+      "verb",
+      "verbieten",
+      null,
+      null,
+      "melarang"
+    ],
+    [
+      "verb",
+      "genehmigen",
+      null,
+      null,
+      "menyetujui"
+    ],
+    [
+      "verb",
+      "ablehnen",
+      null,
+      null,
+      "menolak"
+    ],
+    [
+      "verb",
+      "zustimmen",
+      null,
+      null,
+      "setuju"
+    ],
+    [
+      "verb",
+      "widersprechen",
+      null,
+      null,
+      "membantah"
+    ],
+    [
+      "verb",
+      "begründen",
+      null,
+      null,
+      "memberi alasan"
+    ],
+    [
+      "verb",
+      "bezweifeln",
+      null,
+      null,
+      "meragukan"
+    ],
+    [
+      "verb",
+      "vermuten",
+      null,
+      null,
+      "menduga"
+    ],
+    [
+      "verb",
+      "behaupten",
+      null,
+      null,
+      "mengklaim"
+    ],
+    [
+      "verb",
+      "erwarten",
+      null,
+      null,
+      "mengharapkan"
+    ],
+    [
+      "verb",
+      "erfordern",
+      null,
+      null,
+      "memerlukan"
+    ],
+    [
+      "verb",
+      "berücksichtigen",
+      null,
+      null,
+      "mempertimbangkan"
+    ],
+    [
+      "verb",
+      "vergleichen",
+      null,
+      null,
+      "membandingkan"
+    ],
+    [
+      "verb",
+      "beschreiben",
+      null,
+      null,
+      "mendeskripsikan"
+    ],
+    [
+      "verb",
+      "erklären",
+      null,
+      null,
+      "menjelaskan"
+    ],
+    [
+      "verb",
+      "darstellen",
+      null,
+      null,
+      "menyajikan"
+    ],
+    [
+      "verb",
+      "bezeichnen",
+      null,
+      null,
+      "menyebut"
+    ],
+    [
+      "verb",
+      "verweisen",
+      null,
+      null,
+      "merujuk"
+    ],
+    [
+      "noun",
+      "Arbeitsplatz",
+      "der",
+      "die Arbeitsplätze",
+      "tempat kerja"
+    ],
+    [
+      "noun",
+      "Arbeitszeit",
+      "die",
+      "die Arbeitszeiten",
+      "jam kerja"
+    ],
+    [
+      "noun",
+      "Krankmeldung",
+      "die",
+      "die Krankmeldungen",
+      "surat sakit"
+    ],
+    [
+      "noun",
+      "Feiertag",
+      "der",
+      "die Feiertage",
+      "hari libur"
+    ],
+    [
+      "noun",
+      "Alltag",
+      "der",
+      "die Alltage",
+      "keseharian"
+    ],
+    [
+      "noun",
+      "Routine",
+      "die",
+      "die Routinen",
+      "rutinitas"
+    ],
+    [
+      "noun",
+      "Sitzung",
+      "die",
+      "die Sitzungen",
+      "sidang"
+    ],
+    [
+      "noun",
+      "Zielgruppe",
+      "die",
+      "die Zielgruppen",
+      "target audiens"
+    ],
+    [
+      "noun",
+      "Beteiligung",
+      "die",
+      "die Beteiligungen",
+      "partisipasi"
+    ],
+    [
+      "noun",
+      "Teilnahme",
+      "die",
+      "die Teilnahmen",
+      "keikutsertaan"
+    ],
+    [
+      "noun",
+      "Mitgliedschaft",
+      "die",
+      "die Mitgliedschaften",
+      "keanggotaan"
+    ],
+    [
+      "noun",
+      "Vertretung",
+      "die",
+      "die Vertretungen",
+      "perwakilan"
+    ],
+    [
+      "noun",
+      "Amt",
+      "das",
+      "die Ämter",
+      "jabatan, kantor"
+    ],
+    [
+      "noun",
+      "Beamte",
+      "der",
+      "die Beamten",
+      "pegawai negeri"
+    ],
+    [
+      "noun",
+      "Verwaltung",
+      "die",
+      "die Verwaltungen",
+      "administrasi"
+    ],
+    [
+      "noun",
+      "Bürokratie",
+      "die",
+      "die Bürokratien",
+      "birokrasi"
+    ],
+    [
+      "noun",
+      "Vorschrift",
+      "die",
+      "die Vorschriften",
+      "ketentuan"
+    ],
+    [
+      "noun",
+      "Richtlinie",
+      "die",
+      "die Richtlinien",
+      "pedoman"
+    ],
+    [
+      "noun",
+      "Verordnung",
+      "die",
+      "die Verordnungen",
+      "peraturan"
+    ],
+    [
+      "noun",
+      "Auflage",
+      "die",
+      "die Auflagen",
+      "syarat wajib"
+    ],
+    [
+      "noun",
+      "Beschwerde",
+      "die",
+      "die Beschwerden",
+      "keluhan"
+    ],
+    [
+      "noun",
+      "Einwand",
+      "der",
+      "die Einwände",
+      "bantahan"
+    ],
+    [
+      "noun",
+      "Vorwurf",
+      "der",
+      "die Vorwürfe",
+      "tuduhan"
+    ],
+    [
+      "noun",
+      "Zustimmung",
+      "die",
+      "die Zustimmungen",
+      "persetujuan"
+    ],
+    [
+      "noun",
+      "Ablehnung",
+      "die",
+      "die Ablehnungen",
+      "penolakan"
+    ],
+    [
+      "noun",
+      "Alternative",
+      "die",
+      "die Alternativen",
+      "alternatif"
+    ],
+    [
+      "noun",
+      "Option",
+      "die",
+      "die Optionen",
+      "opsi"
+    ],
+    [
+      "noun",
+      "Variante",
+      "die",
+      "die Varianten",
+      "varian"
+    ],
+    [
+      "noun",
+      "Eskalation",
+      "die",
+      "die Eskalationen",
+      "eskalasi"
+    ],
+    [
+      "noun",
+      "Vermittlung",
+      "die",
+      "die Vermittlungen",
+      "mediasi"
+    ],
+    [
+      "noun",
+      "Übereinkunft",
+      "die",
+      "die Übereinkünfte",
+      "kesepakatan"
+    ],
+    [
+      "noun",
+      "Klausel",
+      "die",
+      "die Klauseln",
+      "klausul"
+    ],
+    [
+      "noun",
+      "Bestimmung",
+      "die",
+      "die Bestimmungen",
+      "ketentuan"
+    ],
+    [
+      "noun",
+      "Regelung",
+      "die",
+      "die Regelungen",
+      "pengaturan"
+    ],
+    [
+      "noun",
+      "Umsetzung",
+      "die",
+      "die Umsetzungen",
+      "implementasi"
+    ],
+    [
+      "noun",
+      "Programm",
+      "das",
+      "die Programme",
+      "program"
+    ],
+    [
+      "noun",
+      "Konzept",
+      "das",
+      "die Konzepte",
+      "konsep"
+    ],
+    [
+      "noun",
+      "Vorhaben",
+      "das",
+      "die Vorhaben",
+      "rencana proyek"
+    ],
+    [
+      "noun",
+      "Initiative",
+      "die",
+      "die Initiativen",
+      "inisiatif"
+    ],
+    [
+      "noun",
+      "Rundfunk",
+      "der",
+      "die Rundfunke",
+      "penyiaran"
+    ],
+    [
+      "noun",
+      "Fernsehen",
+      "das",
+      "die Fernsehen",
+      "televisi"
+    ],
+    [
+      "noun",
+      "Moderator",
+      "der",
+      "die Moderatoren",
+      "pembawa acara"
+    ],
+    [
+      "noun",
+      "Quote",
+      "die",
+      "die Quoten",
+      "rating"
+    ],
+    [
+      "noun",
+      "Einschaltquote",
+      "die",
+      "die Einschaltquoten",
+      "rating siaran"
+    ],
+    [
+      "noun",
+      "Spende",
+      "die",
+      "die Spenden",
+      "donasi"
+    ],
+    [
+      "noun",
+      "Spender",
+      "der",
+      "die Spender",
+      "donatur"
+    ],
+    [
+      "noun",
+      "Freiwillige",
+      "der",
+      "die Freiwilligen",
+      "relawan"
+    ],
+    [
+      "noun",
+      "Hilfsorganisation",
+      "die",
+      "die Hilfsorganisationen",
+      "organisasi bantuan"
+    ],
+    [
+      "noun",
+      "Katastrophe",
+      "die",
+      "die Katastrophen",
+      "bencana"
+    ],
+    [
+      "noun",
+      "Spendenaktion",
+      "die",
+      "die Spendenaktionen",
+      "aksi donasi"
+    ],
+    [
+      "noun",
+      "Therapie",
+      "die",
+      "die Therapien",
+      "terapi"
+    ],
+    [
+      "noun",
+      "Operation",
+      "die",
+      "die Operationen",
+      "operasi"
+    ],
+    [
+      "noun",
+      "Narkose",
+      "die",
+      "die Narkosen",
+      "anestesi"
+    ],
+    [
+      "noun",
+      "Wunde",
+      "die",
+      "die Wunden",
+      "luka"
+    ],
+    [
+      "noun",
+      "Narbe",
+      "die",
+      "die Narben",
+      "bekas luka"
+    ],
+    [
+      "noun",
+      "Heilung",
+      "die",
+      "die Heilungen",
+      "penyembuhan"
+    ],
+    [
+      "noun",
+      "Genesung",
+      "die",
+      "die Genesungen",
+      "kesembuhan"
+    ],
+    [
+      "noun",
+      "Burnout",
+      "der",
+      "die Burnouts",
+      "kelelahan ekstrem"
+    ],
+    [
+      "noun",
+      "Depression",
+      "die",
+      "die Depressionen",
+      "depresi"
+    ],
+    [
+      "noun",
+      "Kunst",
+      "die",
+      "die Künste",
+      "seni"
+    ],
+    [
+      "noun",
+      "Künstler",
+      "der",
+      "die Künstler",
+      "seniman"
+    ],
+    [
+      "noun",
+      "Gemälde",
+      "das",
+      "die Gemälde",
+      "lukisan"
+    ],
+    [
+      "noun",
+      "Skulptur",
+      "die",
+      "die Skulpturen",
+      "patung"
+    ],
+    [
+      "noun",
+      "Fotografie",
+      "die",
+      "die Fotografien",
+      "fotografi"
+    ],
+    [
+      "noun",
+      "Oper",
+      "die",
+      "die Opern",
+      "opera"
+    ],
+    [
+      "noun",
+      "Musical",
+      "das",
+      "die Musicals",
+      "musikal"
+    ],
+    [
+      "noun",
+      "Tour",
+      "die",
+      "die Touren",
+      "tur"
+    ],
+    [
+      "noun",
+      "Tourismus",
+      "der",
+      "die Tourismus",
+      "pariwisata"
+    ],
+    [
+      "noun",
+      "Tourist",
+      "der",
+      "die Touristen",
+      "wisatawan"
+    ],
+    [
+      "noun",
+      "Visum",
+      "das",
+      "die Visa",
+      "visa"
+    ],
+    [
+      "noun",
+      "Zoll",
+      "der",
+      "die Zölle",
+      "bea cukai"
+    ],
+    [
+      "noun",
+      "Reisebüro",
+      "das",
+      "die Reisebüros",
+      "biro perjalanan"
+    ],
+    [
+      "noun",
+      "Prospekt",
+      "der",
+      "die Prospekte",
+      "brosur"
+    ],
+    [
+      "noun",
+      "Reservierung",
+      "die",
+      "die Reservierungen",
+      "reservasi"
+    ],
+    [
+      "noun",
+      "Stornierung",
+      "die",
+      "die Stornierungen",
+      "pembatalan"
+    ],
+    [
+      "noun",
+      "Kündigung",
+      "die",
+      "die Kündigungen",
+      "pengunduran diri"
+    ],
+    [
+      "noun",
+      "Mahnung",
+      "die",
+      "die Mahnungen",
+      "surat peringatan"
+    ],
+    [
+      "noun",
+      "Zahlung",
+      "die",
+      "die Zahlungen",
+      "pembayaran"
+    ],
+    [
+      "noun",
+      "Verzug",
+      "der",
+      "die Verzüge",
+      "keterlambatan"
+    ],
+    [
+      "noun",
+      "Anzeige",
+      "die",
+      "die Anzeigen",
+      "laporan polisi, iklan"
+    ],
+    [
+      "verb",
+      "entschuldigen",
+      null,
+      null,
+      "meminta maaf"
+    ],
+    [
+      "verb",
+      "begrüßen",
+      null,
+      null,
+      "menyapa"
+    ],
+    [
+      "verb",
+      "verabschieden",
+      null,
+      null,
+      "mengucapkan selamat jalan"
+    ],
+    [
+      "verb",
+      "empfehlen",
+      null,
+      null,
+      "merekomendasikan"
+    ],
+    [
+      "verb",
+      "versprechen",
+      null,
+      null,
+      "berjanji"
+    ],
+    [
+      "verb",
+      "erinnern",
+      null,
+      null,
+      "mengingatkan (sich erinnern)"
+    ],
+    [
+      "verb",
+      "vergessen",
+      null,
+      null,
+      "lupa"
+    ],
+    [
+      "verb",
+      "interessieren",
+      null,
+      null,
+      "menarik (sich interessieren)"
+    ],
+    [
+      "verb",
+      "freuen",
+      null,
+      null,
+      "senang (sich freuen)"
+    ],
+    [
+      "verb",
+      "ärgern",
+      null,
+      null,
+      "kesal (sich ärgern)"
+    ],
+    [
+      "verb",
+      "beeilen",
+      null,
+      null,
+      "bergegas (sich beeilen)"
+    ],
+    [
+      "verb",
+      "verabreden",
+      null,
+      null,
+      "membuat janji (sich verabreden)"
+    ],
+    [
+      "verb",
+      "unterhalten",
+      null,
+      null,
+      "mengobrol (sich unterhalten)"
+    ],
+    [
+      "verb",
+      "vorstellen",
+      null,
+      null,
+      "memperkenalkan (sich vorstellen)"
+    ],
+    [
+      "verb",
+      "anmelden",
+      null,
+      null,
+      "mendaftar (sich anmelden)"
+    ],
+    [
+      "verb",
+      "abmelden",
+      null,
+      null,
+      "membatalkan pendaftaran"
+    ],
+    [
+      "adj",
+      "pünktlich",
+      null,
+      null,
+      "tepat waktu"
+    ],
+    [
+      "adj",
+      "freundlich",
+      null,
+      null,
+      "ramah"
+    ],
+    [
+      "adj",
+      "höflich",
+      null,
+      null,
+      "sopan"
+    ],
+    [
+      "adj",
+      "unhöflich",
+      null,
+      null,
+      "tidak sopan"
+    ],
+    [
+      "adj",
+      "geduldig",
+      null,
+      null,
+      "sabar"
+    ],
+    [
+      "adj",
+      "nervös",
+      null,
+      null,
+      "gugup"
+    ],
+    [
+      "adj",
+      "ruhig",
+      null,
+      null,
+      "tenang"
+    ],
+    [
+      "adj",
+      "leise",
+      null,
+      null,
+      "pelan, sunyi"
+    ],
+    [
+      "adj",
+      "stolz",
+      null,
+      null,
+      "bangga"
+    ],
+    [
+      "adj",
+      "traurig",
+      null,
+      null,
+      "sedih"
+    ],
+    [
+      "adj",
+      "glücklich",
+      null,
+      null,
+      "bahagia"
+    ],
+    [
+      "adj",
+      "zufrieden",
+      null,
+      null,
+      "puas"
+    ],
+    [
+      "adj",
+      "enttäuscht",
+      null,
+      null,
+      "kecewa"
+    ],
+    [
+      "adj",
+      "überrascht",
+      null,
+      null,
+      "terkejut"
+    ],
+    [
+      "adj",
+      "müde",
+      null,
+      null,
+      "lelah"
+    ],
+    [
+      "adj",
+      "wach",
+      null,
+      null,
+      "terjaga"
+    ],
+    [
+      "noun",
+      "Erlaubnis",
+      "die",
+      "die Erlaubnisse",
+      "izin"
+    ],
+    [
+      "noun",
+      "Verbot",
+      "das",
+      "die Verbote",
+      "larangan"
+    ],
+    [
+      "noun",
+      "Genehmigung",
+      "die",
+      "die Genehmigungen",
+      "persetujuan resmi"
+    ],
+    [
+      "noun",
+      "Unterschrift",
+      "die",
+      "die Unterschriften",
+      "tanda tangan"
+    ],
+    [
+      "noun",
+      "Formular",
+      "das",
+      "die Formulare",
+      "formulir"
+    ],
+    [
+      "noun",
+      "Frist",
+      "die",
+      "die Fristen",
+      "tenggat"
+    ],
+    [
+      "noun",
+      "Termin",
+      "der",
+      "die Termine",
+      "janji temu"
+    ],
+    [
+      "noun",
+      "Ansprechpartner",
+      "der",
+      "die Ansprechpartner",
+      "kontak penanggung jawab"
+    ],
+    [
+      "noun",
+      "Auskunft",
+      "die",
+      "die Auskünfte",
+      "informasi"
+    ],
+    [
+      "noun",
+      "Beratung",
+      "die",
+      "die Beratungen",
+      "konsultasi"
+    ],
+    [
+      "noun",
+      "Antrag",
+      "der",
+      "die Anträge",
+      "permohonan"
+    ],
+    [
+      "noun",
+      "Unterlagen",
+      "die",
+      "die Unterlagen",
+      "dokumen"
+    ],
+    [
+      "noun",
+      "Nachweis",
+      "der",
+      "die Nachweise",
+      "bukti"
+    ],
+    [
+      "noun",
+      "Bescheinigung",
+      "die",
+      "die Bescheinigungen",
+      "surat keterangan"
+    ],
+    [
+      "noun",
+      "Zusage",
+      "die",
+      "die Zusagen",
+      "persetujuan"
+    ],
+    [
+      "noun",
+      "Absage",
+      "die",
+      "die Absagen",
+      "penolakan"
+    ],
+    [
+      "noun",
+      "Einladung",
+      "die",
+      "die Einladungen",
+      "undangan"
+    ],
+    [
+      "noun",
+      "Veranstalter",
+      "der",
+      "die Veranstalter",
+      "penyelenggara"
+    ],
+    [
+      "noun",
+      "Teilnehmer",
+      "der",
+      "die Teilnehmer",
+      "peserta"
+    ],
+    [
+      "noun",
+      "Anmeldung",
+      "die",
+      "die Anmeldungen",
+      "pendaftaran"
+    ],
+    [
+      "noun",
+      "Bestätigung",
+      "die",
+      "die Bestätigungen",
+      "konfirmasi"
+    ],
+    [
+      "noun",
+      "Erfahrungsbericht",
+      "der",
+      "die Erfahrungsberichte",
+      "laporan pengalaman"
+    ],
+    [
+      "noun",
+      "Vorbereitung",
+      "die",
+      "die Vorbereitungen",
+      "persiapan"
+    ],
+    [
+      "noun",
+      "Durchführung",
+      "die",
+      "die Durchführungen",
+      "pelaksanaan"
+    ],
+    [
+      "noun",
+      "Auswertung",
+      "die",
+      "die Auswertungen",
+      "evaluasi"
+    ],
+    [
+      "noun",
+      "Rückmeldung",
+      "die",
+      "die Rückmeldungen",
+      "umpan balik"
+    ],
+    [
+      "verb",
+      "teilnehmen",
+      null,
+      null,
+      "mengikuti"
+    ],
+    [
+      "verb",
+      "stattfinden",
+      null,
+      null,
+      "berlangsung"
+    ],
+    [
+      "verb",
+      "organisieren",
+      null,
+      null,
+      "mengorganisieren"
+    ],
+    [
+      "verb",
+      "planen",
+      null,
+      null,
+      "merencanakan"
+    ],
+    [
+      "verb",
+      "verhandeln",
+      null,
+      null,
+      "bernegosiasi"
+    ],
+    [
+      "verb",
+      "vereinbaren",
+      null,
+      null,
+      "menyepakati"
+    ],
+    [
+      "verb",
+      "einstellen",
+      null,
+      null,
+      "merekrut"
+    ],
+    [
+      "verb",
+      "entlassen",
+      null,
+      null,
+      "memberhentikan"
+    ],
+    [
+      "verb",
+      "ausbilden",
+      null,
+      null,
+      "melatih"
+    ],
+    [
+      "verb",
+      "prüfen",
+      null,
+      null,
+      "memeriksa"
+    ],
+    [
+      "verb",
+      "bewerten",
+      null,
+      null,
+      "menilai"
+    ],
+    [
+      "verb",
+      "beurteilen",
+      null,
+      null,
+      "menilai"
+    ],
+    [
+      "verb",
+      "verbessern",
+      null,
+      null,
+      "memperbaiki"
+    ],
+    [
+      "verb",
+      "verschlechtern",
+      null,
+      null,
+      "memburukkan"
+    ],
+    [
+      "verb",
+      "erhöhen",
+      null,
+      null,
+      "menaikkan"
+    ],
+    [
+      "verb",
+      "verringern",
+      null,
+      null,
+      "mengurangi"
+    ],
+    [
+      "verb",
+      "erreichen",
+      null,
+      null,
+      "mencapai"
+    ],
+    [
+      "verb",
+      "verfehlen",
+      null,
+      null,
+      "gagal mencapai"
+    ],
+    [
+      "verb",
+      "schaffen",
+      null,
+      null,
+      "menyelesaikan"
+    ],
+    [
+      "verb",
+      "scheitern",
+      null,
+      null,
+      "gagal"
+    ],
+    [
+      "verb",
+      "gelingen",
+      null,
+      null,
+      "berhasil"
+    ],
+    [
+      "verb",
+      "aufgeben",
+      null,
+      null,
+      "menyerah"
+    ],
+    [
+      "verb",
+      "weitermachen",
+      null,
+      null,
+      "melanjutkan"
+    ],
+    [
+      "verb",
+      "bemühen",
+      null,
+      null,
+      "berusaha (sich bemühen)"
+    ],
+    [
+      "verb",
+      "beschäftigen",
+      null,
+      null,
+      "menyibukkan diri"
+    ],
+    [
+      "noun",
+      "Stellenangebot",
+      "das",
+      "die Stellenangebote",
+      "tawaran kerja"
+    ],
+    [
+      "noun",
+      "Stellenanzeige",
+      "die",
+      "die Stellenanzeigen",
+      "iklan lowongan"
+    ],
+    [
+      "noun",
+      "Arbeitsvertrag",
+      "der",
+      "die Arbeitsverträge",
+      "kontrak kerja"
+    ],
+    [
+      "noun",
+      "Probezeit",
+      "die",
+      "die Probezeiten",
+      "masa percobaan"
+    ],
+    [
+      "noun",
+      "Kündigungsfrist",
+      "die",
+      "die Kündigungsfristen",
+      "tenggat pemberitahuan"
+    ],
+    [
+      "noun",
+      "Stadtteil",
+      "der",
+      "die Stadtteile",
+      "kecamatan kota"
+    ],
+    [
+      "noun",
+      "Quartier",
+      "das",
+      "die Quartiere",
+      "kawasan"
+    ],
+    [
+      "noun",
+      "Siedlung",
+      "die",
+      "die Siedlungen",
+      "permukiman"
+    ],
+    [
+      "noun",
+      "Infrastruktur",
+      "die",
+      "die Infrastrukturen",
+      "infrastruktur"
+    ],
+    [
+      "noun",
+      "Verkehrsnetz",
+      "das",
+      "die Verkehrsnetze",
+      "jaringan transportasi"
+    ],
+    [
+      "noun",
+      "Bildungseinrichtung",
+      "die",
+      "die Bildungseinrichtungen",
+      "lembaga pendidikan"
+    ],
+    [
+      "noun",
+      "Gesundheitswesen",
+      "das",
+      "die Gesundheitswesen",
+      "sistem kesehatan"
+    ],
+    [
+      "noun",
+      "Vereinsheim",
+      "das",
+      "die Vereinsheime",
+      "gedung klub"
+    ],
+    [
+      "adj",
+      "kulturell",
+      null,
+      null,
+      "kultural"
+    ],
+    [
+      "adj",
+      "wirtschaftlich",
+      null,
+      null,
+      "ekonomis"
+    ],
+    [
+      "adj",
+      "technisch",
+      null,
+      null,
+      "teknis"
+    ],
+    [
+      "adj",
+      "medizinisch",
+      null,
+      null,
+      "medis"
+    ],
+    [
+      "adj",
+      "rechtlich",
+      null,
+      null,
+      "secara hukum"
+    ],
+    [
+      "adj",
+      "beruflich",
+      null,
+      null,
+      "profesional"
+    ],
+    [
+      "adj",
+      "ehrenamtlich",
+      null,
+      null,
+      "sebagai relawan"
+    ],
+    [
+      "adj",
+      "freiwillig",
+      null,
+      null,
+      "sukarela"
+    ],
+    [
+      "adj",
+      "staatlich",
+      null,
+      null,
+      "milik negara"
+    ],
+    [
+      "adj",
+      "kommunal",
+      null,
+      null,
+      "tingkat kota"
+    ],
+    [
+      "adj",
+      "regional",
+      null,
+      null,
+      "regional"
+    ],
+    [
+      "adj",
+      "international",
+      null,
+      null,
+      "internasional"
+    ],
+    [
+      "adj",
+      "national",
+      null,
+      null,
+      "nasional"
+    ],
+    [
+      "adj",
+      "global",
+      null,
+      null,
+      "global"
+    ],
+    [
+      "adj",
+      "lokal",
+      null,
+      null,
+      "lokal"
+    ],
+    [
+      "noun",
+      "Bewerbungsfrist",
+      "die",
+      "die Bewerbungsfristen",
+      "tenggat lamaran"
+    ],
+    [
+      "noun",
+      "Auswahlverfahren",
+      "das",
+      "die Auswahlverfahren",
+      "proses seleksi"
+    ],
+    [
+      "noun",
+      "Einarbeitung",
+      "die",
+      "die Einarbeitungen",
+      "orientasi kerja"
+    ],
+    [
+      "noun",
+      "Zusammenarbeit",
+      "die",
+      "die Zusammenarbeiten",
+      "kerja sama"
+    ],
+    [
+      "noun",
+      "Arbeitsablauf",
+      "der",
+      "die Arbeitsabläufe",
+      "alur kerja"
+    ],
+    [
+      "noun",
+      "Zuständigkeitsbereich",
+      "der",
+      "die Zuständigkeitsbereiche",
+      "bidang kewenangan"
+    ],
+    [
+      "noun",
+      "Arbeitsbelastung",
+      "die",
+      "die Arbeitsbelastungen",
+      "beban kerja"
+    ],
+    [
+      "noun",
+      "Arbeitsklima",
+      "das",
+      "die Arbeitsklimas",
+      "iklim kerja"
+    ],
+    [
+      "noun",
+      "Weiterbildungsangebot",
+      "das",
+      "die Weiterbildungsangebote",
+      "tawaran pelatihan"
+    ],
+    [
+      "noun",
+      "Aufstiegsmöglichkeit",
+      "die",
+      "die Aufstiegsmöglichkeiten",
+      "peluang naik jabatan"
+    ],
+    [
+      "noun",
+      "Nebentätigkeit",
+      "die",
+      "die Nebentätigkeiten",
+      "kerja sampingan"
+    ],
+    [
+      "noun",
+      "Arbeitslosigkeit",
+      "die",
+      "die Arbeitslosigkeiten",
+      "pengangguran"
+    ],
+    [
+      "noun",
+      "Sozialversicherung",
+      "die",
+      "die Sozialversicherungen",
+      "asuransi sosial"
+    ],
+    [
+      "noun",
+      "Rentenversicherung",
+      "die",
+      "die Rentenversicherungen",
+      "asuransi pensiun"
+    ],
+    [
+      "noun",
+      "Krankenversicherung",
+      "die",
+      "die Krankenversicherungen",
+      "asuransi kesehatan"
+    ],
+    [
+      "noun",
+      "Pflegeversicherung",
+      "die",
+      "die Pflegeversicherungen",
+      "asuransi perawatan"
+    ],
+    [
+      "noun",
+      "Steuererklärung",
+      "die",
+      "die Steuererklärungen",
+      "surat pajak"
+    ],
+    [
+      "noun",
+      "Lohnsteuer",
+      "die",
+      "die Lohnsteuern",
+      "pajak penghasilan"
+    ],
+    [
+      "noun",
+      "Solidaritätszuschlag",
+      "der",
+      "die Solidaritätszuschläge",
+      "iuran solidaritas"
+    ],
+    [
+      "noun",
+      "Sozialstaat",
+      "der",
+      "die Sozialstaaten",
+      "negara kesejahteraan"
+    ],
+    [
+      "noun",
+      "Ehrenamt",
+      "das",
+      "die Ehrenämter",
+      "kerja sukarela"
+    ],
+    [
+      "noun",
+      "Mitgliederversammlung",
+      "die",
+      "die Mitgliederversammlungen",
+      "rapat anggota"
+    ],
+    [
+      "noun",
+      "Vorstand",
+      "der",
+      "die Vorstände",
+      "pengurus"
+    ],
+    [
+      "noun",
+      "Satzung",
+      "die",
+      "die Satzungen",
+      "anggaran dasar"
+    ],
+    [
+      "noun",
+      "Beitrag",
+      "der",
+      "die Beiträge",
+      "iuran"
+    ],
+    [
+      "verb",
+      "analysieren",
+      null,
+      null,
+      "menganalisis"
+    ],
+    [
+      "verb",
+      "interpretieren",
+      null,
+      null,
+      "menafsirkan"
+    ],
+    [
+      "verb",
+      "erläutern",
+      null,
+      null,
+      "menjelaskan"
+    ],
+    [
+      "verb",
+      "zusammenfassen",
+      null,
+      null,
+      "merangkum"
+    ],
+    [
+      "verb",
+      "zitieren",
+      null,
+      null,
+      "mengutip"
+    ],
+    [
+      "verb",
+      "unterscheiden",
+      null,
+      null,
+      "membedakan"
+    ],
+    [
+      "verb",
+      "zuordnen",
+      null,
+      null,
+      "memetakan"
+    ],
+    [
+      "verb",
+      "ableiten",
+      null,
+      null,
+      "menyimpulkan"
+    ],
+    [
+      "verb",
+      "folgern",
+      null,
+      null,
+      "menyimpulkan"
+    ],
+    [
+      "verb",
+      "widerlegen",
+      null,
+      null,
+      "membantah"
+    ],
+    [
+      "verb",
+      "bestätigen",
+      null,
+      null,
+      "mengonfirmasi"
+    ],
+    [
+      "verb",
+      "belegen",
+      null,
+      null,
+      "membuktikan dengan bukti"
+    ],
+    [
+      "verb",
+      "überprüfen",
+      null,
+      null,
+      "memverifikasi"
+    ],
+    [
+      "verb",
+      "messen",
+      null,
+      null,
+      "mengukur"
+    ],
+    [
+      "verb",
+      "schätzen",
+      null,
+      null,
+      "memperkirakan"
+    ],
+    [
+      "verb",
+      "berechnen",
+      null,
+      null,
+      "menghitung"
+    ],
+    [
+      "verb",
+      "ermitteln",
+      null,
+      null,
+      "menetapkan"
+    ],
+    [
+      "verb",
+      "feststellen",
+      null,
+      null,
+      "menemukan, memastikan"
+    ],
+    [
+      "verb",
+      "darlegen",
+      null,
+      null,
+      "memaparkan"
+    ],
+    [
+      "verb",
+      "aufzeigen",
+      null,
+      null,
+      "menunjukkan"
+    ],
+    [
+      "verb",
+      "verdeutlichen",
+      null,
+      null,
+      "memperjelas"
+    ],
+    [
+      "verb",
+      "betonen",
+      null,
+      null,
+      "menekankan"
+    ],
+    [
+      "verb",
+      "hervorheben",
+      null,
+      null,
+      "menonjolkan"
+    ],
+    [
+      "verb",
+      "erwähnen",
+      null,
+      null,
+      "menyebut"
+    ],
+    [
+      "verb",
+      "ansprechen",
+      null,
+      null,
+      "menyinggung"
+    ],
+    [
+      "verb",
+      "eingehen",
+      null,
+      null,
+      "membahas"
+    ],
+    [
+      "noun",
+      "Darstellung",
+      "die",
+      "die Darstellungen",
+      "penyajian"
+    ],
+    [
+      "noun",
+      "Zusammenfassung",
+      "die",
+      "die Zusammenfassungen",
+      "ringkasan"
+    ],
+    [
+      "noun",
+      "Erläuterung",
+      "die",
+      "die Erläuterungen",
+      "penjelasan"
+    ],
+    [
+      "noun",
+      "Unterscheidung",
+      "die",
+      "die Unterscheidungen",
+      "pembedaan"
+    ],
+    [
+      "noun",
+      "Zuordnung",
+      "die",
+      "die Zuordnungen",
+      "pemetaan"
+    ],
+    [
+      "noun",
+      "Ableitung",
+      "die",
+      "die Ableitungen",
+      "penurunan"
+    ],
+    [
+      "noun",
+      "Folgerung",
+      "die",
+      "die Folgerungen",
+      "kesimpulan"
+    ],
+    [
+      "noun",
+      "Widerlegung",
+      "die",
+      "die Widerlegungen",
+      "bantahan"
+    ],
+    [
+      "noun",
+      "Beleg",
+      "der",
+      "die Belege",
+      "bukti"
+    ],
+    [
+      "noun",
+      "Überprüfung",
+      "die",
+      "die Überprüfungen",
+      "verifikasi"
+    ],
+    [
+      "noun",
+      "Schätzung",
+      "die",
+      "die Schätzungen",
+      "perkiraan"
+    ],
+    [
+      "noun",
+      "Berechnung",
+      "die",
+      "die Berechnungen",
+      "perhitungan"
+    ],
+    [
+      "noun",
+      "Ermittlung",
+      "die",
+      "die Ermittlungen",
+      "penyelidikan"
+    ],
+    [
+      "noun",
+      "Feststellung",
+      "die",
+      "die Feststellungen",
+      "temuan"
+    ],
+    [
+      "noun",
+      "Betonung",
+      "die",
+      "die Betonungen",
+      "penekanan"
+    ],
+    [
+      "noun",
+      "Erwähnung",
+      "die",
+      "die Erwähnungen",
+      "penyebutan"
+    ],
+    [
+      "noun",
+      "Bezug",
+      "der",
+      "die Bezüge",
+      "rujukan"
+    ],
+    [
+      "adj",
+      "nachvollziehbar",
+      null,
+      null,
+      "dapat dipahami"
+    ],
+    [
+      "adj",
+      "überzeugend",
+      null,
+      null,
+      "meyakinkan"
+    ],
+    [
+      "adj",
+      "fraglich",
+      null,
+      null,
+      "diragukan"
+    ],
+    [
+      "adj",
+      "plausibel",
+      null,
+      null,
+      "masuk akal"
+    ],
+    [
+      "adj",
+      "stichhaltig",
+      null,
+      null,
+      "kuat (argumen)"
+    ],
+    [
+      "adj",
+      "widersprüchlich",
+      null,
+      null,
+      "kontradiktif"
+    ],
+    [
+      "adj",
+      "konsistent",
+      null,
+      null,
+      "konsisten"
+    ],
+    [
+      "adj",
+      "präzise",
+      null,
+      null,
+      "tepat"
+    ],
+    [
+      "adj",
+      "vage",
+      null,
+      null,
+      "samar"
+    ],
+    [
+      "adj",
+      "detailliert",
+      null,
+      null,
+      "terperinci"
+    ],
+    [
+      "adj",
+      "ausführlich",
+      null,
+      null,
+      "mendetail"
+    ],
+    [
+      "adj",
+      "verständlich",
+      null,
+      null,
+      "dapat dimengerti"
+    ],
+    [
+      "noun",
+      "Fragestellung",
+      "die",
+      "die Fragestellungen",
+      "perumusan masalah"
+    ],
+    [
+      "noun",
+      "Herangehensweise",
+      "die",
+      "die Herangehensweisen",
+      "pendekatan"
+    ],
+    [
+      "noun",
+      "Vorgehen",
+      "das",
+      "die Vorgehen",
+      "langkah kerja"
+    ],
+    [
+      "noun",
+      "Erkenntnisinteresse",
+      "das",
+      "die Erkenntnisinteressen",
+      "minat pengetahuan"
+    ]
+  ]
+}

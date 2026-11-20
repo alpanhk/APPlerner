@@ -1,0 +1,18 @@
+[
+  { "prompt": "Ich ___ nach Hause gegangen.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["habe", "bin"], "answer": "bin", "explanation": "gehen = verba gerak → sein: ich bin gegangen." },
+  { "prompt": "Er ___ gestern gekommen.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["hat", "ist"], "answer": "ist", "explanation": "kommen = perpindahan tempat → sein: er ist gekommen." },
+  { "prompt": "Wir ___ Pizza gegessen.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["haben", "sind"], "answer": "haben", "explanation": "essen = verba transitif → haben: wir haben gegessen." },
+  { "prompt": "Sie ___ Wasser getrunken.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["hat", "ist"], "answer": "hat", "explanation": "trinken = verba transitif → haben: sie hat getrunken." },
+  { "prompt": "Anna ___ nach Berlin gefahren.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["hat", "ist"], "answer": "ist", "explanation": "fahren = verba gerak → sein: Anna ist gefahren." },
+  { "prompt": "Ich ___ in Jakarta gewohnt.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["habe", "bin"], "answer": "habe", "explanation": "wohnen = verba duratif → haben: ich habe gewohnt." },
+  { "prompt": "Er ___ das Buch gelesen.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["hat", "ist"], "answer": "hat", "explanation": "lesen = verba transitif → haben: er hat gelesen." },
+  { "prompt": "Wir ___ Hausaufgaben gemacht.", "sub": "Pilih auxiliary yang benar.", "mode": "choice", "options": ["haben", "sind"], "answer": "haben", "explanation": "machen = verba transitif → haben: wir haben gemacht." },
+  { "prompt": "gehen → Partizip II?", "sub": "Ketik Partizip II dari gehen.", "mode": "type", "answer": "gegangen", "explanation": "gehen → ist gegangen (Partizip kuat: ge- + gang + -en)." },
+  { "prompt": "kommen → Partizip II?", "sub": "Ketik Partizip II dari kommen.", "mode": "type", "answer": "gekommen", "explanation": "kommen → ist gekommen." },
+  { "prompt": "essen → Partizip II?", "sub": "Ketik Partizip II dari essen.", "mode": "type", "answer": "gegessen", "explanation": "essen → hat gegessen." },
+  { "prompt": "trinken → Partizip II?", "sub": "Ketik Partizip II dari trinken.", "mode": "type", "answer": "getrunken", "explanation": "trinken → hat getrunken." },
+  { "prompt": "fahren → Partizip II?", "sub": "Ketik Partizip II dari fahren.", "mode": "type", "answer": "gefahren", "explanation": "fahren → ist gefahren." },
+  { "prompt": "wohnen → Partizip II?", "sub": "Ketik Partizip II dari wohnen.", "mode": "type", "answer": "gewohnt", "explanation": "wohnen → hat gewohnt (Partizip lemah: ge- + wohn + -t)." },
+  { "prompt": "lesen → Partizip II?", "sub": "Ketik Partizip II dari lesen.", "mode": "type", "answer": "gelesen", "explanation": "lesen → hat gelesen." },
+  { "prompt": "machen → Partizip II?", "sub": "Ketik Partizip II dari machen.", "mode": "type", "answer": "gemacht", "explanation": "machen → hat gemacht." }
+]

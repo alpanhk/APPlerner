@@ -1,0 +1,269 @@
+{
+  "unit": 108,
+  "level": "A2",
+  "theme": "Medien & Kommunikation",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Nachricht",
+      "article": "die",
+      "plural": "die Nachrichten",
+      "meaning_id": "berita, pesan",
+      "example_de": "Ich habe eine Nachricht bekommen.",
+      "example_id": "Saya mendapat sebuah pesan.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Zeitung",
+      "article": "die",
+      "plural": "die Zeitungen",
+      "meaning_id": "surat kabar",
+      "example_de": "Die Zeitung kommt morgens.",
+      "example_id": "Surat kabarnya datang pagi.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Sendung",
+      "article": "die",
+      "plural": "die Sendungen",
+      "meaning_id": "acara siaran",
+      "example_de": "Die Sendung beginnt um neun.",
+      "example_id": "Acaranya mulai pukul sembilan.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Film",
+      "article": "der",
+      "plural": "die Filme",
+      "meaning_id": "film",
+      "example_de": "Der Film ist neu.",
+      "example_id": "Filmnya baru.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Werbung",
+      "article": "die",
+      "plural": "die Werbungen",
+      "meaning_id": "iklan",
+      "example_de": "Die Werbung nervt.",
+      "example_id": "Iklannya mengganggu.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Internet",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "internet",
+      "example_de": "Ich suche im Internet.",
+      "example_id": "Saya mencari di internet.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "App",
+      "article": "die",
+      "plural": "die Apps",
+      "meaning_id": "aplikasi",
+      "example_de": "Die App ist kostenlos.",
+      "example_id": "Aplikasinya gratis.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Handy",
+      "article": "das",
+      "plural": "die Handys",
+      "meaning_id": "ponsel",
+      "example_de": "Mein Handy ist leer.",
+      "example_id": "Ponsel saya habis baterai.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Computer",
+      "article": "der",
+      "plural": "die Computer",
+      "meaning_id": "komputer",
+      "example_de": "Der Computer ist kaputt.",
+      "example_id": "Komputernya rusak.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Passwort",
+      "article": "das",
+      "plural": "die Passwörter",
+      "meaning_id": "kata sandi",
+      "example_de": "Ich habe mein Passwort vergessen.",
+      "example_id": "Saya lupa kata sandi saya.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "E-Mail",
+      "article": "die",
+      "plural": "die E-Mails",
+      "meaning_id": "surel",
+      "example_de": "Ich schreibe eine E-Mail.",
+      "example_id": "Saya menulis surel.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "senden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengirim",
+      "example_de": "Ich sende dir das Foto.",
+      "example_id": "Saya mengirim fotonya kepadamu.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "herunterladen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengunduh",
+      "example_de": "Ich lade die Datei herunter.",
+      "example_id": "Saya mengunduh berkasnya.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "teilen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membagikan",
+      "example_de": "Er teilt den Link.",
+      "example_id": "Dia membagikan tautannya.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "adj",
+      "de": "digital",
+      "article": null,
+      "plural": null,
+      "meaning_id": "digital",
+      "example_de": "Das ist ein digitales Angebot.",
+      "example_id": "Ini penawaran digital.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "adj",
+      "de": "erreichbar",
+      "article": null,
+      "plural": null,
+      "meaning_id": "dapat dihubungi",
+      "example_de": "Ich bin heute nicht erreichbar.",
+      "example_id": "Hari ini saya tidak bisa dihubungi.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Sender",
+      "article": "der",
+      "plural": "die Sender",
+      "meaning_id": "stasiun penyiaran",
+      "example_de": "Der Sender zeigt den Film.",
+      "example_id": "Stasiun itu menayangkan film.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Kopfhörer",
+      "article": "der",
+      "plural": "die Kopfhörer",
+      "meaning_id": "headphone",
+      "example_de": "Die Kopfhörer sind kaputt.",
+      "example_id": "Headphonenya rusak.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Datei",
+      "article": "die",
+      "plural": "die Dateien",
+      "meaning_id": "berkas",
+      "example_de": "Die Datei ist zu groß.",
+      "example_id": "Berkasnya terlalu besar.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Netzwerk",
+      "article": "das",
+      "plural": "die Netzwerke",
+      "meaning_id": "jaringan",
+      "example_de": "Das Netzwerk ist langsam.",
+      "example_id": "Jaringannya lambat.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Verbindung",
+      "article": "die",
+      "plural": "die Verbindungen",
+      "meaning_id": "koneksi",
+      "example_de": "Die Verbindung ist schlecht.",
+      "example_id": "Koneksinya buruk.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Kanal",
+      "article": "der",
+      "plural": "die Kanäle",
+      "meaning_id": "saluran",
+      "example_de": "Der Kanal zeigt Nachrichten.",
+      "example_id": "Saluran itu menampilkan berita.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Lautsprecher",
+      "article": "der",
+      "plural": "die Lautsprecher",
+      "meaning_id": "pengeras suara",
+      "example_de": "Der Lautsprecher ist laut.",
+      "example_id": "Pengeras suaranya keras.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Ordner",
+      "article": "der",
+      "plural": "die Ordner",
+      "meaning_id": "folder",
+      "example_de": "Der Ordner ist leer.",
+      "example_id": "Foldernya kosong.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Blog",
+      "article": "der",
+      "plural": "die Blogs",
+      "meaning_id": "blog",
+      "example_de": "Der Blog ist beliebt.",
+      "example_id": "Blognya populer.",
+      "tags": "a2,unit8,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Werbespot",
+      "article": "der",
+      "plural": "die Werbespots",
+      "meaning_id": "iklan pendek",
+      "example_de": "Der Werbespot ist lustig.",
+      "example_id": "Iklannya lucu.",
+      "tags": "a2,unit8,medien"
+    }
+  ]
+}

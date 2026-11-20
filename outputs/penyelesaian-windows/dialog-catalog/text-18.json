@@ -1,0 +1,177 @@
+{
+  "id": "dialog-18",
+  "title": "Mein erster Arbeitstag",
+  "textId": 18,
+  "level": "A1",
+  "tags": "seed · A1 · unit 8 · pekerjaan",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Montag beginnt mein neuer Job.",
+      "id": "Pada hari Senin pekerjaan baru saya dimulai.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich stehe um sechs Uhr auf.",
+      "id": "Saya bangun pukul enam.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Um halb acht fahre ich ins Büro.",
+      "id": "Pukul setengah delapan saya berangkat ke kantor.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Meine Kolleginnen sind sehr freundlich.",
+      "id": "Rekan-rekan kerja perempuan saya sangat ramah.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Nach der Arbeit kaufe ich noch Brot.",
+      "id": "Sepulang kerja saya membeli roti.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Am Montag beginnt mein neuer Job.",
+      "id": "Pada hari Senin pekerjaan baru saya dimulai.",
+      "pose": "reply",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": "a1_text_002.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Ich stehe um sechs Uhr auf.",
+      "id": "Saya bangun pukul enam.",
+      "pose": "calm",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": "a1_text_052.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Um halb acht fahre ich ins Büro.",
+      "id": "Pukul setengah delapan saya berangkat ke kantor.",
+      "pose": "order",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": "a1_text_084.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Meine Kolleginnen sind sehr freundlich.",
+      "id": "Rekan-rekan kerja perempuan saya sangat ramah.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": "a1_text_071.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Nach der Arbeit kaufe ich noch Brot.",
+      "id": "Sepulang kerja saya membeli roti.",
+      "pose": "calm",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": "a1_text_078.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

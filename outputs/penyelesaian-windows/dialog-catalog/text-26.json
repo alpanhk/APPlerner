@@ -1,0 +1,181 @@
+{
+  "id": "dialog-26",
+  "title": "Ein Tag auf dem Markt",
+  "textId": 26,
+  "level": "A2",
+  "tags": "seed · A2 · unit 5 · belanja",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Auf dem Wochenmarkt kauft Lani frisches Gemüse.",
+      "id": "Di pasar mingguan Lani membeli sayuran segar.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Der Verkäufer wiegt ein Kilo Tomaten ab.",
+      "id": "Penjual menimbang satu kilogram tomat.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Lani fragt, ob die Äpfel aus der Region kommen.",
+      "id": "Lani bertanya apakah apel-apel itu berasal dari daerah setempat.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Sie bezahlt bar und bekommt das Wechselgeld zurück.",
+      "id": "Dia membayar tunai dan menerima kembaliannya.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Zu Hause kocht sie aus dem Gemüse eine Suppe.",
+      "id": "Di rumah dia memasak sup dari sayuran itu.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Auf dem Wochenmarkt kauft Lani frisches Gemüse.",
+      "id": "Di pasar mingguan Lani membeli sayuran segar.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Der Verkäufer wiegt ein Kilo Tomaten ab.",
+      "id": "Penjual menimbang satu kilogram tomat.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Lani fragt, ob die Äpfel aus der Region kommen.",
+      "id": "Lani bertanya apakah apel-apel itu berasal dari daerah setempat.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Sie bezahlt bar und bekommt das Wechselgeld zurück.",
+      "id": "Dia membayar tunai dan menerima kembaliannya.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Zu Hause kocht sie aus dem Gemüse eine Suppe.",
+      "id": "Di rumah dia memasak sup dari sayuran itu.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

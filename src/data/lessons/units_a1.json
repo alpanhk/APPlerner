@@ -1,0 +1,1885 @@
+{
+  "level": "A1",
+  "source": "A1 unit 1–4: kurasi sebelumnya; unit 5–12: materi orisinal beracuan Goethe. Pemetaan ke Studio D menunggu buku kursus lengkap.",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Salam & perkenalan diri",
+      "goals": [
+        "Menyapa sesuai waktu hari",
+        "Memperkenalkan nama, asal, dan tempat tinggal",
+        "Menyebut teman, umur, dan bentuk plural"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Hallo! Ich heiße …",
+          "minutes": 12,
+          "recap": [
+            "Sapaan Jerman berubah mengikuti waktu: Morgen, Tag, Abend.",
+            "Perkenalan paling aman: Ich heiße … atau Ich bin …."
+          ],
+          "slides": [
+            {
+              "title": "Sapaan sesuai waktu",
+              "body": [
+                "Guten Morgen — pagi (sampai sekitar pukul 11).",
+                "Guten Tag — siang (sekitar pukul 11–18).",
+                "Guten Abend — malam (setelah pukul 18).",
+                "Hallo / Hi — santai, kapan saja."
+              ],
+              "example_de": "Guten Tag, Frau Müller!",
+              "example_id": "Selamat siang, Ny. Müller!"
+            },
+            {
+              "title": "Memperkenalkan diri",
+              "body": [
+                "Ich heiße … — nama saya ….",
+                "Ich bin … — saya … (nama/pekerjaan/kebangsaan).",
+                "Dua-duanya lazim; pilih yang paling nyaman."
+              ],
+              "example_de": "Ich heiße Alex. Ich komme aus Indonesien.",
+              "example_id": "Nama saya Alex. Saya berasal dari Indonesia."
+            },
+            {
+              "title": "Bertanya nama",
+              "body": [
+                "Wie heißen Sie? — bentuk formal (Anda).",
+                "Wie heißt du? — bentuk santai (kamu).",
+                "Perhatikan: heißen → du heißt (bukan heißst)."
+              ],
+              "example_de": "Wie heißen Sie?",
+              "example_id": "Siapa nama Anda?"
+            },
+            {
+              "title": "Tiga artikel",
+              "body": [
+                "der — maskulin (der Name, der Mann, der Herr).",
+                "die — feminin (die Frau).",
+                "das — netral (das Land, das Jahr).",
+                "Hafalkan artikel bersama kata bendanya."
+              ],
+              "example_de": "der Name · die Frau · das Land",
+              "example_id": "nama · wanita · negara"
+            },
+            {
+              "title": "Kata ganti & konjugasi",
+              "body": [
+                "ich — du — er/sie/es — wir — ihr — sie/Sie",
+                "heißen: ich heiße, du heißt, er/sie/es heißt, wir heißen.",
+                "Bentuk wir dan sie/Sie sama dengan infinitif.",
+                "Prasyarat: Tidak ada prasyarat khusus; pelajaran pembuka. Kesalahan umum: menyebut dosen/guru dengan Hallo terlalu santai; gunakan Guten Morgen/Tag. Jangan mengatakan 'Ich bin heiße'; pilih Ich heiße ... atau Ich bin .... Ringkasan: sapaan mengikuti waktu, nama ditanyakan dengan Wie heißen Sie?/Wie heißt du?."
+              ],
+              "example_de": "Ich heiße Alex. Und du? Wie heißt du?",
+              "example_id": "Nama saya Alex. Dan kamu? Siapa namamu?"
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Name", "Mann", "Frau", "Herr", "heißen"]
+        },
+        {
+          "no": 2,
+          "title": "Woher kommen Sie?",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah bisa menyapa dan menyebut nama.",
+            "Sekarang: asal, bahasa, dan tempat tinggal."
+          ],
+          "slides": [
+            {
+              "title": "Kommen aus — asal",
+              "body": [
+                "Ich komme aus Indonesien. — Saya berasal dari Indonesia.",
+                "Woher kommen Sie? — Dari mana Anda?",
+                "aus dipakai untuk negara dan kota asal."
+              ],
+              "example_de": "Woher kommst du? — Ich komme aus Bandung.",
+              "example_id": "Dari mana kamu? — Saya dari Bandung."
+            },
+            {
+              "title": "Wohnen in — tinggal",
+              "body": [
+                "Ich wohne in Jakarta. — Saya tinggal di Jakarta.",
+                "Wo wohnen Sie? — Di mana Anda tinggal?",
+                "in dipakai untuk tempat tinggal."
+              ],
+              "example_de": "Ich wohne in Berlin.",
+              "example_id": "Saya tinggal di Berlin."
+            },
+            {
+              "title": "Negara & bahasa",
+              "body": [
+                "das Land → die Länder — negara.",
+                "die Sprache → die Sprachen — bahasa.",
+                "Ich spreche Deutsch und Bahasa Indonesia."
+              ],
+              "example_de": "Deutsch ist eine fremde Sprache.",
+              "example_id": "Bahasa Jerman adalah bahasa asing."
+            },
+            {
+              "title": "Konjugasi kommen",
+              "body": [
+                "ich komme · du kommst · er/sie/es kommt",
+                "wir kommen · ihr kommt · sie/Sie kommen",
+                "Bentuk wir dan sie/Sie sama dengan infinitif."
+              ],
+              "example_de": "Wir kommen aus Indonesien.",
+              "example_id": "Kami berasal dari Indonesia."
+            },
+            {
+              "title": "Konjugasi wohnen",
+              "body": [
+                "ich wohne · du wohnst · er/sie/es wohnt",
+                "wir wohnen · ihr wohnt · sie/Sie wohnen",
+                "Pola akhiran sama untuk verba reguler.",
+                "Prasyarat: Sapaan dan perkenalan diri dari Pelajaran 1. Kesalahan umum: 'Ich komme in Indonesien' (asal memakai aus) atau 'Ich wohne aus Jakarta' (tinggal memakai in). Ringkasan: kommen aus + asal, wohnen in + tempat; bentuk ich/du/wir dilatih."
+              ],
+              "example_de": "Wo wohnen Sie?",
+              "example_id": "Di mana Anda tinggal?"
+            }
+          ],
+          "drill": { "code": "D3", "count": 5 },
+          "vocab": ["Land", "Sprache", "Stadt", "kommen", "wohnen"]
+        },
+        {
+          "no": 3,
+          "title": "Freunde & Alter",
+          "minutes": 10,
+          "recap": [
+            "Asal dan tempat tinggal sudah aktif.",
+            "Sekarang: teman, umur, dan bentuk plural."
+          ],
+          "slides": [
+            {
+              "title": "Freund & Freundin",
+              "body": [
+                "der Freund — teman laki-laki.",
+                "die Freundin — teman perempuan.",
+                "Mein Freund heißt Budi."
+              ],
+              "example_de": "Meine Freundin kommt aus Bandung.",
+              "example_id": "Teman perempuan saya berasal dari Bandung."
+            },
+            {
+              "title": "Umur",
+              "body": [
+                "Wie alt bist du? — Berapa umurmu?",
+                "Ich bin 24 Jahre alt. — Umur saya 24 tahun.",
+                "Jahre adalah bentuk plural dari Jahr."
+              ],
+              "example_de": "Ich bin 24 Jahre alt.",
+              "example_id": "Umur saya 24 tahun."
+            },
+            {
+              "title": "Plural benda",
+              "body": [
+                "die Freunde — teman-teman (laki-laki/campur).",
+                "die Freundinnen — teman-teman perempuan.",
+                "die Jahre — tahun-tahun.",
+                "Semua plural memakai artikel die."
+              ],
+              "example_de": "Die Freunde lernen Deutsch.",
+              "example_id": "Teman-teman belajar bahasa Jerman."
+            },
+            {
+              "title": "Possessiv mein/meine",
+              "body": [
+                "mein Freund — teman saya (maskulin).",
+                "meine Freundin — teman saya (feminin).",
+                "meine Freunde — teman-teman saya (plural).",
+                "Prasyarat: Asal dan tempat tinggal dari Pelajaran 2; kosakata benda dari Pelajaran 1. Kesalahan umum: 'Ich bin 24 Jahre' tanpa alt; Jahre adalah plural, sedangkan Jahr tunggal. Mein/meine mengikuti gender kata benda. Ringkasan: teman dengan mein/meine, umur dengan Jahre alt, plural memakai die."
+              ],
+              "example_de": "Meine Freundin wohnt in Jakarta.",
+              "example_id": "Teman perempuan saya tinggal di Jakarta."
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Freund", "Freundin", "Jahr"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D2", "D3", "D6", "D9"] }
+    },
+    {
+      "unit": 2,
+      "title": "Angka, waktu, harga",
+      "goals": [
+        "Menyebut angka, harga, dan jam",
+        "Memakai nama hari dan waktu (heute, morgen, gestern)",
+        "Bertanya dan menjawab harga dengan um/am/im"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Zahlen & Preise",
+          "minutes": 12,
+          "recap": [
+            "Angka Jerman 1–12 perlu dihafal langsung; 13–19 memakai akhiran -zehn.",
+            "Puluhan: 21 = einundzwanzig — satuan dulu, lalu und, lalu puluhan."
+          ],
+          "slides": [
+            {
+              "title": "Angka 1–12",
+              "body": [
+                "eins, zwei, drei, vier, fünf, sechs",
+                "sieben, acht, neun, zehn, elf, zwölf",
+                "Angka dipakai juga untuk umur dan harga."
+              ],
+              "example_de": "eins, zwei, drei, vier, fünf",
+              "example_id": "satu, dua, tiga, empat, lima"
+            },
+            {
+              "title": "13–19: akhiran -zehn",
+              "body": [
+                "dreizehn, vierzehn, fünfzehn",
+                "sechzehn dan siebzehn kehilangan -s/-en",
+                "achtzehn, neunzehn"
+              ],
+              "example_de": "Ich bin achtzehn Jahre alt.",
+              "example_id": "Umur saya delapan belas tahun."
+            },
+            {
+              "title": "Puluhan & satuan",
+              "body": [
+                "zwanzig, dreißig, vierzig, fünfzig, sechzig",
+                "21 = einundzwanzig, 22 = zweiundzwanzig",
+                "35 = fünfunddreißig, 99 = neunundneunzig"
+              ],
+              "example_de": "Das kostet zweiundzwanzig Euro.",
+              "example_id": "Itu harganya dua puluh dua euro."
+            },
+            {
+              "title": "Harga: Wie viel kostet …?",
+              "body": [
+                "Wie viel kostet das? — Berapa harganya?",
+                "Das kostet zehn Euro. — Harganya sepuluh euro.",
+                "teuer (mahal) ↔ billig (murah)",
+                "Prasyarat: Tidak ada prasyarat khusus; pelajaran ini memperkenalkan angka. Kesalahan umum: 21 bukan 'zwanzigeins' melainkan einundzwanzig; 16 bukan 'sechszehn' melainkan sechzehn. Ringkasan: angka satuan-puluhan dibaca terbalik; 16 dan 17 kehilangan -s/-en."
+              ],
+              "example_de": "Wie viel kostet das Brot? — Drei Euro.",
+              "example_id": "Berapa harga rotinya? — Tiga euro."
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Zahl", "Preis", "Euro", "teuer", "billig"]
+        },
+        {
+          "no": 2,
+          "title": "Uhrzeit & Wochentage",
+          "minutes": 12,
+          "recap": [
+            "Jam ditanyakan dengan Wie viel Uhr ist es? / Wie spät ist es?",
+            "halb acht = 07.30 — setengah menuju delapan, bukan 08.30."
+          ],
+          "slides": [
+            {
+              "title": "Jam penuh",
+              "body": [
+                "Es ist acht Uhr. — Pukul delapan.",
+                "Es ist acht Uhr dreißig. — Pukul 08.30 (formal).",
+                "Uhr dipakai setelah angka jam."
+              ],
+              "example_de": "Es ist zehn Uhr.",
+              "example_id": "Sekarang pukul sepuluh."
+            },
+            {
+              "title": "halb & viertel",
+              "body": [
+                "halb neun = 08.30 (setengah menuju sembilan).",
+                "viertel nach acht = 08.15.",
+                "viertel vor neun = 08.45."
+              ],
+              "example_de": "Es ist halb sieben.",
+              "example_id": "Sekarang pukul 06.30."
+            },
+            {
+              "title": "Nama hari",
+              "body": [
+                "Montag, Dienstag, Mittwoch, Donnerstag",
+                "Freitag, Samstag, Sonntag",
+                "Semua hari maskulin: der Montag."
+              ],
+              "example_de": "Am Montag beginnt der Kurs.",
+              "example_id": "Hari Senin kursusnya mulai."
+            },
+            {
+              "title": "Menanyakan jadwal",
+              "body": [
+                "Wann beginnt der Kurs? — Kapan kursusnya mulai?",
+                "Um acht Uhr. — Pukul delapan.",
+                "Am Wochenende habe ich frei.",
+                "Prasyarat: Angka dari Pelajaran 1. Kesalahan umum: halb neun = 08.30, bukan 09.30; viertel vor neun = 08.45, viertel nach neun = 09.15. Ringkasan: jam penuh, halb, viertel nach/vor, dan nama hari maskulin."
+              ],
+              "example_de": "Wann beginnt der Deutschkurs?",
+              "example_id": "Kapan kursus bahasa Jerman mulai?"
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Uhr", "Stunde", "Minute", "Montag", "Wochenende"]
+        },
+        {
+          "no": 3,
+          "title": "Zeitausdrücke: um, am, im",
+          "minutes": 12,
+          "recap": [
+            "um + jam, am + hari/bagian hari, im + bulan/musim.",
+            "heute, morgen, gestern berdiri tanpa preposisi."
+          ],
+          "slides": [
+            {
+              "title": "um + jam",
+              "body": [
+                "um acht Uhr — pukul delapan",
+                "um halb neun — pukul 08.30",
+                "Der Film beginnt um zwanzig Uhr."
+              ],
+              "example_de": "Der Zug fährt um neun Uhr.",
+              "example_id": "Keretanya berangkat pukul sembilan."
+            },
+            {
+              "title": "am + hari / bagian hari",
+              "body": [
+                "am Montag — pada hari Senin",
+                "am Morgen, am Abend — pagi, malam",
+                "am Wochenende — pada akhir pekan"
+              ],
+              "example_de": "Am Abend lerne ich Deutsch.",
+              "example_id": "Pada malam hari saya belajar bahasa Jerman."
+            },
+            {
+              "title": "im + bulan / musim",
+              "body": [
+                "im Januar, im Mai — pada bulan Januari, Mei",
+                "im Sommer, im Winter — pada musim panas, dingin",
+                "in + kota: in Berlin"
+              ],
+              "example_de": "Im Sommer fahren wir nach Deutschland.",
+              "example_id": "Pada musim panas kami pergi ke Jerman."
+            },
+            {
+              "title": "Tanpa preposisi",
+              "body": [
+                "heute — hari ini",
+                "morgen — besok",
+                "gestern — kemarin",
+                "Jetzt lerne ich. — Sekarang saya belajar.",
+                "Prasyarat: Jam dan hari dari Pelajaran 2. Kesalahan umum: memakai am untuk jam (am neun Uhr) atau um untuk hari; heute/morgen/gestern tidak memakai preposisi. Ringkasan: um + jam, am + hari/bagian hari, im + bulan/musim."
+              ],
+              "example_de": "Heute habe ich keine Zeit.",
+              "example_id": "Hari ini saya tidak punya waktu."
+            }
+          ],
+          "drill": { "code": "D9", "count": 5 },
+          "vocab": ["heute", "morgen", "gestern", "Zeit", "Woche"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D2", "D3", "D6", "D9"] }
+    },
+    {
+      "unit": 3,
+      "title": "Keluarga & hubungan",
+      "goals": [
+        "Menyebut anggota keluarga dengan artikel yang benar",
+        "Menceritakan status dan jumlah saudara",
+        "Memakai mein/meine dan kalimat dengan objek Akkusativ"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Meine Familie",
+          "minutes": 12,
+          "recap": [
+            "Anggota keluarga selalu membawa artikel: der Vater, die Mutter, das Kind.",
+            "mein/meine mengikuti jenis kelamin kata yang dimiliki."
+          ],
+          "slides": [
+            {
+              "title": "Keluarga inti",
+              "body": [
+                "der Vater — ayah, die Mutter — ibu",
+                "die Eltern — orang tua (jamak)",
+                "der Sohn — anak laki-laki, die Tochter — anak perempuan",
+                "das Kind — anak"
+              ],
+              "example_de": "Das ist meine Familie.",
+              "example_id": "Ini keluarga saya."
+            },
+            {
+              "title": "Saudara",
+              "body": [
+                "der Bruder — saudara laki-laki",
+                "die Schwester — saudara perempuan",
+                "die Geschwister — saudara kandung (jamak)",
+                "Mein Bruder heißt Andi."
+              ],
+              "example_de": "Ich habe eine Schwester.",
+              "example_id": "Saya punya seorang saudara perempuan."
+            },
+            {
+              "title": "Kakek, nenek, paman, bibi",
+              "body": [
+                "der Großvater, die Großmutter",
+                "der Onkel, die Tante",
+                "der Cousin, die Cousine"
+              ],
+              "example_de": "Meine Großmutter wohnt bei uns.",
+              "example_id": "Nenek saya tinggal bersama kami."
+            },
+            {
+              "title": "mein & meine",
+              "body": [
+                "maskulin/netral: mein Vater, mein Kind",
+                "feminin/jamak: meine Mutter, meine Eltern",
+                "Perhatikan akhiran -e pada kata feminin.",
+                "Prasyarat: Tidak ada prasyarat khusus; artikel dan kosakata keluarga diperkenalkan di sini. Kesalahan umum: 'der Mutter' atau 'die Vater'; artikel harus dihafal bersama kata. Eltern/Geschwister selalu jamak. Ringkasan: artikel der/die/das dan keluarga inti/extended."
+              ],
+              "example_de": "Mein Vater und meine Mutter kommen heute.",
+              "example_id": "Ayah dan ibu saya datang hari ini."
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Familie", "Mutter", "Vater", "Kind", "Bruder"]
+        },
+        {
+          "no": 2,
+          "title": "Eltern, Geschwister & Status",
+          "minutes": 12,
+          "recap": [
+            "Kata jamak seperti Eltern dan Geschwister tidak punya bentuk tunggal yang dipakai.",
+            "Status: verheiratet, ledig, geschieden."
+          ],
+          "slides": [
+            {
+              "title": "Kata yang selalu jamak",
+              "body": [
+                "die Eltern — orang tua",
+                "die Geschwister — saudara kandung",
+                "Kata kerjanya juga jamak: Meine Eltern wohnen …"
+              ],
+              "example_de": "Meine Geschwister wohnen in Jakarta.",
+              "example_id": "Saudara-saudara saya tinggal di Jakarta."
+            },
+            {
+              "title": "Menanyakan jumlah",
+              "body": [
+                "Wie viele Geschwister hast du? — Berapa saudaramu?",
+                "Ich habe zwei Geschwister.",
+                "Satu orang: einen Bruder / eine Schwester."
+              ],
+              "example_de": "Wie viele Kinder haben Sie?",
+              "example_id": "Berapa anak Anda?"
+            },
+            {
+              "title": "Status pernikahan",
+              "body": [
+                "verheiratet — menikah",
+                "ledig — belum menikah",
+                "geschieden — bercerai",
+                "Meine Schwester ist verheiratet."
+              ],
+              "example_de": "Sind Sie verheiratet? — Nein, ich bin ledig.",
+              "example_id": "Apakah Anda sudah menikah? — Tidak, saya belum."
+            },
+            {
+              "title": "Tinggal bersama",
+              "body": [
+                "zusammen — bersama",
+                "Wir wohnen zusammen.",
+                "Meine Familie wohnt in Bandung.",
+                "Prasyarat: Artikel, bentuk plural, dan kosakata keluarga dari Pelajaran 1. Kesalahan umum: 'Ich bin zwei Geschwister' (seharusnya Ich habe zwei Geschwister); ledig bukan geschieden; einen Bruder/eine Schwester. Ringkasan: jumlah saudara dengan haben, status dengan sein, bentuk einen/eine."
+              ],
+              "example_de": "Mein Partner und ich wohnen zusammen.",
+              "example_id": "Pasangan saya dan saya tinggal bersama."
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Eltern", "Geschwister", "Schwester", "verheiratet", "ledig"]
+        },
+        {
+          "no": 3,
+          "title": "Possessiv & besuchen",
+          "minutes": 12,
+          "recap": [
+            "besuchen memakai objek Akkusativ: Ich besuche meinen Onkel.",
+            "meinen untuk maskulin Akkusativ; meine tetap untuk feminin/jamak."
+          ],
+          "slides": [
+            {
+              "title": "mein, dein, sein, ihr",
+              "body": [
+                "mein Bruder — saudara laki-laki saya",
+                "deine Schwester — saudara perempuanmu",
+                "seine Mutter — ibunya (laki-laki)",
+                "ihre Eltern — orang tuanya (perempuan)"
+              ],
+              "example_de": "Sein Vater ist Arzt.",
+              "example_id": "Ayahnya seorang dokter."
+            },
+            {
+              "title": "Akkusativ setelah besuchen",
+              "body": [
+                "maskulin: den / meinen Vater",
+                "feminin: die / meine Mutter (tidak berubah)",
+                "netral: das / mein Kind (tidak berubah)",
+                "jamak: die / meine Eltern"
+              ],
+              "example_de": "Ich besuche meinen Onkel.",
+              "example_id": "Saya mengunjungi paman saya."
+            },
+            {
+              "title": "Kalimat dengan dua keterangan",
+              "body": [
+                "Am Wochenende besuche ich meine Tante.",
+                "Keterangan waktu di posisi 1 → verb di posisi 2.",
+                "Heute besuchen wir unsere Großeltern."
+              ],
+              "example_de": "Am Sonntag besuche ich meine Großmutter.",
+              "example_id": "Hari Minggu saya mengunjungi nenek saya."
+            },
+            {
+              "title": "Berbicara tentang perasaan",
+              "body": [
+                "Ich liebe meine Familie. — Saya mencintai keluarga saya.",
+                "meine Familie ist mir wichtig. — keluarga saya penting bagi saya.",
+                "lieben untuk orang, mögen untuk benda/kegiatan.",
+                "Prasyarat: mein/meine dari Pelajaran 1; keluarga dan status dari Pelajaran 2. Kesalahan umum: 'Ich besuche mein Onkel' (harus meinen Onkel); dein/sein/ihr mengikuti pemilik, bukan gender benda saja. Ringkasan: possessiv sesuai pemilik dan Akkusativ setelah besuchen."
+              ],
+              "example_de": "Ich liebe meine Familie sehr.",
+              "example_id": "Saya sangat mencintai keluarga saya."
+            }
+          ],
+          "drill": { "code": "D4", "count": 5 },
+          "vocab": ["Onkel", "Tante", "Cousin", "Cousine", "besuchen"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D2", "D3", "D4", "D6"] }
+    },
+    {
+      "unit": 4,
+      "title": "Makanan & minuman",
+      "goals": [
+        "Menyebut makanan dan minuman dengan artikel yang benar",
+        "Memesan di restoran dengan möchte + Akkusativ",
+        "Menceritakan waktu makan dan kebiasaan makan"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Essen & Trinken",
+          "minutes": 12,
+          "recap": [
+            "Makanan membawa tiga artikel: der Käse, die Milch, das Brot.",
+            "Beberapa kata benda massal tidak punya bentuk jamak yang dipakai (Milch, Obst, Fleisch)."
+          ],
+          "slides": [
+            {
+              "title": "Di meja makan",
+              "body": [
+                "das Brot, das Brötchen — roti, roti kecil",
+                "der Käse — keju, die Milch — susu",
+                "das Wasser — air, der Kaffee — kopi, der Tee — teh"
+              ],
+              "example_de": "Zum Frühstück esse ich Brot mit Käse.",
+              "example_id": "Untuk sarapan saya makan roti dengan keju."
+            },
+            {
+              "title": "Buah & sayur",
+              "body": [
+                "der Apfel, die Banane — apel, pisang",
+                "das Gemüse — sayur, das Obst — buah-buahan",
+                "Ich esse viel Obst und Gemüse."
+              ],
+              "example_de": "Der Apfel ist rot und süß.",
+              "example_id": "Apelnya merah dan manis."
+            },
+            {
+              "title": "Lauk & bumbu",
+              "body": [
+                "das Fleisch — daging, der Fisch — ikan",
+                "der Reis — nasi, die Kartoffel — kentang",
+                "der Zucker — gula, das Salz — garam"
+              ],
+              "example_de": "Ich esse Fisch mit Reis.",
+              "example_id": "Saya makan ikan dengan nasi."
+            },
+            {
+              "title": "Rasa & keadaan",
+              "body": [
+                "lecker — enak (makanan)",
+                "hungrig — lapar, durstig — haus",
+                "Ich bin hungrig. — Saya lapar.",
+                "Prasyarat: Tidak ada prasyarat khusus; kosakata makanan diperkenalkan di sini. Kesalahan umum: artikel makanan harus dihafal; Milch/Obst/Fleisch adalah kata massal sehingga tidak dipakai dengan ein atau plural biasa. Ringkasan: artikel der/die/das dan kata massal dalam konteks makan."
+              ],
+              "example_de": "Der Kuchen ist lecker!",
+              "example_id": "Kuenya enak!"
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Brot", "Käse", "Milch", "Kaffee", "Apfel"]
+        },
+        {
+          "no": 2,
+          "title": "Im Restaurant bestellen",
+          "minutes": 12,
+          "recap": [
+            "möchte + objek Akkusativ: Ich möchte einen Kaffee.",
+            "Maskulin Akkusativ berubah: der/das → den/das, feminin tetap die."
+          ],
+          "slides": [
+            {
+              "title": "Memesan dengan sopan",
+              "body": [
+                "Ich möchte … — Saya ingin …",
+                "Ich möchte einen Tee, bitte.",
+                "Möchten Sie etwas trinken?"
+              ],
+              "example_de": "Ich möchte einen Kaffee, bitte.",
+              "example_id": "Saya ingin kopi, tolong."
+            },
+            {
+              "title": "Akkusativ maskulin",
+              "body": [
+                "der Kaffee → einen Kaffee",
+                "der Saft → einen Saft",
+                "die Milch tetap die Milch",
+                "das Wasser tetap das Wasser"
+              ],
+              "example_de": "Ich nehme einen Saft.",
+              "example_id": "Saya ambil jus."
+            },
+            {
+              "title": "Menanyakan & memilih",
+              "body": [
+                "Was möchten Sie? — Apa yang Anda inginkan?",
+                "Was empfehlen Sie? — Apa yang Anda rekomendasikan?",
+                "Die Speisekarte, bitte. — Menu, tolong."
+              ],
+              "example_de": "Was möchten Sie essen?",
+              "example_id": "Apa yang ingin Anda makan?"
+            },
+            {
+              "title": "Membayar",
+              "body": [
+                "Die Rechnung, bitte. — Tagihannya, tolong.",
+                "Zusammen oder getrennt? — Bersama atau terpisah?",
+                "Ich zahle mit Karte.",
+                "Prasyarat: Artikel dan kosakata makanan dari Pelajaran 1. Kesalahan umum: 'Ich möchte ein Kaffee' (harus einen Kaffee); bitte membuat pesanan sopan; zusammen/getrennt untuk pembayaran. Ringkasan: möchte + Akkusativ, menu, tagihan, dan cara membayar."
+              ],
+              "example_de": "Die Rechnung, bitte. — Zusammen, bitte.",
+              "example_id": "Tagihannya, tolong. — Bersama, tolong."
+            }
+          ],
+          "drill": { "code": "D4", "count": 5 },
+          "vocab": ["Wasser", "Tee", "Saft", "bestellen", "Rechnung"]
+        },
+        {
+          "no": 3,
+          "title": "Mahlzeiten & Verben",
+          "minutes": 12,
+          "recap": [
+            "Tiga waktu makan: das Frühstück, das Mittagessen, das Abendessen.",
+            "essen dan trinken berubah bentuk: du isst, er isst (bukan esst)."
+          ],
+          "slides": [
+            {
+              "title": "Waktu makan",
+              "body": [
+                "das Frühstück — sarapan (pagi)",
+                "das Mittagessen — makan siang",
+                "das Abendessen — makan malam",
+                "Zum Frühstück … — untuk sarapan …"
+              ],
+              "example_de": "Zum Abendessen gibt es Fisch.",
+              "example_id": "Untuk makan malam ada ikan."
+            },
+            {
+              "title": "essen — bentuk tidak beraturan",
+              "body": [
+                "ich esse, du isst, er/sie/es isst",
+                "wir essen, ihr esst, sie/Sie essen",
+                "Perhatikan: du isst dan er isst sama."
+              ],
+              "example_de": "Was isst du zum Frühstück?",
+              "example_id": "Apa yang kamu makan untuk sarapan?"
+            },
+            {
+              "title": "trinken & kaufen (beraturan)",
+              "body": [
+                "trinken: ich trinke, du trinkst, er trinkt",
+                "kaufen: ich kaufe, du kaufst, er kauft",
+                "Ich trinke morgens Kaffee."
+              ],
+              "example_de": "Wir kaufen Brot und Milch.",
+              "example_id": "Kami membeli roti dan susu."
+            },
+            {
+              "title": "Kalimat kebiasaan",
+              "body": [
+                "Am Morgen trinke ich Kaffee.",
+                "Zum Mittagessen esse ich Reis.",
+                "Am Abend koche ich mit meiner Mutter.",
+                "Prasyarat: Kosakata makanan dari Pelajaran 1; pola memesan dari Pelajaran 2. Kesalahan umum: 'du esst' (bentuk benar du isst); waktu makan memakai zum/zum Frühstück, bukan für. Ringkasan: Frühstück/Mittagessen/Abendessen dan konjugasi essen/trinken."
+              ],
+              "example_de": "Am Abend essen wir zusammen.",
+              "example_id": "Pada malam hari kami makan bersama."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Frühstück", "Mittagessen", "Abendessen", "essen", "trinken"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D4", "D6"] }
+    },
+    {
+      "unit": 5,
+      "title": "Belanja & harga",
+      "goals": [
+        "Menyebut pakaian, warna, dan ukuran",
+        "Menanyakan harga serta membayar",
+        "Meminta barang dan menukar barang dengan sopan"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Farben und Größen",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah mengenal angka dan harga sederhana.",
+            "Sekarang tanyakan warna, ukuran, dan pakaian yang dicari."
+          ],
+          "slides": [
+            {
+              "title": "Kata sifat warna",
+              "body": [
+                "Warna biasanya mengikuti kata benda: eine blaue Jacke, ein rotes Kleid.",
+                "Setelah sein, kata sifat tidak berubah: Die Jacke ist blau.",
+                "Warna umum: schwarz, weiß, rot, blau, grün."
+              ],
+              "example_de": "Die blaue Jacke ist schön.",
+              "example_id": "Jaket biru itu bagus."
+            },
+            {
+              "title": "Menanyakan ukuran",
+              "body": [
+                "Welche Größe tragen Sie? — Ukuran berapa yang Anda pakai?",
+                "Ich trage Größe 38. — Saya memakai ukuran 38.",
+                "Pas atau tidak: Die Hose passt mir. / Die Schuhe sind zu klein."
+              ],
+              "example_de": "Haben Sie die Schuhe auch in Größe 39?",
+              "example_id": "Apakah sepatu ini juga ada ukuran 39?"
+            },
+            {
+              "title": "Akkusativ: mencari barang",
+              "body": [
+                "Setelah suchen, kata benda yang dicari memakai Akkusativ.",
+                "der Mantel → einen Mantel; die Jacke → eine Jacke; das Kleid → ein Kleid.",
+                "Artikel plural tetap die: Ich suche die Schuhe.",
+                "Prasyarat: Artikel dan Akkusativ dasar dari Unit 1–4. Kesalahan umum: setelah sein kata sifat tetap dasar (Die Jacke ist blau), tetapi di depan kata benda memakai akhiran (eine blaue Jacke). Ringkasan: warna dan keselarasan kata sifat sebelum/ sesudah sein."
+              ],
+              "example_de": "Ich suche einen warmen Mantel.",
+              "example_id": "Saya mencari mantel yang hangat."
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Bluse", "Mantel", "Rock", "Sakko", "Stiefel", "Kleiderbügel", "Knopf", "Sonderpreis"]
+        },
+        {
+          "no": 2,
+          "title": "Im Geschäft",
+          "minutes": 12,
+          "recap": [
+            "Kamu bisa menyebut warna dan ukuran.",
+            "Sekarang berlatih bertanya kepada penjual dan mencoba pakaian."
+          ],
+          "slides": [
+            {
+              "title": "Meminta barang",
+              "body": [
+                "Ich suche … — Saya sedang mencari …",
+                "Haben Sie …? — Apakah Anda punya …?",
+                "Kata benda setelah haben juga memakai Akkusativ."
+              ],
+              "example_de": "Haben Sie eine schwarze Hose?",
+              "example_id": "Apakah Anda punya celana hitam?"
+            },
+            {
+              "title": "Mencoba pakaian",
+              "body": [
+                "anprobieren adalah verba pisah: Ich probiere die Jacke an.",
+                "Bentuk du: du probierst … an; bentuk Sie: Sie probieren … an.",
+                "Frasa di ruang ganti: Wo ist die Umkleidekabine?"
+              ],
+              "example_de": "Kann ich das Kleid anprobieren?",
+              "example_id": "Bolehkah saya mencoba gaun ini?"
+            },
+            {
+              "title": "Menyatakan cocok",
+              "body": [
+                "passen: Die Schuhe passen mir. — Sepatunya pas untuk saya.",
+                "zu groß/klein/lang/kurz berarti terlalu besar/kecil/panjang/pendek.",
+                "Warna setelah sein tetap bentuk dasar.",
+                "Prasyarat: Warna dan kata sifat dari Pelajaran 1; artikel dan Akkusativ dasar dari Unit 1–4. Kesalahan umum: anprobieren adalah verba pisah (ich probiere ... an); passen untuk ukuran, nicht gefallen untuk selera. Ringkasan: ukuran, passen, zu groß/klein, dan ruang ganti."
+              ],
+              "example_de": "Der Mantel ist zu lang, aber die Jacke passt.",
+              "example_id": "Mantelnya terlalu panjang, tetapi jaketnya pas."
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Kleiderbügel", "Knopf", "Sonderpreis", "Einkaufstasche", "Einkaufszentrum", "Preisschild", "Umkleidekabine", "Gutschein"]
+        },
+        {
+          "no": 3,
+          "title": "Bezahlen und umtauschen",
+          "minutes": 12,
+          "recap": [
+            "Pilih barang yang cocok, lalu periksa harga dan ukurannya.",
+            "Simpan struk jika barang perlu ditukar."
+          ],
+          "slides": [
+            {
+              "title": "Menanyakan harga",
+              "body": [
+                "Was kostet …? — Berapa harga …?",
+                "Das kostet 25 Euro. — Harganya 25 euro.",
+                "Am Angebot berarti barang itu sedang ditawarkan dengan harga khusus."
+              ],
+              "example_de": "Was kostet die blaue Jacke?",
+              "example_id": "Berapa harga jaket biru itu?"
+            },
+            {
+              "title": "Membayar di kasir",
+              "body": [
+                "Ich bezahle bar. — Saya membayar tunai.",
+                "Ich bezahle mit Karte. — Saya membayar dengan kartu.",
+                "die Quittung adalah bukti pembelian."
+              ],
+              "example_de": "Kann ich mit Karte bezahlen?",
+              "example_id": "Bisakah saya membayar dengan kartu?"
+            },
+            {
+              "title": "Menukar barang",
+              "body": [
+                "Ich möchte … umtauschen. — Saya ingin menukar …",
+                "Bawa barang dan struk ke toko.",
+                "Sampaikan alasannya dengan kalimat sederhana: Die Größe passt nicht.",
+                "Prasyarat: Angka dan harga dari Unit 2; pola belanja dari Pelajaran 1–2. Kesalahan umum: 'Ich möchte die Hose umtauschen' (bukan umtausche di tengah); mit Karte/bar dan Quittung. Ringkasan: harga, pembayaran, dan penukaran barang."
+              ],
+              "example_de": "Ich möchte die Hose umtauschen.",
+              "example_id": "Saya ingin menukar celana ini."
+            }
+          ],
+          "drill": { "code": "D4", "count": 5 },
+          "vocab": ["Preisschild", "Umkleidekabine", "Gutschein", "Kassenzettel", "Rückgabe", "Bluse", "Mantel", "Rock"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D4", "D6", "D9"] }
+    },
+    {
+      "unit": 6,
+      "title": "Rumah & tempat tinggal",
+      "goals": [
+        "Menyebut bagian rumah dan perabot",
+        "Menjelaskan letak benda di rumah",
+        "Membicarakan pekerjaan rumah sederhana"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Zimmer und Möbel",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah tahu cara menyebut rumah dan kamar.",
+            "Tambahkan perabot dan fasilitas rumah ke kosakatamu."
+          ],
+          "slides": [
+            {
+              "title": "Benda di rumah",
+              "body": [
+                "Gunakan artikel saat menyebut benda: der Teppich, die Gardine, das Möbelstück.",
+                "Plural kata majemuk mengikuti kata terakhir: der Briefkasten → die Briefkästen.",
+                "Sebutkan ruangan: in der Küche, im Wohnzimmer, im Keller."
+              ],
+              "example_de": "Im Schlafzimmer liegt ein Teppich.",
+              "example_id": "Di kamar tidur ada sebuah karpet."
+            },
+            {
+              "title": "Es gibt + Akkusativ",
+              "body": [
+                "Es gibt berarti ada/terdapat.",
+                "Setelah es gibt, kata benda memakai Akkusativ: einen Keller, eine Waschmaschine, ein Bücherregal.",
+                "Untuk plural: Es gibt zwei Briefkästen."
+              ],
+              "example_de": "In unserer Wohnung gibt es eine Spülmaschine.",
+              "example_id": "Di apartemen kami ada mesin pencuci piring."
+            },
+            {
+              "title": "Mendeskripsikan kamar",
+              "body": [
+                "hell = terang; dunkel = gelap; gemütlich = nyaman.",
+                "Adjektiva setelah sein tidak berubah: Das Zimmer ist hell.",
+                "Gabungkan ukuran, warna, dan benda untuk memberi detail.",
+                "Prasyarat: Tidak ada prasyarat khusus; kosakata ruangan dan perabot diperkenalkan di sini. Kesalahan umum: 'in der Schrank' (Schrank maskulin, im Schrank); plural memakai die, bukan der/das. Ringkasan: ruangan/perabot, artikel, plural, dan es gibt."
+              ],
+              "example_de": "Der Sessel ist klein und sehr gemütlich.",
+              "example_id": "Kursi berlengan itu kecil dan sangat nyaman."
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Gardine", "Wäschetrockner", "Steckdose", "Dachboden", "Keller", "Heizkörper", "Möbelstück", "Spülmaschine"]
+        },
+        {
+          "no": 2,
+          "title": "Wo steht was?",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah bisa menyebut perabot.",
+            "Jelaskan sekarang di mana benda berada."
+          ],
+          "slides": [
+            {
+              "title": "Wo? — letak benda",
+              "body": [
+                "Untuk posisi, tanyakan Wo? — Di mana?",
+                "in der Küche / im Keller / auf dem Teppich menjelaskan lokasi.",
+                "im adalah gabungan in + dem."
+              ],
+              "example_de": "Der Schlüssel liegt auf dem Bücherregal.",
+              "example_id": "Kuncinya terletak di atas rak buku."
+            },
+            {
+              "title": "Posisi sein dan stehen",
+              "body": [
+                "stehen dipakai untuk benda yang berdiri: Die Waschmaschine steht im Keller.",
+                "liegen dipakai untuk benda yang terbaring: Der Teppich liegt im Flur.",
+                "sein juga benar untuk menyebut lokasi secara umum."
+              ],
+              "example_de": "Die Matratze ist im Schlafzimmer.",
+              "example_id": "Kasurnya berada di kamar tidur."
+            },
+            {
+              "title": "Tempat dan arah",
+              "body": [
+                "Wo? → lokasi: Der Sessel steht im Wohnzimmer.",
+                "Wohin? → tujuan: Ich stelle den Sessel ins Wohnzimmer.",
+                "in das sering disingkat ins.",
+                "Prasyarat: Artikel perabot dan kosakata ruangan dari Pelajaran 1. Kesalahan umum: mencampur Wo? (Dativ) dan Wohin? (Akkusativ); stehen untuk benda berdiri, liegen untuk terbaring. Ringkasan: letak dengan Wo?/Dativ dan arah dengan Wohin?/Akkusativ."
+              ],
+              "example_de": "Wir stellen das Bücherregal ins Arbeitszimmer.",
+              "example_id": "Kami menaruh rak buku ke ruang kerja."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Heizkörper", "Möbelstück", "Spülmaschine", "Türschloss", "Türmatte", "Bücherregal", "Sessel", "Matratze"]
+        },
+        {
+          "no": 3,
+          "title": "Arbeit im Haushalt",
+          "minutes": 12,
+          "recap": [
+            "Kamu bisa menyebut lokasi benda.",
+            "Sekarang bicarakan pekerjaan rumah yang dilakukan setiap minggu."
+          ],
+          "slides": [
+            {
+              "title": "Verba pisah aufräumen",
+              "body": [
+                "aufräumen berarti membereskan.",
+                "Dalam kalimat utama, awalan pisah pindah ke akhir: Ich räume das Zimmer auf.",
+                "Bentuk du: du räumst … auf."
+              ],
+              "example_de": "Am Samstag räumen wir den Keller auf.",
+              "example_id": "Pada hari Sabtu kami membereskan ruang bawah tanah."
+            },
+            {
+              "title": "Tugas rumah",
+              "body": [
+                "waschen = mencuci; putzen = membersihkan; aufräumen = membereskan.",
+                "Kata kerja setelah subjek berubah sesuai orang: ich putze, er putzt.",
+                "Benda yang dikenai pekerjaan memakai Akkusativ."
+              ],
+              "example_de": "Ich putze die Waschmaschine.",
+              "example_id": "Saya membersihkan mesin cuci."
+            },
+            {
+              "title": "Müssen untuk kewajiban",
+              "body": [
+                "müssen = harus; bentuknya: ich muss, du musst, er muss, wir müssen.",
+                "Setelah modal verb, verba lain berbentuk infinitif di akhir.",
+                "Kalimat negasi: Heute müssen wir nicht aufräumen.",
+                "Prasyarat: Kosakata ruangan dan perabot dari Pelajaran 1–2. Kesalahan umum: 'Ich räume auf das Zimmer' (awalan an di akhir: Ich räume das Zimmer auf); setelah müssen verba utama infinitif di akhir. Ringkasan: aufräumen pisah, putzen/waschen, müssen + infinitif."
+              ],
+              "example_de": "Wir müssen die Gardinen heute waschen.",
+              "example_id": "Kami harus mencuci gorden hari ini."
+            }
+          ],
+          "drill": { "code": "D3", "count": 5 },
+          "vocab": ["Bücherregal", "Sessel", "Matratze", "Fußboden", "Rollladen", "Gardine", "Wäschetrockner", "Steckdose"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D2", "D3", "D4", "D6", "D9", "D10"] }
+    },
+    {
+      "unit": 7,
+      "title": "Kota & petunjuk arah",
+      "goals": [
+        "Mengenali tempat umum di kota",
+        "Meminta dan memberi petunjuk arah",
+        "Menyebut cara pergi ke suatu tempat"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Orte in der Stadt",
+          "minutes": 12,
+          "recap": [
+            "Kamu telah belajar menyebut kota dan tempat tinggal.",
+            "Sekarang temukan tempat penting di pusat kota."
+          ],
+          "slides": [
+            {
+              "title": "Tempat umum",
+              "body": [
+                "Kantor dan layanan: das Rathaus, die Post, die Polizeiwache.",
+                "Untuk belajar dan membeli kebutuhan: die Bibliothek, die Apotheke, die Bäckerei.",
+                "Tempat-tempat umum memakai artikel yang harus dihafalkan bersama kata."
+              ],
+              "example_de": "Die Apotheke ist neben der Post.",
+              "example_id": "Apotek berada di sebelah kantor pos."
+            },
+            {
+              "title": "Letak relatif",
+              "body": [
+                "neben = di sebelah; gegenüber = berseberangan; zwischen = di antara.",
+                "Kata-kata ini membantu menjelaskan posisi pada peta.",
+                "Gunakan ist untuk menghubungkan tempat dengan lokasinya."
+              ],
+              "example_de": "Das Rathaus liegt gegenüber der Bibliothek.",
+              "example_id": "Balai kota berada di seberang perpustakaan."
+            },
+            {
+              "title": "Kota dan peta",
+              "body": [
+                "der Stadtplan berarti peta kota.",
+                "Pusat kota: im Stadtzentrum; zona pejalan kaki: in der Fußgängerzone.",
+                "Tanyakan: Wo ist …? — Di mana …?",
+                "Prasyarat: Tidak ada prasyarat khusus; nama tempat umum diperkenalkan di sini. Kesalahan umum: artikel tempat umum harus dihafal; 'im Stadtzentrum' bukan 'in der Stadtzentrum'. Ringkasan: tempat umum, artikel, dan letak di kota."
+              ],
+              "example_de": "Wo ist die Bäckerei?",
+              "example_id": "Di mana toko rotinya?"
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["U-Bahn", "Zebrastreifen", "Wegweiser", "Unterführung", "Bürgeramt", "Postfiliale", "Buchhandlung", "Station"]
+        },
+        {
+          "no": 2,
+          "title": "Nach dem Weg fragen",
+          "minutes": 12,
+          "recap": [
+            "Kamu tahu beberapa tempat umum.",
+            "Gunakan pertanyaan sederhana untuk mencari jalan."
+          ],
+          "slides": [
+            {
+              "title": "Imperatif formal",
+              "body": [
+                "Untuk memberi arahan sopan kepada Sie, gunakan verba bentuk dasar tanpa Sie.",
+                "Gehen Sie geradeaus! — Silakan berjalan lurus!",
+                "Nehmen Sie an der Kreuzung die zweite Straße!"
+              ],
+              "example_de": "Gehen Sie an der Ampel nach links.",
+              "example_id": "Silakan belok kiri di lampu lalu lintas."
+            },
+            {
+              "title": "Kata arah",
+              "body": [
+                "geradeaus = lurus; links = kiri; rechts = kanan.",
+                "an der Kreuzung = di persimpangan; über die Brücke = melewati jembatan.",
+                "Urutan arahan bisa dimulai dengan zuerst, dann, danach."
+              ],
+              "example_de": "Gehen Sie zuerst über die Brücke.",
+              "example_id": "Pertama, silakan melewati jembatan."
+            },
+            {
+              "title": "Frasa meminta bantuan",
+              "body": [
+                "Entschuldigung, wie komme ich zum Rathaus?",
+                "zum adalah gabungan zu + dem.",
+                "Akhiri dengan terima kasih: Vielen Dank für Ihre Hilfe!",
+                "Prasyarat: Nama tempat umum dari Pelajaran 1. Kesalahan umum: memberi perintah dengan 'Gehen du' (untuk Sie: Gehen Sie); zum/zur mengikuti gender tempat. Ringkasan: imperatif formal, arah, dan Wie komme ich zum/zur ...?."
+              ],
+              "example_de": "Wie komme ich zur Bibliothek?",
+              "example_id": "Bagaimana cara saya pergi ke perpustakaan?"
+            }
+          ],
+          "drill": { "code": "D9", "count": 5 },
+          "vocab": ["Postfiliale", "Buchhandlung", "Station", "Fußgängerzone", "Tiefgarage", "Konditorei", "Drogerie", "Polizeiwache"]
+        },
+        {
+          "no": 3,
+          "title": "Mit Bus und Bahn",
+          "minutes": 12,
+          "recap": [
+            "Kamu bisa bertanya arah berjalan kaki.",
+            "Kota juga bisa dijelajahi dengan bus dan trem."
+          ],
+          "slides": [
+            {
+              "title": "Transportasi dengan mit",
+              "body": [
+                "mit berarti dengan dan diikuti Dativ.",
+                "mit dem Bus / mit der Straßenbahn / mit dem Zug.",
+                "zu Fuß berarti berjalan kaki."
+              ],
+              "example_de": "Wir fahren mit der Straßenbahn zum Rathaus.",
+              "example_id": "Kami pergi ke balai kota naik trem."
+            },
+            {
+              "title": "Halte dan parkir",
+              "body": [
+                "die Haltestelle adalah halte umum; die Bushaltestelle khusus bus.",
+                "auf dem Parkplatz = di tempat parkir.",
+                "Untuk tujuan: Ich gehe zur Haltestelle."
+              ],
+              "example_de": "Der Bus hält an der Bushaltestelle.",
+              "example_id": "Bus berhenti di halte bus."
+            },
+            {
+              "title": "Waktu dan perjalanan",
+              "body": [
+                "Kendaraan yang bergerak: fahren; kendaraan berhenti: halten.",
+                "Tanyakan: Wann fährt die Straßenbahn? — Kapan trem berangkat?",
+                "Baca rute dengan Stadtplan atau informasi halte.",
+                "Prasyarat: Arah dan tempat dari Pelajaran 1–2. Kesalahan umum: 'mit der Bus' (Bus maskulin: mit dem Bus); halten menjadi er hält, bukan haltet. Ringkasan: mit + Dativ, fahren/halten, Haltestelle, dan zu Fuß."
+              ],
+              "example_de": "Die Straßenbahn fährt um zehn Uhr.",
+              "example_id": "Trem berangkat pukul sepuluh."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Konditorei", "Drogerie", "Polizeiwache", "Bushaltestelle", "Stadtplan", "U-Bahn", "Zebrastreifen", "Wegweiser"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D6", "D9"] }
+    },
+    {
+      "unit": 8,
+      "title": "Pekerjaan & kegiatan harian",
+      "goals": [
+        "Menceritakan rutinitas kerja",
+        "Menyebut jadwal kerja dan waktu istirahat",
+        "Membicarakan tugas serta kemampuan di tempat kerja"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Ein Arbeitstag",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah bisa menyebut waktu dan kegiatan harian.",
+            "Sekarang ceritakan rutinitas di tempat kerja."
+          ],
+          "slides": [
+            {
+              "title": "Urutan kegiatan",
+              "body": [
+                "erst = pertama; dann = lalu; danach = sesudah itu.",
+                "Letakkan penanda waktu di awal, lalu verba tetap di posisi kedua.",
+                "Am Morgen beginne ich um sieben Uhr."
+              ],
+              "example_de": "Danach beginnt die Besprechung.",
+              "example_id": "Sesudah itu rapat dimulai."
+            },
+            {
+              "title": "Kata kerja pisah anfangen",
+              "body": [
+                "anfangen berarti mulai dan merupakan verba pisah.",
+                "ich fange an; du fängst an; wir fangen an.",
+                "Awalan an berada di akhir kalimat utama."
+              ],
+              "example_de": "Meine Frühschicht fängt um sechs Uhr an.",
+              "example_id": "Shift pagi saya mulai pukul enam."
+            },
+            {
+              "title": "Tempat kerja",
+              "body": [
+                "am Arbeitsplatz = di tempat kerja; am Schreibtisch = di meja kerja.",
+                "in der Abteilung berarti di departemen.",
+                "Kata benda selalu dipakai bersama artikelnya.",
+                "Prasyarat: Pola kalimat dan waktu dari Unit 2; preposisi tempat dari Unit 6–7. Kesalahan umum: erst/dann/danach tidak boleh menggeser verba finit dari posisi kedua; anfangen pisah: ich fange ... an. Ringkasan: urutan kegiatan, verba posisi kedua, dan verba pisah anfangen."
+              ],
+              "example_de": "Meine Kollegin arbeitet in einer anderen Abteilung.",
+              "example_id": "Rekan kerja perempuan saya bekerja di departemen lain."
+            }
+          ],
+          "drill": { "code": "D3", "count": 5 },
+          "vocab": ["Dienstplan", "Dienstreise", "Bürogebäude", "Lohnabrechnung", "Teamleiterin", "Empfang", "Kantine", "Aktenordner"]
+        },
+        {
+          "no": 2,
+          "title": "Aufgaben und Kollegen",
+          "minutes": 12,
+          "recap": [
+            "Kamu bisa menyusun jadwal kerja.",
+            "Sekarang bicarakan orang dan pekerjaan di kantor."
+          ],
+          "slides": [
+            {
+              "title": "Tugas sehari-hari",
+              "body": [
+                "die Aufgabe adalah tugas; die Besprechung adalah rapat.",
+                "eine Aufgabe erledigen berarti menyelesaikan tugas.",
+                "Kata kerja reguler: ich erledige, du erledigst, er erledigt."
+              ],
+              "example_de": "Ich erledige die Aufgabe vor der Pause.",
+              "example_id": "Saya menyelesaikan tugas sebelum istirahat."
+            },
+            {
+              "title": "Membuat kalimat dengan mit",
+              "body": [
+                "mit meiner Kollegin berarti bersama rekan kerja perempuan saya.",
+                "mit + Dativ: mit meinem Kollegen / mit meiner Kollegin.",
+                "Gunakan zusammen untuk menegaskan kegiatan bersama."
+              ],
+              "example_de": "Wir sprechen mit unserer Kollegin.",
+              "example_id": "Kami berbicara dengan rekan kerja perempuan kami."
+            },
+            {
+              "title": "Bewerbung dan Lebenslauf",
+              "body": [
+                "die Bewerbung adalah lamaran kerja; der Lebenslauf adalah CV.",
+                "Ich schreibe eine Bewerbung. — Saya menulis lamaran.",
+                "Artikel maskulin berubah menjadi einen setelah schreiben? Tidak: schreiben di sini memakai objek Akkusativ: einen Lebenslauf.",
+                "Prasyarat: Kosakata tempat kerja dari Pelajaran 1. Kesalahan umum: 'Ich erledige mit meiner Kollegin die Aufgabe' menempatkan mit salah; mit + Dativ dan objek Akkusativ. Ringkasan: Aufgabe erledigen, Besprechung, Bewerbung/Lebenslauf, mit + Dativ."
+              ],
+              "example_de": "Sie schreibt einen Lebenslauf.",
+              "example_id": "Dia menulis sebuah daftar riwayat hidup."
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Empfang", "Kantine", "Aktenordner", "Schulungsraum", "Pausenbrot", "Frühschicht", "Pausenraum", "Arbeitsweg"]
+        },
+        {
+          "no": 3,
+          "title": "Arbeitszeit und Pflichten",
+          "minutes": 12,
+          "recap": [
+            "Tugas dan jadwal kerja sudah dikenali.",
+            "Gunakan modal verbs untuk menyebut kemampuan dan kewajiban."
+          ],
+          "slides": [
+            {
+              "title": "Müssen — kewajiban",
+              "body": [
+                "müssen: ich muss, du musst, er/sie muss, wir müssen.",
+                "Modal verb berubah sesuai subjek; verba utama tetap infinitif di akhir.",
+                "Heute muss ich bis fünf Uhr arbeiten."
+              ],
+              "example_de": "Wir müssen um zwölf Uhr eine Pause machen.",
+              "example_id": "Kami harus beristirahat pukul dua belas."
+            },
+            {
+              "title": "Können — kemampuan",
+              "body": [
+                "können: ich kann, du kannst, er kann, wir können.",
+                "Letakkan verba kedua dalam bentuk infinitif di akhir.",
+                "Kannst du das Werkzeug holen? — Bisakah kamu mengambil perkakas itu?"
+              ],
+              "example_de": "Sie kann heute früher Feierabend machen.",
+              "example_id": "Dia bisa pulang kerja lebih awal hari ini."
+            },
+            {
+              "title": "Jam kerja von … bis",
+              "body": [
+                "von … bis … berarti dari … sampai ….",
+                "von acht bis vier = dari pukul delapan sampai pukul empat.",
+                "Tanyakan: Wie lange dauert deine Schicht?",
+                "Prasyarat: Kosakata tugas dan tempat kerja dari Pelajaran 1–2. Kesalahan umum: setelah modal (muss/kann) verba utama tetap infinitif di akhir; von ... bis untuk rentang waktu. Ringkasan: müssen/können + infinitif, jam kerja, dan istirahat."
+              ],
+              "example_de": "Meine Schicht dauert von sieben bis drei.",
+              "example_id": "Giliran kerja saya berlangsung dari pukul tujuh sampai pukul tiga."
+            }
+          ],
+          "drill": { "code": "D10", "count": 5 },
+          "vocab": ["Frühschicht", "Pausenraum", "Arbeitsweg", "Telefonzentrale", "Mittagspause", "Dienstplan", "Dienstreise", "Bürogebäude"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D4", "D6", "D9", "D10"] }
+    },
+    {
+      "unit": 9,
+      "title": "Kesehatan & tubuh",
+      "goals": [
+        "Menyebut keluhan kesehatan umum",
+        "Membuat janji dan menjelaskan gejala",
+        "Memahami saran sederhana dari dokter"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Körper und Beschwerden",
+          "minutes": 12,
+          "recap": [
+            "Kamu telah belajar menyebut anggota keluarga dan usia.",
+            "Sekarang pelajari kata untuk menyampaikan kondisi tubuh."
+          ],
+          "slides": [
+            {
+              "title": "Keluhan dengan haben",
+              "body": [
+                "Gunakan haben untuk beberapa keluhan: Ich habe Husten/Fieber/Kopfschmerzen.",
+                "Untuk sakit: Ich habe Halsschmerzen. — Tenggorokan saya sakit.",
+                "Gejala berupa nomina ditulis dengan artikel saat berdiri sendiri."
+              ],
+              "example_de": "Mein Bruder hat Fieber und Husten.",
+              "example_id": "Saudara laki-laki saya demam dan batuk."
+            },
+            {
+              "title": "Bertanya tentang kondisi",
+              "body": [
+                "Was fehlt Ihnen? — Apa keluhan Anda?",
+                "Wie geht es Ihnen? — Bagaimana kabar Anda?",
+                "Mir geht es nicht gut. — Saya merasa tidak enak badan."
+              ],
+              "example_de": "Seit wann haben Sie Kopfschmerzen?",
+              "example_id": "Sejak kapan Anda sakit kepala?"
+            },
+            {
+              "title": "Sejak kapan?",
+              "body": [
+                "seit gestern = sejak kemarin; seit zwei Tagen = selama dua hari.",
+                "seit dipakai untuk keadaan yang masih berlangsung.",
+                "Jawab singkat dengan durasi dan gejala.",
+                "Prasyarat: Tidak ada prasyarat khusus; keluhan kesehatan diperkenalkan di sini. Kesalahan umum: 'Ich bin Fieber' (harus Ich habe Fieber); Kopfschmerzen/Halsschmerzen berbentuk jamak. Ringkasan: keluhan dengan haben dan artikel/plural yang tepat."
+              ],
+              "example_de": "Ich habe seit zwei Tagen Husten.",
+              "example_id": "Saya batuk sejak dua hari lalu."
+            }
+          ],
+          "drill": { "code": "D1", "count": 5 },
+          "vocab": ["Nasenspray", "Bauchschmerz", "Grippe", "Halsschmerz", "Kopfschmerz", "Versicherungskarte", "Tropfen", "Augentropfen"]
+        },
+        {
+          "no": 2,
+          "title": "Beim Arzt",
+          "minutes": 12,
+          "recap": [
+            "Kamu dapat menyebut gejala dan durasinya.",
+            "Berlatihlah membuat janji serta menjelaskan keluhan."
+          ],
+          "slides": [
+            {
+              "title": "Membuat janji",
+              "body": [
+                "Ich brauche einen Arzttermin. — Saya perlu membuat janji dokter.",
+                "Haben Sie heute einen Termin frei? — Apakah ada jadwal kosong hari ini?",
+                "Am Vormittag / am Nachmittag menjelaskan waktu umum."
+              ],
+              "example_de": "Ich möchte einen Termin am Nachmittag.",
+              "example_id": "Saya ingin janji pada sore hari."
+            },
+            {
+              "title": "Di ruang praktik",
+              "body": [
+                "Bawa die Versicherungskarte ke tempat praktik.",
+                "die Sprechstunde adalah jam dokter menerima pasien.",
+                "Dokter dapat melakukan eine Untersuchung."
+              ],
+              "example_de": "Die Ärztin macht eine kurze Untersuchung.",
+              "example_id": "Dokter perempuan melakukan pemeriksaan singkat."
+            },
+            {
+              "title": "Menjelaskan gejala",
+              "body": [
+                "Mein Hals tut weh. — Tenggorokan saya sakit.",
+                "Ich fühle mich müde. — Saya merasa lelah.",
+                "Jelaskan kapan gejala mulai dan apa yang terasa sakit.",
+                "Prasyarat: Keluhan kesehatan dari Pelajaran 1. Kesalahan umum: 'Mein Hals ist weh' (lebih tepat Mein Hals tut weh); seit dipakai untuk durasi yang masih berlangsung. Ringkasan: janji dokter, Sprechstunde, seit, dan gejala."
+              ],
+              "example_de": "Ich habe Fieber und mein Hals tut weh.",
+              "example_id": "Saya demam dan tenggorokan saya sakit."
+            }
+          ],
+          "drill": { "code": "D5", "count": 5 },
+          "vocab": ["Versicherungskarte", "Tropfen", "Augentropfen", "Schmerzmittel", "Apotheker", "Sprechstunde", "Untersuchung", "Arzttermin"]
+        },
+        {
+          "no": 3,
+          "title": "In der Apotheke",
+          "minutes": 12,
+          "recap": [
+            "Dokter sudah memeriksa keluhanmu.",
+            "Ikuti petunjuk obat dan istirahat dengan cukup."
+          ],
+          "slides": [
+            {
+              "title": "Obat dan resep",
+              "body": [
+                "der Apotheker / die Apothekerin bekerja di apotek.",
+                "Das Rezept ist für ein Schmerzmittel. — Resepnya untuk obat pereda nyeri.",
+                "Tanyakan dosis dengan: Wie oft soll ich das nehmen?"
+              ],
+              "example_de": "Der Apotheker gibt mir ein Rezept.",
+              "example_id": "Apoteker memberi saya resep."
+            },
+            {
+              "title": "Sollen untuk saran",
+              "body": [
+                "sollen sering dipakai untuk menyampaikan saran atau instruksi.",
+                "ich soll, du sollst, er soll, wir sollen.",
+                "Setelah sollen, kata kerja lain berbentuk infinitif di akhir."
+              ],
+              "example_de": "Sie sollen die Tablette nach dem Essen nehmen.",
+              "example_id": "Anda sebaiknya minum tablet setelah makan."
+            },
+            {
+              "title": "Perban dan izin sakit",
+              "body": [
+                "der Verband melindungi luka; die Krankmeldung menjelaskan izin sakit.",
+                "Ich bleibe heute zu Hause. — Saya tinggal di rumah hari ini.",
+                "Ikuti dosis yang tertulis pada resep atau kemasan.",
+                "Prasyarat: Janji dokter dan keluhan dari Pelajaran 1–2. Kesalahan umum: 'Sie soll die Tablette nehmen' untuk bentuk sopan (Sie sollen); setelah sollen verba utama infinitif di akhir. Ringkasan: resep, Apotheker, Schmerzmittel, sollen, dan Krankmeldung."
+              ],
+              "example_de": "Der Arzt schreibt eine Krankmeldung.",
+              "example_id": "Dokter menulis surat izin sakit."
+            }
+          ],
+          "drill": { "code": "D10", "count": 5 },
+          "vocab": ["Sprechstunde", "Untersuchung", "Arzttermin", "Sprechzimmer", "Wundsalbe", "Nasenspray", "Bauchschmerz", "Grippe"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D6", "D9", "D10"] }
+    },
+    {
+      "unit": 10,
+      "title": "Waktu luang & hobi",
+      "goals": [
+        "Menyebut hobi dan kegiatan waktu luang",
+        "Menyatakan kesukaan dan kemampuan",
+        "Mengajak teman melakukan kegiatan bersama"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Hobbys und Vorlieben",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah belajar menyebut rutinitas dan kegiatan.",
+            "Ceritakan kegiatan yang kamu sukai saat waktu luang."
+          ],
+          "slides": [
+            {
+              "title": "gern dan lieber",
+              "body": [
+                "gern berarti dengan senang hati/suka: Ich lese gern.",
+                "lieber berarti lebih suka: Ich spiele lieber Schach.",
+                "am liebsten berarti paling suka."
+              ],
+              "example_de": "In meiner Freizeit fotografiere ich am liebsten.",
+              "example_id": "Di waktu luang saya paling suka memotret."
+            },
+            {
+              "title": "Kata kerja untuk hobi",
+              "body": [
+                "Musik machen, Karten spielen, wandern gehen.",
+                "spielen dipakai untuk olahraga dan permainan.",
+                "gehen dapat diikuti kegiatan: schwimmen gehen, spazieren gehen."
+              ],
+              "example_de": "Am Samstag gehen wir schwimmen.",
+              "example_id": "Pada hari Sabtu kami pergi berenang."
+            },
+            {
+              "title": "Mengungkapkan kesukaan",
+              "body": [
+                "Ich mag … — Saya suka …; Ich finde … interessant.",
+                "Negasi: Ich mag laute Konzerte nicht.",
+                "Sebut alasan dengan denn + kalimat utama.",
+                "Prasyarat: Kata kerja kegiatan dari Unit 8. Kesalahan umum: Musik selalu kapital sebagai kata benda; setelah gehen dipakai infinitif schwimmen, bukan Schwimmen. Ringkasan: gern/lieber/am liebsten dan kegiatan waktu luang."
+              ],
+              "example_de": "Ich mag den Tanzkurs, denn die Musik ist schön.",
+              "example_id": "Saya suka kelas menari itu karena musiknya bagus."
+            }
+          ],
+          "drill": { "code": "D2", "count": 5 },
+          "vocab": ["Schachspiel", "Theaterstück", "Wanderung", "Malerei", "Kamera", "Spielkarte", "Sporthalle", "Musikgruppe"]
+        },
+        {
+          "no": 2,
+          "title": "Freizeit planen",
+          "minutes": 12,
+          "recap": [
+            "Kamu dapat menyebut hobi dan kesukaan.",
+            "Ajak teman membuat rencana sederhana."
+          ],
+          "slides": [
+            {
+              "title": "Mengajak teman",
+              "body": [
+                "Hast du am Samstag Zeit? — Apakah kamu punya waktu hari Sabtu?",
+                "Wollen wir …? — Bagaimana kalau kita …?",
+                "Kata tanya membuat verba berada di posisi pertama."
+              ],
+              "example_de": "Wollen wir am Samstag ins Schwimmbad gehen?",
+              "example_id": "Bagaimana kalau kita pergi ke kolam renang hari Sabtu?"
+            },
+            {
+              "title": "Menerima atau menolak ajakan",
+              "body": [
+                "Gern! / Das klingt gut! menerima ajakan.",
+                "Leider kann ich nicht. — Sayangnya saya tidak bisa.",
+                "Usulkan waktu lain: Vielleicht am Sonntag?"
+              ],
+              "example_de": "Das klingt gut. Um wie viel Uhr treffen wir uns?",
+              "example_id": "Kedengarannya bagus. Pukul berapa kita bertemu?"
+            },
+            {
+              "title": "Urutan waktu",
+              "body": [
+                "am Samstag, am Wochenende, um drei Uhr.",
+                "Sebut hari dengan am dan jam dengan um.",
+                "Verb tetap pada posisi kedua: Am Sonntag besuchen wir eine Ausstellung.",
+                "Prasyarat: Kosakata hobi dari Pelajaran 1; pola waktu dari Unit 2. Kesalahan umum: 'Wollen wir gehen wir ins Kino?' (satu verba modal, infinitif di akhir); hari memakai am, jam memakai um. Ringkasan: ajakan, menerima/menolak, dan jadwal dengan am/um."
+              ],
+              "example_de": "Am Sonntag besuchen wir ein Konzert.",
+              "example_id": "Pada hari Minggu kami mengunjungi konser."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Spielkarte", "Sporthalle", "Musikgruppe", "Probe", "Wochenendausflug", "Brettspiel", "Tanzkurs", "Musikfestival"]
+        },
+        {
+          "no": 3,
+          "title": "Im Verein",
+          "minutes": 12,
+          "recap": [
+            "Ajakan dan jadwal sudah dibahas.",
+            "Klub atau Verein membantu orang bertemu lewat hobi yang sama."
+          ],
+          "slides": [
+            {
+              "title": "Menjadi anggota",
+              "body": [
+                "Mitglied sein berarti menjadi anggota.",
+                "Ich bin Mitglied in einem Verein. — Saya anggota sebuah klub.",
+                "Plural das Mitglied → die Mitglieder."
+              ],
+              "example_de": "Mein Bruder ist Mitglied im Schachverein.",
+              "example_id": "Saudara laki-laki saya anggota klub catur."
+            },
+            {
+              "title": "Jadwal latihan",
+              "body": [
+                "Das Training beginnt um sechs Uhr.",
+                "einmal pro Woche = sekali seminggu; zweimal pro Woche = dua kali seminggu.",
+                "Kegiatan rutin dapat memakai jeden Montag / jeden Samstag."
+              ],
+              "example_de": "Wir trainieren jeden Dienstag zusammen.",
+              "example_id": "Kami berlatih bersama setiap hari Selasa."
+            },
+            {
+              "title": "Aktivitas dalam klub",
+              "body": [
+                "Di klub bisa bermain, berlatih, atau mengunjungi pameran.",
+                "Gunakan mit + Dativ untuk menyebut teman kegiatan.",
+                "Kegiatan dapat dihubungkan dengan und atau aber.",
+                "Prasyarat: Hobi dan jadwal dari Pelajaran 1–2. Kesalahan umum: 'Ich bin Mitglied in einem Verein' benar, tetapi 'Ich bin ein Mitglied' tidak lazim; jeden Dienstag memakai Akkusativ. Ringkasan: Verein, Mitglied, jadwal latihan, dan mit + Dativ."
+              ],
+              "example_de": "Ich gehe mit meinem Freund zum Konzert.",
+              "example_id": "Saya pergi ke konser bersama teman laki-laki saya."
+            }
+          ],
+          "drill": { "code": "D3", "count": 5 },
+          "vocab": ["Brettspiel", "Tanzkurs", "Musikfestival", "Musikinstrument", "Lesung", "Schachspiel", "Theaterstück", "Wanderung"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D2", "D3", "D6", "D9"] }
+    },
+    {
+      "unit": 11,
+      "title": "Transportasi & perjalanan",
+      "goals": [
+        "Merencanakan perjalanan dengan kereta",
+        "Memahami jadwal, peron, dan keterlambatan",
+        "Memesan tempat dan meminta informasi perjalanan"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Eine Reise planen",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah belajar menanyakan arah di kota.",
+            "Sekarang rencanakan perjalanan dengan kereta."
+          ],
+          "slides": [
+            {
+              "title": "Tujuan dengan nach",
+              "body": [
+                "nach dipakai untuk banyak kota dan negara tanpa artikel: nach Berlin.",
+                "in dipakai jika nama negara memakai artikel: in die Schweiz.",
+                "Kata tujuan menjawab Wohin? — Ke mana?"
+              ],
+              "example_de": "Wir fahren nach Hamburg.",
+              "example_id": "Kami pergi ke Hamburg."
+            },
+            {
+              "title": "Jadwal perjalanan",
+              "body": [
+                "die Abfahrt adalah keberangkatan; die Ankunft adalah kedatangan.",
+                "Abfahrt um 8:15, Ankunft um 11:40.",
+                "Tanyakan: Wann kommt der Zug an?"
+              ],
+              "example_de": "Die Abfahrt ist um Viertel nach acht.",
+              "example_id": "Keberangkatannya pukul delapan lewat lima belas."
+            },
+            {
+              "title": "Barang bawaan",
+              "body": [
+                "Nimm einen Koffer und einen Rucksack mit.",
+                "mitnehmen adalah verba pisah: Ich nehme meinen Reisepass mit.",
+                "Dokumen penting seperti paspor disimpan dengan aman.",
+                "Prasyarat: Jam dan waktu dari Unit 2; verba pisah dari Unit 8. Kesalahan umum: 'nach der Schweiz' (negara berartikel memakai in die Schweiz); nach untuk kota/negara tanpa artikel. Ringkasan: tujuan nach/in, Abfahrt/Ankunft, dan mitnehmen pisah."
+              ],
+              "example_de": "Hast du deinen Reisepass dabei?",
+              "example_id": "Apakah kamu membawa paspormu?"
+            }
+          ],
+          "drill": { "code": "D9", "count": 5 },
+          "vocab": ["Bahnsteig", "Reisepass", "Reisetasche", "Kofferanhänger", "Abfahrtsanzeige", "Umstieg", "Direktzug", "Sitzplatzkarte"]
+        },
+        {
+          "no": 2,
+          "title": "Am Bahnhof",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah menyusun jadwal dan menyiapkan barang.",
+            "Cari peron dan tempat duduk di stasiun."
+          ],
+          "slides": [
+            {
+              "title": "Menanyakan peron",
+              "body": [
+                "Auf welchem Gleis fährt der Zug ab? — Kereta berangkat dari peron berapa?",
+                "auf dem Gleis menjawab Wo? dan memakai Dativ.",
+                "Baca papan informasi di stasiun."
+              ],
+              "example_de": "Der Zug nach Köln fährt von Gleis drei ab.",
+              "example_id": "Kereta ke Köln berangkat dari peron tiga."
+            },
+            {
+              "title": "Keterlambatan",
+              "body": [
+                "Der Zug hat zehn Minuten Verspätung.",
+                "Der Zug kommt später an. — Kereta tiba lebih lambat.",
+                "Tanyakan sambungan: Gibt es eine andere Verbindung?"
+              ],
+              "example_de": "Wegen einer Verspätung verpasse ich den Anschluss.",
+              "example_id": "Karena keterlambatan, saya ketinggalan kereta sambungan."
+            },
+            {
+              "title": "Tiket dan tempat duduk",
+              "body": [
+                "Tiket bisa dibeli di mesin tiket: am Fahrkartenautomaten.",
+                "einen Sitzplatz reservieren = memesan tempat duduk.",
+                "Tunjukkan tiket bila petugas memeriksa.",
+                "Prasyarat: Jadwal perjalanan dari Pelajaran 1. Kesalahan umum: 'auf welchem Gleis' (Dativ), bukan 'auf welches Gleis'; Verspätung dan Anschluss berbeda. Ringkasan: peron, keterlambatan, sambungan, dan reservasi tempat duduk."
+              ],
+              "example_de": "Ich möchte einen Sitzplatz am Fenster reservieren.",
+              "example_id": "Saya ingin memesan tempat duduk di dekat jendela."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Umstieg", "Direktzug", "Sitzplatzkarte", "Fahrkartenkontrolle", "Fensterplatz", "Anzeigetafel", "Ticketschalter", "Reiseplan"]
+        },
+        {
+          "no": 3,
+          "title": "Informationen und Reservierung",
+          "minutes": 12,
+          "recap": [
+            "Perjalanan kereta dapat berubah karena keterlambatan.",
+            "Minta informasi dan konfirmasi reservasi dengan sopan."
+          ],
+          "slides": [
+            {
+              "title": "Meminta informasi",
+              "body": [
+                "Wo bekomme ich eine Auskunft? — Di mana saya bisa mendapat informasi?",
+                "Können Sie mir bitte helfen? — Bisakah Anda membantu saya?",
+                "Bitte wiederholen Sie das. — Tolong ulangi."
+              ],
+              "example_de": "Die Auskunft ist neben dem Eingang.",
+              "example_id": "Loket informasi berada di sebelah pintu masuk."
+            },
+            {
+              "title": "Di biro perjalanan",
+              "body": [
+                "Im Reisebüro kann man eine Reise planen.",
+                "eine Verbindung buchen = memesan rute perjalanan.",
+                "Sebutkan tujuan, hari, dan jumlah penumpang."
+              ],
+              "example_de": "Wir brauchen eine Verbindung nach Dresden.",
+              "example_id": "Kami membutuhkan rute ke Dresden."
+            },
+            {
+              "title": "Memastikan rencana",
+              "body": [
+                "der Reiseplan merangkum perjalanan dan waktu.",
+                "Prüfen Sie bitte die Abfahrtszeit. — Silakan periksa waktu keberangkatan.",
+                "Ulangi informasi penting untuk memastikan pemahaman.",
+                "Prasyarat: Peron, keterlambatan, dan jadwal perjalanan dari Pelajaran 1–2. Kesalahan umum: 'Ich brauche eine Verbindung zu Dresden' (rute memakai nach Dresden); Auskunft/Verbindung bukan tiket. Ringkasan: meminta informasi, memesan rute, dan memeriksa Reiseplan."
+              ],
+              "example_de": "Im Reiseplan steht die Ankunft um vier Uhr.",
+              "example_id": "Di rencana perjalanan tertulis kedatangan pukul empat."
+            }
+          ],
+          "drill": { "code": "D5", "count": 5 },
+          "vocab": ["Anzeigetafel", "Ticketschalter", "Reiseplan", "Reisezeit", "Gepäckstück", "Bahnsteig", "Reisepass", "Reisetasche"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D4", "D6", "D9"] }
+    },
+    {
+      "unit": 12,
+      "title": "Komunikasi & janji",
+      "goals": [
+        "Mengundang dan membuat janji",
+        "Menelepon serta meninggalkan pesan singkat",
+        "Menulis pesan sederhana dan memberi jawaban"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Einladen und verabreden",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah belajar mengatur waktu dan kegiatan.",
+            "Sekarang buat janji dengan teman."
+          ],
+          "slides": [
+            {
+              "title": "Membuat ajakan",
+              "body": [
+                "Hast du am Samstag Zeit? — Apakah kamu punya waktu hari Sabtu?",
+                "Möchtest du mitkommen? — Apakah kamu ingin ikut?",
+                "Gunakan bitte untuk membuat permintaan terdengar sopan."
+              ],
+              "example_de": "Ich möchte dich zum Essen einladen.",
+              "example_id": "Saya ingin mengundangmu makan."
+            },
+            {
+              "title": "Menyepakati waktu",
+              "body": [
+                "Um wie viel Uhr treffen wir uns? — Pukul berapa kita bertemu?",
+                "Wir treffen uns um halb sieben vor dem Kino.",
+                "Janji bertemu memakai verba refleksif sich treffen."
+              ],
+              "example_de": "Treffen wir uns am Freitag um sechs Uhr?",
+              "example_id": "Apakah kita bertemu hari Jumat pukul enam?"
+            },
+            {
+              "title": "Menerima dan membatalkan",
+              "body": [
+                "Gern, ich komme. — Dengan senang hati, saya datang.",
+                "Leider kann ich nicht. — Sayangnya saya tidak bisa.",
+                "Vorschlag alternatif: Können wir uns am Sonntag treffen?",
+                "Prasyarat: Tidak ada prasyarat khusus; mengundang dan menyepakati waktu diperkenalkan di sini. Kesalahan umum: 'Wir treffen um halb sieben' (verba refleksif butuh uns: Wir treffen uns); einladen dan mitkommen. Ringkasan: mengundang, menyepakati waktu, dan sich treffen."
+              ],
+              "example_de": "Danke für die Einladung. Ich komme gern.",
+              "example_id": "Terima kasih atas undangannya. Saya senang datang."
+            }
+          ],
+          "drill": { "code": "D10", "count": 5 },
+          "vocab": ["Anruf", "SMS", "Besuch", "Kontakt", "Telefonat", "Briefumschlag", "Briefmarke", "Faxgerät"]
+        },
+        {
+          "no": 2,
+          "title": "Am Telefon",
+          "minutes": 12,
+          "recap": [
+            "Janji dapat dibuat langsung atau lewat telepon.",
+            "Berlatih menjawab telepon dan meminta informasi."
+          ],
+          "slides": [
+            {
+              "title": "Memulai percakapan telepon",
+              "body": [
+                "Hallo, hier ist … — Halo, ini …",
+                "Kann ich bitte mit … sprechen? — Bisakah saya berbicara dengan …?",
+                "Einen Moment bitte. — Mohon tunggu sebentar."
+              ],
+              "example_de": "Guten Tag, hier ist Rani.",
+              "example_id": "Selamat siang, ini Rani."
+            },
+            {
+              "title": "Verba pisah anrufen",
+              "body": [
+                "anrufen berarti menelepon seseorang.",
+                "Ich rufe dich heute Abend an. — Saya meneleponmu malam ini.",
+                "Partikel an berada di akhir kalimat utama."
+              ],
+              "example_de": "Ruf mich bitte nach der Arbeit an.",
+              "example_id": "Tolong telepon saya setelah bekerja."
+            },
+            {
+              "title": "Mencatat pesan",
+              "body": [
+                "Kann ich eine Nachricht hinterlassen? — Bolehkah saya meninggalkan pesan?",
+                "Tanyakan nomor telepon bila perlu: Wie ist Ihre Telefonnummer?",
+                "Ulangi angka agar tidak salah catat.",
+                "Prasyarat: Sapaan formal dari Unit 1; verba pisah dari Unit 8 dan 11. Kesalahan umum: 'Leider kann ich nicht kommen' tanpa infinitif di akhir; menolak sopan dengan Leider kann ich nicht. Ringkasan: menerima/menolak ajakan dan mengusulkan waktu lain."
+              ],
+              "example_de": "Ich hinterlasse eine kurze Sprachnachricht.",
+              "example_id": "Saya meninggalkan pesan suara singkat."
+            }
+          ],
+          "drill": { "code": "D3", "count": 5 },
+          "vocab": ["Briefumschlag", "Briefmarke", "Faxgerät", "Terminkalender", "Rückruf", "Reservierungsnummer", "Verabredung", "Postkarte"]
+        },
+        {
+          "no": 3,
+          "title": "Eine Nachricht schreiben",
+          "minutes": 12,
+          "recap": [
+            "Kamu sudah berlatih membuat panggilan dan mencatat informasi.",
+            "Sampaikan undangan atau perubahan rencana secara tertulis."
+          ],
+          "slides": [
+            {
+              "title": "Pesan tertulis sederhana",
+              "body": [
+                "Salam + tujuan pesan + waktu + penutup.",
+                "Hallo Rudi, treffen wir uns morgen um sieben Uhr?",
+                "Viele Grüße, Sari. — Salam, Sari."
+              ],
+              "example_de": "Hallo, ich komme heute zehn Minuten später.",
+              "example_id": "Halo, saya datang sepuluh menit lebih lambat hari ini."
+            },
+            {
+              "title": "E-Mail dan surat",
+              "body": [
+                "eine E-Mail schreiben = menulis surel.",
+                "eine Postkarte schicken = mengirim kartu pos.",
+                "Surat fisik dimasukkan ke Briefumschlag dan diberi Briefmarke."
+              ],
+              "example_de": "Ich schicke dir eine Postkarte aus Berlin.",
+              "example_id": "Saya mengirimimu kartu pos dari Berlin."
+            },
+            {
+              "title": "Membalas dan mengonfirmasi",
+              "body": [
+                "Danke für deine Nachricht. — Terima kasih atas pesanmu.",
+                "Ich bestätige den Termin. — Saya mengonfirmasi janji itu.",
+                "Bila batal, beri tahu secepatnya dan usulkan waktu baru.",
+                "Prasyarat: Percakapan telepon dari Pelajaran 2. Kesalahan umum: 'Hier bin ich Rani' (di telepon lazim Hier ist Rani); Kann ich bitte mit ... sprechen?. Ringkasan: percakapan telepon, meminta bicara, dan meninggalkan pesan."
+              ],
+              "example_de": "Danke für die Einladung. Meine Antwort kommt morgen.",
+              "example_id": "Terima kasih atas undangannya. Jawaban saya datang besok."
+            }
+          ],
+          "drill": { "code": "D6", "count": 5 },
+          "vocab": ["Reservierungsnummer", "Verabredung", "Postkarte", "Sprachnachricht", "Handynummer", "Anruf", "SMS", "Besuch"]
+        }
+      ],
+      "checkpoint": { "count": 15, "pass": 70, "codes": ["D1", "D3", "D6", "D9", "D10"] }
+    }
+  ]
+}

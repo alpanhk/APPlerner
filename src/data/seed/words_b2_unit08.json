@@ -1,0 +1,229 @@
+{
+  "unit": 308,
+  "level": "B2",
+  "theme": "Medizin & Gesundheit",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Diagnose",
+      "article": "die",
+      "plural": "die Diagnosen",
+      "meaning_id": "diagnosis",
+      "example_de": "Die Diagnose war ein Schock.",
+      "example_id": "Diagnosisnya mengejutkan.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Behandlung",
+      "article": "die",
+      "plural": "die Behandlungen",
+      "meaning_id": "pengobatan",
+      "example_de": "Die Behandlung dauert Monate.",
+      "example_id": "Pengobatannya berbulan-bulan.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Nebenwirkung",
+      "article": "die",
+      "plural": "die Nebenwirkungen",
+      "meaning_id": "efek samping",
+      "example_de": "Die Nebenwirkungen sind selten.",
+      "example_id": "Efek sampingnya jarang.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Prävention",
+      "article": "die",
+      "plural": "die Präventionen",
+      "meaning_id": "pencegahan",
+      "example_de": "Prävention rettet Leben.",
+      "example_id": "Pencegahan menyelamatkan nyawa.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Risiko",
+      "article": "das",
+      "plural": "die Risiken",
+      "meaning_id": "risiko",
+      "example_de": "Das Risiko ist bekannt.",
+      "example_id": "Risikonya diketahui.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Ursache",
+      "article": "die",
+      "plural": "die Ursachen",
+      "meaning_id": "penyebab",
+      "example_de": "Die Ursache ist unklar.",
+      "example_id": "Penyebabnya tidak jelas.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Symptom",
+      "article": "das",
+      "plural": "die Symptome",
+      "meaning_id": "gejala",
+      "example_de": "Die Symptome sind typisch.",
+      "example_id": "Gejalanya khas.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufklärung",
+      "article": "die",
+      "plural": "die Aufklärungen",
+      "meaning_id": "edukasi, penjelasan",
+      "example_de": "Aufklärung ist wichtig.",
+      "example_id": "Edukasi itu penting.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "verb",
+      "de": "behandeln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengobati",
+      "example_de": "Der Arzt behandelt den Patienten.",
+      "example_id": "Dokter mengobati pasien.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "verb",
+      "de": "verschreiben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meresepkan",
+      "example_de": "Sie verschreibt ein Medikament.",
+      "example_id": "Dia meresepkan obat.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "adj",
+      "de": "chronisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kronis",
+      "example_de": "Die Krankheit ist chronisch.",
+      "example_id": "Penyakitnya kronis.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "adj",
+      "de": "wirksam",
+      "article": null,
+      "plural": null,
+      "meaning_id": "efektif",
+      "example_de": "Das Medikament ist wirksam.",
+      "example_id": "Obatnya efektif.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Wirkstoff",
+      "article": "der",
+      "plural": "die Wirkstoffe",
+      "meaning_id": "zat aktif",
+      "example_de": "Der Wirkstoff ist getestet.",
+      "example_id": "Zat aktifnya sudah diuji.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Dosierung",
+      "article": "die",
+      "plural": "die Dosierungen",
+      "meaning_id": "dosis",
+      "example_de": "Die Dosierung ist wichtig.",
+      "example_id": "Dosisnya penting.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Impfstoff",
+      "article": "der",
+      "plural": "die Impfstoffe",
+      "meaning_id": "vaksin",
+      "example_de": "Der Impfstoff ist zugelassen.",
+      "example_id": "Vaksinnya sudah diizinkan.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Allergie",
+      "article": "die",
+      "plural": "die Allergien",
+      "meaning_id": "alergi",
+      "example_de": "Ich habe eine Allergie.",
+      "example_id": "Saya punya alergi.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Pflegekraft",
+      "article": "die",
+      "plural": "die Pflegekräfte",
+      "meaning_id": "perawat",
+      "example_de": "Pflegekräfte fehlen überall.",
+      "example_id": "Perawat kurang di mana-mana.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Rezeptpflicht",
+      "article": "die",
+      "plural": "die Rezeptpflichten",
+      "meaning_id": "kewajiban resep",
+      "example_de": "Die Rezeptpflicht gilt für dieses Mittel.",
+      "example_id": "Kewajiban resep berlaku untuk obat ini.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorsorgeuntersuchung",
+      "article": "die",
+      "plural": "die Vorsorgeuntersuchungen",
+      "meaning_id": "pemeriksaan dini",
+      "example_de": "Die Vorsorgeuntersuchung ist kostenlos.",
+      "example_id": "Pemeriksaan dininya gratis.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Rehabilitation",
+      "article": "die",
+      "plural": "die Rehabilitationen",
+      "meaning_id": "rehabilitasi",
+      "example_de": "Die Rehabilitation dauert Wochen.",
+      "example_id": "Rehabilitasinya berpekan-pekan.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Krankenakte",
+      "article": "die",
+      "plural": "die Krankenakten",
+      "meaning_id": "rekam medis",
+      "example_de": "Die Krankenakte wird digitalisiert.",
+      "example_id": "Rekam medisnya didigitalkan.",
+      "tags": "b2,unit8,medizin"
+    },
+    {
+      "kind": "noun",
+      "de": "Verträglichkeit",
+      "article": "die",
+      "plural": "die Verträglichkeiten",
+      "meaning_id": "toleransi obat",
+      "example_de": "Die Verträglichkeit ist gut.",
+      "example_id": "Toleransinya baik.",
+      "tags": "b2,unit8,medizin"
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "level": "A1",
+  "unit": 10,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 10. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u10-o1-01",
+      "objectiveId": "a1-u10-o1",
+      "code": "D1",
+      "prompt": "Ich lese ___ . (dengan senang hati)",
+      "sub": "Pilih kata untuk 'suka/dengan senang hati'.",
+      "mode": "choice",
+      "options": [
+        "gern",
+        "lieber",
+        "am liebsten",
+        "nicht"
+      ],
+      "answer": "gern",
+      "wrongFeedback": {
+        "lieber": "lieber berarti 'lebih suka', bukan sekadar suka.",
+        "am liebsten": "am liebsten berarti 'paling suka', tingkat tertinggi.",
+        "nicht": "nicht adalah negasi, bukan penanda kesukaan."
+      },
+      "explanation": "gern berarti 'dengan senang hati': Ich lese gern."
+    },
+    {
+      "id": "u10-o1-02",
+      "objectiveId": "a1-u10-o1",
+      "code": "D1",
+      "prompt": "Ich spiele ___ Schach. (lebih suka daripada kartu)",
+      "sub": "Pilih bentuk 'lebih suka'.",
+      "mode": "choice",
+      "options": [
+        "lieber",
+        "gern",
+        "am liebsten",
+        "nicht"
+      ],
+      "answer": "lieber",
+      "wrongFeedback": {
+        "gern": "gern berarti 'suka', bukan membandingkan dua pilihan.",
+        "am liebsten": "am liebsten berarti 'paling suka', bukan 'lebih suka'.",
+        "nicht": "nicht adalah negasi, bukan penanda perbandingan kesukaan."
+      },
+      "explanation": "lieber berarti 'lebih suka': Ich spiele lieber Schach."
+    },
+    {
+      "id": "u10-o1-03",
+      "objectiveId": "a1-u10-o1",
+      "code": "D1",
+      "prompt": "In meiner Freizeit fotografiere ich ___ . (paling suka)",
+      "sub": "Pilih bentuk 'paling suka'.",
+      "mode": "choice",
+      "options": [
+        "am liebsten",
+        "gern",
+        "lieber",
+        "nicht"
+      ],
+      "answer": "am liebsten",
+      "wrongFeedback": {
+        "gern": "gern berarti 'suka', bukan 'paling suka'.",
+        "lieber": "lieber berarti 'lebih suka', bukan tingkat paling.",
+        "nicht": "nicht adalah negasi, bukan penanda kesukaan."
+      },
+      "explanation": "am liebsten berarti 'paling suka': Ich fotografiere am liebsten."
+    },
+    {
+      "id": "u10-o1-04",
+      "objectiveId": "a1-u10-o1",
+      "code": "D3",
+      "prompt": "Lengkapi: Ich trinke ___ Tee als Kaffee. (lebih suka)",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "lieber",
+      "altAnswers": [
+        "Lieber"
+      ],
+      "hintOnWrong": "Lebih suka = lieber. Ich trinke lieber Tee als Kaffee.",
+      "explanation": "lieber ... als ... = lebih suka ... daripada ..."
+    },
+    {
+      "id": "u10-o1-05",
+      "objectiveId": "a1-u10-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Saya paling suka membaca.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Ich",
+        "lese",
+        "am",
+        "liebsten."
+      ],
+      "answer": "Ich lese am liebsten.",
+      "hintOnWrong": "Mulai dengan Ich lese, lalu am liebsten.",
+      "explanation": "Ich lese am liebsten. am liebsten berarti 'paling suka'."
+    },
+    {
+      "id": "u10-o2-01",
+      "objectiveId": "a1-u10-o2",
+      "code": "D3",
+      "prompt": "Am Wochenende gehen wir ___ .",
+      "sub": "Pilih infinitif kegiatan setelah gehen.",
+      "mode": "choice",
+      "options": [
+        "schwimmen",
+        "schwimmt",
+        "geschwommen",
+        "Schwimmen"
+      ],
+      "answer": "schwimmen",
+      "wrongFeedback": {
+        "schwimmt": "schwimmt adalah bentuk er/sie/es, bukan infinitif setelah gehen.",
+        "geschwommen": "geschwommen adalah Partizip II, bukan infinitif.",
+        "Schwimmen": "Bentuk ini ditulis kapital sebagai kata benda; setelah gehen dipakai infinitif schwimmen."
+      },
+      "explanation": "schwimmen gehen = pergi berenang: Am Wochenende gehen wir schwimmen."
+    },
+    {
+      "id": "u10-o2-02",
+      "objectiveId": "a1-u10-o2",
+      "code": "D1",
+      "prompt": "Wir machen zusammen ___ .",
+      "sub": "Pilih kata benda yang tepat.",
+      "mode": "choice",
+      "options": [
+        "Musik",
+        "musik",
+        "Musik machen",
+        "Musiker"
+      ],
+      "answer": "Musik",
+      "wrongFeedback": {
+        "musik": "Kata benda dalam bahasa Jerman ditulis dengan huruf kapital: Musik.",
+        "Musik machen": "Setelah machen tidak perlu mengulang machen; cukup Musik.",
+        "Musiker": "Musiker berarti 'musisi', bukan kegiatan bermusik."
+      },
+      "explanation": "Musik machen = bermusik: Wir machen zusammen Musik."
+    },
+    {
+      "id": "u10-o2-03",
+      "objectiveId": "a1-u10-o2",
+      "code": "D1",
+      "prompt": "Ich spiele gern ___ .",
+      "sub": "Pilih kata yang melengkapi 'bermain kartu'.",
+      "mode": "choice",
+      "options": [
+        "Karten",
+        "Karte",
+        "Karten spielen",
+        "Kartenspiel"
+      ],
+      "answer": "Karten",
+      "wrongFeedback": {
+        "Karte": "Karte adalah bentuk tunggal; frasa 'bermain kartu' memakai plural Karten.",
+        "Karten spielen": "Setelah spielen tidak perlu mengulang spielen; cukup Karten.",
+        "Kartenspiel": "Kartenspiel berarti 'permainan kartu', bukan objek setelah spielen."
+      },
+      "explanation": "Karten spielen = bermain kartu: Ich spiele gern Karten."
+    },
+    {
+      "id": "u10-o2-04",
+      "objectiveId": "a1-u10-o2",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'mendaki/berjalan di alam' (kegiatan).",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "wandern",
+      "altAnswers": [
+        "Wandern"
+      ],
+      "hintOnWrong": "Mendaki = wandern; frasa lengkapnya wandern gehen.",
+      "explanation": "wandern berarti 'mendaki/berjalan di alam'; wandern gehen = pergi mendaki."
+    },
+    {
+      "id": "u10-o2-05",
+      "objectiveId": "a1-u10-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Pada hari Minggu kami pergi mendaki.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Am",
+        "Sonntag",
+        "gehen",
+        "wir",
+        "wandern."
+      ],
+      "answer": "Am Sonntag gehen wir wandern.",
+      "hintOnWrong": "Mulai dengan Am Sonntag, lalu gehen wir, lalu wandern.",
+      "explanation": "Am Sonntag gehen wir wandern. gehen + infinitif wandern di akhir."
+    },
+    {
+      "id": "u10-o3-01",
+      "objectiveId": "a1-u10-o3",
+      "code": "D3",
+      "prompt": "___ du am Samstag Zeit?",
+      "sub": "Konjugasi haben untuk du.",
+      "mode": "choice",
+      "options": [
+        "Hast",
+        "Haben",
+        "Hat",
+        "Habe"
+      ],
+      "answer": "Hast",
+      "wrongFeedback": {
+        "Haben": "Haben dipakai untuk wir/sie/Sie.",
+        "Hat": "Hat dipakai untuk er/sie/es.",
+        "Habe": "Habe dipakai untuk ich."
+      },
+      "explanation": "haben → du hast: Hast du am Samstag Zeit?"
+    },
+    {
+      "id": "u10-o3-02",
+      "objectiveId": "a1-u10-o3",
+      "code": "D3",
+      "prompt": "___ wir ins Kino gehen?",
+      "sub": "Konjugasi wollen untuk wir.",
+      "mode": "choice",
+      "options": [
+        "Wollen",
+        "Willst",
+        "Will",
+        "Wollt"
+      ],
+      "answer": "Wollen",
+      "wrongFeedback": {
+        "Willst": "Willst dipakai untuk du.",
+        "Will": "Will dipakai untuk ich atau er/sie/es.",
+        "Wollt": "Wollt dipakai untuk ihr."
+      },
+      "explanation": "wollen → wir wollen: Wollen wir ins Kino gehen?"
+    },
+    {
+      "id": "u10-o3-03",
+      "objectiveId": "a1-u10-o3",
+      "code": "D3",
+      "prompt": "Kamu tidak bisa datang. Apa jawaban yang tepat?",
+      "sub": "Pilih penolakan yang sopan.",
+      "mode": "choice",
+      "options": [
+        "Leider kann ich nicht.",
+        "Gern!",
+        "Das klingt gut!",
+        "Ja, natürlich!"
+      ],
+      "answer": "Leider kann ich nicht.",
+      "wrongFeedback": {
+        "Gern!": "Gern! menerima ajakan, bukan menolak.",
+        "Das klingt gut!": "Das klingt gut! menerima ajakan, bukan menolak.",
+        "Ja, natürlich!": "Ja, natürlich! menerima ajakan, bukan menolak."
+      },
+      "explanation": "Leider kann ich nicht. berarti 'Sayangnya saya tidak bisa'."
+    },
+    {
+      "id": "u10-o3-04",
+      "objectiveId": "a1-u10-o3",
+      "code": "D3",
+      "prompt": "Lengkapi: ___ am Sonntag? (mungkin)",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Vielleicht",
+      "altAnswers": [
+        "vielleicht"
+      ],
+      "hintOnWrong": "Mungkin = vielleicht. Vielleicht am Sonntag?",
+      "explanation": "Vielleicht am Sonntag? berarti 'Mungkin hari Minggu?'."
+    },
+    {
+      "id": "u10-o3-05",
+      "objectiveId": "a1-u10-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Apakah kamu punya waktu hari Minggu?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": [
+        "Hast",
+        "du",
+        "am",
+        "Sonntag",
+        "Zeit?"
+      ],
+      "answer": "Hast du am Sonntag Zeit?",
+      "hintOnWrong": "Mulai dengan Hast du, lalu am Sonntag, lalu Zeit.",
+      "explanation": "Hast du am Sonntag Zeit? menanyakan waktu luang pada hari Minggu."
+    },
+    {
+      "id": "u10-o4-01",
+      "objectiveId": "a1-u10-o4",
+      "code": "D3",
+      "prompt": "Am Sonntag ___ wir ein Konzert.",
+      "sub": "Konjugasi besuchen untuk wir.",
+      "mode": "choice",
+      "options": [
+        "besuchen",
+        "besucht",
+        "besuchst",
+        "besuchen wir"
+      ],
+      "answer": "besuchen",
+      "wrongFeedback": {
+        "besucht": "besucht dipakai untuk er/sie/es atau ihr.",
+        "besuchst": "besuchst dipakai untuk du.",
+        "besuchen wir": "Subjek wir sudah ada di kalimat; tidak perlu diulang."
+      },
+      "explanation": "besuchen → wir besuchen: Am Sonntag besuchen wir ein Konzert."
+    },
+    {
+      "id": "u10-o4-02",
+      "objectiveId": "a1-u10-o4",
+      "code": "D9",
+      "prompt": "Wir treffen uns ___ drei Uhr.",
+      "sub": "Pilih preposisi untuk jam.",
+      "mode": "choice",
+      "options": [
+        "um",
+        "am",
+        "im",
+        "in"
+      ],
+      "answer": "um",
+      "wrongFeedback": {
+        "am": "am dipakai untuk hari atau bagian hari, bukan jam.",
+        "im": "im dipakai untuk bulan atau musim, bukan jam.",
+        "in": "in dipakai untuk tempat, bukan jam."
+      },
+      "explanation": "um + jam: um drei Uhr."
+    },
+    {
+      "id": "u10-o4-03",
+      "objectiveId": "a1-u10-o4",
+      "code": "D9",
+      "prompt": "Wir treffen uns ___ Samstag.",
+      "sub": "Pilih preposisi untuk hari.",
+      "mode": "choice",
+      "options": [
+        "am",
+        "um",
+        "im",
+        "in"
+      ],
+      "answer": "am",
+      "wrongFeedback": {
+        "um": "um dipakai untuk jam, bukan nama hari.",
+        "im": "im dipakai untuk bulan atau musim, bukan nama hari.",
+        "in": "in dipakai untuk tempat, bukan nama hari."
+      },
+      "explanation": "am + hari: am Samstag."
+    },
+    {
+      "id": "u10-o4-04",
+      "objectiveId": "a1-u10-o4",
+      "code": "D9",
+      "prompt": "Lengkapi: Das Training beginnt ___ sechs Uhr. (pukul)",
+      "sub": "Ketik satu preposisi.",
+      "mode": "type",
+      "answer": "um",
+      "altAnswers": [
+        "Um"
+      ],
+      "hintOnWrong": "Jam memakai um: um sechs Uhr.",
+      "explanation": "Das Training beginnt um sechs Uhr. um + jam."
+    },
+    {
+      "id": "u10-o4-05",
+      "objectiveId": "a1-u10-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Pada hari Sabtu kami mengunjungi pameran.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Am",
+        "Samstag",
+        "besuchen",
+        "wir",
+        "eine",
+        "Ausstellung."
+      ],
+      "answer": "Am Samstag besuchen wir eine Ausstellung.",
+      "hintOnWrong": "Mulai dengan Am Samstag, lalu besuchen wir, lalu eine Ausstellung.",
+      "explanation": "Am Samstag besuchen wir eine Ausstellung. Keterangan waktu di posisi 1, verba finit di posisi 2."
+    },
+    {
+      "id": "u10-o5-01",
+      "objectiveId": "a1-u10-o5",
+      "code": "D1",
+      "prompt": "Ich bin ___ in einem Verein.",
+      "sub": "Pilih kata untuk 'anggota'.",
+      "mode": "choice",
+      "options": [
+        "Mitglied",
+        "Mitglieder",
+        "Verein",
+        "Training"
+      ],
+      "answer": "Mitglied",
+      "wrongFeedback": {
+        "Mitglieder": "Mitglieder adalah bentuk jamak; subjek Ich memakai bentuk tunggal Mitglied.",
+        "Verein": "Verein berarti 'klub', bukan 'anggota'.",
+        "Training": "Training berarti 'latihan', bukan 'anggota'."
+      },
+      "explanation": "Mitglied sein = menjadi anggota: Ich bin Mitglied in einem Verein."
+    },
+    {
+      "id": "u10-o5-02",
+      "objectiveId": "a1-u10-o5",
+      "code": "D2",
+      "prompt": "Wir trainieren ___ Dienstag zusammen.",
+      "sub": "Pilih bentuk 'setiap' untuk Dienstag.",
+      "mode": "choice",
+      "options": [
+        "jeden",
+        "jede",
+        "jedes",
+        "jeder"
+      ],
+      "answer": "jeden",
+      "wrongFeedback": {
+        "jede": "jede dipakai untuk kata feminin; Dienstag maskulin.",
+        "jedes": "jedes dipakai untuk kata netral; Dienstag maskulin.",
+        "jeder": "jeder adalah bentuk nominatif maskulin; di sini dibutuhkan Akkusativ jeden."
+      },
+      "explanation": "jeden Dienstag = setiap hari Selasa. Dienstag maskulin Akkusativ → jeden."
+    },
+    {
+      "id": "u10-o5-03",
+      "objectiveId": "a1-u10-o5",
+      "code": "D3",
+      "prompt": "Wir trainieren ___ pro Woche.",
+      "sub": "Pilih kata untuk 'sekali'.",
+      "mode": "choice",
+      "options": [
+        "einmal",
+        "einen",
+        "eine",
+        "eins"
+      ],
+      "answer": "einmal",
+      "wrongFeedback": {
+        "einen": "einen adalah artikel Akkusativ maskulin, bukan 'sekali'.",
+        "eine": "eine adalah artikel feminin, bukan 'sekali'.",
+        "eins": "eins adalah angka 'satu' untuk menghitung, bukan frekuensi."
+      },
+      "explanation": "einmal pro Woche = sekali seminggu."
+    },
+    {
+      "id": "u10-o5-04",
+      "objectiveId": "a1-u10-o5",
+      "code": "D2",
+      "prompt": "Ketik kata Jerman untuk 'anggota' (jamak) dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Mitglieder",
+      "altAnswers": [
+        "Mitglieder"
+      ],
+      "hintOnWrong": "Plural das Mitglied → die Mitglieder. Semua plural memakai die.",
+      "explanation": "die Mitglieder berarti 'para anggota'."
+    },
+    {
+      "id": "u10-o5-05",
+      "objectiveId": "a1-u10-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya pergi ke klub bersama teman perempuan saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Ich",
+        "gehe",
+        "mit",
+        "meiner",
+        "Freundin",
+        "zum",
+        "Verein."
+      ],
+      "answer": "Ich gehe mit meiner Freundin zum Verein.",
+      "hintOnWrong": "Mulai dengan Ich gehe, lalu mit meiner Freundin, lalu zum Verein.",
+      "explanation": "Ich gehe mit meiner Freundin zum Verein. mit + Dativ feminin = mit meiner Freundin."
+    },
+    {
+      "id": "u10-o5-06",
+      "objectiveId": "a1-u10-o5",
+      "code": "D3",
+      "prompt": "Wir trainieren ___ pro Woche, am Dienstag und am Donnerstag.",
+      "sub": "Pilih frekuensi dua kali seminggu.",
+      "mode": "choice",
+      "options": [
+        "zweimal",
+        "einmal",
+        "dreimal",
+        "jeden"
+      ],
+      "answer": "zweimal",
+      "wrongFeedback": {
+        "einmal": "einmal berarti 'sekali'; kalimat menyebut dua hari latihan.",
+        "dreimal": "dreimal berarti 'tiga kali'; hanya ada dua hari yang disebut.",
+        "jeden": "jeden berarti 'setiap' dan membutuhkan kata benda seperti Dienstag, bukan pro Woche."
+      },
+      "explanation": "zweimal pro Woche = dua kali seminggu."
+    }
+  ]
+}

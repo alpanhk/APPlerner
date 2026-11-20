@@ -1,0 +1,206 @@
+{
+  "id": "dialog-65",
+  "title": "Die Debatte über das Gesetz",
+  "textId": 65,
+  "level": "B2",
+  "tags": "seed · B2 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Im Parlament wurde gestern über das neue Gesetz debattiert.",
+      "id": "Kemarin parlemen mendebatkan undang-undang baru.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Regierung argumentiert, die Reform sei notwendig.",
+      "id": "Pemerintah berargumen reformasi itu perlu.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Die Opposition bezweifelt, dass die Kosten tragbar sind.",
+      "id": "Oposisi meragukan bahwa biayanya dapat ditanggung.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ein Abgeordneter wies darauf hin, dass die Frist zu kurz sei.",
+      "id": "Seorang anggota parlemen menunjukkan tenggatnya terlalu singkat.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Ende wurde der Entwurf mit knapper Mehrheit angenommen.",
+      "id": "Akhirnya rancangan itu diterima dengan mayoritas tipis.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nun muss die Umsetzung sorgfältig überprüft werden.",
+      "id": "Kini implementasinya harus diperiksa dengan cermat.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollegin",
+      "de": "Im Parlament wurde gestern über das neue Gesetz debattiert.",
+      "id": "Kemarin parlemen mendebatkan undang-undang baru.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Regierung argumentiert, die Reform sei notwendig.",
+      "id": "Pemerintah berargumen reformasi itu perlu.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Die Opposition bezweifelt, dass die Kosten tragbar sind.",
+      "id": "Oposisi meragukan bahwa biayanya dapat ditanggung.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "kollegin",
+      "de": "Ein Abgeordneter wies darauf hin, dass die Frist zu kurz sei.",
+      "id": "Seorang anggota parlemen menunjukkan tenggatnya terlalu singkat.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "vorgesetzte",
+      "de": "Am Ende wurde der Entwurf mit knapper Mehrheit angenommen.",
+      "id": "Akhirnya rancangan itu diterima dengan mayoritas tipis.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Nun muss die Umsetzung sorgfältig überprüft werden.",
+      "id": "Kini implementasinya harus diperiksa dengan cermat.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

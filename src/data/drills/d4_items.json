@@ -1,0 +1,12 @@
+[
+  { "prompt": "Ich sehe ___ Mann.", "sub": "Pilih artikel Akkusativ.", "mode": "choice", "options": ["der", "den", "dem"], "answer": "den", "explanation": "sehen + objek langsung → Akkusativ maskulin: den Mann." },
+  { "prompt": "Ich sehe ___ Frau.", "sub": "Pilih artikel Akkusativ.", "mode": "choice", "options": ["die", "der", "den"], "answer": "die", "explanation": "Akkusativ feminin tetap die: die Frau." },
+  { "prompt": "Ich sehe ___ Kind.", "sub": "Pilih artikel Akkusativ.", "mode": "choice", "options": ["das", "dem", "den"], "answer": "das", "explanation": "Akkusativ netral tetap das: das Kind." },
+  { "prompt": "Er hilft ___ Mann.", "sub": "Pilih artikel Dativ.", "mode": "choice", "options": ["der", "den", "dem"], "answer": "dem", "explanation": "helfen menuntut Dativ maskulin: dem Mann." },
+  { "prompt": "Sie dankt ___ Frau.", "sub": "Pilih artikel Dativ.", "mode": "choice", "options": ["die", "der", "den"], "answer": "der", "explanation": "danken menuntut Dativ feminin: der Frau." },
+  { "prompt": "Wir wohnen in ___ Stadt.", "sub": "Pilih artikel Dativ.", "mode": "choice", "options": ["die", "der", "das"], "answer": "der", "explanation": "in + Dativ feminin (tempat): in der Stadt." },
+  { "prompt": "Ich habe ___ Hund.", "sub": "Pilih artikel indefinit Akkusativ.", "mode": "choice", "options": ["ein", "einen", "einem"], "answer": "einen", "explanation": "haben + Akkusativ maskulin indefinit: einen Hund." },
+  { "prompt": "Sie spricht mit ___ Lehrer.", "sub": "Pilih artikel Dativ.", "mode": "choice", "options": ["der", "den", "dem"], "answer": "dem", "explanation": "mit + Dativ maskulin: mit dem Lehrer." },
+  { "prompt": "Das Geschenk ist für ___ Kinder.", "sub": "Pilih artikel Akkusativ plural.", "mode": "choice", "options": ["die", "der", "den"], "answer": "die", "explanation": "für + Akkusativ plural: für die Kinder." },
+  { "prompt": "Ich fahre zu ___ Bahnhof.", "sub": "Pilih artikel Dativ.", "mode": "choice", "options": ["der", "den", "dem"], "answer": "dem", "explanation": "zu + Dativ maskulin: zu dem (zum) Bahnhof." }
+]

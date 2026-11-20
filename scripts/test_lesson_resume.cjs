@@ -1,0 +1,16 @@
+const fs = require("node:fs");
+const assert = require("node:assert/strict");
+const ts = require("typescript");
+const source = fs.readFileSync("src/lessons/drillDraft.ts", "utf8");
+const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
+const mod = { exports: {} };
+new Function("require", "module", "exports", code)(require, mod, mod.exports);
+const { parseDrillDraft } = mod.exports;
+const items = ["Haus", "Baum"].map((word) => ({ code: "D1", key: word, prompt: word, sub: "", mode: "choice", options: ["der", "das"], answer: "das", explanation: "contoh" }));
+const saved = { items, index: 1, correct: true, correctCount: 1 };
+assert.deepEqual(parseDrillDraft(JSON.stringify(saved)), saved, "a saved answer and question order must survive reopening");
+assert.equal(parseDrillDraft("{"), null);
+assert.equal(parseDrillDraft(JSON.stringify({ ...saved, index: 2 })), null);
+assert.equal(parseDrillDraft(JSON.stringify({ ...saved, correctCount: 3 })), null);
+assert.equal(parseDrillDraft(JSON.stringify({ ...saved, items: [{}] })), null);
+console.log("Lesson drill draft restores question order and answers, and rejects damaged data.");

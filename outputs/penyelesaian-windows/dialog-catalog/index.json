@@ -1,0 +1,687 @@
+{
+  "task": "PROGRES-PRODUK-WINDOWS",
+  "id": "DIALOG-KATALOG-67-20261119",
+  "sourceFiles": [
+    "src/data/reading/texts_a1.json",
+    "src/data/reading/texts_a1a2_extra.json",
+    "src/data/reading/texts_a2.json",
+    "src/data/reading/texts_b1.json",
+    "src/data/reading/texts_b2.json",
+    "src/data/reading/texts_extra.json"
+  ],
+  "total": 67,
+  "reviewed": false,
+  "note": "Katalog data dialog berkarakter dari 67 teks asli. Teks dan level dipertahankan; penutur/pose/properti adalah arahan panggung turunan, bukan telaah pengajar. Im Café memakai 11 giliran yang sudah diuji.",
+  "entries": [
+    {
+      "textId": 1,
+      "title": "Hallo, ich bin Anna",
+      "level": "A1",
+      "file": "text-01.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 2,
+      "title": "Meine Familie",
+      "level": "A1",
+      "file": "text-02.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 3,
+      "title": "In der Stadt",
+      "level": "A1",
+      "file": "text-03.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 4,
+      "title": "Ein Tag in Berlin",
+      "level": "A1",
+      "file": "text-04.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 5,
+      "title": "Ein Wochenende in Hamburg",
+      "level": "A2",
+      "file": "text-05.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 6,
+      "title": "Der Wochenmarkt",
+      "level": "A1",
+      "file": "text-06.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 7,
+      "title": "Uhrzeit und Termine",
+      "level": "A1",
+      "file": "text-07.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 8,
+      "title": "Meine große Familie",
+      "level": "A1",
+      "file": "text-08.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 9,
+      "title": "Ein Besuch bei Oma",
+      "level": "A1",
+      "file": "text-09.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 10,
+      "title": "Im Café",
+      "level": "A1",
+      "file": "text-10.json",
+      "turns": 11,
+      "exactAudio": 6,
+      "honestNoAudio": 5,
+      "catalogStatus": "tested-11-turn-source"
+    },
+    {
+      "textId": 11,
+      "title": "Einkaufen für das Abendessen",
+      "level": "A1",
+      "file": "text-11.json",
+      "turns": 6,
+      "exactAudio": 6,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 12,
+      "title": "Im Kleidungsgeschäft",
+      "level": "A1",
+      "file": "text-12.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 13,
+      "title": "Ein Geschenk für Tom",
+      "level": "A1",
+      "file": "text-13.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 14,
+      "title": "Unsere neue Wohnung",
+      "level": "A1",
+      "file": "text-14.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 15,
+      "title": "Ein ruhiger Abend zu Hause",
+      "level": "A1",
+      "file": "text-15.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 16,
+      "title": "Der Weg zum Bahnhof",
+      "level": "A1",
+      "file": "text-16.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 17,
+      "title": "Ein Nachmittag im Park",
+      "level": "A1",
+      "file": "text-17.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 18,
+      "title": "Mein erster Arbeitstag",
+      "level": "A1",
+      "file": "text-18.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 19,
+      "title": "Ein Termin beim Arzt",
+      "level": "A1",
+      "file": "text-19.json",
+      "turns": 5,
+      "exactAudio": 5,
+      "honestNoAudio": 0,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 20,
+      "title": "Ein Wochenende ohne Stress",
+      "level": "A2",
+      "file": "text-20.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 21,
+      "title": "Musik und Bewegung",
+      "level": "A2",
+      "file": "text-21.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 22,
+      "title": "Mit dem Zug nach Hamburg",
+      "level": "A2",
+      "file": "text-22.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 23,
+      "title": "Ein Tag am Meer",
+      "level": "A2",
+      "file": "text-23.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 24,
+      "title": "Eine Einladung zum Abendessen",
+      "level": "A2",
+      "file": "text-24.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 25,
+      "title": "Eine Nachricht für den Chef",
+      "level": "A2",
+      "file": "text-25.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 26,
+      "title": "Ein Tag auf dem Markt",
+      "level": "A2",
+      "file": "text-26.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 27,
+      "title": "Die Heizung ist kaputt",
+      "level": "A2",
+      "file": "text-27.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 28,
+      "title": "Ein Arzttermin am Morgen",
+      "level": "A2",
+      "file": "text-28.json",
+      "turns": 5,
+      "exactAudio": 0,
+      "honestNoAudio": 5,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 29,
+      "title": "Die neue Wohnung",
+      "level": "A2",
+      "file": "text-29.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 30,
+      "title": "Ein neuer Job",
+      "level": "A2",
+      "file": "text-30.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 31,
+      "title": "Samstag im Supermarkt",
+      "level": "A2",
+      "file": "text-31.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 32,
+      "title": "Beim Arzt",
+      "level": "A2",
+      "file": "text-32.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 33,
+      "title": "Urlaub an der Ostsee",
+      "level": "A2",
+      "file": "text-33.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 34,
+      "title": "Mit dem Bus zur Arbeit",
+      "level": "A2",
+      "file": "text-34.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 35,
+      "title": "Mein Wochenende",
+      "level": "A2",
+      "file": "text-35.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 36,
+      "title": "Ohne Handy",
+      "level": "A2",
+      "file": "text-36.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 37,
+      "title": "Ein Geburtstag im Sommer",
+      "level": "A2",
+      "file": "text-37.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 38,
+      "title": "Müll trennen in Deutschland",
+      "level": "A2",
+      "file": "text-38.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 39,
+      "title": "Ein neuer Nachbar",
+      "level": "B1",
+      "file": "text-39.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 40,
+      "title": "Ein gesünderer Alltag",
+      "level": "B1",
+      "file": "text-40.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 41,
+      "title": "Eine neue Aufgabe",
+      "level": "B1",
+      "file": "text-41.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 42,
+      "title": "Eine Diskussion über Medien",
+      "level": "B1",
+      "file": "text-42.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 43,
+      "title": "Was können wir tun?",
+      "level": "B1",
+      "file": "text-43.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 44,
+      "title": "Eine Woche in Wien",
+      "level": "B1",
+      "file": "text-44.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 45,
+      "title": "Zusammenleben im Viertel",
+      "level": "B1",
+      "file": "text-45.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 46,
+      "title": "Lernen mit Plan",
+      "level": "B1",
+      "file": "text-46.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 47,
+      "title": "Ein eigenes Budget",
+      "level": "B1",
+      "file": "text-47.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 48,
+      "title": "Leben mit Technik",
+      "level": "B1",
+      "file": "text-48.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 49,
+      "title": "Arbeit 2030",
+      "level": "B2",
+      "file": "text-49.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 50,
+      "title": "Die Debatte um die Reform",
+      "level": "B2",
+      "file": "text-50.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 51,
+      "title": "Was die Studie zeigt",
+      "level": "B2",
+      "file": "text-51.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 52,
+      "title": "Ein Unternehmen in der Krise",
+      "level": "B2",
+      "file": "text-52.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 53,
+      "title": "Die Energiewende",
+      "level": "B2",
+      "file": "text-53.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 54,
+      "title": "Falsche Nachrichten",
+      "level": "B2",
+      "file": "text-54.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 55,
+      "title": "Zwei Kulturen",
+      "level": "B2",
+      "file": "text-55.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 56,
+      "title": "Leben mit einer chronischen Krankheit",
+      "level": "B2",
+      "file": "text-56.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 57,
+      "title": "Ein Termin bei der Behörde",
+      "level": "B2",
+      "file": "text-57.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 58,
+      "title": "KI und Verantwortung",
+      "level": "B2",
+      "file": "text-58.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 59,
+      "title": "Der Umzug",
+      "level": "A2",
+      "file": "text-59.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 60,
+      "title": "Ein Tag am See",
+      "level": "A2",
+      "file": "text-60.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 61,
+      "title": "Beim Zahnarzt",
+      "level": "A2",
+      "file": "text-61.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 62,
+      "title": "Die Bewerbung",
+      "level": "B1",
+      "file": "text-62.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 63,
+      "title": "Ein Streit im Haus",
+      "level": "B1",
+      "file": "text-63.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 64,
+      "title": "Klimafreundlich leben",
+      "level": "B1",
+      "file": "text-64.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 65,
+      "title": "Die Debatte über das Gesetz",
+      "level": "B2",
+      "file": "text-65.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 66,
+      "title": "Künstliche Intelligenz am Arbeitsplatz",
+      "level": "B2",
+      "file": "text-66.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    },
+    {
+      "textId": 67,
+      "title": "Eine Studie zur Gesundheit",
+      "level": "B2",
+      "file": "text-67.json",
+      "turns": 6,
+      "exactAudio": 0,
+      "honestNoAudio": 6,
+      "catalogStatus": "generated-from-source-not-teacher-reviewed"
+    }
+  ]
+}

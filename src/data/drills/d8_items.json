@@ -1,0 +1,16 @@
+[
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "einundzwanzig", "answer": "21", "explanation": "einundzwanzig = 21 (ein + und + zwanzig)." },
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "siebenundvierzig", "answer": "47", "explanation": "siebenundvierzig = 47 (sieben + und + vierzig)." },
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "achtzig", "answer": "80", "explanation": "achtzig = 80." },
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "sechzehn", "answer": "16", "explanation": "sechzehn = 16 (bukan sechszehn)." },
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "dreiunddreißig", "answer": "33", "explanation": "dreiunddreißig = 33." },
+  { "prompt": "Hör zu: Zahl", "sub": "Ketik angka yang kamu dengar (digit).", "mode": "type", "say": "einhundert", "answer": "100", "explanation": "einhundert = 100." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 8:30.", "mode": "type", "say": "acht Uhr dreißig", "answer": "8:30", "altAnswers": ["08:30", "8.30", "08.30"], "explanation": "acht Uhr dreißig = 8:30." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 7:15.", "mode": "type", "say": "sieben Uhr fünfzehn", "answer": "7:15", "altAnswers": ["07:15", "7.15", "07.15"], "explanation": "sieben Uhr fünfzehn = 7:15." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 8:45.", "mode": "type", "say": "viertel vor neun", "answer": "8:45", "altAnswers": ["08:45", "8.45", "08.45"], "explanation": "viertel vor neun = seperempat sebelum jam sembilan = 8:45." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 6:30.", "mode": "type", "say": "halb sieben", "answer": "6:30", "altAnswers": ["06:30", "6.30", "06.30"], "explanation": "halb sieben = setengah menuju jam tujuh = 6:30 (bukan 7:30)." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 10:00.", "mode": "type", "say": "zehn Uhr", "answer": "10:00", "altAnswers": ["10.00", "10", "zehn"], "explanation": "zehn Uhr = 10:00." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 3:05.", "mode": "type", "say": "fünf nach drei", "answer": "3:05", "altAnswers": ["03:05", "3.05", "03.05"], "explanation": "fünf nach drei = lima menit setelah jam tiga = 3:05." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 7:40.", "mode": "type", "say": "zwanzig vor acht", "answer": "7:40", "altAnswers": ["07:40", "7.40", "07.40"], "explanation": "zwanzig vor acht = dua puluh menit sebelum jam delapan = 7:40." },
+  { "prompt": "Hör zu: Uhrzeit", "sub": "Ketik jam seperti 8:30.", "mode": "type", "say": "halb neun", "answer": "8:30", "altAnswers": ["08:30", "8.30", "08.30"], "explanation": "halb neun = setengah menuju jam sembilan = 8:30." }
+]

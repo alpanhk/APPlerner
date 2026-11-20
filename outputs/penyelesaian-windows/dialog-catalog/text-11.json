@@ -1,0 +1,202 @@
+{
+  "id": "dialog-11",
+  "title": "Einkaufen für das Abendessen",
+  "textId": 11,
+  "level": "A1",
+  "tags": "seed · unit 4 · belanja",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop"
+      },
+      "kuchen": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Ich kaufe heute Gemüse und Fisch.",
+      "id": "Hari ini saya membeli sayur dan ikan.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Meine Mutter kocht Reis mit Gemüse.",
+      "id": "Ibu saya memasak nasi dengan sayur.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Mein Vater trinkt Wasser, ich trinke Saft.",
+      "id": "Ayah saya minum air, saya minum jus.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Zum Frühstück esse ich Brot mit Käse.",
+      "id": "Untuk sarapan saya makan roti dengan keju.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Das Abendessen ist um sieben Uhr.",
+      "id": "Makan malamnya pukul tujuh.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Ich bin hungrig und durstig.",
+      "id": "Saya lapar dan haus.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Ich kaufe heute Gemüse und Fisch.",
+      "id": "Hari ini saya membeli sayur dan ikan.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_047.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Meine Mutter kocht Reis mit Gemüse.",
+      "id": "Ibu saya memasak nasi dengan sayur.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_073.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Mein Vater trinkt Wasser, ich trinke Saft.",
+      "id": "Ayah saya minum air, saya minum jus.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_063.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Zum Frühstück esse ich Brot mit Käse.",
+      "id": "Untuk sarapan saya makan roti dengan keju.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_example_120.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Das Abendessen ist um sieben Uhr.",
+      "id": "Makan malamnya pukul tujuh.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_013.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Ich bin hungrig und durstig.",
+      "id": "Saya lapar dan haus.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_042.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

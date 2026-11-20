@@ -1,0 +1,206 @@
+{
+  "id": "dialog-59",
+  "title": "Der Umzug",
+  "textId": 59,
+  "level": "A2",
+  "tags": "seed · A2 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "bahnhof": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "ticket": {
+        "kind": "prop"
+      },
+      "koffer": {
+        "kind": "prop"
+      },
+      "karte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Samstag ziehen wir in die neue Wohnung.",
+      "id": "Hari Sabtu kami pindah ke apartemen baru.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Möbel sind schon im Lastwagen.",
+      "id": "Mebelnnya sudah di dalam truk.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Mein Bruder hilft uns beim Tragen.",
+      "id": "Saudara laki-laki saya membantu mengangkat.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Nachbarn haben uns begrüßt.",
+      "id": "Tetangga-tetangganya menyapa kami.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Abend sind wir sehr müde.",
+      "id": "Malamnya kami sangat lelah.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Aber wir sind auch glücklich.",
+      "id": "Tetapi kami juga bahagia.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Am Samstag ziehen wir in die neue Wohnung.",
+      "id": "Hari Sabtu kami pindah ke apartemen baru.",
+      "pose": "erzaehlen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Möbel sind schon im Lastwagen.",
+      "id": "Mebelnnya sudah di dalam truk.",
+      "pose": "offscreen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Mein Bruder hilft uns beim Tragen.",
+      "id": "Saudara laki-laki saya membantu mengangkat.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Nachbarn haben uns begrüßt.",
+      "id": "Tetangga-tetangganya menyapa kami.",
+      "pose": "offscreen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Am Abend sind wir sehr müde.",
+      "id": "Malamnya kami sangat lelah.",
+      "pose": "fragen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "freundin",
+      "de": "Aber wir sind auch glücklich.",
+      "id": "Tetapi kami juga bahagia.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

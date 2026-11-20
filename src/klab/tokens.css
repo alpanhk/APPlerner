@@ -1,0 +1,625 @@
+.klab-app {
+  --k-canvas: #fffcf5; --k-surface: #fff; --k-text: #172033; --k-muted: #475569;
+  --k-primary: #1746d1; --k-on-primary: #fff; --k-action: #b83226; --k-on-action: #fff;
+  --k-highlight: #ffe16a; --k-on-highlight: #172033; --k-border: #667085;
+  --k-focus: #1746d1; --k-tint: #eaf0ff; --k-success: #216239;
+  --k-display: Georgia, 'Times New Roman', serif;
+  --k-editorial-serif: var(--k-display);
+  min-height: 100vh; min-height: 100dvh; color-scheme: light;
+  background: var(--k-canvas); color: var(--k-text);
+  font: 1rem/1.55 'Segoe UI', system-ui, sans-serif; display: flex;
+}
+.klab-app[data-theme='dark'] {
+  --k-canvas: #151922; --k-surface: #222938; --k-text: #f5f7fb; --k-muted: #bac5d6;
+  --k-primary: #99b6ff; --k-on-primary: #101827; --k-action: #ffada2; --k-on-action: #241411;
+  --k-highlight: #e8ca58; --k-on-highlight: #171a21; --k-border: #8b99af;
+  --k-focus: #ffe16a; --k-tint: #2b3852; --k-success: #a0dcb3; color-scheme: dark;
+
+  /* Warisan "Akademik Premium" dipakai halaman lama via utilitas Tailwind.
+     Token @theme ditimpa di sini agar teks dan latar berasal dari satu tema.
+     Light sengaja tidak diubah. */
+  --color-parchment: #151922;
+  --color-parchment-deep: #10141c;
+  --color-cream: #222938;
+  --color-ink: #f5f7fb;
+  --color-ink-soft: #bac5d6;
+  --color-gold: #ffd166;
+  --color-gold-deep: #ffe16a;
+  --color-line: #596577;
+  --color-line-soft: #384357;
+}
+.klab-app[data-theme='dark'] .btn-gold { color: #1a1205; }
+.klab-app[data-theme='dark'] .card,
+.klab-app[data-theme='dark'] .card-soft { background: #222938; border-color: #596577; }
+.klab-app[data-theme='dark'] .badge { background: #222938; border-color: #596577; color: #ffe16a; }
+.klab-app *, .klab-app *::before, .klab-app *::after { box-sizing: border-box; }
+.klab-app button, .klab-app input, .klab-app textarea, .klab-app select { font: inherit; }
+.klab-app button { color: inherit; cursor: pointer; }
+.klab-app .btn-gold { color: #fffdf6; }
+.klab-app button:disabled { cursor: default; opacity: .6; }
+.klab-app :is(button,a,input,textarea,select):focus-visible { outline: 3px solid var(--k-focus); outline-offset: 3px; }
+.klab-app h1, .klab-app h2, .klab-app h3, .klab-app p { margin: 0; }
+.klab-app h1 { font-size: clamp(1.7rem, 3vw, 2.5rem); line-height: 1.2; font-weight: 800; letter-spacing: -.035em; }
+.klab-app h2 { font-size: 1.35rem; line-height: 1.3; font-weight: 800; }
+.klab-app h3 { font-size: 1.05rem; line-height: 1.4; }
+.klab-app p + p { margin-top: 1rem; }
+.klab-skip { position: absolute; left: 1rem; top: -6rem; z-index: 10; padding: .8rem; background: var(--k-surface); color: var(--k-text); }
+.klab-skip:focus { top: 1rem; }
+.klab-rail { flex: 0 0 13rem; padding: 2rem 1rem; border-right: 1.5px solid var(--k-border); display: flex; flex-direction: column; gap: 2.4rem; }
+.klab-wordmark { position: relative; width: fit-content; font-size: 2.6rem; line-height: 1.2; font-weight: 900; font-style: italic; letter-spacing: -.07em; color: var(--k-primary); }
+.klab-wordmark span { display: block; height: 5px; border-radius: 50%; background: var(--k-action); transform: rotate(-5deg); margin-top: -3px; }
+.klab-rail nav { display: flex; flex-direction: column; gap: .5rem; }
+.klab-rail nav button { display: flex; align-items: center; gap: .75rem; min-height: 48px; border: 0; padding: .65rem .85rem; border-radius: .65rem; background: transparent; text-align: left; }
+.klab-rail nav button[aria-current] { background: var(--k-primary); color: var(--k-on-primary); font-weight: 750; }
+.klab-local { margin-top: auto !important; font-size: .8rem; color: var(--k-muted); }
+.klab-workspace { min-width: 0; flex: 1; max-width: 100%; }
+.klab-topbar { min-height: 76px; padding: 1rem 2rem; display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
+.klab-preview-label { color: var(--k-muted); font-size: .75rem; }
+.klab-mobile-brand { display: none; }
+.klab-icon-button { display: inline-flex; align-items: center; justify-content: center; background: var(--k-surface); border: 1px solid var(--k-border); border-radius: 50%; width: 48px; height: 48px; flex: 0 0 48px; }
+.klab-workspace main { max-width: 1180px; margin-inline: auto; padding: 0 2rem 2.5rem; }
+.klab-app .klab-heading { margin-bottom: 1.5rem; }
+.klab-muted { color: var(--k-muted); }
+.klab-hero { position: relative; display: flex; align-items: center; justify-content: space-between; min-height: 200px; gap: 1rem; overflow: hidden; margin-bottom: 1.5rem; border-bottom: 2px solid var(--k-text); }
+.klab-hero::before { content: ''; position: absolute; inset: 0; opacity: .25; pointer-events: none; background: radial-gradient(var(--k-primary) .8px, transparent .9px) 100% 100% / 7px 7px; mask-image: linear-gradient(90deg,transparent 40%,#000); }
+.klab-brush { display: inline-block; position: relative; z-index: 1; background: var(--k-highlight); color: var(--k-on-highlight); padding: .5rem .8rem; font-style: italic; transform: rotate(-2deg); clip-path: polygon(2% 4%,98% 0,100% 93%,0 100%); }
+.klab-mascot { flex: 0 0 auto; width: 210px; max-width: 45%; position: relative; }
+.klab-home-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .65fr); gap: 1.5rem; align-items: start; }
+.klab-stack { display: grid; gap: 1rem; }
+.klab-panel { border: 1.5px solid var(--k-border); border-radius: 12px; background: var(--k-surface); padding: 1.25rem; min-width: 0; }
+.klab-panel-heading { width: fit-content; margin: -2rem 0 1rem !important; padding: .15rem .65rem; background: var(--k-primary); color: var(--k-on-primary); font-size: 1.02rem; transform: rotate(-2deg); }
+.klab-continue { margin-top: 1rem; display: flex; align-items: center; gap: 1rem; width: 100%; text-align: left; }
+.klab-continue > div { flex: 1; min-width: 0; }
+.klab-continue h2 { margin: .3rem 0 .6rem; }
+.klab-unit-ribbon { display: inline-flex; flex: 0 0 48px; min-height: 56px; align-items: center; justify-content: center; align-self: flex-start; border: 2px solid var(--k-text); border-radius: 4px 4px 9px 2px; transform: rotate(-4deg); background: var(--k-action); color: var(--k-on-action); font-size: 1.5rem; font-weight: 850; }
+.klab-progress { display: flex; gap: 3px; margin-top: .7rem; }
+.klab-progress span { height: 12px; border: 1px solid var(--k-border); border-radius: 3px; flex: 1; }
+.klab-progress span[data-done='true'] { background: var(--k-primary); border-color: var(--k-primary); }
+.klab-row { min-height: 52px; display: flex; align-items: center; gap: .7rem; text-align: left; width: 100%; border: 1px solid var(--k-border); background: var(--k-surface); border-radius: 9px; padding: .65rem .8rem; }
+.klab-row > svg:last-child { margin-left: auto; flex-shrink: 0; }
+.klab-unit-list { display: grid; gap: .6rem; margin-top: 1rem; }
+.klab-unit-list button { display: flex; align-items: center; gap: .8rem; min-height: 58px; padding: .65rem; text-align: left; border-radius: 9px; border: 1px solid var(--k-border); background: var(--k-surface); }
+.klab-unit-list button[data-active='true'] { border: 2px solid var(--k-primary); background: var(--k-tint); }
+.klab-unit-list button > span:first-child { font-weight: 850; font-size: 1.4rem; min-width: 2rem; color: var(--k-primary); }
+.klab-unit-list small { display: block; color: var(--k-muted); }
+.klab-actions { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 1rem; }
+.klab-button { display: inline-flex; justify-content: center; align-items: center; gap: .5rem; min-height: 48px; background: var(--k-action); color: var(--k-on-action) !important; border: 1px solid transparent; padding: .65rem 1rem; border-radius: .65rem; font-weight: 750; }
+.klab-button-secondary { background: var(--k-surface); color: var(--k-text) !important; border-color: var(--k-border); }
+.klab-button-secondary[aria-pressed='true'] { background: var(--k-primary); color: var(--k-on-primary) !important; }
+.klab-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.3rem; }
+.klab-tabs button { min-height: 48px; padding: .5rem 1rem; border: 1px solid var(--k-border); border-radius: .6rem; background: var(--k-surface); }
+.klab-tabs button[aria-pressed='true'] { background: var(--k-primary); color: var(--k-on-primary); border-color: var(--k-primary); }
+.klab-study { display: grid; grid-template-columns: minmax(0,1fr) minmax(250px,.6fr); gap: 1.25rem; align-items: start; }
+.klab-reading { max-width: 68ch; }
+.klab-reading > * + * { margin-top: 1.25rem; }
+.klab-comic { border: 2px solid var(--k-text); border-radius: 4px; background: #f9cf8b; display: flex; align-items: center; justify-content: center; gap: .5rem; padding: 1rem; color: #172033; }
+.klab-comic .klab-mascot { max-width: 48%; }
+.klab-bubble { background: #fff; border: 2px solid #172033; border-radius: 45%; text-align: center; padding: 1rem; font-weight: 800; font-size: 1.2rem; }
+.klab-highlight { background: var(--k-highlight); color: var(--k-on-highlight); padding: .05rem .15rem; border-radius: 3px; }
+.klab-app details { border: 1px solid var(--k-border); border-radius: 8px; padding: .75rem 1rem; }
+.klab-app summary { cursor: pointer; min-height: 32px; font-weight: 700; }
+.klab-app details[open] summary { margin-bottom: .75rem; }
+.klab-field { display: grid; gap: .5rem; font-weight: 700; }
+.klab-field textarea { resize: vertical; min-height: 180px; width: 100%; background: var(--k-canvas); color: var(--k-text); border: 1px solid var(--k-border); border-radius: 8px; padding: .85rem; font-weight: 400; line-height: 1.6; }
+.klab-save-status { margin-top: .75rem !important; font-size: .875rem; }
+.klab-save-status[data-failed='true'] { color: var(--k-action); }
+.klab-back { margin-bottom: 1rem; }
+.klab-preview-tools { margin-top: 2rem; border-top: 1px dashed var(--k-border); padding-top: 1rem; color: var(--k-muted); font-size: .85rem; }
+.klab-preview-tools label { display: flex; align-items: center; gap: .65rem; min-height: 48px; }
+.klab-preview-tools input { width: 20px; height: 20px; }
+@media (min-width:600px) and (max-width:1023px) {
+  .klab-rail { flex-basis: 6.5rem; padding-inline: .5rem; }
+  .klab-rail > .klab-wordmark { font-size: 1.8rem; }
+  .klab-rail nav button { flex-direction: column; gap: .2rem; padding-inline: .25rem; font-size: .8rem; }
+  .klab-local { display: none; }
+  .klab-home-grid { grid-template-columns: 1fr; }
+}
+@media (max-width:900px) {
+  .klab-study { grid-template-columns: minmax(0,1fr); }
+}
+@media (max-width:599px) {
+  .klab-app { display: block; }
+  .klab-rail { position: fixed; bottom: 0; left: 0; right: 0; z-index: 5; border-top: 1.5px solid var(--k-border); border-right: 0; background: var(--k-surface); padding: .4rem .5rem max(.4rem,env(safe-area-inset-bottom)); }
+  .klab-rail > .klab-wordmark, .klab-local { display: none; }
+  .klab-rail nav { flex-direction: row; gap: .5rem; }
+  .klab-rail nav button { flex: 1; min-width: 0; flex-direction: column; gap: .1rem; padding: .35rem .1rem; font-size: .75rem; line-height: 1.4; }
+  .klab-topbar { padding: max(.9rem,env(safe-area-inset-top)) 1rem .8rem; gap: .5rem; justify-content: space-between; }
+  .klab-preview-label { font-size: .62rem; max-width: 6rem; text-align: center; }
+  .klab-mobile-brand { display: block; font-size: 2rem; }
+  .klab-workspace main { padding: .5rem 1rem calc(7rem + env(safe-area-inset-bottom)); }
+  .klab-hero { min-height: 160px; gap: 0; margin-bottom: 1.25rem; }
+  .klab-hero h1 { font-size: 1.7rem; }
+  .klab-mascot { width: 160px; }
+  .klab-home-grid { grid-template-columns: minmax(0,1fr); gap: 1rem; }
+  .klab-panel { padding: 1rem; }
+  .klab-continue { gap: .75rem; }
+  .klab-continue h2 { font-size: 1.2rem; }
+  .klab-comic { padding: .5rem; }
+  .klab-bubble { padding: .75rem; font-size: 1rem; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .klab-app *, .klab-app *::before, .klab-app *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---------------------------------------------------------------------------
+   Production visual system (4a). Ported from the reviewed KLAB prototype and
+   scoped under .klab-app so the legacy application styles are untouched.
+   Class names follow outputs/prototipe-interaksi-klab-2026-11-19/UI-CONTRACT.md.
+   --------------------------------------------------------------------------- */
+.klab-app {
+  --k-blue-ink: #163aa6;
+  --k-action-dark: #9d261e;
+  --k-line: #d7dce8;
+  --k-ink-line: #9aa9c0;
+  --k-success-paper: #eaf6ed;
+  --k-danger-paper: #fceeea;
+  --k-warm-paper: #fff5d8;
+  --k-comic: #f9cf8b;
+  --k-edge: clamp(16px, 4vw, 40px);
+  --k-width: 1000px;
+  --k-radius: 12px;
+  --k-shadow: 3px 3px 0 var(--k-line);
+}
+.klab-app[data-theme='dark'] {
+  --k-blue-ink: #b9cdff;
+  --k-action-dark: #ffd0c7;
+  --k-line: #3c485e;
+  --k-ink-line: #7c8aa3;
+  --k-success-paper: #1f3a2b;
+  --k-danger-paper: #3a2422;
+  --k-warm-paper: #2e2a1f;
+  --k-comic: #4a3a1d;
+  --k-shadow: 3px 3px 0 #10151d;
+}
+.klab-app [hidden] { display: none !important; }
+.klab-app .klab-workspace main {
+  max-width: 1080px;
+  padding: 1.25rem var(--k-edge) 2.5rem;
+}
+.klab-app :is(.home, .lesson, .exercise, .shelf, .reader, .book-preview) {
+  width: min(var(--k-width), 100%);
+  margin-inline: auto;
+  padding-block: clamp(16px, 3vh, 28px) 24px;
+  min-width: 0;
+}
+.klab-app :is(.lesson, .exercise, .book-preview, .reader) { padding-top: 0; }
+.klab-app h1, .klab-app h2, .klab-app h3 { line-height: 1.16; letter-spacing: -.03em; text-wrap: balance; }
+.klab-app h1 { font-size: clamp(2rem, 4.1vw, 2.85rem); font-weight: 820; }
+.klab-app h2 { font-size: clamp(1.25rem, 2.6vw, 1.65rem); font-weight: 780; }
+.klab-app h3 { font-size: 1.14rem; font-weight: 750; }
+.klab-app p + p { margin-top: .5rem; }
+.klab-app img { display: block; max-width: 100%; }
+.klab-app svg { flex: none; vertical-align: middle; }
+.klab-app :where(a) { color: var(--k-blue-ink); }
+.klab-app :where(button, a[href], input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--k-focus); outline-offset: 3px;
+}
+.klab-app mark {
+  color: inherit; background: var(--k-highlight); border-radius: 3px;
+  padding: .02em .15em .08em; box-decoration-break: clone;
+}
+
+/* Buttons and control rows */
+.klab-app :is(.button, .button-primary, .button-secondary, .button-text, .back-button) {
+  display: inline-flex; min-height: 44px; width: fit-content; align-items: center;
+  justify-content: center; gap: .55rem; padding: .55rem .9rem;
+  border: 1px solid var(--k-ink-line); border-radius: 8px;
+  background: var(--k-surface); color: var(--k-blue-ink);
+  font-weight: 720; line-height: 1.2; text-decoration: none;
+}
+.klab-app .button-primary {
+  color: var(--k-on-action); background: var(--k-action); border-color: var(--k-action);
+  padding-inline: 1.15rem;
+}
+.klab-app .button-primary:hover:not(:disabled) { background: var(--k-action-dark); }
+.klab-app .button-secondary:hover:not(:disabled),
+.klab-app .button-text:hover:not(:disabled) { background: var(--k-tint); }
+.klab-app :is(.button-text, .back-button) {
+  border-color: transparent; background: transparent; padding-inline: 8px;
+}
+.klab-app .back-button { color: var(--k-text); white-space: nowrap; }
+.klab-app :is(.button, .button-primary, .button-secondary, .button-text):disabled {
+  color: var(--k-muted); background: var(--k-line); border-color: var(--k-line);
+}
+.klab-app [aria-expanded=true]:is(.button, .button-secondary, .button-text) {
+  background: var(--k-tint); border-color: var(--k-primary);
+}
+.klab-app .actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.klab-app .eyebrow, .klab-app .kicker {
+  color: var(--k-blue-ink); font-size: .77rem; font-weight: 800;
+  letter-spacing: .075em; text-transform: uppercase;
+}
+.klab-app .muted, .klab-app .lede, .klab-app .translation, .klab-app .support-copy { color: var(--k-muted); }
+
+/* Headers */
+.klab-app :is(.app-header, .focus-header) {
+  min-height: 70px; display: flex; align-items: center; gap: 18px;
+  padding-inline: var(--k-edge);
+  background: var(--k-surface); border-bottom: 1px solid var(--k-line);
+}
+.klab-app .focus-header { position: sticky; inset-block-start: 0; z-index: 2; min-height: 60px; }
+.klab-app .brand {
+  display: inline-block; width: max-content; color: var(--k-primary);
+  font-size: 2.28rem; line-height: 1; font-weight: 900; font-style: italic;
+  letter-spacing: -.07em; text-decoration: none; padding: 3px 0;
+  border: 0; background: transparent;
+}
+.klab-app .brand::after {
+  content: ''; display: block; width: 90%; height: 4px; margin: 4px auto 0;
+  border-radius: 65% 35% 54% 40%; background: var(--k-action); transform: rotate(-5deg);
+}
+.klab-app .app-nav { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-left: auto; }
+.klab-app .app-nav :where(a, button) {
+  display: inline-flex; align-items: center; min-height: 44px;
+  border: 1px solid transparent; border-radius: 8px; background: transparent;
+  text-decoration: none; color: var(--k-text); padding: .5rem .9rem; font-weight: 670;
+}
+.klab-app .app-nav [aria-current=page] { color: var(--k-blue-ink); background: var(--k-tint); }
+.klab-app .breadcrumb, .klab-app .progress-label { color: var(--k-muted); font-size: .875rem; font-weight: 650; }
+.klab-app .progress-label { color: var(--k-blue-ink); margin-left: auto; white-space: nowrap; }
+
+/* Progress */
+.klab-app :is(.unit-progress, .progress-card) {
+  display: flex; align-items: center; justify-content: space-between; gap: 15px;
+  margin-top: 20px; padding: 15px 19px; border: 1px solid var(--k-line);
+  border-radius: var(--k-radius); background: var(--k-surface);
+}
+.klab-app .progress { height: 10px; max-width: 100%; accent-color: var(--k-primary); }
+.klab-app .progress-track { display: flex; gap: 3px; flex: 1; min-width: 0; }
+.klab-app .progress-track > span { height: 12px; border: 1px solid var(--k-ink-line); border-radius: 3px; flex: 1; min-width: 4px; }
+.klab-app .progress-track > span[data-done='true'] { background: var(--k-primary); border-color: var(--k-primary); }
+
+/* Hari Ini - session card */
+.klab-app .home-row {
+  display: flex; align-items: center; gap: .7rem; min-height: 52px; width: 100%;
+  text-align: left; border: 1px solid var(--k-ink-line); background: var(--k-surface);
+  border-radius: 9px; padding: .65rem .8rem; color: var(--k-text);
+}
+.klab-app .home-row > svg:last-child { margin-left: auto; flex-shrink: 0; }
+.klab-app .book-preview { margin-top: 1.25rem; }
+.klab-app .session-card {
+  position: relative; display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(170px, 1fr);
+  align-items: center; min-height: 300px; gap: 20px; isolation: isolate;
+  overflow: hidden; padding: clamp(22px, 4vw, 44px);
+  background: var(--k-tint); border: 1px solid var(--k-ink-line);
+  border-radius: 16px;
+}
+.klab-app .session-card::before {
+  content: ''; position: absolute; inset: 0 0 0 50%; z-index: -1;
+  background: radial-gradient(var(--k-primary) .7px, transparent .9px) 0 0 / 7px 7px;
+  mask-image: linear-gradient(105deg, transparent, #000); opacity: .24;
+}
+.klab-app .session-card h1 { color: var(--k-text); font-size: clamp(2.4rem, 5.3vw, 4rem); font-style: italic; }
+.klab-app .session-copy h2 {
+  width: fit-content; color: var(--k-text);
+  font-size: clamp(2rem, 4.8vw, 3.4rem); font-weight: 850; font-style: italic;
+  background: linear-gradient(transparent 66%, var(--k-highlight) 66% 93%, transparent 93%);
+}
+.klab-app .session-copy > p { margin-top: .45rem; }
+.klab-app .session-card :is(.actions, .button-primary) { margin-top: 18px; }
+.klab-app .session-art { width: min(100%, 300px); align-self: center; justify-self: end; aspect-ratio: 1; object-fit: contain; }
+.klab-app .unit-ribbon {
+  display: inline-flex; flex: 0 0 48px; min-height: 56px; align-items: center; justify-content: center;
+  align-self: flex-start; border: 2px solid var(--k-text); border-radius: 4px 4px 9px 2px;
+  transform: rotate(-4deg); background: var(--k-action); color: var(--k-on-action);
+  font-size: 1.5rem; font-weight: 850;
+}
+
+/* Shared panels, home grid */
+.klab-app .home-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .72fr); gap: 18px; align-items: start; margin-top: 18px; }
+.klab-app .home-stack, .klab-app .stack { display: grid; gap: 14px; }
+.klab-app .panel {
+  border: 1.5px solid var(--k-ink-line); border-radius: var(--k-radius);
+  background: var(--k-surface); padding: 1.25rem; min-width: 0;
+}
+.klab-app .panel-heading {
+  width: fit-content; margin: -2rem 0 1rem !important; padding: .15rem .65rem;
+  background: var(--k-primary); color: var(--k-on-primary); font-size: 1.02rem;
+  transform: rotate(-2deg);
+}
+.klab-app .unit-list { display: grid; gap: .6rem; margin-top: 1rem; }
+.klab-app .unit-row {
+  display: flex; align-items: center; gap: .8rem; min-height: 58px; padding: .65rem;
+  text-align: left; border-radius: 9px; border: 1px solid var(--k-ink-line);
+  background: var(--k-surface); color: var(--k-text); width: 100%;
+}
+.klab-app .unit-row[data-active='true'] { border: 2px solid var(--k-primary); background: var(--k-tint); }
+.klab-app .unit-row > span:first-child { font-weight: 850; font-size: 1.4rem; min-width: 2rem; color: var(--k-blue-ink); }
+.klab-app .unit-row small { display: block; color: var(--k-muted); }
+.klab-app .unit-row-copy { min-width: 0; overflow-wrap: anywhere; }
+.klab-app .shelf-count { color: var(--k-muted); font-size: .85rem; font-weight: 700; margin-top: 14px; }
+.klab-app .level-badge {
+  flex: 0 0 auto; min-width: 38px; text-align: center; padding: .12rem .4rem;
+  border: 1px solid currentColor; border-radius: 999px; font-size: .72rem; font-weight: 850;
+  letter-spacing: .02em;
+}
+.klab-app .level-badge[data-level='A1'] { color: var(--k-blue-ink); background: var(--k-tint); }
+.klab-app .level-badge[data-level='A2'] { color: var(--k-success); background: var(--k-success-paper); }
+.klab-app .level-badge[data-level='B1'] { color: var(--k-action-dark); background: var(--k-warm-paper); }
+.klab-app .level-badge[data-level='B2'] { color: var(--k-primary); background: var(--k-surface); }
+.klab-app .unit-list-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.klab-app .vocab-toolbar {
+  display: flex; align-items: end; gap: 12px; flex-wrap: wrap; margin-top: 14px;
+}
+.klab-app .vocab-toolbar .klab-field { flex: 1 1 240px; min-width: 0; }
+.klab-app .vocab-toolbar input {
+  width: 100%; min-height: 44px; padding: .5rem .7rem; font: inherit;
+  color: var(--k-text); background: var(--k-surface);
+  border: 1px solid var(--k-ink-line); border-radius: 8px;
+}
+.klab-app .vocab-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 8px; max-height: 64vh; overflow-y: auto; overflow-x: hidden;
+  margin-top: 10px; padding: 2px 4px 2px 0;
+}
+.klab-app .vocab-item {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .1rem .5rem;
+  align-items: center; min-width: 0; padding: .55rem .7rem;
+  border: 1px solid var(--k-line); border-radius: 8px; background: var(--k-surface);
+}
+.klab-app .vocab-item [lang=de] { font-weight: 780; overflow-wrap: anywhere; }
+.klab-app .vocab-item .muted { overflow-wrap: anywhere; font-size: .88rem; }
+.klab-app .vocab-item small { grid-column: 1 / -1; }
+
+/* Tabs */
+.klab-app .tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.3rem; }
+.klab-app .tabs button {
+  min-height: 44px; padding: .5rem 1rem; border: 1px solid var(--k-ink-line);
+  border-radius: .6rem; background: var(--k-surface); color: var(--k-text);
+}
+.klab-app .tabs button[aria-pressed='true'] { background: var(--k-primary); color: var(--k-on-primary); border-color: var(--k-primary); }
+
+/* Lesson / exercise */
+.klab-app .lesson-heading { display: grid; gap: 5px; margin-bottom: 16px; }
+.klab-app .lesson-grid { display: grid; grid-template-columns: minmax(0, 1.36fr) minmax(225px, 1fr); gap: 16px; align-items: stretch; }
+.klab-app .lesson-example {
+  display: grid; align-content: center; justify-items: start; gap: 10px; min-width: 0;
+  padding: clamp(17px, 2.8vw, 28px); border: 1px solid var(--k-ink-line);
+  border-radius: var(--k-radius); background: var(--k-tint);
+}
+.klab-app .lesson-example :where(blockquote, .example-sentence, .german-example) {
+  font-size: clamp(1.7rem, 3.05vw, 2.12rem); line-height: 1.18; font-weight: 785;
+  letter-spacing: -.035em; text-wrap: balance;
+}
+.klab-app .lesson-art {
+  width: 100%; min-width: 0; overflow: hidden; align-self: end;
+  border: 2px solid var(--k-text); border-radius: 9px; background: var(--k-warm-paper);
+  box-shadow: var(--k-shadow); aspect-ratio: 3 / 2;
+}
+.klab-app .lesson-art:is(img), .klab-app .lesson-art img { width: 100%; height: auto; object-fit: cover; }
+.klab-app .lesson-note {
+  margin-top: 16px; padding: 13px 16px; border: 1px solid var(--k-line);
+  border-radius: 9px; background: var(--k-warm-paper);
+}
+.klab-app .question {
+  display: block; min-width: 0; margin-top: 15px; padding: .62rem .95rem;
+  border: 1px solid var(--k-ink-line); border-radius: 10px; background: var(--k-tint);
+  font-size: clamp(1.5rem, 3.15vw, 2.1rem); font-weight: 800;
+  letter-spacing: -.022em; line-height: 1.25;
+}
+.klab-app .choices { min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 11px; padding: 0; margin: 10px 0 0; border: 0; }
+.klab-app .choices legend { padding: 0; margin-bottom: 5px; color: var(--k-muted); }
+.klab-app .choice {
+  display: flex; align-items: center; width: 100%; min-height: 44px; gap: .55rem; margin: 0;
+  padding: .46rem .72rem; text-align: left; background: var(--k-surface);
+  border: 1px solid var(--k-ink-line); border-radius: 8px; color: var(--k-text);
+  font-size: 1.06rem; font-weight: 730;
+}
+.klab-app .choice input { width: 16px; height: 16px; margin: 0; accent-color: var(--k-primary); }
+.klab-app .choice:has(input:focus-visible) { outline: 3px solid var(--k-focus); outline-offset: 2px; }
+.klab-app .choice[data-state~=selected], .klab-app .choice[aria-pressed=true], .klab-app .choice:has(input:checked:not(:disabled)) { background: var(--k-tint); border-color: var(--k-primary); }
+.klab-app .choice[data-state~=correct] { color: var(--k-success); background: var(--k-success-paper); border-color: var(--k-success); }
+.klab-app .choice[data-state~=incorrect] { color: var(--k-action-dark); background: var(--k-danger-paper); border-color: var(--k-action); }
+.klab-app .choice-status { margin-left: auto; text-align: right; font-size: .77rem; font-weight: 700; }
+.klab-app .choice[data-state~=correct] .choice-status::before { content: '\2713  '; }
+.klab-app .choice[data-state~=incorrect] .choice-status::before { content: '\00D7  '; }
+
+/* Feedback / correction */
+.klab-app .feedback {
+  position: relative; display: grid; grid-template-columns: minmax(0, 1fr);
+  margin-top: 12px; padding: 13px 15px; border: 1px solid var(--k-line);
+  border-radius: var(--k-radius); background: var(--k-warm-paper);
+}
+.klab-app .feedback[data-state~=correct] { border-color: var(--k-success); background: var(--k-success-paper); }
+.klab-app .feedback[data-state~=incorrect] h2 { color: var(--k-action-dark); }
+.klab-app .feedback[data-state~=correct] h2 { color: var(--k-success); }
+.klab-app .feedback:has(.feedback-art) { padding-right: 119px; }
+.klab-app .feedback-art { position: absolute; top: 4px; right: 5px; width: 111px; height: 111px; object-fit: contain; pointer-events: none; }
+.klab-app .feedback-body, .klab-app .explanation, .klab-app .example-panel { min-width: 0; }
+.klab-app .feedback h2 { margin: 0 0 4px; font-size: 1.16rem; font-weight: 800; }
+.klab-app .correct-sentence { margin: 3px 0 8px; font-size: clamp(1.1rem, 2.3vw, 1.35rem); font-weight: 760; }
+.klab-app .correct-sentence strong { padding: 0 .12em .07em; border-radius: 3px; background: var(--k-highlight); }
+.klab-app :is(.explanation, .example-panel) {
+  margin-top: 9px; padding: 11px 13px; border: 1px solid var(--k-line);
+  border-radius: 8px; background: var(--k-surface);
+}
+.klab-app .explanation p { max-width: 60ch; }
+.klab-app .explanation h3 { margin-bottom: 5px; }
+.klab-app .example-panel { border-color: var(--k-primary); border-left: 4px solid var(--k-primary); background: var(--k-tint); }
+.klab-app .example-panel :where(blockquote, .example-sentence, .german-example) {
+  margin: .32rem 0; font-size: clamp(1.19rem, 2.4vw, 1.55rem); line-height: 1.25; font-weight: 760; letter-spacing: -.02em;
+}
+.klab-app .explanation:has(.example-panel:not([hidden])) {
+  display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: start; column-gap: 18px;
+}
+.klab-app .explanation:has(.example-panel:not([hidden])) > :not(.example-panel) { grid-column: 1; }
+.klab-app .example-panel:not([hidden]) { grid-column: 2; grid-row: 1 / span 3; margin-top: 0; }
+.klab-app .audio-status:empty { display: none; }
+.klab-app .audio-status { color: var(--k-muted); font-size: .88rem; }
+/* Pilot flow: typed answer field and actionable save-error message. */
+.klab-app .exercise form { display: grid; gap: 8px; margin-top: 14px; min-width: 0; }
+.klab-app .exercise input:not([type=radio]):not([type=checkbox]) {
+  width: min(100%, 340px); min-height: 44px; padding: .5rem .7rem;
+  color: var(--k-text); background: var(--k-canvas);
+  border: 1px solid var(--k-ink-line); border-radius: 8px;
+}
+.klab-app [role=alert] {
+  color: var(--k-action-dark); font-weight: 700; margin-top: .75rem;
+  overflow-wrap: anywhere;
+}
+.klab-app .screen-footer { flex-wrap: wrap; }
+.klab-app .screen-footer > p[role=alert] { color: var(--k-action-dark); }
+.klab-app :is(.explanation, .example-panel, .question, .reading-pair) { scroll-margin-block: 75px 74px; }
+.klab-app .screen-footer {
+  position: sticky; bottom: 0; z-index: 1; display: flex; justify-content: space-between;
+  align-items: center; gap: 12px; min-height: 61px; margin-top: 16px; padding: 8px 0;
+  border-top: 1px solid var(--k-line); background: var(--k-canvas);
+}
+.klab-app .screen-footer > .button-primary:last-child { margin-left: auto; min-width: 130px; }
+.klab-app .screen-footer > p { color: var(--k-muted); }
+
+/* Comic panel */
+.klab-app .comic {
+  border: 2px solid var(--k-text); border-radius: 4px; background: var(--k-comic);
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+  padding: 1rem; color: var(--k-text);
+}
+.klab-app .comic .klab-mascot { max-width: 48%; }
+.klab-app .bubble {
+  background: var(--k-surface); border: 2px solid var(--k-text); border-radius: 45%;
+  text-align: center; padding: 1rem; font-weight: 800; font-size: 1.2rem;
+}
+
+/* Shelf and books */
+.klab-app :is(.shelf-grid, .books) { display: flex; align-items: start; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+.klab-app .book-card {
+  width: min(100%, 205px); padding: 0; text-align: left; color: var(--k-text);
+  background: transparent; border: 0; border-radius: 8px; display: grid; gap: .24rem;
+}
+.klab-app .book-title { font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.1; font-weight: 850; }
+.klab-app .book-meta, .klab-app .book-action { font-size: .88rem; }
+.klab-app .book-meta { color: var(--k-muted); }
+.klab-app .book-action { color: var(--k-blue-ink); font-weight: 720; }
+.klab-app .book-cover {
+  position: relative; display: grid; align-content: start; gap: .2rem; isolation: isolate;
+  overflow: hidden; min-width: 0; padding: 17px 16px 14px 21px; color: #fff;
+  background: #173885; border: 1px solid #18306b; border-left: 8px solid #1c3480;
+  border-radius: 3px 10px 10px 3px; aspect-ratio: 2 / 3; box-shadow: 4px 4px 0 var(--k-line);
+}
+.klab-app .book-cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.klab-app .book-cover:has(img)::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, #12265ced, #12265cce 18%, transparent 55%); pointer-events: none;
+}
+.klab-app .book-cover :where(h2, h3, strong) { font-size: clamp(1.32rem, 3vw, 2rem); font-weight: 850; }
+.klab-app .book-cover :where(p, small) { font-size: .78rem; font-weight: 710; }
+/* Meta sampul (mis. "A1 · Bacaan") tidak boleh mengambang di atas ilustrasi terang.
+   Chip gelap memberi kontras ~14:1 dan mencegah teks terpotong oleh gambar. */
+.klab-app .book-cover p {
+  width: fit-content; max-width: 100%; margin-top: .15rem;
+  padding: .1rem .4rem; color: #fff; background: #12265c;
+  border: 1px solid rgba(255, 255, 255, .35); border-radius: 4px;
+  overflow-wrap: anywhere;
+}
+/* Label "A1 · Restoran": light chip on the dark cover. #12265c on #ffffff = 14.3:1.
+   Never reuse the old white-on-#16306b/sampul blend (~1.8:1 on the blue artwork). */
+.klab-app .book-cover .cover-label {
+  color: #12265c; background: #ffffff; border: 1px solid #12265c; border-radius: 4px;
+  width: fit-content; padding: .12rem .5rem; font-size: .76rem; font-weight: 850;
+  letter-spacing: .01em;
+}
+.klab-app[data-theme='dark'] .book-cover .cover-label {
+  color: #101a33; background: #ffffff; border-color: #101a33;
+}
+.klab-app .book-card:hover .book-cover { border-color: var(--k-primary); box-shadow: 4px 4px 0 var(--k-tint); }
+.klab-app .preview-content { display: grid; grid-template-columns: minmax(160px, 210px) minmax(0, 1fr); align-items: start; gap: clamp(16px, 3.5vw, 34px); }
+.klab-app .preview-content > .book-cover { min-width: 0; }
+.klab-app .preview-content > .preview-copy {
+  padding: clamp(16px, 3vw, 28px); border: 1px solid var(--k-line);
+  border-radius: var(--k-radius); background: var(--k-surface);
+}
+.klab-app .preview-copy h1 { margin: 7px 0 15px; }
+.klab-app .preview-copy .lead { font-size: 1.22rem; font-weight: 680; }
+.klab-app .book-preview[data-entering] .book-cover { animation: klab-book-open 270ms cubic-bezier(.2,.75,.3,1) both; transform-origin: left center; }
+@keyframes klab-book-open {
+  from { transform: perspective(720px) rotateY(-24deg) translateX(-8px); }
+  to { transform: perspective(720px) rotateY(0) translateX(0); }
+}
+.klab-app .reader-content {
+  margin-top: 14px; padding: clamp(17px, 4.3vw, 36px); border: 1px solid var(--k-line);
+  border-radius: 8px; background: var(--k-surface);
+}
+.klab-app .reader-content .reading-lines { margin: 16px 0 0; padding: 0; list-style: none; }
+.klab-app .reading-pair + .reading-pair { margin-top: 14px; border-top: 1px solid var(--k-line); padding-top: 14px; }
+.klab-app .reading-pair [lang=de] { font-size: 1.13rem; font-weight: 720; }
+.klab-app .reading-pair [lang=id], .klab-app .reading-pair .translation { margin-top: 3px; color: var(--k-muted); }
+.klab-app .reading-pair[data-state] [lang=de] { background: var(--k-warm-paper); border-radius: 4px; }
+
+/* Status, empty and error states */
+.klab-app .save-status { margin-top: .75rem !important; font-size: .875rem; }
+.klab-app .save-status[data-failed='true'] { color: var(--k-action-dark); }
+.klab-app .state-card {
+  border: 1.5px dashed var(--k-ink-line); border-radius: var(--k-radius);
+  background: var(--k-surface); padding: clamp(20px, 4vw, 36px);
+  display: grid; justify-items: start; gap: .65rem; min-width: 0;
+}
+.klab-app .state-card[data-tone='error'] { border-color: var(--k-action); border-style: solid; background: var(--k-danger-paper); }
+.klab-app .state-card[data-tone='empty'] { background: var(--k-canvas); }
+.klab-app .state-card > :is(h1, h2, h3) { margin: 0; }
+.klab-app .state-card .state-icon { color: var(--k-primary); }
+
+/* Notes / profile layouts */
+.klab-app .notes-layout { display: grid; grid-template-columns: minmax(200px, .7fr) minmax(0, 1.3fr); gap: 16px; align-items: start; }
+.klab-app .notes-list { display: grid; gap: .5rem; align-content: start; }
+.klab-app .note-item {
+  display: grid; gap: .2rem; width: 100%; text-align: left; min-height: 52px;
+  padding: .65rem .8rem; border: 1px solid var(--k-ink-line); border-radius: 9px;
+  background: var(--k-surface); color: var(--k-text);
+}
+.klab-app .note-item[data-selected='true'] { border: 2px solid var(--k-primary); background: var(--k-tint); }
+.klab-app .note-item small { color: var(--k-muted); }
+.klab-app .note-flag { color: var(--k-action-dark); font-weight: 750; font-size: .8rem; }
+.klab-app .note-editor { display: grid; gap: .65rem; min-width: 0; }
+.klab-app .note-editor input, .klab-app .note-editor textarea {
+  width: 100%; background: var(--k-canvas); color: var(--k-text);
+  border: 1px solid var(--k-ink-line); border-radius: 8px; padding: .75rem; font: inherit; line-height: 1.6;
+}
+.klab-app .note-editor textarea { min-height: 180px; resize: vertical; }
+.klab-app .note-preview { border-left: 4px solid var(--k-primary); padding-left: .9rem; color: var(--k-muted); }
+.klab-app .profile-section-list { display: grid; gap: .6rem; margin-top: 1rem; }
+.klab-app .profile-row {
+  display: flex; align-items: center; gap: .8rem; min-height: 52px; padding: .65rem .8rem;
+  text-align: left; border: 1px solid var(--k-ink-line); border-radius: 9px;
+  background: var(--k-surface); color: var(--k-text); width: 100%;
+}
+.klab-app .profile-row > svg:last-child { margin-left: auto; }
+.klab-app .profile-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 1rem; }
+.klab-app .profile-stat { border: 1px solid var(--k-line); border-radius: 9px; padding: 1rem; background: var(--k-surface); }
+.klab-app .profile-stat strong { display: block; font-size: 1.6rem; }
+.klab-app .profile-stat span { color: var(--k-muted); font-size: .85rem; }
+.klab-app .next-step-list { display: grid; gap: 8px; margin-top: 14px; }
+.klab-app .next-step-item {
+  display: grid; gap: .2rem; padding: .65rem .8rem; min-width: 0;
+  border: 1px solid var(--k-border); border-radius: 8px; background: var(--k-surface);
+}
+.klab-app .next-step-item strong { overflow-wrap: anywhere; }
+
+@media (max-width: 950px), (max-height: 680px) {
+  .klab-app :is(.app-header) { min-height: 61px; }
+  .klab-app .focus-header { min-height: 53px; }
+  .klab-app .session-card { min-height: 260px; padding-block: 18px; }
+  .klab-app .session-art { width: min(100%, 220px); }
+  .klab-app .feedback:has(.feedback-art) { padding-right: 92px; }
+  .klab-app .feedback-art { width: 85px; height: 85px; }
+}
+@media (max-width: 760px) {
+  .klab-app .home-grid, .klab-app .lesson-grid, .klab-app .notes-layout, .klab-app .preview-content { grid-template-columns: minmax(0, 1fr); }
+  .klab-app .notes-layout > .note-preview { border-left: 0; border-top: 4px solid var(--k-primary); padding-left: 0; padding-top: .75rem; }
+}
+@media (max-width: 620px) {
+  .klab-app :is(.app-header, .focus-header) { gap: 8px; }
+  .klab-app .session-card { grid-template-columns: minmax(0, 1fr) 95px; gap: 4px; }
+  .klab-app .session-card h1, .klab-app .session-copy h2 { font-size: 2.35rem; }
+  .klab-app .session-art { align-self: start; margin-top: 14px; }
+  .klab-app .preview-content > .book-cover { max-width: 150px; }
+  .klab-app .feedback:has(.feedback-art) { padding-right: 13px; }
+  .klab-app .feedback-art { display: none; }
+  .klab-app .choices { grid-template-columns: minmax(0, 1fr); }
+  .klab-app .choice-status { font-size: .69rem; }
+  .klab-app .explanation:has(.example-panel:not([hidden])) { display: block; }
+  .klab-app .explanation > .example-panel:not([hidden]) { margin-top: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .klab-app .book-preview[data-entering] .book-cover { animation: none !important; transform: none; }
+}

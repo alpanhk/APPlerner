@@ -1,0 +1,206 @@
+{
+  "id": "dialog-48",
+  "title": "Leben mit Technik",
+  "textId": 48,
+  "level": "B1",
+  "tags": "seed · B1 · unit 10",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Die Technik verändert unseren Alltag sehr schnell.",
+      "id": "Teknologi mengubah keseharian kita dengan cepat.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Künstliche Intelligenz wird in vielen Bereichen eingesetzt.",
+      "id": "Kecerdasan buatan dipakai di banyak bidang.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Während Roboter Aufgaben übernehmen, bleiben andere Arbeiten menschlich.",
+      "id": "Sementara robot mengambil tugas, pekerjaan lain tetap manusiawi.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Daten, die wir hinterlassen, werden oft gespeichert.",
+      "id": "Data yang kita tinggalkan sering disimpan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Deshalb ist Sicherheit ein wichtiges Thema.",
+      "id": "Karena itu keamanan menjadi topik penting.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Solange wir kritisch bleiben, ist Technik eine Chance.",
+      "id": "Selama kita tetap kritis, teknologi adalah peluang.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Die Technik verändert unseren Alltag sehr schnell.",
+      "id": "Teknologi mengubah keseharian kita dengan cepat.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Künstliche Intelligenz wird in vielen Bereichen eingesetzt.",
+      "id": "Kecerdasan buatan dipakai di banyak bidang.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "nachbarin",
+      "de": "Während Roboter Aufgaben übernehmen, bleiben andere Arbeiten menschlich.",
+      "id": "Sementara robot mengambil tugas, pekerjaan lain tetap manusiawi.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Daten, die wir hinterlassen, werden oft gespeichert.",
+      "id": "Data yang kita tinggalkan sering disimpan.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Deshalb ist Sicherheit ein wichtiges Thema.",
+      "id": "Karena itu keamanan menjadi topik penting.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "nachbarin",
+      "de": "Solange wir kritisch bleiben, ist Technik eine Chance.",
+      "id": "Selama kita tetap kritis, teknologi adalah peluang.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

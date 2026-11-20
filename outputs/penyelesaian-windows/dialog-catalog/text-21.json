@@ -1,0 +1,181 @@
+{
+  "id": "dialog-21",
+  "title": "Musik und Bewegung",
+  "textId": 21,
+  "level": "A2",
+  "tags": "seed · A2 · hobi · musik",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "bahnhof": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "ticket": {
+        "kind": "prop"
+      },
+      "koffer": {
+        "kind": "prop"
+      },
+      "karte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Nina hört gern Musik, wenn sie mit dem Bus fährt.",
+      "id": "Nina senang mendengarkan musik saat naik bus.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Seit einem Jahr spielt sie auch Gitarre.",
+      "id": "Dia juga sudah bermain gitar selama setahun.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Am Dienstag übt sie mit ihrer Freundin.",
+      "id": "Pada hari Selasa dia berlatih bersama teman perempuannya.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Manchmal gehen beide danach zum Tanzkurs.",
+      "id": "Kadang-kadang mereka berdua pergi ke kelas menari setelah itu.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Bewegung tut ihnen gut und macht Spaß.",
+      "id": "Bergerak membuat mereka merasa lebih sehat dan senang.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Nina hört gern Musik, wenn sie mit dem Bus fährt.",
+      "id": "Nina senang mendengarkan musik saat naik bus.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Seit einem Jahr spielt sie auch Gitarre.",
+      "id": "Dia juga sudah bermain gitar selama setahun.",
+      "pose": "erzaehlen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Am Dienstag übt sie mit ihrer Freundin.",
+      "id": "Pada hari Selasa dia berlatih bersama teman perempuannya.",
+      "pose": "fragen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "karte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Manchmal gehen beide danach zum Tanzkurs.",
+      "id": "Kadang-kadang mereka berdua pergi ke kelas menari setelah itu.",
+      "pose": "antworten",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "ticket"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Bewegung tut ihnen gut und macht Spaß.",
+      "id": "Bergerak membuat mereka merasa lebih sehat dan senang.",
+      "pose": "erzaehlen",
+      "backgroundId": "bahnhof",
+      "propIds": [
+        "koffer"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

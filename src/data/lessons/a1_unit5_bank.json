@@ -1,0 +1,570 @@
+{
+  "level": "A1",
+  "unit": 5,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 5. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u5-o1-01",
+      "objectiveId": "a1-u5-o1",
+      "code": "D1",
+      "prompt": "Die Jacke ist ___ . (biru)",
+      "sub": "Warna setelah sein memakai bentuk dasar.",
+      "mode": "choice",
+      "options": [
+        "blau",
+        "blaue",
+        "blauen",
+        "blauer"
+      ],
+      "answer": "blau",
+      "wrongFeedback": {
+        "blaue": "blaue dipakai sebelum kata benda feminin (eine blaue Jacke), bukan setelah sein.",
+        "blauen": "blauen dipakai pada Dativ atau plural; kalimat ini membutuhkan bentuk dasar.",
+        "blauer": "blauer adalah bentuk maskulin nominatif sebelum kata benda, bukan setelah sein."
+      },
+      "explanation": "Setelah sein, kata sifat warna tetap bentuk dasar: Die Jacke ist blau."
+    },
+    {
+      "id": "u5-o1-02",
+      "objectiveId": "a1-u5-o1",
+      "code": "D1",
+      "prompt": "Ich suche eine ___ Jacke.",
+      "sub": "Pilih bentuk kata sifat sebelum kata benda feminin.",
+      "mode": "choice",
+      "options": [
+        "blaue",
+        "blau",
+        "blauen",
+        "blauer"
+      ],
+      "answer": "blaue",
+      "wrongFeedback": {
+        "blau": "blau adalah bentuk dasar setelah sein; sebelum Jacke perlu akhiran -e.",
+        "blauen": "blauen dipakai pada Dativ atau plural, bukan Akkusativ feminin tunggal.",
+        "blauer": "blauer adalah bentuk maskulin nominatif, bukan feminin Akkusativ."
+      },
+      "explanation": "eine blaue Jacke: kata sifat feminin Akkusativ memakai akhiran -e."
+    },
+    {
+      "id": "u5-o1-03",
+      "objectiveId": "a1-u5-o1",
+      "code": "D1",
+      "prompt": "Ich suche ein ___ Kleid.",
+      "sub": "Pilih bentuk kata sifat sebelum kata benda netral.",
+      "mode": "choice",
+      "options": [
+        "rotes",
+        "rote",
+        "roten",
+        "rot"
+      ],
+      "answer": "rotes",
+      "wrongFeedback": {
+        "rote": "rote dipakai untuk feminin atau plural; Kleid netral.",
+        "roten": "roten dipakai pada Dativ atau plural; Kleid netral Akkusativ.",
+        "rot": "rot adalah bentuk dasar setelah sein; sebelum Kleid perlu akhiran -es."
+      },
+      "explanation": "ein rotes Kleid: kata sifat netral Akkusativ memakai akhiran -es."
+    },
+    {
+      "id": "u5-o1-04",
+      "objectiveId": "a1-u5-o1",
+      "code": "D1",
+      "prompt": "Ketik warna Jerman untuk 'hijau'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "grün",
+      "altAnswers": [
+        "gruen"
+      ],
+      "hintOnWrong": "Hijau = grün; ejaan gruen juga diterima.",
+      "explanation": "grün berarti 'hijau'."
+    },
+    {
+      "id": "u5-o1-05",
+      "objectiveId": "a1-u5-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Mantel hitam itu panjang.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Der",
+        "schwarze",
+        "Mantel",
+        "ist",
+        "lang."
+      ],
+      "answer": "Der schwarze Mantel ist lang.",
+      "hintOnWrong": "Mulai dengan Der schwarze Mantel, lalu ist, lalu lang.",
+      "explanation": "Der schwarze Mantel ist lang. Kata sifat setelah artikel definitif memakai akhiran -e."
+    },
+    {
+      "id": "u5-o2-01",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Welche ___ tragen Sie?",
+      "sub": "Pilih kata yang menanyakan ukuran.",
+      "mode": "choice",
+      "options": [
+        "Größe",
+        "Farbe",
+        "Preis",
+        "Jacke"
+      ],
+      "answer": "Größe",
+      "wrongFeedback": {
+        "Farbe": "Farbe berarti 'warna', bukan ukuran.",
+        "Preis": "Preis berarti 'harga', bukan ukuran.",
+        "Jacke": "Jacke berarti 'jaket', bukan ukuran."
+      },
+      "explanation": "Welche Größe tragen Sie? berarti 'Ukuran berapa yang Anda pakai?'."
+    },
+    {
+      "id": "u5-o2-02",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Die Schuhe sind zu ___ . Ich brauche größere.",
+      "sub": "Pilih kata yang berlawanan dengan größer.",
+      "mode": "choice",
+      "options": [
+        "klein",
+        "groß",
+        "lang",
+        "billig"
+      ],
+      "answer": "klein",
+      "wrongFeedback": {
+        "groß": "groß berarti 'besar'; kalimat mencari yang lebih besar, jadi sepatu sekarang terlalu kecil.",
+        "lang": "lang berarti 'panjang' dan tidak menjelaskan ukuran sepatu.",
+        "billig": "billig berarti 'murah' dan menerangkan harga, bukan ukuran."
+      },
+      "explanation": "zu klein = terlalu kecil. Karena itu perlu ukuran yang lebih besar (größere)."
+    },
+    {
+      "id": "u5-o2-03",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Die Hose ___ mir.",
+      "sub": "Konjugasi passen untuk subjek Die Hose.",
+      "mode": "choice",
+      "options": [
+        "passt",
+        "passen",
+        "passt du",
+        "gepasst"
+      ],
+      "answer": "passt",
+      "wrongFeedback": {
+        "passen": "passen dipakai untuk subjek plural; Die Hose tunggal.",
+        "passt du": "Bentuk ini tidak dipakai untuk Die Hose; subjeknya bukan du.",
+        "gepasst": "gepasst adalah Partizip II dan membutuhkan kata kerja bantu."
+      },
+      "explanation": "Die Hose passt mir. berarti 'Celana itu pas untuk saya'."
+    },
+    {
+      "id": "u5-o2-04",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Lengkapi: Ich trage ___ 38. (ukuran)",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Größe",
+      "altAnswers": [
+        "groesse",
+        "Grösse"
+      ],
+      "hintOnWrong": "Ukuran = Größe. Ich trage Größe 38.",
+      "explanation": "Ich trage Größe 38. berarti 'Saya memakai ukuran 38'."
+    },
+    {
+      "id": "u5-o2-05",
+      "objectiveId": "a1-u5-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Jaketnya terlalu kecil.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Die",
+        "Jacke",
+        "ist",
+        "zu",
+        "klein."
+      ],
+      "answer": "Die Jacke ist zu klein.",
+      "hintOnWrong": "Mulai dengan Die Jacke, lalu ist, lalu zu klein.",
+      "explanation": "Die Jacke ist zu klein. berarti 'Jaketnya terlalu kecil'."
+    },
+    {
+      "id": "u5-o2-06",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Die Schuhe sind zu ___ . Ich brauche kleinere.",
+      "sub": "Pilih kata sifat yang berlawanan dengan kleinere.",
+      "mode": "choice",
+      "options": [
+        "groß",
+        "klein",
+        "lang",
+        "kurz"
+      ],
+      "answer": "groß",
+      "wrongFeedback": {
+        "klein": "klein berarti 'kecil'; kalimat mencari ukuran yang lebih kecil, jadi sepatu sekarang terlalu besar.",
+        "lang": "lang berarti 'panjang' dan menerangkan bentuk, bukan ukuran sepatu.",
+        "kurz": "kurz berarti 'pendek' dan menerangkan panjang, bukan ukuran sepatu."
+      },
+      "explanation": "zu groß = terlalu besar. Karena perlu kleinere (lebih kecil), sepatu sekarang terlalu besar."
+    },
+    {
+      "id": "u5-o2-07",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Die Ärmel sind zu ___ . Ich brauche kürzere.",
+      "sub": "Pilih kata sifat yang berlawanan dengan kürzere.",
+      "mode": "choice",
+      "options": [
+        "lang",
+        "kurz",
+        "groß",
+        "klein"
+      ],
+      "answer": "lang",
+      "wrongFeedback": {
+        "kurz": "kurz berarti 'pendek'; kalimat mencari yang lebih pendek, jadi lengan baju sekarang terlalu panjang.",
+        "groß": "groß menerangkan ukuran besar, bukan panjang lengan.",
+        "klein": "klein menerangkan ukuran kecil, bukan panjang lengan."
+      },
+      "explanation": "zu lang = terlalu panjang. kürzere = lebih pendek."
+    },
+    {
+      "id": "u5-o2-08",
+      "objectiveId": "a1-u5-o2",
+      "code": "D3",
+      "prompt": "Die Hose ist zu ___ . Ich brauche eine längere.",
+      "sub": "Pilih kata sifat yang berlawanan dengan längere.",
+      "mode": "choice",
+      "options": [
+        "kurz",
+        "lang",
+        "groß",
+        "klein"
+      ],
+      "answer": "kurz",
+      "wrongFeedback": {
+        "lang": "lang berarti 'panjang'; kalimat mencari yang lebih panjang, jadi celana sekarang terlalu pendek.",
+        "groß": "groß menerangkan ukuran besar, bukan panjang.",
+        "klein": "klein menerangkan ukuran kecil, bukan panjang."
+      },
+      "explanation": "zu kurz = terlalu pendek. eine längere = yang lebih panjang."
+    },
+    {
+      "id": "u5-o3-01",
+      "objectiveId": "a1-u5-o3",
+      "code": "D4",
+      "prompt": "Ich suche ___ Mantel.",
+      "sub": "Pilih Akkusativ untuk Mantel.",
+      "mode": "choice",
+      "options": [
+        "einen",
+        "ein",
+        "eine",
+        "einer"
+      ],
+      "answer": "einen",
+      "wrongFeedback": {
+        "ein": "ein adalah bentuk nominatif maskulin/netral; setelah suchen objeknya Akkusativ.",
+        "eine": "eine dipakai untuk kata feminin; Mantel maskulin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "Mantel maskulin dan menjadi objek suchen, jadi Akkusativ: einen Mantel."
+    },
+    {
+      "id": "u5-o3-02",
+      "objectiveId": "a1-u5-o3",
+      "code": "D4",
+      "prompt": "Ich suche ___ Kleid.",
+      "sub": "Pilih Akkusativ untuk Kleid.",
+      "mode": "choice",
+      "options": [
+        "ein",
+        "einen",
+        "eine",
+        "einer"
+      ],
+      "answer": "ein",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Kleid netral.",
+        "eine": "eine dipakai untuk kata feminin; Kleid netral.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ netral."
+      },
+      "explanation": "Kleid netral; bentuk Akkusativ netral tetap ein: ein Kleid."
+    },
+    {
+      "id": "u5-o3-03",
+      "objectiveId": "a1-u5-o3",
+      "code": "D4",
+      "prompt": "Haben Sie ___ weiße Bluse?",
+      "sub": "Pilih Akkusativ untuk Bluse.",
+      "mode": "choice",
+      "options": [
+        "eine",
+        "einen",
+        "ein",
+        "einer"
+      ],
+      "answer": "eine",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Bluse feminin.",
+        "ein": "ein dipakai untuk kata netral atau nominatif maskulin; Bluse feminin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ."
+      },
+      "explanation": "Bluse feminin; bentuk Akkusativ feminin tetap eine: eine weiße Bluse."
+    },
+    {
+      "id": "u5-o3-04",
+      "objectiveId": "a1-u5-o3",
+      "code": "D4",
+      "prompt": "Lengkapi: Ich suche ___ Bluse. (ein)",
+      "sub": "Ketik bentuk Akkusativ feminin.",
+      "mode": "type",
+      "answer": "eine",
+      "altAnswers": [
+        "Eine"
+      ],
+      "hintOnWrong": "Bluse feminin dan menjadi objek suchen, jadi Akkusativ: eine Bluse.",
+      "explanation": "Ich suche eine Bluse. Bentuk Akkusativ feminin memakai eine."
+    },
+    {
+      "id": "u5-o3-05",
+      "objectiveId": "a1-u5-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Saya mencari jaket hangat.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Ich",
+        "suche",
+        "eine",
+        "warme",
+        "Jacke."
+      ],
+      "answer": "Ich suche eine warme Jacke.",
+      "hintOnWrong": "Mulai dengan Ich suche, lalu eine warme Jacke.",
+      "explanation": "Ich suche eine warme Jacke. Jacke feminin Akkusativ memakai eine dan kata sifat berakhiran -e."
+    },
+    {
+      "id": "u5-o4-01",
+      "objectiveId": "a1-u5-o4",
+      "code": "D3",
+      "prompt": "Kann ich den Mantel ___ ?",
+      "sub": "Pilih infinitif yang tepat setelah modal.",
+      "mode": "choice",
+      "options": [
+        "anprobieren",
+        "probieren",
+        "anprobiert",
+        "probierst"
+      ],
+      "answer": "anprobieren",
+      "wrongFeedback": {
+        "probieren": "probieren tanpa an- berarti 'mencoba' secara umum; untuk pakaian dipakai anprobieren.",
+        "anprobiert": "anprobiert adalah Partizip II; setelah modal dipakai infinitif.",
+        "probierst": "probierst adalah bentuk du; setelah modal dipakai infinitif."
+      },
+      "explanation": "Kann ich den Mantel anprobieren? Verba pisah anprobieren tetap utuh setelah modal."
+    },
+    {
+      "id": "u5-o4-02",
+      "objectiveId": "a1-u5-o4",
+      "code": "D1",
+      "prompt": "Wo ist die ___ ?",
+      "sub": "Pilih tempat untuk mencoba pakaian.",
+      "mode": "choice",
+      "options": [
+        "Umkleidekabine",
+        "Kasse",
+        "Quittung",
+        "Größe"
+      ],
+      "answer": "Umkleidekabine",
+      "wrongFeedback": {
+        "Kasse": "Kasse adalah kasir, bukan ruang ganti.",
+        "Quittung": "Quittung adalah struk, bukan ruang ganti.",
+        "Größe": "Größe adalah ukuran, bukan ruang ganti."
+      },
+      "explanation": "Umkleidekabine berarti 'ruang ganti'."
+    },
+    {
+      "id": "u5-o4-03",
+      "objectiveId": "a1-u5-o4",
+      "code": "D3",
+      "prompt": "Ich ___ die Jacke an.",
+      "sub": "Konjugasi anprobieren untuk ich.",
+      "mode": "choice",
+      "options": [
+        "probiere",
+        "probierst",
+        "probieren",
+        "anprobiere"
+      ],
+      "answer": "probiere",
+      "wrongFeedback": {
+        "probierst": "probierst dipakai untuk du, bukan ich.",
+        "probieren": "probieren dipakai untuk wir/sie/Sie, bukan ich.",
+        "anprobiere": "Pada kalimat utama, an- dipisah ke akhir: Ich probiere ... an."
+      },
+      "explanation": "Ich probiere die Jacke an. Kata kerja finit di posisi 2, bagian an- di akhir."
+    },
+    {
+      "id": "u5-o4-04",
+      "objectiveId": "a1-u5-o4",
+      "code": "D3",
+      "prompt": "Lengkapi: Du ___ die Hose an. (anprobieren)",
+      "sub": "Ketik bentuk untuk du.",
+      "mode": "type",
+      "answer": "probierst",
+      "altAnswers": [
+        "Probierst"
+      ],
+      "hintOnWrong": "Untuk du, anprobieren menjadi du probierst ... an.",
+      "explanation": "Du probierst die Hose an. Bagian an- tetap di akhir kalimat."
+    },
+    {
+      "id": "u5-o4-05",
+      "objectiveId": "a1-u5-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Bolehkah saya mencoba jaket ini?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": [
+        "Kann",
+        "ich",
+        "die",
+        "Jacke",
+        "anprobieren?"
+      ],
+      "answer": "Kann ich die Jacke anprobieren?",
+      "hintOnWrong": "Mulai dengan Kann ich, lalu die Jacke, lalu anprobieren.",
+      "explanation": "Kann ich die Jacke anprobieren? berarti 'Bolehkah saya mencoba jaket ini?'."
+    },
+    {
+      "id": "u5-o5-01",
+      "objectiveId": "a1-u5-o5",
+      "code": "D3",
+      "prompt": "Was ___ der Mantel?",
+      "sub": "Konjugasi kosten untuk subjek der Mantel.",
+      "mode": "choice",
+      "options": [
+        "kostet",
+        "kosten",
+        "kostest",
+        "kostete"
+      ],
+      "answer": "kostet",
+      "wrongFeedback": {
+        "kosten": "kosten dipakai untuk subjek plural; der Mantel tunggal.",
+        "kostest": "kostest dipakai untuk du, bukan der Mantel.",
+        "kostete": "kostete adalah bentuk lampau; kalimat ini menanyakan harga sekarang."
+      },
+      "explanation": "Was kostet der Mantel? berarti 'Berapa harga mantel itu?'."
+    },
+    {
+      "id": "u5-o5-02",
+      "objectiveId": "a1-u5-o5",
+      "code": "D9",
+      "prompt": "Ich bezahle ___ Karte.",
+      "sub": "Pilih preposisi untuk alat pembayaran.",
+      "mode": "choice",
+      "options": [
+        "mit",
+        "bar",
+        "in",
+        "auf"
+      ],
+      "answer": "mit",
+      "wrongFeedback": {
+        "bar": "bar berarti 'tunai' dan berdiri sendiri tanpa Karte.",
+        "in": "in dipakai untuk tempat atau di dalam, bukan alat pembayaran.",
+        "auf": "auf tidak dipakai untuk mengatakan 'membayar dengan kartu'."
+      },
+      "explanation": "mit Karte = dengan kartu. Ich bezahle mit Karte."
+    },
+    {
+      "id": "u5-o5-03",
+      "objectiveId": "a1-u5-o5",
+      "code": "D3",
+      "prompt": "Ich möchte den Mantel ___ .",
+      "sub": "Pilih infinitif untuk menukar barang.",
+      "mode": "choice",
+      "options": [
+        "umtauschen",
+        "umgetauscht",
+        "umtauschst",
+        "tauschen"
+      ],
+      "answer": "umtauschen",
+      "wrongFeedback": {
+        "umgetauscht": "umgetauscht adalah Partizip II; setelah möchte dipakai infinitif.",
+        "umtauschst": "umtauschst adalah bentuk du; setelah möchte dipakai infinitif.",
+        "tauschen": "tauschen tanpa um- berarti 'bertukar' secara umum; untuk menukar barang di toko dipakai umtauschen."
+      },
+      "explanation": "Ich möchte den Mantel umtauschen. Setelah modal, infinitif umtauschen berada di akhir."
+    },
+    {
+      "id": "u5-o5-04",
+      "objectiveId": "a1-u5-o5",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'struk/bukti pembelian'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Quittung",
+      "altAnswers": [
+        "quittung",
+        "Kassenzettel",
+        "kassenzettel"
+      ],
+      "hintOnWrong": "Struk = Quittung (juga Kassenzettel). Bawa struk saat menukar barang.",
+      "explanation": "Quittung berarti 'struk/bukti pembelian'; Kassenzettel juga dipakai."
+    },
+    {
+      "id": "u5-o5-05",
+      "objectiveId": "a1-u5-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ingin menukar jaket ini.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": [
+        "Ich",
+        "möchte",
+        "die",
+        "Jacke",
+        "umtauschen."
+      ],
+      "answer": "Ich möchte die Jacke umtauschen.",
+      "hintOnWrong": "Mulai dengan Ich möchte, lalu die Jacke, lalu umtauschen di akhir.",
+      "explanation": "Ich möchte die Jacke umtauschen. Infinitif umtauschen berada di akhir setelah modal."
+    },
+    {
+      "id": "u5-o5-06",
+      "objectiveId": "a1-u5-o5",
+      "code": "D9",
+      "prompt": "Ich habe genug Bargeld. Ich bezahle ___ .",
+      "sub": "Pilih cara pembayaran tunai.",
+      "mode": "choice",
+      "options": [
+        "bar",
+        "mit Karte",
+        "mit",
+        "Karte"
+      ],
+      "answer": "bar",
+      "wrongFeedback": {
+        "mit Karte": "mit Karte berarti 'dengan kartu'; kalimat menyebut cukup uang tunai, jadi jawabannya bar.",
+        "mit": "mit adalah preposisi dan belum menyebut alat pembayaran.",
+        "Karte": "Karte adalah kata benda 'kartu'; untuk membayar tunai dipakai bar."
+      },
+      "explanation": "bar = tunai. Ich bezahle bar; Ich bezahle mit Karte = dengan kartu."
+    }
+  ]
+}

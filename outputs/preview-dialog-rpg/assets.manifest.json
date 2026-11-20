@@ -1,0 +1,56 @@
+{
+  "status": "review-v01-assets-available-not-final",
+  "versionLabel": "v01 · pembanding",
+  "note": "Aset berasal dari paket review Gambar 1 (outputs/aset-bacaan-percakapan-review/Im-Cafe/v01/). Sudah dipakai untuk uji komposisi, BELUM ditinjau final. Tidak ada aset buatan sendiri di pratinjau ini.",
+  "assetPackage": "../aset-bacaan-percakapan-review/Im-Cafe/v01/",
+  "audioBase": "../../src/assets/tts_core/",
+  "characters": {
+    "ich": {
+      "label": "Aku (pembelajar)",
+      "visible": true,
+      "poses": {
+        "offscreen": null,
+        "order": "characters/ich/ich-master-neutral-v01.png",
+        "accept": "characters/ich/ich-friendly-v01.png",
+        "ask_bill": "characters/ich/ich-master-neutral-v01.png",
+        "pay": "characters/ich/ich-friendly-v01.png"
+      },
+      "poseNote": "Pose khusus order/ask_bill belum ada; memakai master netral. accept/pay memakai friendly."
+    },
+    "freundin": {
+      "label": "Teman perempuan",
+      "visible": true,
+      "poses": {
+        "offscreen": null,
+        "order": "characters/freundin/freundin-master-neutral-v01.png"
+      },
+      "poseNote": "Hanya master netral yang tersedia."
+    },
+    "kellner": {
+      "label": "Pelayan kafe",
+      "visible": true,
+      "poses": {
+        "greet": "characters/kellner/kellner-master-neutral-v01.png",
+        "serve": "characters/kellner/kellner-master-neutral-v01.png",
+        "present_bill": "characters/kellner/kellner-master-neutral-v01.png"
+      },
+      "poseNote": "Pose greet/serve/present_bill belum berbeda; memakai master netral."
+    },
+    "narrator": {
+      "label": "Narasi (di luar layar)",
+      "visible": false,
+      "poses": { "offscreen": null }
+    }
+  },
+  "backgrounds": {
+    "cafe": "background/cafe.webp"
+  },
+  "props": {
+    "tasse_kaffee": "props/tasse_kaffee.webp",
+    "tasse_tee": "props/tasse_tee.webp",
+    "kuchen": "props/kuchen.webp",
+    "rechnung": "props/rechnung.webp",
+    "euro": "props/euro.webp"
+  },
+  "meja": "props/meja.webp"
+}

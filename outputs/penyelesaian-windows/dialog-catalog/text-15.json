@@ -1,0 +1,177 @@
+{
+  "id": "dialog-15",
+  "title": "Ein ruhiger Abend zu Hause",
+  "textId": 15,
+  "level": "A1",
+  "tags": "seed · A1 · unit 6 · rumah",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Nach der Arbeit bin ich zu Hause.",
+      "id": "Setelah bekerja saya berada di rumah.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich mache das Fenster auf.",
+      "id": "Saya membuka jendela.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Dann koche ich eine Suppe.",
+      "id": "Lalu saya memasak sup.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Mein Nachbar bringt frisches Brot.",
+      "id": "Tetangga saya membawa roti segar.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Wir essen zusammen und sprechen über den Tag.",
+      "id": "Kami makan bersama dan berbicara tentang hari ini.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Nach der Arbeit bin ich zu Hause.",
+      "id": "Setelah bekerja saya berada di rumah.",
+      "pose": "calm",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_077.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Ich mache das Fenster auf.",
+      "id": "Saya membuka jendela.",
+      "pose": "order",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_050.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Dann koche ich eine Suppe.",
+      "id": "Lalu saya memasak sup.",
+      "pose": "reply",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_012.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "freundin",
+      "de": "Mein Nachbar bringt frisches Brot.",
+      "id": "Tetangga saya membawa roti segar.",
+      "pose": "calm",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_060.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Wir essen zusammen und sprechen über den Tag.",
+      "id": "Kami makan bersama dan berbicara tentang hari ini.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_091.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    }
+  ]
+}

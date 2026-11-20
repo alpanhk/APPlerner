@@ -1,0 +1,177 @@
+{
+  "id": "dialog-19",
+  "title": "Ein Termin beim Arzt",
+  "textId": 19,
+  "level": "A1",
+  "tags": "seed · A1 · unit 9 · kesehatan",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "praxis": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "rezept": {
+        "kind": "prop"
+      },
+      "tablette": {
+        "kind": "prop"
+      },
+      "terminkarte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Rudi hat seit gestern Kopfschmerzen.",
+      "id": "Rudi sakit kepala sejak kemarin.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Er ruft die Arztpraxis an.",
+      "id": "Dia menelepon tempat praktik dokter.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Die Ärztin fragt: Was fehlt Ihnen?",
+      "id": "Dokter perempuan bertanya: Apa keluhan Anda?",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Rudi soll viel Wasser trinken und sich ausruhen.",
+      "id": "Rudi sebaiknya banyak minum air dan beristirahat.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am nächsten Tag geht es ihm besser.",
+      "id": "Keesokan harinya keadaannya membaik.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Rudi hat seit gestern Kopfschmerzen.",
+      "id": "Rudi sakit kepala sejak kemarin.",
+      "pose": "calm",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": "a1_text_079.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Er ruft die Arztpraxis an.",
+      "id": "Dia menelepon tempat praktik dokter.",
+      "pose": "order",
+      "backgroundId": "praxis",
+      "propIds": [
+        "tablette"
+      ],
+      "audio": "a1_text_035.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Die Ärztin fragt: Was fehlt Ihnen?",
+      "id": "Dokter perempuan bertanya: Apa keluhan Anda?",
+      "pose": "reply",
+      "backgroundId": "praxis",
+      "propIds": [
+        "terminkarte"
+      ],
+      "audio": "a1_text_030.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "question"
+    },
+    {
+      "key": "t04",
+      "speakerId": "freundin",
+      "de": "Rudi soll viel Wasser trinken und sich ausruhen.",
+      "id": "Rudi sebaiknya banyak minum air dan beristirahat.",
+      "pose": "calm",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": "a1_text_080.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Am nächsten Tag geht es ihm besser.",
+      "id": "Keesokan harinya keadaannya membaik.",
+      "pose": "order",
+      "backgroundId": "praxis",
+      "propIds": [
+        "tablette"
+      ],
+      "audio": "a1_text_009.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

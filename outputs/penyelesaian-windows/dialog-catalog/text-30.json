@@ -1,0 +1,206 @@
+{
+  "id": "dialog-30",
+  "title": "Ein neuer Job",
+  "textId": 30,
+  "level": "A2",
+  "tags": "seed · A2 · unit 2",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Sari sucht seit zwei Monaten eine neue Stelle.",
+      "id": "Sari sudah dua bulan mencari posisi baru.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Sie hat ihre Bewerbung an eine Firma in Hamburg geschickt.",
+      "id": "Dia mengirim lamarannya ke sebuah perusahaan di Hamburg.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Ihr Lebenslauf ist übersichtlich und ihre Erfahrung ist groß.",
+      "id": "CV-nya rapi dan pengalamannya banyak.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Am Montag hat sie ein Vorstellungsgespräch.",
+      "id": "Hari Senin dia ada wawancara kerja.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Der Chef fragt, warum sie wechseln will.",
+      "id": "Atasan bertanya mengapa dia ingin pindah.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Sie sagt, weil sie mehr Verantwortung möchte.",
+      "id": "Dia menjawab, karena ingin lebih banyak tanggung jawab.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Sari sucht seit zwei Monaten eine neue Stelle.",
+      "id": "Sari sudah dua bulan mencari posisi baru.",
+      "pose": "fragen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Sie hat ihre Bewerbung an eine Firma in Hamburg geschickt.",
+      "id": "Dia mengirim lamarannya ke sebuah perusahaan di Hamburg.",
+      "pose": "antworten",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Ihr Lebenslauf ist übersichtlich und ihre Erfahrung ist groß.",
+      "id": "CV-nya rapi dan pengalamannya banyak.",
+      "pose": "erzaehlen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Am Montag hat sie ein Vorstellungsgespräch.",
+      "id": "Hari Senin dia ada wawancara kerja.",
+      "pose": "fragen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Der Chef fragt, warum sie wechseln will.",
+      "id": "Atasan bertanya mengapa dia ingin pindah.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "lehrerin",
+      "de": "Sie sagt, weil sie mehr Verantwortung möchte.",
+      "id": "Dia menjawab, karena ingin lebih banyak tanggung jawab.",
+      "pose": "erzaehlen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

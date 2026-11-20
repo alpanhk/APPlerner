@@ -1,0 +1,73 @@
+{
+  "level": "A1",
+  "source": "Tugas menulis terpandu A1 orisinal. Dinilai sendiri dengan daftar periksa; bukan penilaian otomatis. Belum ditinjau pengajar.",
+  "tasks": [
+    {
+      "id": "a1-write-absage",
+      "title": "Membatalkan janji makan",
+      "situation": "Kamu tidak bisa datang ke makan malam bersama temanmu hari ini karena sakit. Tulis pesan singkat 2–3 kalimat.",
+      "mustInclude": ["Sapaan", "Alasan tidak bisa datang", "Usul waktu lain", "Penutup"],
+      "model": "Hallo Sari, leider kann ich heute nicht zum Essen kommen. Ich bin krank. Können wir uns am Samstag treffen? Viele Grüße, Budi",
+      "checklist": [
+        "Ada sapaan dan nama teman.",
+        "Alasan disebut dengan jelas (sakit).",
+        "Ada usulan waktu lain.",
+        "Ada penutup yang sopan."
+      ]
+    },
+    {
+      "id": "a1-write-kino",
+      "title": "Mengajak ke bioskop",
+      "situation": "Ajak temanmu pergi ke bioskop hari Sabtu pukul tujuh. Tanyakan apakah dia punya waktu.",
+      "mustInclude": ["Sapaan", "Ajakan", "Hari dan jam", "Pertanyaan kesediaan", "Penutup"],
+      "model": "Hallo Rudi, hast du am Samstag Zeit? Ich möchte ins Kino gehen. Der Film beginnt um sieben Uhr. Kommst du mit? Viele Grüße, Sari",
+      "checklist": [
+        "Ada sapaan dan nama teman.",
+        "Ajakan menyebut bioskop.",
+        "Hari dan jam ditulis benar (am Samstag, um sieben Uhr).",
+        "Ada pertanyaan apakah teman bisa ikut.",
+        "Ada penutup yang sopan."
+      ]
+    },
+    {
+      "id": "a1-write-arzt",
+      "title": "Memberi tahu atasan tentang janji dokter",
+      "situation": "Kamu punya janji dokter pukul sepuluh dan akan datang terlambat ke kantor. Tulis pesan singkat kepada atasanmu.",
+      "mustInclude": ["Sapaan formal", "Alasan", "Waktu janji", "Penutup"],
+      "model": "Guten Morgen Frau Müller, ich habe um zehn Uhr einen Arzttermin. Ich komme später ins Büro. Viele Grüße, Andi",
+      "checklist": [
+        "Ada sapaan formal (Guten Morgen / Guten Tag).",
+        "Alasan disebut (Arzttermin).",
+        "Waktu janji ditulis (um zehn Uhr).",
+        "Ada penutup yang sopan."
+      ]
+    },
+    {
+      "id": "a1-write-aufgabe",
+      "title": "Tugas selesai, menanyakan rapat",
+      "situation": "Kamu sudah menyelesaikan tugas dan ingin bertanya kapan rapat dimulai. Tulis pesan singkat kepada rekan kerjamu.",
+      "mustInclude": ["Sapaan", "Kabar tugas selesai", "Pertanyaan waktu rapat", "Penutup"],
+      "model": "Hallo Tina, ich habe die Aufgabe erledigt. Wann beginnt die Besprechung? Viele Grüße, Budi",
+      "checklist": [
+        "Ada sapaan dan nama rekan kerja.",
+        "Tugas selesai disebut (die Aufgabe erledigt).",
+        "Ada pertanyaan kapan rapat dimulai.",
+        "Ada penutup yang sopan."
+      ]
+    },
+    {
+      "id": "a1-write-postkarte",
+      "title": "Kartu pos dari Berlin",
+      "situation": "Tulis kartu pos singkat dari Berlin: di mana kamu, apa yang kamu lihat, dan apa yang kamu makan.",
+      "mustInclude": ["Sapaan", "Lokasi", "Pemandangan/kegiatan", "Makanan", "Penutup"],
+      "model": "Liebe Sari, ich bin in Berlin. Die Stadt ist sehr schön. Ich sehe viele alte Gebäude und esse Currywurst. Viele Grüße, Budi",
+      "checklist": [
+        "Ada sapaan untuk penerima.",
+        "Lokasi disebut (Berlin).",
+        "Ada pemandangan atau kegiatan yang dilihat.",
+        "Ada makanan yang disebut.",
+        "Ada penutup dan pengirim."
+      ]
+    }
+  ]
+}

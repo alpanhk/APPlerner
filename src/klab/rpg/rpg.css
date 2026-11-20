@@ -1,0 +1,57 @@
+/* KLAB RPG stage - scoped, 4a. Aset berasal dari tim gambar Codex; tidak ada seni buatan sendiri. */
+.klab-rpg { --r-red: #b83226; --r-blue: #1746d1; --r-ink: #172033; --r-muted: #475569; --r-paper: #fffcf5; --r-line: #667085; --r-mark: #ffe16a;
+  max-width: 1180px; margin-inline: auto; padding: 16px clamp(12px, 3vw, 28px) 32px; color: var(--r-ink); }
+.klab-rpg * { box-sizing: border-box; }
+.klab-rpg [hidden] { display: none !important; }
+.klab-rpg-skip { position: absolute; left: 8px; top: -60px; z-index: 20; padding: 8px; background: var(--r-paper); }
+.klab-rpg-skip:focus { top: 8px; }
+.klab-rpg :where(button, select, [tabindex]):focus-visible { outline: 3px solid var(--r-blue); outline-offset: 3px; }
+.klab-rpg-head { display: flex; align-items: end; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.klab-rpg-head h2 { margin: 2px 0 0; font-size: clamp(1.5rem, 3vw, 2.2rem); }
+.klab-rpg-eyebrow { margin: 0; color: var(--r-blue); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+.klab-rpg-tools { display: flex; align-items: end; gap: 8px; flex-wrap: wrap; }
+.klab-rpg-tools label { display: grid; gap: 4px; font-size: .82rem; font-weight: 700; }
+.klab-rpg select, .klab-rpg button { min-height: 44px; font: inherit; }
+.klab-rpg select { padding: .4rem .6rem; border: 1px solid var(--r-line); border-radius: 8px; background: var(--r-paper); color: var(--r-ink); }
+.klab-rpg button { padding: .5rem .9rem; border-radius: 8px; cursor: pointer; font-weight: 700; }
+.klab-rpg button:disabled { opacity: .5; cursor: default; }
+.klab-rpg-primary { color: #fff; background: var(--r-red); border: 1px solid var(--r-red); }
+.klab-rpg-secondary { color: var(--r-ink); background: transparent; border: 1px solid var(--r-line); }
+.klab-rpg-status, .klab-rpg-note { margin: 12px 0 0; padding: 8px 12px; border-left: 4px solid var(--r-blue); background: #eaf0ff; font-size: .86rem; }
+.klab-rpg-note { border-color: var(--r-mark); background: #fff5d8; }
+
+.klab-rpg-stage { position: relative; isolation: isolate; overflow: hidden; min-height: 460px; margin-top: 14px;
+  border: 2px solid var(--r-ink); border-radius: 14px; background: #dfe9f5; aspect-ratio: 16 / 10; }
+.klab-rpg-layer { position: absolute; inset: 0; }
+.klab-rpg-bg { z-index: 0; background-size: cover; background-position: center; }
+.klab-rpg-counter { z-index: 2; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.klab-rpg-characters { z-index: 4; }
+.klab-rpg-props { z-index: 3; pointer-events: none; }
+.klab-rpg-text { z-index: 5; display: flex; align-items: end; justify-content: center; padding: 0 clamp(10px, 3vw, 28px) 16px; }
+.klab-rpg-character { position: absolute; left: 26%; top: 102%; width: 51%; aspect-ratio: 1 / 1;
+  transform: translate(-50%, -100%); background-size: contain; background-repeat: no-repeat; background-position: bottom center;
+  display: flex; align-items: start; justify-content: center; }
+.klab-rpg-character[data-speaking='true'] { outline: 3px solid var(--r-mark); outline-offset: 3px; animation: klab-rpg-bump 220ms ease-out; }
+.klab-rpg-panel { width: min(100%, 820px); padding: 14px 18px; border: 2px solid var(--r-ink); border-radius: 12px;
+  background: var(--r-paper); box-shadow: 4px 4px 0 var(--r-blue); }
+.klab-rpg-panel[data-narrator='true'] { outline: 3px solid var(--r-mark); outline-offset: 3px; }
+.klab-rpg-speaker { margin: 0 0 6px; color: var(--r-blue); font-weight: 800; font-size: .85rem; text-transform: uppercase; }
+.klab-rpg-de { margin: 0; font-size: clamp(1.15rem, 2.8vw, 1.7rem); font-weight: 780; line-height: 1.25; }
+.klab-rpg-id { margin: 8px 0 0; color: var(--r-muted); }
+.klab-rpg-meta { margin: 8px 0 0; font-size: .8rem; color: var(--r-muted); }
+.klab-rpg-placeholder { display: inline-block; max-width: 100%; margin: 8px; padding: 4px 8px;
+  border: 1px dashed var(--r-line); border-radius: 6px; background: rgba(255,255,255,.9); font-size: .78rem; }
+.klab-rpg-prop { position: absolute; width: 10%; aspect-ratio: 3 / 2; background-size: contain; background-repeat: no-repeat; background-position: bottom center; }
+.klab-rpg-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.klab-rpg-controls span { font-variant-numeric: tabular-nums; font-weight: 700; }
+.klab-rpg-audio-status { min-height: 1.4em; color: var(--r-muted); font-size: .86rem; }
+.klab-rpg-hint { color: var(--r-muted); font-size: .82rem; }
+@keyframes klab-rpg-bump { from { translate: 0 6px; } to { translate: 0 0; } }
+.klab-rpg.is-reduced *, .klab-rpg.is-reduced *::before, .klab-rpg.is-reduced *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  .klab-rpg *, .klab-rpg *::before, .klab-rpg *::after { animation: none !important; transition: none !important; }
+}
+@media (max-width: 760px) {
+  .klab-rpg-stage { min-height: 520px; aspect-ratio: auto; }
+  .klab-rpg-panel { padding: 10px 12px; }
+}

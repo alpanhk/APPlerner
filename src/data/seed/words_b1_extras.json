@@ -1,0 +1,4239 @@
+{
+  "unit": 250,
+  "level": "B1",
+  "theme": "Wortschatz tambahan",
+  "source": "Kosakata tambahan B1 (kurasi manual, tanpa contoh kalimat)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Voraussetzung",
+      "article": "die",
+      "plural": "die Voraussetzungen",
+      "meaning_id": "prasyarat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bedingung",
+      "article": "die",
+      "plural": "die Bedingungen",
+      "meaning_id": "syarat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Absicht",
+      "article": "die",
+      "plural": "die Absichten",
+      "meaning_id": "niat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zweck",
+      "article": "der",
+      "plural": "die Zwecke",
+      "meaning_id": "tujuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorteil",
+      "article": "der",
+      "plural": "die Vorteile",
+      "meaning_id": "keuntungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachteil",
+      "article": "der",
+      "plural": "die Nachteile",
+      "meaning_id": "kerugian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Entwicklung",
+      "article": "die",
+      "plural": "die Entwicklungen",
+      "meaning_id": "perkembangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Veränderung",
+      "article": "die",
+      "plural": "die Veränderungen",
+      "meaning_id": "perubahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verbesserung",
+      "article": "die",
+      "plural": "die Verbesserungen",
+      "meaning_id": "perbaikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verschlechterung",
+      "article": "die",
+      "plural": "die Verschlechterungen",
+      "meaning_id": "kemunduran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwierigkeit",
+      "article": "die",
+      "plural": "die Schwierigkeiten",
+      "meaning_id": "kesulitan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Möglichkeit",
+      "article": "die",
+      "plural": "die Möglichkeiten",
+      "meaning_id": "kemungkinan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Notwendigkeit",
+      "article": "die",
+      "plural": "die Notwendigkeiten",
+      "meaning_id": "keharusan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bereitschaft",
+      "article": "die",
+      "plural": "die Bereitschaften",
+      "meaning_id": "kesiapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erlaubnis",
+      "article": "die",
+      "plural": "die Erlaubnisse",
+      "meaning_id": "izin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verbot",
+      "article": "das",
+      "plural": "die Verbote",
+      "meaning_id": "larangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pflicht",
+      "article": "die",
+      "plural": "die Pflichten",
+      "meaning_id": "kewajiban",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regel",
+      "article": "die",
+      "plural": "die Regeln",
+      "meaning_id": "aturan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ordnung",
+      "article": "die",
+      "plural": "die Ordnungen",
+      "meaning_id": "ketertiban",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gleichheit",
+      "article": "die",
+      "plural": "die Gleichheiten",
+      "meaning_id": "kesetaraan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Respekt",
+      "article": "der",
+      "plural": "die Respekte",
+      "meaning_id": "rasa hormat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertrauen",
+      "article": "das",
+      "plural": "die Vertrauen",
+      "meaning_id": "kepercayaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zweifel",
+      "article": "der",
+      "plural": "die Zweifel",
+      "meaning_id": "keraguan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hoffnung",
+      "article": "die",
+      "plural": "die Hoffnungen",
+      "meaning_id": "harapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Enttäuschung",
+      "article": "die",
+      "plural": "die Enttäuschungen",
+      "meaning_id": "kekecewaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erlebnis",
+      "article": "das",
+      "plural": "die Erlebnisse",
+      "meaning_id": "pengalaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ereignis",
+      "article": "das",
+      "plural": "die Ereignisse",
+      "meaning_id": "peristiwa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gegenwart",
+      "article": "die",
+      "plural": "die Gegenwarten",
+      "meaning_id": "masa kini",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vergangenheit",
+      "article": "die",
+      "plural": "die Vergangenheiten",
+      "meaning_id": "masa lalu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erinnerung",
+      "article": "die",
+      "plural": "die Erinnerungen",
+      "meaning_id": "kenangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rente",
+      "article": "die",
+      "plural": "die Renten",
+      "meaning_id": "pensiun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verhandlung",
+      "article": "die",
+      "plural": "die Verhandlungen",
+      "meaning_id": "negosiasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einigung",
+      "article": "die",
+      "plural": "die Einigungen",
+      "meaning_id": "kesepakatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Streit",
+      "article": "der",
+      "plural": "die Streite",
+      "meaning_id": "pertengkaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kritik",
+      "article": "die",
+      "plural": "die Kritiken",
+      "meaning_id": "kritik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lob",
+      "article": "das",
+      "plural": "die Lobe",
+      "meaning_id": "pujian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anerkennung",
+      "article": "die",
+      "plural": "die Anerkennungen",
+      "meaning_id": "pengakuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erfolg",
+      "article": "der",
+      "plural": "die Erfolge",
+      "meaning_id": "keberhasilan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Misserfolg",
+      "article": "der",
+      "plural": "die Misserfolge",
+      "meaning_id": "kegagalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rückschritt",
+      "article": "der",
+      "plural": "die Rückschritte",
+      "meaning_id": "kemunduran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Chance",
+      "article": "die",
+      "plural": "die Chancen",
+      "meaning_id": "peluang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gefahr",
+      "article": "die",
+      "plural": "die Gefahren",
+      "meaning_id": "bahaya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wirkung",
+      "article": "die",
+      "plural": "die Wirkungen",
+      "meaning_id": "efek",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anlass",
+      "article": "der",
+      "plural": "die Anlässe",
+      "meaning_id": "penyebab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zusammenhang",
+      "article": "der",
+      "plural": "die Zusammenhänge",
+      "meaning_id": "kaitan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gespräch",
+      "article": "das",
+      "plural": "die Gespräche",
+      "meaning_id": "percakapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verständnis",
+      "article": "das",
+      "plural": "die Verständnisse",
+      "meaning_id": "pemahaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Missverständnis",
+      "article": "das",
+      "plural": "die Missverständnisse",
+      "meaning_id": "kesalahpahaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kommunikation",
+      "article": "die",
+      "plural": "die Kommunikationen",
+      "meaning_id": "komunikasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Information",
+      "article": "die",
+      "plural": "die Informationen",
+      "meaning_id": "informasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Argument",
+      "article": "das",
+      "plural": "die Argumente",
+      "meaning_id": "argumen",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Behauptung",
+      "article": "die",
+      "plural": "die Behauptungen",
+      "meaning_id": "klaim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vermutung",
+      "article": "die",
+      "plural": "die Vermutungen",
+      "meaning_id": "dugaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tatsache",
+      "article": "die",
+      "plural": "die Tatsachen",
+      "meaning_id": "fakta",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wahrheit",
+      "article": "die",
+      "plural": "die Wahrheiten",
+      "meaning_id": "kebenaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lüge",
+      "article": "die",
+      "plural": "die Lügen",
+      "meaning_id": "kebohongan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geheimnis",
+      "article": "das",
+      "plural": "die Geheimnisse",
+      "meaning_id": "rahasia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorschlag",
+      "article": "der",
+      "plural": "die Vorschläge",
+      "meaning_id": "usulan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Entwurf",
+      "article": "der",
+      "plural": "die Entwürfe",
+      "meaning_id": "rancangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Plan",
+      "article": "der",
+      "plural": "die Pläne",
+      "meaning_id": "rencana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ziel",
+      "article": "das",
+      "plural": "die Ziele",
+      "meaning_id": "tujuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wunsch",
+      "article": "der",
+      "plural": "die Wünsche",
+      "meaning_id": "keinginan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Traum",
+      "article": "der",
+      "plural": "die Träume",
+      "meaning_id": "mimpi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Angst",
+      "article": "die",
+      "plural": "die Ängste",
+      "meaning_id": "rasa takut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Freude",
+      "article": "die",
+      "plural": "die Freuden",
+      "meaning_id": "kegembiraan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wut",
+      "article": "die",
+      "plural": "die Wuten",
+      "meaning_id": "kemarahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Trauer",
+      "article": "die",
+      "plural": "die Trauern",
+      "meaning_id": "kesedihan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Neugier",
+      "article": "die",
+      "plural": "die Neugier",
+      "meaning_id": "rasa ingin tahu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geduld",
+      "article": "die",
+      "plural": "die Geduld",
+      "meaning_id": "kesabaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mut",
+      "article": "der",
+      "plural": "die Mute",
+      "meaning_id": "keberanian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kraft",
+      "article": "die",
+      "plural": "die Kräfte",
+      "meaning_id": "kekuatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwäche",
+      "article": "die",
+      "plural": "die Schwächen",
+      "meaning_id": "kelemahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stärke",
+      "article": "die",
+      "plural": "die Stärken",
+      "meaning_id": "kekuatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Begabung",
+      "article": "die",
+      "plural": "die Begabungen",
+      "meaning_id": "bakat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Interesse",
+      "article": "das",
+      "plural": "die Interessen",
+      "meaning_id": "minat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Neigung",
+      "article": "die",
+      "plural": "die Neigungen",
+      "meaning_id": "kecenderungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wissen",
+      "article": "das",
+      "plural": "die Wissen",
+      "meaning_id": "pengetahuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Weisheit",
+      "article": "die",
+      "plural": "die Weisheiten",
+      "meaning_id": "kebijaksanaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vernunft",
+      "article": "die",
+      "plural": "die Vernunft",
+      "meaning_id": "akal sehat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verstand",
+      "article": "der",
+      "plural": "die Verstand",
+      "meaning_id": "pemahaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gefühl",
+      "article": "das",
+      "plural": "die Gefühle",
+      "meaning_id": "perasaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stimmung",
+      "article": "die",
+      "plural": "die Stimmungen",
+      "meaning_id": "suasana hati",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Laune",
+      "article": "die",
+      "plural": "die Launen",
+      "meaning_id": "mood",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Charakter",
+      "article": "der",
+      "plural": "die Charaktere",
+      "meaning_id": "karakter",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Persönlichkeit",
+      "article": "die",
+      "plural": "die Persönlichkeiten",
+      "meaning_id": "kepribadian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verhalten",
+      "article": "das",
+      "plural": "die Verhalten",
+      "meaning_id": "perilaku",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sitte",
+      "article": "die",
+      "plural": "die Sitten",
+      "meaning_id": "adat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wert",
+      "article": "der",
+      "plural": "die Werte",
+      "meaning_id": "nilai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Norm",
+      "article": "die",
+      "plural": "die Normen",
+      "meaning_id": "norma",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausnahme",
+      "article": "die",
+      "plural": "die Ausnahmen",
+      "meaning_id": "pengecualian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fall",
+      "article": "der",
+      "plural": "die Fälle",
+      "meaning_id": "kasus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vergleich",
+      "article": "der",
+      "plural": "die Vergleiche",
+      "meaning_id": "perbandingan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterschied",
+      "article": "der",
+      "plural": "die Unterschiede",
+      "meaning_id": "perbedaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ähnlichkeit",
+      "article": "die",
+      "plural": "die Ähnlichkeiten",
+      "meaning_id": "kemiripan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gegenteil",
+      "article": "das",
+      "plural": "die Gegenteile",
+      "meaning_id": "kebalikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gegensatz",
+      "article": "der",
+      "plural": "die Gegensätze",
+      "meaning_id": "pertentangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bereich",
+      "article": "der",
+      "plural": "die Bereiche",
+      "meaning_id": "bidang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Branche",
+      "article": "die",
+      "plural": "die Branchen",
+      "meaning_id": "sektor industri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Struktur",
+      "article": "die",
+      "plural": "die Strukturen",
+      "meaning_id": "struktur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "System",
+      "article": "das",
+      "plural": "die Systeme",
+      "meaning_id": "sistem",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Prozess",
+      "article": "der",
+      "plural": "die Prozesse",
+      "meaning_id": "proses",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Grundlage",
+      "article": "die",
+      "plural": "die Grundlagen",
+      "meaning_id": "dasar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "notwendig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "perlu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "möglich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mungkin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "unmöglich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidak mungkin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "wahrscheinlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kemungkinan besar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "unwahrscheinlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kecil kemungkinan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "deutlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "jelas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "eindeutig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidak ambigu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "komplex",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kompleks",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "kompliziert",
+      "article": null,
+      "plural": null,
+      "meaning_id": "rumit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "wesentlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "esensial",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "entscheidend",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menentukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "geeignet",
+      "article": null,
+      "plural": null,
+      "meaning_id": "cocok",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "bereit",
+      "article": null,
+      "plural": null,
+      "meaning_id": "siap",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "fähig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mampu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "verantwortlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bertanggung jawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "flexibel",
+      "article": null,
+      "plural": null,
+      "meaning_id": "fleksibel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "kreativ",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kreatif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "effektiv",
+      "article": null,
+      "plural": null,
+      "meaning_id": "efektif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "effizient",
+      "article": null,
+      "plural": null,
+      "meaning_id": "efisien",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "erfolgreich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berhasil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "erfolglos",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidak berhasil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sinnvoll",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bermakna",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sinnlos",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sia-sia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "nützlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berguna",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schädlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbahaya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "gefährlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbahaya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sicher",
+      "article": null,
+      "plural": null,
+      "meaning_id": "aman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "unsicher",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidak aman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "offen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terbuka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "geschlossen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tertutup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "öffentlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "publik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "privat",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pribadi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "persönlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "personal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sachlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "faktual",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "objektiv",
+      "article": null,
+      "plural": null,
+      "meaning_id": "objektif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ermöglichen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memungkinkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verhindern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencegah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fördern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendorong",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fordern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menuntut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verursachen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyebabkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bewirken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengakibatkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erlauben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengizinkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verbieten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melarang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "genehmigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyetujui",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ablehnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menolak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zustimmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "setuju",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "widersprechen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membantah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "begründen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memberi alasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bezweifeln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meragukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "vermuten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menduga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "behaupten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengklaim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erwarten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengharapkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erfordern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memerlukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "berücksichtigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mempertimbangkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "vergleichen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membandingkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beschreiben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendeskripsikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erklären",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menjelaskan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "darstellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyajikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bezeichnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyebut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verweisen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merujuk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsplatz",
+      "article": "der",
+      "plural": "die Arbeitsplätze",
+      "meaning_id": "tempat kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitszeit",
+      "article": "die",
+      "plural": "die Arbeitszeiten",
+      "meaning_id": "jam kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Krankmeldung",
+      "article": "die",
+      "plural": "die Krankmeldungen",
+      "meaning_id": "surat sakit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Feiertag",
+      "article": "der",
+      "plural": "die Feiertage",
+      "meaning_id": "hari libur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Alltag",
+      "article": "der",
+      "plural": "die Alltage",
+      "meaning_id": "keseharian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Routine",
+      "article": "die",
+      "plural": "die Routinen",
+      "meaning_id": "rutinitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sitzung",
+      "article": "die",
+      "plural": "die Sitzungen",
+      "meaning_id": "sidang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zielgruppe",
+      "article": "die",
+      "plural": "die Zielgruppen",
+      "meaning_id": "target audiens",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beteiligung",
+      "article": "die",
+      "plural": "die Beteiligungen",
+      "meaning_id": "partisipasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teilnahme",
+      "article": "die",
+      "plural": "die Teilnahmen",
+      "meaning_id": "keikutsertaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitgliedschaft",
+      "article": "die",
+      "plural": "die Mitgliedschaften",
+      "meaning_id": "keanggotaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertretung",
+      "article": "die",
+      "plural": "die Vertretungen",
+      "meaning_id": "perwakilan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Amt",
+      "article": "das",
+      "plural": "die Ämter",
+      "meaning_id": "jabatan, kantor",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beamte",
+      "article": "der",
+      "plural": "die Beamten",
+      "meaning_id": "pegawai negeri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verwaltung",
+      "article": "die",
+      "plural": "die Verwaltungen",
+      "meaning_id": "administrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürokratie",
+      "article": "die",
+      "plural": "die Bürokratien",
+      "meaning_id": "birokrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorschrift",
+      "article": "die",
+      "plural": "die Vorschriften",
+      "meaning_id": "ketentuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Richtlinie",
+      "article": "die",
+      "plural": "die Richtlinien",
+      "meaning_id": "pedoman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verordnung",
+      "article": "die",
+      "plural": "die Verordnungen",
+      "meaning_id": "peraturan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Auflage",
+      "article": "die",
+      "plural": "die Auflagen",
+      "meaning_id": "syarat wajib",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beschwerde",
+      "article": "die",
+      "plural": "die Beschwerden",
+      "meaning_id": "keluhan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einwand",
+      "article": "der",
+      "plural": "die Einwände",
+      "meaning_id": "bantahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorwurf",
+      "article": "der",
+      "plural": "die Vorwürfe",
+      "meaning_id": "tuduhan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zustimmung",
+      "article": "die",
+      "plural": "die Zustimmungen",
+      "meaning_id": "persetujuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ablehnung",
+      "article": "die",
+      "plural": "die Ablehnungen",
+      "meaning_id": "penolakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Alternative",
+      "article": "die",
+      "plural": "die Alternativen",
+      "meaning_id": "alternatif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Option",
+      "article": "die",
+      "plural": "die Optionen",
+      "meaning_id": "opsi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Variante",
+      "article": "die",
+      "plural": "die Varianten",
+      "meaning_id": "varian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Eskalation",
+      "article": "die",
+      "plural": "die Eskalationen",
+      "meaning_id": "eskalasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vermittlung",
+      "article": "die",
+      "plural": "die Vermittlungen",
+      "meaning_id": "mediasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Übereinkunft",
+      "article": "die",
+      "plural": "die Übereinkünfte",
+      "meaning_id": "kesepakatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klausel",
+      "article": "die",
+      "plural": "die Klauseln",
+      "meaning_id": "klausul",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bestimmung",
+      "article": "die",
+      "plural": "die Bestimmungen",
+      "meaning_id": "ketentuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regelung",
+      "article": "die",
+      "plural": "die Regelungen",
+      "meaning_id": "pengaturan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsetzung",
+      "article": "die",
+      "plural": "die Umsetzungen",
+      "meaning_id": "implementasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Programm",
+      "article": "das",
+      "plural": "die Programme",
+      "meaning_id": "program",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Konzept",
+      "article": "das",
+      "plural": "die Konzepte",
+      "meaning_id": "konsep",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorhaben",
+      "article": "das",
+      "plural": "die Vorhaben",
+      "meaning_id": "rencana proyek",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Initiative",
+      "article": "die",
+      "plural": "die Initiativen",
+      "meaning_id": "inisiatif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rundfunk",
+      "article": "der",
+      "plural": "die Rundfunke",
+      "meaning_id": "penyiaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fernsehen",
+      "article": "das",
+      "plural": "die Fernsehen",
+      "meaning_id": "televisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Moderator",
+      "article": "der",
+      "plural": "die Moderatoren",
+      "meaning_id": "pembawa acara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Quote",
+      "article": "die",
+      "plural": "die Quoten",
+      "meaning_id": "rating",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einschaltquote",
+      "article": "die",
+      "plural": "die Einschaltquoten",
+      "meaning_id": "rating siaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spende",
+      "article": "die",
+      "plural": "die Spenden",
+      "meaning_id": "donasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spender",
+      "article": "der",
+      "plural": "die Spender",
+      "meaning_id": "donatur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Freiwillige",
+      "article": "der",
+      "plural": "die Freiwilligen",
+      "meaning_id": "relawan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hilfsorganisation",
+      "article": "die",
+      "plural": "die Hilfsorganisationen",
+      "meaning_id": "organisasi bantuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Katastrophe",
+      "article": "die",
+      "plural": "die Katastrophen",
+      "meaning_id": "bencana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spendenaktion",
+      "article": "die",
+      "plural": "die Spendenaktionen",
+      "meaning_id": "aksi donasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Therapie",
+      "article": "die",
+      "plural": "die Therapien",
+      "meaning_id": "terapi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Operation",
+      "article": "die",
+      "plural": "die Operationen",
+      "meaning_id": "operasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Narkose",
+      "article": "die",
+      "plural": "die Narkosen",
+      "meaning_id": "anestesi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wunde",
+      "article": "die",
+      "plural": "die Wunden",
+      "meaning_id": "luka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Narbe",
+      "article": "die",
+      "plural": "die Narben",
+      "meaning_id": "bekas luka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Heilung",
+      "article": "die",
+      "plural": "die Heilungen",
+      "meaning_id": "penyembuhan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Genesung",
+      "article": "die",
+      "plural": "die Genesungen",
+      "meaning_id": "kesembuhan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Burnout",
+      "article": "der",
+      "plural": "die Burnouts",
+      "meaning_id": "kelelahan ekstrem",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Depression",
+      "article": "die",
+      "plural": "die Depressionen",
+      "meaning_id": "depresi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kunst",
+      "article": "die",
+      "plural": "die Künste",
+      "meaning_id": "seni",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Künstler",
+      "article": "der",
+      "plural": "die Künstler",
+      "meaning_id": "seniman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gemälde",
+      "article": "das",
+      "plural": "die Gemälde",
+      "meaning_id": "lukisan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Skulptur",
+      "article": "die",
+      "plural": "die Skulpturen",
+      "meaning_id": "patung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fotografie",
+      "article": "die",
+      "plural": "die Fotografien",
+      "meaning_id": "fotografi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Oper",
+      "article": "die",
+      "plural": "die Opern",
+      "meaning_id": "opera",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Musical",
+      "article": "das",
+      "plural": "die Musicals",
+      "meaning_id": "musikal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tour",
+      "article": "die",
+      "plural": "die Touren",
+      "meaning_id": "tur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tourismus",
+      "article": "der",
+      "plural": "die Tourismus",
+      "meaning_id": "pariwisata",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tourist",
+      "article": "der",
+      "plural": "die Touristen",
+      "meaning_id": "wisatawan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Visum",
+      "article": "das",
+      "plural": "die Visa",
+      "meaning_id": "visa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zoll",
+      "article": "der",
+      "plural": "die Zölle",
+      "meaning_id": "bea cukai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Reisebüro",
+      "article": "das",
+      "plural": "die Reisebüros",
+      "meaning_id": "biro perjalanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Prospekt",
+      "article": "der",
+      "plural": "die Prospekte",
+      "meaning_id": "brosur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Reservierung",
+      "article": "die",
+      "plural": "die Reservierungen",
+      "meaning_id": "reservasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stornierung",
+      "article": "die",
+      "plural": "die Stornierungen",
+      "meaning_id": "pembatalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kündigung",
+      "article": "die",
+      "plural": "die Kündigungen",
+      "meaning_id": "pengunduran diri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mahnung",
+      "article": "die",
+      "plural": "die Mahnungen",
+      "meaning_id": "surat peringatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zahlung",
+      "article": "die",
+      "plural": "die Zahlungen",
+      "meaning_id": "pembayaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verzug",
+      "article": "der",
+      "plural": "die Verzüge",
+      "meaning_id": "keterlambatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "entschuldigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meminta maaf",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "begrüßen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyapa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verabschieden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengucapkan selamat jalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "empfehlen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merekomendasikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "versprechen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berjanji",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erinnern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengingatkan (sich erinnern)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "vergessen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lupa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "interessieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menarik (sich interessieren)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "freuen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "senang (sich freuen)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ärgern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kesal (sich ärgern)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beeilen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bergegas (sich beeilen)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verabreden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membuat janji (sich verabreden)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "unterhalten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengobrol (sich unterhalten)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "vorstellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperkenalkan (sich vorstellen)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "anmelden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendaftar (sich anmelden)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "abmelden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membatalkan pendaftaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "pünktlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tepat waktu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "freundlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ramah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "höflich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sopan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "unhöflich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidak sopan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "geduldig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sabar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "nervös",
+      "article": null,
+      "plural": null,
+      "meaning_id": "gugup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ruhig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tenang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "leise",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pelan, sunyi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "stolz",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bangga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "traurig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sedih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "glücklich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bahagia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "zufrieden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "puas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "enttäuscht",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kecewa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "überrascht",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terkejut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "müde",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lelah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "wach",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terjaga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterschrift",
+      "article": "die",
+      "plural": "die Unterschriften",
+      "meaning_id": "tanda tangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ansprechpartner",
+      "article": "der",
+      "plural": "die Ansprechpartner",
+      "meaning_id": "kontak penanggung jawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Auskunft",
+      "article": "die",
+      "plural": "die Auskünfte",
+      "meaning_id": "informasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beratung",
+      "article": "die",
+      "plural": "die Beratungen",
+      "meaning_id": "konsultasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterlagen",
+      "article": "die",
+      "plural": "die Unterlagen",
+      "meaning_id": "dokumen",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachweis",
+      "article": "der",
+      "plural": "die Nachweise",
+      "meaning_id": "bukti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bescheinigung",
+      "article": "die",
+      "plural": "die Bescheinigungen",
+      "meaning_id": "surat keterangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zusage",
+      "article": "die",
+      "plural": "die Zusagen",
+      "meaning_id": "persetujuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Absage",
+      "article": "die",
+      "plural": "die Absagen",
+      "meaning_id": "penolakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Veranstalter",
+      "article": "der",
+      "plural": "die Veranstalter",
+      "meaning_id": "penyelenggara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teilnehmer",
+      "article": "der",
+      "plural": "die Teilnehmer",
+      "meaning_id": "peserta",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anmeldung",
+      "article": "die",
+      "plural": "die Anmeldungen",
+      "meaning_id": "pendaftaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erfahrungsbericht",
+      "article": "der",
+      "plural": "die Erfahrungsberichte",
+      "meaning_id": "laporan pengalaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorbereitung",
+      "article": "die",
+      "plural": "die Vorbereitungen",
+      "meaning_id": "persiapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Durchführung",
+      "article": "die",
+      "plural": "die Durchführungen",
+      "meaning_id": "pelaksanaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rückmeldung",
+      "article": "die",
+      "plural": "die Rückmeldungen",
+      "meaning_id": "umpan balik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "teilnehmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengikuti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "stattfinden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berlangsung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "organisieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengorganisieren",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "planen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merencanakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verhandeln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bernegosiasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "vereinbaren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyepakati",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "einstellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merekrut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "entlassen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memberhentikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ausbilden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melatih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "prüfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memeriksa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bewerten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menilai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beurteilen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menilai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verbessern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperbaiki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verschlechtern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memburukkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erhöhen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menaikkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verringern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengurangi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erreichen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencapai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verfehlen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "gagal mencapai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schaffen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyelesaikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "scheitern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "gagal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "gelingen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berhasil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "aufgeben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyerah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "weitermachen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melanjutkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bemühen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berusaha (sich bemühen)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beschäftigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyibukkan diri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stellenangebot",
+      "article": "das",
+      "plural": "die Stellenangebote",
+      "meaning_id": "tawaran kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stellenanzeige",
+      "article": "die",
+      "plural": "die Stellenanzeigen",
+      "meaning_id": "iklan lowongan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsvertrag",
+      "article": "der",
+      "plural": "die Arbeitsverträge",
+      "meaning_id": "kontrak kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Probezeit",
+      "article": "die",
+      "plural": "die Probezeiten",
+      "meaning_id": "masa percobaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kündigungsfrist",
+      "article": "die",
+      "plural": "die Kündigungsfristen",
+      "meaning_id": "tenggat pemberitahuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stadtteil",
+      "article": "der",
+      "plural": "die Stadtteile",
+      "meaning_id": "kecamatan kota",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Quartier",
+      "article": "das",
+      "plural": "die Quartiere",
+      "meaning_id": "kawasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Siedlung",
+      "article": "die",
+      "plural": "die Siedlungen",
+      "meaning_id": "permukiman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Infrastruktur",
+      "article": "die",
+      "plural": "die Infrastrukturen",
+      "meaning_id": "infrastruktur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verkehrsnetz",
+      "article": "das",
+      "plural": "die Verkehrsnetze",
+      "meaning_id": "jaringan transportasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildungseinrichtung",
+      "article": "die",
+      "plural": "die Bildungseinrichtungen",
+      "meaning_id": "lembaga pendidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gesundheitswesen",
+      "article": "das",
+      "plural": "die Gesundheitswesen",
+      "meaning_id": "sistem kesehatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vereinsheim",
+      "article": "das",
+      "plural": "die Vereinsheime",
+      "meaning_id": "gedung klub",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "kulturell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kultural",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "wirtschaftlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ekonomis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "technisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "teknis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "medizinisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "medis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "rechtlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "secara hukum",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "beruflich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "profesional",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ehrenamtlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sebagai relawan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "freiwillig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sukarela",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "staatlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "milik negara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "kommunal",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tingkat kota",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "regional",
+      "article": null,
+      "plural": null,
+      "meaning_id": "regional",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "international",
+      "article": null,
+      "plural": null,
+      "meaning_id": "internasional",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "national",
+      "article": null,
+      "plural": null,
+      "meaning_id": "nasional",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "global",
+      "article": null,
+      "plural": null,
+      "meaning_id": "global",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "lokal",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lokal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bewerbungsfrist",
+      "article": "die",
+      "plural": "die Bewerbungsfristen",
+      "meaning_id": "tenggat lamaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Auswahlverfahren",
+      "article": "das",
+      "plural": "die Auswahlverfahren",
+      "meaning_id": "proses seleksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einarbeitung",
+      "article": "die",
+      "plural": "die Einarbeitungen",
+      "meaning_id": "orientasi kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zusammenarbeit",
+      "article": "die",
+      "plural": "die Zusammenarbeiten",
+      "meaning_id": "kerja sama",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsablauf",
+      "article": "der",
+      "plural": "die Arbeitsabläufe",
+      "meaning_id": "alur kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zuständigkeitsbereich",
+      "article": "der",
+      "plural": "die Zuständigkeitsbereiche",
+      "meaning_id": "bidang kewenangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsbelastung",
+      "article": "die",
+      "plural": "die Arbeitsbelastungen",
+      "meaning_id": "beban kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitsklima",
+      "article": "das",
+      "plural": "die Arbeitsklimas",
+      "meaning_id": "iklim kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Weiterbildungsangebot",
+      "article": "das",
+      "plural": "die Weiterbildungsangebote",
+      "meaning_id": "tawaran pelatihan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufstiegsmöglichkeit",
+      "article": "die",
+      "plural": "die Aufstiegsmöglichkeiten",
+      "meaning_id": "peluang naik jabatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nebentätigkeit",
+      "article": "die",
+      "plural": "die Nebentätigkeiten",
+      "meaning_id": "kerja sampingan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeitslosigkeit",
+      "article": "die",
+      "plural": "die Arbeitslosigkeiten",
+      "meaning_id": "pengangguran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sozialversicherung",
+      "article": "die",
+      "plural": "die Sozialversicherungen",
+      "meaning_id": "asuransi sosial",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rentenversicherung",
+      "article": "die",
+      "plural": "die Rentenversicherungen",
+      "meaning_id": "asuransi pensiun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Krankenversicherung",
+      "article": "die",
+      "plural": "die Krankenversicherungen",
+      "meaning_id": "asuransi kesehatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pflegeversicherung",
+      "article": "die",
+      "plural": "die Pflegeversicherungen",
+      "meaning_id": "asuransi perawatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lohnsteuer",
+      "article": "die",
+      "plural": "die Lohnsteuern",
+      "meaning_id": "pajak penghasilan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Solidaritätszuschlag",
+      "article": "der",
+      "plural": "die Solidaritätszuschläge",
+      "meaning_id": "iuran solidaritas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sozialstaat",
+      "article": "der",
+      "plural": "die Sozialstaaten",
+      "meaning_id": "negara kesejahteraan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitgliederversammlung",
+      "article": "die",
+      "plural": "die Mitgliederversammlungen",
+      "meaning_id": "rapat anggota",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorstand",
+      "article": "der",
+      "plural": "die Vorstände",
+      "meaning_id": "pengurus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beitrag",
+      "article": "der",
+      "plural": "die Beiträge",
+      "meaning_id": "iuran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "analysieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menganalisis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "interpretieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menafsirkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erläutern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menjelaskan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zusammenfassen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merangkum",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zitieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengutip",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "unterscheiden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membedakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zuordnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memetakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ableiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyimpulkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "folgern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyimpulkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "widerlegen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membantah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bestätigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengonfirmasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "belegen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membuktikan dengan bukti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "überprüfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memverifikasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "messen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengukur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schätzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperkirakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "berechnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghitung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ermitteln",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menetapkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "feststellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menemukan, memastikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "darlegen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memaparkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "aufzeigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menunjukkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verdeutlichen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperjelas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "betonen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menekankan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "hervorheben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menonjolkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erwähnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyebut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ansprechen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyinggung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "eingehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membahas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Darstellung",
+      "article": "die",
+      "plural": "die Darstellungen",
+      "meaning_id": "penyajian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zusammenfassung",
+      "article": "die",
+      "plural": "die Zusammenfassungen",
+      "meaning_id": "ringkasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erläuterung",
+      "article": "die",
+      "plural": "die Erläuterungen",
+      "meaning_id": "penjelasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterscheidung",
+      "article": "die",
+      "plural": "die Unterscheidungen",
+      "meaning_id": "pembedaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zuordnung",
+      "article": "die",
+      "plural": "die Zuordnungen",
+      "meaning_id": "pemetaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ableitung",
+      "article": "die",
+      "plural": "die Ableitungen",
+      "meaning_id": "penurunan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Folgerung",
+      "article": "die",
+      "plural": "die Folgerungen",
+      "meaning_id": "kesimpulan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Widerlegung",
+      "article": "die",
+      "plural": "die Widerlegungen",
+      "meaning_id": "bantahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beleg",
+      "article": "der",
+      "plural": "die Belege",
+      "meaning_id": "bukti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Überprüfung",
+      "article": "die",
+      "plural": "die Überprüfungen",
+      "meaning_id": "verifikasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schätzung",
+      "article": "die",
+      "plural": "die Schätzungen",
+      "meaning_id": "perkiraan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Berechnung",
+      "article": "die",
+      "plural": "die Berechnungen",
+      "meaning_id": "perhitungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ermittlung",
+      "article": "die",
+      "plural": "die Ermittlungen",
+      "meaning_id": "penyelidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Feststellung",
+      "article": "die",
+      "plural": "die Feststellungen",
+      "meaning_id": "temuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Betonung",
+      "article": "die",
+      "plural": "die Betonungen",
+      "meaning_id": "penekanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erwähnung",
+      "article": "die",
+      "plural": "die Erwähnungen",
+      "meaning_id": "penyebutan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bezug",
+      "article": "der",
+      "plural": "die Bezüge",
+      "meaning_id": "rujukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "nachvollziehbar",
+      "article": null,
+      "plural": null,
+      "meaning_id": "dapat dipahami",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "überzeugend",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meyakinkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "fraglich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "diragukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "plausibel",
+      "article": null,
+      "plural": null,
+      "meaning_id": "masuk akal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "stichhaltig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kuat (argumen)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "widersprüchlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kontradiktif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "konsistent",
+      "article": null,
+      "plural": null,
+      "meaning_id": "konsisten",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "präzise",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tepat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "vage",
+      "article": null,
+      "plural": null,
+      "meaning_id": "samar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "detailliert",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terperinci",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ausführlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendetail",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "verständlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "dapat dimengerti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fragestellung",
+      "article": "die",
+      "plural": "die Fragestellungen",
+      "meaning_id": "perumusan masalah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Herangehensweise",
+      "article": "die",
+      "plural": "die Herangehensweisen",
+      "meaning_id": "pendekatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorgehen",
+      "article": "das",
+      "plural": "die Vorgehen",
+      "meaning_id": "langkah kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erkenntnisinteresse",
+      "article": "das",
+      "plural": "die Erkenntnisinteressen",
+      "meaning_id": "minat pengetahuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b1,wortschatz"
+    }
+  ]
+}

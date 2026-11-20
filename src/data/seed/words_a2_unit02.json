@@ -1,0 +1,269 @@
+{
+  "unit": 102,
+  "level": "A2",
+  "theme": "Arbeit & Beruf",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Stelle",
+      "article": "die",
+      "plural": "die Stellen",
+      "meaning_id": "lowongan, posisi kerja",
+      "example_de": "Ich suche eine neue Stelle.",
+      "example_id": "Saya mencari posisi kerja baru.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Beruf",
+      "article": "der",
+      "plural": "die Berufe",
+      "meaning_id": "profesi",
+      "example_de": "Was ist Ihr Beruf?",
+      "example_id": "Apa profesi Anda?",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Bewerbung",
+      "article": "die",
+      "plural": "die Bewerbungen",
+      "meaning_id": "lamaran",
+      "example_de": "Ich schreibe eine Bewerbung.",
+      "example_id": "Saya menulis lamaran.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Lebenslauf",
+      "article": "der",
+      "plural": "die Lebensläufe",
+      "meaning_id": "daftar riwayat hidup",
+      "example_de": "Der Lebenslauf ist zwei Seiten lang.",
+      "example_id": "CV-nya dua halaman.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorstellungsgespräch",
+      "article": "das",
+      "plural": "die Vorstellungsgespräche",
+      "meaning_id": "wawancara kerja",
+      "example_de": "Das Vorstellungsgespräch ist am Montag.",
+      "example_id": "Wawancara kerjanya hari Senin.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Chef",
+      "article": "der",
+      "plural": "die Chefs",
+      "meaning_id": "atasan",
+      "example_de": "Mein Chef ist zufrieden.",
+      "example_id": "Atasan saya puas.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Kollege",
+      "article": "der",
+      "plural": "die Kollegen",
+      "meaning_id": "rekan kerja",
+      "example_de": "Mein Kollege hilft mir.",
+      "example_id": "Rekan kerja saya membantu saya.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Kollegin",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "meaning_id": "rekan kerja (perempuan)",
+      "example_de": "Meine Kollegin ist im Urlaub.",
+      "example_id": "Rekan kerja saya sedang libur.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Gehalt",
+      "article": "das",
+      "plural": "die Gehälter",
+      "meaning_id": "gaji",
+      "example_de": "Das Gehalt ist gut.",
+      "example_id": "Gajinya bagus.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Erfahrung",
+      "article": "die",
+      "plural": "die Erfahrungen",
+      "meaning_id": "pengalaman",
+      "example_de": "Ich habe viel Erfahrung.",
+      "example_id": "Saya punya banyak pengalaman.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausbildung",
+      "article": "die",
+      "plural": "die Ausbildungen",
+      "meaning_id": "pendidikan vokasi",
+      "example_de": "Die Ausbildung dauert drei Jahre.",
+      "example_id": "Pendidikan vokasinya tiga tahun.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "verb",
+      "de": "bewerben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melamar (sich bewerben)",
+      "example_de": "Ich bewerbe mich um die Stelle.",
+      "example_id": "Saya melamar posisi itu.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "verb",
+      "de": "verdienen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berpenghasilan",
+      "example_de": "Sie verdient gut.",
+      "example_id": "Dia berpenghasilan bagus.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "verb",
+      "de": "kündigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengundurkan diri",
+      "example_de": "Er kündigt nächsten Monat.",
+      "example_id": "Dia mengundurkan diri bulan depan.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "adj",
+      "de": "zuverlässig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "dapat diandalkan",
+      "example_de": "Sie ist sehr zuverlässig.",
+      "example_id": "Dia sangat dapat diandalkan.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "adj",
+      "de": "selbstständig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mandiri",
+      "example_de": "Er arbeitet selbstständig.",
+      "example_id": "Dia bekerja mandiri.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Besprechung",
+      "article": "die",
+      "plural": "die Besprechungen",
+      "meaning_id": "rapat",
+      "example_de": "Die Besprechung ist um neun.",
+      "example_id": "Rapatnya pukul sembilan.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Pause",
+      "article": "die",
+      "plural": "die Pausen",
+      "meaning_id": "istirahat",
+      "example_de": "Wir machen eine kurze Pause.",
+      "example_id": "Kami istirahat sebentar.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Abteilung",
+      "article": "die",
+      "plural": "die Abteilungen",
+      "meaning_id": "departemen",
+      "example_de": "Er arbeitet in dieser Abteilung.",
+      "example_id": "Dia bekerja di departemen ini.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Überstunde",
+      "article": "die",
+      "plural": "die Überstunden",
+      "meaning_id": "lembur",
+      "example_de": "Ich habe viele Überstunden.",
+      "example_id": "Saya banyak lembur.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Protokoll",
+      "article": "das",
+      "plural": "die Protokolle",
+      "meaning_id": "notulen",
+      "example_de": "Sie schreibt das Protokoll.",
+      "example_id": "Dia menulis notulen.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Werkzeug",
+      "article": "das",
+      "plural": "die Werkzeuge",
+      "meaning_id": "perkakas",
+      "example_de": "Das Werkzeug liegt im Koffer.",
+      "example_id": "Perkakasnya di kotak.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Schicht",
+      "article": "die",
+      "plural": "die Schichten",
+      "meaning_id": "shift kerja",
+      "example_de": "Ich arbeite in der Frühschicht.",
+      "example_id": "Saya bekerja shift pagi.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Lohn",
+      "article": "der",
+      "plural": "die Löhne",
+      "meaning_id": "upah",
+      "example_de": "Der Lohn kommt am Monatsende.",
+      "example_id": "Upahnya datang akhir bulan.",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Feierabend",
+      "article": "der",
+      "plural": "die Feierabende",
+      "meaning_id": "waktu pulang kerja",
+      "example_de": "Endlich Feierabend!",
+      "example_id": "Akhirnya pulang kerja!",
+      "tags": "a2,unit2,arbeit"
+    },
+    {
+      "kind": "noun",
+      "de": "Einstellung",
+      "article": "die",
+      "plural": "die Einstellungen",
+      "meaning_id": "perekrutan, sikap",
+      "example_de": "Die Einstellung war schwierig.",
+      "example_id": "Perekrutannya sulit.",
+      "tags": "a2,unit2,arbeit"
+    }
+  ]
+}

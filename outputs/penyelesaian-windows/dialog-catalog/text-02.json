@@ -1,0 +1,202 @@
+{
+  "id": "dialog-02",
+  "title": "Meine Familie",
+  "textId": 2,
+  "level": "A1",
+  "tags": "seed · unit 1 · keluarga",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Meine Familie ist klein.",
+      "id": "Keluarga saya kecil.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich habe einen Vater und eine Mutter.",
+      "id": "Saya punya seorang ayah dan seorang ibu.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Mein Vater heißt Herr Müller.",
+      "id": "Ayah saya bernama Tuan Müller.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Meine Mutter ist Lehrerin.",
+      "id": "Ibu saya adalah guru.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Ich habe keine Geschwister.",
+      "id": "Saya tidak punya saudara kandung.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Wir wohnen in einer kleinen Stadt.",
+      "id": "Kami tinggal di sebuah kota kecil.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Meine Familie ist klein.",
+      "id": "Keluarga saya kecil.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_067.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Ich habe einen Vater und eine Mutter.",
+      "id": "Saya punya seorang ayah dan seorang ibu.",
+      "pose": "reply",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_043.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Mein Vater heißt Herr Müller.",
+      "id": "Ayah saya bernama Tuan Müller.",
+      "pose": "calm",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_062.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Meine Mutter ist Lehrerin.",
+      "id": "Ibu saya adalah guru.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_072.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Ich habe keine Geschwister.",
+      "id": "Saya tidak punya saudara kandung.",
+      "pose": "reply",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_044.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Wir wohnen in einer kleinen Stadt.",
+      "id": "Kami tinggal di sebuah kota kecil.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_096.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

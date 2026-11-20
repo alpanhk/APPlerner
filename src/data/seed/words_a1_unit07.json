@@ -1,0 +1,159 @@
+{
+  "unit": 7,
+  "level": "A1",
+  "theme": "Kota & petunjuk arah",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "U-Bahn",
+      "article": "die",
+      "plural": "die U-Bahnen",
+      "meaning_id": "kereta bawah tanah",
+      "example_de": "Das ist die U-Bahn.",
+      "example_id": "Ini kereta bawah tanah.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Zebrastreifen",
+      "article": "der",
+      "plural": "die Zebrastreifen",
+      "meaning_id": "zebra cross",
+      "example_de": "Das ist der Zebrastreifen.",
+      "example_id": "Ini zebra cross.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Wegweiser",
+      "article": "der",
+      "plural": "die Wegweiser",
+      "meaning_id": "penunjuk arah",
+      "example_de": "Das ist der Wegweiser.",
+      "example_id": "Ini penunjuk arah.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterführung",
+      "article": "die",
+      "plural": "die Unterführungen",
+      "meaning_id": "terowongan penyeberangan",
+      "example_de": "Das ist die Unterführung.",
+      "example_id": "Ini terowongan penyeberangan.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürgeramt",
+      "article": "das",
+      "plural": "die Bürgerämter",
+      "meaning_id": "kantor administrasi warga",
+      "example_de": "Das ist das Bürgeramt.",
+      "example_id": "Ini kantor administrasi warga.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Postfiliale",
+      "article": "die",
+      "plural": "die Postfilialen",
+      "meaning_id": "kantor cabang pos",
+      "example_de": "Das ist die Postfiliale.",
+      "example_id": "Ini kantor cabang pos.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Buchhandlung",
+      "article": "die",
+      "plural": "die Buchhandlungen",
+      "meaning_id": "toko buku",
+      "example_de": "Das ist die Buchhandlung.",
+      "example_id": "Ini toko buku.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Station",
+      "article": "die",
+      "plural": "die Stationen",
+      "meaning_id": "stasiun",
+      "example_de": "Das ist die Station.",
+      "example_id": "Ini stasiun.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Fußgängerzone",
+      "article": "die",
+      "plural": "die Fußgängerzonen",
+      "meaning_id": "zona pejalan kaki",
+      "example_de": "Das ist die Fußgängerzone.",
+      "example_id": "Ini zona pejalan kaki.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Tiefgarage",
+      "article": "die",
+      "plural": "die Tiefgaragen",
+      "meaning_id": "garasi bawah tanah",
+      "example_de": "Das ist die Tiefgarage.",
+      "example_id": "Ini garasi bawah tanah.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Konditorei",
+      "article": "die",
+      "plural": "die Konditoreien",
+      "meaning_id": "toko kue",
+      "example_de": "Das ist die Konditorei.",
+      "example_id": "Ini toko kue.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Drogerie",
+      "article": "die",
+      "plural": "die Drogerien",
+      "meaning_id": "toko obat dan perawatan diri",
+      "example_de": "Das ist die Drogerie.",
+      "example_id": "Ini toko obat dan perawatan diri.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Polizeiwache",
+      "article": "die",
+      "plural": "die Polizeiwachen",
+      "meaning_id": "kantor polisi",
+      "example_de": "Das ist die Polizeiwache.",
+      "example_id": "Ini kantor polisi.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Bushaltestelle",
+      "article": "die",
+      "plural": "die Bushaltestellen",
+      "meaning_id": "halte bus",
+      "example_de": "Das ist die Bushaltestelle.",
+      "example_id": "Ini halte bus.",
+      "tags": "a1,unit7,kota"
+    },
+    {
+      "kind": "noun",
+      "de": "Stadtplan",
+      "article": "der",
+      "plural": "die Stadtpläne",
+      "meaning_id": "peta kota",
+      "example_de": "Das ist der Stadtplan.",
+      "example_id": "Ini peta kota.",
+      "tags": "a1,unit7,kota"
+    }
+  ]
+}

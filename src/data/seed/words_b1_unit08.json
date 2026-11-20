@@ -1,0 +1,229 @@
+{
+  "unit": 208,
+  "level": "B1",
+  "theme": "Bildung & Lernen",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Bildung",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "pendidikan",
+      "example_de": "Bildung ist der Schlüssel.",
+      "example_id": "Pendidikan adalah kunci.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Studium",
+      "article": "das",
+      "plural": "die Studien",
+      "meaning_id": "studi, perkuliahan",
+      "example_de": "Das Studium dauert vier Jahre.",
+      "example_id": "Studinya empat tahun.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Prüfung",
+      "article": "die",
+      "plural": "die Prüfungen",
+      "meaning_id": "ujian",
+      "example_de": "Die Prüfung ist nächste Woche.",
+      "example_id": "Ujiannya pekan depan.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Note",
+      "article": "die",
+      "plural": "die Noten",
+      "meaning_id": "nilai",
+      "example_de": "Sie hat eine gute Note.",
+      "example_id": "Dia mendapat nilai bagus.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Kenntnis",
+      "article": "die",
+      "plural": "die Kenntnisse",
+      "meaning_id": "pengetahuan",
+      "example_de": "Er hat gute Kenntnisse.",
+      "example_id": "Dia punya pengetahuan baik.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Fähigkeit",
+      "article": "die",
+      "plural": "die Fähigkeiten",
+      "meaning_id": "kemampuan",
+      "example_de": "Diese Fähigkeit ist wichtig.",
+      "example_id": "Kemampuan ini penting.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Übung",
+      "article": "die",
+      "plural": "die Übungen",
+      "meaning_id": "latihan",
+      "example_de": "Übung macht den Meister.",
+      "example_id": "Latihan membuat mahir.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Fortschritt",
+      "article": "der",
+      "plural": "die Fortschritte",
+      "meaning_id": "kemajuan",
+      "example_de": "Der Fortschritt ist langsam.",
+      "example_id": "Kemajuannya lambat.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Lernziel",
+      "article": "das",
+      "plural": "die Lernziele",
+      "meaning_id": "tujuan belajar",
+      "example_de": "Das Lernziel ist klar.",
+      "example_id": "Tujuan belajarnya jelas.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "verb",
+      "de": "sich vorbereiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mempersiapkan diri",
+      "example_de": "Ich bereite mich auf die Prüfung vor.",
+      "example_id": "Saya mempersiapkan diri untuk ujian.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "verb",
+      "de": "wiederholen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengulang",
+      "example_de": "Ich wiederhole die Grammatik.",
+      "example_id": "Saya mengulang tata bahasa.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "adj",
+      "de": "motiviert",
+      "article": null,
+      "plural": null,
+      "meaning_id": "termotivasi",
+      "example_de": "Sie ist sehr motiviert.",
+      "example_id": "Dia sangat termotivasi.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachhilfe",
+      "article": "die",
+      "plural": "die Nachhilfen",
+      "meaning_id": "les tambahan",
+      "example_de": "Er gibt Nachhilfe in Mathe.",
+      "example_id": "Dia mengajar les matematika.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Seminar",
+      "article": "das",
+      "plural": "die Seminare",
+      "meaning_id": "seminar",
+      "example_de": "Das Seminar ist online.",
+      "example_id": "Seminarnya online.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorlesung",
+      "article": "die",
+      "plural": "die Vorlesungen",
+      "meaning_id": "kuliah",
+      "example_de": "Die Vorlesung beginnt um neun.",
+      "example_id": "Kuliahnya mulai pukul sembilan.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Zertifikat",
+      "article": "das",
+      "plural": "die Zertifikate",
+      "meaning_id": "sertifikat",
+      "example_de": "Das Zertifikat ist gültig.",
+      "example_id": "Sertifikatnya berlaku.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Abschluss",
+      "article": "der",
+      "plural": "die Abschlüsse",
+      "meaning_id": "kelulusan, gelar",
+      "example_de": "Der Abschluss ist geschafft.",
+      "example_id": "Kelulusannya sudah tercapai.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Skript",
+      "article": "das",
+      "plural": "die Skripte",
+      "meaning_id": "materi kuliah",
+      "example_de": "Das Skript ist online.",
+      "example_id": "Materi kuliahnya online.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Lehrkraft",
+      "article": "die",
+      "plural": "die Lehrkräfte",
+      "meaning_id": "tenaga pengajar",
+      "example_de": "Die Lehrkraft ist erfahren.",
+      "example_id": "Pengajarnya berpengalaman.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Einschreibung",
+      "article": "die",
+      "plural": "die Einschreibungen",
+      "meaning_id": "pendaftaran",
+      "example_de": "Die Einschreibung beginnt im Juli.",
+      "example_id": "Pendaftarannya mulai Juli.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Fernunterricht",
+      "article": "der",
+      "plural": "die Fernunterrichte",
+      "meaning_id": "pembelajaran jarak jauh",
+      "example_de": "Fernunterricht ist flexibel.",
+      "example_id": "Pembelajaran jarak jauh fleksibel.",
+      "tags": "b1,unit8,bildung"
+    },
+    {
+      "kind": "noun",
+      "de": "Curriculum",
+      "article": "das",
+      "plural": "die Curricula",
+      "meaning_id": "kurikulum",
+      "example_de": "Das Curriculum wurde geändert.",
+      "example_id": "Kurikulumnya diubah.",
+      "tags": "b1,unit8,bildung"
+    }
+  ]
+}

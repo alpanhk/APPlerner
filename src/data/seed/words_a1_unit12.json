@@ -1,0 +1,159 @@
+{
+  "unit": 12,
+  "level": "A1",
+  "theme": "Komunikasi & janji",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Anruf",
+      "article": "der",
+      "plural": "die Anrufe",
+      "meaning_id": "telepon",
+      "example_de": "Das ist der Anruf.",
+      "example_id": "Ini telepon.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "SMS",
+      "article": "die",
+      "plural": "die SMS",
+      "meaning_id": "pesan teks",
+      "example_de": "Das ist die SMS.",
+      "example_id": "Ini pesan teks.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Besuch",
+      "article": "der",
+      "plural": "die Besuche",
+      "meaning_id": "kunjungan",
+      "example_de": "Das ist der Besuch.",
+      "example_id": "Ini kunjungan.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontakt",
+      "article": "der",
+      "plural": "die Kontakte",
+      "meaning_id": "kontak",
+      "example_de": "Das ist der Kontakt.",
+      "example_id": "Ini kontak.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Telefonat",
+      "article": "das",
+      "plural": "die Telefonate",
+      "meaning_id": "percakapan telepon",
+      "example_de": "Das ist das Telefonat.",
+      "example_id": "Ini percakapan telepon.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Briefumschlag",
+      "article": "der",
+      "plural": "die Briefumschläge",
+      "meaning_id": "amplop",
+      "example_de": "Das ist der Briefumschlag.",
+      "example_id": "Ini amplop.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Briefmarke",
+      "article": "die",
+      "plural": "die Briefmarken",
+      "meaning_id": "perangko",
+      "example_de": "Das ist die Briefmarke.",
+      "example_id": "Ini perangko.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Faxgerät",
+      "article": "das",
+      "plural": "die Faxgeräte",
+      "meaning_id": "mesin faks",
+      "example_de": "Das ist das Faxgerät.",
+      "example_id": "Ini mesin faks.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Terminkalender",
+      "article": "der",
+      "plural": "die Terminkalender",
+      "meaning_id": "kalender janji",
+      "example_de": "Das ist der Terminkalender.",
+      "example_id": "Ini kalender janji.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Rückruf",
+      "article": "der",
+      "plural": "die Rückrufe",
+      "meaning_id": "panggilan balik",
+      "example_de": "Das ist der Rückruf.",
+      "example_id": "Ini panggilan balik.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Reservierungsnummer",
+      "article": "die",
+      "plural": "die Reservierungsnummern",
+      "meaning_id": "nomor reservasi",
+      "example_de": "Das ist die Reservierungsnummer.",
+      "example_id": "Ini nomor reservasi.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Verabredung",
+      "article": "die",
+      "plural": "die Verabredungen",
+      "meaning_id": "janji temu",
+      "example_de": "Das ist die Verabredung.",
+      "example_id": "Ini janji temu.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Postkarte",
+      "article": "die",
+      "plural": "die Postkarten",
+      "meaning_id": "kartu pos",
+      "example_de": "Das ist die Postkarte.",
+      "example_id": "Ini kartu pos.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Sprachnachricht",
+      "article": "die",
+      "plural": "die Sprachnachrichten",
+      "meaning_id": "pesan suara",
+      "example_de": "Das ist die Sprachnachricht.",
+      "example_id": "Ini pesan suara.",
+      "tags": "a1,unit12,komunikasi"
+    },
+    {
+      "kind": "noun",
+      "de": "Handynummer",
+      "article": "die",
+      "plural": "die Handynummern",
+      "meaning_id": "nomor ponsel",
+      "example_de": "Das ist die Handynummer.",
+      "example_id": "Ini nomor ponsel.",
+      "tags": "a1,unit12,komunikasi"
+    }
+  ]
+}

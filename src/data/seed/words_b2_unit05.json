@@ -1,0 +1,229 @@
+{
+  "unit": 305,
+  "level": "B2",
+  "theme": "Klimapolitik & Ressourcen",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Klimapolitik",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "kebijakan iklim",
+      "example_de": "Die Klimapolitik ist umstritten.",
+      "example_id": "Kebijakan iklimnya kontroversial.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Emission",
+      "article": "die",
+      "plural": "die Emissionen",
+      "meaning_id": "emisi",
+      "example_de": "Die Emissionen sinken langsam.",
+      "example_id": "Emisinya turun perlahan.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Treibhausgas",
+      "article": "das",
+      "plural": "die Treibhausgase",
+      "meaning_id": "gas rumah kaca",
+      "example_de": "Treibhausgase erwärmen die Erde.",
+      "example_id": "Gas rumah kaca memanaskan bumi.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Energiewende",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "transisi energi",
+      "example_de": "Die Energiewende braucht Zeit.",
+      "example_id": "Transisi energi butuh waktu.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Ressource",
+      "article": "die",
+      "plural": "die Ressourcen",
+      "meaning_id": "sumber daya",
+      "example_de": "Die Ressourcen sind begrenzt.",
+      "example_id": "Sumber dayanya terbatas.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Verbrauch",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "konsumsi",
+      "example_de": "Der Verbrauch ist zu hoch.",
+      "example_id": "Konsumsinya terlalu tinggi.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Vereinbarung",
+      "article": "die",
+      "plural": "die Vereinbarungen",
+      "meaning_id": "kesepakatan",
+      "example_de": "Die Vereinbarung gilt bis 2030.",
+      "example_id": "Kesepakatannya berlaku sampai 2030.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "verb",
+      "de": "ausstoßen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengeluarkan (emisi)",
+      "example_de": "Autos stoßen CO2 aus.",
+      "example_id": "Mobil mengeluarkan CO2.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "verb",
+      "de": "senken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menurunkan",
+      "example_de": "Wir müssen den Verbrauch senken.",
+      "example_id": "Kita harus menurunkan konsumsi.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "adj",
+      "de": "verbindlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengikat",
+      "example_de": "Die Ziele sind verbindlich.",
+      "example_id": "Targetnya mengikat.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "adj",
+      "de": "klimaneutral",
+      "article": null,
+      "plural": null,
+      "meaning_id": "netral karbon",
+      "example_de": "Die Firma will klimaneutral werden.",
+      "example_id": "Perusahaannya ingin netral karbon.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "adj",
+      "de": "drastisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "drastis",
+      "example_de": "Die Werte müssen drastisch sinken.",
+      "example_id": "Nilainya harus turun drastis.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Klimakonferenz",
+      "article": "die",
+      "plural": "die Klimakonferenzen",
+      "meaning_id": "konferensi iklim",
+      "example_de": "Die Klimakonferenz endet morgen.",
+      "example_id": "Konferensi iklimnya berakhir besok.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Anreiz",
+      "article": "der",
+      "plural": "die Anreize",
+      "meaning_id": "insentif",
+      "example_de": "Es braucht finanzielle Anreize.",
+      "example_id": "Perlu insentif finansial.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Sanktion",
+      "article": "die",
+      "plural": "die Sanktionen",
+      "meaning_id": "sanksi",
+      "example_de": "Sanktionen wurden angekündigt.",
+      "example_id": "Sanksi diumumkan.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Zielvorgabe",
+      "article": "die",
+      "plural": "die Zielvorgaben",
+      "meaning_id": "target yang ditetapkan",
+      "example_de": "Die Zielvorgabe ist verbindlich.",
+      "example_id": "Targetnya mengikat.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Förderprogramm",
+      "article": "das",
+      "plural": "die Förderprogramme",
+      "meaning_id": "program pendanaan",
+      "example_de": "Das Förderprogramm startet 2027.",
+      "example_id": "Program pendanaannya mulai 2027.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Emissionshandel",
+      "article": "der",
+      "plural": "die Emissionshändel",
+      "meaning_id": "perdagangan emisi",
+      "example_de": "Der Emissionshandel soll lenken.",
+      "example_id": "Perdagangan emisi bertujuan mengarahkan.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Zwischenziel",
+      "article": "das",
+      "plural": "die Zwischenziele",
+      "meaning_id": "target antara",
+      "example_de": "Das Zwischenziel wurde verfehlt.",
+      "example_id": "Target antaranya tidak tercapai.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachrüstung",
+      "article": "die",
+      "plural": "die Nachrüstungen",
+      "meaning_id": "pemasangan tambahan",
+      "example_de": "Die Nachrüstung ist teuer.",
+      "example_id": "Pemasangan tambahannya mahal.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Stilllegung",
+      "article": "die",
+      "plural": "die Stilllegungen",
+      "meaning_id": "penonaktifan",
+      "example_de": "Die Stilllegung ist beschlossen.",
+      "example_id": "Penonaktifannya diputuskan.",
+      "tags": "b2,unit5,klima"
+    },
+    {
+      "kind": "noun",
+      "de": "Klimafonds",
+      "article": "der",
+      "plural": "die Klimafonds",
+      "meaning_id": "dana iklim",
+      "example_de": "Der Klimafonds ist leer.",
+      "example_id": "Dana iklimnya kosong.",
+      "tags": "b2,unit5,klima"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "level": "A1",
+  "unit": 2,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 2. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u2-o1-01",
+      "objectiveId": "a1-u2-o1",
+      "code": "D1",
+      "prompt": "Angka 16 dalam bahasa Jerman adalah ...",
+      "sub": "Perhatikan ejaan setelah sechs.",
+      "mode": "choice",
+      "options": ["sechzehn", "sechszehn", "sechzig", "siebzehn"],
+      "answer": "sechzehn",
+      "wrongFeedback": {
+        "sechszehn": "16 ditulis sechzehn: huruf -s pada sechs dihilangkan, bukan ditambah.",
+        "sechzig": "sechzig berarti 60, bukan 16.",
+        "siebzehn": "siebzehn berarti 17."
+      },
+      "explanation": "16 = sechzehn. Bandingkan sechs (6) dengan sechzehn (16): huruf s di tengah hilang."
+    },
+    {
+      "id": "u2-o1-02",
+      "objectiveId": "a1-u2-o1",
+      "code": "D1",
+      "prompt": "Bentuk Jerman untuk 99 adalah ...",
+      "sub": "Satuan dulu, lalu und, lalu puluhan.",
+      "mode": "choice",
+      "options": ["neunundneunzig", "neunzehnneunzig", "neunzigundneun", "neunundneunzehn"],
+      "answer": "neunundneunzig",
+      "wrongFeedback": {
+        "neunzehnneunzig": "Urutannya salah; 99 dibentuk neun + und + neunzig.",
+        "neunzigundneun": "Urutannya terbalik; puluhan justru berada di akhir kata.",
+        "neunundneunzehn": "Bentuk ini menggabungkan 9 dan 19, bukan 99."
+      },
+      "explanation": "99 = neunundneunzig (sembilan + und + sembilan puluh)."
+    },
+    {
+      "id": "u2-o1-03",
+      "objectiveId": "a1-u2-o1",
+      "code": "D1",
+      "prompt": "Tulis angka 35 dalam kata Jerman.",
+      "sub": "Ketik satu kata tanpa spasi.",
+      "mode": "type",
+      "answer": "fünfunddreißig",
+      "altAnswers": ["fuenfunddreissig"],
+      "hintOnWrong": "35 = fünf + und + dreißig. Ingat ß pada dreißig; ejaan fuenfunddreissig juga diterima.",
+      "explanation": "35 = fünfunddreißig (lima + und + tiga puluh)."
+    },
+    {
+      "id": "u2-o1-04",
+      "objectiveId": "a1-u2-o1",
+      "code": "D1",
+      "prompt": "Angka mana yang berarti 72?",
+      "sub": "Periksa satuan dan puluhan dengan teliti.",
+      "mode": "choice",
+      "options": ["zweiundsiebzig", "siebenundzwanzig", "zweiundsiebzehn", "siebzigundzwei"],
+      "answer": "zweiundsiebzig",
+      "wrongFeedback": {
+        "siebenundzwanzig": "Itu 27: satuan sieben dan puluhan zwanzig.",
+        "zweiundsiebzehn": "Bentuk ini tidak membentuk 72; 72 memakai siebzig di akhir.",
+        "siebzigundzwei": "Urutannya terbalik; satuan zwei harus berada di depan."
+      },
+      "explanation": "72 = zweiundsiebzig (dua + und + tujuh puluh)."
+    },
+    {
+      "id": "u2-o1-05",
+      "objectiveId": "a1-u2-o1",
+      "code": "D6",
+      "prompt": "Susun kalimat: 'Saya berumur 48 tahun.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "bin", "achtundvierzig", "Jahre", "alt."],
+      "answer": "Ich bin achtundvierzig Jahre alt.",
+      "hintOnWrong": "Mulai dengan Ich bin, lalu angka achtundvierzig, lalu Jahre alt.",
+      "explanation": "Ich bin achtundvierzig Jahre alt. berarti 'Saya berumur 48 tahun'."
+    },
+    {
+      "id": "u2-o2-01",
+      "objectiveId": "a1-u2-o2",
+      "code": "D3",
+      "prompt": "Kamu ingin menanyakan harga sebuah buku. Pertanyaan yang tepat adalah ...",
+      "sub": "Pilih pertanyaan tentang harga, bukan tentang buku secara umum.",
+      "mode": "choice",
+      "options": ["Wie viel kostet das Buch?", "Wie viel Uhr ist das Buch?", "Wie heißt das Buch?", "Woher kommt das Buch?"],
+      "answer": "Wie viel kostet das Buch?",
+      "wrongFeedback": {
+        "Wie viel Uhr ist das Buch?": "Wie viel Uhr? menanyakan jam, bukan harga.",
+        "Wie heißt das Buch?": "Pertanyaan itu menanyakan judul buku, bukan harganya.",
+        "Woher kommt das Buch?": "Pertanyaan itu menanyakan asal buku, bukan harganya."
+      },
+      "explanation": "Wie viel kostet das Buch? berarti 'Berapa harga buku itu?'."
+    },
+    {
+      "id": "u2-o2-02",
+      "objectiveId": "a1-u2-o2",
+      "code": "D1",
+      "prompt": "Kata Jerman untuk 'murah' adalah ...",
+      "sub": "Lawan dari teuer.",
+      "mode": "choice",
+      "options": ["billig", "teuer", "schnell", "alt"],
+      "answer": "billig",
+      "wrongFeedback": {
+        "teuer": "teuer berarti 'mahal', kebalikan dari yang ditanyakan.",
+        "schnell": "schnell berarti 'cepat', bukan 'murah'.",
+        "alt": "alt berarti 'tua' atau 'lama', bukan 'murah'."
+      },
+      "explanation": "billig = murah; teuer = mahal."
+    },
+    {
+      "id": "u2-o2-03",
+      "objectiveId": "a1-u2-o2",
+      "code": "D3",
+      "prompt": "Lengkapi: Das Buch ___ zwölf Euro. (kosten)",
+      "sub": "Ketik bentuk yang cocok untuk subjek Das Buch.",
+      "mode": "type",
+      "answer": "kostet",
+      "hintOnWrong": "Das Buch adalah subjek tunggal, jadi bentuknya kostet, bukan kosten.",
+      "explanation": "Das Buch kostet zwölf Euro. Subjek tunggal memakai kostet."
+    },
+    {
+      "id": "u2-o2-04",
+      "objectiveId": "a1-u2-o2",
+      "code": "D6",
+      "prompt": "Susun pertanyaan: 'Berapa harga tas itu?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Wie", "viel", "kostet", "die", "Tasche?"],
+      "answer": "Wie viel kostet die Tasche?",
+      "hintOnWrong": "Mulai dengan Wie viel, lalu kata kerja kostet, lalu subjek die Tasche.",
+      "explanation": "Wie viel kostet die Tasche? menanyakan harga sebuah tas."
+    },
+    {
+      "id": "u2-o2-05",
+      "objectiveId": "a1-u2-o2",
+      "code": "D3",
+      "prompt": "Die Getränke ___ drei Euro.",
+      "sub": "Perhatikan subjek plural.",
+      "mode": "choice",
+      "options": ["kosten", "kostet", "kostest", "kostete"],
+      "answer": "kosten",
+      "wrongFeedback": {
+        "kostet": "kostet dipakai untuk subjek tunggal; Die Getränke plural.",
+        "kostest": "kostest dipakai untuk du, bukan subjek plural.",
+        "kostete": "kostete adalah bentuk lampau; kalimat ini menyatakan harga sekarang."
+      },
+      "explanation": "Subjek plural Die Getränke memakai kosten: Die Getränke kosten drei Euro."
+    },
+    {
+      "id": "u2-o3-01",
+      "objectiveId": "a1-u2-o3",
+      "code": "D2",
+      "prompt": "'halb neun' berarti pukul ...",
+      "sub": "Ingat arah setengah jam dalam bahasa Jerman.",
+      "mode": "choice",
+      "options": ["08.30", "09.30", "08.00", "09.00"],
+      "answer": "08.30",
+      "wrongFeedback": {
+        "09.30": "halb neun adalah setengah menuju pukul sembilan, jadi 08.30.",
+        "08.00": "halb neun bukan pukul 08.00; jam penuh delapan adalah acht Uhr.",
+        "09.00": "halb neun belum pukul 09.00; ia menunjuk setengah jam sebelumnya."
+      },
+      "explanation": "halb neun = 08.30, karena 'setengah' dihitung menuju jam berikutnya."
+    },
+    {
+      "id": "u2-o3-02",
+      "objectiveId": "a1-u2-o3",
+      "code": "D2",
+      "prompt": "'viertel vor neun' berarti pukul ...",
+      "sub": "vor berarti kurang, bukan lewat.",
+      "mode": "choice",
+      "options": ["08.45", "09.15", "08.15", "09.45"],
+      "answer": "08.45",
+      "wrongFeedback": {
+        "09.15": "viertel nach neun berarti 09.15; vor justru kurang 15 menit.",
+        "08.15": "viertel nach acht berarti 08.15, bukan viertel vor neun.",
+        "09.45": "viertel vor zehn berarti 09.45, bukan viertel vor neun."
+      },
+      "explanation": "viertel vor neun = 15 menit sebelum pukul sembilan, yaitu 08.45."
+    },
+    {
+      "id": "u2-o3-03",
+      "objectiveId": "a1-u2-o3",
+      "code": "D2",
+      "prompt": "Pukul 07.15 diucapkan ...",
+      "sub": "15 menit setelah pukul tujuh.",
+      "mode": "choice",
+      "options": ["viertel nach sieben", "viertel vor sieben", "halb sieben", "viertel nach acht"],
+      "answer": "viertel nach sieben",
+      "wrongFeedback": {
+        "viertel vor sieben": "viertel vor sieben berarti 06.45, bukan 07.15.",
+        "halb sieben": "halb sieben berarti 06.30, bukan 07.15.",
+        "viertel nach acht": "viertel nach acht berarti 08.15, bukan 07.15."
+      },
+      "explanation": "07.15 = viertel nach sieben (seperempat setelah pukul tujuh)."
+    },
+    {
+      "id": "u2-o3-04",
+      "objectiveId": "a1-u2-o3",
+      "code": "D2",
+      "prompt": "Tulis pukul 09.30 dengan pola 'halb'.",
+      "sub": "Ketik dua kata.",
+      "mode": "type",
+      "answer": "halb zehn",
+      "altAnswers": ["Halb zehn"],
+      "hintOnWrong": "30 menit setelah pukul 09.00 adalah setengah menuju pukul 10.00: halb zehn.",
+      "explanation": "09.30 = halb zehn, bukan halb neun."
+    },
+    {
+      "id": "u2-o3-05",
+      "objectiveId": "a1-u2-o3",
+      "code": "D6",
+      "prompt": "Susun kalimat: 'Sekarang pukul sebelas.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Es", "ist", "elf", "Uhr."],
+      "answer": "Es ist elf Uhr.",
+      "hintOnWrong": "Mulai dengan Es ist, lalu angka jam elf, lalu Uhr.",
+      "explanation": "Es ist elf Uhr. berarti 'Sekarang pukul sebelas'."
+    },
+    {
+      "id": "u2-o4-01",
+      "objectiveId": "a1-u2-o4",
+      "code": "D2",
+      "prompt": "Hari yang datang setelah Mittwoch adalah ...",
+      "sub": "Urutan hari dalam seminggu.",
+      "mode": "choice",
+      "options": ["Donnerstag", "Dienstag", "Freitag", "Montag"],
+      "answer": "Donnerstag",
+      "wrongFeedback": {
+        "Dienstag": "Dienstag datang sebelum Mittwoch, bukan sesudahnya.",
+        "Freitag": "Freitag datang setelah Donnerstag, bukan langsung setelah Mittwoch.",
+        "Montag": "Montag adalah awal pekan, bukan hari setelah Mittwoch."
+      },
+      "explanation": "Urutannya Mittwoch → Donnerstag."
+    },
+    {
+      "id": "u2-o4-02",
+      "objectiveId": "a1-u2-o4",
+      "code": "D2",
+      "prompt": "Urutan tiga hari pertama mulai Senin adalah ...",
+      "sub": "Mulai dari Montag.",
+      "mode": "choice",
+      "options": [
+        "Montag, Dienstag, Mittwoch",
+        "Montag, Mittwoch, Dienstag",
+        "Dienstag, Montag, Mittwoch",
+        "Sonntag, Montag, Dienstag"
+      ],
+      "answer": "Montag, Dienstag, Mittwoch",
+      "wrongFeedback": {
+        "Montag, Mittwoch, Dienstag": "Mittwoch adalah hari ketiga; Dienstag harus berada sebelum Mittwoch.",
+        "Dienstag, Montag, Mittwoch": "Urutan ini dimulai dari Dienstag, bukan Montag.",
+        "Sonntag, Montag, Dienstag": "Urutan ini dimulai dari Sonntag, bukan Senin."
+      },
+      "explanation": "Tiga hari pertama mulai Senin: Montag, Dienstag, Mittwoch."
+    },
+    {
+      "id": "u2-o4-03",
+      "objectiveId": "a1-u2-o4",
+      "code": "D9",
+      "prompt": "___ Montag habe ich Unterricht.",
+      "sub": "Preposisi untuk hari.",
+      "mode": "choice",
+      "options": ["Am", "Im", "Um", "Der"],
+      "answer": "Am",
+      "wrongFeedback": {
+        "Im": "im dipakai untuk bulan atau musim, bukan nama hari.",
+        "Um": "um dipakai untuk jam, bukan nama hari.",
+        "Der": "Der adalah artikel, bukan preposisi waktu; kalimat ini membutuhkan am."
+      },
+      "explanation": "am + hari: Am Montag habe ich Unterricht."
+    },
+    {
+      "id": "u2-o4-04",
+      "objectiveId": "a1-u2-o4",
+      "code": "D2",
+      "prompt": "Ketik nama hari Jerman untuk 'Kamis'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Donnerstag",
+      "altAnswers": ["donnerstag"],
+      "hintOnWrong": "Kamis = Donnerstag; nama hari selalu diawali huruf kapital.",
+      "explanation": "Donnerstag berarti 'Kamis'."
+    },
+    {
+      "id": "u2-o4-05",
+      "objectiveId": "a1-u2-o4",
+      "code": "D6",
+      "prompt": "Susun pertanyaan: 'Kapan film mulai?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Wann", "beginnt", "der", "Film?"],
+      "answer": "Wann beginnt der Film?",
+      "hintOnWrong": "Mulai dengan Wann, lalu kata kerja beginnt, lalu subjek der Film.",
+      "explanation": "Wann beginnt der Film? menanyakan waktu mulai film."
+    },
+    {
+      "id": "u2-o5-01",
+      "objectiveId": "a1-u2-o5",
+      "code": "D9",
+      "prompt": "Der Kurs beginnt ___ acht Uhr.",
+      "sub": "Preposisi untuk jam.",
+      "mode": "choice",
+      "options": ["um", "am", "im", "in"],
+      "answer": "um",
+      "wrongFeedback": {
+        "am": "am dipakai untuk hari atau bagian hari, bukan jam.",
+        "im": "im dipakai untuk bulan atau musim, bukan jam.",
+        "in": "in dipakai untuk tempat seperti in Berlin, bukan jam."
+      },
+      "explanation": "um + jam: Der Kurs beginnt um acht Uhr."
+    },
+    {
+      "id": "u2-o5-02",
+      "objectiveId": "a1-u2-o5",
+      "code": "D9",
+      "prompt": "___ Sommer fahren wir nach Berlin.",
+      "sub": "Preposisi untuk musim.",
+      "mode": "choice",
+      "options": ["Im", "Am", "Um", "In"],
+      "answer": "Im",
+      "wrongFeedback": {
+        "Am": "am dipakai untuk hari atau bagian hari; musim memakai im.",
+        "Um": "um dipakai untuk jam, bukan musim.",
+        "In": "in dipakai untuk kota atau tempat; musim memakai im."
+      },
+      "explanation": "im + musim: Im Sommer fahren wir nach Berlin."
+    },
+    {
+      "id": "u2-o5-03",
+      "objectiveId": "a1-u2-o5",
+      "code": "D9",
+      "prompt": "Wir treffen uns ___ Freitag.",
+      "sub": "Preposisi untuk hari.",
+      "mode": "choice",
+      "options": ["am", "im", "um", "in"],
+      "answer": "am",
+      "wrongFeedback": {
+        "im": "im dipakai untuk bulan atau musim, bukan nama hari.",
+        "um": "um dipakai untuk jam, bukan nama hari.",
+        "in": "in dipakai untuk tempat, bukan nama hari."
+      },
+      "explanation": "am + hari: Wir treffen uns am Freitag."
+    },
+    {
+      "id": "u2-o5-04",
+      "objectiveId": "a1-u2-o5",
+      "code": "D3",
+      "prompt": "Lengkapi: ___ war ich zu Hause. (kemarin)",
+      "sub": "Ketik kata waktu yang tepat.",
+      "mode": "type",
+      "answer": "Gestern",
+      "altAnswers": ["gestern"],
+      "hintOnWrong": "Kemarin = gestern; kata waktu ini berdiri tanpa preposisi.",
+      "explanation": "Gestern war ich zu Hause. berarti 'Kemarin saya di rumah'."
+    },
+    {
+      "id": "u2-o5-05",
+      "objectiveId": "a1-u2-o5",
+      "code": "D3",
+      "prompt": "Pilih pasangan kata waktu yang berarti 'hari ini' dan 'besok'.",
+      "sub": "Pilih pasangan yang benar; kata waktu ini tidak memakai preposisi.",
+      "mode": "choice",
+      "options": ["heute, morgen", "gestern, heute", "morgen, gestern", "heute, gestern"],
+      "answer": "heute, morgen",
+      "wrongFeedback": {
+        "gestern, heute": "gestern berarti 'kemarin', bukan 'hari ini'.",
+        "morgen, gestern": "morgen berarti 'besok', bukan 'hari ini'; gestern berarti 'kemarin'.",
+        "heute, gestern": "gestern berarti 'kemarin', bukan 'besok'."
+      },
+      "explanation": "heute = hari ini, morgen = besok; keduanya berdiri tanpa preposisi."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "dialog-63",
+  "title": "Ein Streit im Haus",
+  "textId": 63,
+  "level": "B1",
+  "tags": "seed · B1 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit einer Woche gibt es Streit im Haus.",
+      "id": "Sejak sepekan ada pertengkaran di gedung.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ein Mieter hört abends laute Musik.",
+      "id": "Seorang penyewa mendengar musik keras pada malam hari.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Die Nachbarn fühlen sich gestört und beschweren sich.",
+      "id": "Para tetangga merasa terganggu dan mengeluh.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Der Hausmeister schlägt ein Gespräch vor.",
+      "id": "Petugas gedung mengusulkan pertemuan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Bei dem Gespräch einigen sich alle auf ruhigere Zeiten.",
+      "id": "Dalam pertemuan itu semua sepakat waktu yang lebih tenang.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Danach ist die Stimmung im Haus besser.",
+      "id": "Setelah itu suasana di gedung lebih baik.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollege",
+      "de": "Seit einer Woche gibt es Streit im Haus.",
+      "id": "Sejak sepekan ada pertengkaran di gedung.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Ein Mieter hört abends laute Musik.",
+      "id": "Seorang penyewa mendengar musik keras pada malam hari.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Die Nachbarn fühlen sich gestört und beschweren sich.",
+      "id": "Para tetangga merasa terganggu dan mengeluh.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Der Hausmeister schlägt ein Gespräch vor.",
+      "id": "Petugas gedung mengusulkan pertemuan.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Bei dem Gespräch einigen sich alle auf ruhigere Zeiten.",
+      "id": "Dalam pertemuan itu semua sepakat waktu yang lebih tenang.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "nachbarin",
+      "de": "Danach ist die Stimmung im Haus besser.",
+      "id": "Setelah itu suasana di gedung lebih baik.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

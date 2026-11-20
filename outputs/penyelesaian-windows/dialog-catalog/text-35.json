@@ -1,0 +1,206 @@
+{
+  "id": "dialog-35",
+  "title": "Mein Wochenende",
+  "textId": 35,
+  "level": "A2",
+  "tags": "seed · A2 · unit 7",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Samstag bin ich mit Freunden gewandert.",
+      "id": "Hari Sabtu saya mendaki bersama teman-teman.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Das Wetter war schön und die Landschaft war ruhig.",
+      "id": "Cuacanya bagus dan pemandangannya tenang.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Am Abend sind wir ins Kino gegangen.",
+      "id": "Malamnya kami pergi ke bioskop.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Der Film war spannend, aber ein bisschen lang.",
+      "id": "Filmnya seru, tapi agak panjang.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Am Sonntag habe ich nur gelesen und Musik gehört.",
+      "id": "Hari Minggu saya hanya membaca dan mendengar musik.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nächste Woche werde ich zum ersten Mal ins Museum gehen.",
+      "id": "Pekan depan saya akan pertama kali pergi ke museum.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Am Samstag bin ich mit Freunden gewandert.",
+      "id": "Hari Sabtu saya mendaki bersama teman-teman.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Das Wetter war schön und die Landschaft war ruhig.",
+      "id": "Cuacanya bagus dan pemandangannya tenang.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Am Abend sind wir ins Kino gegangen.",
+      "id": "Malamnya kami pergi ke bioskop.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Der Film war spannend, aber ein bisschen lang.",
+      "id": "Filmnya seru, tapi agak panjang.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Am Sonntag habe ich nur gelesen und Musik gehört.",
+      "id": "Hari Minggu saya hanya membaca dan mendengar musik.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "lehrerin",
+      "de": "Nächste Woche werde ich zum ersten Mal ins Museum gehen.",
+      "id": "Pekan depan saya akan pertama kali pergi ke museum.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "unit": 101,
+  "level": "A2",
+  "theme": "Wohnen & Miete",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Wohnung",
+      "article": "die",
+      "plural": "die Wohnungen",
+      "meaning_id": "apartemen",
+      "example_de": "Die Wohnung ist hell und ruhig.",
+      "example_id": "Apartemennya terang dan tenang.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Haus",
+      "article": "das",
+      "plural": "die Häuser",
+      "meaning_id": "rumah",
+      "example_de": "Das Haus hat einen Garten.",
+      "example_id": "Rumahnya punya taman.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Zimmer",
+      "article": "das",
+      "plural": "die Zimmer",
+      "meaning_id": "kamar",
+      "example_de": "Mein Zimmer ist klein.",
+      "example_id": "Kamar saya kecil.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Küche",
+      "article": "die",
+      "plural": "die Küchen",
+      "meaning_id": "dapur",
+      "example_de": "Wir kochen in der Küche.",
+      "example_id": "Kami memasak di dapur.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Bad",
+      "article": "das",
+      "plural": "die Bäder",
+      "meaning_id": "kamar mandi",
+      "example_de": "Das Bad ist neu.",
+      "example_id": "Kamar mandinya baru.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Balkon",
+      "article": "der",
+      "plural": "die Balkone",
+      "meaning_id": "balkon",
+      "example_de": "Der Balkon ist groß.",
+      "example_id": "Balkonnya besar.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Miete",
+      "article": "die",
+      "plural": "die Mieten",
+      "meaning_id": "uang sewa",
+      "example_de": "Die Miete ist zu hoch.",
+      "example_id": "Uang sewanya terlalu tinggi.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Vermieter",
+      "article": "der",
+      "plural": "die Vermieter",
+      "meaning_id": "pemilik sewa",
+      "example_de": "Der Vermieter ist freundlich.",
+      "example_id": "Pemilik sewanya ramah.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Mieter",
+      "article": "der",
+      "plural": "die Mieter",
+      "meaning_id": "penyewa",
+      "example_de": "Der Mieter zahlt pünktlich.",
+      "example_id": "Penyewanya membayar tepat waktu.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Nebenkosten",
+      "article": "die",
+      "plural": "die Nebenkosten",
+      "meaning_id": "biaya tambahan",
+      "example_de": "Die Nebenkosten sind im Preis enthalten.",
+      "example_id": "Biaya tambahan sudah termasuk harga.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "verb",
+      "de": "umziehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pindah rumah",
+      "example_de": "Wir ziehen im Mai um.",
+      "example_id": "Kami pindah rumah bulan Mei.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "verb",
+      "de": "mieten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyewa",
+      "example_de": "Wir mieten eine Wohnung.",
+      "example_id": "Kami menyewa sebuah apartemen.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "verb",
+      "de": "renovieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merenovasi",
+      "example_de": "Wir renovieren das Bad.",
+      "example_id": "Kami merenovasi kamar mandi.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "adj",
+      "de": "gemütlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "nyaman",
+      "example_de": "Das Wohnzimmer ist gemütlich.",
+      "example_id": "Ruang tamunya nyaman.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "adj",
+      "de": "hell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terang",
+      "example_de": "Die Wohnung ist sehr hell.",
+      "example_id": "Apartemennya sangat terang.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Anzeige",
+      "article": "die",
+      "plural": "die Anzeigen",
+      "meaning_id": "iklan",
+      "example_de": "Ich lese die Anzeige im Internet.",
+      "example_id": "Saya membaca iklan di internet.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Teppich",
+      "article": "der",
+      "plural": "die Teppiche",
+      "meaning_id": "karpet",
+      "example_de": "Der Teppich liegt im Wohnzimmer.",
+      "example_id": "Karpetnya ada di ruang tamu.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorhang",
+      "article": "der",
+      "plural": "die Vorhänge",
+      "meaning_id": "gorden",
+      "example_de": "Der Vorhang ist blau.",
+      "example_id": "Gordennya biru.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Regal",
+      "article": "das",
+      "plural": "die Regale",
+      "meaning_id": "rak",
+      "example_de": "Das Regal ist voll.",
+      "example_id": "Raknya penuh.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Heizung",
+      "article": "die",
+      "plural": "die Heizungen",
+      "meaning_id": "pemanas",
+      "example_de": "Die Heizung funktioniert nicht.",
+      "example_id": "Pemanasnya tidak berfungsi.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Möbel",
+      "article": "die",
+      "plural": "die Möbel",
+      "meaning_id": "mebel",
+      "example_de": "Die Möbel sind neu.",
+      "example_id": "Mebelnnya baru.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Bett",
+      "article": "das",
+      "plural": "die Betten",
+      "meaning_id": "tempat tidur",
+      "example_de": "Das Bett ist bequem.",
+      "example_id": "Tempat tidurnya nyaman.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Sofa",
+      "article": "das",
+      "plural": "die Sofas",
+      "meaning_id": "sofa",
+      "example_de": "Das Sofa steht am Fenster.",
+      "example_id": "Sofanya di dekat jendela.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Lampe",
+      "article": "die",
+      "plural": "die Lampen",
+      "meaning_id": "lampu",
+      "example_de": "Die Lampe ist an.",
+      "example_id": "Lampunya menyala.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Fenster",
+      "article": "das",
+      "plural": "die Fenster",
+      "meaning_id": "jendela",
+      "example_de": "Das Fenster ist offen.",
+      "example_id": "Jendelanya terbuka.",
+      "tags": "a2,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Tür",
+      "article": "die",
+      "plural": "die Türen",
+      "meaning_id": "pintu",
+      "example_de": "Die Tür ist zu.",
+      "example_id": "Pintunya tertutup.",
+      "tags": "a2,unit1,wohnen"
+    }
+  ]
+}

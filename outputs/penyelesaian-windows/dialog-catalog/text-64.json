@@ -1,0 +1,206 @@
+{
+  "id": "dialog-64",
+  "title": "Klimafreundlich leben",
+  "textId": 64,
+  "level": "B1",
+  "tags": "seed · B1 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Viele Menschen möchten klimafreundlicher leben.",
+      "id": "Banyak orang ingin hidup lebih ramah iklim.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Sie fahren häufiger Fahrrad oder benutzen den Bus.",
+      "id": "Mereka lebih sering bersepeda atau memakai bus.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Außerdem trennen sie den Müll zu Hause.",
+      "id": "Selain itu mereka memilah sampah di rumah.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Beim Einkaufen achten sie auf Verpackungen.",
+      "id": "Saat berbelanja mereka memperhatikan kemasan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Es ist jedoch nicht immer einfach, konsequent zu bleiben.",
+      "id": "Namun tidak selalu mudah untuk konsisten.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Kleine Entscheidungen können dennoch viel bewirken.",
+      "id": "Keputusan kecil tetap bisa berpengaruh banyak.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Viele Menschen möchten klimafreundlicher leben.",
+      "id": "Banyak orang ingin hidup lebih ramah iklim.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "nachbarin",
+      "de": "Sie fahren häufiger Fahrrad oder benutzen den Bus.",
+      "id": "Mereka lebih sering bersepeda atau memakai bus.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "kollege",
+      "de": "Außerdem trennen sie den Müll zu Hause.",
+      "id": "Selain itu mereka memilah sampah di rumah.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Beim Einkaufen achten sie auf Verpackungen.",
+      "id": "Saat berbelanja mereka memperhatikan kemasan.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Es ist jedoch nicht immer einfach, konsequent zu bleiben.",
+      "id": "Namun tidak selalu mudah untuk konsisten.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollege",
+      "de": "Kleine Entscheidungen können dennoch viel bewirken.",
+      "id": "Keputusan kecil tetap bisa berpengaruh banyak.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

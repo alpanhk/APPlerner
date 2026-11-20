@@ -1,0 +1,316 @@
+{
+  "level": "B2",
+  "source": "Teks pendek orisinal level B2 - kurikulum Goethe",
+  "texts": [
+    {
+      "title": "Arbeit 2030",
+      "level": "B2",
+      "tags": "seed · B2 · unit 1",
+      "sentences": [
+        {
+          "de": "Die Arbeitswelt befindet sich in einem tiefen Wandel.",
+          "id": "Dunia kerja berada dalam perubahan mendalam."
+        },
+        {
+          "de": "Digitalisierung und Automatisierung verändern viele Berufe.",
+          "id": "Digitalisasi dan otomatisasi mengubah banyak profesi."
+        },
+        {
+          "de": "Gleichzeitig entstehen neue Berufe, die spezielle Qualifikationen verlangen.",
+          "id": "Pada saat yang sama muncul profesi baru yang menuntut kualifikasi khusus."
+        },
+        {
+          "de": "Weiterbildung wird deshalb immer wichtiger.",
+          "id": "Karena itu pendidikan lanjutan makin penting."
+        },
+        {
+          "de": "Die Gewerkschaften fordern bessere Bedingungen für die Beschäftigten.",
+          "id": "Serikat pekerja menuntut kondisi lebih baik bagi pekerja."
+        },
+        {
+          "de": "Nur wer flexibel bleibt, kann auf dem Arbeitsmarkt bestehen.",
+          "id": "Hanya yang tetap fleksibel dapat bertahan di pasar kerja."
+        }
+      ]
+    },
+    {
+      "title": "Die Debatte um die Reform",
+      "level": "B2",
+      "tags": "seed · B2 · unit 2",
+      "sentences": [
+        {
+          "de": "Die Regierung hat eine neue Reform vorgeschlagen.",
+          "id": "Pemerintah mengusulkan reformasi baru."
+        },
+        {
+          "de": "Der Minister sagt, die Reform sei notwendig für die Zukunft.",
+          "id": "Menteri mengatakan reformasi itu perlu untuk masa depan."
+        },
+        {
+          "de": "Die Opposition kritisiert, die Kosten seien zu hoch.",
+          "id": "Oposisi mengkritik bahwa biayanya terlalu tinggi."
+        },
+        {
+          "de": "Zwar ist eine Reform nötig, aber der Zeitpunkt ist umstritten.",
+          "id": "Memang reformasi perlu, tetapi waktunya kontroversial."
+        },
+        {
+          "de": "Viele Bürger wünschen sich mehr Beteiligung.",
+          "id": "Banyak warga menginginkan lebih banyak partisipasi."
+        },
+        {
+          "de": "Bei der Wahl im Herbst wird sich zeigen, wer Recht hat.",
+          "id": "Pada pemilu musim gugur akan terlihat siapa yang benar."
+        }
+      ]
+    },
+    {
+      "title": "Was die Studie zeigt",
+      "level": "B2",
+      "tags": "seed · B2 · unit 3",
+      "sentences": [
+        {
+          "de": "Eine neue Studie wurde letzte Woche veröffentlicht.",
+          "id": "Sebuah studi baru diterbitkan pekan lalu."
+        },
+        {
+          "de": "Die untersuchten Fälle zeigen einen klaren Zusammenhang.",
+          "id": "Kasus yang diteliti menunjukkan kaitan yang jelas."
+        },
+        {
+          "de": "Allerdings ist der Zusammenhang noch nicht bewiesen.",
+          "id": "Namun kaitannya belum terbukti."
+        },
+        {
+          "de": "Die Forscher betonen, dass weitere Experimente nötig seien.",
+          "id": "Para peneliti menekankan bahwa eksperimen lanjutan masih perlu."
+        },
+        {
+          "de": "Infolgedessen fordern sie mehr Förderung für die Wissenschaft.",
+          "id": "Sebagai akibatnya mereka menuntut lebih banyak dana untuk ilmu pengetahuan."
+        },
+        {
+          "de": "Die Ergebnisse müssen unabhängig geprüft werden.",
+          "id": "Hasilnya harus diperiksa secara independen."
+        }
+      ]
+    },
+    {
+      "title": "Ein Unternehmen in der Krise",
+      "level": "B2",
+      "tags": "seed · B2 · unit 4",
+      "sentences": [
+        {
+          "de": "Das Unternehmen steckt seit zwei Jahren in einer Krise.",
+          "id": "Perusahaan itu dua tahun dalam krisis."
+        },
+        {
+          "de": "Der Umsatz ist gesunken, während die Kosten gestiegen sind.",
+          "id": "Omzet menurun sementara biaya naik."
+        },
+        {
+          "de": "Einerseits braucht die Firma Investitionen, andererseits fehlt das Geld.",
+          "id": "Di satu sisi perusahaan butuh investasi, di sisi lain uangnya kurang."
+        },
+        {
+          "de": "Die Geschäftsführung hat eine neue Strategie beschlossen.",
+          "id": "Manajemen memutuskan strategi baru."
+        },
+        {
+          "de": "Ein Teil der Produktion ist bereits verlagert.",
+          "id": "Sebagian produksi sudah dipindahkan."
+        },
+        {
+          "de": "Ob die Strategie rentabel ist, wird sich nächstes Jahr zeigen.",
+          "id": "Apakah strateginya menguntungkan akan terlihat tahun depan."
+        }
+      ]
+    },
+    {
+      "title": "Die Energiewende",
+      "level": "B2",
+      "tags": "seed · B2 · unit 5",
+      "sentences": [
+        {
+          "de": "Die Klimapolitik steht vor großen Aufgaben.",
+          "id": "Kebijakan iklim menghadapi tugas besar."
+        },
+        {
+          "de": "Die Emissionen müssen deutlich gesenkt werden.",
+          "id": "Emisinya harus diturunkan secara signifikan."
+        },
+        {
+          "de": "Die Energiewende wird langfristig Arbeitsplätze schaffen.",
+          "id": "Transisi energi akan menciptakan lapangan kerja jangka panjang."
+        },
+        {
+          "de": "Allerdings sind nicht alle Ziele verbindlich.",
+          "id": "Namun tidak semua target bersifat mengikat."
+        },
+        {
+          "de": "Falls die Vereinbarungen nicht eingehalten werden, drohen neue Konflikte.",
+          "id": "Jika kesepakatan tidak dipatuhi, ancaman konflik baru muncul."
+        },
+        {
+          "de": "Der Verbrauch von Ressourcen muss sinken, damit die Ziele erreicht werden.",
+          "id": "Konsumsi sumber daya harus turun agar target tercapai."
+        }
+      ]
+    },
+    {
+      "title": "Falsche Nachrichten",
+      "level": "B2",
+      "tags": "seed · B2 · unit 6",
+      "sentences": [
+        {
+          "de": "Falsche Nachrichten verbreiten sich in Sekunden.",
+          "id": "Berita palsu menyebar dalam hitungan detik."
+        },
+        {
+          "de": "Oft werden Bilder manipuliert, um Emotionen zu erzeugen.",
+          "id": "Sering gambar dimanipulasi untuk memicu emosi."
+        },
+        {
+          "de": "Die Berichterstattung war in diesem Fall einseitig.",
+          "id": "Pemberitaan dalam kasus ini sepihak."
+        },
+        {
+          "de": "Experten behaupten, die Quelle sei nicht glaubwürdig.",
+          "id": "Pakar menyatakan sumbernya tidak kredibel."
+        },
+        {
+          "de": "Deshalb sollte man jede Meldung hinterfragen.",
+          "id": "Karena itu setiap berita sebaiknya dipertanyakan."
+        },
+        {
+          "de": "Guter Journalismus recherchiert, bevor er veröffentlicht.",
+          "id": "Jurnalisme yang baik menelusuri sebelum menerbitkan."
+        }
+      ]
+    },
+    {
+      "title": "Zwei Kulturen",
+      "level": "B2",
+      "tags": "seed · B2 · unit 7",
+      "sentences": [
+        {
+          "de": "Ich bin in Indonesien geboren und lebe jetzt in Deutschland.",
+          "id": "Saya lahir di Indonesia dan kini tinggal di Jerman."
+        },
+        {
+          "de": "Meine Herkunft prägt mich, aber sie bestimmt mich nicht allein.",
+          "id": "Asal-usul saya membentuk saya, tetapi tidak menentukan segalanya."
+        },
+        {
+          "de": "Identität entsteht, indem man Erfahrungen sammelt.",
+          "id": "Identitas terbentuk dengan mengumpulkan pengalaman."
+        },
+        {
+          "de": "Die Vielfalt der Kulturen empfinde ich als Bereicherung.",
+          "id": "Keberagaman budaya saya rasakan sebagai kekayaan."
+        },
+        {
+          "de": "Manchmal ist das Fremde zunächst irritierend.",
+          "id": "Kadang yang asing awalnya mengganggu."
+        },
+        {
+          "de": "Wer respektvoll miteinander umgeht, lernt am meisten.",
+          "id": "Siapa yang saling menghormati belajar paling banyak."
+        }
+      ]
+    },
+    {
+      "title": "Leben mit einer chronischen Krankheit",
+      "level": "B2",
+      "tags": "seed · B2 · unit 8",
+      "sentences": [
+        {
+          "de": "Die Diagnose kam vor drei Jahren.",
+          "id": "Diagnosisnya datang tiga tahun lalu."
+        },
+        {
+          "de": "Seitdem wird sie regelmäßig behandelt.",
+          "id": "Sejak itu dia diobati secara teratur."
+        },
+        {
+          "de": "Die Behandlung wirkt, hat aber Nebenwirkungen.",
+          "id": "Pengobatannya efektif, tetapi ada efek samping."
+        },
+        {
+          "de": "Die Ursache der Krankheit ist bis heute unklar.",
+          "id": "Penyebab penyakitnya sampai kini tidak jelas."
+        },
+        {
+          "de": "Prävention wäre früher möglich gewesen.",
+          "id": "Pencegahan sebenarnya bisa dilakukan lebih awal."
+        },
+        {
+          "de": "Gute Aufklärung hilft anderen Betroffenen.",
+          "id": "Edukasi yang baik membantu penderita lain."
+        }
+      ]
+    },
+    {
+      "title": "Ein Termin bei der Behörde",
+      "level": "B2",
+      "tags": "seed · B2 · unit 9",
+      "sentences": [
+        {
+          "de": "Für den Antrag braucht man einen Termin.",
+          "id": "Untuk permohonan itu butuh janji temu."
+        },
+        {
+          "de": "Der Antrag muss persönlich abgegeben werden.",
+          "id": "Permohonannya harus diserahkan langsung."
+        },
+        {
+          "de": "Falls Unterlagen fehlen, wird der Antrag abgelehnt.",
+          "id": "Jika dokumen kurang, permohonan ditolak."
+        },
+        {
+          "de": "Die Genehmigung wird nach der Prüfung erteilt.",
+          "id": "Izin diterbitkan setelah pemeriksaan."
+        },
+        {
+          "de": "Gegen den Bescheid kann man klagen.",
+          "id": "Terhadap keputusan itu orang bisa menggugat."
+        },
+        {
+          "de": "Zuständig ist das Amt am Hauptbahnhof.",
+          "id": "Yang berwenang adalah kantor di stasiun utama."
+        }
+      ]
+    },
+    {
+      "title": "KI und Verantwortung",
+      "level": "B2",
+      "tags": "seed · B2 · unit 10",
+      "sentences": [
+        {
+          "de": "Künstliche Intelligenz bietet viele Chancen, wirft aber auch Fragen auf.",
+          "id": "Kecerdasan buatan menawarkan banyak peluang, tetapi juga memunculkan pertanyaan."
+        },
+        {
+          "de": "Einerseits kann sie Menschen helfen, andererseits kann sie überwachen.",
+          "id": "Di satu sisi ia membantu, di sisi lain bisa mengawasi."
+        },
+        {
+          "de": "Entscheidungen müssen ethisch begründet werden.",
+          "id": "Keputusan harus dibenarkan secara etis."
+        },
+        {
+          "de": "Man hätte früher über Datenschutz diskutieren müssen.",
+          "id": "Kita seharusnya lebih awal mendiskusikan perlindungan data."
+        },
+        {
+          "de": "Die Würde des Menschen darf nicht verletzt werden.",
+          "id": "Martabat manusia tidak boleh dilanggar."
+        },
+        {
+          "de": "Nur verantwortungsvolle Regeln schaffen Vertrauen.",
+          "id": "Hanya aturan yang bertanggung jawab menciptakan kepercayaan."
+        }
+      ]
+    }
+  ]
+}

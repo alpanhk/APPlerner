@@ -1,0 +1,343 @@
+{
+  "id": "DIALOG-IM-CAFE-RPG-01",
+  "status": "final-2a-11-turns",
+  "title": "Im Café — pratinjau percakapan RPG",
+  "level": "A1",
+  "source": {
+    "file": "src/data/reading/texts_a1.json",
+    "title": "Im Café",
+    "unit": 4,
+    "sentenceCount": 6
+  },
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "fieldGuide": {
+    "key": "identifier giliran (unika, stabil)",
+    "speakerId": "id karakter; lihat assetContract.characters",
+    "de": "kalimat bahasa Jerman",
+    "id": "terjemahan bahasa Indonesia (kolom bernama 'id', bukan identifier giliran)",
+    "pose": "id pose karakter; lihat assetContract.poseBySpeaker",
+    "backgroundId": "id latar; lihat assetContract.backgrounds",
+    "propIds": "id properti yang terlihat pada giliran; lihat assetContract.props",
+    "audio": "nama berkas WAV lokal yang persis cocok, atau null untuk adaptasi",
+    "kind": "source (= kalimat narasi asli) | adaptation (= sapaan/tanggapan baru)",
+    "sourceIndex": "indeks 0..5 pada source.sentences bila kind=source"
+  },
+  "assetContract": {
+    "note": "Hanya ID dan peran aset. File gambar karakter/background/properti diproduksi terpisah oleh Agent asset di Codex; 2a tidak menggambar dan tidak memanggil agen gambar lain.",
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "label": "Pembelajar (aku)",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "label": "Teman perempuan",
+        "visible": true
+      },
+      "kellner": {
+        "kind": "character",
+        "label": "Pelayan kafe",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "label": "Suara narasi (offscreen)",
+        "visible": false
+      }
+    },
+    "poseBySpeaker": {
+      "ich": [
+        "offscreen",
+        "order",
+        "accept",
+        "ask_bill",
+        "pay"
+      ],
+      "freundin": [
+        "offscreen",
+        "order"
+      ],
+      "kellner": [
+        "greet",
+        "serve",
+        "present_bill"
+      ],
+      "narrator": [
+        "offscreen"
+      ]
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background",
+        "label": "Im Café",
+        "usedByTurns": "semua"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop",
+        "label": "Cangkir kopi"
+      },
+      "tasse_tee": {
+        "kind": "prop",
+        "label": "Cangkir teh"
+      },
+      "kuchen": {
+        "kind": "prop",
+        "label": "Potongan kue"
+      },
+      "rechnung": {
+        "kind": "prop",
+        "label": "Tagihan"
+      },
+      "euro": {
+        "kind": "prop",
+        "label": "Uang euro"
+      }
+    },
+    "audioPolicy": "audio hanya diisi bila kalimat DE persis sama (setelah normalisasi) dengan entri manifest. Giliran adaptation memakai audio=null dan audioStatus='adaptation-no-audio'; pratinjau dilarang memakai klip lama sebagai pengganti."
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Wir gehen heute ins Café.",
+      "id": "Hari ini kami pergi ke kafe.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue",
+      "note": "Dipakai sebagai ucapan pembuka narator."
+    },
+    {
+      "index": 1,
+      "de": "Ich möchte einen Kaffee, bitte.",
+      "id": "Saya ingin kopi, tolong.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue",
+      "note": "Pesanan kopi oleh 'ich'."
+    },
+    {
+      "index": 2,
+      "de": "Meine Freundin bestellt einen Tee.",
+      "id": "Teman perempuan saya memesan teh.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "stage-direction",
+      "note": "Narasi sumber menjadi arahan panggung; ucapan langsungnya ditambahkan sebagai adaptasi t05."
+    },
+    {
+      "index": 3,
+      "de": "Der Kuchen ist sehr lecker.",
+      "id": "Kuenya sangat enak.",
+      "mappedTo": [
+        "t07"
+      ],
+      "kind": "stage-direction",
+      "note": "Narasi sumber menjadi arahan panggung; tanggapan 'ich' ditambahkan sebagai adaptasi t08."
+    },
+    {
+      "index": 4,
+      "de": "Die Rechnung, bitte!",
+      "id": "Tagihannya, tolong!",
+      "mappedTo": [
+        "t09"
+      ],
+      "kind": "dialogue",
+      "note": "Permintaan tagihan oleh 'ich'."
+    },
+    {
+      "index": 5,
+      "de": "Wir zahlen zusammen zehn Euro.",
+      "id": "Kami membayar sepuluh euro bersama.",
+      "mappedTo": [
+        "t11"
+      ],
+      "kind": "dialogue",
+      "note": "Penutup: pembayaran sepuluh euro bersama."
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Wir gehen heute ins Café.",
+      "id": "Hari ini kami pergi ke kafe.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [],
+      "audio": "a1_text_092.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0
+    },
+    {
+      "key": "t02",
+      "speakerId": "kellner",
+      "de": "Guten Tag! Was möchten Sie?",
+      "id": "Selamat siang! Apa yang Anda inginkan?",
+      "pose": "greet",
+      "backgroundId": "cafe",
+      "propIds": [],
+      "audio": null,
+      "audioStatus": "adaptation-no-audio",
+      "kind": "adaptation",
+      "adaptation": true,
+      "note": "Sapaan baru; tidak memakai klip lama."
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Ich möchte einen Kaffee, bitte.",
+      "id": "Saya ingin kopi, tolong.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_example_062.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Meine Freundin bestellt einen Tee.",
+      "id": "Teman perempuan saya memesan teh.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_tee"
+      ],
+      "audio": "a1_text_068.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "stageDirection": true
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Einen Tee, bitte.",
+      "id": "Satu teh, tolong.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_tee"
+      ],
+      "audio": null,
+      "audioStatus": "adaptation-no-audio",
+      "kind": "adaptation",
+      "adaptation": true,
+      "note": "Ucapan langsung baru dari narasi sumber; tanpa audio lama."
+    },
+    {
+      "key": "t06",
+      "speakerId": "kellner",
+      "de": "Gern. Möchten Sie auch ein Stück Kuchen?",
+      "id": "Baik. Apakah Anda ingin sepotong kue?",
+      "pose": "serve",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee",
+        "tasse_tee"
+      ],
+      "audio": null,
+      "audioStatus": "adaptation-no-audio",
+      "kind": "adaptation",
+      "adaptation": true,
+      "note": "Tanggapan baru pelayan; tanpa audio lama."
+    },
+    {
+      "key": "t07",
+      "speakerId": "narrator",
+      "de": "Der Kuchen ist sehr lecker.",
+      "id": "Kuenya sangat enak.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_019.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "stageDirection": true
+    },
+    {
+      "key": "t08",
+      "speakerId": "ich",
+      "de": "Ja, bitte. Ein Stück Kuchen.",
+      "id": "Ya, tolong. Satu potong kue.",
+      "pose": "accept",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": null,
+      "audioStatus": "adaptation-no-audio",
+      "kind": "adaptation",
+      "adaptation": true,
+      "note": "Tanggapan baru; tanpa audio lama."
+    },
+    {
+      "key": "t09",
+      "speakerId": "ich",
+      "de": "Die Rechnung, bitte!",
+      "id": "Tagihannya, tolong!",
+      "pose": "ask_bill",
+      "backgroundId": "cafe",
+      "propIds": [
+        "rechnung"
+      ],
+      "audio": "a1_text_027.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4
+    },
+    {
+      "key": "t10",
+      "speakerId": "kellner",
+      "de": "Das macht zehn Euro, bitte.",
+      "id": "Totalnya sepuluh euro, tolong.",
+      "pose": "present_bill",
+      "backgroundId": "cafe",
+      "propIds": [
+        "rechnung",
+        "euro"
+      ],
+      "audio": null,
+      "audioStatus": "adaptation-no-audio",
+      "kind": "adaptation",
+      "adaptation": true,
+      "note": "Tagihan 10 Euro dinyatakan pelayan; tanpa audio lama."
+    },
+    {
+      "key": "t11",
+      "speakerId": "ich",
+      "de": "Wir zahlen zusammen zehn Euro.",
+      "id": "Kami membayar sepuluh euro bersama.",
+      "pose": "pay",
+      "backgroundId": "cafe",
+      "propIds": [
+        "euro"
+      ],
+      "audio": "a1_text_097.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5
+    }
+  ],
+  "textId": 10,
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "catalogStatus": "tested-11-turn-source"
+}

@@ -1,0 +1,4935 @@
+{
+  "id": "CONTENT-PARITY-20261117-01",
+  "captured_at": "2026-11-17T17:48:33.793162+07:00",
+  "git_head": "c45e0dd7ed3a79307452057e32f5e5602d64dc0a",
+  "policy": "Existing content is a minimum migration baseline. Preserve identity, meaning, grading and reachability. PRD acceptance still applies beyond counts. Do not regenerate this baseline to conceal omissions. Legitimate corrections require reviewed delta and predecessor mapping. User DB was not accessed. Preserve imported/user-edited/deleted content and progress through isolated upgrade tests.",
+  "prd_sha256": "1bb834e2cdefbb8f7befe55954f9fbb2c401c83708009427c2ce2665291260a7",
+  "approved_prd_hash_delta": {
+    "predecessor": "14d9335e0ea81d0df5d48c004735adc38bbe46481f46c85b5ebe7f79b10517b3",
+    "newSha256": "1bb834e2cdefbb8f7befe55954f9fbb2c401c83708009427c2ce2665291260a7",
+    "reason": "PRD v1.4 A0.8 (3c, 15:45 WIB) menambah mandat lanjut PROGRES-PRODUK-WINDOWS. Ini adalah pembaruan dokumen kebijakan, bukan regenerasi baseline konten: 81 file JSON, 2134 kata, 67 bacaan, 60 tujuan, 305 bank, dan 454 WAV tetap dipertahankan tanpa delta baru.",
+    "evidence": "outputs/penyelesaian-windows/agent-3b-audit.md:90,106; outputs/koordinasi-opencode/baseline-snapshot.json (16:31 WIB); verifikasi ganda hash PRD via node:crypto dan certutil 16:36 WIB.",
+    "approvedBy": "Asisten Director OpenCode baru ses_e0ce392a1ffe28oRp8gUp730dI (delegasi Director Codex), mandat REGRESI-GAP-01 16:36 WIB; pemilik PRD: Agent 3c",
+    "recordedAt": "2026-11-19T16:36:00+07:00",
+    "recordedBy": "Agent 1a (ses_e126149e2ffeThLao2IOCW1492)"
+  },
+  "summary": {
+    "json_files": 81,
+    "units_by_level": {
+      "A1": 12,
+      "A2": 10,
+      "B1": 10,
+      "B2": 10
+    },
+    "lessons_by_level": {
+      "A1": 36,
+      "A2": 20,
+      "B1": 20,
+      "B2": 20
+    },
+    "seed_word_rows": 2134,
+    "seed_unique_de": 2134,
+    "seed_text_rows": 67,
+    "a1_objectives": 60,
+    "a1_bank_items": 300,
+    "listening_dialogues": 5,
+    "listening_questions": 10,
+    "writing_tasks": 5,
+    "conversation_scenarios": 4,
+    "conversation_nodes": 30,
+    "conversation_options": 39,
+    "exam_sections": 4,
+    "root_audio_files": 454,
+    "root_audio_bytes": 36723464,
+    "phrase_refs": 453,
+    "number_aliases": 200
+  },
+  "files": {
+    "src/data/drills/d10_items.json": {
+      "bytes": 3402,
+      "sha256": "e49b0fb862b470f74d0c6294c4c097d11be4c8b464f11df522e7f62cf4af6624"
+    },
+    "src/data/drills/d4_items.json": {
+      "bytes": 2077,
+      "sha256": "5c76b2f180ec822f98b06b5c0484b217f4303cb1a1f9c338b75b8d68337d57d8"
+    },
+    "src/data/drills/d5_items.json": {
+      "bytes": 3130,
+      "sha256": "47f277f1af166efea1d03db35794efed91f222d8b1f72eb5af6cdc9d05a0c965"
+    },
+    "src/data/drills/d6_items.json": {
+      "bytes": 4589,
+      "sha256": "6b407ae1f8757a161c09f97ea8eedec74f208c907d23335b6336963636047185"
+    },
+    "src/data/drills/d7_items.json": {
+      "bytes": 3330,
+      "sha256": "a033155f71d75e9f697751450c453c31739f4b100e59576ef5ba3de557334a06"
+    },
+    "src/data/drills/d8_items.json": {
+      "bytes": 2972,
+      "sha256": "dc3cce56e7b6ac61c4cfc85769db47479b876b9a6ab129e34013734ac05160d3"
+    },
+    "src/data/drills/d9_items.json": {
+      "bytes": 5588,
+      "sha256": "f42aaaa1fc188a7f8db85eec1ff6fa2e568c3e53667ab23cbed38167eb907e45"
+    },
+    "src/data/lessons/a1_lesson_practice.json": {
+      "bytes": 20672,
+      "sha256": "6a77752481c478791b363a2e2ce118984a934448cdc58545d90426e3296c3714"
+    },
+    "src/data/lessons/a1_objectives.json": {
+      "bytes": 42634,
+      "sha256": "7784d38e43431a1e65276a3bd5fe8075b74bc13bafd5be057498b4f04324a1f3"
+    },
+    "src/data/lessons/a1_unit10_bank.json": {
+      "bytes": 14387,
+      "sha256": "19f1045a16e15b8b1cb69fe4a3ad1262909b425efabc60fb1c70e4b11779c7be"
+    },
+    "src/data/lessons/a1_unit11_bank.json": {
+      "bytes": 14728,
+      "sha256": "ebd1f6494ce85193eb1ebc76de92cac52308ce5f9bd2f5f17c85284d5d2f6d00"
+    },
+    "src/data/lessons/a1_unit12_bank.json": {
+      "bytes": 13970,
+      "sha256": "f5c574a8541c3cb216d790e5fae69db9858a7b8d6a53ac51fb8bf793bfd0c0c1"
+    },
+    "src/data/lessons/a1_unit1_bank.json": {
+      "bytes": 15138,
+      "sha256": "7fed97a1087b38cf2578be21540ee37f8445b9a66b7a99b51e88f84787050cc4"
+    },
+    "src/data/lessons/a1_unit2_bank.json": {
+      "bytes": 14764,
+      "sha256": "2ef0b7eed27766a8a13d9e6ac3df13bf486805317b574fa2a1d0fecf49b7c165"
+    },
+    "src/data/lessons/a1_unit3_bank.json": {
+      "bytes": 15397,
+      "sha256": "2d34bf4ec7aababe3c11053687a4958cc2e23259fdefa0020d20d2f53fd2ba00"
+    },
+    "src/data/lessons/a1_unit4_bank.json": {
+      "bytes": 14609,
+      "sha256": "03503d1aef06ea81215acceec3381968adb2b988bde53c0046396573dddf9bbb"
+    },
+    "src/data/lessons/a1_unit5_bank.json": {
+      "bytes": 14943,
+      "sha256": "0045469d30232cf7e23b0ab0d51dfe58fc3758cf79b9f95438a832e6612053c8"
+    },
+    "src/data/lessons/a1_unit6_bank.json": {
+      "bytes": 14619,
+      "sha256": "8c48e815ff9d393b1e8e80ba6df5c65bf4bf8341e3d35cefdc86916852a7be60"
+    },
+    "src/data/lessons/a1_unit7_bank.json": {
+      "bytes": 14504,
+      "sha256": "049b4b4fcd0760a8ca7920d0bdf4293fb17418021ff5972f9a3784da10ab72ec"
+    },
+    "src/data/lessons/a1_unit8_bank.json": {
+      "bytes": 14701,
+      "sha256": "566733f550474c5b73d1b158d6f44ac7991a261fc27c5f345c3080f47d976915"
+    },
+    "src/data/lessons/a1_unit9_bank.json": {
+      "bytes": 14453,
+      "sha256": "46441ace116a696bd154c1073931317550c4e794ad8d5ae2d1a3859c06c1b35e"
+    },
+    "src/data/lessons/units_a1.json": {
+      "bytes": 78190,
+      "sha256": "8a66d1f90ddb260838b52e34ea9e006876685dd32fb76d1d5e2dcbc15fce85e5"
+    },
+    "src/data/lessons/units_a2.json": {
+      "bytes": 41077,
+      "sha256": "26d003af3734d500f1e41ae149dba3f47e47c377be1f34b4faa7de7c485f155b"
+    },
+    "src/data/lessons/units_b1.json": {
+      "bytes": 41524,
+      "sha256": "2b89de2666e10492ffa9ad8f2bcc53ca59cbc0ad9c7f61f14bb8380fb9952d96"
+    },
+    "src/data/lessons/units_b2.json": {
+      "bytes": 41806,
+      "sha256": "6ac26ae475d51ece6f45b4f054df2b42f1183e2bc0fd877d29f868fd247f3681"
+    },
+    "src/data/practice/a1_conversation.json": {
+      "bytes": 15342,
+      "sha256": "7a5eef936e70d88c1de6aba02278deb79d8d5e71c39e8b803ded4bf09c930d1a"
+    },
+    "src/data/practice/a1_listening.json": {
+      "bytes": 5337,
+      "sha256": "d99d377e42024fcd9845005c8403acc9fabc60b7beaa99d0a33bb10c997e67ce"
+    },
+    "src/data/practice/a1_mock_exam.json": {
+      "bytes": 4404,
+      "sha256": "320ffb9482ffdb060f42430f80c69640d459b8b86c6384372f206e5283e9aa02"
+    },
+    "src/data/practice/a1_writing.json": {
+      "bytes": 3473,
+      "sha256": "0ced2b6295f9ea43262f2bfc67c2c4bf1866dbf3540765e243513e3b92955d43"
+    },
+    "src/data/reading/texts_a1.json": {
+      "bytes": 10178,
+      "sha256": "270d609650c19dd749d9d3386b66cdefb5afb514170dc629eebe9d667f0afb85"
+    },
+    "src/data/reading/texts_a1a2_extra.json": {
+      "bytes": 12623,
+      "sha256": "eaf3ca5e8c4b200b270540053c1ae4548267de22a00594f3063811ea56c68fd2"
+    },
+    "src/data/reading/texts_a2.json": {
+      "bytes": 10557,
+      "sha256": "5331f36b28ab7851be315e6d3b214683e7606f588cb5fc193f7090a683f62f03"
+    },
+    "src/data/reading/texts_b1.json": {
+      "bytes": 11329,
+      "sha256": "99d6796d81477a428f0cf7206e4955f6b529291b20b9446ad941ae55c9fb2f2a"
+    },
+    "src/data/reading/texts_b2.json": {
+      "bytes": 11561,
+      "sha256": "0bed887fc1726de4bb3b8715a708d08f25a9f8f731e61bba29fe9d7263f22d2f"
+    },
+    "src/data/reading/texts_extra.json": {
+      "bytes": 9028,
+      "sha256": "1888d5a72e5e4083ec1ae2a1c0da82f7ede5412cc5ce599cb691a927b91df4aa"
+    },
+    "src/data/seed/seed_v11_manifest.json": {
+      "bytes": 33964,
+      "sha256": "e598cb002265c83d7a5d86d0b7fcd7070ea1260da3b59078d0056d26c83d860f"
+    },
+    "src/data/seed/words_a1_unit05.json": {
+      "bytes": 4433,
+      "sha256": "7cea9eec64a298cd3d186848ef20417d0f6a1a785d85999848fb309f69dbb592"
+    },
+    "src/data/seed/words_a1_unit06.json": {
+      "bytes": 4429,
+      "sha256": "e132e545205cf08b476ebd8118d3fb48b6cc249076979fc57a2d75f3b174e2ea"
+    },
+    "src/data/seed/words_a1_unit07.json": {
+      "bytes": 4593,
+      "sha256": "7286918b9bbd1cf9593d5331e8cb1b0bd29a196a29c3021b2f1b628efa0c25c2"
+    },
+    "src/data/seed/words_a1_unit08.json": {
+      "bytes": 4673,
+      "sha256": "9eb98701f5bdfdaef0cf9a9dea466a0dcca9012f0c54ddae0a5c7daabba3a132"
+    },
+    "src/data/seed/words_a1_unit09.json": {
+      "bytes": 4630,
+      "sha256": "8b2be5c6acefd757eb42c4193a993b14fd40b4b52afc47f89bae22ac9485a24f"
+    },
+    "src/data/seed/words_a1_unit10.json": {
+      "bytes": 4560,
+      "sha256": "c5a25fb4c7aa5305ef39658eb090dfb74198cfaab21c0c2bcdb2c85b23ebafcc"
+    },
+    "src/data/seed/words_a1_unit11.json": {
+      "bytes": 4747,
+      "sha256": "7fbd2445eab9980a5e36f9e5385540982889e2e3744cbccfbe5ba46a30da86d4"
+    },
+    "src/data/seed/words_a1_unit12.json": {
+      "bytes": 4530,
+      "sha256": "d367d052c25909ddaaab58c02a69b5e9385f7e8957e1ed438fd124d164e8eb33"
+    },
+    "src/data/seed/words_a2_extras.json": {
+      "bytes": 110308,
+      "sha256": "1c3e77ed8007c12c461991974dd69ac3aee7a337f57eacebee093f3ded6f1de9"
+    },
+    "src/data/seed/words_a2_unit01.json": {
+      "bytes": 7444,
+      "sha256": "457ebf53cc71220f16d00e1d2d7f7dd208b440452a47be3e6798c460f8a9d2f0"
+    },
+    "src/data/seed/words_a2_unit02.json": {
+      "bytes": 7795,
+      "sha256": "4046c34f2f815726a00af0f185c79651af2bfeba956b6c86fae2f09085fd0add"
+    },
+    "src/data/seed/words_a2_unit03.json": {
+      "bytes": 7695,
+      "sha256": "22bf7db21f66da5394b956b053d234d6bdb6cbd726736cc310bd1a7447c362fc"
+    },
+    "src/data/seed/words_a2_unit04.json": {
+      "bytes": 7582,
+      "sha256": "0dfb4c305629db5a41f46f574c3ac8032cf37c56c15827ebafb51b1b03d544e8"
+    },
+    "src/data/seed/words_a2_unit05.json": {
+      "bytes": 7579,
+      "sha256": "1d4c79b0fa354a7e30273aa1447a6d8cdc21e5d70eefa11069a88a3b7f57647b"
+    },
+    "src/data/seed/words_a2_unit06.json": {
+      "bytes": 7669,
+      "sha256": "e9c8c421a46b839be97af1ec602e0078bf1a7fdbda7229b7e11a6932b715ea31"
+    },
+    "src/data/seed/words_a2_unit07.json": {
+      "bytes": 7604,
+      "sha256": "a5fd43e1672e0d537269dd2dff3b16558bd215ed804aa9f1ab4811578078c62b"
+    },
+    "src/data/seed/words_a2_unit08.json": {
+      "bytes": 7522,
+      "sha256": "78d48a44d7f1e7a0d086e46155e5299028bffa877bccc57219bb325b8b1a96b6"
+    },
+    "src/data/seed/words_a2_unit09.json": {
+      "bytes": 7561,
+      "sha256": "1f780398e7c58faa9ac5cb244d92dc7d0b4c9838532c99247c2cf7a67c28beb1"
+    },
+    "src/data/seed/words_a2_unit10.json": {
+      "bytes": 7697,
+      "sha256": "990f91e2ec1091e38105fe73171523774ff1cb8ac2534ad72c7d951ee78ebc10"
+    },
+    "src/data/seed/words_b1_extras.json": {
+      "bytes": 101671,
+      "sha256": "9959129267fcaf93113000b1a31cbc27b26988bef50dc5d9e5844e3be1f2be8a"
+    },
+    "src/data/seed/words_b1_unit01.json": {
+      "bytes": 6882,
+      "sha256": "fa282c8beb2dc64dddf03ad67b9aeb0dc66de92a17b5d365ce5ae85e3227c725"
+    },
+    "src/data/seed/words_b1_unit02.json": {
+      "bytes": 6861,
+      "sha256": "f7847e727ad3ab87a8216dab2a98f082128d3aa8d19b66852b11fb7acdd2901b"
+    },
+    "src/data/seed/words_b1_unit03.json": {
+      "bytes": 6801,
+      "sha256": "9fd2f7325bfb925f7ec4353b0729ace8783f97ebbcaede74f7867c85f6d3d139"
+    },
+    "src/data/seed/words_b1_unit04.json": {
+      "bytes": 6562,
+      "sha256": "13e1e5b45bc7a7b7d25a54fb51d08cce6216e132588b2fe7414a71e528d3ac96"
+    },
+    "src/data/seed/words_b1_unit05.json": {
+      "bytes": 6779,
+      "sha256": "361b18cdc649ada57320ec377f7b47d2f3bdc388a7bb37a74eac336338bb4d0c"
+    },
+    "src/data/seed/words_b1_unit06.json": {
+      "bytes": 6702,
+      "sha256": "77fa587995fc8cf5e497bf1d4530cd96bcd8af7da640bb3c0d9b79090fca63c6"
+    },
+    "src/data/seed/words_b1_unit07.json": {
+      "bytes": 6930,
+      "sha256": "cf2ac69b7b550a5bc480b7c8bd21f0bf295dc7c30e8a80327956763f50d190f5"
+    },
+    "src/data/seed/words_b1_unit08.json": {
+      "bytes": 6650,
+      "sha256": "61d2f62fd8cd1d591a4f8555e404660275d5f3bd6c66ad2e9fb05e69cbf68089"
+    },
+    "src/data/seed/words_b1_unit09.json": {
+      "bytes": 6663,
+      "sha256": "d59942211d60b7f31273b234e606ec351dfa7e365e5ab696b1fdd07f4e281da8"
+    },
+    "src/data/seed/words_b1_unit10.json": {
+      "bytes": 6595,
+      "sha256": "7edb91c4eaf84e674757f07bd30c881a59ba0780dd46596b860769551dcbc453"
+    },
+    "src/data/seed/words_b2_extras.json": {
+      "bytes": 80810,
+      "sha256": "3267346728cadc11bd6e1945f64bca03444b6376cdb67883182e6e94296cd7e0"
+    },
+    "src/data/seed/words_b2_unit01.json": {
+      "bytes": 7125,
+      "sha256": "70b77b9f0b3a73a5dad74ff86cc7dcf48055fb2bc31e87150a3bc80bac106769"
+    },
+    "src/data/seed/words_b2_unit02.json": {
+      "bytes": 6631,
+      "sha256": "95fea69c87f586e03b310f3ad16656159d257682e9dfa906c31eaf1870933039"
+    },
+    "src/data/seed/words_b2_unit03.json": {
+      "bytes": 6821,
+      "sha256": "a24af18f3872bf13790eb5710f1185cf46ced8aba780c504c6bc3e2736c8f845"
+    },
+    "src/data/seed/words_b2_unit04.json": {
+      "bytes": 6571,
+      "sha256": "d2e583ab64d590e16d3774021910a95229a84415f48f609c290c7796f46dbf92"
+    },
+    "src/data/seed/words_b2_unit05.json": {
+      "bytes": 6791,
+      "sha256": "10d9b8e70e90905e66b1aa241a9f1840c1774b2a21eddbf7a854ce7a53de4ab8"
+    },
+    "src/data/seed/words_b2_unit06.json": {
+      "bytes": 6926,
+      "sha256": "99e6527dd0b3317050647172ed3f311ac69364b154425792a6e5a36b25e27be4"
+    },
+    "src/data/seed/words_b2_unit07.json": {
+      "bytes": 6745,
+      "sha256": "4e682d97f18adabb982b7f192311edd9c700d442a864cb25a8f2cb051ed6cddc"
+    },
+    "src/data/seed/words_b2_unit08.json": {
+      "bytes": 6695,
+      "sha256": "6f6ceda83711f897485e26009d7d80cd542c1ae0a6ae421120363ea9e3b5a5fd"
+    },
+    "src/data/seed/words_b2_unit09.json": {
+      "bytes": 6677,
+      "sha256": "02124afad6d60bcc0d021cbe6c1561f02703c514784d236865861f4093c39363"
+    },
+    "src/data/seed/words_b2_unit10.json": {
+      "bytes": 6922,
+      "sha256": "aaa82df49e18a612646f61e591d6131e176ab72687cf3961e5989557fe35971c"
+    },
+    "src/data/seed/words_unit1.json": {
+      "bytes": 3853,
+      "sha256": "a6d0f96be5d21363e2ca4a0570983b71cce275b470788a0f5269609b4d2cab2f"
+    },
+    "src/data/seed/words_unit2.json": {
+      "bytes": 8119,
+      "sha256": "4305cf19d9683dd0b3098ffb35caa33297d6dc371a02dc98ddb9b904b5e689d8"
+    },
+    "src/data/seed/words_unit3.json": {
+      "bytes": 7222,
+      "sha256": "b7c637ffc7ac9cb0d47d05954cc662fbd3b31254083b9968643b2fe1e61b09a3"
+    },
+    "src/data/seed/words_unit4.json": {
+      "bytes": 9272,
+      "sha256": "3bb5a2d121e69c8ef1ce257c046b13e3e3125b1fd8e6a349781a7b6fe822269e"
+    }
+  },
+  "levels": {
+    "A1": {
+      "units": [
+        {
+          "unit": 1,
+          "title": "Salam & perkenalan diri",
+          "goals": [
+            "Menyapa sesuai waktu hari",
+            "Memperkenalkan nama, asal, dan tempat tinggal",
+            "Menyebut teman, umur, dan bentuk plural"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Hallo! Ich heiße …",
+              "slides": 5,
+              "sha256": "b1d4d5f23b27abd3f27b9e70724f9d357fee8a5040385fba724466412ae9c38c"
+            },
+            {
+              "no": 2,
+              "title": "Woher kommen Sie?",
+              "slides": 5,
+              "sha256": "886f06c98549607824cd559f80eb3005234b1d2eced36aa59cabf985e919d0e6"
+            },
+            {
+              "no": 3,
+              "title": "Freunde & Alter",
+              "slides": 4,
+              "sha256": "fcc491dcc743e512680aa1551e4b26f3a6a3462c4b4e8c5cd61456d6cd054295"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "title": "Angka, waktu, harga",
+          "goals": [
+            "Menyebut angka, harga, dan jam",
+            "Memakai nama hari dan waktu (heute, morgen, gestern)",
+            "Bertanya dan menjawab harga dengan um/am/im"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Zahlen & Preise",
+              "slides": 4,
+              "sha256": "c6a582245012d5208ac20142ef2d658d3f40948611fd447bf68c82232d1badd9"
+            },
+            {
+              "no": 2,
+              "title": "Uhrzeit & Wochentage",
+              "slides": 4,
+              "sha256": "513a8bda40f7adf78c38c860f14f572e95760848736ebe47bcfcfd155bb51847"
+            },
+            {
+              "no": 3,
+              "title": "Zeitausdrücke: um, am, im",
+              "slides": 4,
+              "sha256": "266a6dfcbef9cb6540e82c18c3640736de9063721bf444953439b520804033d7"
+            }
+          ]
+        },
+        {
+          "unit": 3,
+          "title": "Keluarga & hubungan",
+          "goals": [
+            "Menyebut anggota keluarga dengan artikel yang benar",
+            "Menceritakan status dan jumlah saudara",
+            "Memakai mein/meine dan kalimat dengan objek Akkusativ"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Meine Familie",
+              "slides": 4,
+              "sha256": "ea0a14463244f89c139c43e9d3d7b084ce05ff853135b02fac8381fa158ebc91"
+            },
+            {
+              "no": 2,
+              "title": "Eltern, Geschwister & Status",
+              "slides": 4,
+              "sha256": "643a4051c384205b2f9f74ffd38e667b983b8d3d69e5c6bdf230be9af71ef9c5"
+            },
+            {
+              "no": 3,
+              "title": "Possessiv & besuchen",
+              "slides": 4,
+              "sha256": "e3b2ef755fde45998ad1213e1f5817630f99eba1151eb0b0db0472876e2f1629"
+            }
+          ]
+        },
+        {
+          "unit": 4,
+          "title": "Makanan & minuman",
+          "goals": [
+            "Menyebut makanan dan minuman dengan artikel yang benar",
+            "Memesan di restoran dengan möchte + Akkusativ",
+            "Menceritakan waktu makan dan kebiasaan makan"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Essen & Trinken",
+              "slides": 4,
+              "sha256": "583355825a430676c306608f18a453b58330e0a21b48e9b9db5d8b7d9ca515cc"
+            },
+            {
+              "no": 2,
+              "title": "Im Restaurant bestellen",
+              "slides": 4,
+              "sha256": "bda23ae9e6349a36f1bc6156b036929fb1c7f27ed7023e3f803dc200cf700244"
+            },
+            {
+              "no": 3,
+              "title": "Mahlzeiten & Verben",
+              "slides": 4,
+              "sha256": "f26994c994e273a949d83d956808f5970022ff3a23874b321d7bd7686e2bb477"
+            }
+          ]
+        },
+        {
+          "unit": 5,
+          "title": "Belanja & harga",
+          "goals": [
+            "Menyebut pakaian, warna, dan ukuran",
+            "Menanyakan harga serta membayar",
+            "Meminta barang dan menukar barang dengan sopan"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Farben und Größen",
+              "slides": 3,
+              "sha256": "6857caff6da6a4400c92cc886b62bcdb903f35a63257d0dc8df15548f236d4e4"
+            },
+            {
+              "no": 2,
+              "title": "Im Geschäft",
+              "slides": 3,
+              "sha256": "efadb0afbdd92d100856b80e85e6a11deb6b115ac0e0e4443ad78a128445fecd"
+            },
+            {
+              "no": 3,
+              "title": "Bezahlen und umtauschen",
+              "slides": 3,
+              "sha256": "2c8338e779f23fd880851e4c6498fdf6863d289251acc3de656ea5f336eba273"
+            }
+          ]
+        },
+        {
+          "unit": 6,
+          "title": "Rumah & tempat tinggal",
+          "goals": [
+            "Menyebut bagian rumah dan perabot",
+            "Menjelaskan letak benda di rumah",
+            "Membicarakan pekerjaan rumah sederhana"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Zimmer und Möbel",
+              "slides": 3,
+              "sha256": "a146d9185ab75569b071dc3d15178ca3943386286086a7fa06ac7ecc46cd2bfa"
+            },
+            {
+              "no": 2,
+              "title": "Wo steht was?",
+              "slides": 3,
+              "sha256": "9d7784a7dde55f4636f13dc011cb0ed0d83335a9992b723a1194f2c0595e3851"
+            },
+            {
+              "no": 3,
+              "title": "Arbeit im Haushalt",
+              "slides": 3,
+              "sha256": "ba1aae9c8ecb0ac37f841b1687860769d986f11c42a41567c22d3d5f31562f89"
+            }
+          ]
+        },
+        {
+          "unit": 7,
+          "title": "Kota & petunjuk arah",
+          "goals": [
+            "Mengenali tempat umum di kota",
+            "Meminta dan memberi petunjuk arah",
+            "Menyebut cara pergi ke suatu tempat"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Orte in der Stadt",
+              "slides": 3,
+              "sha256": "80cdb375be464b0f7165b320273ee881d4433990bc931ce00a30b352a66f49c0"
+            },
+            {
+              "no": 2,
+              "title": "Nach dem Weg fragen",
+              "slides": 3,
+              "sha256": "c52ef752bcd9b0fe10c095b4162fe26cae6eaec9f22036139412de64c862f202"
+            },
+            {
+              "no": 3,
+              "title": "Mit Bus und Bahn",
+              "slides": 3,
+              "sha256": "9a0316b98d76bb94e70ebefcbcd67f5ffb7b9e671e06c11bd0160f4dd3a9db6f"
+            }
+          ]
+        },
+        {
+          "unit": 8,
+          "title": "Pekerjaan & kegiatan harian",
+          "goals": [
+            "Menceritakan rutinitas kerja",
+            "Menyebut jadwal kerja dan waktu istirahat",
+            "Membicarakan tugas serta kemampuan di tempat kerja"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Ein Arbeitstag",
+              "slides": 3,
+              "sha256": "76002e076eca2433734e1ff6e62965447aceec3a7ff03fb45b4d158132e6c86c"
+            },
+            {
+              "no": 2,
+              "title": "Aufgaben und Kollegen",
+              "slides": 3,
+              "sha256": "ef43a8f7f1b5092692a52c7a4cbda84e87380335878042eb8bafddb8fd880720"
+            },
+            {
+              "no": 3,
+              "title": "Arbeitszeit und Pflichten",
+              "slides": 3,
+              "sha256": "545f9b458aabf4a8ac5dd0bf387c8d57bdefa1a9d025c226c7aec2b9ad62f497"
+            }
+          ]
+        },
+        {
+          "unit": 9,
+          "title": "Kesehatan & tubuh",
+          "goals": [
+            "Menyebut keluhan kesehatan umum",
+            "Membuat janji dan menjelaskan gejala",
+            "Memahami saran sederhana dari dokter"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Körper und Beschwerden",
+              "slides": 3,
+              "sha256": "ac9465d3363b00b56e40bd1ffbc83e21e4324c3bf89b4cf0efa995abf7074e3a"
+            },
+            {
+              "no": 2,
+              "title": "Beim Arzt",
+              "slides": 3,
+              "sha256": "67d8139c13627e326556c31af0fd4337c9f64acfce8fbd5d756d1447dfeff0a8"
+            },
+            {
+              "no": 3,
+              "title": "In der Apotheke",
+              "slides": 3,
+              "sha256": "ed249af20fb4491a6bd0900c6af288d2533025e3a3f3b19008add4c1bbe5d668"
+            }
+          ]
+        },
+        {
+          "unit": 10,
+          "title": "Waktu luang & hobi",
+          "goals": [
+            "Menyebut hobi dan kegiatan waktu luang",
+            "Menyatakan kesukaan dan kemampuan",
+            "Mengajak teman melakukan kegiatan bersama"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Hobbys und Vorlieben",
+              "slides": 3,
+              "sha256": "a20843917a51aac1f795c0556936b7af7c71df2397ca0e94e629dc153ef79a43"
+            },
+            {
+              "no": 2,
+              "title": "Freizeit planen",
+              "slides": 3,
+              "sha256": "e5a5b9f726ec8066aa65319b8f64edd90d16bccc4a1ba257069cdca60072e45c"
+            },
+            {
+              "no": 3,
+              "title": "Im Verein",
+              "slides": 3,
+              "sha256": "7926ca1946c7330d6b1fbd2c07ea776369ef6ee4252f93ad99ed8c129a9b57bb"
+            }
+          ]
+        },
+        {
+          "unit": 11,
+          "title": "Transportasi & perjalanan",
+          "goals": [
+            "Merencanakan perjalanan dengan kereta",
+            "Memahami jadwal, peron, dan keterlambatan",
+            "Memesan tempat dan meminta informasi perjalanan"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Eine Reise planen",
+              "slides": 3,
+              "sha256": "7079aed5080237e39dad0f5b1edb1aeafe468eab2eb43a29fa386d3a97c6a028"
+            },
+            {
+              "no": 2,
+              "title": "Am Bahnhof",
+              "slides": 3,
+              "sha256": "656ce91b818b56044051a01c05083778ec2a877b8d138e73bd6ddab876b334ef"
+            },
+            {
+              "no": 3,
+              "title": "Informationen und Reservierung",
+              "slides": 3,
+              "sha256": "7860e8b6652e5ba1af28e60e96739ef3a9cc0e665a2234497b9593b37bf0a79d"
+            }
+          ]
+        },
+        {
+          "unit": 12,
+          "title": "Komunikasi & janji",
+          "goals": [
+            "Mengundang dan membuat janji",
+            "Menelepon serta meninggalkan pesan singkat",
+            "Menulis pesan sederhana dan memberi jawaban"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Einladen und verabreden",
+              "slides": 3,
+              "sha256": "a7e0b40431b629b189a6426cc43653d204f85085944014b8c21f3db764d92f74"
+            },
+            {
+              "no": 2,
+              "title": "Am Telefon",
+              "slides": 3,
+              "sha256": "67d05eab907552e6040699dbc0d52f442677499ce636c9a922746b26d9c09b9d"
+            },
+            {
+              "no": 3,
+              "title": "Eine Nachricht schreiben",
+              "slides": 3,
+              "sha256": "0544027c9e8e9a92cec0be2c98db7990aa023bb656dafd3dc43ffce016eed771"
+            }
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "units": [
+        {
+          "unit": 101,
+          "title": "Wohnen & Miete",
+          "goals": [
+            "Mendeskripsikan rumah dan apartemen",
+            "Berbicara soal sewa, pemilik, dan biaya tambahan",
+            "Memakai Perfekt dan preposisi tempat"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Perfekt dengan haben",
+              "slides": 3,
+              "sha256": "82ec9600ee9511a58e8185ff1ca1379eea0affb6796a0c1d4b23133c61573ff2"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Wohnen & Miete",
+              "slides": 4,
+              "sha256": "e841fb3b19db9ef48e97bd4cb4e9640df52097c338164a1322c2078d6a2aa968"
+            }
+          ]
+        },
+        {
+          "unit": 102,
+          "title": "Arbeit & Beruf",
+          "goals": [
+            "Berbicara tentang pekerjaan dan lamaran",
+            "Menuliskan pengalaman dan kualifikasi",
+            "Memakai modalverben bentuk lampau"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Modalverben im Präteritum",
+              "slides": 3,
+              "sha256": "72351bbf274d6b05166ba40d06854b0d96e6351fc1b7b62aea6d68dc257b8ca0"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Arbeit & Beruf",
+              "slides": 4,
+              "sha256": "620e881011e8db95b0817cf461e4557c807d55573c9525f4f9931625fcd7b466"
+            }
+          ]
+        },
+        {
+          "unit": 103,
+          "title": "Einkaufen & Konsum",
+          "goals": [
+            "Berbelanja dan menanyakan harga/diskon",
+            "Mengembalikan barang dan meminta struk",
+            "Memakai bentuk lampau haben/sein"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Präteritum haben & sein",
+              "slides": 3,
+              "sha256": "9053b042e9ab922933fb93b8f450f6fdf35b518b35d413a9155ac1cc4e3a973f"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Einkaufen & Konsum",
+              "slides": 4,
+              "sha256": "4092930b3a6aa3cd527df0ad7e2fcbe69a9abc634d9b56bf44dfb590948d0e79"
+            }
+          ]
+        },
+        {
+          "unit": 104,
+          "title": "Gesundheit & Arzt",
+          "goals": [
+            "Menceritakan keluhan kesehatan",
+            "Membuat janji dengan dokter",
+            "Memakai modalverben sollen/dürfen dan imperatif"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "sollen & dürfen",
+              "slides": 3,
+              "sha256": "834374e113cb8020732c05dd39e780135bbef9dc83d0d2e873f7083a3e29ed3e"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Gesundheit & Arzt",
+              "slides": 4,
+              "sha256": "e05de56da86d608617ca73ef90db1416d3e5daa2ac0766c497c80901d1389bf8"
+            }
+          ]
+        },
+        {
+          "unit": 105,
+          "title": "Reisen & Urlaub",
+          "goals": [
+            "Merencanakan perjalanan dan pemesanan",
+            "Berbicara tentang hotel, penerbangan, dan tujuan",
+            "Memakai Perfekt dengan sein"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Perfekt dengan sein",
+              "slides": 3,
+              "sha256": "e71fb625702dba3ae9c6738464fb5d8ab46484ce267b6b339d72eb889ed87938"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Reisen & Urlaub",
+              "slides": 4,
+              "sha256": "e0ad851779171518ead6287bcab30ae66b5e07b26ee5ea70070657f27cf430a0"
+            }
+          ]
+        },
+        {
+          "unit": 106,
+          "title": "Verkehr & Orientierung",
+          "goals": [
+            "Menggunakan transportasi umum",
+            "Menanyakan dan memberi arah",
+            "Memakai imperatif dan verba terpisah"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Imperativ: Sie & du",
+              "slides": 3,
+              "sha256": "c0664e86dd6671f78f175ce7ca2540da23531d31923dcf0d549ec6cb6569fdfe"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Verkehr & Orientierung",
+              "slides": 4,
+              "sha256": "04c93148e07e182f6956235cda9011ec4ff536d6636e9a65ef387650941932d3"
+            }
+          ]
+        },
+        {
+          "unit": 107,
+          "title": "Freizeit & Hobbys",
+          "goals": [
+            "Menceritakan hobi dan waktu luang",
+            "Menyatakan kesukaan (gern/lieber)",
+            "Berbicara tentang rencana dengan werden"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "gern, lieber, am liebsten",
+              "slides": 3,
+              "sha256": "29ef1903fe707bb644dc628b28c71fe5461bb3753d22ae59a5f280e369cac2e2"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Freizeit & Hobbys",
+              "slides": 4,
+              "sha256": "2522568fba2b58eb2a222df084791cafed8a9111fe8035de6957c0c754fe8031"
+            }
+          ]
+        },
+        {
+          "unit": 108,
+          "title": "Medien & Kommunikation",
+          "goals": [
+            "Berbicara tentang media dan teknologi",
+            "Menjelaskan masalah komunikasi",
+            "Memakai nebensatz dass dan bentuk lampau"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Nebensatz mit dass",
+              "slides": 3,
+              "sha256": "04fe21cdacd0369bced798c2e646b4b428ea2478ea6a4df0a87dfc3e09ddea22"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Medien & Kommunikation",
+              "slides": 4,
+              "sha256": "42997a8588bdf8ba6081edfe89fd6d4a21098f5300bc8b24933b36f5477149fc"
+            }
+          ]
+        },
+        {
+          "unit": 109,
+          "title": "Feste & Traditionen",
+          "goals": [
+            "Berbicara tentang pesta dan tradisi",
+            "Mengundang dan memberi selamat",
+            "Memakai wenn/als untuk waktu"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Temporale Nebensätze: wenn & als",
+              "slides": 3,
+              "sha256": "8b0318af576a102803617ca38f84b18f867873b80ece4392bee070e12fd4e525"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Feste & Traditionen",
+              "slides": 4,
+              "sha256": "f3b73b3123d54f77bf3abd8356bc5ce8a804fb7e3937dc87d860e70cd2fd46d9"
+            }
+          ]
+        },
+        {
+          "unit": 110,
+          "title": "Umwelt & Alltag",
+          "goals": [
+            "Berbicara tentang lingkungan sehari-hari",
+            "Menjelaskan kebiasaan memilah sampah",
+            "Memakai kalimat pasif dan man"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv Präsens",
+              "slides": 3,
+              "sha256": "ccbe923b105aa934765d07d00025c4acdf87866e21b2a4e79e3838f3a007d6ed"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Umwelt & Alltag",
+              "slides": 4,
+              "sha256": "5c62c322fb2555e01cec361c630568aa96e61285876a916070c59972febf8ab3"
+            }
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "units": [
+        {
+          "unit": 201,
+          "title": "Wohnen & Nachbarschaft",
+          "goals": [
+            "Mengurus kontrak sewa dan deposit",
+            "Berbicara tentang tetangga dan lingkungan rumah",
+            "Memakai kalimat relatif dan pasif"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Relativsätze",
+              "slides": 3,
+              "sha256": "028c1c7b2111ca2c7f15e061c410a1dbef7ad507e7d979062bfb4830e10b9199"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Wohnen & Nachbarschaft",
+              "slides": 4,
+              "sha256": "df600fadb587d7624fc8d11433eaff7ccf4c6e095ca87dc2f48b7bf90a9410c7"
+            }
+          ]
+        },
+        {
+          "unit": 202,
+          "title": "Gesundheit & Lebensstil",
+          "goals": [
+            "Berbicara tentang gaya hidup sehat",
+            "Memberi saran dengan Konjunktiv II",
+            "Memakai verba dengan preposisi"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Konjunktiv II: sollte, wäre, hätte",
+              "slides": 3,
+              "sha256": "e84b719de209b8ca77757ab40ec6d1d4760b84af36419e324373022cb5f2d3ab"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Gesundheit & Lebensstil",
+              "slides": 4,
+              "sha256": "9cf306d5276c61c6fb444a65c116eb50fef79b451de06c8d42e84c3ce781247e"
+            }
+          ]
+        },
+        {
+          "unit": 203,
+          "title": "Arbeit & Karriere",
+          "goals": [
+            "Membahas karier dan tanggung jawab",
+            "Memakai pasif lampau dan konjungsi",
+            "Menjelaskan pengalaman kerja"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv mit Modalverben",
+              "slides": 3,
+              "sha256": "190e39718fe56845a1339feeb938ced8f950f63270f461915444a32af292187d"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Arbeit & Karriere",
+              "slides": 4,
+              "sha256": "eb032dfc2591b5ad99379e1d3b1a5b8c93877583969d2a314f96b270153bf12a"
+            }
+          ]
+        },
+        {
+          "unit": 204,
+          "title": "Medien & Meinung",
+          "goals": [
+            "Menyampaikan pendapat dan argumen",
+            "Memakai kalimat relatif lanjutan",
+            "Membahas berita dan sumbernya"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Indirekte Rede (Konjunktiv I)",
+              "slides": 3,
+              "sha256": "ed92769712994a79c5c684773657978772aa3276e310d40475b855b282717a47"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Medien & Meinung",
+              "slides": 4,
+              "sha256": "a2c3fb9c3e48d624179fa562a5fd3671aba5b1461ccc7738917ab5d55fddcaf1"
+            }
+          ]
+        },
+        {
+          "unit": 205,
+          "title": "Umwelt & Klima",
+          "goals": [
+            "Membahas perubahan iklim",
+            "Menjelaskan sebab dan akibat",
+            "Memakai pasif dengan modalverba"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv mit Modalverben",
+              "slides": 3,
+              "sha256": "d1749f8b5b14459cc3683bfc03addd19e154cd2c51ac8ff579188e48b476f412"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Umwelt & Klima",
+              "slides": 4,
+              "sha256": "7434745ceb92781162ae30fd00aa6911b358e0a4df787549ef37ae4ea255474f"
+            }
+          ]
+        },
+        {
+          "unit": 206,
+          "title": "Reisen & Kultur",
+          "goals": [
+            "Membahas budaya dan wisata",
+            "Menceritakan pengalaman sebelum perjalanan",
+            "Memakai Plusquamperfekt"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Plusquamperfekt",
+              "slides": 3,
+              "sha256": "22086183339d41aec96bef4e6dcb6dfbb49804f979f60f2d57b1381c55f3b563"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Reisen & Kultur",
+              "slides": 4,
+              "sha256": "3a6c7fec11c0330e8286915df9a41b5636fbe7ff94825cabaed35a0d12b5d994"
+            }
+          ]
+        },
+        {
+          "unit": 207,
+          "title": "Gesellschaft & Zusammenleben",
+          "goals": [
+            "Membahas masyarakat dan integrasi",
+            "Menyampaikan saran dan harapan",
+            "Memakai verba dengan preposisi"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Konjunktiv II für Wünsche",
+              "slides": 3,
+              "sha256": "f4c49a7825e1f5373b76007ca2e6e80984a5e7572659dcced83428e6edd90d7a"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Gesellschaft & Zusammenleben",
+              "slides": 4,
+              "sha256": "9ab8180db5007085ad97fe4a7f7b7fcc0f3e868767cb09adb4f5ee55e3ec4e43"
+            }
+          ]
+        },
+        {
+          "unit": 208,
+          "title": "Bildung & Lernen",
+          "goals": [
+            "Membahas pendidikan dan ujian",
+            "Menjelaskan tujuan belajar",
+            "Memakai infinitif dengan zu"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Infinitiv mit zu",
+              "slides": 3,
+              "sha256": "6a5f81ab0fde86f09544b3f853d1a3ba298d394e7a357ee92bfe1c61057c1a0c"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Bildung & Lernen",
+              "slides": 4,
+              "sha256": "ba423c090157c754aff85ee39941380034b750975112a89796d9cb495e11441b"
+            }
+          ]
+        },
+        {
+          "unit": 209,
+          "title": "Geld & Finanzen",
+          "goals": [
+            "Membahas anggaran dan pengeluaran",
+            "Menjelaskan saran keuangan",
+            "Memakai kalimat syarat"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Konditional mit wenn",
+              "slides": 3,
+              "sha256": "5eccdf7a6ee2b2ca04a5bceb949c875b143b153e60dac1b6814528218001a600"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Geld & Finanzen",
+              "slides": 4,
+              "sha256": "6f597585c9d09f072a24c0111d8b32a0bce0b4e3f04e445ebc24b87aabafcf77"
+            }
+          ]
+        },
+        {
+          "unit": 210,
+          "title": "Technik & Zukunft",
+          "goals": [
+            "Membahas teknologi dan masa depan",
+            "Menjelaskan perkembangan",
+            "Memakai pasif dan kalimat relatif"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv mit werden (Zukunft)",
+              "slides": 3,
+              "sha256": "c09e73c71ba608f452cdfac40c6b2d28c3021ffb9972490a762e2abe20d426c2"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Technik & Zukunft",
+              "slides": 4,
+              "sha256": "727c514ffe16d1e335822c909fb4579269a26212dd3022c1b5307d3c19bb9d44"
+            }
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "units": [
+        {
+          "unit": 301,
+          "title": "Arbeitswelt im Wandel",
+          "goals": [
+            "Membahas perubahan dunia kerja",
+            "Menjelaskan konsekuensi sosial",
+            "Memakai nominalisasi dan konjungsi lanjut"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Nominalisierung",
+              "slides": 3,
+              "sha256": "f857f77faf0590daa39fe08751401fa20c2ad25a9c08c4a0e9c19532e21cb05e"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Arbeitswelt im Wandel",
+              "slides": 4,
+              "sha256": "81028a00f1d5bbbed02e0a7d1a42ebbda8e1979a86cfaff2002e7fe1ed727aa2"
+            }
+          ]
+        },
+        {
+          "unit": 302,
+          "title": "Politik & Gesellschaft",
+          "goals": [
+            "Membahas politik dan demokrasi",
+            "Menyampaikan pendapat kritis",
+            "Memakai Konjunktiv I dalam laporan"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Indirekte Rede: Konjunktiv I",
+              "slides": 3,
+              "sha256": "bd19449d5f605fb5dc7231a21919d75fa6c922e5228e1744af02e17c54f62f02"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Politik & Gesellschaft",
+              "slides": 4,
+              "sha256": "84b1067996e49cc1644670391575e501dd272ca45967860f663c1e44bb1e148f"
+            }
+          ]
+        },
+        {
+          "unit": 303,
+          "title": "Wissenschaft & Forschung",
+          "goals": [
+            "Membahas penelitian dan hasil studi",
+            "Menjelaskan bukti dan teori",
+            "Memakai Partizipialkonstruktionen"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Partizipialkonstruktionen",
+              "slides": 3,
+              "sha256": "0ffcf5998bdb640c3c3b452180f8a5c4de4e57d7e65f942b7cd07809e21292ca"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Wissenschaft & Forschung",
+              "slides": 4,
+              "sha256": "379197f5477f545bdfb5425ad9422dd648ebee44fe2725b32bd78bcb09746390"
+            }
+          ]
+        },
+        {
+          "unit": 304,
+          "title": "Wirtschaft & Unternehmen",
+          "goals": [
+            "Membahas ekonomi dan bisnis",
+            "Menjelaskan tren pasar",
+            "Memakai Funktionsverbgefüge"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Funktionsverbgefüge",
+              "slides": 3,
+              "sha256": "bb3b6bab6851bd7280b28ffe16145b65db66c249ff591b831ce9404ac76c639a"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Wirtschaft & Unternehmen",
+              "slides": 4,
+              "sha256": "69359f1869de334b731a00a0ca2566e9ea5cbfb8e3824d7a431d0aa3fb1cd7a9"
+            }
+          ]
+        },
+        {
+          "unit": 305,
+          "title": "Klimapolitik & Ressourcen",
+          "goals": [
+            "Membahas kebijakan iklim",
+            "Menjelaskan target dan tindakan",
+            "Memakai konjungsi lanjut dan nominalisasi"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Nominalisierung mit Präposition",
+              "slides": 3,
+              "sha256": "ff7d7a5d283fce82ce0c2407982a3c0a415e1b2a148d993616119e429d562848"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Klimapolitik & Ressourcen",
+              "slides": 4,
+              "sha256": "738dd996bdf19b6e521813dec34fbb0f523a6fc5895ae7c4ff4e37c2b819c02c"
+            }
+          ]
+        },
+        {
+          "unit": 306,
+          "title": "Medien & Desinformation",
+          "goals": [
+            "Menganalisis pemberitaan",
+            "Memakai indirekte Rede secara kritis",
+            "Menilai sumber informasi"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Indirekte Rede mit Konjunktiv I",
+              "slides": 3,
+              "sha256": "77a16cb2d8865e8d30e4d40e8fd6985f9d92881e8f1c0dff688180e0692267d4"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Medien & Desinformation",
+              "slides": 4,
+              "sha256": "e0557d1703283e07b83c8830ec16e59904df3235f06f2cb5bac00abf654e7380"
+            }
+          ]
+        },
+        {
+          "unit": 307,
+          "title": "Kultur & Identität",
+          "goals": [
+            "Membahas identitas dan budaya",
+            "Menyampaikan refleksi pribadi",
+            "Memakai kalimat relatif dan nominalisasi"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Relativsätze im Genitiv",
+              "slides": 3,
+              "sha256": "6e64cc8448a5f3758ea361560bce935dc9909cb7b0ed61ac8928df9df0e5390b"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Kultur & Identität",
+              "slides": 4,
+              "sha256": "b574e35776dc98c2a8b8d81d605004dd75241fe4b75ee1facfc37a5a74ea0da9"
+            }
+          ]
+        },
+        {
+          "unit": 308,
+          "title": "Medizin & Gesundheit",
+          "goals": [
+            "Membahas diagnosa dan pengobatan",
+            "Menjelaskan risiko kesehatan",
+            "Memakai pasif dan nominalisasi medis"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv mit Modalverben",
+              "slides": 3,
+              "sha256": "bef4b3738782322a985bac5add373ea296cb4559a7a99af9d09b3c538e0b65d7"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Medizin & Gesundheit",
+              "slides": 4,
+              "sha256": "69548e93456d4247c397ee3a587b1d7c453fe77004ff72bb6dca916f16b36d1c"
+            }
+          ]
+        },
+        {
+          "unit": 309,
+          "title": "Recht & Verwaltung",
+          "goals": [
+            "Mengurus urusan administratif",
+            "Menjelaskan hak dan kewajiban",
+            "Memakai kalimat pasif formal"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Passiv in Amtsdeutsch",
+              "slides": 3,
+              "sha256": "14d30e5648c3cdd4e1c91b86dce9ff9114599ac9ba5fb1dab5ed37598110a87a"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Recht & Verwaltung",
+              "slides": 4,
+              "sha256": "086847e9dc556d2df8bc6eb9150c5731c37acda564a60bd354e3e815fc93f371"
+            }
+          ]
+        },
+        {
+          "unit": 310,
+          "title": "Zukunft & Ethik",
+          "goals": [
+            "Membahas dilema etika teknologi",
+            "Menyampaikan pertimbangan seimbang",
+            "Memakai Konjunktiv II dan pasif"
+          ],
+          "lessons": [
+            {
+              "no": 1,
+              "title": "Abwägen mit einerseits … andererseits",
+              "slides": 3,
+              "sha256": "8b3343c5635721b0d26416c27deb8a2aacde5615cfb2296b10fbb297734536e7"
+            },
+            {
+              "no": 2,
+              "title": "Anwendung: Zukunft & Ethik",
+              "slides": 4,
+              "sha256": "18e11b3e233ba98573813255a1656c4441980cd810486ef772018fadade8cf06"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "a1_objective_ids": [
+    "a1-u1-o1",
+    "a1-u1-o2",
+    "a1-u1-o3",
+    "a1-u1-o4",
+    "a1-u1-o5",
+    "a1-u2-o1",
+    "a1-u2-o2",
+    "a1-u2-o3",
+    "a1-u2-o4",
+    "a1-u2-o5",
+    "a1-u3-o1",
+    "a1-u3-o2",
+    "a1-u3-o3",
+    "a1-u3-o4",
+    "a1-u3-o5",
+    "a1-u4-o1",
+    "a1-u4-o2",
+    "a1-u4-o3",
+    "a1-u4-o4",
+    "a1-u4-o5",
+    "a1-u5-o1",
+    "a1-u5-o2",
+    "a1-u5-o3",
+    "a1-u5-o4",
+    "a1-u5-o5",
+    "a1-u6-o1",
+    "a1-u6-o2",
+    "a1-u6-o3",
+    "a1-u6-o4",
+    "a1-u6-o5",
+    "a1-u7-o1",
+    "a1-u7-o2",
+    "a1-u7-o3",
+    "a1-u7-o4",
+    "a1-u7-o5",
+    "a1-u8-o1",
+    "a1-u8-o2",
+    "a1-u8-o3",
+    "a1-u8-o4",
+    "a1-u8-o5",
+    "a1-u9-o1",
+    "a1-u9-o2",
+    "a1-u9-o3",
+    "a1-u9-o4",
+    "a1-u9-o5",
+    "a1-u10-o1",
+    "a1-u10-o2",
+    "a1-u10-o3",
+    "a1-u10-o4",
+    "a1-u10-o5",
+    "a1-u11-o1",
+    "a1-u11-o2",
+    "a1-u11-o3",
+    "a1-u11-o4",
+    "a1-u11-o5",
+    "a1-u12-o1",
+    "a1-u12-o2",
+    "a1-u12-o3",
+    "a1-u12-o4",
+    "a1-u12-o5"
+  ],
+  "a1_bank_ids": {
+    "10": [
+      {
+        "id": "u10-o1-01",
+        "objectiveId": "a1-u10-o1"
+      },
+      {
+        "id": "u10-o1-02",
+        "objectiveId": "a1-u10-o1"
+      },
+      {
+        "id": "u10-o1-03",
+        "objectiveId": "a1-u10-o1"
+      },
+      {
+        "id": "u10-o1-04",
+        "objectiveId": "a1-u10-o1"
+      },
+      {
+        "id": "u10-o1-05",
+        "objectiveId": "a1-u10-o1"
+      },
+      {
+        "id": "u10-o2-01",
+        "objectiveId": "a1-u10-o2"
+      },
+      {
+        "id": "u10-o2-02",
+        "objectiveId": "a1-u10-o2"
+      },
+      {
+        "id": "u10-o2-03",
+        "objectiveId": "a1-u10-o2"
+      },
+      {
+        "id": "u10-o2-04",
+        "objectiveId": "a1-u10-o2"
+      },
+      {
+        "id": "u10-o2-05",
+        "objectiveId": "a1-u10-o2"
+      },
+      {
+        "id": "u10-o3-01",
+        "objectiveId": "a1-u10-o3"
+      },
+      {
+        "id": "u10-o3-02",
+        "objectiveId": "a1-u10-o3"
+      },
+      {
+        "id": "u10-o3-03",
+        "objectiveId": "a1-u10-o3"
+      },
+      {
+        "id": "u10-o3-04",
+        "objectiveId": "a1-u10-o3"
+      },
+      {
+        "id": "u10-o3-05",
+        "objectiveId": "a1-u10-o3"
+      },
+      {
+        "id": "u10-o4-01",
+        "objectiveId": "a1-u10-o4"
+      },
+      {
+        "id": "u10-o4-02",
+        "objectiveId": "a1-u10-o4"
+      },
+      {
+        "id": "u10-o4-03",
+        "objectiveId": "a1-u10-o4"
+      },
+      {
+        "id": "u10-o4-04",
+        "objectiveId": "a1-u10-o4"
+      },
+      {
+        "id": "u10-o4-05",
+        "objectiveId": "a1-u10-o4"
+      },
+      {
+        "id": "u10-o5-01",
+        "objectiveId": "a1-u10-o5"
+      },
+      {
+        "id": "u10-o5-02",
+        "objectiveId": "a1-u10-o5"
+      },
+      {
+        "id": "u10-o5-03",
+        "objectiveId": "a1-u10-o5"
+      },
+      {
+        "id": "u10-o5-04",
+        "objectiveId": "a1-u10-o5"
+      },
+      {
+        "id": "u10-o5-05",
+        "objectiveId": "a1-u10-o5"
+      }
+    ],
+    "11": [
+      {
+        "id": "u11-o1-01",
+        "objectiveId": "a1-u11-o1"
+      },
+      {
+        "id": "u11-o1-02",
+        "objectiveId": "a1-u11-o1"
+      },
+      {
+        "id": "u11-o1-03",
+        "objectiveId": "a1-u11-o1"
+      },
+      {
+        "id": "u11-o1-04",
+        "objectiveId": "a1-u11-o1"
+      },
+      {
+        "id": "u11-o1-05",
+        "objectiveId": "a1-u11-o1"
+      },
+      {
+        "id": "u11-o2-01",
+        "objectiveId": "a1-u11-o2"
+      },
+      {
+        "id": "u11-o2-02",
+        "objectiveId": "a1-u11-o2"
+      },
+      {
+        "id": "u11-o2-03",
+        "objectiveId": "a1-u11-o2"
+      },
+      {
+        "id": "u11-o2-04",
+        "objectiveId": "a1-u11-o2"
+      },
+      {
+        "id": "u11-o2-05",
+        "objectiveId": "a1-u11-o2"
+      },
+      {
+        "id": "u11-o3-01",
+        "objectiveId": "a1-u11-o3"
+      },
+      {
+        "id": "u11-o3-02",
+        "objectiveId": "a1-u11-o3"
+      },
+      {
+        "id": "u11-o3-03",
+        "objectiveId": "a1-u11-o3"
+      },
+      {
+        "id": "u11-o3-04",
+        "objectiveId": "a1-u11-o3"
+      },
+      {
+        "id": "u11-o3-05",
+        "objectiveId": "a1-u11-o3"
+      },
+      {
+        "id": "u11-o4-01",
+        "objectiveId": "a1-u11-o4"
+      },
+      {
+        "id": "u11-o4-02",
+        "objectiveId": "a1-u11-o4"
+      },
+      {
+        "id": "u11-o4-03",
+        "objectiveId": "a1-u11-o4"
+      },
+      {
+        "id": "u11-o4-04",
+        "objectiveId": "a1-u11-o4"
+      },
+      {
+        "id": "u11-o4-05",
+        "objectiveId": "a1-u11-o4"
+      },
+      {
+        "id": "u11-o5-01",
+        "objectiveId": "a1-u11-o5"
+      },
+      {
+        "id": "u11-o5-02",
+        "objectiveId": "a1-u11-o5"
+      },
+      {
+        "id": "u11-o5-03",
+        "objectiveId": "a1-u11-o5"
+      },
+      {
+        "id": "u11-o5-04",
+        "objectiveId": "a1-u11-o5"
+      },
+      {
+        "id": "u11-o5-05",
+        "objectiveId": "a1-u11-o5"
+      }
+    ],
+    "12": [
+      {
+        "id": "u12-o1-01",
+        "objectiveId": "a1-u12-o1"
+      },
+      {
+        "id": "u12-o1-02",
+        "objectiveId": "a1-u12-o1"
+      },
+      {
+        "id": "u12-o1-03",
+        "objectiveId": "a1-u12-o1"
+      },
+      {
+        "id": "u12-o1-04",
+        "objectiveId": "a1-u12-o1"
+      },
+      {
+        "id": "u12-o1-05",
+        "objectiveId": "a1-u12-o1"
+      },
+      {
+        "id": "u12-o2-01",
+        "objectiveId": "a1-u12-o2"
+      },
+      {
+        "id": "u12-o2-02",
+        "objectiveId": "a1-u12-o2"
+      },
+      {
+        "id": "u12-o2-03",
+        "objectiveId": "a1-u12-o2"
+      },
+      {
+        "id": "u12-o2-04",
+        "objectiveId": "a1-u12-o2"
+      },
+      {
+        "id": "u12-o2-05",
+        "objectiveId": "a1-u12-o2"
+      },
+      {
+        "id": "u12-o3-01",
+        "objectiveId": "a1-u12-o3"
+      },
+      {
+        "id": "u12-o3-02",
+        "objectiveId": "a1-u12-o3"
+      },
+      {
+        "id": "u12-o3-03",
+        "objectiveId": "a1-u12-o3"
+      },
+      {
+        "id": "u12-o3-04",
+        "objectiveId": "a1-u12-o3"
+      },
+      {
+        "id": "u12-o3-05",
+        "objectiveId": "a1-u12-o3"
+      },
+      {
+        "id": "u12-o4-01",
+        "objectiveId": "a1-u12-o4"
+      },
+      {
+        "id": "u12-o4-02",
+        "objectiveId": "a1-u12-o4"
+      },
+      {
+        "id": "u12-o4-03",
+        "objectiveId": "a1-u12-o4"
+      },
+      {
+        "id": "u12-o4-04",
+        "objectiveId": "a1-u12-o4"
+      },
+      {
+        "id": "u12-o4-05",
+        "objectiveId": "a1-u12-o4"
+      },
+      {
+        "id": "u12-o5-01",
+        "objectiveId": "a1-u12-o5"
+      },
+      {
+        "id": "u12-o5-02",
+        "objectiveId": "a1-u12-o5"
+      },
+      {
+        "id": "u12-o5-03",
+        "objectiveId": "a1-u12-o5"
+      },
+      {
+        "id": "u12-o5-04",
+        "objectiveId": "a1-u12-o5"
+      },
+      {
+        "id": "u12-o5-05",
+        "objectiveId": "a1-u12-o5"
+      }
+    ],
+    "1": [
+      {
+        "id": "o1-01",
+        "objectiveId": "a1-u1-o1"
+      },
+      {
+        "id": "o1-02",
+        "objectiveId": "a1-u1-o1"
+      },
+      {
+        "id": "o1-03",
+        "objectiveId": "a1-u1-o1"
+      },
+      {
+        "id": "o1-04",
+        "objectiveId": "a1-u1-o1"
+      },
+      {
+        "id": "o1-05",
+        "objectiveId": "a1-u1-o1"
+      },
+      {
+        "id": "o2-01",
+        "objectiveId": "a1-u1-o2"
+      },
+      {
+        "id": "o2-02",
+        "objectiveId": "a1-u1-o2"
+      },
+      {
+        "id": "o2-03",
+        "objectiveId": "a1-u1-o2"
+      },
+      {
+        "id": "o2-04",
+        "objectiveId": "a1-u1-o2"
+      },
+      {
+        "id": "o2-05",
+        "objectiveId": "a1-u1-o2"
+      },
+      {
+        "id": "o3-01",
+        "objectiveId": "a1-u1-o3"
+      },
+      {
+        "id": "o3-02",
+        "objectiveId": "a1-u1-o3"
+      },
+      {
+        "id": "o3-03",
+        "objectiveId": "a1-u1-o3"
+      },
+      {
+        "id": "o3-04",
+        "objectiveId": "a1-u1-o3"
+      },
+      {
+        "id": "o3-05",
+        "objectiveId": "a1-u1-o3"
+      },
+      {
+        "id": "o4-01",
+        "objectiveId": "a1-u1-o4"
+      },
+      {
+        "id": "o4-02",
+        "objectiveId": "a1-u1-o4"
+      },
+      {
+        "id": "o4-03",
+        "objectiveId": "a1-u1-o4"
+      },
+      {
+        "id": "o4-04",
+        "objectiveId": "a1-u1-o4"
+      },
+      {
+        "id": "o4-05",
+        "objectiveId": "a1-u1-o4"
+      },
+      {
+        "id": "o5-01",
+        "objectiveId": "a1-u1-o5"
+      },
+      {
+        "id": "o5-02",
+        "objectiveId": "a1-u1-o5"
+      },
+      {
+        "id": "o5-03",
+        "objectiveId": "a1-u1-o5"
+      },
+      {
+        "id": "o5-04",
+        "objectiveId": "a1-u1-o5"
+      },
+      {
+        "id": "o5-05",
+        "objectiveId": "a1-u1-o5"
+      }
+    ],
+    "2": [
+      {
+        "id": "u2-o1-01",
+        "objectiveId": "a1-u2-o1"
+      },
+      {
+        "id": "u2-o1-02",
+        "objectiveId": "a1-u2-o1"
+      },
+      {
+        "id": "u2-o1-03",
+        "objectiveId": "a1-u2-o1"
+      },
+      {
+        "id": "u2-o1-04",
+        "objectiveId": "a1-u2-o1"
+      },
+      {
+        "id": "u2-o1-05",
+        "objectiveId": "a1-u2-o1"
+      },
+      {
+        "id": "u2-o2-01",
+        "objectiveId": "a1-u2-o2"
+      },
+      {
+        "id": "u2-o2-02",
+        "objectiveId": "a1-u2-o2"
+      },
+      {
+        "id": "u2-o2-03",
+        "objectiveId": "a1-u2-o2"
+      },
+      {
+        "id": "u2-o2-04",
+        "objectiveId": "a1-u2-o2"
+      },
+      {
+        "id": "u2-o2-05",
+        "objectiveId": "a1-u2-o2"
+      },
+      {
+        "id": "u2-o3-01",
+        "objectiveId": "a1-u2-o3"
+      },
+      {
+        "id": "u2-o3-02",
+        "objectiveId": "a1-u2-o3"
+      },
+      {
+        "id": "u2-o3-03",
+        "objectiveId": "a1-u2-o3"
+      },
+      {
+        "id": "u2-o3-04",
+        "objectiveId": "a1-u2-o3"
+      },
+      {
+        "id": "u2-o3-05",
+        "objectiveId": "a1-u2-o3"
+      },
+      {
+        "id": "u2-o4-01",
+        "objectiveId": "a1-u2-o4"
+      },
+      {
+        "id": "u2-o4-02",
+        "objectiveId": "a1-u2-o4"
+      },
+      {
+        "id": "u2-o4-03",
+        "objectiveId": "a1-u2-o4"
+      },
+      {
+        "id": "u2-o4-04",
+        "objectiveId": "a1-u2-o4"
+      },
+      {
+        "id": "u2-o4-05",
+        "objectiveId": "a1-u2-o4"
+      },
+      {
+        "id": "u2-o5-01",
+        "objectiveId": "a1-u2-o5"
+      },
+      {
+        "id": "u2-o5-02",
+        "objectiveId": "a1-u2-o5"
+      },
+      {
+        "id": "u2-o5-03",
+        "objectiveId": "a1-u2-o5"
+      },
+      {
+        "id": "u2-o5-04",
+        "objectiveId": "a1-u2-o5"
+      },
+      {
+        "id": "u2-o5-05",
+        "objectiveId": "a1-u2-o5"
+      }
+    ],
+    "3": [
+      {
+        "id": "u3-o1-01",
+        "objectiveId": "a1-u3-o1"
+      },
+      {
+        "id": "u3-o1-02",
+        "objectiveId": "a1-u3-o1"
+      },
+      {
+        "id": "u3-o1-03",
+        "objectiveId": "a1-u3-o1"
+      },
+      {
+        "id": "u3-o1-04",
+        "objectiveId": "a1-u3-o1"
+      },
+      {
+        "id": "u3-o1-05",
+        "objectiveId": "a1-u3-o1"
+      },
+      {
+        "id": "u3-o2-01",
+        "objectiveId": "a1-u3-o2"
+      },
+      {
+        "id": "u3-o2-02",
+        "objectiveId": "a1-u3-o2"
+      },
+      {
+        "id": "u3-o2-03",
+        "objectiveId": "a1-u3-o2"
+      },
+      {
+        "id": "u3-o2-04",
+        "objectiveId": "a1-u3-o2"
+      },
+      {
+        "id": "u3-o2-05",
+        "objectiveId": "a1-u3-o2"
+      },
+      {
+        "id": "u3-o3-01",
+        "objectiveId": "a1-u3-o3"
+      },
+      {
+        "id": "u3-o3-02",
+        "objectiveId": "a1-u3-o3"
+      },
+      {
+        "id": "u3-o3-03",
+        "objectiveId": "a1-u3-o3"
+      },
+      {
+        "id": "u3-o3-04",
+        "objectiveId": "a1-u3-o3"
+      },
+      {
+        "id": "u3-o3-05",
+        "objectiveId": "a1-u3-o3"
+      },
+      {
+        "id": "u3-o4-01",
+        "objectiveId": "a1-u3-o4"
+      },
+      {
+        "id": "u3-o4-02",
+        "objectiveId": "a1-u3-o4"
+      },
+      {
+        "id": "u3-o4-03",
+        "objectiveId": "a1-u3-o4"
+      },
+      {
+        "id": "u3-o4-04",
+        "objectiveId": "a1-u3-o4"
+      },
+      {
+        "id": "u3-o4-05",
+        "objectiveId": "a1-u3-o4"
+      },
+      {
+        "id": "u3-o5-01",
+        "objectiveId": "a1-u3-o5"
+      },
+      {
+        "id": "u3-o5-02",
+        "objectiveId": "a1-u3-o5"
+      },
+      {
+        "id": "u3-o5-03",
+        "objectiveId": "a1-u3-o5"
+      },
+      {
+        "id": "u3-o5-04",
+        "objectiveId": "a1-u3-o5"
+      },
+      {
+        "id": "u3-o5-05",
+        "objectiveId": "a1-u3-o5"
+      }
+    ],
+    "4": [
+      {
+        "id": "u4-o1-01",
+        "objectiveId": "a1-u4-o1"
+      },
+      {
+        "id": "u4-o1-02",
+        "objectiveId": "a1-u4-o1"
+      },
+      {
+        "id": "u4-o1-03",
+        "objectiveId": "a1-u4-o1"
+      },
+      {
+        "id": "u4-o1-04",
+        "objectiveId": "a1-u4-o1"
+      },
+      {
+        "id": "u4-o1-05",
+        "objectiveId": "a1-u4-o1"
+      },
+      {
+        "id": "u4-o2-01",
+        "objectiveId": "a1-u4-o2"
+      },
+      {
+        "id": "u4-o2-02",
+        "objectiveId": "a1-u4-o2"
+      },
+      {
+        "id": "u4-o2-03",
+        "objectiveId": "a1-u4-o2"
+      },
+      {
+        "id": "u4-o2-04",
+        "objectiveId": "a1-u4-o2"
+      },
+      {
+        "id": "u4-o2-05",
+        "objectiveId": "a1-u4-o2"
+      },
+      {
+        "id": "u4-o3-01",
+        "objectiveId": "a1-u4-o3"
+      },
+      {
+        "id": "u4-o3-02",
+        "objectiveId": "a1-u4-o3"
+      },
+      {
+        "id": "u4-o3-03",
+        "objectiveId": "a1-u4-o3"
+      },
+      {
+        "id": "u4-o3-04",
+        "objectiveId": "a1-u4-o3"
+      },
+      {
+        "id": "u4-o3-05",
+        "objectiveId": "a1-u4-o3"
+      },
+      {
+        "id": "u4-o4-01",
+        "objectiveId": "a1-u4-o4"
+      },
+      {
+        "id": "u4-o4-02",
+        "objectiveId": "a1-u4-o4"
+      },
+      {
+        "id": "u4-o4-03",
+        "objectiveId": "a1-u4-o4"
+      },
+      {
+        "id": "u4-o4-04",
+        "objectiveId": "a1-u4-o4"
+      },
+      {
+        "id": "u4-o4-05",
+        "objectiveId": "a1-u4-o4"
+      },
+      {
+        "id": "u4-o5-01",
+        "objectiveId": "a1-u4-o5"
+      },
+      {
+        "id": "u4-o5-02",
+        "objectiveId": "a1-u4-o5"
+      },
+      {
+        "id": "u4-o5-03",
+        "objectiveId": "a1-u4-o5"
+      },
+      {
+        "id": "u4-o5-04",
+        "objectiveId": "a1-u4-o5"
+      },
+      {
+        "id": "u4-o5-05",
+        "objectiveId": "a1-u4-o5"
+      }
+    ],
+    "5": [
+      {
+        "id": "u5-o1-01",
+        "objectiveId": "a1-u5-o1"
+      },
+      {
+        "id": "u5-o1-02",
+        "objectiveId": "a1-u5-o1"
+      },
+      {
+        "id": "u5-o1-03",
+        "objectiveId": "a1-u5-o1"
+      },
+      {
+        "id": "u5-o1-04",
+        "objectiveId": "a1-u5-o1"
+      },
+      {
+        "id": "u5-o1-05",
+        "objectiveId": "a1-u5-o1"
+      },
+      {
+        "id": "u5-o2-01",
+        "objectiveId": "a1-u5-o2"
+      },
+      {
+        "id": "u5-o2-02",
+        "objectiveId": "a1-u5-o2"
+      },
+      {
+        "id": "u5-o2-03",
+        "objectiveId": "a1-u5-o2"
+      },
+      {
+        "id": "u5-o2-04",
+        "objectiveId": "a1-u5-o2"
+      },
+      {
+        "id": "u5-o2-05",
+        "objectiveId": "a1-u5-o2"
+      },
+      {
+        "id": "u5-o3-01",
+        "objectiveId": "a1-u5-o3"
+      },
+      {
+        "id": "u5-o3-02",
+        "objectiveId": "a1-u5-o3"
+      },
+      {
+        "id": "u5-o3-03",
+        "objectiveId": "a1-u5-o3"
+      },
+      {
+        "id": "u5-o3-04",
+        "objectiveId": "a1-u5-o3"
+      },
+      {
+        "id": "u5-o3-05",
+        "objectiveId": "a1-u5-o3"
+      },
+      {
+        "id": "u5-o4-01",
+        "objectiveId": "a1-u5-o4"
+      },
+      {
+        "id": "u5-o4-02",
+        "objectiveId": "a1-u5-o4"
+      },
+      {
+        "id": "u5-o4-03",
+        "objectiveId": "a1-u5-o4"
+      },
+      {
+        "id": "u5-o4-04",
+        "objectiveId": "a1-u5-o4"
+      },
+      {
+        "id": "u5-o4-05",
+        "objectiveId": "a1-u5-o4"
+      },
+      {
+        "id": "u5-o5-01",
+        "objectiveId": "a1-u5-o5"
+      },
+      {
+        "id": "u5-o5-02",
+        "objectiveId": "a1-u5-o5"
+      },
+      {
+        "id": "u5-o5-03",
+        "objectiveId": "a1-u5-o5"
+      },
+      {
+        "id": "u5-o5-04",
+        "objectiveId": "a1-u5-o5"
+      },
+      {
+        "id": "u5-o5-05",
+        "objectiveId": "a1-u5-o5"
+      }
+    ],
+    "6": [
+      {
+        "id": "u6-o1-01",
+        "objectiveId": "a1-u6-o1"
+      },
+      {
+        "id": "u6-o1-02",
+        "objectiveId": "a1-u6-o1"
+      },
+      {
+        "id": "u6-o1-03",
+        "objectiveId": "a1-u6-o1"
+      },
+      {
+        "id": "u6-o1-04",
+        "objectiveId": "a1-u6-o1"
+      },
+      {
+        "id": "u6-o1-05",
+        "objectiveId": "a1-u6-o1"
+      },
+      {
+        "id": "u6-o2-01",
+        "objectiveId": "a1-u6-o2"
+      },
+      {
+        "id": "u6-o2-02",
+        "objectiveId": "a1-u6-o2"
+      },
+      {
+        "id": "u6-o2-03",
+        "objectiveId": "a1-u6-o2"
+      },
+      {
+        "id": "u6-o2-04",
+        "objectiveId": "a1-u6-o2"
+      },
+      {
+        "id": "u6-o2-05",
+        "objectiveId": "a1-u6-o2"
+      },
+      {
+        "id": "u6-o3-01",
+        "objectiveId": "a1-u6-o3"
+      },
+      {
+        "id": "u6-o3-02",
+        "objectiveId": "a1-u6-o3"
+      },
+      {
+        "id": "u6-o3-03",
+        "objectiveId": "a1-u6-o3"
+      },
+      {
+        "id": "u6-o3-04",
+        "objectiveId": "a1-u6-o3"
+      },
+      {
+        "id": "u6-o3-05",
+        "objectiveId": "a1-u6-o3"
+      },
+      {
+        "id": "u6-o4-01",
+        "objectiveId": "a1-u6-o4"
+      },
+      {
+        "id": "u6-o4-02",
+        "objectiveId": "a1-u6-o4"
+      },
+      {
+        "id": "u6-o4-03",
+        "objectiveId": "a1-u6-o4"
+      },
+      {
+        "id": "u6-o4-04",
+        "objectiveId": "a1-u6-o4"
+      },
+      {
+        "id": "u6-o4-05",
+        "objectiveId": "a1-u6-o4"
+      },
+      {
+        "id": "u6-o5-01",
+        "objectiveId": "a1-u6-o5"
+      },
+      {
+        "id": "u6-o5-02",
+        "objectiveId": "a1-u6-o5"
+      },
+      {
+        "id": "u6-o5-03",
+        "objectiveId": "a1-u6-o5"
+      },
+      {
+        "id": "u6-o5-04",
+        "objectiveId": "a1-u6-o5"
+      },
+      {
+        "id": "u6-o5-05",
+        "objectiveId": "a1-u6-o5"
+      }
+    ],
+    "7": [
+      {
+        "id": "u7-o1-01",
+        "objectiveId": "a1-u7-o1"
+      },
+      {
+        "id": "u7-o1-02",
+        "objectiveId": "a1-u7-o1"
+      },
+      {
+        "id": "u7-o1-03",
+        "objectiveId": "a1-u7-o1"
+      },
+      {
+        "id": "u7-o1-04",
+        "objectiveId": "a1-u7-o1"
+      },
+      {
+        "id": "u7-o1-05",
+        "objectiveId": "a1-u7-o1"
+      },
+      {
+        "id": "u7-o2-01",
+        "objectiveId": "a1-u7-o2"
+      },
+      {
+        "id": "u7-o2-02",
+        "objectiveId": "a1-u7-o2"
+      },
+      {
+        "id": "u7-o2-03",
+        "objectiveId": "a1-u7-o2"
+      },
+      {
+        "id": "u7-o2-04",
+        "objectiveId": "a1-u7-o2"
+      },
+      {
+        "id": "u7-o2-05",
+        "objectiveId": "a1-u7-o2"
+      },
+      {
+        "id": "u7-o3-01",
+        "objectiveId": "a1-u7-o3"
+      },
+      {
+        "id": "u7-o3-02",
+        "objectiveId": "a1-u7-o3"
+      },
+      {
+        "id": "u7-o3-03",
+        "objectiveId": "a1-u7-o3"
+      },
+      {
+        "id": "u7-o3-04",
+        "objectiveId": "a1-u7-o3"
+      },
+      {
+        "id": "u7-o3-05",
+        "objectiveId": "a1-u7-o3"
+      },
+      {
+        "id": "u7-o4-01",
+        "objectiveId": "a1-u7-o4"
+      },
+      {
+        "id": "u7-o4-02",
+        "objectiveId": "a1-u7-o4"
+      },
+      {
+        "id": "u7-o4-03",
+        "objectiveId": "a1-u7-o4"
+      },
+      {
+        "id": "u7-o4-04",
+        "objectiveId": "a1-u7-o4"
+      },
+      {
+        "id": "u7-o4-05",
+        "objectiveId": "a1-u7-o4"
+      },
+      {
+        "id": "u7-o5-01",
+        "objectiveId": "a1-u7-o5"
+      },
+      {
+        "id": "u7-o5-02",
+        "objectiveId": "a1-u7-o5"
+      },
+      {
+        "id": "u7-o5-03",
+        "objectiveId": "a1-u7-o5"
+      },
+      {
+        "id": "u7-o5-04",
+        "objectiveId": "a1-u7-o5"
+      },
+      {
+        "id": "u7-o5-05",
+        "objectiveId": "a1-u7-o5"
+      }
+    ],
+    "8": [
+      {
+        "id": "u8-o1-01",
+        "objectiveId": "a1-u8-o1"
+      },
+      {
+        "id": "u8-o1-02",
+        "objectiveId": "a1-u8-o1"
+      },
+      {
+        "id": "u8-o1-03",
+        "objectiveId": "a1-u8-o1"
+      },
+      {
+        "id": "u8-o1-04",
+        "objectiveId": "a1-u8-o1"
+      },
+      {
+        "id": "u8-o1-05",
+        "objectiveId": "a1-u8-o1"
+      },
+      {
+        "id": "u8-o2-01",
+        "objectiveId": "a1-u8-o2"
+      },
+      {
+        "id": "u8-o2-02",
+        "objectiveId": "a1-u8-o2"
+      },
+      {
+        "id": "u8-o2-03",
+        "objectiveId": "a1-u8-o2"
+      },
+      {
+        "id": "u8-o2-04",
+        "objectiveId": "a1-u8-o2"
+      },
+      {
+        "id": "u8-o2-05",
+        "objectiveId": "a1-u8-o2"
+      },
+      {
+        "id": "u8-o3-01",
+        "objectiveId": "a1-u8-o3"
+      },
+      {
+        "id": "u8-o3-02",
+        "objectiveId": "a1-u8-o3"
+      },
+      {
+        "id": "u8-o3-03",
+        "objectiveId": "a1-u8-o3"
+      },
+      {
+        "id": "u8-o3-04",
+        "objectiveId": "a1-u8-o3"
+      },
+      {
+        "id": "u8-o3-05",
+        "objectiveId": "a1-u8-o3"
+      },
+      {
+        "id": "u8-o4-01",
+        "objectiveId": "a1-u8-o4"
+      },
+      {
+        "id": "u8-o4-02",
+        "objectiveId": "a1-u8-o4"
+      },
+      {
+        "id": "u8-o4-03",
+        "objectiveId": "a1-u8-o4"
+      },
+      {
+        "id": "u8-o4-04",
+        "objectiveId": "a1-u8-o4"
+      },
+      {
+        "id": "u8-o4-05",
+        "objectiveId": "a1-u8-o4"
+      },
+      {
+        "id": "u8-o5-01",
+        "objectiveId": "a1-u8-o5"
+      },
+      {
+        "id": "u8-o5-02",
+        "objectiveId": "a1-u8-o5"
+      },
+      {
+        "id": "u8-o5-03",
+        "objectiveId": "a1-u8-o5"
+      },
+      {
+        "id": "u8-o5-04",
+        "objectiveId": "a1-u8-o5"
+      },
+      {
+        "id": "u8-o5-05",
+        "objectiveId": "a1-u8-o5"
+      }
+    ],
+    "9": [
+      {
+        "id": "u9-o1-01",
+        "objectiveId": "a1-u9-o1"
+      },
+      {
+        "id": "u9-o1-02",
+        "objectiveId": "a1-u9-o1"
+      },
+      {
+        "id": "u9-o1-03",
+        "objectiveId": "a1-u9-o1"
+      },
+      {
+        "id": "u9-o1-04",
+        "objectiveId": "a1-u9-o1"
+      },
+      {
+        "id": "u9-o1-05",
+        "objectiveId": "a1-u9-o1"
+      },
+      {
+        "id": "u9-o2-01",
+        "objectiveId": "a1-u9-o2"
+      },
+      {
+        "id": "u9-o2-02",
+        "objectiveId": "a1-u9-o2"
+      },
+      {
+        "id": "u9-o2-03",
+        "objectiveId": "a1-u9-o2"
+      },
+      {
+        "id": "u9-o2-04",
+        "objectiveId": "a1-u9-o2"
+      },
+      {
+        "id": "u9-o2-05",
+        "objectiveId": "a1-u9-o2"
+      },
+      {
+        "id": "u9-o3-01",
+        "objectiveId": "a1-u9-o3"
+      },
+      {
+        "id": "u9-o3-02",
+        "objectiveId": "a1-u9-o3"
+      },
+      {
+        "id": "u9-o3-03",
+        "objectiveId": "a1-u9-o3"
+      },
+      {
+        "id": "u9-o3-04",
+        "objectiveId": "a1-u9-o3"
+      },
+      {
+        "id": "u9-o3-05",
+        "objectiveId": "a1-u9-o3"
+      },
+      {
+        "id": "u9-o4-01",
+        "objectiveId": "a1-u9-o4"
+      },
+      {
+        "id": "u9-o4-02",
+        "objectiveId": "a1-u9-o4"
+      },
+      {
+        "id": "u9-o4-03",
+        "objectiveId": "a1-u9-o4"
+      },
+      {
+        "id": "u9-o4-04",
+        "objectiveId": "a1-u9-o4"
+      },
+      {
+        "id": "u9-o4-05",
+        "objectiveId": "a1-u9-o4"
+      },
+      {
+        "id": "u9-o5-01",
+        "objectiveId": "a1-u9-o5"
+      },
+      {
+        "id": "u9-o5-02",
+        "objectiveId": "a1-u9-o5"
+      },
+      {
+        "id": "u9-o5-03",
+        "objectiveId": "a1-u9-o5"
+      },
+      {
+        "id": "u9-o5-04",
+        "objectiveId": "a1-u9-o5"
+      },
+      {
+        "id": "u9-o5-05",
+        "objectiveId": "a1-u9-o5"
+      }
+    ]
+  },
+  "reading_keys": [
+    {
+      "title": "Hallo, ich bin Anna",
+      "level": "A1",
+      "tags": "seed · unit 1 · perkenalan"
+    },
+    {
+      "title": "Meine Familie",
+      "level": "A1",
+      "tags": "seed · unit 1 · keluarga"
+    },
+    {
+      "title": "In der Stadt",
+      "level": "A1",
+      "tags": "seed · unit 1 · kota"
+    },
+    {
+      "title": "Ein Tag in Berlin",
+      "level": "A1",
+      "tags": "seed · unit 1 · kegiatan harian"
+    },
+    {
+      "title": "Ein Wochenende in Hamburg",
+      "level": "A2",
+      "tags": "seed · A2 · cerita"
+    },
+    {
+      "title": "Der Wochenmarkt",
+      "level": "A1",
+      "tags": "seed · unit 2 · harga"
+    },
+    {
+      "title": "Uhrzeit und Termine",
+      "level": "A1",
+      "tags": "seed · unit 2 · waktu"
+    },
+    {
+      "title": "Meine große Familie",
+      "level": "A1",
+      "tags": "seed · unit 3 · keluarga"
+    },
+    {
+      "title": "Ein Besuch bei Oma",
+      "level": "A1",
+      "tags": "seed · unit 3 · kunjungan"
+    },
+    {
+      "title": "Im Café",
+      "level": "A1",
+      "tags": "seed · unit 4 · restoran"
+    },
+    {
+      "title": "Einkaufen für das Abendessen",
+      "level": "A1",
+      "tags": "seed · unit 4 · belanja"
+    },
+    {
+      "title": "Im Kleidungsgeschäft",
+      "level": "A1",
+      "tags": "seed · A1 · unit 5 · belanja"
+    },
+    {
+      "title": "Ein Geschenk für Tom",
+      "level": "A1",
+      "tags": "seed · A1 · unit 5 · belanja"
+    },
+    {
+      "title": "Unsere neue Wohnung",
+      "level": "A1",
+      "tags": "seed · A1 · unit 6 · rumah"
+    },
+    {
+      "title": "Ein ruhiger Abend zu Hause",
+      "level": "A1",
+      "tags": "seed · A1 · unit 6 · rumah"
+    },
+    {
+      "title": "Der Weg zum Bahnhof",
+      "level": "A1",
+      "tags": "seed · A1 · unit 7 · kota"
+    },
+    {
+      "title": "Ein Nachmittag im Park",
+      "level": "A1",
+      "tags": "seed · A1 · unit 7 · kota"
+    },
+    {
+      "title": "Mein erster Arbeitstag",
+      "level": "A1",
+      "tags": "seed · A1 · unit 8 · pekerjaan"
+    },
+    {
+      "title": "Ein Termin beim Arzt",
+      "level": "A1",
+      "tags": "seed · A1 · unit 9 · kesehatan"
+    },
+    {
+      "title": "Ein Wochenende ohne Stress",
+      "level": "A2",
+      "tags": "seed · A2 · hobi · akhir pekan"
+    },
+    {
+      "title": "Musik und Bewegung",
+      "level": "A2",
+      "tags": "seed · A2 · hobi · musik"
+    },
+    {
+      "title": "Mit dem Zug nach Hamburg",
+      "level": "A2",
+      "tags": "seed · A2 · unit 11 · perjalanan"
+    },
+    {
+      "title": "Ein Tag am Meer",
+      "level": "A2",
+      "tags": "seed · A2 · unit 11 · liburan"
+    },
+    {
+      "title": "Eine Einladung zum Abendessen",
+      "level": "A2",
+      "tags": "seed · A2 · unit 12 · janji"
+    },
+    {
+      "title": "Eine Nachricht für den Chef",
+      "level": "A2",
+      "tags": "seed · A2 · unit 12 · komunikasi"
+    },
+    {
+      "title": "Ein Tag auf dem Markt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 5 · belanja"
+    },
+    {
+      "title": "Die Heizung ist kaputt",
+      "level": "A2",
+      "tags": "seed · A2 · rumah · layanan"
+    },
+    {
+      "title": "Ein Arzttermin am Morgen",
+      "level": "A2",
+      "tags": "seed · A2 · kesehatan · janji"
+    },
+    {
+      "title": "Die neue Wohnung",
+      "level": "A2",
+      "tags": "seed · A2 · unit 1"
+    },
+    {
+      "title": "Ein neuer Job",
+      "level": "A2",
+      "tags": "seed · A2 · unit 2"
+    },
+    {
+      "title": "Samstag im Supermarkt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 3"
+    },
+    {
+      "title": "Beim Arzt",
+      "level": "A2",
+      "tags": "seed · A2 · unit 4"
+    },
+    {
+      "title": "Urlaub an der Ostsee",
+      "level": "A2",
+      "tags": "seed · A2 · unit 5"
+    },
+    {
+      "title": "Mit dem Bus zur Arbeit",
+      "level": "A2",
+      "tags": "seed · A2 · unit 6"
+    },
+    {
+      "title": "Mein Wochenende",
+      "level": "A2",
+      "tags": "seed · A2 · unit 7"
+    },
+    {
+      "title": "Ohne Handy",
+      "level": "A2",
+      "tags": "seed · A2 · unit 8"
+    },
+    {
+      "title": "Ein Geburtstag im Sommer",
+      "level": "A2",
+      "tags": "seed · A2 · unit 9"
+    },
+    {
+      "title": "Müll trennen in Deutschland",
+      "level": "A2",
+      "tags": "seed · A2 · unit 10"
+    },
+    {
+      "title": "Ein neuer Nachbar",
+      "level": "B1",
+      "tags": "seed · B1 · unit 1"
+    },
+    {
+      "title": "Ein gesünderer Alltag",
+      "level": "B1",
+      "tags": "seed · B1 · unit 2"
+    },
+    {
+      "title": "Eine neue Aufgabe",
+      "level": "B1",
+      "tags": "seed · B1 · unit 3"
+    },
+    {
+      "title": "Eine Diskussion über Medien",
+      "level": "B1",
+      "tags": "seed · B1 · unit 4"
+    },
+    {
+      "title": "Was können wir tun?",
+      "level": "B1",
+      "tags": "seed · B1 · unit 5"
+    },
+    {
+      "title": "Eine Woche in Wien",
+      "level": "B1",
+      "tags": "seed · B1 · unit 6"
+    },
+    {
+      "title": "Zusammenleben im Viertel",
+      "level": "B1",
+      "tags": "seed · B1 · unit 7"
+    },
+    {
+      "title": "Lernen mit Plan",
+      "level": "B1",
+      "tags": "seed · B1 · unit 8"
+    },
+    {
+      "title": "Ein eigenes Budget",
+      "level": "B1",
+      "tags": "seed · B1 · unit 9"
+    },
+    {
+      "title": "Leben mit Technik",
+      "level": "B1",
+      "tags": "seed · B1 · unit 10"
+    },
+    {
+      "title": "Arbeit 2030",
+      "level": "B2",
+      "tags": "seed · B2 · unit 1"
+    },
+    {
+      "title": "Die Debatte um die Reform",
+      "level": "B2",
+      "tags": "seed · B2 · unit 2"
+    },
+    {
+      "title": "Was die Studie zeigt",
+      "level": "B2",
+      "tags": "seed · B2 · unit 3"
+    },
+    {
+      "title": "Ein Unternehmen in der Krise",
+      "level": "B2",
+      "tags": "seed · B2 · unit 4"
+    },
+    {
+      "title": "Die Energiewende",
+      "level": "B2",
+      "tags": "seed · B2 · unit 5"
+    },
+    {
+      "title": "Falsche Nachrichten",
+      "level": "B2",
+      "tags": "seed · B2 · unit 6"
+    },
+    {
+      "title": "Zwei Kulturen",
+      "level": "B2",
+      "tags": "seed · B2 · unit 7"
+    },
+    {
+      "title": "Leben mit einer chronischen Krankheit",
+      "level": "B2",
+      "tags": "seed · B2 · unit 8"
+    },
+    {
+      "title": "Ein Termin bei der Behörde",
+      "level": "B2",
+      "tags": "seed · B2 · unit 9"
+    },
+    {
+      "title": "KI und Verantwortung",
+      "level": "B2",
+      "tags": "seed · B2 · unit 10"
+    },
+    {
+      "title": "Der Umzug",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan"
+    },
+    {
+      "title": "Ein Tag am See",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan"
+    },
+    {
+      "title": "Beim Zahnarzt",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan"
+    },
+    {
+      "title": "Die Bewerbung",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan"
+    },
+    {
+      "title": "Ein Streit im Haus",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan"
+    },
+    {
+      "title": "Klimafreundlich leben",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan"
+    },
+    {
+      "title": "Die Debatte über das Gesetz",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan"
+    },
+    {
+      "title": "Künstliche Intelligenz am Arbeitsplatz",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan"
+    },
+    {
+      "title": "Eine Studie zur Gesundheit",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan"
+    }
+  ],
+  "practice_ids": {
+    "listening": [
+      "a1-listen-cafe",
+      "a1-listen-bahnhof",
+      "a1-listen-arzt",
+      "a1-listen-wohnung",
+      "a1-listen-verabredung"
+    ],
+    "writing": [
+      "a1-write-absage",
+      "a1-write-kino",
+      "a1-write-arzt",
+      "a1-write-aufgabe",
+      "a1-write-postkarte"
+    ],
+    "conversations": {
+      "a1-talk-cafe": [
+        "start",
+        "rephrase",
+        "kaffee",
+        "tee",
+        "end-kuchen",
+        "end-kaffee",
+        "end-tee",
+        "end-tee-kuchen"
+      ],
+      "a1-talk-weg": [
+        "start",
+        "rephrase",
+        "weg",
+        "end-weg",
+        "end-cancel"
+      ],
+      "a1-talk-arzt": [
+        "start",
+        "rephrase",
+        "diagnose",
+        "diagnose-bauch",
+        "dosis",
+        "clarify",
+        "dosis-jumlah",
+        "end-verstanden"
+      ],
+      "a1-talk-geschaeft": [
+        "start",
+        "rephrase",
+        "groesse",
+        "groesse-bluse",
+        "rephrase-size",
+        "anprobe",
+        "anprobe-bluse",
+        "end-anprobe",
+        "end-kaufen"
+      ]
+    },
+    "exam_sections": [
+      "hoeren",
+      "lesen",
+      "schreiben",
+      "sprechen"
+    ]
+  },
+  "audio_manifest_sha256": "f3c939e6ced18e0630d8a430584174afa4fc040da95f52714c9b6ee9ad46c2fe",
+  "audio": {
+    "a1_example_001.wav": {
+      "bytes": 86316,
+      "sha256": "89d1bc56cb8de00a29de0da8290a4b1bdc06f16fa2fe2edf478e021e4ea62883"
+    },
+    "a1_example_002.wav": {
+      "bytes": 74540,
+      "sha256": "3d3bbff7515ad6f5f74b454acc1ca7de71889769605f4d41277702083c2501d4"
+    },
+    "a1_example_003.wav": {
+      "bytes": 77100,
+      "sha256": "72114af217368b39136ba8f0e16bbdf4192ebc923f3b6ab2b0333b69c48aecc6"
+    },
+    "a1_example_004.wav": {
+      "bytes": 66860,
+      "sha256": "a23ae693405a798f5cc67956e923f2d214ed0ba09e28b79cebd8bd470f0e7536"
+    },
+    "a1_example_005.wav": {
+      "bytes": 91948,
+      "sha256": "bea94f825c951a194c310b7edec5f47c471fd7d42828c3b2e121cb60c0234d5f"
+    },
+    "a1_example_006.wav": {
+      "bytes": 113452,
+      "sha256": "91edf976eb1c0f95ad6d19f87d463b687eb9a83126b35d9a3a3c84497c728063"
+    },
+    "a1_example_007.wav": {
+      "bytes": 92460,
+      "sha256": "fe54df2352cfcac4dc7156c94959bdd1743424ed26252518f7e77d3ffc410b0f"
+    },
+    "a1_example_008.wav": {
+      "bytes": 84780,
+      "sha256": "af24183ddcaa0de8a2d1197d085e87115410d1bbb7e1d20e215ec4619117ead1"
+    },
+    "a1_example_009.wav": {
+      "bytes": 87852,
+      "sha256": "6b195ca04862e88846bfc92bc4a2df4f77e9be6e054899c6df15eb28afffd3ca"
+    },
+    "a1_example_010.wav": {
+      "bytes": 117036,
+      "sha256": "1f0a2902a8b79b7454413a28dff4e068c2ff6a18464b217619354466a4d779ef"
+    },
+    "a1_example_011.wav": {
+      "bytes": 99116,
+      "sha256": "a58d377f2d8556e247e3ce0f21ab86e7865864d76d9fa9fcfdcf46ae7e8536bb"
+    },
+    "a1_example_012.wav": {
+      "bytes": 75052,
+      "sha256": "80aee4210f5f066e0f3e4de8402b0cc3fbd8c5c7ff354bbacb5b30bf8d62ff8f"
+    },
+    "a1_example_013.wav": {
+      "bytes": 92460,
+      "sha256": "54f70154657469e15c81f2c147c4d235c5b1448c38133fb3ed390ff469efab6f"
+    },
+    "a1_example_014.wav": {
+      "bytes": 88364,
+      "sha256": "975021d031709ccb1d3a799937e814e5df4589d4cd6e99c6cd4773b40668c385"
+    },
+    "a1_example_015.wav": {
+      "bytes": 90412,
+      "sha256": "5f689f21bb5cbd52e040228a660e0812817057c489bf0cf9dcca3ae5288579c7"
+    },
+    "a1_example_016.wav": {
+      "bytes": 84780,
+      "sha256": "c139be6b0a61241e610c12d45a0c4464a59b67e9aaff4e8fbff57630047acb78"
+    },
+    "a1_example_017.wav": {
+      "bytes": 86316,
+      "sha256": "af6a31229dbc70f15b9d8f0ee7b45c7284b1bfff4759f3009ce93ad7828ce28c"
+    },
+    "a1_example_018.wav": {
+      "bytes": 84268,
+      "sha256": "2a28c82ac7b1d60a0dbcc0a68119b4b09d43c2ddaded422f3965cca6a4cd3b48"
+    },
+    "a1_example_019.wav": {
+      "bytes": 58156,
+      "sha256": "3f076533406f13bb93b9225dd0ea7458c85d25bebf27fe8a5b6408fee8eb1e0b"
+    },
+    "a1_example_020.wav": {
+      "bytes": 114476,
+      "sha256": "2b70083ada8876e93325b6c7bc22889d2c9d8923b2393136322a4968bae3dc67"
+    },
+    "a1_example_021.wav": {
+      "bytes": 96556,
+      "sha256": "7c6957969b9ee122dc65e8f3b516f9eab00467e48c42c9d99b99c3f17c64432d"
+    },
+    "a1_example_022.wav": {
+      "bytes": 93484,
+      "sha256": "e5736f15da788caed908df2e1c43ae1cfbdf42dd2adbe8f72187c16d2f01e066"
+    },
+    "a1_example_023.wav": {
+      "bytes": 74540,
+      "sha256": "af80580318087b515f0e67b33261901372e719624662e05ef160864b9d596915"
+    },
+    "a1_example_024.wav": {
+      "bytes": 101676,
+      "sha256": "45682b06cb90d7aeed183409fa2a818e2150148395eb7a49eeb0fe491577dd24"
+    },
+    "a1_example_025.wav": {
+      "bytes": 97580,
+      "sha256": "98e2817fcd8857dee4e62484fb1694ad832f22bc6f3c6f5989abdf9357dda718"
+    },
+    "a1_example_026.wav": {
+      "bytes": 85804,
+      "sha256": "a985d3c9d4126de593d7e731e847aa56f4bf87fbc10fbdba9601c76ef579c28c"
+    },
+    "a1_example_027.wav": {
+      "bytes": 81196,
+      "sha256": "90445578085e0855ee9ce5f4c78b8c5ec1d7ff0ac188d0e817b6e65c5c512ed5"
+    },
+    "a1_example_028.wav": {
+      "bytes": 78636,
+      "sha256": "bde0ffcb132daace93da576a984df49eca4ec4f87b1f5ee846bf10a27f370edc"
+    },
+    "a1_example_029.wav": {
+      "bytes": 61740,
+      "sha256": "0f0d03dbec1dd8cba07dcc23640b8703684e0dcee1b5429810d14aeb2e0a31ff"
+    },
+    "a1_example_030.wav": {
+      "bytes": 79148,
+      "sha256": "e67de16fdb621af35fc860b27a2aa5bc0886bfd2906c27b6f4e6b41c30c76aba"
+    },
+    "a1_example_031.wav": {
+      "bytes": 101676,
+      "sha256": "da468b5baafd298073371a45686bc59863c1f947b4b430c210e4aeec39e6d451"
+    },
+    "a1_example_032.wav": {
+      "bytes": 89900,
+      "sha256": "8e6f954421e911772664406a108fc093e9b4bfb0688362ebc4cdcf6d2d0449d4"
+    },
+    "a1_example_033.wav": {
+      "bytes": 59180,
+      "sha256": "4fedb110da533ae1dc765bb5e53bf1ba9817390a1a27244764974144166af372"
+    },
+    "a1_example_034.wav": {
+      "bytes": 95020,
+      "sha256": "ec9f30336b7fceb568de096b43f436db0c77d3ef9e8bba4439c33f4b7dce159f"
+    },
+    "a1_example_035.wav": {
+      "bytes": 53036,
+      "sha256": "8e68e6114cae18c8ea55709cf911767a4c23d30d229d73a9d66f1e5779f9831d"
+    },
+    "a1_example_036.wav": {
+      "bytes": 85292,
+      "sha256": "ab2bea7ae147ae3136ffef9f5c2877abf419a99fd098ed2e0c711bfbe8d148ad"
+    },
+    "a1_example_037.wav": {
+      "bytes": 85292,
+      "sha256": "37578e5ebaa8f6b564241d429897772a9b38ab2969016bb96b0980d1e0438945"
+    },
+    "a1_example_038.wav": {
+      "bytes": 76588,
+      "sha256": "a5ecd761beaa7f16b4afd909e88a7eb0a45eb2ce32616cd1586644897b42f431"
+    },
+    "a1_example_039.wav": {
+      "bytes": 64812,
+      "sha256": "59687d8d94ab735b48bdeb3eefd3a520b3dc6ca194951cb955ca27a8bcd25d45"
+    },
+    "a1_example_040.wav": {
+      "bytes": 92460,
+      "sha256": "23e7ad1f1b59065d70b9cebcd66671f89084c48adcaa2ad1f13fc302e51e98d4"
+    },
+    "a1_example_041.wav": {
+      "bytes": 108844,
+      "sha256": "b26f7b6d2405f739e0e8b8b81ea567dcf9943bb15a18be81d13503b554815b41"
+    },
+    "a1_example_042.wav": {
+      "bytes": 70444,
+      "sha256": "e361287e02da4575cb58d3e9bdffd007ebbd2697c93ba79bed83f2dd3500885d"
+    },
+    "a1_example_043.wav": {
+      "bytes": 99628,
+      "sha256": "6425a68e3d58c2d7b2b20d9468792a85993b62d7e97f163e99c871e87a25ade7"
+    },
+    "a1_example_044.wav": {
+      "bytes": 73004,
+      "sha256": "f7959a92042c25bed8ed1a66fa07cec53bb8a13a9e538f47ced217e214dbebdf"
+    },
+    "a1_example_045.wav": {
+      "bytes": 67884,
+      "sha256": "9800613083103bcdb759518bb5fd5698aca47de08ec1d38c2cca5331b1e54abd"
+    },
+    "a1_example_046.wav": {
+      "bytes": 65324,
+      "sha256": "b461a63d4e242d037af2dda17e65533bbcb4329634f4ae6e8076efefd702af56"
+    },
+    "a1_example_047.wav": {
+      "bytes": 81196,
+      "sha256": "15752708e08ec031ea39d0fe4cc3a647da397c0df90ee5503f235f2a33ae0b17"
+    },
+    "a1_example_048.wav": {
+      "bytes": 76076,
+      "sha256": "1eaaa654989402e3aa49aa9576a5ad8ce1abe6006eb0662eade3200e5879d9b9"
+    },
+    "a1_example_049.wav": {
+      "bytes": 95020,
+      "sha256": "cf4ae00c6808471865efa2ec868c89d1bc4bda0e693899ec7fa5a326394ac6aa"
+    },
+    "a1_example_050.wav": {
+      "bytes": 86316,
+      "sha256": "bc87ed69a974c4393989c73c5c2d5135797106b6db6fb5aac577a29356a78494"
+    },
+    "a1_example_051.wav": {
+      "bytes": 92972,
+      "sha256": "abafae49cfea352a55ace5e7c81ddf8d16348de0278513cefb10f0bd25609b21"
+    },
+    "a1_example_052.wav": {
+      "bytes": 90412,
+      "sha256": "663b43cfef7e4373cd28c87c14262c68149df7650b2910aca0d54b1a2a029488"
+    },
+    "a1_example_053.wav": {
+      "bytes": 68396,
+      "sha256": "8987edc47eb97bb416f48b03790dafd9444f97beebdecf6869a36541a344684f"
+    },
+    "a1_example_054.wav": {
+      "bytes": 73004,
+      "sha256": "36ad277cd29853feb8aa59358c71ce3e9488716e5971a0385dd2b7a5471e5eb9"
+    },
+    "a1_example_055.wav": {
+      "bytes": 90412,
+      "sha256": "f3398fd31132c020454ec2735e75adeaededc48d46385373c20f90778deb4372"
+    },
+    "a1_example_056.wav": {
+      "bytes": 82732,
+      "sha256": "ec5f7d14825f49d1b61b842485ea32abd4ec6c0fb38a46af4ebe31e24304f89c"
+    },
+    "a1_example_057.wav": {
+      "bytes": 100140,
+      "sha256": "6c4ef4a78f59d70afcdf9594bd3c75c9acbaa263d1b04311de7bda25198b499b"
+    },
+    "a1_example_058.wav": {
+      "bytes": 104748,
+      "sha256": "68a956046e6a72f111b99747f89040d69f98fc2c72cda875339528c938a1fb16"
+    },
+    "a1_example_059.wav": {
+      "bytes": 101164,
+      "sha256": "0b991b3d22070a23bddb2a352def7635e6b124f1b79f360a79a03bce1619e9cb"
+    },
+    "a1_example_060.wav": {
+      "bytes": 78636,
+      "sha256": "bba92053a3244a362575df284eaee06db7bb0b5699883ebd136bd0a3f75be887"
+    },
+    "a1_example_061.wav": {
+      "bytes": 75564,
+      "sha256": "01ab55e514eeacc0410a3cfa32d76cdb02dd9131e131b14ef43053211d16cb7d"
+    },
+    "a1_example_062.wav": {
+      "bytes": 68396,
+      "sha256": "d1b669e2666f0166a403f780b443aef512fb96e5cf49a3e8e26055eda6dbdf6c"
+    },
+    "a1_example_063.wav": {
+      "bytes": 102188,
+      "sha256": "3bf9f101998f8f7f1df400c6ed51d6964770a7dd2cfb765f27f57e8ec03141c4"
+    },
+    "a1_example_064.wav": {
+      "bytes": 89388,
+      "sha256": "5937dc02c1957d23ef3c513877d442958bbc1f471c5572dd55beb894964043de"
+    },
+    "a1_example_065.wav": {
+      "bytes": 66348,
+      "sha256": "ff69765b8596a662c8505f8949b08fd67a97f2393065f2f6f8a98ccac6c928f3"
+    },
+    "a1_example_066.wav": {
+      "bytes": 69932,
+      "sha256": "c71001149366fe2684cf3cc8d96027d6cf5edce96d436378aa0854ab1fd7a7b9"
+    },
+    "a1_example_067.wav": {
+      "bytes": 112940,
+      "sha256": "9f979acef536c6cc2ffb2bc0aa227dd7a32a6b4c6b2c2779d8dfbc1dadbd45c0"
+    },
+    "a1_example_068.wav": {
+      "bytes": 83244,
+      "sha256": "000d73960302a5dad48b8bc24156a5392f4b382b608af64685a28645aa5fb863"
+    },
+    "a1_example_069.wav": {
+      "bytes": 55084,
+      "sha256": "2392f6bb7f2e5b61ed329837ecaac6ab6fa704cad1052ef501ef2257b45ce898"
+    },
+    "a1_example_070.wav": {
+      "bytes": 109356,
+      "sha256": "522f5a8211cb3e6e95379a2dbefc721c6414c8f59e46a1f25f344a71f4b821c7"
+    },
+    "a1_example_071.wav": {
+      "bytes": 86828,
+      "sha256": "cb9199edd67906762b9dd42bf433109e373ee1526cc789c694e05152b9190455"
+    },
+    "a1_example_072.wav": {
+      "bytes": 81196,
+      "sha256": "5e98afcb204bd535d7be92aa8e0eba4c0262edb3f5f5ae63f6135245bf505936"
+    },
+    "a1_example_073.wav": {
+      "bytes": 121132,
+      "sha256": "ff205ede5fd8f5b4210603e89dc8b50fe9f15f283fc534b4eab4644414a01ae2"
+    },
+    "a1_example_074.wav": {
+      "bytes": 101676,
+      "sha256": "18b2825a5e30680bdfc10d8687a6562cdc4ac52270ddaa5c40fed224b8aab540"
+    },
+    "a1_example_075.wav": {
+      "bytes": 68396,
+      "sha256": "3e36e2e1d1932d2c474aead5b16e1549df0e8e27dbbd05b4ce13e63ce1f28061"
+    },
+    "a1_example_076.wav": {
+      "bytes": 91948,
+      "sha256": "46fa39219ecfbb96e80691e66af04e7eef93c9e757aa803ce45bc059d0610217"
+    },
+    "a1_example_077.wav": {
+      "bytes": 79660,
+      "sha256": "f33793de78ffa277c27ebd46fa4ec5dce4d273e63a25b2af2a2f9ae55f3e2cd9"
+    },
+    "a1_example_078.wav": {
+      "bytes": 101164,
+      "sha256": "bc596e251495363fa7387867fa2179319f2fbcac1c7f34dec15e0c89d7b38d71"
+    },
+    "a1_example_079.wav": {
+      "bytes": 91948,
+      "sha256": "79cb634b03a50eae0501105c3196cf0a3ab7dcc86e501ef391d662d799024091"
+    },
+    "a1_example_080.wav": {
+      "bytes": 89900,
+      "sha256": "93692052b808d2474e3d8ccf060501d5f5530f980e42826c045dab5fc7e15cf1"
+    },
+    "a1_example_081.wav": {
+      "bytes": 78124,
+      "sha256": "16c198cb31397b884d062d9e12be4556b804d24c0536456ec795e2d13b08d1f4"
+    },
+    "a1_example_082.wav": {
+      "bytes": 89388,
+      "sha256": "c9464ac51e6786251e9c72f9fb982ec9853a6ccdc3064b0dc0890fa9b8f1718c"
+    },
+    "a1_example_083.wav": {
+      "bytes": 90412,
+      "sha256": "97cd5249503cc8df84d344d287e35ed07b1a88fbcb4e207857ecc47cb4524aa6"
+    },
+    "a1_example_084.wav": {
+      "bytes": 85292,
+      "sha256": "f65ae518db2890cf962ec53a0356fca6cc73d258975042da5e9393a2fcedeab7"
+    },
+    "a1_example_085.wav": {
+      "bytes": 80172,
+      "sha256": "9a4622577467e527d32246d21c1229d62cf8dad65ccc07e4b7c6f26a60353ef7"
+    },
+    "a1_example_086.wav": {
+      "bytes": 123692,
+      "sha256": "724ae4b31b0fc7f83a6859849affdfb2271602bccf1e7d227f5476b454ec1e74"
+    },
+    "a1_example_087.wav": {
+      "bytes": 98092,
+      "sha256": "0a68335cd4d623c6482ab28762a8a293396a14a4e014f7a4b3ee79c85ccac450"
+    },
+    "a1_example_088.wav": {
+      "bytes": 83244,
+      "sha256": "fafdd22bb84a180cb276a62414c63d2c4b12573038720b73aeb0a49b62cd74c4"
+    },
+    "a1_example_089.wav": {
+      "bytes": 89900,
+      "sha256": "61de859627c9ec32bfa14570b4e9d8d3b65601f0ccbcaf4c57de71df74e2115d"
+    },
+    "a1_example_090.wav": {
+      "bytes": 81196,
+      "sha256": "3669b138578ee46e5d3fee9690011bea7ee953c70180aeb1fae17daa548758a1"
+    },
+    "a1_example_091.wav": {
+      "bytes": 107308,
+      "sha256": "1bb18954bc48350047be8838b8119d4ac1735b6efea61d1868fa443a77e0421b"
+    },
+    "a1_example_092.wav": {
+      "bytes": 74540,
+      "sha256": "2f2df509a2882f4ab5f5a67241a9cc9bff2d57e91c7a164f5ce795239e6ddac6"
+    },
+    "a1_example_093.wav": {
+      "bytes": 100652,
+      "sha256": "cd025fdb52f75004333793c88df5305fda19ce4faa027ecb2c38ef87f6da5fae"
+    },
+    "a1_example_094.wav": {
+      "bytes": 141100,
+      "sha256": "b72dac163b1f9572398840065bd2ea38fff94773a3bf4f49968b2fccde20382b"
+    },
+    "a1_example_095.wav": {
+      "bytes": 89388,
+      "sha256": "a41c4c6e0f191d5ac2a1eabba2061759b7136ec8a548e2f9c0121ac0b0cac71a"
+    },
+    "a1_example_096.wav": {
+      "bytes": 67372,
+      "sha256": "3394b6af231d7394870fed2acff9845eb1b0146ce79c1e30f1bdb4880a6cd2b6"
+    },
+    "a1_example_097.wav": {
+      "bytes": 74540,
+      "sha256": "1d6a7f2f4abd0df88a4f6f8e66a09e33548a635d4fc649700009a8182ee2a709"
+    },
+    "a1_example_098.wav": {
+      "bytes": 64300,
+      "sha256": "480b7472a492b0f1e9ede3860f05e1c9589559da133717a95f10a1d1a918a3f9"
+    },
+    "a1_example_099.wav": {
+      "bytes": 51500,
+      "sha256": "fe3129b7ad406fd18b1bed24426d03c40eaf9dcabaa6737751c85bad7f598d00"
+    },
+    "a1_example_100.wav": {
+      "bytes": 104748,
+      "sha256": "1669fdf7b5c1d143492131c39337449a9edd9378cf56aa2fab0a631bc9f6b6dd"
+    },
+    "a1_example_102.wav": {
+      "bytes": 79660,
+      "sha256": "c223d0ff3c324d768bdefb17d02b331a04e4dd82253f92dcd880cba7d7fa724f"
+    },
+    "a1_example_103.wav": {
+      "bytes": 147756,
+      "sha256": "5d1966a3c7350c78259b2b94f1d81cf6bb1a18e376e9ae21576e63c497e2cef7"
+    },
+    "a1_example_104.wav": {
+      "bytes": 63788,
+      "sha256": "eab18c7d75039ca50be5f4930ac59789ef9d7938e4e126efcac851a3153f5b9d"
+    },
+    "a1_example_105.wav": {
+      "bytes": 89900,
+      "sha256": "b67a7da0c0c1cea549f8546c6bb397b28da7b51978d48daf6c34942c9bb53e4a"
+    },
+    "a1_example_106.wav": {
+      "bytes": 102188,
+      "sha256": "5aac21de87b978cc08eb40d877febc47b09d7f3e88a953641d9d9cf72e470826"
+    },
+    "a1_example_107.wav": {
+      "bytes": 58668,
+      "sha256": "8e79d9c929b84c036aff6596296f9681fba86b02952be2c45645c0024cc8f663"
+    },
+    "a1_example_108.wav": {
+      "bytes": 94508,
+      "sha256": "48b1e39dd35c36982123c1057f6466eb855ac4835ab022e31704143bcb5bbefa"
+    },
+    "a1_example_109.wav": {
+      "bytes": 67372,
+      "sha256": "26d34ec0971dfb74d9a94a086f8a1ded937f247d7075eae7076189ec7b74b742"
+    },
+    "a1_example_110.wav": {
+      "bytes": 77612,
+      "sha256": "d972f2327f51a22931b3a55373e69e7e01bc6b357791eb312fae80a6a0f9b031"
+    },
+    "a1_example_111.wav": {
+      "bytes": 93996,
+      "sha256": "1ba9ca5ae991141003bd78520569c7b3b9395529de9d3c2f173139a02b5aad44"
+    },
+    "a1_example_112.wav": {
+      "bytes": 93484,
+      "sha256": "349ece62ba40911b8acc93e791848c88ad1db2c83f30545fbc1ff65ccbbd7c6b"
+    },
+    "a1_example_113.wav": {
+      "bytes": 117548,
+      "sha256": "d34b7d24218810adbec6897b9b55fed90df70df6388c97d271d4f5330c1b4fd0"
+    },
+    "a1_example_114.wav": {
+      "bytes": 88364,
+      "sha256": "ab4458eb0c6be8a34cc71dade283614e6d231b0a06d1dc14b0506161c748e98f"
+    },
+    "a1_example_115.wav": {
+      "bytes": 58156,
+      "sha256": "6aafa423d3ec4549d4458e81b7da5e9264b728a6aeaaff0f0d3ace944c9b5f1c"
+    },
+    "a1_example_116.wav": {
+      "bytes": 53036,
+      "sha256": "22c0d72e17417be798a476a359290c7e14376b6a5bf55fcbfbc8e5d6f3833b6c"
+    },
+    "a1_example_117.wav": {
+      "bytes": 107308,
+      "sha256": "f966b8d0022cb1bd11604d3cbe669319e42ca21df1ea096fe71e37602b64af8b"
+    },
+    "a1_example_118.wav": {
+      "bytes": 96556,
+      "sha256": "54fd5de1992c765cb1673be29770e1cf413782c04334e0c5641eec5266e06a2d"
+    },
+    "a1_example_119.wav": {
+      "bytes": 68396,
+      "sha256": "e2d2763c6711d7bdf8ffcc340a9313b8b22a60ebfe493b23abeb2d690d628f4e"
+    },
+    "a1_example_120.wav": {
+      "bytes": 92460,
+      "sha256": "8fa0b1a7c62abb54bf41b64a69027b848de4213eac6f3aad532e7a53ee654674"
+    },
+    "a1_example_121.wav": {
+      "bytes": 86828,
+      "sha256": "d6104a17daa30ab765a6f55148e3b64382fe9fa5c3d4e25f06ee4934067c03d0"
+    },
+    "a1_example_122.wav": {
+      "bytes": 70956,
+      "sha256": "84a9fe923768458a4115384a110147a961fdc6aeca082d4fb6e2385399190e88"
+    },
+    "a1_text_001.wav": {
+      "bytes": 96044,
+      "sha256": "4635e21edaa346fdb96181d9d8f913af1b7fb76900e5d1ed9efd27742f16f32c"
+    },
+    "a1_text_002.wav": {
+      "bytes": 72492,
+      "sha256": "4529488b5ab0aaeeb75155e7e8b11e5525088ab0a8a2648350a80e5727f95cd3"
+    },
+    "a1_text_003.wav": {
+      "bytes": 128300,
+      "sha256": "afc1be052582e9f1f652ed5608df1ac5fe9b08fc3376fb11e87877b8f605df59"
+    },
+    "a1_text_004.wav": {
+      "bytes": 71468,
+      "sha256": "d8e5542938f36072a02d2b0c8ca65baede66d31341d38297b130334bfc1744e6"
+    },
+    "a1_text_005.wav": {
+      "bytes": 111404,
+      "sha256": "30e581d0855255fbc3dac2df746fb6bfe7c092be2fc6b81f2891e2e8b8650487"
+    },
+    "a1_text_006.wav": {
+      "bytes": 87340,
+      "sha256": "566ca659cf76b03cd0411fade4a0943e3daca34bd8aefa983fb9b39675886fc9"
+    },
+    "a1_text_008.wav": {
+      "bytes": 69420,
+      "sha256": "6c3c8141394ec12977e6a2fedf15c3d57db4ff291c6c9163466c7be143632c90"
+    },
+    "a1_text_009.wav": {
+      "bytes": 77612,
+      "sha256": "211af5861c9b1cc12cd06fe370b09afc125c9fdf838eb2a5add3cd063f19fb3f"
+    },
+    "a1_text_010.wav": {
+      "bytes": 78124,
+      "sha256": "4041726f67c2f420fcd1dc788f2892cc9acdde48f9fc7e0161bdd7f047e83b65"
+    },
+    "a1_text_011.wav": {
+      "bytes": 116524,
+      "sha256": "81900e4478eca88d7655a60b3cf6f2d522978011c2d68ccc3e27462fd10693a2"
+    },
+    "a1_text_012.wav": {
+      "bytes": 67884,
+      "sha256": "f00ebb568102d0492d369564f4cd56beecdcacae286645aa703f87e7d385a670"
+    },
+    "a1_text_013.wav": {
+      "bytes": 91436,
+      "sha256": "259a4ecb358c1bc2d3a98524bf00b53e199da9c60df478eb56dc3f93c397d658"
+    },
+    "a1_text_014.wav": {
+      "bytes": 96044,
+      "sha256": "b57cf0d75fb82bbdd666294328e941c92672e0276094fbe3e199e795dcf46fbd"
+    },
+    "a1_text_015.wav": {
+      "bytes": 68908,
+      "sha256": "57a307e5cb694a83c6d4cfe588b354b1fafa95547e938f95af3161a99e94e007"
+    },
+    "a1_text_016.wav": {
+      "bytes": 102188,
+      "sha256": "fcdb3390d3a07ef3b6c858d9daa0547bbeef228bb3efd4a0efeee6973d28bcc4"
+    },
+    "a1_text_017.wav": {
+      "bytes": 79660,
+      "sha256": "9ee3c04af6791169f388dd29f6759156669512cb66f9af4cd871c37566d6dfc3"
+    },
+    "a1_text_018.wav": {
+      "bytes": 80172,
+      "sha256": "dd6401da061a8a0ad53570da6ad939063a8bb5a2519b9bec662bb80310418632"
+    },
+    "a1_text_019.wav": {
+      "bytes": 64300,
+      "sha256": "c5cd2c1290b9f0f9366e7178ff7eb58cacf78de04f23f63aa10f3bb5e353ff5b"
+    },
+    "a1_text_020.wav": {
+      "bytes": 85292,
+      "sha256": "1195295b360d94bddf33802f109d72cf7afd58102ea4196a352f90fd1c045acb"
+    },
+    "a1_text_021.wav": {
+      "bytes": 70444,
+      "sha256": "3cf72e92c487564fa036d7ad891d9a1ff938434a31a49a45a596f034aeb33b41"
+    },
+    "a1_text_022.wav": {
+      "bytes": 96556,
+      "sha256": "307547cb6716072db60bb10216f081669dae8ed8ea5b257f1a254252cb240da5"
+    },
+    "a1_text_023.wav": {
+      "bytes": 79148,
+      "sha256": "b7921b5929dd60cfa2fd02c1ba08e61cebef9c783585e03c4cb9f2ad22932c11"
+    },
+    "a1_text_024.wav": {
+      "bytes": 73516,
+      "sha256": "b5bd5704f8cbba863d18a090cbd519e25543673dd4b1e8ff9252b846c4ef45d3"
+    },
+    "a1_text_025.wav": {
+      "bytes": 101164,
+      "sha256": "41bc1e870bff8e43669263d82420a40538a025a6f79472a25a3c19c3ce716c2e"
+    },
+    "a1_text_026.wav": {
+      "bytes": 71468,
+      "sha256": "8a09aea166f34444f207b3d1b6ce2fbc39fe1f3b6bf418e0b750b823b784dc17"
+    },
+    "a1_text_027.wav": {
+      "bytes": 52012,
+      "sha256": "c1f4616956532268b3e3ca88008b95ad0fb030316eccf691493dd76d7ac7c816"
+    },
+    "a1_text_028.wav": {
+      "bytes": 96556,
+      "sha256": "62a612857b6f8af9ba608bbb8a7a61ed06a491258fbfac34b82b031e92d594ea"
+    },
+    "a1_text_029.wav": {
+      "bytes": 83244,
+      "sha256": "7733caa86ec5212423f9fd6c3cf7281b6fb30f184f79c1249129138b310839f3"
+    },
+    "a1_text_030.wav": {
+      "bytes": 80684,
+      "sha256": "03c5d3c76f1ee952f96e89ea18c0c216b52e6b22067d15e6a904caac352938de"
+    },
+    "a1_text_031.wav": {
+      "bytes": 89388,
+      "sha256": "bc7a91797efd6bdd0c3ca7b6ce827a742bc70b5a4eae2a6050728b2eb1319663"
+    },
+    "a1_text_032.wav": {
+      "bytes": 92972,
+      "sha256": "c77961390b6d5f1ad15b15c61390a40f288bf19c02e3993671daee37750d9a8f"
+    },
+    "a1_text_033.wav": {
+      "bytes": 52012,
+      "sha256": "edd69443bc86a24c204366a694ae3b0c024188f3f78061432df341384caf873b"
+    },
+    "a1_text_034.wav": {
+      "bytes": 97068,
+      "sha256": "832a3939fd3130d5ab46f7bd00228b240a2993663ef8daa8eb43796947ede2e2"
+    },
+    "a1_text_035.wav": {
+      "bytes": 84268,
+      "sha256": "ec47624590ec0677e0d2040ca2bb50015096820c10ab87914975d62001353dde"
+    },
+    "a1_text_036.wav": {
+      "bytes": 65836,
+      "sha256": "927bbf02412ea225dc1f5a63ef38d41b34ef12d3b3c397a46b531f94ce277048"
+    },
+    "a1_text_037.wav": {
+      "bytes": 71980,
+      "sha256": "ca2bc7ad24b794aaa10630bf623b930ee10c0539a7324a1931b1562b63438065"
+    },
+    "a1_text_038.wav": {
+      "bytes": 84268,
+      "sha256": "db21416d7e05b8b7eea63add9bbd371552a6461bc3b87e0e8874bdba7171d578"
+    },
+    "a1_text_040.wav": {
+      "bytes": 71468,
+      "sha256": "90af44fdf00470dae23b7dc359a8f90e4244a20e839e5458277c6fed127ecfaf"
+    },
+    "a1_text_041.wav": {
+      "bytes": 62764,
+      "sha256": "359b7717208e9b69451691421bfc28f14cd7d475f58412d6b759b4c4da3d73ef"
+    },
+    "a1_text_042.wav": {
+      "bytes": 87340,
+      "sha256": "0a0e32702b32343a4c9c4a69e7eb4bbb5077fe45b55ee87d0e1a556ecb213ee6"
+    },
+    "a1_text_043.wav": {
+      "bytes": 103724,
+      "sha256": "1f56ae8cb14aa0dd7dd96a3ec2c5ca394e565b13d3c5eea05e726f204fe04c16"
+    },
+    "a1_text_044.wav": {
+      "bytes": 75564,
+      "sha256": "7dfecd44513d612ea9ed462701d22dad313ea4350722ab6790d5960f9258adc5"
+    },
+    "a1_text_045.wav": {
+      "bytes": 99116,
+      "sha256": "11f06d38933ded558dba946d280f2dde38ecac2c239a0ddf6c0bccaa40384f35"
+    },
+    "a1_text_046.wav": {
+      "bytes": 81196,
+      "sha256": "c85d9487863eafb95ffc5064c0f38537c481806275a3dd5408b6de3eeaafc31b"
+    },
+    "a1_text_047.wav": {
+      "bytes": 86828,
+      "sha256": "11a7dda90e56d6cea372ecef13805600ea3c454740b3aa6b8def98fc875afe42"
+    },
+    "a1_text_048.wav": {
+      "bytes": 66860,
+      "sha256": "2d4068022ffa38b06e88bb9063e6e5d7dca325d534e3476a4e91b179877e8b4f"
+    },
+    "a1_text_049.wav": {
+      "bytes": 93484,
+      "sha256": "ecf1f2c7c605c3ff0ced1db26bd8a7cb4aa80ee69696f17bee94a530d9a2cb75"
+    },
+    "a1_text_050.wav": {
+      "bytes": 75052,
+      "sha256": "55890c32c8ecefa23a3cddca971c239013740720649a44b06d24f6a0df7e979a"
+    },
+    "a1_text_052.wav": {
+      "bytes": 73516,
+      "sha256": "9ad58a01cf9349afbecf88ff6c6cbbfebf287013399a9d81e4d1d022b334cc5b"
+    },
+    "a1_text_054.wav": {
+      "bytes": 85804,
+      "sha256": "2eee7b791f7f5f8802adf71ebaacd89ee6d22df3d89c0e4b20829bb60647d860"
+    },
+    "a1_text_055.wav": {
+      "bytes": 112428,
+      "sha256": "fa736e96280444c4fb86e4fe3f8effd5baef1d4f013213ad77c87574dda00cbf"
+    },
+    "a1_text_056.wav": {
+      "bytes": 86828,
+      "sha256": "d5550f505a6d3ae9aa6cd9d27b0cd6b191847af6eeb0542f2c86dc68687cd5ed"
+    },
+    "a1_text_057.wav": {
+      "bytes": 93996,
+      "sha256": "990619528c757d65d750cb5709a6521c428fcc8e5a55eda04b807d680fc7c4fe"
+    },
+    "a1_text_058.wav": {
+      "bytes": 108844,
+      "sha256": "8e8653cc0aa89641551d5cb2633ce95ebf9ce4d243025e8854dc357245796753"
+    },
+    "a1_text_059.wav": {
+      "bytes": 84268,
+      "sha256": "88d0af3d9514a24bf22adf6716a9883a83e75d9e549427ee35b6894764c66a67"
+    },
+    "a1_text_060.wav": {
+      "bytes": 81708,
+      "sha256": "0eeb959889c0d224e3238b3e30fcd22f8948ae05b1e8bf7ad8d52a9065cf1d65"
+    },
+    "a1_text_061.wav": {
+      "bytes": 90412,
+      "sha256": "f4cf0834c9761253dd48717848b5c90c21f165492b5b820c689e056c324945e6"
+    },
+    "a1_text_062.wav": {
+      "bytes": 65836,
+      "sha256": "6bcf7c80567630b44eb713eee527a1dfc84ec296cf6d48b92f87b386b279c0c8"
+    },
+    "a1_text_063.wav": {
+      "bytes": 111404,
+      "sha256": "ab36f690369819243945494504f2535cd4d891d20439aa10e339fd3ccc6a69b0"
+    },
+    "a1_text_064.wav": {
+      "bytes": 94508,
+      "sha256": "9715760b1a29decc22613748687fcaf8865b6fc4cb63da42828e90df468fd709"
+    },
+    "a1_text_065.wav": {
+      "bytes": 79660,
+      "sha256": "9358990d6b837bff56aea43555fe76e0a8c7cd228a8d1b2b22bbaabfe1e58fd4"
+    },
+    "a1_text_066.wav": {
+      "bytes": 78124,
+      "sha256": "ee30efd4dd1525be7b49f38b561a17cd8685a9e6dc107fbacbdcf2cc7473373a"
+    },
+    "a1_text_067.wav": {
+      "bytes": 81196,
+      "sha256": "534cc0ec8984b8e2b9e1015faa0539ccafbdaf6b9309f621dc2103b21253f8a4"
+    },
+    "a1_text_068.wav": {
+      "bytes": 98092,
+      "sha256": "99dd079adb3281ee18b1b014e9a290b690c6541df9def51e89e4d50868730adf"
+    },
+    "a1_text_069.wav": {
+      "bytes": 81196,
+      "sha256": "f343c077075d739d344f8c82bfea1611c9160af6c534b6005fc88ee02783317a"
+    },
+    "a1_text_071.wav": {
+      "bytes": 85292,
+      "sha256": "b507cc6bf5e91a597522ffb633789365dd7815f29bb6cdcd4a08149410a036e3"
+    },
+    "a1_text_072.wav": {
+      "bytes": 67884,
+      "sha256": "ca1a5e3b73aacc4a79e48dcdb4f5d4db34a9650ffe7bd2674fa02839631d34a0"
+    },
+    "a1_text_073.wav": {
+      "bytes": 103212,
+      "sha256": "f145abfa7c16bc9787e16e667c500b8de42b0104ef7d5a4d9810b1c9e157c408"
+    },
+    "a1_text_074.wav": {
+      "bytes": 66860,
+      "sha256": "3aa0346b261ba17a1e674b28bfe1cfe522afde06f55809ef358f73410e4e1e33"
+    },
+    "a1_text_075.wav": {
+      "bytes": 101164,
+      "sha256": "1d7a1f1cf8fb6a7ded17b6d216757895b501fec2514341f9f241f0acb800bff4"
+    },
+    "a1_text_076.wav": {
+      "bytes": 75052,
+      "sha256": "f0d651b6b6bf3035a7317ce3bdbdc4a3212707d17ea294c2d34f2e7a84d7b5d8"
+    },
+    "a1_text_077.wav": {
+      "bytes": 78636,
+      "sha256": "03be78976e2962fbc70009c03bc13bd66bb52f7b4971d1b0430e62954a31cbf3"
+    },
+    "a1_text_078.wav": {
+      "bytes": 89388,
+      "sha256": "c4477bc4f3148b786c8648d15823e61826f5db7bab08032838cf05e72e530ae2"
+    },
+    "a1_text_079.wav": {
+      "bytes": 87852,
+      "sha256": "bdafe0783e4330ab56f1e8a1fae8d5bc18b59150811dffc243176a8a36f1f1f3"
+    },
+    "a1_text_080.wav": {
+      "bytes": 99628,
+      "sha256": "a20ab6e3cd6d4596a349743875d781b7a410884700f633fa713c11ea1523c0fb"
+    },
+    "a1_text_081.wav": {
+      "bytes": 67884,
+      "sha256": "9457d4a9dab482d5f11c84d75514344b90049bd8f70ec6151970482c4b1a7774"
+    },
+    "a1_text_082.wav": {
+      "bytes": 68908,
+      "sha256": "464fcd9d44b1f75771572c5be0ccaed48c23b1fd88500e5ab34a314daa11d555"
+    },
+    "a1_text_083.wav": {
+      "bytes": 79148,
+      "sha256": "943092f43e47fc707b0df88b864c2e3ae6f40ef3f2a8c1626240e997b1b193ef"
+    },
+    "a1_text_084.wav": {
+      "bytes": 83244,
+      "sha256": "5943f77bcd73bb712e265d4a16f5d5ad5e8b85b3045660f1554654b103204c3e"
+    },
+    "a1_text_085.wav": {
+      "bytes": 76588,
+      "sha256": "2bf96c7f2b4b39ba93e81cb954b3b5c7845828b86f36bf41d58d3c99f49b5bb5"
+    },
+    "a1_text_086.wav": {
+      "bytes": 96556,
+      "sha256": "a34654f314e8aec7e8a16555bc44ddec3d1561b99307dac683b0b8575b91937f"
+    },
+    "a1_text_087.wav": {
+      "bytes": 78636,
+      "sha256": "2ff175fb9c53ad5feae43205623920c97eaa2204ced8358ed8d150fad77495c6"
+    },
+    "a1_text_088.wav": {
+      "bytes": 69420,
+      "sha256": "8aa7af0d4c711f7d138bcd04bf935ec9465ee74cea1baf89990c48dc09f28e34"
+    },
+    "a1_text_089.wav": {
+      "bytes": 67372,
+      "sha256": "232d8aecf902e9e3813619b44787e015ba589bea06f1f47b711e0c6ef407b285"
+    },
+    "a1_text_090.wav": {
+      "bytes": 80172,
+      "sha256": "8d78e5979ce5c1d2852d1ba15c1b52af1f7acf58ab2d54129e9049c8ba16014c"
+    },
+    "a1_text_091.wav": {
+      "bytes": 98092,
+      "sha256": "051e7dc24c242eafbdb301097f44958cedc03e09714db00a1340caf13fd8237a"
+    },
+    "a1_text_092.wav": {
+      "bytes": 65836,
+      "sha256": "cb8363de2a415df354d2b8d6cad22a3fb6735c4d73663b61a4c77d19ec49bd67"
+    },
+    "a1_text_093.wav": {
+      "bytes": 81196,
+      "sha256": "67164f596f15cc4faeb6aa359483a6197071c5f8258ba477b8916cca7ead2b66"
+    },
+    "a1_text_094.wav": {
+      "bytes": 70444,
+      "sha256": "a45bc5e6aa0168e3e3825271a23d13befbc10770fa97fe1bbcf8007f535c7269"
+    },
+    "a1_text_095.wav": {
+      "bytes": 71980,
+      "sha256": "86cc42daac6cd0fee8873c1bb3f1d5d4aa6e68a436f2add470d2394a36202034"
+    },
+    "a1_text_096.wav": {
+      "bytes": 78636,
+      "sha256": "e64341abab1ef2bd4c198e74cd6614cc6f75ededa545efc25206c9856389d4b1"
+    },
+    "a1_text_097.wav": {
+      "bytes": 75564,
+      "sha256": "526e5635c28a1f8c95d8c55e3a248def01a14abfc9482cdbdb45d6073f0fbf5d"
+    },
+    "a1_word_001.wav": {
+      "bytes": 52012,
+      "sha256": "4e885e7189dbb9aa4e21dc32fe6f4a3231a0c78d1525fa294a41e016459c88ea"
+    },
+    "a1_word_002.wav": {
+      "bytes": 49964,
+      "sha256": "53bb79683a4103c1cf7c7fc420dcb565e1c79cfb6958fb2afe5c473d7163a79e"
+    },
+    "a1_word_003.wav": {
+      "bytes": 41260,
+      "sha256": "f01c98f871dc472173b9b95c838d27dccb335fa0b534dd8444963c7a56364515"
+    },
+    "a1_word_004.wav": {
+      "bytes": 32044,
+      "sha256": "af9cf95ae0329efff95d9c0ff8f78f79a90b2bd6a79aae940d43777c8dc56aa2"
+    },
+    "a1_word_005.wav": {
+      "bytes": 68908,
+      "sha256": "2c51879037effe5becb0de19d9fc6c0e38955ff46e69e2857068d654373c8841"
+    },
+    "a1_word_006.wav": {
+      "bytes": 31532,
+      "sha256": "5392b46727896d622586f75cb3ff8ab3cfb0a5db5c8be66686e99d73bf34f50e"
+    },
+    "a1_word_007.wav": {
+      "bytes": 48940,
+      "sha256": "8973b80a7389000f1a54707c95312bb0819d07b17a9f954f295220041d4165db"
+    },
+    "a1_word_008.wav": {
+      "bytes": 60204,
+      "sha256": "8c456b6293bf7c3caec5d82f9ec6c865e9d91dc32df1e994193e09891632b94a"
+    },
+    "a1_word_009.wav": {
+      "bytes": 44332,
+      "sha256": "7c4524bbedb20564dc64c28e76f39fdcb1c5a772f403618bd06562df562273f7"
+    },
+    "a1_word_010.wav": {
+      "bytes": 47916,
+      "sha256": "fb4df11bb0671a2019d0d22835d8dd532641094fc27a71e54ee48144d9fc8432"
+    },
+    "a1_word_011.wav": {
+      "bytes": 38188,
+      "sha256": "3a3bd222de569342f8aa9450a72fcd0f16d8ee09201591393eeceb3d7af3b5e6"
+    },
+    "a1_word_012.wav": {
+      "bytes": 33580,
+      "sha256": "57fb84340b121b7c2d6f79571e6cd9400a559d9deae0776eb0def9e819632c85"
+    },
+    "a1_word_013.wav": {
+      "bytes": 35628,
+      "sha256": "ee1d270791ffc64d698b0d548bc5e36eef067e66a7abb36aa5764a755ea75b89"
+    },
+    "a1_word_014.wav": {
+      "bytes": 45868,
+      "sha256": "096ba0682ea1c94994a2021e9fb2f6f2cc90ca6f14c495329109482ecd8987ba"
+    },
+    "a1_word_015.wav": {
+      "bytes": 44844,
+      "sha256": "23e9e50b79fb538b6dd8cea07a84f7b575780308ffb90f95cdd1f5ef52a9d745"
+    },
+    "a1_word_016.wav": {
+      "bytes": 49452,
+      "sha256": "b761782bb70515879d1fb550ae8af98176b9c110a30575cfa20818886360a28e"
+    },
+    "a1_word_017.wav": {
+      "bytes": 55596,
+      "sha256": "715cf771856d48e50faca380a43a43464e078a44725cddcc01294170aab423ec"
+    },
+    "a1_word_018.wav": {
+      "bytes": 32044,
+      "sha256": "49b9e8315bd34836422b569239df9090102ff8b68d9b15d11487bc7766cb96dd"
+    },
+    "a1_word_019.wav": {
+      "bytes": 37676,
+      "sha256": "b3f8fad827fff63bf03bbbcfd5a4b5ba7ec4dab284feed60312b1dc65a527429"
+    },
+    "a1_word_020.wav": {
+      "bytes": 43820,
+      "sha256": "a1bbefd4a9cd19052ad93fd027c48c58cad81d60931fddcbd1006008e220ced5"
+    },
+    "a1_word_021.wav": {
+      "bytes": 54572,
+      "sha256": "6876c253b5f1883983f66f707649d1a359c833386a56888738f0f5ecc42be60b"
+    },
+    "a1_word_022.wav": {
+      "bytes": 52524,
+      "sha256": "abbc800d1bfd001bc229e13be05bb10007dffc542cedf82ce6b1d3d8cf8f1211"
+    },
+    "a1_word_023.wav": {
+      "bytes": 38700,
+      "sha256": "99f9aacc973673e04df270b616d0b0094becb8631791fcacaf01385e76c7053c"
+    },
+    "a1_word_024.wav": {
+      "bytes": 46892,
+      "sha256": "db287c16cee0bde380419757b22a25f1b9ac4e2f67530fa6e41bf975c3d705dc"
+    },
+    "a1_word_025.wav": {
+      "bytes": 42284,
+      "sha256": "275e89bffcc6544faa12abf843ed5798e6f2e3a12823f98f771608bae30d60c7"
+    },
+    "a1_word_026.wav": {
+      "bytes": 40748,
+      "sha256": "1b778780b15408edcd9a907d595bf8c6bee67f2682cc46941a48d929d05e395f"
+    },
+    "a1_word_027.wav": {
+      "bytes": 31532,
+      "sha256": "3cf52b03d29cbcd0a110a4e33088b4a57790acf4f6ee0442b82aa7a04c31f2e7"
+    },
+    "a1_word_028.wav": {
+      "bytes": 41772,
+      "sha256": "99e6d6605565711768bcbf0ab9de1592bb881d5634a0e1a1a9023948597736b8"
+    },
+    "a1_word_029.wav": {
+      "bytes": 44844,
+      "sha256": "6463c618e5e6a32cbf41b171d4948c1c8b5fc158e55a86978d481ac0a52356d1"
+    },
+    "a1_word_030.wav": {
+      "bytes": 42284,
+      "sha256": "18ed2e5f314ceeee159ecbe7cd68468dd066da6516be09c7c22086636db6e253"
+    },
+    "a1_word_031.wav": {
+      "bytes": 46380,
+      "sha256": "0a7fc73218e3d78e15c11058743bb489d3856e34a54f0629b1e79a908ad00944"
+    },
+    "a1_word_032.wav": {
+      "bytes": 59692,
+      "sha256": "361ec43fb924dba77b61d5af7c829e43ad67ed04b458c431da21822026e846cc"
+    },
+    "a1_word_033.wav": {
+      "bytes": 59692,
+      "sha256": "7506bba9c49ec08f2cb911aa2198ddb532bd489a0fcfdd182f806e301c32a1f3"
+    },
+    "a1_word_034.wav": {
+      "bytes": 41772,
+      "sha256": "70a10e838da444ea20fe21c770e792c531b7780906c983bae044880e931b3e73"
+    },
+    "a1_word_035.wav": {
+      "bytes": 36652,
+      "sha256": "0218c68f581e5081bda97ffb7514ff17cf4310c288810be92f887ddfc4a90857"
+    },
+    "a1_word_036.wav": {
+      "bytes": 38188,
+      "sha256": "4d24c98fb53e96ae0cc4d0535c3dc4a15b8a8870aa97d4316bad94363b4fdc38"
+    },
+    "a1_word_037.wav": {
+      "bytes": 69420,
+      "sha256": "f6e97b9184a8e553ac10e36a7161bca8af2b547f7780a3973941626e78df6810"
+    },
+    "a1_word_038.wav": {
+      "bytes": 43308,
+      "sha256": "5d8e1a69342131db3f7eebf16ede68a1b62eab901a15b3de2149848eb41fe51f"
+    },
+    "a1_word_039.wav": {
+      "bytes": 38188,
+      "sha256": "f05324d16ce42ed7286abb5cc143b626a0feebda5089e33077eb4557bdec7477"
+    },
+    "a1_word_040.wav": {
+      "bytes": 58668,
+      "sha256": "73eec3c1a9dfd90005aa260524adfe4e5b7f8b3272d61ec969ab24c7386ae8b0"
+    },
+    "a1_word_044.wav": {
+      "bytes": 44332,
+      "sha256": "d6f60974a51d612dfc22dbe13839c41a12381470fd305c66163b5b3bc1daba26"
+    },
+    "a1_word_045.wav": {
+      "bytes": 42284,
+      "sha256": "7c1377a12a1080a76384a39359541618ad92f62da14607179037906dafde9263"
+    },
+    "a1_word_046.wav": {
+      "bytes": 46380,
+      "sha256": "3d2a1475fa43430c042c7a244c0db3e9aa5d3fdc86321d2222638553d67ec3ae"
+    },
+    "a1_word_047.wav": {
+      "bytes": 53036,
+      "sha256": "8f2c7d8020ace7c4fc24ccc1ec5ca7af9e2c4337901d0c0cd0e021a926a69320"
+    },
+    "a1_word_048.wav": {
+      "bytes": 36140,
+      "sha256": "4f604904c041c4342dd9e9f30941d586158f85f5f272bc00f48475c489849673"
+    },
+    "a1_word_049.wav": {
+      "bytes": 46380,
+      "sha256": "545e69754d11a23c5c1f9fe71c4c7461fc445271945944cea90fa3a4a4f74e4d"
+    },
+    "a1_word_050.wav": {
+      "bytes": 41772,
+      "sha256": "fa5ba3a4a90f9775e5237add8842c504cd57687a1aaae24d386edbe38659e956"
+    },
+    "a1_word_051.wav": {
+      "bytes": 34092,
+      "sha256": "bb05a5ce2e615021b8194a6ca0eab8012a766674f9a5b33ff1fd0c4824aac859"
+    },
+    "a1_word_052.wav": {
+      "bytes": 56108,
+      "sha256": "b2d10acbed48ce6463e7bd4fb38e37bf39a680f531fe75846fdc836c8f90b2a0"
+    },
+    "a1_word_053.wav": {
+      "bytes": 38188,
+      "sha256": "14daa05823ad77921ae61ad0619df9f8ff94562b7598f188a3168ac118ebb033"
+    },
+    "a1_word_054.wav": {
+      "bytes": 43308,
+      "sha256": "990541ff69df5eba0a61a16c71b193c966c89617dee475aec1a0e7d7011c3733"
+    },
+    "a1_word_055.wav": {
+      "bytes": 46892,
+      "sha256": "3d1fb803cfdbf481fc6f6f746ff4b6c517f41e4037d37f1a96e7eee82a8f0c8a"
+    },
+    "a1_word_058.wav": {
+      "bytes": 32556,
+      "sha256": "41db8458c7b58ef3446678673666444dde25fd7a0ccd17cc9a8a756a03aca52c"
+    },
+    "a1_word_059.wav": {
+      "bytes": 46892,
+      "sha256": "0f407c2cdda4ad1688122694407c96c1e730a05a437cba9e44ad9a5cbab43e66"
+    },
+    "a1_word_060.wav": {
+      "bytes": 37164,
+      "sha256": "6906b759eb2a16fd6ea07e18517f90abf1f435d514a1054020769c09cbed273d"
+    },
+    "a1_word_061.wav": {
+      "bytes": 41772,
+      "sha256": "c53c35eb09247d01a7644a371128f22c2481f9c7e970bd6959e6fad657f7d7a3"
+    },
+    "a1_word_062.wav": {
+      "bytes": 31020,
+      "sha256": "fc58ced6556473cf3db48130ef2dfaf54f8f4f1c1d7d46088518346521a9565a"
+    },
+    "a1_word_063.wav": {
+      "bytes": 28972,
+      "sha256": "91b12e3d0164f0108c9cb169917502f04dcae8b4290f81087be460ee45a6fca1"
+    },
+    "a1_word_064.wav": {
+      "bytes": 50988,
+      "sha256": "0ec0d908942d728956a072295459e8407380beca645c239b67bb3285a838d2c3"
+    },
+    "a1_word_065.wav": {
+      "bytes": 33580,
+      "sha256": "9c9493065a74d814f291c5e440bb5a551f40bee45e3100bc0df47988010a6e42"
+    },
+    "a1_word_066.wav": {
+      "bytes": 53548,
+      "sha256": "c2f678f92a664bb4ab74c2730e13680d3d9201cfdade0ff7c89f92dd18691419"
+    },
+    "a1_word_067.wav": {
+      "bytes": 41772,
+      "sha256": "e38302f8ec6be6c3bdef88069aca4c7f6515a946d68a683257c4240abed7a0d0"
+    },
+    "a1_word_068.wav": {
+      "bytes": 37676,
+      "sha256": "ddcb1fd5e4bf8677e5eb5ef6308ff21a98b210ecc09368562591761075de320d"
+    },
+    "a1_word_069.wav": {
+      "bytes": 38700,
+      "sha256": "733a338b7e09ddf6e2b6c2f166aefa90cd26bcb152152a194d0f563b02d90812"
+    },
+    "a1_word_070.wav": {
+      "bytes": 35116,
+      "sha256": "d2f37a19e624933309dacccbe8c9ddfce869dbbfb92af21fe77b4aa715e65d80"
+    },
+    "a1_word_072.wav": {
+      "bytes": 65836,
+      "sha256": "5d75391d9cb9c273662092e4601499f15574c704e4147c1862e6abe444ed482e"
+    },
+    "a1_word_073.wav": {
+      "bytes": 42284,
+      "sha256": "18a4575fcc88932c839afecb20f4589f775b1ad16e98b95ad6620af874ce2c63"
+    },
+    "a1_word_074.wav": {
+      "bytes": 81196,
+      "sha256": "ab935e5d8331e483b84c66b6f61a49d5ed4206e9cb6f6b656c95ac01b94a2a01"
+    },
+    "a1_word_076.wav": {
+      "bytes": 29996,
+      "sha256": "511d369ae32273fda85bfcd425eac1eb7475d61366da1ed6b541c298eb661ffa"
+    },
+    "a1_word_077.wav": {
+      "bytes": 57132,
+      "sha256": "180b5ae633bbfb0eb8d89638595a3521024575023fbab7437a76265140b7dbf3"
+    },
+    "a1_word_078.wav": {
+      "bytes": 41772,
+      "sha256": "c3fc7951c21d75b98901c663a68258baf5d244db99fe8f601eb1a933a5e423a0"
+    },
+    "a1_word_079.wav": {
+      "bytes": 36140,
+      "sha256": "d258f5925a7337372def0045789ea22bd23e34fd36d7bc43aac6dcf3e63232a2"
+    },
+    "a1_word_080.wav": {
+      "bytes": 45868,
+      "sha256": "083d5b63c4956aa6405da3fbb2ffb916b6b9715488acb2fb524acceca71c568e"
+    },
+    "a1_word_081.wav": {
+      "bytes": 48940,
+      "sha256": "b00990e85d6b3497945c63bb51a3c8d50ff1e35f285fe527a75119e8976e2bc9"
+    },
+    "a1_word_082.wav": {
+      "bytes": 43820,
+      "sha256": "b33a5a8de49c8807036ffe7abd5cdb72a5b1e2f0cb4eaadfae4f9783f3f50b0a"
+    },
+    "a1_word_083.wav": {
+      "bytes": 70956,
+      "sha256": "b4b44deb1fe8da2fedd006fea685a9e23f031f0cfcb52a17f920c86287597d2e"
+    },
+    "a1_word_084.wav": {
+      "bytes": 57644,
+      "sha256": "251a8e5c27b72de0ae308baed4a1cee000a63d083b383d405b577c6c3663073c"
+    },
+    "a1_word_085.wav": {
+      "bytes": 56620,
+      "sha256": "8a2a42d5a8f898bddb2db9e5273a6c2c8295a7dfd05a43ba6067cf6b44b9dbce"
+    },
+    "a1_word_086.wav": {
+      "bytes": 34092,
+      "sha256": "c9445a5ec2e197999a5a158f92662e25a8e67f4536ff3012df58ed1b73a017f6"
+    },
+    "a1_word_087.wav": {
+      "bytes": 40748,
+      "sha256": "399328805a4f00c284e9250a1881155706eca0fedbcc5fdf30e46683c56ebf28"
+    },
+    "a1_word_089.wav": {
+      "bytes": 46892,
+      "sha256": "f993e2c59a4d26162bc1888750dcd5c048d1d1b91e30f71451d16915ea69c08b"
+    },
+    "a1_word_090.wav": {
+      "bytes": 31020,
+      "sha256": "e58e6467fe2a7b8ed6946e9470c346882532d15eb6df83f5247147ff4aba881d"
+    },
+    "a1_word_091.wav": {
+      "bytes": 49452,
+      "sha256": "d7e12e0f0a9e32684bf8761bb04b9d9d4475e3069e8fa33515320884205917b1"
+    },
+    "a1_word_092.wav": {
+      "bytes": 40748,
+      "sha256": "342a2be7be12e7c4d98635d4d659ab8abd76e21c3e0ba5f5d4ebf3479983eaea"
+    },
+    "a1_word_093.wav": {
+      "bytes": 49452,
+      "sha256": "12e284e37cb171cfaebef32679c4a7cdb4e655b942dfd702fef6ed78a4ca74b0"
+    },
+    "a1_word_094.wav": {
+      "bytes": 61228,
+      "sha256": "27d62f4ac88db5ce6f8b7b735e299e86d727f0bdac11e8330234843d4be0516d"
+    },
+    "a1_word_095.wav": {
+      "bytes": 36140,
+      "sha256": "71da42f9a9f49ceb28a372a87f3e41b72c8c7a823c4d37d82fa3d3e9ee870174"
+    },
+    "a1_word_096.wav": {
+      "bytes": 25900,
+      "sha256": "a0ece212db2dfd953c1640611c7c388d89a6c4b8f16b5284205f2b0795bf0154"
+    },
+    "a1_word_097.wav": {
+      "bytes": 87852,
+      "sha256": "e4df6bae9c1604f2f4c39480d89c8290153e792af8da1ec3f84840cd1f594378"
+    },
+    "a1_word_098.wav": {
+      "bytes": 36140,
+      "sha256": "7bdbfb99241aa2890d9075b5f2c9e340468a2dcd282a179ef5f429f33f7e3c11"
+    },
+    "a1_word_099.wav": {
+      "bytes": 41772,
+      "sha256": "3b81109276aff00198c44c4c450031ff5276bfe0d9ad2286375f4ad3de89c8c6"
+    },
+    "a1_word_100.wav": {
+      "bytes": 44332,
+      "sha256": "6ba94ae289e0aae28ef1fcfb5dc8bd490427c4a0d0dfa4a41177a5049bb3af13"
+    },
+    "a1_word_101.wav": {
+      "bytes": 66348,
+      "sha256": "60234597c2ccb09d625bd5b61d4560baa2926b0f159acd67afc790cbef3c938d"
+    },
+    "a1_word_102.wav": {
+      "bytes": 48940,
+      "sha256": "138550687cb01e5314338587cd455d853d21e504a563be0f7186ef3aaf404a85"
+    },
+    "a1_word_103.wav": {
+      "bytes": 49964,
+      "sha256": "3ed6c5d397e58bc7618deee884539f69c6710c85192865142c22253289d622f5"
+    },
+    "a1_word_104.wav": {
+      "bytes": 64300,
+      "sha256": "acb80f43c03570f502caebfb1b9a54bee504ad44dcb8c3f104fb9e38a72d0899"
+    },
+    "a1_word_105.wav": {
+      "bytes": 34604,
+      "sha256": "ae524a3c2393041c2e04a91ab42f35f41420823e7f6d758b093682aa861da8e6"
+    },
+    "a1_word_106.wav": {
+      "bytes": 32044,
+      "sha256": "a35723771066b6e57563a238361eaec28f933b7daef2af711364056c10e6e4a2"
+    },
+    "a1_word_107.wav": {
+      "bytes": 50476,
+      "sha256": "e21891fba09f5bb8fd73b90d66f5c896544dfbf382c9c8576986bb942de40978"
+    },
+    "a1_word_108.wav": {
+      "bytes": 45868,
+      "sha256": "78d2fe639067c890c156096b0cc60614af69db128176f17b331a30a2bfbaf897"
+    },
+    "a1_word_109.wav": {
+      "bytes": 33580,
+      "sha256": "8f49b9b670312d5ada2672ecacf5fef33bcff3ce3eaa7c726edfc60a6163fca1"
+    },
+    "a1_word_110.wav": {
+      "bytes": 43308,
+      "sha256": "33a8794e0b9ee0af84437b216260da5e0c0add187520ed3f39c3f4c048e137cb"
+    },
+    "a1_word_111.wav": {
+      "bytes": 33580,
+      "sha256": "7e2d42d51441bb9e5eed44658c36c99cf2e53e8e60d99c2c4837c401de8129bc"
+    },
+    "a1_word_112.wav": {
+      "bytes": 42284,
+      "sha256": "6406cea41163f405233dc877cf3cea174e1afac491ed4fa4b115bb20e723588c"
+    },
+    "a1_word_113.wav": {
+      "bytes": 45868,
+      "sha256": "62d826a85e6d4ac00147033cc5e69341e1de6f87948f707e4ff1b1b955d3145f"
+    },
+    "a1_word_114.wav": {
+      "bytes": 59180,
+      "sha256": "5970d2e10d6961292cc8b19f3086b8669712cf0584c6c98e2b2ab411ed1bc979"
+    },
+    "a1_word_115.wav": {
+      "bytes": 31532,
+      "sha256": "b2ba7b8697994d01dd4b7c58332665be7da65d72b148758c39d04f9533a9afef"
+    },
+    "a1_word_116.wav": {
+      "bytes": 31532,
+      "sha256": "c0e5d676308cca097c50aa151d4387b51be1ce2646da70538a9ab59f5e5ba443"
+    },
+    "a1_word_117.wav": {
+      "bytes": 74028,
+      "sha256": "96dce4c0c2a6a9d81ed85371fbe2f88d5b0a80dd792883e40db612743adb732c"
+    },
+    "a1_word_118.wav": {
+      "bytes": 51500,
+      "sha256": "827581f294c82432661b21539170fc625fddf5e8c4030b09583e768957689dd4"
+    },
+    "a1_word_119.wav": {
+      "bytes": 49452,
+      "sha256": "c0008166ddab3c21ac48a58841f7f9534806cb9096848ac41343e8bf347431b8"
+    },
+    "a1_word_120.wav": {
+      "bytes": 44844,
+      "sha256": "29d9939f23d9981af4a7ba9b4fcddd233825a30bf79541cb80fa5d6b051eaf0b"
+    },
+    "a1_word_122.wav": {
+      "bytes": 42796,
+      "sha256": "6566b17af2a548e3738b3e267bedf9d24b484e566c1739e8ccdedbe74b94e892"
+    },
+    "a1_word_123.wav": {
+      "bytes": 47404,
+      "sha256": "a3288dcba488b3291f1b84acfd05143c5c08155e8a94dc19376b78a2ef1a1cce"
+    },
+    "a1_word_124.wav": {
+      "bytes": 43820,
+      "sha256": "c03df9bc502d7d41c9f3fdcc45b6dd3d6cd767519bc0222d9e21ea4933804d9a"
+    },
+    "a1_word_125.wav": {
+      "bytes": 46380,
+      "sha256": "3e0340fc82b4f0e168e5e6216f18f781e1f12b79f06341a2b4bdefc51f5d1fcd"
+    },
+    "a1_word_127.wav": {
+      "bytes": 50988,
+      "sha256": "b11e5ea488141c43b81213f5f4096ed80ac7c4d74b13aa5414313fa40b372ee4"
+    },
+    "a1_word_128.wav": {
+      "bytes": 85804,
+      "sha256": "8a233597131429f5f6b98754f94bd716d50fcc2b20fec9bddc8be94aa92566ec"
+    },
+    "a1_word_129.wav": {
+      "bytes": 45868,
+      "sha256": "fa991b8a6b7549d27712cf43bb5112f447e2578bd585f983260f7a7a9e493e63"
+    },
+    "a1_word_130.wav": {
+      "bytes": 46892,
+      "sha256": "999d02fd4d5bdfa645314c67267e6af158e614f1624b86b2473d774320e49c2e"
+    },
+    "a1_word_131.wav": {
+      "bytes": 46892,
+      "sha256": "c2dbf7d421830c893b66ab7dd25aa1b3c2d2d13cc74b50e3b5d12f54e90d14b2"
+    },
+    "a1_word_132.wav": {
+      "bytes": 27436,
+      "sha256": "2983a740dde717eacef22a5cc03e0319acab81ce1a85e23f0d221727b2801b3d"
+    },
+    "a1_word_133.wav": {
+      "bytes": 41772,
+      "sha256": "d2ccda21f0b8255d2afa3abb013a336114c0ef8de7f7f756008b02fed9ae875d"
+    },
+    "a1_word_134.wav": {
+      "bytes": 49452,
+      "sha256": "fb9244392b1a15d5f3f42f3bf25c998e7fbc5940f4bc85f4d4e7911ee7a72ed4"
+    },
+    "a1_word_135.wav": {
+      "bytes": 12588,
+      "sha256": "3a06379d4bd98bf184e11fac81d645e1430172fa2143532e4a81ffac311388bf"
+    },
+    "a1_word_136.wav": {
+      "bytes": 87340,
+      "sha256": "76a0066635f042697f73169911d750c416394fe755d8888b1e5933e2b2187799"
+    },
+    "a1_word_137.wav": {
+      "bytes": 56620,
+      "sha256": "d22b859d2e2cbd29e1f519328739fe3e8c202e5aae9d0eb52ccbd07fe3628700"
+    },
+    "a1_word_138.wav": {
+      "bytes": 54060,
+      "sha256": "bf904666b6d58c69849177201b0880b60994d71ac5d5cfcea8e7ee3f0ce636bd"
+    },
+    "a1_word_139.wav": {
+      "bytes": 48428,
+      "sha256": "5ede76cdde9b1aa1d8db970fc6c4dc6f9f93084d0a014a3ac7ca79a03ad9e03a"
+    },
+    "a1_word_140.wav": {
+      "bytes": 50476,
+      "sha256": "f30b6d4152c5d9a0eb576531522007ba0a3767e50a1ebc14365b4fc65d9822a6"
+    },
+    "a1_word_141.wav": {
+      "bytes": 42284,
+      "sha256": "d4ec013b99c168671b292a617f18b94749504ca10e5d31251ac7dee9b5c9a9b5"
+    },
+    "a1_word_142.wav": {
+      "bytes": 36140,
+      "sha256": "47dc824327e55fcccec39a09034180b73ba2407cc47b1fe372c66d8c51419854"
+    },
+    "a1_word_143.wav": {
+      "bytes": 39212,
+      "sha256": "178327def9c965ea95380e1c4825b01d8d2e3c888dad7ca39dc028ced5d3174c"
+    },
+    "a1_word_144.wav": {
+      "bytes": 37164,
+      "sha256": "96174a470e93dfde6e5b067bd1cd3ff1fb454d5298f60a7e8d2341850ba0e8f9"
+    },
+    "a1_word_145.wav": {
+      "bytes": 38700,
+      "sha256": "e097edf65918074ba2a645430787930fdb4feb26ad323040e6df6971f64b6840"
+    },
+    "a1_word_146.wav": {
+      "bytes": 23852,
+      "sha256": "34e092bbb2b9e1256dc2cd354ada9bf7fb5099d3710110cf5f73f36e57e67851"
+    },
+    "a1_word_147.wav": {
+      "bytes": 53036,
+      "sha256": "44fbd30da6a54b70f3d3c4df70f2d2c96764e50d7304980d7755c28310d09094"
+    },
+    "a1_word_148.wav": {
+      "bytes": 38188,
+      "sha256": "b61b85cfb7fb3ca000f913a4faaa5962b34689ba6b0ed91f3d7254568d79d323"
+    },
+    "a1_word_149.wav": {
+      "bytes": 46380,
+      "sha256": "415eca803988a77008cc8faf327ccdd98f2f3d5a7fd50e65d1aae62f5a1a4538"
+    },
+    "a1_word_150.wav": {
+      "bytes": 43820,
+      "sha256": "dda45e005c59f7a86bab9ed92cc24f6f2da094789c27d3ba40eee6f6eaeaa5f4"
+    },
+    "a1_word_151.wav": {
+      "bytes": 29484,
+      "sha256": "8b3afbb65fe3318676ae50455dff34afd40866c44a858e2365e4bea83d67a5f3"
+    },
+    "a1_word_152.wav": {
+      "bytes": 52012,
+      "sha256": "079dc6ca311a3e9522bfcc604033a86b317e94e92d6342a264af0cd74256fd5c"
+    },
+    "a1_word_153.wav": {
+      "bytes": 66348,
+      "sha256": "fc35d281bbcb1134189528565e24a4a82da7a63a9bfef9ec7c5193c554b94c98"
+    },
+    "a1_word_154.wav": {
+      "bytes": 43820,
+      "sha256": "91d23ba993968976f35341c054a2f4bbb43411d8a69a6649877e434746443107"
+    },
+    "a1_word_155.wav": {
+      "bytes": 22316,
+      "sha256": "1ce31940f86bbea1bfa0e4f19ebeb1b60c6494e11a2e5f3b8aff04936c9ba953"
+    },
+    "a1_word_156.wav": {
+      "bytes": 54060,
+      "sha256": "3ff679222dacc4364190b4a7dafb8dedbe97d24d12505d95cb6de5d66a539ee8"
+    },
+    "a1_word_157.wav": {
+      "bytes": 31020,
+      "sha256": "528f4700b986e7917a8b87c35b460a658bae70cc1140e7907d6454419f7b68c3"
+    },
+    "a1_word_158.wav": {
+      "bytes": 54060,
+      "sha256": "c97eb1101afc1a65f218e6892815ec4cc993961f8f6020e53110e7eb6ce5e31a"
+    },
+    "a1_word_159.wav": {
+      "bytes": 41260,
+      "sha256": "47782182e59f2640e9f17f6ec9234631082f85af13c6a4c2332d61732eb1c905"
+    },
+    "a1_word_160.wav": {
+      "bytes": 69932,
+      "sha256": "db4eeb99041a06baf3cf2cc4094457fed60a7ca8af4c13878907d90ef347d3f4"
+    },
+    "a1_word_161.wav": {
+      "bytes": 39724,
+      "sha256": "0c367ddd778b4508b63e84d0916e790f822c2cc369f2145647ae0f101911ee9a"
+    },
+    "a1_word_162.wav": {
+      "bytes": 29996,
+      "sha256": "c9db37a66b66b716a9d5aac57befaab804a8717d167b1fa27833eeb461181d16"
+    },
+    "a1_word_163.wav": {
+      "bytes": 53548,
+      "sha256": "31ba5d587470c55b9abf93951bcdbefbe81214136d746d780a635a07c5ec8cea"
+    },
+    "a1_word_164.wav": {
+      "bytes": 39212,
+      "sha256": "40acc33afe9c1a36ca757691f922c2ae4b2dc312bf22dbeb747e1917daaa1757"
+    },
+    "a1_word_165.wav": {
+      "bytes": 33580,
+      "sha256": "b6c87542aec45d0a120bb7316da3231417033cc4d467bfe6e1db4a504114dd51"
+    },
+    "a1_word_166.wav": {
+      "bytes": 36140,
+      "sha256": "633c2ba8c479532b58e1f17059783c40adb0138c9e66cf3ac24bfe84f33b0459"
+    },
+    "a1_word_167.wav": {
+      "bytes": 26924,
+      "sha256": "7538395f0869717178aaf6eafbf0725fe5baccd190b70ee35aca94b4fc293d91"
+    },
+    "a1_word_168.wav": {
+      "bytes": 24876,
+      "sha256": "c8502b11b4f2768284351d7ddf92a472fc3df65041b69a02537d2233f4455c4f"
+    },
+    "a1_word_169.wav": {
+      "bytes": 36652,
+      "sha256": "b9f4d050e80d0da2f6105b51a319e4eb7361658159d1ebe502763df1e30b6d55"
+    },
+    "a1_word_171.wav": {
+      "bytes": 38700,
+      "sha256": "5a80bb081ed9471e95ffd71b19c315346fdf06f6e8ea6e2a81e90632ceaabe12"
+    },
+    "a1_word_173.wav": {
+      "bytes": 64300,
+      "sha256": "7fee7a33083d392b965f156512713d36102432535dbd92a4f23b78d37f5d3ea3"
+    },
+    "a1_word_174.wav": {
+      "bytes": 43308,
+      "sha256": "fb6d1ba110b8029f7cf5f4aac885657965f8814b44049a1968bb0a95273f58a4"
+    },
+    "a1_word_175.wav": {
+      "bytes": 31020,
+      "sha256": "001d6341799feeb32c9f67074e53c3c848fbbf8993fb6400d1430fdf2c10bc2d"
+    },
+    "a1_word_176.wav": {
+      "bytes": 42796,
+      "sha256": "64a14b6a2631d3189f58bcc81349f32a9f3881737cd74aad966097636a2b0a86"
+    },
+    "a1_word_177.wav": {
+      "bytes": 44332,
+      "sha256": "a4e2255634ed547d6d0d42d346600926a876236dfe40b8ac7311328a76d80a40"
+    },
+    "conv_042c98a06b6f.wav": {
+      "bytes": 92204,
+      "sha256": "89c05a59b58ce1e05f7c0d83da63862ca6466aed6ae0bdfbe0d1cdecd9192aca"
+    },
+    "conv_0741791ab27d.wav": {
+      "bytes": 143916,
+      "sha256": "a52ef82d327c8fe8e34b578f3d533cf3e37c74304bc577da94a030e948bd165e"
+    },
+    "conv_098783243418.wav": {
+      "bytes": 102956,
+      "sha256": "f39911edd7fe173e1ec10dd47348ba08808fb38101404e8ac6566ae7b6b4de72"
+    },
+    "conv_098e353941c8.wav": {
+      "bytes": 81452,
+      "sha256": "e9776f69231db433abef43500f38e0dc66c44004338b7c312c6e220d46b99374"
+    },
+    "conv_10ab54829db6.wav": {
+      "bytes": 86060,
+      "sha256": "b18f226b98ba97f1bab349ac225ff14ebf51f8832d2bd62fa1b400b41cefa6dd"
+    },
+    "conv_1a453968413e.wav": {
+      "bytes": 146988,
+      "sha256": "8302e4f261cdcd879314fb5af4806e45e5ec08dfa59262a1b4c55602c6bdd749"
+    },
+    "conv_1fed9dbb6622.wav": {
+      "bytes": 96812,
+      "sha256": "89b95177b148fb7094104e73514ef3f28edceea753a906b050a4ec47d3ea943f"
+    },
+    "conv_3c83869bcd58.wav": {
+      "bytes": 54060,
+      "sha256": "d473df7e39b8066a0ff2e73fe2f657d71e96a1717c941cd69d5133302de66957"
+    },
+    "conv_3c990d545d5f.wav": {
+      "bytes": 45356,
+      "sha256": "8193760740f19fd5769ae7e67d7a90dab9ad50676f567b9249bb70e3257bd2ae"
+    },
+    "conv_4c7cfd073148.wav": {
+      "bytes": 79404,
+      "sha256": "eb72c910702f8d7bdf32242af0fea908ae40bc1c8c2bb651291f0f2a14131b8a"
+    },
+    "conv_540059b1822f.wav": {
+      "bytes": 71980,
+      "sha256": "fc7d603ee8bb8aa66bbad86ea907afef7fbba2aafb2010a8bc6972bfdd62121e"
+    },
+    "conv_5463f1197535.wav": {
+      "bytes": 140844,
+      "sha256": "ad7a6d4d5902587a79e4f0578b4b834abd63f7da7dcf699446d63352b5193fce"
+    },
+    "conv_57ec1e6f9e1c.wav": {
+      "bytes": 96300,
+      "sha256": "870a82b7e4a9de8e6c6ab01ca17b061e06a30d67890fa37c39cdaa6410c86e27"
+    },
+    "conv_6bf6adafe5c3.wav": {
+      "bytes": 62764,
+      "sha256": "9454f3ddaf5079e3c4dc673e1afb13d84a8dca622ed935595fdba602313d0cd1"
+    },
+    "conv_76f18fde42ee.wav": {
+      "bytes": 91180,
+      "sha256": "95284daf675800230abd0592194dfb19b33639a2f1183232fe48a49c3c4191bd"
+    },
+    "conv_7af6d41fe4f1.wav": {
+      "bytes": 96300,
+      "sha256": "d890108e88957a69ce0e317a1a2c41c4bd6faab74d5bc608caffe428bcfb3d44"
+    },
+    "conv_89f7f53ca203.wav": {
+      "bytes": 84524,
+      "sha256": "ee19f6f5d14c88bd1ce07d74c429b05c552d95f7800d993fb02b2424832c0b33"
+    },
+    "conv_ac5e632cb6cf.wav": {
+      "bytes": 81964,
+      "sha256": "a02b54cf17e4679cddf34e09a0d489ddfa01d6ebd0bda042bf1354f07b416f63"
+    },
+    "conv_b279d0d1e41a.wav": {
+      "bytes": 51500,
+      "sha256": "5f178529684cdfc3d187c252cee953ff92d6235fae04c07bc91b41fc4d032dc7"
+    },
+    "conv_b328334a4539.wav": {
+      "bytes": 170028,
+      "sha256": "fed6d4c5858dd5cdddc6658bda059c3eef03fe648221e77eb30f09f3d62d3f40"
+    },
+    "conv_baaa079b27c0.wav": {
+      "bytes": 74540,
+      "sha256": "13aa8dad8864455bc91ae1a795c1a92f290e7cdec515132ba90b213409cbbf72"
+    },
+    "conv_c1cc1994df3b.wav": {
+      "bytes": 106796,
+      "sha256": "fcfeb5e386da900eaebe535d9ea012f291a8a4d6f58cb4d24bfd237bb60fe8f3"
+    },
+    "conv_ca3767c9cf31.wav": {
+      "bytes": 94764,
+      "sha256": "12d1fb90b4b12df1eca386b9b17e695ef916720f2ce746b49e907a00c996bbaf"
+    },
+    "conv_ce8d5a3732f2.wav": {
+      "bytes": 151852,
+      "sha256": "6f934edb0089cab5591bb979a2a28989ba52e64dbaf1625974e85b1979b43686"
+    },
+    "conv_da024e104fba.wav": {
+      "bytes": 83244,
+      "sha256": "2a7f30b04f240224d7b2730fcf94fa6f7d2cca344282ff31829238ffc16a2de1"
+    },
+    "conv_da0532bb3507.wav": {
+      "bytes": 52524,
+      "sha256": "860f45e126a49df416a349a07731ee7534ae719b64aba5b3eeacd50807715e9e"
+    },
+    "conv_ecdc9e994682.wav": {
+      "bytes": 114476,
+      "sha256": "2fc3e48994cb841c4691c4c4e4b089bb1ee4b6100fe2a97769627ee9ccf1125e"
+    },
+    "conv_f0896b08eaac.wav": {
+      "bytes": 103212,
+      "sha256": "ac35d24b6d5bcac94d9c4d4bb0db3c3b94b6438ddab0088f72281b50259f9697"
+    },
+    "dialogue_a1_listen_arzt_02.wav": {
+      "bytes": 107820,
+      "sha256": "0af5d033a57c5cde44ca6d16cac85c0342823d78df915a90077f2343c067a3bf"
+    },
+    "dialogue_a1_listen_arzt_04.wav": {
+      "bytes": 39212,
+      "sha256": "d146fa8754d7614dc5d871e62d5ef54c007f5dc15b8f9ff853b1c08d6c06d0f0"
+    },
+    "dialogue_a1_listen_bahnhof_01.wav": {
+      "bytes": 109868,
+      "sha256": "646ed94047bdcf67544d6760793b5b75c45fff3a7c11a3cacad0ea18687f06aa"
+    },
+    "dialogue_a1_listen_bahnhof_02.wav": {
+      "bytes": 88876,
+      "sha256": "556a371ddd374cb41af0ab3666bb8b7ca4b31fc9fdce792b781413fd60b0e20d"
+    },
+    "dialogue_a1_listen_bahnhof_03.wav": {
+      "bytes": 63276,
+      "sha256": "a474440662960f5e6970826e7c371b86a6b546955a3d3a9e531daaccbd728f30"
+    },
+    "dialogue_a1_listen_bahnhof_04.wav": {
+      "bytes": 80684,
+      "sha256": "4f0c90aa1cea7a557015b8ea6ec13766c06f90c7564399b713bc1623a5b062aa"
+    },
+    "dialogue_a1_listen_cafe_02.wav": {
+      "bytes": 94508,
+      "sha256": "7d1e8bd3ffdf78c2d18773d630c40d64c7e0af88c975f352feace0cca4d77a4e"
+    },
+    "dialogue_a1_listen_cafe_03.wav": {
+      "bytes": 80684,
+      "sha256": "818494e12ebe05cebcc71459dc4d02db0cc3d0c570325432d8d3c53fa31b1137"
+    },
+    "dialogue_a1_listen_cafe_04.wav": {
+      "bytes": 107820,
+      "sha256": "f0d6c2b8a6cb78a6af23eea96f1438a69843cbda448aa71c19278c419f05c22e"
+    },
+    "dialogue_a1_listen_verabredung_01.wav": {
+      "bytes": 91436,
+      "sha256": "f8c142dfb1de8c2821986fc5582b21fd2e6cc063aedee6aed50bf86aeb93c0e5"
+    },
+    "dialogue_a1_listen_verabredung_02.wav": {
+      "bytes": 138028,
+      "sha256": "b886487495dd2a94fa0bf0ce48bf48dc693986f938aa2e8798abdcb28d6320b5"
+    },
+    "dialogue_a1_listen_verabredung_03.wav": {
+      "bytes": 91436,
+      "sha256": "b5e4072b26895e2b338ddd497fbbd1cf7c77ead7612c65279b2db27471bf17b8"
+    },
+    "dialogue_a1_listen_verabredung_04.wav": {
+      "bytes": 66348,
+      "sha256": "70b732b137a37f24c767302ad229f5d7553f60962033066e918ec4cc4d881aaa"
+    },
+    "dialogue_a1_listen_wohnung_01.wav": {
+      "bytes": 99628,
+      "sha256": "c1ce5341ccc881f6efb3b9fc87a29df57b3272de40c4eebc7f403604b3a143cc"
+    },
+    "dialogue_a1_listen_wohnung_02.wav": {
+      "bytes": 65324,
+      "sha256": "58270f16a71eb72b3eb732c9f5db4bbeb8026e9b406d2b72040776366f8998de"
+    },
+    "dialogue_a1_listen_wohnung_03.wav": {
+      "bytes": 99116,
+      "sha256": "03b142387a4f20532fc8d2edf58defd6c987d462862c4c49ead56031573b0fea"
+    },
+    "dialogue_a1_listen_wohnung_04.wav": {
+      "bytes": 60716,
+      "sha256": "5862ab464c6ba0707922e43db211614dca17dc05360064a8d000359af9162412"
+    },
+    "dialogue_a1_listen_wohnung_05.wav": {
+      "bytes": 100140,
+      "sha256": "23546748e31bd87bb1a84909d678235191afa9c8a5ee34f788d5b35719959854"
+    },
+    "greeting_01.wav": {
+      "bytes": 36652,
+      "sha256": "6a37c7ad6fc34c40ecd099f250acb069376fd1413b437b2d453adfa5c01d11b8"
+    },
+    "greeting_02.wav": {
+      "bytes": 40748,
+      "sha256": "cae69475425a2bfb14cc38317abd8d68b1201f7d8f63b5aebd7e331276ba9f4c"
+    },
+    "greeting_03.wav": {
+      "bytes": 40236,
+      "sha256": "1e0e87d508f5272df7592bc1c0bf7d8f9f636ca026c3ab81810909ee79ebfc7b"
+    },
+    "greeting_04.wav": {
+      "bytes": 41260,
+      "sha256": "d041cbd662c6222bc2b90894c5ebb8e676c4e547e20b4c6b7ee045a79668f85d"
+    },
+    "greeting_05.wav": {
+      "bytes": 53036,
+      "sha256": "f64c4d7b5a79c18757032546048743e55d9221a175e4483347fae3fbc76ec4bf"
+    },
+    "greeting_06.wav": {
+      "bytes": 42796,
+      "sha256": "6aaab811baf3fc08c056eccbed49307bd5854c042889a42ac6abe200dd46560d"
+    },
+    "numbers_1_100.wav": {
+      "bytes": 5627436,
+      "sha256": "de680f906ee49a0d34adc58bc820c0d99e31e0f877b323ad3a3dabd9d343cc1e"
+    },
+    "preview_01.wav": {
+      "bytes": 101932,
+      "sha256": "e55a8251e47cda5477fad90f84eb6b5fb7023ab01708989e6351e279c953dcdb"
+    },
+    "preview_02.wav": {
+      "bytes": 114220,
+      "sha256": "20cea4d064e6b66d0057d2680ca7874c0db1ec87a4845b668507956c79ab225a"
+    },
+    "time_01.wav": {
+      "bytes": 53036,
+      "sha256": "82737cf9051f2f48437848ad8bae9f0852d79bf4153cc7b8a1e1da9a54234e6b"
+    },
+    "time_02.wav": {
+      "bytes": 59180,
+      "sha256": "dcda9d9ad556a79819ddbf64042b7ad318676a73a48163a16ef7ef8fc40c9c58"
+    },
+    "time_03.wav": {
+      "bytes": 55596,
+      "sha256": "8adb616bfaad056fc11aaa77712d95b8ca781aaa591976a8799d9dba31108ef3"
+    },
+    "time_04.wav": {
+      "bytes": 37676,
+      "sha256": "f779ffe4e9f6b1135bf81f5390d95416d8b8a1852dd868c249cbcc72f153de77"
+    },
+    "time_05.wav": {
+      "bytes": 53036,
+      "sha256": "24cba69f06372f448612d539460f09716096f3d8b7014cca776db119dc91835e"
+    },
+    "time_06.wav": {
+      "bytes": 49452,
+      "sha256": "afc5488cec0d986af536aa30524581c702c7cb6e77e1beab5c06c35246b1e6a5"
+    },
+    "time_07.wav": {
+      "bytes": 68396,
+      "sha256": "d86f5a2371a57e3e4b8d4fc079b7b2cf59fd80cac45e6259f932b0a524d36a96"
+    },
+    "time_08.wav": {
+      "bytes": 48428,
+      "sha256": "0187060d3e8baa9c677a3977b3b7a24f242efb8cfded8b0846fcff742b08df42"
+    },
+    "word_01.wav": {
+      "bytes": 26924,
+      "sha256": "23b87cf59647ec9bf1ab8f43702f1b052669ae8f183d92b7e58e118bcfe0d179"
+    },
+    "word_02.wav": {
+      "bytes": 28460,
+      "sha256": "a25ab18899c887abd28065dc1433fac6d42025474eb4a887363820cce121c9fd"
+    },
+    "word_03.wav": {
+      "bytes": 27948,
+      "sha256": "f1913a03aa5f3a6489b03c3e66446c924a1d6de7ff18788b818c3dca142e5d7f"
+    },
+    "word_04.wav": {
+      "bytes": 27948,
+      "sha256": "f0620694ad22a9809e5c866bb4b31a5f0d0e72700495756a9f74e1ddf7d5763a"
+    },
+    "word_05.wav": {
+      "bytes": 33580,
+      "sha256": "1ed8b743408823c9c2c07aa650cf26eab7d577ecf480e9d99b4f8ed1c41402f0"
+    },
+    "word_06.wav": {
+      "bytes": 36652,
+      "sha256": "c703cca1e36b6c8cf4b59b9c4f1614c1a5d1a8c5c3a61e32f37b30d4e0a9c872"
+    },
+    "word_07.wav": {
+      "bytes": 24364,
+      "sha256": "28e5cb3f9c4b0a9620e47f731b82d671ec75d0f251cd544f1025406e74fa6371"
+    },
+    "word_08.wav": {
+      "bytes": 42284,
+      "sha256": "0e790b5f865da95e4a159a8076c898f4f0c45d24b091884a5e4cb49a4537afa9"
+    },
+    "word_09.wav": {
+      "bytes": 42284,
+      "sha256": "8ca2fae3638cdd40918b417c8335f9dbf666681a66982305ee1deefd6bf3bfdd"
+    },
+    "word_10.wav": {
+      "bytes": 20268,
+      "sha256": "cb06b53eb0812578bf6315a8dba28c32e502d5c533a71328ea474bd8ad20e39f"
+    },
+    "word_11.wav": {
+      "bytes": 34092,
+      "sha256": "d871326ea555bee8ddf1f578da0e42677dbb22e7d4251aad09ffc034ff01ee44"
+    },
+    "word_12.wav": {
+      "bytes": 33580,
+      "sha256": "297bc58dcf72dcfc0f81e89d58af72cc811545dc7809fe311ccc36eab054b58c"
+    },
+    "word_13.wav": {
+      "bytes": 29484,
+      "sha256": "1b3f0a0417a7005afb39f8ace392e2726bcbbde73c901c3e227615f5ab4055df"
+    }
+  }
+}

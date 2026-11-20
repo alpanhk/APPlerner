@@ -1,0 +1,159 @@
+{
+  "unit": 5,
+  "level": "A1",
+  "theme": "Belanja & harga",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Bluse",
+      "article": "die",
+      "plural": "die Blusen",
+      "meaning_id": "blus",
+      "example_de": "Das ist die Bluse.",
+      "example_id": "Ini blus.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Mantel",
+      "article": "der",
+      "plural": "die Mäntel",
+      "meaning_id": "mantel",
+      "example_de": "Das ist der Mantel.",
+      "example_id": "Ini mantel.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Rock",
+      "article": "der",
+      "plural": "die Röcke",
+      "meaning_id": "rok",
+      "example_de": "Das ist der Rock.",
+      "example_id": "Ini rok.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Sakko",
+      "article": "das",
+      "plural": "die Sakkos",
+      "meaning_id": "jas pria",
+      "example_de": "Das ist das Sakko.",
+      "example_id": "Ini jas pria.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Stiefel",
+      "article": "der",
+      "plural": "die Stiefel",
+      "meaning_id": "sepatu bot",
+      "example_de": "Das ist der Stiefel.",
+      "example_id": "Ini sepatu bot.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Kleiderbügel",
+      "article": "der",
+      "plural": "die Kleiderbügel",
+      "meaning_id": "gantungan baju",
+      "example_de": "Das ist der Kleiderbügel.",
+      "example_id": "Ini gantungan baju.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Knopf",
+      "article": "der",
+      "plural": "die Knöpfe",
+      "meaning_id": "kancing",
+      "example_de": "Das ist der Knopf.",
+      "example_id": "Ini kancing.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Sonderpreis",
+      "article": "der",
+      "plural": "die Sonderpreise",
+      "meaning_id": "harga khusus",
+      "example_de": "Das ist der Sonderpreis.",
+      "example_id": "Ini harga khusus.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkaufstasche",
+      "article": "die",
+      "plural": "die Einkaufstaschen",
+      "meaning_id": "tas belanja",
+      "example_de": "Das ist die Einkaufstasche.",
+      "example_id": "Ini tas belanja.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkaufszentrum",
+      "article": "das",
+      "plural": "die Einkaufszentren",
+      "meaning_id": "pusat perbelanjaan",
+      "example_de": "Das ist das Einkaufszentrum.",
+      "example_id": "Ini pusat perbelanjaan.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Preisschild",
+      "article": "das",
+      "plural": "die Preisschilder",
+      "meaning_id": "label harga",
+      "example_de": "Das ist das Preisschild.",
+      "example_id": "Ini label harga.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Umkleidekabine",
+      "article": "die",
+      "plural": "die Umkleidekabinen",
+      "meaning_id": "kamar pas",
+      "example_de": "Das ist die Umkleidekabine.",
+      "example_id": "Ini kamar pas.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Gutschein",
+      "article": "der",
+      "plural": "die Gutscheine",
+      "meaning_id": "kupon belanja",
+      "example_de": "Das ist der Gutschein.",
+      "example_id": "Ini kupon belanja.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Kassenzettel",
+      "article": "der",
+      "plural": "die Kassenzettel",
+      "meaning_id": "struk belanja",
+      "example_de": "Das ist der Kassenzettel.",
+      "example_id": "Ini struk belanja.",
+      "tags": "a1,unit5,belanja"
+    },
+    {
+      "kind": "noun",
+      "de": "Rückgabe",
+      "article": "die",
+      "plural": "die Rückgaben",
+      "meaning_id": "pengembalian barang",
+      "example_de": "Das ist die Rückgabe.",
+      "example_id": "Ini pengembalian barang.",
+      "tags": "a1,unit5,belanja"
+    }
+  ]
+}

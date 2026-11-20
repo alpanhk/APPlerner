@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* ===== Lernen — tema "Akademik Premium" (keputusan ui 2026-11-08) =====
+   Parchment/ivory + aksen emas + heading serif — menggantikan tema gelap default.
+   Semua warna didefinisikan di sini; komponen pemakai utilitas Tailwind. */
+
+@theme {
+  --color-parchment: #f6f0df;
+  --color-parchment-deep: #ece3cd;
+  --color-cream: #fffcf3;
+  --color-ink: #3b2f1c;
+  --color-ink-soft: #7a6a4e;
+  --color-gold: #806021;
+  --color-gold-deep: #7e6220;
+  --color-line: #e0d3b8;
+  --color-line-soft: #f0e7d2;
+
+  --font-display: Georgia, "Times New Roman", "Cambria", serif;
+  --font-body: "Segoe UI", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* Panel krem dengan garis tipis warna sepia (kartu-kartu mockup) */
+.card {
+  background: var(--color-cream);
+  border: 1px solid var(--color-line);
+  border-radius: 0.75rem;
+}
+
+.card-soft {
+  background: var(--color-cream);
+  border: 1px solid var(--color-line-soft);
+  border-radius: 0.75rem;
+}
+
+/* Badge kecil (Off-line first, A1 · Pemula) */
+.badge {
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-cream);
+  padding: 0.125rem 0.625rem;
+  font-size: 11px;
+  color: var(--color-gold-deep);
+}
+
+/* Tombol emas (aksi utama) */
+.btn-gold {
+  border-radius: 0.5rem;
+  background: var(--color-gold);
+  color: #fffdf6;
+  padding: 0.375rem 0.875rem;
+  font-weight: 600;
+  font-size: 12px;
+}
+.btn-gold:disabled {
+  opacity: 0.55;
+}
+
+::selection {
+  background: rgba(168, 133, 60, 0.35);
+}

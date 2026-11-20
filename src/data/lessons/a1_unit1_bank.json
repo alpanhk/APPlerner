@@ -1,0 +1,377 @@
+{
+  "level": "A1",
+  "unit": 1,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 1. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "o1-01",
+      "objectiveId": "a1-u1-o1",
+      "code": "D3",
+      "prompt": "Pukul 08.00 kamu bertemu gurumu. Sapaan apa yang paling tepat?",
+      "sub": "Pilih sapaan formal yang sesuai waktu, bukan sapaan santai.",
+      "mode": "choice",
+      "options": ["Guten Morgen", "Hallo", "Guten Abend", "Auf Wiedersehen"],
+      "answer": "Guten Morgen",
+      "wrongFeedback": {
+        "Hallo": "Hallo terlalu santai untuk menyapa guru dalam situasi formal; gunakan Guten Morgen.",
+        "Guten Abend": "Guten Abend dipakai mulai sekitar pukul 18.00, bukan pagi.",
+        "Auf Wiedersehen": "Auf Wiedersehen berarti 'selamat tinggal' dan dipakai saat berpisah."
+      },
+      "explanation": "Pukul 08.00 masih pagi; dalam situasi formal, sapaan yang tepat adalah Guten Morgen."
+    },
+    {
+      "id": "o1-02",
+      "objectiveId": "a1-u1-o1",
+      "code": "D3",
+      "prompt": "Pukul 20.00 kamu masuk ke restoran. Sapaan yang tepat?",
+      "sub": "Perhatikan waktu hari.",
+      "mode": "choice",
+      "options": ["Guten Abend", "Guten Morgen", "Guten Tag", "Gute Nacht"],
+      "answer": "Guten Abend",
+      "wrongFeedback": {
+        "Guten Morgen": "Guten Morgen hanya untuk pagi, bukan pukul 20.00.",
+        "Guten Tag": "Guten Tag dipakai pada siang hari, bukan malam.",
+        "Gute Nacht": "Gute Nacht dipakai sebelum tidur, bukan saat datang ke restoran."
+      },
+      "explanation": "Mulai sekitar pukul 18.00, sapaan yang wajar adalah Guten Abend."
+    },
+    {
+      "id": "o1-03",
+      "objectiveId": "a1-u1-o1",
+      "code": "D3",
+      "prompt": "Pukul 14.00 dalam situasi formal. Pilih sapaan yang paling sesuai.",
+      "sub": "Waktu siang dan situasi formal.",
+      "mode": "choice",
+      "options": ["Guten Tag", "Guten Morgen", "Guten Abend", "Gute Nacht"],
+      "answer": "Guten Tag",
+      "wrongFeedback": {
+        "Guten Morgen": "Guten Morgen hanya untuk pagi, kira-kira sampai pukul 11.00.",
+        "Guten Abend": "Guten Abend dipakai setelah sekitar pukul 18.00.",
+        "Gute Nacht": "Gute Nacht diucapkan sebelum tidur, bukan sapaan siang."
+      },
+      "explanation": "Pada siang hari, sapaan formal yang umum adalah Guten Tag."
+    },
+    {
+      "id": "o1-04",
+      "objectiveId": "a1-u1-o1",
+      "code": "D3",
+      "prompt": "Kamu baru saja selesai berbicara dengan seseorang dan akan pergi. Apa yang kamu ucapkan?",
+      "sub": "Sapaan saat berpisah.",
+      "mode": "choice",
+      "options": ["Auf Wiedersehen", "Guten Tag", "Guten Morgen", "Guten Abend"],
+      "answer": "Auf Wiedersehen",
+      "wrongFeedback": {
+        "Guten Tag": "Guten Tag adalah sapaan saat bertemu, bukan saat berpisah.",
+        "Guten Morgen": "Guten Morgen adalah sapaan pagi saat bertemu.",
+        "Guten Abend": "Guten Abend adalah sapaan malam saat bertemu."
+      },
+      "explanation": "Auf Wiedersehen berarti 'sampai jumpa lagi' dan dipakai saat berpisah."
+    },
+    {
+      "id": "o1-05",
+      "objectiveId": "a1-u1-o1",
+      "code": "D3",
+      "prompt": "Tulis sapaan formal untuk pukul 07.30.",
+      "sub": "Ketik tanpa tanda baca tambahan.",
+      "mode": "type",
+      "answer": "Guten Morgen",
+      "hintOnWrong": "Pukul 07.30 masih pagi. Sapaan formal pagi adalah Guten Morgen.",
+      "explanation": "Guten Morgen dipakai pada pagi hari; pukul 07.30 masih termasuk pagi."
+    },
+    {
+      "id": "o2-01",
+      "objectiveId": "a1-u1-o2",
+      "code": "D3",
+      "prompt": "___ heiße Alex.",
+      "sub": "Pilih subjek yang memperkenalkan diri sendiri.",
+      "mode": "choice",
+      "options": ["Ich", "Du", "Er", "Wir"],
+      "answer": "Ich",
+      "wrongFeedback": {
+        "Du": "Kalimat ini memperkenalkan diri sendiri, jadi subjeknya ich; bentuk untuk du adalah heißt.",
+        "Er": "Er heißt Alex berarti 'Dia (laki-laki) bernama Alex', bukan memperkenalkan diri sendiri.",
+        "Wir": "Wir heißen berarti 'Kami bernama', bukan memperkenalkan satu orang."
+      },
+      "explanation": "Ich heiße Alex berarti 'Nama saya Alex'."
+    },
+    {
+      "id": "o2-02",
+      "objectiveId": "a1-u1-o2",
+      "code": "D3",
+      "prompt": "Wie ___ du?",
+      "sub": "Konjugasi heißen untuk du.",
+      "mode": "choice",
+      "options": ["heißt", "heiße", "heißen", "heißst"],
+      "answer": "heißt",
+      "wrongFeedback": {
+        "heiße": "Heiße dipakai untuk ich (ich heiße), bukan du.",
+        "heißen": "Heißen dipakai untuk wir/sie/Sie, bukan du.",
+        "heißst": "Bentuk ini tidak ada. heißen menjadi du heißt, satu ß tanpa tambahan s."
+      },
+      "explanation": "heißen → du heißt. Huruf ß sudah mengandung bunyi s, jadi tidak ditambah s lagi."
+    },
+    {
+      "id": "o2-03",
+      "objectiveId": "a1-u1-o2",
+      "code": "D3",
+      "prompt": "Kamu bertanya nama gurumu. Pilih pertanyaan yang tepat.",
+      "sub": "Perhatikan bentuk formal.",
+      "mode": "choice",
+      "options": ["Wie heißen Sie?", "Wie heißt du?", "Wie heiße ich?", "Wie heißen wir?"],
+      "answer": "Wie heißen Sie?",
+      "wrongFeedback": {
+        "Wie heißt du?": "Bentuk ini benar untuk teman sebaya, tetapi terlalu santai untuk guru.",
+        "Wie heiße ich?": "Artinya 'Siapa nama saya?', bukan menanyakan nama guru.",
+        "Wie heißen wir?": "Artinya 'Siapa nama kami?', bukan menanyakan nama guru."
+      },
+      "explanation": "Untuk orang yang baru dikenal atau guru, pakai bentuk formal Wie heißen Sie?"
+    },
+    {
+      "id": "o2-04",
+      "objectiveId": "a1-u1-o2",
+      "code": "D3",
+      "prompt": "Lengkapi: Ich ___ Maria. (heißen)",
+      "sub": "Ketik bentuk untuk ich.",
+      "mode": "type",
+      "answer": "heiße",
+      "altAnswers": ["heisse"],
+      "hintOnWrong": "Untuk ich, heißen berubah menjadi heiße. Ejaan heisse juga diterima.",
+      "explanation": "Ich heiße Maria. Akhiran untuk ich adalah -e."
+    },
+    {
+      "id": "o2-05",
+      "objectiveId": "a1-u1-o2",
+      "code": "D6",
+      "prompt": "Susun pertanyaan formal kepada Frau Müller.",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Wie", "heißen", "Sie,", "Frau", "Müller?"],
+      "answer": "Wie heißen Sie, Frau Müller?",
+      "hintOnWrong": "Mulai dengan Wie, lalu kata kerja heißen, lalu Sie dan nama orangnya.",
+      "explanation": "Wie heißen Sie, Frau Müller? adalah pertanyaan formal untuk menanyakan nama."
+    },
+    {
+      "id": "o3-01",
+      "objectiveId": "a1-u1-o3",
+      "code": "D9",
+      "prompt": "Ich komme ___ Indonesien.",
+      "sub": "Preposisi untuk asal.",
+      "mode": "choice",
+      "options": ["aus", "in", "von", "nach"],
+      "answer": "aus",
+      "wrongFeedback": {
+        "in": "in dipakai untuk tempat tinggal (Ich wohne in ...), bukan asal.",
+        "von": "von bisa berarti 'dari', tetapi asal negara atau kota memakai aus.",
+        "nach": "nach menunjukkan tujuan (Ich fahre nach ...), bukan asal."
+      },
+      "explanation": "kommen aus + negara/kota berarti 'berasal dari'. Jadi: Ich komme aus Indonesien."
+    },
+    {
+      "id": "o3-02",
+      "objectiveId": "a1-u1-o3",
+      "code": "D9",
+      "prompt": "Ich wohne ___ Jakarta.",
+      "sub": "Preposisi untuk tempat tinggal.",
+      "mode": "choice",
+      "options": ["in", "aus", "nach", "von"],
+      "answer": "in",
+      "wrongFeedback": {
+        "aus": "aus dipakai untuk asal (Ich komme aus ...), bukan tempat tinggal.",
+        "nach": "nach menunjukkan arah atau tujuan, bukan tempat tinggal.",
+        "von": "von bukan preposisi yang dipakai untuk 'tinggal di' dalam pola ini."
+      },
+      "explanation": "wohnen in + tempat berarti 'tinggal di'. Jadi: Ich wohne in Jakarta."
+    },
+    {
+      "id": "o3-03",
+      "objectiveId": "a1-u1-o3",
+      "code": "D3",
+      "prompt": "Woher ___ du?",
+      "sub": "Konjugasi kommen untuk du.",
+      "mode": "choice",
+      "options": ["kommst", "komme", "kommt", "kommen"],
+      "answer": "kommst",
+      "wrongFeedback": {
+        "komme": "komme dipakai untuk ich (ich komme).",
+        "kommt": "kommt dipakai untuk er/sie/es atau ihr.",
+        "kommen": "kommen dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "kommen → du kommst. Pertanyaan Woher kommst du? berarti 'Dari mana kamu?'"
+    },
+    {
+      "id": "o3-04",
+      "objectiveId": "a1-u1-o3",
+      "code": "D3",
+      "prompt": "Lengkapi: Wir ___ in Berlin. (wohnen)",
+      "sub": "Ketik bentuk untuk wir.",
+      "mode": "type",
+      "answer": "wohnen",
+      "hintOnWrong": "Untuk wir, bentuk wohnen sama dengan infinitif: wohnen.",
+      "explanation": "Wir wohnen in Berlin. Bentuk wir sama dengan infinitif wohnen."
+    },
+    {
+      "id": "o3-05",
+      "objectiveId": "a1-u1-o3",
+      "code": "D6",
+      "prompt": "Susun kalimat: 'Saya tinggal di Bandung.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "wohne", "in", "Bandung."],
+      "answer": "Ich wohne in Bandung.",
+      "hintOnWrong": "Subjek Ich di posisi 1 dan kata kerja wohne di posisi 2.",
+      "explanation": "Ich wohne in Bandung. Kata kerja finit berada di posisi kedua."
+    },
+    {
+      "id": "o4-01",
+      "objectiveId": "a1-u1-o4",
+      "code": "D3",
+      "prompt": "___ Freundin heißt Sari.",
+      "sub": "Possessiv untuk kata feminin.",
+      "mode": "choice",
+      "options": ["Meine", "Mein", "Meinen", "Meiner"],
+      "answer": "Meine",
+      "wrongFeedback": {
+        "Mein": "Mein dipakai untuk kata maskulin atau netral, sedangkan Freundin feminin.",
+        "Meinen": "Meinen adalah bentuk akkusativ maskulin; di sini subjeknya feminin nominativ.",
+        "Meiner": "Meiner adalah bentuk dativ feminin atau genitiv; kalimat ini membutuhkan nominativ."
+      },
+      "explanation": "Freundin feminin, jadi possessiv nominativnya meine: Meine Freundin heißt Sari."
+    },
+    {
+      "id": "o4-02",
+      "objectiveId": "a1-u1-o4",
+      "code": "D3",
+      "prompt": "___ Freund heißt Budi.",
+      "sub": "Possessiv untuk kata maskulin.",
+      "mode": "choice",
+      "options": ["Mein", "Meine", "Meinen", "Meiner"],
+      "answer": "Mein",
+      "wrongFeedback": {
+        "Meine": "Meine dipakai untuk feminin atau plural; Freund maskulin.",
+        "Meinen": "Meinen adalah akkusativ maskulin; di sini Freund menjadi subjek.",
+        "Meiner": "Meiner adalah dativ feminin atau genitiv; bukan nominatif maskulin."
+      },
+      "explanation": "Freund maskulin, jadi possessiv nominativnya mein: Mein Freund heißt Budi."
+    },
+    {
+      "id": "o4-03",
+      "objectiveId": "a1-u1-o4",
+      "code": "D3",
+      "prompt": "Wie alt ___ du?",
+      "sub": "Konjugasi sein untuk du.",
+      "mode": "choice",
+      "options": ["bist", "bin", "ist", "sind"],
+      "answer": "bist",
+      "wrongFeedback": {
+        "bin": "bin dipakai untuk ich (ich bin).",
+        "ist": "ist dipakai untuk er/sie/es.",
+        "sind": "sind dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "sein → du bist. Wie alt bist du? berarti 'Berapa umurmu?'"
+    },
+    {
+      "id": "o4-04",
+      "objectiveId": "a1-u1-o4",
+      "code": "D3",
+      "prompt": "Ich bin 24 ___ alt.",
+      "sub": "Bentuk Jahr setelah angka.",
+      "mode": "choice",
+      "options": ["Jahre", "Jahr", "Jahren", "Jahres"],
+      "answer": "Jahre",
+      "wrongFeedback": {
+        "Jahr": "Jahr adalah bentuk tunggal; setelah angka 24 dipakai bentuk plural.",
+        "Jahren": "Jahren adalah dativ plural; kalimat ini memakai nominativ atau akkusativ.",
+        "Jahres": "Jahres adalah genitiv tunggal dan tidak cocok di sini."
+      },
+      "explanation": "Setelah angka lebih dari satu, Jahr menjadi Jahre: 24 Jahre alt."
+    },
+    {
+      "id": "o4-05",
+      "objectiveId": "a1-u1-o4",
+      "code": "D3",
+      "prompt": "Tulis 'teman perempuan saya' dalam bentuk nominatif.",
+      "sub": "Ketik dua kata.",
+      "mode": "type",
+      "answer": "meine Freundin",
+      "altAnswers": ["Meine Freundin"],
+      "hintOnWrong": "Freundin feminin, jadi possessivnya meine: meine Freundin.",
+      "explanation": "meine Freundin berarti 'teman perempuan saya'."
+    },
+    {
+      "id": "o5-01",
+      "objectiveId": "a1-u1-o5",
+      "code": "D1",
+      "prompt": "___ Name ist Alex.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Der", "Die", "Das", "Den"],
+      "answer": "Der",
+      "wrongFeedback": {
+        "Die": "Die dipakai untuk feminin atau plural; Name maskulin.",
+        "Das": "Das dipakai untuk netral; Name maskulin.",
+        "Den": "Den adalah akkusativ maskulin; di sini Name menjadi subjek (nominativ)."
+      },
+      "explanation": "der Name. Artikel harus dihafal bersama katanya."
+    },
+    {
+      "id": "o5-02",
+      "objectiveId": "a1-u1-o5",
+      "code": "D1",
+      "prompt": "___ Frau heißt Müller.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Die", "Der", "Das", "Den"],
+      "answer": "Die",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk maskulin; Frau feminin.",
+        "Das": "Das dipakai untuk netral; Frau feminin.",
+        "Den": "Den adalah akkusativ maskulin; Frau feminin nominativ."
+      },
+      "explanation": "die Frau. Kata Frau selalu feminin."
+    },
+    {
+      "id": "o5-03",
+      "objectiveId": "a1-u1-o5",
+      "code": "D2",
+      "prompt": "Apa plural dari 'der Freund'?",
+      "sub": "Pilih bentuk plural yang umum.",
+      "mode": "choice",
+      "options": ["die Freunde", "die Freunds", "die Freundinnen", "die Freunden"],
+      "answer": "die Freunde",
+      "wrongFeedback": {
+        "die Freunds": "Akhiran -s tidak dipakai untuk Freund.",
+        "die Freundinnen": "Freundinnen berarti teman-teman perempuan saja, bukan plural umum dari der Freund.",
+        "die Freunden": "Bentuk ini tidak benar; plural der Freund adalah die Freunde."
+      },
+      "explanation": "der Freund → die Freunde. Semua bentuk plural memakai artikel die."
+    },
+    {
+      "id": "o5-04",
+      "objectiveId": "a1-u1-o5",
+      "code": "D2",
+      "prompt": "Tulis plural dari 'das Jahr' dengan artikel.",
+      "sub": "Ketik artikel dan bentuk pluralnya.",
+      "mode": "type",
+      "answer": "die Jahre",
+      "hintOnWrong": "Plural das Jahr adalah die Jahre; semua plural memakai die.",
+      "explanation": "das Jahr → die Jahre."
+    },
+    {
+      "id": "o5-05",
+      "objectiveId": "a1-u1-o5",
+      "code": "D1",
+      "prompt": "___ Land ist groß.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Das", "Der", "Die", "Den"],
+      "answer": "Das",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk maskulin; Land netral.",
+        "Die": "Die dipakai untuk feminin atau plural; Land netral.",
+        "Den": "Den adalah akkusativ maskulin; Land netral nominativ."
+      },
+      "explanation": "das Land. Pluralnya die Länder."
+    }
+  ]
+}

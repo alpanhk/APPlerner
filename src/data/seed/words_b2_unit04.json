@@ -1,0 +1,229 @@
+{
+  "unit": 304,
+  "level": "B2",
+  "theme": "Wirtschaft & Unternehmen",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Wirtschaft",
+      "article": "die",
+      "plural": "die Wirtschaften",
+      "meaning_id": "ekonomi",
+      "example_de": "Die Wirtschaft wächst langsam.",
+      "example_id": "Ekonominya tumbuh lambat.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Unternehmen",
+      "article": "das",
+      "plural": "die Unternehmen",
+      "meaning_id": "perusahaan",
+      "example_de": "Das Unternehmen hat 500 Mitarbeiter.",
+      "example_id": "Perusahaan itu punya 500 karyawan.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsatz",
+      "article": "der",
+      "plural": "die Umsätze",
+      "meaning_id": "omzet",
+      "example_de": "Der Umsatz ist gestiegen.",
+      "example_id": "Omzetnya naik.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewinn",
+      "article": "der",
+      "plural": "die Gewinne",
+      "meaning_id": "laba",
+      "example_de": "Der Gewinn ist kleiner geworden.",
+      "example_id": "Labanya mengecil.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Investition",
+      "article": "die",
+      "plural": "die Investitionen",
+      "meaning_id": "investasi",
+      "example_de": "Die Investition war riskant.",
+      "example_id": "Investasinya berisiko.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Krise",
+      "article": "die",
+      "plural": "die Krisen",
+      "meaning_id": "krisis",
+      "example_de": "Die Krise hat viele getroffen.",
+      "example_id": "Krisisnya mengenai banyak pihak.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Wettbewerb",
+      "article": "der",
+      "plural": "die Wettbewerbe",
+      "meaning_id": "persaingan",
+      "example_de": "Der Wettbewerb ist hart.",
+      "example_id": "Persaingannya keras.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachfrage",
+      "article": "die",
+      "plural": "die Nachfragen",
+      "meaning_id": "permintaan",
+      "example_de": "Die Nachfrage steigt.",
+      "example_id": "Permintaannya naik.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Standort",
+      "article": "der",
+      "plural": "die Standorte",
+      "meaning_id": "lokasi usaha",
+      "example_de": "Der Standort ist günstig.",
+      "example_id": "Lokasinya menguntungkan.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Strategie",
+      "article": "die",
+      "plural": "die Strategien",
+      "meaning_id": "strategi",
+      "example_de": "Die Strategie muss sich ändern.",
+      "example_id": "Strateginya harus berubah.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "verb",
+      "de": "investieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berinvestasi",
+      "example_de": "Sie investieren in Technik.",
+      "example_id": "Mereka berinvestasi di teknologi.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "adj",
+      "de": "rentabel",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menguntungkan",
+      "example_de": "Das Geschäft ist rentabel.",
+      "example_id": "Usahanya menguntungkan.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Bilanz",
+      "article": "die",
+      "plural": "die Bilanzen",
+      "meaning_id": "neraca",
+      "example_de": "Die Bilanz zeigt Verluste.",
+      "example_id": "Neracanya menunjukkan kerugian.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Aktie",
+      "article": "die",
+      "plural": "die Aktien",
+      "meaning_id": "saham",
+      "example_de": "Die Aktie ist gefallen.",
+      "example_id": "Sahamnya turun.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Insolvenz",
+      "article": "die",
+      "plural": "die Insolvenzen",
+      "meaning_id": "pailit",
+      "example_de": "Die Firma meldet Insolvenz an.",
+      "example_id": "Perusahaan mengajukan pailit.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Inflation",
+      "article": "die",
+      "plural": "die Inflationen",
+      "meaning_id": "inflasi",
+      "example_de": "Die Inflation steigt.",
+      "example_id": "Inflasinya naik.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Konjunktur",
+      "article": "die",
+      "plural": "die Konjunkturen",
+      "meaning_id": "siklus ekonomi",
+      "example_de": "Die Konjunktur kühlt ab.",
+      "example_id": "Siklus ekonominya mendingin.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Börse",
+      "article": "die",
+      "plural": "die Börsen",
+      "meaning_id": "bursa",
+      "example_de": "Die Börse reagiert nervös.",
+      "example_id": "Bursanya bereaksi gugup.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Fusion",
+      "article": "die",
+      "plural": "die Fusionen",
+      "meaning_id": "merger",
+      "example_de": "Die Fusion wurde genehmigt.",
+      "example_id": "Mergernya disetujui.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Subvention",
+      "article": "die",
+      "plural": "die Subventionen",
+      "meaning_id": "subsidi",
+      "example_de": "Die Subvention wird gekürzt.",
+      "example_id": "Subsidinya dipotong.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Export",
+      "article": "der",
+      "plural": "die Exporte",
+      "meaning_id": "ekspor",
+      "example_de": "Der Export steigt.",
+      "example_id": "Ekspornya naik.",
+      "tags": "b2,unit4,wirtschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Import",
+      "article": "der",
+      "plural": "die Importe",
+      "meaning_id": "impor",
+      "example_de": "Der Import ist teuer.",
+      "example_id": "Impornya mahal.",
+      "tags": "b2,unit4,wirtschaft"
+    }
+  ]
+}

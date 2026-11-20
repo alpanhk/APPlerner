@@ -1,0 +1,368 @@
+{
+  "level": "A1",
+  "unit": 11,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 11. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u11-o1-01",
+      "objectiveId": "a1-u11-o1",
+      "code": "D9",
+      "prompt": "Wir fahren ___ Berlin.",
+      "sub": "Pilih preposisi tujuan untuk kota tanpa artikel.",
+      "mode": "choice",
+      "options": ["nach", "in", "zu", "an"],
+      "answer": "nach",
+      "wrongFeedback": {
+        "in": "in dipakai untuk tempat berada atau negara berartikel; kota tanpa artikel memakai nach.",
+        "zu": "zu dipakai untuk orang atau tempat tertentu (zum Arzt), bukan kota.",
+        "an": "an berarti 'di tepi', bukan menuju kota."
+      },
+      "explanation": "nach + kota tanpa artikel: Wir fahren nach Berlin."
+    },
+    {
+      "id": "u11-o1-02",
+      "objectiveId": "a1-u11-o1",
+      "code": "D9",
+      "prompt": "Wir fahren ___ Schweiz.",
+      "sub": "Pilih bentuk tujuan untuk negara berartikel feminin.",
+      "mode": "choice",
+      "options": ["in die", "nach", "zu der", "im"],
+      "answer": "in die",
+      "wrongFeedback": {
+        "nach": "nach dipakai untuk negara tanpa artikel; die Schweiz memakai artikel.",
+        "zu der": "zu der tidak dipakai untuk negara; arah masuk memakai in + Akkusativ.",
+        "im": "im menunjukkan lokasi di dalam, bukan tujuan perjalanan."
+      },
+      "explanation": "Negara berartikel feminin memakai in + Akkusativ: in die Schweiz."
+    },
+    {
+      "id": "u11-o1-03",
+      "objectiveId": "a1-u11-o1",
+      "code": "D3",
+      "prompt": "___ fährst du in den Urlaub?",
+      "sub": "Pilih kata tanya untuk tujuan.",
+      "mode": "choice",
+      "options": ["Wohin", "Wo", "Wann", "Wie"],
+      "answer": "Wohin",
+      "wrongFeedback": {
+        "Wo": "Wo menanyakan lokasi, bukan tujuan perjalanan.",
+        "Wann": "Wann menanyakan waktu, bukan tujuan.",
+        "Wie": "Wie menanyakan cara, bukan tujuan."
+      },
+      "explanation": "Wohin fährst du in den Urlaub? menanyakan ke mana tujuan liburan."
+    },
+    {
+      "id": "u11-o1-04",
+      "objectiveId": "a1-u11-o1",
+      "code": "D9",
+      "prompt": "Lengkapi: Ich fahre ___ München. (ke)",
+      "sub": "Ketik satu preposisi.",
+      "mode": "type",
+      "answer": "nach",
+      "altAnswers": ["Nach"],
+      "hintOnWrong": "Kota tanpa artikel memakai nach: nach München.",
+      "explanation": "nach München = ke München."
+    },
+    {
+      "id": "u11-o1-05",
+      "objectiveId": "a1-u11-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Saya pergi ke Berlin.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "fahre", "nach", "Berlin."],
+      "answer": "Ich fahre nach Berlin.",
+      "hintOnWrong": "Mulai dengan Ich fahre, lalu nach Berlin.",
+      "explanation": "Ich fahre nach Berlin. nach dipakai untuk kota tanpa artikel."
+    },
+    {
+      "id": "u11-o2-01",
+      "objectiveId": "a1-u11-o2",
+      "code": "D1",
+      "prompt": "Die ___ ist um acht Uhr fünfzehn.",
+      "sub": "Pilih kata untuk 'keberangkatan'.",
+      "mode": "choice",
+      "options": ["Abfahrt", "Ankunft", "Reise", "Verspätung"],
+      "answer": "Abfahrt",
+      "wrongFeedback": {
+        "Ankunft": "Ankunft berarti 'kedatangan', bukan keberangkatan.",
+        "Reise": "Reise berarti 'perjalanan', bukan keberangkatan.",
+        "Verspätung": "Verspätung berarti 'keterlambatan', bukan keberangkatan."
+      },
+      "explanation": "die Abfahrt = keberangkatan: Die Abfahrt ist um acht Uhr fünfzehn."
+    },
+    {
+      "id": "u11-o2-02",
+      "objectiveId": "a1-u11-o2",
+      "code": "D1",
+      "prompt": "Die ___ ist um elf Uhr vierzig.",
+      "sub": "Pilih kata untuk 'kedatangan'.",
+      "mode": "choice",
+      "options": ["Ankunft", "Abfahrt", "Auskunft", "Verbindung"],
+      "answer": "Ankunft",
+      "wrongFeedback": {
+        "Abfahrt": "Abfahrt berarti 'keberangkatan', bukan kedatangan.",
+        "Auskunft": "Auskunft berarti 'informasi', bukan kedatangan.",
+        "Verbindung": "Verbindung berarti 'sambungan/rute', bukan kedatangan."
+      },
+      "explanation": "die Ankunft = kedatangan: Die Ankunft ist um elf Uhr vierzig."
+    },
+    {
+      "id": "u11-o2-03",
+      "objectiveId": "a1-u11-o2",
+      "code": "D3",
+      "prompt": "Wann kommt der Zug ___ ?",
+      "sub": "Pilih awalan verba pisah ankommen.",
+      "mode": "choice",
+      "options": ["an", "ab", "auf", "aus"],
+      "answer": "an",
+      "wrongFeedback": {
+        "ab": "ab dipakai pada abfahren (berangkat), bukan ankommen.",
+        "auf": "auf bukan awalan untuk ankommen.",
+        "aus": "aus bukan awalan untuk ankommen."
+      },
+      "explanation": "ankommen → kommt ... an: Wann kommt der Zug an?"
+    },
+    {
+      "id": "u11-o2-04",
+      "objectiveId": "a1-u11-o2",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'keberangkatan' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Abfahrt",
+      "altAnswers": ["Abfahrt"],
+      "hintOnWrong": "Keberangkatan = die Abfahrt. Kata Abfahrt feminin.",
+      "explanation": "die Abfahrt berarti 'keberangkatan'."
+    },
+    {
+      "id": "u11-o2-05",
+      "objectiveId": "a1-u11-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Kedatangannya pukul sebelas lebih empat puluh.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Die", "Ankunft", "ist", "um", "elf", "Uhr", "vierzig."],
+      "answer": "Die Ankunft ist um elf Uhr vierzig.",
+      "hintOnWrong": "Mulai dengan Die Ankunft ist, lalu um elf Uhr vierzig.",
+      "explanation": "Die Ankunft ist um elf Uhr vierzig. Waktu memakai um ... Uhr."
+    },
+    {
+      "id": "u11-o3-01",
+      "objectiveId": "a1-u11-o3",
+      "code": "D4",
+      "prompt": "Ich nehme meinen ___ mit.",
+      "sub": "Pilih benda yang Dibawa saat bepergian.",
+      "mode": "choice",
+      "options": ["Reisepass", "Reisepässe", "Reise", "Reisepass mit"],
+      "answer": "Reisepass",
+      "wrongFeedback": {
+        "Reisepässe": "Reisepässe adalah bentuk jamak; meinen membutuhkan objek tunggal maskulin.",
+        "Reise": "Reise berarti 'perjalanan', bukan paspor.",
+        "Reisepass mit": "mit sudah ada di akhir kalimat; jangan diulang."
+      },
+      "explanation": "Ich nehme meinen Reisepass mit. mitnehmen adalah verba pisah."
+    },
+    {
+      "id": "u11-o3-02",
+      "objectiveId": "a1-u11-o3",
+      "code": "D4",
+      "prompt": "Nimm einen ___ und einen Rucksack mit.",
+      "sub": "Pilih benda yang berarti 'koper'.",
+      "mode": "choice",
+      "options": ["Koffer", "Koffer mit", "Koffers", "Kofferanhänger"],
+      "answer": "Koffer",
+      "wrongFeedback": {
+        "Koffer mit": "mit sudah ada di akhir kalimat; jangan diulang.",
+        "Koffers": "Koffers bukan bentuk yang benar setelah einen; bentuk dasarnya Koffer.",
+        "Kofferanhänger": "Kofferanhänger adalah label koper, bukan koper."
+      },
+      "explanation": "der Koffer = koper: Nimm einen Koffer und einen Rucksack mit."
+    },
+    {
+      "id": "u11-o3-03",
+      "objectiveId": "a1-u11-o3",
+      "code": "D4",
+      "prompt": "Hast du deinen ___ dabei?",
+      "sub": "Pilih dokumen perjalanan yang tepat.",
+      "mode": "choice",
+      "options": ["Reisepass", "Reisepässe", "Reiseplan", "Reisetasche"],
+      "answer": "Reisepass",
+      "wrongFeedback": {
+        "Reisepässe": "Reisepässe adalah bentuk jamak; deinen membutuhkan objek tunggal maskulin.",
+        "Reiseplan": "Reiseplan adalah rencana perjalanan, bukan dokumen identitas.",
+        "Reisetasche": "Reisetasche adalah tas perjalanan, bukan paspor."
+      },
+      "explanation": "der Reisepass = paspor: Hast du deinen Reisepass dabei?"
+    },
+    {
+      "id": "u11-o3-04",
+      "objectiveId": "a1-u11-o3",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'tas ransel' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "der Rucksack",
+      "altAnswers": ["Rucksack"],
+      "hintOnWrong": "Tas ransel = der Rucksack. Kata Rucksack maskulin.",
+      "explanation": "der Rucksack berarti 'tas ransel'."
+    },
+    {
+      "id": "u11-o3-05",
+      "objectiveId": "a1-u11-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Saya membawa tas saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "nehme", "meine", "Tasche", "mit."],
+      "answer": "Ich nehme meine Tasche mit.",
+      "hintOnWrong": "Mulai dengan Ich nehme meine Tasche, lalu mit di akhir.",
+      "explanation": "Ich nehme meine Tasche mit. Awalan mit- berada di akhir kalimat."
+    },
+    {
+      "id": "u11-o4-01",
+      "objectiveId": "a1-u11-o4",
+      "code": "D9",
+      "prompt": "Auf welchem ___ fährt der Zug ab?",
+      "sub": "Pilih kata untuk 'peron/jalur'.",
+      "mode": "choice",
+      "options": ["Gleis", "Bahnsteig", "Zug", "Anschluss"],
+      "answer": "Gleis",
+      "wrongFeedback": {
+        "Bahnsteig": "Bahnsteig adalah area peron; frasa Auf welchem ... memakai Gleis.",
+        "Zug": "Zug adalah kereta, bukan jalur.",
+        "Anschluss": "Anschluss adalah sambungan, bukan jalur."
+      },
+      "explanation": "das Gleis = jalur/peron: Auf welchem Gleis fährt der Zug ab?"
+    },
+    {
+      "id": "u11-o4-02",
+      "objectiveId": "a1-u11-o4",
+      "code": "D1",
+      "prompt": "Der Zug hat zehn Minuten ___ .",
+      "sub": "Pilih kata untuk 'keterlambatan'.",
+      "mode": "choice",
+      "options": ["Verspätung", "Abfahrt", "Ankunft", "Verbindung"],
+      "answer": "Verspätung",
+      "wrongFeedback": {
+        "Abfahrt": "Abfahrt berarti 'keberangkatan', bukan keterlambatan.",
+        "Ankunft": "Ankunft berarti 'kedatangan', bukan keterlambatan.",
+        "Verbindung": "Verbindung berarti 'sambungan/rute', bukan keterlambatan."
+      },
+      "explanation": "Verspätung haben = terlambat: Der Zug hat zehn Minuten Verspätung."
+    },
+    {
+      "id": "u11-o4-03",
+      "objectiveId": "a1-u11-o4",
+      "code": "D4",
+      "prompt": "Wegen der Verspätung verpasse ich den ___ .",
+      "sub": "Pilih kata untuk 'sambungan'.",
+      "mode": "choice",
+      "options": ["Anschluss", "Abfahrt", "Bahnsteig", "Reisepass"],
+      "answer": "Anschluss",
+      "wrongFeedback": {
+        "Abfahrt": "Abfahrt berarti 'keberangkatan', bukan sambungan.",
+        "Bahnsteig": "Bahnsteig berarti 'peron', bukan sambungan.",
+        "Reisepass": "Reisepass berarti 'paspor', bukan sambungan."
+      },
+      "explanation": "den Anschluss verpassen = ketinggalan sambungan."
+    },
+    {
+      "id": "u11-o4-04",
+      "objectiveId": "a1-u11-o4",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'keterlambatan' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Verspätung",
+      "altAnswers": ["Verspaetung", "Verspätung"],
+      "hintOnWrong": "Keterlambatan = die Verspätung. Kata berakhiran -ung feminin.",
+      "explanation": "die Verspätung berarti 'keterlambatan'."
+    },
+    {
+      "id": "u11-o4-05",
+      "objectiveId": "a1-u11-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Kereta itu terlambat.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Der", "Zug", "ist", "verspätet."],
+      "answer": "Der Zug ist verspätet.",
+      "hintOnWrong": "Mulai dengan Der Zug, lalu ist, lalu verspätet.",
+      "explanation": "Der Zug ist verspätet. berarti 'Kereta itu terlambat'."
+    },
+    {
+      "id": "u11-o5-01",
+      "objectiveId": "a1-u11-o5",
+      "code": "D3",
+      "prompt": "Ich möchte einen Sitzplatz ___ .",
+      "sub": "Pilih infinitif setelah möchte.",
+      "mode": "choice",
+      "options": ["reservieren", "reserviert", "reservierst", "Reservierung"],
+      "answer": "reservieren",
+      "wrongFeedback": {
+        "reserviert": "reserviert adalah Partizip/3rd person; setelah möchte dipakai infinitif.",
+        "reservierst": "reservierst adalah bentuk du; setelah möchte dipakai infinitif.",
+        "Reservierung": "Reservierung adalah kata benda, bukan infinitif verba."
+      },
+      "explanation": "Ich möchte einen Sitzplatz reservieren. Setelah modal, infinitif di akhir."
+    },
+    {
+      "id": "u11-o5-02",
+      "objectiveId": "a1-u11-o5",
+      "code": "D1",
+      "prompt": "Wo bekomme ich eine ___ ?",
+      "sub": "Pilih kata untuk 'informasi'.",
+      "mode": "choice",
+      "options": ["Auskunft", "Abfahrt", "Ankunft", "Verspätung"],
+      "answer": "Auskunft",
+      "wrongFeedback": {
+        "Abfahrt": "Abfahrt berarti 'keberangkatan', bukan informasi.",
+        "Ankunft": "Ankunft berarti 'kedatangan', bukan informasi.",
+        "Verspätung": "Verspätung berarti 'keterlambatan', bukan informasi."
+      },
+      "explanation": "die Auskunft = informasi: Wo bekomme ich eine Auskunft?"
+    },
+    {
+      "id": "u11-o5-03",
+      "objectiveId": "a1-u11-o5",
+      "code": "D1",
+      "prompt": "Wir brauchen eine ___ nach Dresden.",
+      "sub": "Pilih kata untuk 'rute/sambungan perjalanan'.",
+      "mode": "choice",
+      "options": ["Verbindung", "Verspätung", "Auskunft", "Sitzplatzkarte"],
+      "answer": "Verbindung",
+      "wrongFeedback": {
+        "Verspätung": "Verspätung berarti 'keterlambatan', bukan rute.",
+        "Auskunft": "Auskunft berarti 'informasi', bukan rute.",
+        "Sitzplatzkarte": "Sitzplatzkarte adalah tiket tempat duduk, bukan rute."
+      },
+      "explanation": "eine Verbindung nach Dresden = rute/sambungan ke Dresden."
+    },
+    {
+      "id": "u11-o5-04",
+      "objectiveId": "a1-u11-o5",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'loket tiket' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "der Ticketschalter",
+      "altAnswers": ["Ticketschalter"],
+      "hintOnWrong": "Loket tiket = der Ticketschalter. Kata Schalter maskulin.",
+      "explanation": "der Ticketschalter berarti 'loket tiket'."
+    },
+    {
+      "id": "u11-o5-05",
+      "objectiveId": "a1-u11-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ingin memesan tempat duduk.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "möchte", "einen", "Sitzplatz", "reservieren."],
+      "answer": "Ich möchte einen Sitzplatz reservieren.",
+      "hintOnWrong": "Mulai dengan Ich möchte einen Sitzplatz, lalu reservieren di akhir.",
+      "explanation": "Ich möchte einen Sitzplatz reservieren. Infinitif reservieren berada di akhir."
+    }
+  ]
+}

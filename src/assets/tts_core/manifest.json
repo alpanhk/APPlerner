@@ -1,0 +1,1259 @@
+{
+  "phrases": {
+    "name": "word_01.wav",
+    "mann": "word_02.wav",
+    "frau": "word_03.wav",
+    "herr": "word_04.wav",
+    "land": "word_05.wav",
+    "sprache": "word_06.wav",
+    "stadt": "word_07.wav",
+    "freund": "word_08.wav",
+    "freundin": "word_09.wav",
+    "jahr": "word_10.wav",
+    "kommen": "word_11.wav",
+    "heissen": "word_12.wav",
+    "wohnen": "word_13.wav",
+    "acht uhr dreissig": "time_01.wav",
+    "sieben uhr fünfzehn": "time_02.wav",
+    "viertel vor neun": "time_03.wav",
+    "halb sieben": "time_04.wav",
+    "zehn uhr": "time_05.wav",
+    "fünf nach drei": "time_06.wav",
+    "zwanzig vor acht": "time_07.wav",
+    "halb neun": "time_08.wav",
+    "hallo": "greeting_01.wav",
+    "guten morgen": "greeting_02.wav",
+    "guten tag": "greeting_03.wav",
+    "guten abend": "greeting_04.wav",
+    "auf wiedersehen": "greeting_05.wav",
+    "wie heissen sie": "greeting_06.wav",
+    "guten tag ich lerne deutsch": "preview_01.wav",
+    "guten tag ich heisse alex und lerne deutsch": "preview_02.wav",
+    "guten tag was möchten sie": "conv_76f18fde42ee.wav",
+    "ich möchte einen kaffee und ein wasser bitte": "dialogue_a1_listen_cafe_02.wav",
+    "möchten sie auch ein stück kuchen": "dialogue_a1_listen_cafe_03.wav",
+    "nein danke nur den kaffee und das wasser": "dialogue_a1_listen_cafe_04.wav",
+    "entschuldigung wann fährt der zug nach berlin": "dialogue_a1_listen_bahnhof_01.wav",
+    "der zug fährt um neun uhr von gleis drei": "dialogue_a1_listen_bahnhof_02.wav",
+    "hat der zug verspätung": "dialogue_a1_listen_bahnhof_03.wav",
+    "nein der zug ist pünktlich": "dialogue_a1_listen_bahnhof_04.wav",
+    "was fehlt ihnen": "conv_b279d0d1e41a.wav",
+    "ich habe seit zwei tagen kopfschmerzen und fieber": "dialogue_a1_listen_arzt_02.wav",
+    "nehmen sie die tablette nach dem essen": "conv_da024e104fba.wav",
+    "vielen dank": "dialogue_a1_listen_arzt_04.wav",
+    "die wohnung hat zwei zimmer und eine küche": "dialogue_a1_listen_wohnung_01.wav",
+    "wie viel kostet die wohnung": "dialogue_a1_listen_wohnung_02.wav",
+    "sie kostet sechshundert euro pro monat": "dialogue_a1_listen_wohnung_03.wav",
+    "ist die wohnung hell": "dialogue_a1_listen_wohnung_04.wav",
+    "ja alle zimmer sind hell": "dialogue_a1_listen_wohnung_05.wav",
+    "hallo budi hast du am samstag zeit": "dialogue_a1_listen_verabredung_01.wav",
+    "am samstag kann ich leider nicht können wir uns am sonntag treffen": "dialogue_a1_listen_verabredung_02.wav",
+    "ja gern um wie viel uhr": "dialogue_a1_listen_verabredung_03.wav",
+    "um drei uhr vor dem kino": "dialogue_a1_listen_verabredung_04.wav",
+    "abendessen": "a1_word_001.wav",
+    "abfahrtsanzeige": "a1_word_002.wav",
+    "aktenordner": "a1_word_003.wav",
+    "anruf": "a1_word_004.wav",
+    "anzeigetafel": "a1_word_005.wav",
+    "apfel": "a1_word_006.wav",
+    "apotheker": "a1_word_007.wav",
+    "arbeitsweg": "a1_word_008.wav",
+    "arzttermin": "a1_word_009.wav",
+    "augentropfen": "a1_word_010.wav",
+    "bahnsteig": "a1_word_011.wav",
+    "bauchschmerz": "a1_word_012.wav",
+    "besuch": "a1_word_013.wav",
+    "bluse": "a1_word_014.wav",
+    "brettspiel": "a1_word_015.wav",
+    "briefmarke": "a1_word_016.wav",
+    "briefumschlag": "a1_word_017.wav",
+    "brot": "a1_word_018.wav",
+    "bruder": "a1_word_019.wav",
+    "buchhandlung": "a1_word_020.wav",
+    "bushaltestelle": "a1_word_021.wav",
+    "bücherregal": "a1_word_022.wav",
+    "bürgeramt": "a1_word_023.wav",
+    "bürogebäude": "a1_word_024.wav",
+    "cousin": "a1_word_025.wav",
+    "cousine": "a1_word_026.wav",
+    "dachboden": "a1_word_027.wav",
+    "dienstplan": "a1_word_028.wav",
+    "dienstreise": "a1_word_029.wav",
+    "direktzug": "a1_word_030.wav",
+    "drogerie": "a1_word_031.wav",
+    "einkaufstasche": "a1_word_032.wav",
+    "einkaufszentrum": "a1_word_033.wav",
+    "eltern": "a1_word_034.wav",
+    "empfang": "a1_word_035.wav",
+    "euro": "a1_word_036.wav",
+    "fahrkartenkontrolle": "a1_word_037.wav",
+    "familie": "a1_word_038.wav",
+    "faxgerät": "a1_word_039.wav",
+    "fensterplatz": "a1_word_040.wav",
+    "frühschicht": "a1_word_044.wav",
+    "frühstück": "a1_word_045.wav",
+    "fussboden": "a1_word_046.wav",
+    "fussgängerzone": "a1_word_047.wav",
+    "gardine": "a1_word_048.wav",
+    "gepäckstück": "a1_word_049.wav",
+    "geschwister": "a1_word_050.wav",
+    "grippe": "a1_word_051.wav",
+    "gutschein": "a1_word_052.wav",
+    "halsschmerz": "a1_word_053.wav",
+    "handynummer": "a1_word_054.wav",
+    "heizkörper": "a1_word_055.wav",
+    "kaffee": "a1_word_058.wav",
+    "kamera": "a1_word_059.wav",
+    "kantine": "a1_word_060.wav",
+    "kassenzettel": "a1_word_061.wav",
+    "keller": "a1_word_062.wav",
+    "kind": "a1_word_063.wav",
+    "kleiderbügel": "a1_word_064.wav",
+    "knopf": "a1_word_065.wav",
+    "kofferanhänger": "a1_word_066.wav",
+    "konditorei": "a1_word_067.wav",
+    "kontakt": "a1_word_068.wav",
+    "kopfschmerz": "a1_word_069.wav",
+    "käse": "a1_word_070.wav",
+    "lesung": "a1_word_072.wav",
+    "lohnabrechnung": "a1_word_073.wav",
+    "malerei": "a1_word_074.wav",
+    "mantel": "a1_word_076.wav",
+    "matratze": "a1_word_077.wav",
+    "milch": "a1_word_078.wav",
+    "minute": "a1_word_079.wav",
+    "mittagessen": "a1_word_080.wav",
+    "mittagspause": "a1_word_081.wav",
+    "montag": "a1_word_082.wav",
+    "musikfestival": "a1_word_083.wav",
+    "musikgruppe": "a1_word_084.wav",
+    "musikinstrument": "a1_word_085.wav",
+    "mutter": "a1_word_086.wav",
+    "möbelstück": "a1_word_087.wav",
+    "nasenspray": "a1_word_089.wav",
+    "onkel": "a1_word_090.wav",
+    "pausenbrot": "a1_word_091.wav",
+    "pausenraum": "a1_word_092.wav",
+    "polizeiwache": "a1_word_093.wav",
+    "postfiliale": "a1_word_094.wav",
+    "postkarte": "a1_word_095.wav",
+    "preis": "a1_word_096.wav",
+    "preisschild": "a1_word_097.wav",
+    "probe": "a1_word_098.wav",
+    "rechnung": "a1_word_099.wav",
+    "reisepass": "a1_word_100.wav",
+    "reiseplan": "a1_word_101.wav",
+    "reisetasche": "a1_word_102.wav",
+    "reisezeit": "a1_word_103.wav",
+    "reservierungsnummer": "a1_word_104.wav",
+    "rock": "a1_word_105.wav",
+    "rollladen": "a1_word_106.wav",
+    "rückgabe": "a1_word_107.wav",
+    "rückruf": "a1_word_108.wav",
+    "sms": "a1_word_109.wav",
+    "saft": "a1_word_110.wav",
+    "sakko": "a1_word_111.wav",
+    "schachspiel": "a1_word_112.wav",
+    "schmerzmittel": "a1_word_113.wav",
+    "schulungsraum": "a1_word_114.wav",
+    "schwester": "a1_word_115.wav",
+    "sessel": "a1_word_116.wav",
+    "sitzplatzkarte": "a1_word_117.wav",
+    "sonderpreis": "a1_word_118.wav",
+    "spielkarte": "a1_word_119.wav",
+    "sporthalle": "a1_word_120.wav",
+    "sprachnachricht": "a1_word_122.wav",
+    "sprechstunde": "a1_word_123.wav",
+    "sprechzimmer": "a1_word_124.wav",
+    "spülmaschine": "a1_word_125.wav",
+    "stadtplan": "a1_word_127.wav",
+    "station": "a1_word_128.wav",
+    "steckdose": "a1_word_129.wav",
+    "stiefel": "a1_word_130.wav",
+    "stunde": "a1_word_131.wav",
+    "tante": "a1_word_132.wav",
+    "tanzkurs": "a1_word_133.wav",
+    "teamleiterin": "a1_word_134.wav",
+    "tee": "a1_word_135.wav",
+    "telefonat": "a1_word_136.wav",
+    "telefonzentrale": "a1_word_137.wav",
+    "terminkalender": "a1_word_138.wav",
+    "theaterstück": "a1_word_139.wav",
+    "ticketschalter": "a1_word_140.wav",
+    "tiefgarage": "a1_word_141.wav",
+    "tropfen": "a1_word_142.wav",
+    "türmatte": "a1_word_143.wav",
+    "türschloss": "a1_word_144.wav",
+    "u-bahn": "a1_word_145.wav",
+    "uhr": "a1_word_146.wav",
+    "umkleidekabine": "a1_word_147.wav",
+    "umstieg": "a1_word_148.wav",
+    "unterführung": "a1_word_149.wav",
+    "untersuchung": "a1_word_150.wav",
+    "vater": "a1_word_151.wav",
+    "verabredung": "a1_word_152.wav",
+    "versicherungskarte": "a1_word_153.wav",
+    "wanderung": "a1_word_154.wav",
+    "wasser": "a1_word_155.wav",
+    "wegweiser": "a1_word_156.wav",
+    "woche": "a1_word_157.wav",
+    "wochenendausflug": "a1_word_158.wav",
+    "wochenende": "a1_word_159.wav",
+    "wundsalbe": "a1_word_160.wav",
+    "wäschetrockner": "a1_word_161.wav",
+    "zahl": "a1_word_162.wav",
+    "zebrastreifen": "a1_word_163.wav",
+    "zeit": "a1_word_164.wav",
+    "bestellen": "a1_word_165.wav",
+    "besuchen": "a1_word_166.wav",
+    "billig": "a1_word_167.wav",
+    "essen": "a1_word_168.wav",
+    "gestern": "a1_word_169.wav",
+    "heute": "a1_word_171.wav",
+    "ledig": "a1_word_173.wav",
+    "morgen": "a1_word_174.wav",
+    "teuer": "a1_word_175.wav",
+    "trinken": "a1_word_176.wav",
+    "verheiratet": "a1_word_177.wav",
+    "am abend essen wir zusammen": "a1_example_001.wav",
+    "am abend lerne ich deutsch": "a1_example_002.wav",
+    "am montag beginnt der kurs": "a1_example_003.wav",
+    "am samstag gehen wir schwimmen": "a1_example_004.wav",
+    "am samstag räumen wir den keller auf": "a1_example_005.wav",
+    "am sonntag besuche ich meine grossmutter": "a1_example_006.wav",
+    "am sonntag besuchen wir ein konzert": "a1_example_007.wav",
+    "danach beginnt die besprechung": "a1_example_008.wav",
+    "danke für die einladung ich komme gern": "a1_example_009.wav",
+    "danke für die einladung meine antwort kommt morgen": "a1_example_010.wav",
+    "das rathaus liegt gegenüber der bibliothek": "a1_example_011.wav",
+    "das ist meine familie": "a1_example_012.wav",
+    "das klingt gut um wie viel uhr treffen wir uns": "a1_example_013.wav",
+    "das kostet zweiundzwanzig euro": "a1_example_014.wav",
+    "der apfel ist rot und süss": "a1_example_015.wav",
+    "der apotheker gibt mir ein rezept": "a1_example_016.wav",
+    "der arzt schreibt eine krankmeldung": "a1_example_017.wav",
+    "der bus hält an der bushaltestelle": "a1_example_018.wav",
+    "der kuchen ist lecker": "a1_example_019.wav",
+    "der mantel ist zu lang aber die jacke passt": "a1_example_020.wav",
+    "der schlüssel liegt auf dem bücherregal": "a1_example_021.wav",
+    "der sessel ist klein und sehr gemütlich": "a1_example_022.wav",
+    "der zug fährt um neun uhr": "a1_example_023.wav",
+    "der zug nach köln fährt von gleis drei ab": "a1_example_024.wav",
+    "deutsch ist eine fremde sprache": "a1_example_025.wav",
+    "die abfahrt ist um viertel nach acht": "a1_example_026.wav",
+    "die apotheke ist neben der post": "a1_example_027.wav",
+    "die auskunft ist neben dem eingang": "a1_example_028.wav",
+    "die freunde lernen deutsch": "a1_example_029.wav",
+    "die matratze ist im schlafzimmer": "a1_example_030.wav",
+    "die rechnung bitte — zusammen bitte": "a1_example_031.wav",
+    "die strassenbahn fährt um zehn uhr": "a1_example_032.wav",
+    "die blaue jacke ist schön": "a1_example_033.wav",
+    "die ärztin macht eine kurze untersuchung": "a1_example_034.wav",
+    "es ist halb sieben": "a1_example_035.wav",
+    "es ist zehn uhr": "a1_example_036.wav",
+    "gehen sie an der ampel nach links": "a1_example_037.wav",
+    "gehen sie zuerst über die brücke": "a1_example_038.wav",
+    "guten tag frau müller": "a1_example_039.wav",
+    "guten tag hier ist rani": "a1_example_040.wav",
+    "haben sie die schuhe auch in grösse 39": "a1_example_041.wav",
+    "haben sie eine schwarze hose": "a1_example_042.wav",
+    "hallo ich komme heute zehn minuten später": "a1_example_043.wav",
+    "hast du deinen reisepass dabei": "a1_example_044.wav",
+    "heute habe ich keine zeit": "a1_example_045.wav",
+    "ich besuche meinen onkel": "a1_example_046.wav",
+    "ich bin 24 jahre alt": "a1_example_047.wav",
+    "ich bin achtzehn jahre alt": "a1_example_048.wav",
+    "ich erledige die aufgabe vor der pause": "a1_example_049.wav",
+    "ich esse fisch mit reis": "a1_example_050.wav",
+    "ich gehe mit meinem freund zum konzert": "a1_example_051.wav",
+    "ich habe fieber und mein hals tut weh": "a1_example_052.wav",
+    "ich habe eine schwester": "a1_example_053.wav",
+    "ich habe seit zwei tagen husten": "a1_example_054.wav",
+    "ich heisse alex ich komme aus indonesien": "a1_example_055.wav",
+    "ich heisse alex und du wie heisst du": "a1_example_056.wav",
+    "ich hinterlasse eine kurze sprachnachricht": "a1_example_057.wav",
+    "ich liebe meine familie sehr": "a1_example_058.wav",
+    "ich mag den tanzkurs denn die musik ist schön": "a1_example_059.wav",
+    "ich möchte dich zum essen einladen": "a1_example_060.wav",
+    "ich möchte die hose umtauschen": "a1_example_061.wav",
+    "ich möchte einen kaffee bitte": "a1_example_062.wav",
+    "ich möchte einen sitzplatz am fenster reservieren": "a1_example_063.wav",
+    "ich möchte einen termin am nachmittag": "a1_example_064.wav",
+    "ich nehme einen saft": "a1_example_065.wav",
+    "ich putze die waschmaschine": "a1_example_066.wav",
+    "ich schicke dir eine postkarte aus berlin": "a1_example_067.wav",
+    "ich suche einen warmen mantel": "a1_example_068.wav",
+    "ich wohne in berlin": "a1_example_069.wav",
+    "im reiseplan steht die ankunft um vier uhr": "a1_example_070.wav",
+    "im schlafzimmer liegt ein teppich": "a1_example_071.wav",
+    "im sommer fahren wir nach deutschland": "a1_example_072.wav",
+    "in meiner freizeit fotografiere ich am liebsten": "a1_example_073.wav",
+    "in unserer wohnung gibt es eine spülmaschine": "a1_example_074.wav",
+    "kann ich das kleid anprobieren": "a1_example_075.wav",
+    "kann ich mit karte bezahlen": "a1_example_076.wav",
+    "mein bruder hat fieber und husten": "a1_example_077.wav",
+    "mein bruder ist mitglied im schachverein": "a1_example_078.wav",
+    "mein partner und ich wohnen zusammen": "a1_example_079.wav",
+    "mein vater und meine mutter kommen heute": "a1_example_080.wav",
+    "meine freundin kommt aus bandung": "a1_example_081.wav",
+    "meine freundin wohnt in jakarta": "a1_example_082.wav",
+    "meine frühschicht fängt um sechs uhr an": "a1_example_083.wav",
+    "meine geschwister wohnen in jakarta": "a1_example_084.wav",
+    "meine grossmutter wohnt bei uns": "a1_example_085.wav",
+    "meine kollegin arbeitet in einer anderen abteilung": "a1_example_086.wav",
+    "meine schicht dauert von sieben bis drei": "a1_example_087.wav",
+    "ruf mich bitte nach der arbeit an": "a1_example_088.wav",
+    "sein vater ist arzt": "a1_example_089.wav",
+    "seit wann haben sie kopfschmerzen": "a1_example_090.wav",
+    "sie kann heute früher feierabend machen": "a1_example_091.wav",
+    "sie schreibt einen lebenslauf": "a1_example_092.wav",
+    "sie sollen die tablette nach dem essen nehmen": "a1_example_093.wav",
+    "sind sie verheiratet — nein ich bin ledig": "a1_example_094.wav",
+    "treffen wir uns am freitag um sechs uhr": "a1_example_095.wav",
+    "wann beginnt der deutschkurs": "a1_example_096.wav",
+    "was isst du zum frühstück": "a1_example_097.wav",
+    "was kostet die blaue jacke": "a1_example_098.wav",
+    "was möchten sie essen": "a1_example_099.wav",
+    "wegen einer verspätung verpasse ich den anschluss": "a1_example_100.wav",
+    "wie komme ich zur bibliothek": "a1_example_102.wav",
+    "wie viel kostet das brot — drei euro": "a1_example_103.wav",
+    "wie viele kinder haben sie": "a1_example_104.wav",
+    "wir brauchen eine verbindung nach dresden": "a1_example_105.wav",
+    "wir fahren mit der strassenbahn zum rathaus": "a1_example_106.wav",
+    "wir fahren nach hamburg": "a1_example_107.wav",
+    "wir kaufen brot und milch": "a1_example_108.wav",
+    "wir kommen aus indonesien": "a1_example_109.wav",
+    "wir müssen die gardinen heute waschen": "a1_example_110.wav",
+    "wir müssen um zwölf uhr eine pause machen": "a1_example_111.wav",
+    "wir sprechen mit unserer kollegin": "a1_example_112.wav",
+    "wir stellen das bücherregal ins arbeitszimmer": "a1_example_113.wav",
+    "wir trainieren jeden dienstag zusammen": "a1_example_114.wav",
+    "wo ist die bäckerei": "a1_example_115.wav",
+    "wo wohnen sie": "a1_example_116.wav",
+    "woher kommst du — ich komme aus bandung": "a1_example_117.wav",
+    "wollen wir am samstag ins schwimmbad gehen": "a1_example_118.wav",
+    "zum abendessen gibt es fisch": "a1_example_119.wav",
+    "zum frühstück esse ich brot mit käse": "a1_example_120.wav",
+    "der name · die frau · das land": "a1_example_121.wav",
+    "eins zwei drei vier fünf": "a1_example_122.wav",
+    "am abend treffe ich meine freunde": "a1_text_001.wav",
+    "am montag beginnt mein neuer job": "a1_text_002.wav",
+    "am montag und am mittwoch habe ich unterricht": "a1_text_003.wav",
+    "am morgen trinke ich kaffee": "a1_text_004.wav",
+    "am samstag gehe ich auf den wochenmarkt": "a1_text_005.wav",
+    "am samstag räumen wir zusammen auf": "a1_text_006.wav",
+    "am wochenende habe ich frei": "a1_text_008.wav",
+    "am nächsten tag geht es ihm besser": "a1_text_009.wav",
+    "an der ampel gehen sie nach links": "a1_text_010.wav",
+    "dann fahre ich zur arbeit": "a1_text_011.wav",
+    "dann koche ich eine suppe": "a1_text_012.wav",
+    "das abendessen ist um sieben uhr": "a1_text_013.wav",
+    "das buch kostet zwölf euro": "a1_text_014.wav",
+    "das ist mein freund budi": "a1_text_015.wav",
+    "das kostet zusammen sechs euro fünfzig": "a1_text_016.wav",
+    "der bahnhof ist neben dem hotel": "a1_text_017.wav",
+    "der bahnhof ist nicht weit": "a1_text_018.wav",
+    "der kuchen ist sehr lecker": "a1_text_019.wav",
+    "der kurs dauert zwei stunden": "a1_text_020.wav",
+    "der käse ist heute billig": "a1_text_021.wav",
+    "der park liegt zwischen der schule und dem museum": "a1_text_022.wav",
+    "die arbeit beginnt um acht uhr": "a1_text_023.wav",
+    "die jacke kostet sechzig euro": "a1_text_024.wav",
+    "die kinder spielen auf dem spielplatz": "a1_text_025.wav",
+    "die küche ist klein aber hell": "a1_text_026.wav",
+    "die rechnung bitte": "a1_text_027.wav",
+    "die stadt ist gross und laut": "a1_text_028.wav",
+    "die ärmel sind ein bisschen lang": "a1_text_029.wav",
+    "die ärztin fragt was fehlt ihnen": "a1_text_030.wav",
+    "ein kilo äpfel kostet drei euro": "a1_text_031.wav",
+    "entschuldigung wie komme ich zum bahnhof": "a1_text_032.wav",
+    "er kommt aus bandung": "a1_text_033.wav",
+    "er nimmt ein buch und eine karte": "a1_text_034.wav",
+    "er ruft die arztpraxis an": "a1_text_035.wav",
+    "es ist halb acht": "a1_text_036.wav",
+    "gehen sie hier geradeaus": "a1_text_037.wav",
+    "hallo ich heisse anna": "a1_text_038.wav",
+    "heute hat leila geburtstag": "a1_text_040.wav",
+    "hier gibt es viele cafés": "a1_text_041.wav",
+    "ich bin hungrig und durstig": "a1_text_042.wav",
+    "ich habe einen vater und eine mutter": "a1_text_043.wav",
+    "ich habe keine geschwister": "a1_text_044.wav",
+    "ich habe zwei brüder und eine schwester": "a1_text_045.wav",
+    "ich kaufe brot und tomaten": "a1_text_046.wav",
+    "ich kaufe heute gemüse und fisch": "a1_text_047.wav",
+    "ich komme aus indonesien": "a1_text_048.wav",
+    "ich liebe meine familie": "a1_text_049.wav",
+    "ich mache das fenster auf": "a1_text_050.wav",
+    "ich stehe um sechs uhr auf": "a1_text_052.wav",
+    "ich zahle mit karte": "a1_text_054.wav",
+    "im wohnzimmer stehen ein tisch und ein sofa": "a1_text_055.wav",
+    "leila freut sich über das geschenk": "a1_text_056.wav",
+    "mein bruder ist verheiratet": "a1_text_057.wav",
+    "mein bruder schläft im zimmer neben der küche": "a1_text_058.wav",
+    "mein freund wohnt in der nähe": "a1_text_059.wav",
+    "mein nachbar bringt frisches brot": "a1_text_060.wav",
+    "mein onkel und meine tante kommen auch": "a1_text_061.wav",
+    "mein vater heisst herr müller": "a1_text_062.wav",
+    "mein vater trinkt wasser ich trinke saft": "a1_text_063.wav",
+    "meine cousine bringt einen kuchen": "a1_text_064.wav",
+    "meine eltern wohnen in bandung": "a1_text_065.wav",
+    "meine familie ist gross": "a1_text_066.wav",
+    "meine familie ist klein": "a1_text_067.wav",
+    "meine freundin bestellt einen tee": "a1_text_068.wav",
+    "meine freundin liest auf einer bank": "a1_text_069.wav",
+    "meine kolleginnen sind sehr freundlich": "a1_text_071.wav",
+    "meine mutter ist lehrerin": "a1_text_072.wav",
+    "meine mutter kocht reis mit gemüse": "a1_text_073.wav",
+    "meine schwester ist noch ledig": "a1_text_074.wav",
+    "mira kauft die jacke an der kasse": "a1_text_075.wav",
+    "mira sucht eine blaue jacke": "a1_text_076.wav",
+    "nach der arbeit bin ich zu hause": "a1_text_077.wav",
+    "nach der arbeit kaufe ich noch brot": "a1_text_078.wav",
+    "rudi hat seit gestern kopfschmerzen": "a1_text_079.wav",
+    "rudi soll viel wasser trinken und sich ausruhen": "a1_text_080.wav",
+    "sie probiert die jacke an": "a1_text_081.wav",
+    "sie wohnt in einem kleinen haus": "a1_text_082.wav",
+    "tom möchte ein geschenk kaufen": "a1_text_083.wav",
+    "um halb acht fahre ich ins büro": "a1_text_084.wav",
+    "um neun uhr beginnt der deutschkurs": "a1_text_085.wav",
+    "um sechs uhr fahren wir mit dem bus nach hause": "a1_text_086.wav",
+    "um zehn uhr gehe ich nach hause": "a1_text_087.wav",
+    "unsere wohnung hat drei zimmer": "a1_text_088.wav",
+    "vielen dank für ihre hilfe": "a1_text_089.wav",
+    "wir essen zusammen und erzählen viel": "a1_text_090.wav",
+    "wir essen zusammen und sprechen über den tag": "a1_text_091.wav",
+    "wir gehen heute ins café": "a1_text_092.wav",
+    "wir gehen zu fuss dorthin": "a1_text_093.wav",
+    "wir lernen deutsch": "a1_text_094.wav",
+    "wir treffen uns am bahnhof": "a1_text_095.wav",
+    "wir wohnen in einer kleinen stadt": "a1_text_096.wav",
+    "wir zahlen zusammen zehn euro": "a1_text_097.wav",
+    "wie bitte möchten sie einen kaffee": "conv_098783243418.wav",
+    "gern möchten sie auch ein stück kuchen": "conv_ca3767c9cf31.wav",
+    "einen tee bitte möchten sie auch kuchen": "conv_1a453968413e.wav",
+    "gern das macht fünf euro": "conv_57ec1e6f9e1c.wav",
+    "gern das macht drei euro": "conv_098e353941c8.wav",
+    "gern das macht zwei euro": "conv_ac5e632cb6cf.wav",
+    "gern das macht vier euro": "conv_4c7cfd073148.wav",
+    "guten tag kann ich ihnen helfen": "conv_10ab54829db6.wav",
+    "wie bitte suchen sie den bahnhof": "conv_7af6d41fe4f1.wav",
+    "gehen sie geradeaus dann links": "conv_baaa079b27c0.wav",
+    "gern geschehen schönen tag": "conv_89f7f53ca203.wav",
+    "kein problem auf wiedersehen": "conv_1fed9dbb6622.wav",
+    "haben sie kopfschmerzen": "conv_da0532bb3507.wav",
+    "bei bauchschmerzen nehmen sie diese tablette nach dem essen": "conv_ecdc9e994682.wav",
+    "dreimal täglich": "conv_3c83869bcd58.wav",
+    "nein bitte nehmen sie die tablette nach dem essen dreimal täglich": "conv_ce8d5a3732f2.wav",
+    "eine tablette dreimal täglich": "conv_c1cc1994df3b.wav",
+    "gute besserung": "conv_3c990d545d5f.wav",
+    "sie suchen eine jacke": "conv_6bf6adafe5c3.wav",
+    "welche grösse tragen sie": "conv_540059b1822f.wav",
+    "also grösse 38 möchten sie die jacke anprobieren": "conv_b328334a4539.wav",
+    "die jacke ist hier möchten sie sie anprobieren": "conv_5463f1197535.wav",
+    "die bluse ist hier möchten sie sie anprobieren": "conv_0741791ab27d.wav",
+    "die umkleidekabine ist dort rechts": "conv_f0896b08eaac.wav",
+    "gern die kasse ist dort vorne": "conv_042c98a06b6f.wav"
+  },
+  "numbers": {
+    "eins": {
+      "start": 0.0,
+      "duration": 0.744
+    },
+    "zwei": {
+      "start": 0.884,
+      "duration": 0.856
+    },
+    "drei": {
+      "start": 1.88,
+      "duration": 0.952
+    },
+    "vier": {
+      "start": 2.972,
+      "duration": 0.648
+    },
+    "fünf": {
+      "start": 3.76,
+      "duration": 1.144
+    },
+    "sechs": {
+      "start": 5.044,
+      "duration": 0.808
+    },
+    "sieben": {
+      "start": 5.992,
+      "duration": 1.08
+    },
+    "acht": {
+      "start": 7.212,
+      "duration": 1.208
+    },
+    "neun": {
+      "start": 8.56,
+      "duration": 0.824
+    },
+    "zehn": {
+      "start": 9.524,
+      "duration": 1.72
+    },
+    "elf": {
+      "start": 11.384,
+      "duration": 0.552
+    },
+    "zwölf": {
+      "start": 12.076,
+      "duration": 2.184
+    },
+    "dreizehn": {
+      "start": 14.4,
+      "duration": 1.096
+    },
+    "vierzehn": {
+      "start": 15.636,
+      "duration": 2.072
+    },
+    "fünfzehn": {
+      "start": 17.848,
+      "duration": 1.496
+    },
+    "sechzehn": {
+      "start": 19.484,
+      "duration": 1.48
+    },
+    "siebzehn": {
+      "start": 21.104,
+      "duration": 1.176
+    },
+    "achtzehn": {
+      "start": 22.42,
+      "duration": 1.208
+    },
+    "neunzehn": {
+      "start": 23.768,
+      "duration": 1.24
+    },
+    "zwanzig": {
+      "start": 25.148,
+      "duration": 1.368
+    },
+    "einundzwanzig": {
+      "start": 26.656,
+      "duration": 1.816
+    },
+    "zweiundzwanzig": {
+      "start": 28.612,
+      "duration": 1.8
+    },
+    "dreiundzwanzig": {
+      "start": 30.552,
+      "duration": 1.8
+    },
+    "vierundzwanzig": {
+      "start": 32.492,
+      "duration": 1.784
+    },
+    "fünfundzwanzig": {
+      "start": 34.416,
+      "duration": 1.944
+    },
+    "sechsundzwanzig": {
+      "start": 36.5,
+      "duration": 1.752
+    },
+    "siebenundzwanzig": {
+      "start": 38.392,
+      "duration": 1.72
+    },
+    "achtundzwanzig": {
+      "start": 40.252,
+      "duration": 1.704
+    },
+    "neunundzwanzig": {
+      "start": 42.096,
+      "duration": 1.512
+    },
+    "dreißig": {
+      "start": 43.748,
+      "duration": 1.176
+    },
+    "einunddreißig": {
+      "start": 45.064,
+      "duration": 1.944
+    },
+    "zweiunddreißig": {
+      "start": 47.148,
+      "duration": 1.64
+    },
+    "dreiunddreißig": {
+      "start": 48.928,
+      "duration": 1.784
+    },
+    "vierunddreißig": {
+      "start": 50.852,
+      "duration": 1.736
+    },
+    "fünfunddreißig": {
+      "start": 52.728,
+      "duration": 1.688
+    },
+    "sechsunddreißig": {
+      "start": 54.556,
+      "duration": 1.704
+    },
+    "siebenunddreißig": {
+      "start": 56.4,
+      "duration": 1.992
+    },
+    "achtunddreißig": {
+      "start": 58.532,
+      "duration": 1.736
+    },
+    "neununddreißig": {
+      "start": 60.408,
+      "duration": 1.864
+    },
+    "vierzig": {
+      "start": 62.412,
+      "duration": 1.24
+    },
+    "einundvierzig": {
+      "start": 63.792,
+      "duration": 1.304
+    },
+    "zweiundvierzig": {
+      "start": 65.236,
+      "duration": 1.64
+    },
+    "dreiundvierzig": {
+      "start": 67.016,
+      "duration": 1.496
+    },
+    "vierundvierzig": {
+      "start": 68.652,
+      "duration": 1.496
+    },
+    "fünfundvierzig": {
+      "start": 70.288,
+      "duration": 1.88
+    },
+    "sechsundvierzig": {
+      "start": 72.308,
+      "duration": 1.608
+    },
+    "siebenundvierzig": {
+      "start": 74.056,
+      "duration": 1.768
+    },
+    "achtundvierzig": {
+      "start": 75.964,
+      "duration": 1.848
+    },
+    "neunundvierzig": {
+      "start": 77.952,
+      "duration": 2.008
+    },
+    "fünfzig": {
+      "start": 80.1,
+      "duration": 1.496
+    },
+    "einundfünfzig": {
+      "start": 81.736,
+      "duration": 1.96
+    },
+    "zweiundfünfzig": {
+      "start": 83.836,
+      "duration": 2.008
+    },
+    "dreiundfünfzig": {
+      "start": 85.984,
+      "duration": 1.736
+    },
+    "vierundfünfzig": {
+      "start": 87.86,
+      "duration": 1.784
+    },
+    "fünfundfünfzig": {
+      "start": 89.784,
+      "duration": 1.688
+    },
+    "sechsundfünfzig": {
+      "start": 91.612,
+      "duration": 1.72
+    },
+    "siebenundfünfzig": {
+      "start": 93.472,
+      "duration": 1.912
+    },
+    "achtundfünfzig": {
+      "start": 95.524,
+      "duration": 2.12
+    },
+    "neunundfünfzig": {
+      "start": 97.784,
+      "duration": 1.784
+    },
+    "sechzig": {
+      "start": 99.708,
+      "duration": 1.224
+    },
+    "einundsechzig": {
+      "start": 101.072,
+      "duration": 1.64
+    },
+    "zweiundsechzig": {
+      "start": 102.852,
+      "duration": 1.72
+    },
+    "dreiundsechzig": {
+      "start": 104.712,
+      "duration": 1.752
+    },
+    "vierundsechzig": {
+      "start": 106.604,
+      "duration": 1.608
+    },
+    "fünfundsechzig": {
+      "start": 108.352,
+      "duration": 1.752
+    },
+    "sechsundsechzig": {
+      "start": 110.244,
+      "duration": 1.656
+    },
+    "siebenundsechzig": {
+      "start": 112.04,
+      "duration": 1.752
+    },
+    "achtundsechzig": {
+      "start": 113.932,
+      "duration": 1.784
+    },
+    "neunundsechzig": {
+      "start": 115.856,
+      "duration": 1.848
+    },
+    "siebzig": {
+      "start": 117.844,
+      "duration": 1.176
+    },
+    "einundsiebzig": {
+      "start": 119.16,
+      "duration": 1.688
+    },
+    "zweiundsiebzig": {
+      "start": 120.988,
+      "duration": 1.688
+    },
+    "dreiundsiebzig": {
+      "start": 122.816,
+      "duration": 1.736
+    },
+    "vierundsiebzig": {
+      "start": 124.692,
+      "duration": 1.624
+    },
+    "fünfundsiebzig": {
+      "start": 126.456,
+      "duration": 1.944
+    },
+    "sechsundsiebzig": {
+      "start": 128.54,
+      "duration": 1.72
+    },
+    "siebenundsiebzig": {
+      "start": 130.4,
+      "duration": 1.832
+    },
+    "achtundsiebzig": {
+      "start": 132.372,
+      "duration": 1.48
+    },
+    "neunundsiebzig": {
+      "start": 133.992,
+      "duration": 1.784
+    },
+    "achtzig": {
+      "start": 135.916,
+      "duration": 1.416
+    },
+    "einundachtzig": {
+      "start": 137.472,
+      "duration": 1.736
+    },
+    "zweiundachtzig": {
+      "start": 139.348,
+      "duration": 1.656
+    },
+    "dreiundachtzig": {
+      "start": 141.144,
+      "duration": 1.912
+    },
+    "vierundachtzig": {
+      "start": 143.196,
+      "duration": 1.928
+    },
+    "fünfundachtzig": {
+      "start": 145.264,
+      "duration": 2.328
+    },
+    "sechsundachtzig": {
+      "start": 147.732,
+      "duration": 1.624
+    },
+    "siebenundachtzig": {
+      "start": 149.496,
+      "duration": 1.864
+    },
+    "achtundachtzig": {
+      "start": 151.5,
+      "duration": 2.104
+    },
+    "neunundachtzig": {
+      "start": 153.744,
+      "duration": 1.688
+    },
+    "neunzig": {
+      "start": 155.572,
+      "duration": 1.384
+    },
+    "einundneunzig": {
+      "start": 157.096,
+      "duration": 1.768
+    },
+    "zweiundneunzig": {
+      "start": 159.004,
+      "duration": 1.992
+    },
+    "dreiundneunzig": {
+      "start": 161.136,
+      "duration": 1.8
+    },
+    "vierundneunzig": {
+      "start": 163.076,
+      "duration": 1.608
+    },
+    "fünfundneunzig": {
+      "start": 164.824,
+      "duration": 1.64
+    },
+    "sechsundneunzig": {
+      "start": 166.604,
+      "duration": 2.168
+    },
+    "siebenundneunzig": {
+      "start": 168.912,
+      "duration": 1.656
+    },
+    "achtundneunzig": {
+      "start": 170.708,
+      "duration": 1.896
+    },
+    "neunundneunzig": {
+      "start": 172.744,
+      "duration": 1.544
+    },
+    "einhundert": {
+      "start": 174.428,
+      "duration": 1.288
+    },
+    "1": {
+      "start": 0.0,
+      "duration": 0.744
+    },
+    "2": {
+      "start": 0.884,
+      "duration": 0.856
+    },
+    "3": {
+      "start": 1.88,
+      "duration": 0.952
+    },
+    "4": {
+      "start": 2.972,
+      "duration": 0.648
+    },
+    "5": {
+      "start": 3.76,
+      "duration": 1.144
+    },
+    "6": {
+      "start": 5.044,
+      "duration": 0.808
+    },
+    "7": {
+      "start": 5.992,
+      "duration": 1.08
+    },
+    "8": {
+      "start": 7.212,
+      "duration": 1.208
+    },
+    "9": {
+      "start": 8.56,
+      "duration": 0.824
+    },
+    "10": {
+      "start": 9.524,
+      "duration": 1.72
+    },
+    "11": {
+      "start": 11.384,
+      "duration": 0.552
+    },
+    "12": {
+      "start": 12.076,
+      "duration": 2.184
+    },
+    "13": {
+      "start": 14.4,
+      "duration": 1.096
+    },
+    "14": {
+      "start": 15.636,
+      "duration": 2.072
+    },
+    "15": {
+      "start": 17.848,
+      "duration": 1.496
+    },
+    "16": {
+      "start": 19.484,
+      "duration": 1.48
+    },
+    "17": {
+      "start": 21.104,
+      "duration": 1.176
+    },
+    "18": {
+      "start": 22.42,
+      "duration": 1.208
+    },
+    "19": {
+      "start": 23.768,
+      "duration": 1.24
+    },
+    "20": {
+      "start": 25.148,
+      "duration": 1.368
+    },
+    "21": {
+      "start": 26.656,
+      "duration": 1.816
+    },
+    "22": {
+      "start": 28.612,
+      "duration": 1.8
+    },
+    "23": {
+      "start": 30.552,
+      "duration": 1.8
+    },
+    "24": {
+      "start": 32.492,
+      "duration": 1.784
+    },
+    "25": {
+      "start": 34.416,
+      "duration": 1.944
+    },
+    "26": {
+      "start": 36.5,
+      "duration": 1.752
+    },
+    "27": {
+      "start": 38.392,
+      "duration": 1.72
+    },
+    "28": {
+      "start": 40.252,
+      "duration": 1.704
+    },
+    "29": {
+      "start": 42.096,
+      "duration": 1.512
+    },
+    "30": {
+      "start": 43.748,
+      "duration": 1.176
+    },
+    "31": {
+      "start": 45.064,
+      "duration": 1.944
+    },
+    "32": {
+      "start": 47.148,
+      "duration": 1.64
+    },
+    "33": {
+      "start": 48.928,
+      "duration": 1.784
+    },
+    "34": {
+      "start": 50.852,
+      "duration": 1.736
+    },
+    "35": {
+      "start": 52.728,
+      "duration": 1.688
+    },
+    "36": {
+      "start": 54.556,
+      "duration": 1.704
+    },
+    "37": {
+      "start": 56.4,
+      "duration": 1.992
+    },
+    "38": {
+      "start": 58.532,
+      "duration": 1.736
+    },
+    "39": {
+      "start": 60.408,
+      "duration": 1.864
+    },
+    "40": {
+      "start": 62.412,
+      "duration": 1.24
+    },
+    "41": {
+      "start": 63.792,
+      "duration": 1.304
+    },
+    "42": {
+      "start": 65.236,
+      "duration": 1.64
+    },
+    "43": {
+      "start": 67.016,
+      "duration": 1.496
+    },
+    "44": {
+      "start": 68.652,
+      "duration": 1.496
+    },
+    "45": {
+      "start": 70.288,
+      "duration": 1.88
+    },
+    "46": {
+      "start": 72.308,
+      "duration": 1.608
+    },
+    "47": {
+      "start": 74.056,
+      "duration": 1.768
+    },
+    "48": {
+      "start": 75.964,
+      "duration": 1.848
+    },
+    "49": {
+      "start": 77.952,
+      "duration": 2.008
+    },
+    "50": {
+      "start": 80.1,
+      "duration": 1.496
+    },
+    "51": {
+      "start": 81.736,
+      "duration": 1.96
+    },
+    "52": {
+      "start": 83.836,
+      "duration": 2.008
+    },
+    "53": {
+      "start": 85.984,
+      "duration": 1.736
+    },
+    "54": {
+      "start": 87.86,
+      "duration": 1.784
+    },
+    "55": {
+      "start": 89.784,
+      "duration": 1.688
+    },
+    "56": {
+      "start": 91.612,
+      "duration": 1.72
+    },
+    "57": {
+      "start": 93.472,
+      "duration": 1.912
+    },
+    "58": {
+      "start": 95.524,
+      "duration": 2.12
+    },
+    "59": {
+      "start": 97.784,
+      "duration": 1.784
+    },
+    "60": {
+      "start": 99.708,
+      "duration": 1.224
+    },
+    "61": {
+      "start": 101.072,
+      "duration": 1.64
+    },
+    "62": {
+      "start": 102.852,
+      "duration": 1.72
+    },
+    "63": {
+      "start": 104.712,
+      "duration": 1.752
+    },
+    "64": {
+      "start": 106.604,
+      "duration": 1.608
+    },
+    "65": {
+      "start": 108.352,
+      "duration": 1.752
+    },
+    "66": {
+      "start": 110.244,
+      "duration": 1.656
+    },
+    "67": {
+      "start": 112.04,
+      "duration": 1.752
+    },
+    "68": {
+      "start": 113.932,
+      "duration": 1.784
+    },
+    "69": {
+      "start": 115.856,
+      "duration": 1.848
+    },
+    "70": {
+      "start": 117.844,
+      "duration": 1.176
+    },
+    "71": {
+      "start": 119.16,
+      "duration": 1.688
+    },
+    "72": {
+      "start": 120.988,
+      "duration": 1.688
+    },
+    "73": {
+      "start": 122.816,
+      "duration": 1.736
+    },
+    "74": {
+      "start": 124.692,
+      "duration": 1.624
+    },
+    "75": {
+      "start": 126.456,
+      "duration": 1.944
+    },
+    "76": {
+      "start": 128.54,
+      "duration": 1.72
+    },
+    "77": {
+      "start": 130.4,
+      "duration": 1.832
+    },
+    "78": {
+      "start": 132.372,
+      "duration": 1.48
+    },
+    "79": {
+      "start": 133.992,
+      "duration": 1.784
+    },
+    "80": {
+      "start": 135.916,
+      "duration": 1.416
+    },
+    "81": {
+      "start": 137.472,
+      "duration": 1.736
+    },
+    "82": {
+      "start": 139.348,
+      "duration": 1.656
+    },
+    "83": {
+      "start": 141.144,
+      "duration": 1.912
+    },
+    "84": {
+      "start": 143.196,
+      "duration": 1.928
+    },
+    "85": {
+      "start": 145.264,
+      "duration": 2.328
+    },
+    "86": {
+      "start": 147.732,
+      "duration": 1.624
+    },
+    "87": {
+      "start": 149.496,
+      "duration": 1.864
+    },
+    "88": {
+      "start": 151.5,
+      "duration": 2.104
+    },
+    "89": {
+      "start": 153.744,
+      "duration": 1.688
+    },
+    "90": {
+      "start": 155.572,
+      "duration": 1.384
+    },
+    "91": {
+      "start": 157.096,
+      "duration": 1.768
+    },
+    "92": {
+      "start": 159.004,
+      "duration": 1.992
+    },
+    "93": {
+      "start": 161.136,
+      "duration": 1.8
+    },
+    "94": {
+      "start": 163.076,
+      "duration": 1.608
+    },
+    "95": {
+      "start": 164.824,
+      "duration": 1.64
+    },
+    "96": {
+      "start": 166.604,
+      "duration": 2.168
+    },
+    "97": {
+      "start": 168.912,
+      "duration": 1.656
+    },
+    "98": {
+      "start": 170.708,
+      "duration": 1.896
+    },
+    "99": {
+      "start": 172.744,
+      "duration": 1.544
+    },
+    "100": {
+      "start": 174.428,
+      "duration": 1.288
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "unit": 109,
+  "level": "A2",
+  "theme": "Feste & Traditionen",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Fest",
+      "article": "das",
+      "plural": "die Feste",
+      "meaning_id": "pesta",
+      "example_de": "Das Fest dauert drei Tage.",
+      "example_id": "Pestanya tiga hari.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Feier",
+      "article": "die",
+      "plural": "die Feiern",
+      "meaning_id": "perayaan",
+      "example_de": "Die Feier ist im Garten.",
+      "example_id": "Perayaannya di taman.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Geburtstag",
+      "article": "der",
+      "plural": "die Geburtstage",
+      "meaning_id": "ulang tahun",
+      "example_de": "Mein Geburtstag ist im Mai.",
+      "example_id": "Ulang tahun saya bulan Mei.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Hochzeit",
+      "article": "die",
+      "plural": "die Hochzeiten",
+      "meaning_id": "pernikahan",
+      "example_de": "Die Hochzeit ist im Sommer.",
+      "example_id": "Pernikahannya musim panas.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschenk",
+      "article": "das",
+      "plural": "die Geschenke",
+      "meaning_id": "hadiah",
+      "example_de": "Das Geschenk ist schön.",
+      "example_id": "Hadiahnya bagus.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Gast",
+      "article": "der",
+      "plural": "die Gäste",
+      "meaning_id": "tamu",
+      "example_de": "Wir haben viele Gäste.",
+      "example_id": "Kami punya banyak tamu.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Einladung",
+      "article": "die",
+      "plural": "die Einladungen",
+      "meaning_id": "undangan",
+      "example_de": "Die Einladung ist per Post gekommen.",
+      "example_id": "Undangannya datang lewat pos.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Weihnachtsmarkt",
+      "article": "der",
+      "plural": "die Weihnachtsmärkte",
+      "meaning_id": "pasar Natal",
+      "example_de": "Der Weihnachtsmarkt ist im Dezember.",
+      "example_id": "Pasar Natalnya bulan Desember.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Feuerwerk",
+      "article": "das",
+      "plural": "die Feuerwerke",
+      "meaning_id": "kembang api",
+      "example_de": "Das Feuerwerk ist um Mitternacht.",
+      "example_id": "Kembang apinya tengah malam.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Brauch",
+      "article": "der",
+      "plural": "die Bräuche",
+      "meaning_id": "tradisi",
+      "example_de": "Das ist ein alter Brauch.",
+      "example_id": "Itu tradisi lama.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "verb",
+      "de": "feiern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merayakan",
+      "example_de": "Wir feiern heute.",
+      "example_id": "Kami merayakan hari ini.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "verb",
+      "de": "einladen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengundang",
+      "example_de": "Ich lade dich ein.",
+      "example_id": "Saya mengundangmu.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "verb",
+      "de": "gratulieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memberi selamat",
+      "example_de": "Ich gratuliere dir!",
+      "example_id": "Saya memberi selamat kepadamu!",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "verb",
+      "de": "schenken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memberi hadiah",
+      "example_de": "Sie schenkt ihm ein Buch.",
+      "example_id": "Dia memberi dia sebuah buku.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "adj",
+      "de": "traditionell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tradisional",
+      "example_de": "Das ist ein traditionelles Fest.",
+      "example_id": "Ini pesta tradisional.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "adj",
+      "de": "festlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meriah",
+      "example_de": "Wir tragen festliche Kleidung.",
+      "example_id": "Kami memakai pakaian meriah.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Kerze",
+      "article": "die",
+      "plural": "die Kerzen",
+      "meaning_id": "lilin",
+      "example_de": "Die Kerze brennt.",
+      "example_id": "Lilinnya menyala.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Kuchen",
+      "article": "der",
+      "plural": "die Kuchen",
+      "meaning_id": "kue",
+      "example_de": "Der Kuchen schmeckt gut.",
+      "example_id": "Kuenya enak.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Gastgeber",
+      "article": "der",
+      "plural": "die Gastgeber",
+      "meaning_id": "tuan rumah",
+      "example_de": "Der Gastgeber begrüßt alle.",
+      "example_id": "Tuan rumah menyambut semua.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Überraschung",
+      "article": "die",
+      "plural": "die Überraschungen",
+      "meaning_id": "kejutan",
+      "example_de": "Die Überraschung ist gelungen.",
+      "example_id": "Kejutannya berhasil.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Jubiläum",
+      "article": "das",
+      "plural": "die Jubiläen",
+      "meaning_id": "jubileum",
+      "example_de": "Wir feiern ein Jubiläum.",
+      "example_id": "Kami merayakan jubileum.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Sekt",
+      "article": "der",
+      "plural": "die Sekte",
+      "meaning_id": "sampanye",
+      "example_de": "Wir trinken Sekt.",
+      "example_id": "Kami minum sampanye.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Chor",
+      "article": "der",
+      "plural": "die Chöre",
+      "meaning_id": "paduan suara",
+      "example_de": "Der Chor singt schön.",
+      "example_id": "Paduan suaranya bernyanyi indah.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Dekoration",
+      "article": "die",
+      "plural": "die Dekorationen",
+      "meaning_id": "dekorasi",
+      "example_de": "Die Dekoration ist bunt.",
+      "example_id": "Dekorasinya berwarna-warni.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Festzelt",
+      "article": "das",
+      "plural": "die Festzelte",
+      "meaning_id": "tenda pesta",
+      "example_de": "Das Festzelt ist voll.",
+      "example_id": "Tenda pestanya penuh.",
+      "tags": "a2,unit9,feste"
+    },
+    {
+      "kind": "noun",
+      "de": "Tischkarte",
+      "article": "die",
+      "plural": "die Tischkarten",
+      "meaning_id": "kartu meja",
+      "example_de": "Die Tischkarte liegt am Platz.",
+      "example_id": "Kartu mejanya ada di tempat.",
+      "tags": "a2,unit9,feste"
+    }
+  ]
+}

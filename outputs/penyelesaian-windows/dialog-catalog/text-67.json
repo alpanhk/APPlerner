@@ -1,0 +1,206 @@
+{
+  "id": "dialog-67",
+  "title": "Eine Studie zur Gesundheit",
+  "textId": 67,
+  "level": "B2",
+  "tags": "seed · B2 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "praxis": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "rezept": {
+        "kind": "prop"
+      },
+      "tablette": {
+        "kind": "prop"
+      },
+      "terminkarte": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Eine neue Studie untersuchte den Zusammenhang von Schlaf und Stress.",
+      "id": "Sebuah studi baru meneliti kaitan tidur dan stres.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Ergebnisse deuten darauf hin, dass Schlafmangel das Risiko erhöht.",
+      "id": "Hasilnya menunjukkan kurang tidur meningkatkan risiko.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Allerdings ist die Stichprobe relativ klein.",
+      "id": "Namun sampelnya relatif kecil.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Forscher warnen deshalb vor voreiligen Schlüssen.",
+      "id": "Karena itu para peneliti memperingatkan kesimpulan terburu-buru.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Weitere Untersuchungen sollen die Befunde überprüfen.",
+      "id": "Penelitian lanjutan akan memverifikasi temuan itu.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Trotzdem wird empfohlen, regelmäßig zu schlafen.",
+      "id": "Meskipun begitu disarankan tidur secara teratur.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "vorgesetzte",
+      "de": "Eine neue Studie untersuchte den Zusammenhang von Schlaf und Stress.",
+      "id": "Sebuah studi baru meneliti kaitan tidur dan stres.",
+      "pose": "diskutieren",
+      "backgroundId": "praxis",
+      "propIds": [
+        "terminkarte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Ergebnisse deuten darauf hin, dass Schlafmangel das Risiko erhöht.",
+      "id": "Hasilnya menunjukkan kurang tidur meningkatkan risiko.",
+      "pose": "offscreen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "kollegin",
+      "de": "Allerdings ist die Stichprobe relativ klein.",
+      "id": "Namun sampelnya relatif kecil.",
+      "pose": "erklaeren",
+      "backgroundId": "praxis",
+      "propIds": [
+        "tablette"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Forscher warnen deshalb vor voreiligen Schlüssen.",
+      "id": "Karena itu para peneliti memperingatkan kesimpulan terburu-buru.",
+      "pose": "offscreen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "terminkarte"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Weitere Untersuchungen sollen die Befunde überprüfen.",
+      "id": "Penelitian lanjutan akan memverifikasi temuan itu.",
+      "pose": "zusammenfassen",
+      "backgroundId": "praxis",
+      "propIds": [
+        "rezept"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollegin",
+      "de": "Trotzdem wird empfohlen, regelmäßig zu schlafen.",
+      "id": "Meskipun begitu disarankan tidur secara teratur.",
+      "pose": "erklaeren",
+      "backgroundId": "praxis",
+      "propIds": [
+        "tablette"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "level": "A2-B2",
+  "source": "Teks pendek orisinal tambahan (A2/B1/B2) - kurikulum Goethe",
+  "texts": [
+    {
+      "title": "Der Umzug",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan",
+      "sentences": [
+        [
+          "Am Samstag ziehen wir in die neue Wohnung.",
+          "Hari Sabtu kami pindah ke apartemen baru."
+        ],
+        [
+          "Die Möbel sind schon im Lastwagen.",
+          "Mebelnnya sudah di dalam truk."
+        ],
+        [
+          "Mein Bruder hilft uns beim Tragen.",
+          "Saudara laki-laki saya membantu mengangkat."
+        ],
+        [
+          "Die Nachbarn haben uns begrüßt.",
+          "Tetangga-tetangganya menyapa kami."
+        ],
+        [
+          "Am Abend sind wir sehr müde.",
+          "Malamnya kami sangat lelah."
+        ],
+        [
+          "Aber wir sind auch glücklich.",
+          "Tetapi kami juga bahagia."
+        ]
+      ]
+    },
+    {
+      "title": "Ein Tag am See",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan",
+      "sentences": [
+        [
+          "Am Sonntag fahren wir an den See.",
+          "Hari Minggu kami pergi ke danau."
+        ],
+        [
+          "Das Wetter ist warm und sonnig.",
+          "Cuacanya hangat dan cerah."
+        ],
+        [
+          "Die Kinder schwimmen im Wasser.",
+          "Anak-anak berenang di air."
+        ],
+        [
+          "Wir machen ein Picknick am Ufer.",
+          "Kami piknik di tepi danau."
+        ],
+        [
+          "Am Nachmittag gehen wir spazieren.",
+          "Sore harinya kami berjalan-jalan."
+        ],
+        [
+          "Es war ein schöner Tag.",
+          "Itu hari yang menyenangkan."
+        ]
+      ]
+    },
+    {
+      "title": "Beim Zahnarzt",
+      "level": "A2",
+      "tags": "seed · A2 · tambahan",
+      "sentences": [
+        [
+          "Ich habe seit zwei Tagen Zahnschmerzen.",
+          "Saya sudah dua hari sakit gigi."
+        ],
+        [
+          "Heute habe ich einen Termin beim Zahnarzt.",
+          "Hari ini saya ada janji dengan dokter gigi."
+        ],
+        [
+          "Die Ärztin untersucht zuerst den Zahn.",
+          "Dokter memeriksa giginya lebih dulu."
+        ],
+        [
+          "Ich bekomme eine Spritze, damit es nicht wehtut.",
+          "Saya mendapat suntikan agar tidak sakit."
+        ],
+        [
+          "Die Behandlung dauert zwanzig Minuten.",
+          "Pengobatannya dua puluh menit."
+        ],
+        [
+          "Morgen soll ich nicht kauen.",
+          "Besok saya tidak boleh mengunyah."
+        ]
+      ]
+    },
+    {
+      "title": "Die Bewerbung",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan",
+      "sentences": [
+        [
+          "Seit Wochen sucht Fajar eine neue Stelle.",
+          "Sejak berpekan-pekan Fajar mencari posisi baru."
+        ],
+        [
+          "Er hat mehrere Bewerbungen geschrieben.",
+          "Dia menulis beberapa lamaran."
+        ],
+        [
+          "Die Firma hat ihn zu einem Gespräch eingeladen.",
+          "Perusahaannya mengundangnya wawancara."
+        ],
+        [
+          "Im Gespräch betonte er, dass er zuverlässig und flexibel sei.",
+          "Dalam wawancara dia menekankan bahwa dia dapat diandalkan dan fleksibel."
+        ],
+        [
+          "Zwei Tage später bekam er die Zusage.",
+          "Dua hari kemudian dia mendapat persetujuan."
+        ],
+        [
+          "Er freut sich auf die neue Aufgabe.",
+          "Dia menantikan tugas baru itu."
+        ]
+      ]
+    },
+    {
+      "title": "Ein Streit im Haus",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan",
+      "sentences": [
+        [
+          "Seit einer Woche gibt es Streit im Haus.",
+          "Sejak sepekan ada pertengkaran di gedung."
+        ],
+        [
+          "Ein Mieter hört abends laute Musik.",
+          "Seorang penyewa mendengar musik keras pada malam hari."
+        ],
+        [
+          "Die Nachbarn fühlen sich gestört und beschweren sich.",
+          "Para tetangga merasa terganggu dan mengeluh."
+        ],
+        [
+          "Der Hausmeister schlägt ein Gespräch vor.",
+          "Petugas gedung mengusulkan pertemuan."
+        ],
+        [
+          "Bei dem Gespräch einigen sich alle auf ruhigere Zeiten.",
+          "Dalam pertemuan itu semua sepakat waktu yang lebih tenang."
+        ],
+        [
+          "Danach ist die Stimmung im Haus besser.",
+          "Setelah itu suasana di gedung lebih baik."
+        ]
+      ]
+    },
+    {
+      "title": "Klimafreundlich leben",
+      "level": "B1",
+      "tags": "seed · B1 · tambahan",
+      "sentences": [
+        [
+          "Viele Menschen möchten klimafreundlicher leben.",
+          "Banyak orang ingin hidup lebih ramah iklim."
+        ],
+        [
+          "Sie fahren häufiger Fahrrad oder benutzen den Bus.",
+          "Mereka lebih sering bersepeda atau memakai bus."
+        ],
+        [
+          "Außerdem trennen sie den Müll zu Hause.",
+          "Selain itu mereka memilah sampah di rumah."
+        ],
+        [
+          "Beim Einkaufen achten sie auf Verpackungen.",
+          "Saat berbelanja mereka memperhatikan kemasan."
+        ],
+        [
+          "Es ist jedoch nicht immer einfach, konsequent zu bleiben.",
+          "Namun tidak selalu mudah untuk konsisten."
+        ],
+        [
+          "Kleine Entscheidungen können dennoch viel bewirken.",
+          "Keputusan kecil tetap bisa berpengaruh banyak."
+        ]
+      ]
+    },
+    {
+      "title": "Die Debatte über das Gesetz",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan",
+      "sentences": [
+        [
+          "Im Parlament wurde gestern über das neue Gesetz debattiert.",
+          "Kemarin parlemen mendebatkan undang-undang baru."
+        ],
+        [
+          "Die Regierung argumentiert, die Reform sei notwendig.",
+          "Pemerintah berargumen reformasi itu perlu."
+        ],
+        [
+          "Die Opposition bezweifelt, dass die Kosten tragbar sind.",
+          "Oposisi meragukan bahwa biayanya dapat ditanggung."
+        ],
+        [
+          "Ein Abgeordneter wies darauf hin, dass die Frist zu kurz sei.",
+          "Seorang anggota parlemen menunjukkan tenggatnya terlalu singkat."
+        ],
+        [
+          "Am Ende wurde der Entwurf mit knapper Mehrheit angenommen.",
+          "Akhirnya rancangan itu diterima dengan mayoritas tipis."
+        ],
+        [
+          "Nun muss die Umsetzung sorgfältig überprüft werden.",
+          "Kini implementasinya harus diperiksa dengan cermat."
+        ]
+      ]
+    },
+    {
+      "title": "Künstliche Intelligenz am Arbeitsplatz",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan",
+      "sentences": [
+        [
+          "Künstliche Intelligenz verändert zunehmend die Arbeitswelt.",
+          "Kecerdasan buatan makin mengubah dunia kerja."
+        ],
+        [
+          "Viele Aufgaben können automatisiert werden.",
+          "Banyak tugas dapat diotomatiskan."
+        ],
+        [
+          "Dadurch entstehen neue Berufe, während andere verschwinden.",
+          "Akibatnya muncul profesi baru sementara yang lain hilang."
+        ],
+        [
+          "Fachleute betonen, dass Weiterbildung entscheidend ist.",
+          "Para ahli menekankan bahwa pendidikan lanjutan menentukan."
+        ],
+        [
+          "Zugleich wird über Datenschutz und Verantwortung diskutiert.",
+          "Pada saat yang sama dibahas perlindungan data dan tanggung jawab."
+        ],
+        [
+          "Nur durch klare Regeln lässt sich Vertrauen schaffen.",
+          "Hanya lewat aturan yang jelas kepercayaan dapat dibangun."
+        ]
+      ]
+    },
+    {
+      "title": "Eine Studie zur Gesundheit",
+      "level": "B2",
+      "tags": "seed · B2 · tambahan",
+      "sentences": [
+        [
+          "Eine neue Studie untersuchte den Zusammenhang von Schlaf und Stress.",
+          "Sebuah studi baru meneliti kaitan tidur dan stres."
+        ],
+        [
+          "Die Ergebnisse deuten darauf hin, dass Schlafmangel das Risiko erhöht.",
+          "Hasilnya menunjukkan kurang tidur meningkatkan risiko."
+        ],
+        [
+          "Allerdings ist die Stichprobe relativ klein.",
+          "Namun sampelnya relatif kecil."
+        ],
+        [
+          "Die Forscher warnen deshalb vor voreiligen Schlüssen.",
+          "Karena itu para peneliti memperingatkan kesimpulan terburu-buru."
+        ],
+        [
+          "Weitere Untersuchungen sollen die Befunde überprüfen.",
+          "Penelitian lanjutan akan memverifikasi temuan itu."
+        ],
+        [
+          "Trotzdem wird empfohlen, regelmäßig zu schlafen.",
+          "Meskipun begitu disarankan tidur secara teratur."
+        ]
+      ]
+    }
+  ]
+}

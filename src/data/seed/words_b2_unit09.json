@@ -1,0 +1,229 @@
+{
+  "unit": 309,
+  "level": "B2",
+  "theme": "Recht & Verwaltung",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Recht",
+      "article": "das",
+      "plural": "die Rechte",
+      "meaning_id": "hak, hukum",
+      "example_de": "Jeder hat das Recht auf Bildung.",
+      "example_id": "Setiap orang berhak atas pendidikan.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Klage",
+      "article": "die",
+      "plural": "die Klagen",
+      "meaning_id": "gugatan",
+      "example_de": "Die Klage wurde abgewiesen.",
+      "example_id": "Gugatannya ditolak.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Gericht",
+      "article": "das",
+      "plural": "die Gerichte",
+      "meaning_id": "pengadilan",
+      "example_de": "Das Gericht entscheidet im Mai.",
+      "example_id": "Pengadilan memutuskan bulan Mei.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Anwalt",
+      "article": "der",
+      "plural": "die Anwälte",
+      "meaning_id": "pengacara",
+      "example_de": "Sie hat einen Anwalt.",
+      "example_id": "Dia punya pengacara.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Urteil",
+      "article": "das",
+      "plural": "die Urteile",
+      "meaning_id": "putusan",
+      "example_de": "Das Urteil ist noch nicht rechtskräftig.",
+      "example_id": "Putusannya belum berkekuatan hukum.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Bußgeld",
+      "article": "das",
+      "plural": "die Bußgelder",
+      "meaning_id": "denda",
+      "example_de": "Das Bußgeld war hoch.",
+      "example_id": "Dendanya tinggi.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Antrag",
+      "article": "der",
+      "plural": "die Anträge",
+      "meaning_id": "permohonan",
+      "example_de": "Der Antrag fehlt noch.",
+      "example_id": "Permohonannya belum ada.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Genehmigung",
+      "article": "die",
+      "plural": "die Genehmigungen",
+      "meaning_id": "izin",
+      "example_de": "Die Genehmigung liegt vor.",
+      "example_id": "Izinnnya sudah ada.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Behörde",
+      "article": "die",
+      "plural": "die Behörden",
+      "meaning_id": "kantor pemerintah",
+      "example_de": "Die Behörde antwortet langsam.",
+      "example_id": "Kantor pemerintahnya lambat menjawab.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "verb",
+      "de": "klagen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menggugat",
+      "example_de": "Sie klagt gegen die Firma.",
+      "example_id": "Dia menggugat perusahaan.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "verb",
+      "de": "beantragen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengajukan",
+      "example_de": "Ich beantrage einen Termin.",
+      "example_id": "Saya mengajukan janji temu.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "adj",
+      "de": "zuständig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berwenang",
+      "example_de": "Diese Abteilung ist zuständig.",
+      "example_id": "Departemen ini berwenang.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Einspruch",
+      "article": "der",
+      "plural": "die Einsprüche",
+      "meaning_id": "keberatan",
+      "example_de": "Sie legt Einspruch ein.",
+      "example_id": "Dia mengajukan keberatan.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Berufung",
+      "article": "die",
+      "plural": "die Berufungen",
+      "meaning_id": "banding",
+      "example_de": "Die Berufung wurde abgelehnt.",
+      "example_id": "Bandingnya ditolak.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Haftung",
+      "article": "die",
+      "plural": "die Haftungen",
+      "meaning_id": "tanggung jawab hukum",
+      "example_de": "Die Haftung liegt beim Vermieter.",
+      "example_id": "Tanggung jawab hukum ada pada pemilik.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Notar",
+      "article": "der",
+      "plural": "die Notare",
+      "meaning_id": "notaris",
+      "example_de": "Der Vertrag wird beim Notar unterschrieben.",
+      "example_id": "Kontraknya ditandatangani di notaris.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Bescheid",
+      "article": "der",
+      "plural": "die Bescheide",
+      "meaning_id": "surat keputusan",
+      "example_de": "Der Bescheid kam per Post.",
+      "example_id": "Surat keputusannya datang lewat pos.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Vollstreckung",
+      "article": "die",
+      "plural": "die Vollstreckungen",
+      "meaning_id": "eksekusi",
+      "example_de": "Die Vollstreckung wurde angeordnet.",
+      "example_id": "Eksekusinya diperintahkan.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Widerspruch",
+      "article": "der",
+      "plural": "die Widersprüche",
+      "meaning_id": "keberatan",
+      "example_de": "Der Widerspruch hat keine Frist mehr.",
+      "example_id": "Keberatannya sudah lewat tenggat.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Schadensersatz",
+      "article": "der",
+      "plural": "die Schadensersätze",
+      "meaning_id": "ganti rugi",
+      "example_de": "Er fordert Schadensersatz.",
+      "example_id": "Dia menuntut ganti rugi.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertragsstrafe",
+      "article": "die",
+      "plural": "die Vertragsstrafen",
+      "meaning_id": "denda kontrak",
+      "example_de": "Die Vertragsstrafe ist hoch.",
+      "example_id": "Denda kontraknya tinggi.",
+      "tags": "b2,unit9,recht"
+    },
+    {
+      "kind": "noun",
+      "de": "Satzung",
+      "article": "die",
+      "plural": "die Satzungen",
+      "meaning_id": "anggaran dasar",
+      "example_de": "Die Satzung regelt die Aufgaben.",
+      "example_id": "Anggaran dasarnya mengatur tugas.",
+      "tags": "b2,unit9,recht"
+    }
+  ]
+}

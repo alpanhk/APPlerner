@@ -1,0 +1,229 @@
+{
+  "unit": 302,
+  "level": "B2",
+  "theme": "Politik & Gesellschaft",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Politik",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "politik",
+      "example_de": "Politik betrifft alle.",
+      "example_id": "Politik menyentuh semua orang.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Demokratie",
+      "article": "die",
+      "plural": "die Demokratien",
+      "meaning_id": "demokrasi",
+      "example_de": "Die Demokratie lebt von Beteiligung.",
+      "example_id": "Demokrasi hidup dari partisipasi.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Wahl",
+      "article": "die",
+      "plural": "die Wahlen",
+      "meaning_id": "pemilu",
+      "example_de": "Die Wahl findet im Herbst statt.",
+      "example_id": "Pemilu berlangsung musim gugur.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Partei",
+      "article": "die",
+      "plural": "die Parteien",
+      "meaning_id": "partai",
+      "example_de": "Die Partei hat ein neues Programm.",
+      "example_id": "Partainya punya program baru.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Regierung",
+      "article": "die",
+      "plural": "die Regierungen",
+      "meaning_id": "pemerintah",
+      "example_de": "Die Regierung plant Reformen.",
+      "example_id": "Pemerintah merencanakan reformasi.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Gesetz",
+      "article": "das",
+      "plural": "die Gesetze",
+      "meaning_id": "undang-undang",
+      "example_de": "Das Gesetz gilt seit Januar.",
+      "example_id": "Undang-undang itu berlaku sejak Januari.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürger",
+      "article": "der",
+      "plural": "die Bürger",
+      "meaning_id": "warga negara",
+      "example_de": "Die Bürger sollen mitentscheiden.",
+      "example_id": "Warga seharusnya ikut memutuskan.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Reform",
+      "article": "die",
+      "plural": "die Reformen",
+      "meaning_id": "reformasi",
+      "example_de": "Die Reform ist umstritten.",
+      "example_id": "Reformasinya kontroversial.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Steuer",
+      "article": "die",
+      "plural": "die Steuern",
+      "meaning_id": "pajak",
+      "example_de": "Die Steuern werden gesenkt.",
+      "example_id": "Pajaknya diturunkan.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "verb",
+      "de": "wählen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memilih",
+      "example_de": "Wir wählen am Sonntag.",
+      "example_id": "Kami memilih hari Minggu.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "verb",
+      "de": "entscheiden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memutuskan",
+      "example_de": "Der Bundestag entscheidet morgen.",
+      "example_id": "Parlemen memutuskan besok.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "adj",
+      "de": "politisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "politis",
+      "example_de": "Das ist eine politische Frage.",
+      "example_id": "Ini pertanyaan politis.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Koalition",
+      "article": "die",
+      "plural": "die Koalitionen",
+      "meaning_id": "koalisi",
+      "example_de": "Die Koalition ist instabil.",
+      "example_id": "Koalisinya tidak stabil.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Opposition",
+      "article": "die",
+      "plural": "die Oppositionen",
+      "meaning_id": "oposisi",
+      "example_de": "Die Opposition fordert Änderungen.",
+      "example_id": "Oposisi menuntut perubahan.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Wahlkampf",
+      "article": "der",
+      "plural": "die Wahlkämpfe",
+      "meaning_id": "kampanye pemilu",
+      "example_de": "Der Wahlkampf hat begonnen.",
+      "example_id": "Kampanye pemilunya dimulai.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Verfassung",
+      "article": "die",
+      "plural": "die Verfassungen",
+      "meaning_id": "konstitusi",
+      "example_de": "Die Verfassung schützt Rechte.",
+      "example_id": "Konstitusi melindungi hak.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Grundrecht",
+      "article": "das",
+      "plural": "die Grundrechte",
+      "meaning_id": "hak dasar",
+      "example_de": "Das ist ein Grundrecht.",
+      "example_id": "Itu hak dasar.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Mandat",
+      "article": "das",
+      "plural": "die Mandate",
+      "meaning_id": "mandat",
+      "example_de": "Das Mandat endet 2027.",
+      "example_id": "Mandatnya berakhir 2027.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Abstimmung",
+      "article": "die",
+      "plural": "die Abstimmungen",
+      "meaning_id": "pemungutan suara",
+      "example_de": "Die Abstimmung war knapp.",
+      "example_id": "Pemungutan suaranya tipis.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Parlament",
+      "article": "das",
+      "plural": "die Parlamente",
+      "meaning_id": "parlemen",
+      "example_de": "Das Parlament debattiert.",
+      "example_id": "Parlemen berdebat.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Ministerium",
+      "article": "das",
+      "plural": "die Ministerien",
+      "meaning_id": "kementerian",
+      "example_de": "Das Ministerium bestätigt den Plan.",
+      "example_id": "Kementerian mengonfirmasi rencana.",
+      "tags": "b2,unit2,politik"
+    },
+    {
+      "kind": "noun",
+      "de": "Lobby",
+      "article": "die",
+      "plural": "die Lobbys",
+      "meaning_id": "lobi",
+      "example_de": "Die Lobby hat Einfluss.",
+      "example_id": "Lobinya berpengaruh.",
+      "tags": "b2,unit2,politik"
+    }
+  ]
+}

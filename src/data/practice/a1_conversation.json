@@ -1,0 +1,443 @@
+{
+  "level": "A1",
+  "source": "Simulasi percakapan bercabang A1 orisinal. Teks pilihan ganda; tidak ada perekaman atau penilaian ucapan otomatis. Belum ditinjau pengajar.",
+  "scenarios": [
+    {
+      "id": "a1-talk-cafe",
+      "title": "Im Café",
+      "context": "Memesan minuman dan kue",
+      "start": "start",
+      "nodes": {
+        "start": {
+          "speaker": "Kellner",
+          "de": "Guten Tag! Was möchten Sie?",
+          "id": "Selamat siang! Apa yang Anda inginkan?",
+          "options": [
+            {
+              "text": "Ich möchte einen Kaffee, bitte.",
+              "next": "kaffee",
+              "feedback": "Tepat. Möchte + Akkusativ dan bitte membuat pesanan sopan."
+            },
+            {
+              "text": "Kaffee!",
+              "next": "rephrase",
+              "feedback": "Terlalu singkat. Gunakan kalimat lengkap: Ich möchte einen Kaffee, bitte."
+            },
+            {
+              "text": "Ich bin ein Kaffee.",
+              "next": "rephrase",
+              "feedback": "Belum tepat. Untuk memesan, gunakan Ich möchte ..., bukan Ich bin ..."
+            }
+          ]
+        },
+        "rephrase": {
+          "speaker": "Kellner",
+          "de": "Wie bitte? Möchten Sie einen Kaffee?",
+          "id": "Maaf, apakah Anda ingin kopi?",
+          "options": [
+            {
+              "text": "Ja, ich möchte einen Kaffee, bitte.",
+              "next": "kaffee",
+              "feedback": "Bagus. Sekarang pesanannya lengkap dan sopan."
+            },
+            {
+              "text": "Nein, ich möchte einen Tee, bitte.",
+              "next": "tee",
+              "feedback": "Baik. Anda mengganti pesanan dengan sopan."
+            }
+          ]
+        },
+        "kaffee": {
+          "speaker": "Kellner",
+          "de": "Gern. Möchten Sie auch ein Stück Kuchen?",
+          "id": "Baik. Apakah Anda juga ingin sepotong kue?",
+          "options": [
+            {
+              "text": "Ja, bitte. Ein Stück Kuchen.",
+              "next": "end-kuchen",
+              "feedback": "Tepat. Menambahkan pesanan dengan Ja, bitte."
+            },
+            {
+              "text": "Nein, danke. Nur den Kaffee.",
+              "next": "end-kaffee",
+              "feedback": "Tepat. Nein, danke menolak dengan sopan."
+            }
+          ]
+        },
+        "tee": {
+          "speaker": "Kellner",
+          "de": "Einen Tee, bitte. Möchten Sie auch Kuchen?",
+          "id": "Teh, baik. Apakah Anda juga ingin kue?",
+          "options": [
+            {
+              "text": "Nein, danke. Nur den Tee.",
+              "next": "end-tee",
+              "feedback": "Tepat. Pesanan teh tanpa kue disampaikan dengan sopan."
+            },
+            {
+              "text": "Ja, bitte. Ein Stück Kuchen.",
+              "next": "end-tee-kuchen",
+              "feedback": "Tepat. Anda menambahkan kue dengan sopan."
+            }
+          ]
+        },
+        "end-kuchen": {
+          "speaker": "Kellner",
+          "de": "Gern. Das macht fünf Euro.",
+          "id": "Baik. Totalnya lima euro.",
+          "end": true,
+          "summary": "Pesanan berhasil: kopi dan kue. Anda memakai möchte dan bitte dengan sopan."
+        },
+        "end-kaffee": {
+          "speaker": "Kellner",
+          "de": "Gern. Das macht drei Euro.",
+          "id": "Baik. Totalnya tiga euro.",
+          "end": true,
+          "summary": "Pesanan berhasil: kopi saja. Anda menolak kue dengan Nein, danke."
+        },
+        "end-tee": {
+          "speaker": "Kellner",
+          "de": "Gern. Das macht zwei Euro.",
+          "id": "Baik. Totalnya dua euro.",
+          "end": true,
+          "summary": "Pesanan berhasil: teh saja."
+        },
+        "end-tee-kuchen": {
+          "speaker": "Kellner",
+          "de": "Gern. Das macht vier Euro.",
+          "id": "Baik. Totalnya empat euro.",
+          "end": true,
+          "summary": "Pesanan berhasil: teh dan kue."
+        }
+      }
+    },
+    {
+      "id": "a1-talk-weg",
+      "title": "Nach dem Weg fragen",
+      "context": "Menanyakan jalan ke stasiun",
+      "start": "start",
+      "nodes": {
+        "start": {
+          "speaker": "Passantin",
+          "de": "Guten Tag! Kann ich Ihnen helfen?",
+          "id": "Selamat siang! Bisa saya bantu?",
+          "options": [
+            {
+              "text": "Ja, wie komme ich zum Bahnhof?",
+              "next": "weg",
+              "feedback": "Tepat. Wie komme ich zum ...? adalah pertanyaan jalan yang sopan."
+            },
+            {
+              "text": "Bahnhof wo?",
+              "next": "rephrase",
+              "feedback": "Belum gramatikal. Gunakan Wie komme ich zum Bahnhof?"
+            }
+          ]
+        },
+        "rephrase": {
+          "speaker": "Passantin",
+          "de": "Wie bitte? Suchen Sie den Bahnhof?",
+          "id": "Maaf? Apakah Anda mencari stasiun?",
+          "options": [
+            {
+              "text": "Ja, wie komme ich zum Bahnhof?",
+              "next": "weg",
+              "feedback": "Bagus, sekarang pertanyaannya lengkap."
+            },
+            {
+              "text": "Nein, danke.",
+              "next": "end-cancel",
+              "feedback": "Anda membatalkan dengan sopan, tetapi latihan bertanya jalan tidak selesai."
+            }
+          ]
+        },
+        "weg": {
+          "speaker": "Passantin",
+          "de": "Gehen Sie geradeaus, dann links.",
+          "id": "Jalan lurus, lalu belok kiri.",
+          "options": [
+            {
+              "text": "Vielen Dank für Ihre Hilfe!",
+              "next": "end-weg",
+              "feedback": "Tepat. Berterima kasih dengan lengkap."
+            },
+            {
+              "text": "Ja, bitte.",
+              "next": "end-weg",
+              "feedback": "Kurang tepat. 'Ja, bitte' bukan balasan untuk petunjuk arah; gunakan Vielen Dank."
+            }
+          ]
+        },
+        "end-weg": {
+          "speaker": "Passantin",
+          "de": "Gern geschehen. Schönen Tag!",
+          "id": "Tidak masalah. Semoga harimu menyenangkan!",
+          "end": true,
+          "summary": "Anda berhasil bertanya jalan dan berterima kasih."
+        },
+        "end-cancel": {
+          "speaker": "Passantin",
+          "de": "Kein Problem. Auf Wiedersehen!",
+          "id": "Tidak masalah. Sampai jumpa!",
+          "end": true,
+          "summary": "Skenario dihentikan dengan sopan."
+        }
+      }
+    },
+    {
+      "id": "a1-talk-arzt",
+      "title": "Beim Arzt",
+      "context": "Menjelaskan keluhan dan menanyakan dosis",
+      "start": "start",
+      "nodes": {
+        "start": {
+          "speaker": "Ärztin",
+          "de": "Was fehlt Ihnen?",
+          "id": "Apa keluhan Anda?",
+          "options": [
+            {
+              "text": "Ich habe seit zwei Tagen Kopfschmerzen.",
+              "next": "diagnose",
+              "feedback": "Tepat. Keluhan memakai haben + seit untuk durasi."
+            },
+            {
+              "text": "Ich bin Kopfschmerzen.",
+              "next": "rephrase",
+              "feedback": "Belum tepat. Gunakan Ich habe Kopfschmerzen."
+            }
+          ]
+        },
+        "rephrase": {
+          "speaker": "Ärztin",
+          "de": "Haben Sie Kopfschmerzen?",
+          "id": "Apakah Anda sakit kepala?",
+          "options": [
+            {
+              "text": "Ja, ich habe seit zwei Tagen Kopfschmerzen.",
+              "next": "diagnose",
+              "feedback": "Tepat, sekarang keluhannya lengkap."
+            },
+            {
+              "text": "Nein, ich habe Bauchschmerzen.",
+              "next": "diagnose-bauch",
+              "feedback": "Baik, keluhan diganti dengan jelas."
+            }
+          ]
+        },
+        "diagnose": {
+          "speaker": "Ärztin",
+          "de": "Nehmen Sie die Tablette nach dem Essen.",
+          "id": "Minum tablet setelah makan.",
+          "options": [
+            {
+              "text": "Danke. Wie oft soll ich die Tablette nehmen?",
+              "next": "dosis",
+              "feedback": "Tepat. Menanyakan dosis dengan sollen."
+            },
+            {
+              "text": "Ja, ich esse die Tablette.",
+              "next": "clarify",
+              "feedback": "Belum tepat. Tablet diminum (nehmen), bukan dimakan (essen)."
+            }
+          ]
+        },
+        "diagnose-bauch": {
+          "speaker": "Ärztin",
+          "de": "Bei Bauchschmerzen nehmen Sie diese Tablette nach dem Essen.",
+          "id": "Untuk sakit perut, minum tablet ini setelah makan.",
+          "options": [
+            {
+              "text": "Verstanden, danke.",
+              "next": "end-verstanden",
+              "feedback": "Tepat. Konfirmasi pemahaman dengan sopan."
+            },
+            {
+              "text": "Wie oft soll ich die Tablette nehmen?",
+              "next": "dosis",
+              "feedback": "Tepat. Menanyakan dosis dengan sollen."
+            }
+          ]
+        },
+        "dosis": {
+          "speaker": "Ärztin",
+          "de": "Dreimal täglich.",
+          "id": "Tiga kali sehari.",
+          "end": true,
+          "summary": "Anda menjelaskan keluhan dan menanyakan dosis dengan benar."
+        },
+        "clarify": {
+          "speaker": "Ärztin",
+          "de": "Nein, bitte nehmen Sie die Tablette nach dem Essen, dreimal täglich.",
+          "id": "Tidak, minum tablet setelah makan, tiga kali sehari.",
+          "options": [
+            {
+              "text": "Verstanden, danke.",
+              "next": "end-verstanden",
+              "feedback": "Tepat. Konfirmasi pemahaman dengan sopan."
+            },
+            {
+              "text": "Wie viele Tabletten soll ich nehmen?",
+              "next": "dosis-jumlah",
+              "feedback": "Tepat. Menanyakan jumlah tablet dengan sollen."
+            }
+          ]
+        },
+        "dosis-jumlah": {
+          "speaker": "Ärztin",
+          "de": "Eine Tablette, dreimal täglich.",
+          "id": "Satu tablet, tiga kali sehari.",
+          "end": true,
+          "summary": "Anda memahami instruksi obat: satu tablet, tiga kali sehari, setelah makan."
+        },
+        "end-verstanden": {
+          "speaker": "Ärztin",
+          "de": "Gute Besserung!",
+          "id": "Semoga lekas sembuh!",
+          "end": true,
+          "summary": "Percakapan selesai. Anda memahami instruksi obat."
+        }
+      }
+    },
+    {
+      "id": "a1-talk-geschaeft",
+      "title": "Im Geschäft",
+      "context": "Mencari pakaian dan mencoba ukuran",
+      "start": "start",
+      "nodes": {
+        "start": {
+          "speaker": "Verkäuferin",
+          "de": "Guten Tag! Kann ich Ihnen helfen?",
+          "id": "Selamat siang! Bisa saya bantu?",
+          "options": [
+            {
+              "text": "Ja, ich suche eine blaue Jacke.",
+              "next": "groesse",
+              "feedback": "Tepat. Suchen + Akkusativ."
+            },
+            {
+              "text": "Ich bin eine Jacke.",
+              "next": "rephrase",
+              "feedback": "Belum tepat. Gunakan Ich suche eine Jacke."
+            }
+          ]
+        },
+        "rephrase": {
+          "speaker": "Verkäuferin",
+          "de": "Sie suchen eine Jacke?",
+          "id": "Anda mencari jaket?",
+          "options": [
+            {
+              "text": "Ja, ich suche eine blaue Jacke.",
+              "next": "groesse",
+              "feedback": "Tepat. Sekarang barang dan warnanya jelas."
+            },
+            {
+              "text": "Nein, ich suche eine Bluse.",
+              "next": "groesse-bluse",
+              "feedback": "Baik, barang diganti dengan jelas."
+            }
+          ]
+        },
+        "groesse": {
+          "speaker": "Verkäuferin",
+          "de": "Welche Größe tragen Sie?",
+          "id": "Ukuran berapa yang Anda pakai?",
+          "options": [
+            {
+              "text": "Ich trage Größe 38.",
+              "next": "anprobe",
+              "feedback": "Tepat. Ukuran memakai tragen."
+            },
+            {
+              "text": "Ich bin Größe 38.",
+              "next": "rephrase-size",
+              "feedback": "Belum tepat. Gunakan Ich trage Größe 38."
+            }
+          ]
+        },
+        "groesse-bluse": {
+          "speaker": "Verkäuferin",
+          "de": "Welche Größe tragen Sie?",
+          "id": "Ukuran berapa yang Anda pakai?",
+          "options": [
+            {
+              "text": "Ich trage Größe 38.",
+              "next": "anprobe-bluse",
+              "feedback": "Tepat. Ukuran memakai tragen."
+            },
+            {
+              "text": "Ich bin Größe 38.",
+              "next": "anprobe-bluse",
+              "feedback": "Kurang tepat. Sebaiknya gunakan Ich trage Größe 38."
+            }
+          ]
+        },
+        "rephrase-size": {
+          "speaker": "Verkäuferin",
+          "de": "Also Größe 38. Möchten Sie die Jacke anprobieren?",
+          "id": "Jadi ukuran 38. Apakah Anda ingin mencoba jaketnya?",
+          "options": [
+            {
+              "text": "Ja, gern. Wo ist die Umkleidekabine?",
+              "next": "end-anprobe",
+              "feedback": "Tepat. Menanyakan ruang ganti dengan sopan."
+            },
+            {
+              "text": "Nein, danke. Ich nehme die Jacke.",
+              "next": "end-kaufen",
+              "feedback": "Boleh, tetapi mencoba lebih aman."
+            }
+          ]
+        },
+        "anprobe": {
+          "speaker": "Verkäuferin",
+          "de": "Die Jacke ist hier. Möchten Sie sie anprobieren?",
+          "id": "Jaketnya di sini. Apakah Anda ingin mencobanya?",
+          "options": [
+            {
+              "text": "Ja, gern. Wo ist die Umkleidekabine?",
+              "next": "end-anprobe",
+              "feedback": "Tepat. Menanyakan ruang ganti dengan sopan."
+            },
+            {
+              "text": "Nein, danke. Ich nehme die Jacke.",
+              "next": "end-kaufen",
+              "feedback": "Boleh, tetapi mencoba lebih aman."
+            }
+          ]
+        },
+        "anprobe-bluse": {
+          "speaker": "Verkäuferin",
+          "de": "Die Bluse ist hier. Möchten Sie sie anprobieren?",
+          "id": "Blusnya di sini. Apakah Anda ingin mencobanya?",
+          "options": [
+            {
+              "text": "Ja, gern. Wo ist die Umkleidekabine?",
+              "next": "end-anprobe",
+              "feedback": "Tepat. Menanyakan ruang ganti dengan sopan."
+            },
+            {
+              "text": "Nein, danke. Ich nehme die Bluse.",
+              "next": "end-kaufen",
+              "feedback": "Boleh, tetapi mencoba lebih aman."
+            }
+          ]
+        },
+        "end-anprobe": {
+          "speaker": "Verkäuferin",
+          "de": "Die Umkleidekabine ist dort rechts.",
+          "id": "Ruang gantinya di sebelah kanan sana.",
+          "end": true,
+          "summary": "Anda berhasil mencari pakaian, menyebut ukuran, dan menanyakan ruang ganti."
+        },
+        "end-kaufen": {
+          "speaker": "Verkäuferin",
+          "de": "Gern. Die Kasse ist dort vorne.",
+          "id": "Baik. Kasirnya di depan sana.",
+          "end": true,
+          "summary": "Anda memilih membeli tanpa mencoba. Mencoba lebih dahulu biasanya lebih aman."
+        }
+      }
+    }
+  ]
+}

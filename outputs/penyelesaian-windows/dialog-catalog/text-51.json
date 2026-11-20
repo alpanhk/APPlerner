@@ -1,0 +1,206 @@
+{
+  "id": "dialog-51",
+  "title": "Was die Studie zeigt",
+  "textId": 51,
+  "level": "B2",
+  "tags": "seed · B2 · unit 3",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Eine neue Studie wurde letzte Woche veröffentlicht.",
+      "id": "Sebuah studi baru diterbitkan pekan lalu.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die untersuchten Fälle zeigen einen klaren Zusammenhang.",
+      "id": "Kasus yang diteliti menunjukkan kaitan yang jelas.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Allerdings ist der Zusammenhang noch nicht bewiesen.",
+      "id": "Namun kaitannya belum terbukti.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Forscher betonen, dass weitere Experimente nötig seien.",
+      "id": "Para peneliti menekankan bahwa eksperimen lanjutan masih perlu.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Infolgedessen fordern sie mehr Förderung für die Wissenschaft.",
+      "id": "Sebagai akibatnya mereka menuntut lebih banyak dana untuk ilmu pengetahuan.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Die Ergebnisse müssen unabhängig geprüft werden.",
+      "id": "Hasilnya harus diperiksa secara independen.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollegin",
+      "de": "Eine neue Studie wurde letzte Woche veröffentlicht.",
+      "id": "Sebuah studi baru diterbitkan pekan lalu.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die untersuchten Fälle zeigen einen klaren Zusammenhang.",
+      "id": "Kasus yang diteliti menunjukkan kaitan yang jelas.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Allerdings ist der Zusammenhang noch nicht bewiesen.",
+      "id": "Namun kaitannya belum terbukti.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Forscher betonen, dass weitere Experimente nötig seien.",
+      "id": "Para peneliti menekankan bahwa eksperimen lanjutan masih perlu.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "vorgesetzte",
+      "de": "Infolgedessen fordern sie mehr Förderung für die Wissenschaft.",
+      "id": "Sebagai akibatnya mereka menuntut lebih banyak dana untuk ilmu pengetahuan.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Die Ergebnisse müssen unabhängig geprüft werden.",
+      "id": "Hasilnya harus diperiksa secara independen.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "unit": 204,
+  "level": "B1",
+  "theme": "Medien & Meinung",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Meinung",
+      "article": "die",
+      "plural": "die Meinungen",
+      "meaning_id": "pendapat",
+      "example_de": "Meine Meinung ist anders.",
+      "example_id": "Pendapat saya berbeda.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Diskussion",
+      "article": "die",
+      "plural": "die Diskussionen",
+      "meaning_id": "diskusi",
+      "example_de": "Die Diskussion war lang.",
+      "example_id": "Diskusinya panjang.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Debatte",
+      "article": "die",
+      "plural": "die Debatten",
+      "meaning_id": "debat",
+      "example_de": "Die Debatte läuft im Fernsehen.",
+      "example_id": "Debatnya disiarkan di televisi.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Bericht",
+      "article": "der",
+      "plural": "die Berichte",
+      "meaning_id": "laporan, berita",
+      "example_de": "Der Bericht ist sachlich.",
+      "example_id": "Laporannya faktual.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Quelle",
+      "article": "die",
+      "plural": "die Quellen",
+      "meaning_id": "sumber",
+      "example_de": "Die Quelle ist nicht klar.",
+      "example_id": "Sumbernya tidak jelas.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Interview",
+      "article": "das",
+      "plural": "die Interviews",
+      "meaning_id": "wawancara",
+      "example_de": "Das Interview ist morgen.",
+      "example_id": "Wawancaranya besok.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Kommentar",
+      "article": "der",
+      "plural": "die Kommentare",
+      "meaning_id": "komentar",
+      "example_de": "Der Kommentar war kritisch.",
+      "example_id": "Komentarnya kritis.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Einfluss",
+      "article": "der",
+      "plural": "die Einflüsse",
+      "meaning_id": "pengaruh",
+      "example_de": "Medien haben großen Einfluss.",
+      "example_id": "Media punya pengaruh besar.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Öffentlichkeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "publik",
+      "example_de": "Die Öffentlichkeit diskutiert mit.",
+      "example_id": "Publik ikut berdiskusi.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "diskutieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berdiskusi",
+      "example_de": "Wir diskutieren über das Thema.",
+      "example_id": "Kami berdiskusi tentang topik itu.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "beeinflussen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memengaruhi",
+      "example_de": "Werbung beeinflusst unsere Meinung.",
+      "example_id": "Iklan memengaruhi pendapat kita.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "adj",
+      "de": "umstritten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kontroversial",
+      "example_de": "Das Thema ist umstritten.",
+      "example_id": "Topiknya kontroversial.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Schlagzeile",
+      "article": "die",
+      "plural": "die Schlagzeilen",
+      "meaning_id": "judul berita",
+      "example_de": "Die Schlagzeile war falsch.",
+      "example_id": "Judul beritanya salah.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Artikel",
+      "article": "der",
+      "plural": "die Artikel",
+      "meaning_id": "artikel",
+      "example_de": "Der Artikel ist lang.",
+      "example_id": "Artikelnya panjang.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Redaktion",
+      "article": "die",
+      "plural": "die Redaktionen",
+      "meaning_id": "redaksi",
+      "example_de": "Die Redaktion prüft die Quelle.",
+      "example_id": "Redaksi memeriksa sumbernya.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Recherche",
+      "article": "die",
+      "plural": "die Recherchen",
+      "meaning_id": "riset, penelusuran",
+      "example_de": "Die Recherche dauerte Wochen.",
+      "example_id": "Penelusurannya pekan-pekan.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Neutralität",
+      "article": "die",
+      "plural": "die Neutralitäten",
+      "meaning_id": "netralitas",
+      "example_de": "Neutralität ist schwer.",
+      "example_id": "Netralitas itu sulit.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Abonnement",
+      "article": "das",
+      "plural": "die Abonnements",
+      "meaning_id": "langganan",
+      "example_de": "Das Abonnement läuft ab.",
+      "example_id": "Langganannya berakhir.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Talkshow",
+      "article": "die",
+      "plural": "die Talkshows",
+      "meaning_id": "talkshow",
+      "example_de": "Die Talkshow ist live.",
+      "example_id": "Talkshownya langsung.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Moderation",
+      "article": "die",
+      "plural": "die Moderationen",
+      "meaning_id": "pemandu acara",
+      "example_de": "Die Moderation war gut.",
+      "example_id": "Pemandu acaranya bagus.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Sensation",
+      "article": "die",
+      "plural": "die Sensationen",
+      "meaning_id": "sensasi",
+      "example_de": "Die Meldung war keine Sensation.",
+      "example_id": "Beritanya bukan sensasi.",
+      "tags": "b1,unit4,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Medienhaus",
+      "article": "das",
+      "plural": "die Medienhäuser",
+      "meaning_id": "rumah media",
+      "example_de": "Das Medienhaus ist groß.",
+      "example_id": "Rumah medianya besar.",
+      "tags": "b1,unit4,medien"
+    }
+  ]
+}

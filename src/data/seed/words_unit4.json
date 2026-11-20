@@ -1,0 +1,339 @@
+{
+  "unit": 4,
+  "level": "A1",
+  "theme": "Makanan & minuman",
+  "source": "Kerangka Goethe A1 + kurasi manual (PRD 6.3)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Brot",
+      "article": "das",
+      "plural": "die Brote",
+      "meaning_id": "roti",
+      "example_de": "Ich kaufe Brot beim Bäcker.",
+      "example_id": "Saya membeli roti di toko roti.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Brötchen",
+      "article": "das",
+      "plural": "die Brötchen",
+      "meaning_id": "roti kecil",
+      "example_de": "Zum Frühstück esse ich ein Brötchen.",
+      "example_id": "Untuk sarapan saya makan roti kecil.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Käse",
+      "article": "der",
+      "plural": "die Käse",
+      "meaning_id": "keju",
+      "example_de": "Der Käse ist sehr lecker.",
+      "example_id": "Kejunya sangat enak.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Milch",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "susu",
+      "example_de": "Ich trinke Milch mit Kaffee.",
+      "example_id": "Saya minum susu dengan kopi.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Wasser",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "air",
+      "example_de": "Ein Glas Wasser, bitte.",
+      "example_id": "Segelas air, tolong.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Kaffee",
+      "article": "der",
+      "plural": "die Kaffees",
+      "meaning_id": "kopi",
+      "example_de": "Möchten Sie einen Kaffee?",
+      "example_id": "Apakah Anda ingin kopi?",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Tee",
+      "article": "der",
+      "plural": "die Tees",
+      "meaning_id": "teh",
+      "example_de": "Ich trinke Tee mit Zucker.",
+      "example_id": "Saya minum teh dengan gula.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Saft",
+      "article": "der",
+      "plural": "die Säfte",
+      "meaning_id": "jus",
+      "example_de": "Der Saft ist frisch.",
+      "example_id": "Jusnya segar.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Bier",
+      "article": "das",
+      "plural": "die Biere",
+      "meaning_id": "bir",
+      "example_de": "In Deutschland trinkt man viel Bier.",
+      "example_id": "Di Jerman orang banyak minum bir.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Wein",
+      "article": "der",
+      "plural": "die Weine",
+      "meaning_id": "anggur (minuman)",
+      "example_de": "Der Wein kommt aus Italien.",
+      "example_id": "Anggurnya berasal dari Italia.",
+      "tags": "unit4,minuman"
+    },
+    {
+      "kind": "noun",
+      "de": "Frühstück",
+      "article": "das",
+      "plural": "die Frühstücke",
+      "meaning_id": "sarapan",
+      "example_de": "Das Frühstück ist um sieben Uhr.",
+      "example_id": "Sarangannya pukul tujuh.",
+      "tags": "unit4,waktu-makan"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittagessen",
+      "article": "das",
+      "plural": "die Mittagessen",
+      "meaning_id": "makan siang",
+      "example_de": "Zum Mittagessen gibt es Reis.",
+      "example_id": "Untuk makan siang ada nasi.",
+      "tags": "unit4,waktu-makan"
+    },
+    {
+      "kind": "noun",
+      "de": "Abendessen",
+      "article": "das",
+      "plural": "die Abendessen",
+      "meaning_id": "makan malam",
+      "example_de": "Das Abendessen ist fertig.",
+      "example_id": "Makan malamnya sudah siap.",
+      "tags": "unit4,waktu-makan"
+    },
+    {
+      "kind": "noun",
+      "de": "Apfel",
+      "article": "der",
+      "plural": "die Äpfel",
+      "meaning_id": "apel",
+      "example_de": "Ich esse einen Apfel.",
+      "example_id": "Saya makan sebuah apel.",
+      "tags": "unit4,buah"
+    },
+    {
+      "kind": "noun",
+      "de": "Banane",
+      "article": "die",
+      "plural": "die Bananen",
+      "meaning_id": "pisang",
+      "example_de": "Die Banane ist gelb.",
+      "example_id": "Pisangnya kuning.",
+      "tags": "unit4,buah"
+    },
+    {
+      "kind": "noun",
+      "de": "Gemüse",
+      "article": "das",
+      "plural": "die Gemüse",
+      "meaning_id": "sayur",
+      "example_de": "Ich esse viel Gemüse.",
+      "example_id": "Saya makan banyak sayur.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Obst",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "buah-buahan",
+      "example_de": "Obst ist gesund.",
+      "example_id": "Buah-buahan sehat.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Fleisch",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "daging",
+      "example_de": "Ich esse kein Fleisch.",
+      "example_id": "Saya tidak makan daging.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Fisch",
+      "article": "der",
+      "plural": "die Fische",
+      "meaning_id": "ikan",
+      "example_de": "Der Fisch ist frisch.",
+      "example_id": "Ikannya segar.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Reis",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "beras, nasi",
+      "example_de": "Ich koche Reis mit Gemüse.",
+      "example_id": "Saya memasak nasi dengan sayur.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Kartoffel",
+      "article": "die",
+      "plural": "die Kartoffeln",
+      "meaning_id": "kentang",
+      "example_de": "Ich esse Kartoffeln mit Fleisch.",
+      "example_id": "Saya makan kentang dengan daging.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Zucker",
+      "article": "der",
+      "plural": "die Zucker",
+      "meaning_id": "gula",
+      "example_de": "Kaffee mit Zucker, bitte.",
+      "example_id": "Kopi dengan gula, tolong.",
+      "tags": "unit4,bumbu"
+    },
+    {
+      "kind": "noun",
+      "de": "Salz",
+      "article": "das",
+      "plural": "die Salze",
+      "meaning_id": "garam",
+      "example_de": "Das Salz ist hier.",
+      "example_id": "Garamnya di sini.",
+      "tags": "unit4,bumbu"
+    },
+    {
+      "kind": "noun",
+      "de": "Ei",
+      "article": "das",
+      "plural": "die Eier",
+      "meaning_id": "telur",
+      "example_de": "Zum Frühstück esse ich ein Ei.",
+      "example_id": "Untuk sarapan saya makan sebuah telur.",
+      "tags": "unit4,makanan"
+    },
+    {
+      "kind": "verb",
+      "de": "essen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "makan",
+      "example_de": "Was isst du gern?",
+      "example_id": "Apa yang suka kamu makan?",
+      "tags": "unit4,verba"
+    },
+    {
+      "kind": "verb",
+      "de": "trinken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "minum",
+      "example_de": "Ich trinke Wasser.",
+      "example_id": "Saya minum air.",
+      "tags": "unit4,verba"
+    },
+    {
+      "kind": "verb",
+      "de": "kaufen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membeli",
+      "example_de": "Wir kaufen Obst auf dem Markt.",
+      "example_id": "Kami membeli buah di pasar.",
+      "tags": "unit4,verba"
+    },
+    {
+      "kind": "adj",
+      "de": "lecker",
+      "article": null,
+      "plural": null,
+      "meaning_id": "enak (makanan)",
+      "example_de": "Der Kuchen ist lecker.",
+      "example_id": "Kuenya enak.",
+      "tags": "unit4,rasa"
+    },
+    {
+      "kind": "adj",
+      "de": "hungrig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lapar",
+      "example_de": "Ich bin hungrig.",
+      "example_id": "Saya lapar.",
+      "tags": "unit4,rasa"
+    },
+    {
+      "kind": "adj",
+      "de": "durstig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "haus",
+      "example_de": "Das Kind ist durstig.",
+      "example_id": "Anaknya haus.",
+      "tags": "unit4,rasa"
+    },
+    {
+      "kind": "verb",
+      "de": "bestellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memesan",
+      "example_de": "Ich möchte einen Kaffee bestellen.",
+      "example_id": "Saya ingin memesan kopi.",
+      "tags": "unit4,restoran"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechnung",
+      "article": "die",
+      "plural": "die Rechnungen",
+      "meaning_id": "tagihan",
+      "example_de": "Die Rechnung, bitte.",
+      "example_id": "Tagihannya, tolong.",
+      "tags": "unit4,restoran"
+    },
+    {
+      "kind": "noun",
+      "de": "Restaurant",
+      "article": "das",
+      "plural": "die Restaurants",
+      "meaning_id": "restoran",
+      "example_de": "Wir essen heute im Restaurant.",
+      "example_id": "Hari ini kami makan di restoran.",
+      "tags": "unit4,restoran"
+    }
+  ]
+}

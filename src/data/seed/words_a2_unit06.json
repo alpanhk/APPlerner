@@ -1,0 +1,269 @@
+{
+  "unit": 106,
+  "level": "A2",
+  "theme": "Verkehr & Orientierung",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Verkehr",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "lalu lintas",
+      "example_de": "Der Verkehr ist heute stark.",
+      "example_id": "Lalu lintas hari ini padat.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Kreuzung",
+      "article": "die",
+      "plural": "die Kreuzungen",
+      "meaning_id": "persimpangan",
+      "example_de": "Biegen Sie an der Kreuzung links ab.",
+      "example_id": "Belok kiri di persimpangan.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Ampel",
+      "article": "die",
+      "plural": "die Ampeln",
+      "meaning_id": "lampu lalu lintas",
+      "example_de": "Die Ampel ist rot.",
+      "example_id": "Lampu lalulintasnya merah.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Bahnhof",
+      "article": "der",
+      "plural": "die Bahnhöfe",
+      "meaning_id": "stasiun",
+      "example_de": "Der Zug fährt vom Hauptbahnhof.",
+      "example_id": "Kereta berangkat dari stasiun utama.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Haltestelle",
+      "article": "die",
+      "plural": "die Haltestellen",
+      "meaning_id": "halte",
+      "example_de": "Die Haltestelle ist dort.",
+      "example_id": "Haltnya di sana.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Bus",
+      "article": "der",
+      "plural": "die Busse",
+      "meaning_id": "bus",
+      "example_de": "Der Bus kommt in fünf Minuten.",
+      "example_id": "Busnya datang lima menit lagi.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Straßenbahn",
+      "article": "die",
+      "plural": "die Straßenbahnen",
+      "meaning_id": "trem",
+      "example_de": "Die Straßenbahn fährt zum Zentrum.",
+      "example_id": "Tremnya menuju pusat kota.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrkarte",
+      "article": "die",
+      "plural": "die Fahrkarten",
+      "meaning_id": "tiket",
+      "example_de": "Ich kaufe eine Fahrkarte.",
+      "example_id": "Saya membeli tiket.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrplan",
+      "article": "der",
+      "plural": "die Fahrpläne",
+      "meaning_id": "jadwal",
+      "example_de": "Der Fahrplan hängt dort.",
+      "example_id": "Jadwalnya tertempel di sana.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Richtung",
+      "article": "die",
+      "plural": "die Richtungen",
+      "meaning_id": "arah",
+      "example_de": "In welche Richtung gehen Sie?",
+      "example_id": "Anda pergi ke arah mana?",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Entfernung",
+      "article": "die",
+      "plural": "die Entfernungen",
+      "meaning_id": "jarak",
+      "example_de": "Die Entfernung ist kurz.",
+      "example_id": "Jaraknya pendek.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "verb",
+      "de": "einsteigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "naik (kendaraan)",
+      "example_de": "Bitte einsteigen!",
+      "example_id": "Silakan naik!",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "verb",
+      "de": "umsteigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ganti kendaraan",
+      "example_de": "Sie müssen in der Mitte umsteigen.",
+      "example_id": "Anda harus ganti kendaraan di tengah.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "verb",
+      "de": "aussteigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "turun (kendaraan)",
+      "example_de": "Wir steigen am Markt aus.",
+      "example_id": "Kami turun di pasar.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "other",
+      "de": "links",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kiri",
+      "example_de": "Gehen Sie nach links.",
+      "example_id": "Jalan ke kiri.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "other",
+      "de": "rechts",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kanan",
+      "example_de": "Das Museum ist rechts.",
+      "example_id": "Museumnya di kanan.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Führerschein",
+      "article": "der",
+      "plural": "die Führerscheine",
+      "meaning_id": "surat izin mengemudi",
+      "example_de": "Er hat den Führerschein.",
+      "example_id": "Dia punya SIM.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Autobahn",
+      "article": "die",
+      "plural": "die Autobahnen",
+      "meaning_id": "jalan tol",
+      "example_de": "Die Autobahn ist frei.",
+      "example_id": "Jalan tolnya lengang.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Stau",
+      "article": "der",
+      "plural": "die Staus",
+      "meaning_id": "kemacetan",
+      "example_de": "Wir stehen im Stau.",
+      "example_id": "Kami terjebak macet.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Parkplatz",
+      "article": "der",
+      "plural": "die Parkplätze",
+      "meaning_id": "parkiran",
+      "example_de": "Der Parkplatz ist voll.",
+      "example_id": "Parkirannya penuh.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Unfall",
+      "article": "der",
+      "plural": "die Unfälle",
+      "meaning_id": "kecelakaan",
+      "example_de": "Es gab einen Unfall.",
+      "example_id": "Ada kecelakaan.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Fußgänger",
+      "article": "der",
+      "plural": "die Fußgänger",
+      "meaning_id": "pejalan kaki",
+      "example_de": "Fußgänger haben Vorrang.",
+      "example_id": "Pejalan kaki didahulukan.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrradweg",
+      "article": "der",
+      "plural": "die Fahrradwege",
+      "meaning_id": "jalur sepeda",
+      "example_de": "Der Fahrradweg ist neu.",
+      "example_id": "Jalur sepedanya baru.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Tankstelle",
+      "article": "die",
+      "plural": "die Tankstellen",
+      "meaning_id": "pom bensin",
+      "example_de": "Die Tankstelle ist geschlossen.",
+      "example_id": "Pom bensinnya tutup.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschwindigkeit",
+      "article": "die",
+      "plural": "die Geschwindigkeiten",
+      "meaning_id": "kecepatan",
+      "example_de": "Die Geschwindigkeit ist zu hoch.",
+      "example_id": "Kecepatannya terlalu tinggi.",
+      "tags": "a2,unit6,verkehr"
+    },
+    {
+      "kind": "noun",
+      "de": "Verkehrsschild",
+      "article": "das",
+      "plural": "die Verkehrsschilder",
+      "meaning_id": "rambu lalu lintas",
+      "example_de": "Das Verkehrsschild fehlt.",
+      "example_id": "Rambunya hilang.",
+      "tags": "a2,unit6,verkehr"
+    }
+  ]
+}

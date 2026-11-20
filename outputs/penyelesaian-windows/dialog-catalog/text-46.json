@@ -1,0 +1,206 @@
+{
+  "id": "dialog-46",
+  "title": "Lernen mit Plan",
+  "textId": 46,
+  "level": "B1",
+  "tags": "seed · B1 · unit 8",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit ich einen Lernplan habe, macht das Lernen mehr Spaß.",
+      "id": "Sejak punya rencana belajar, belajar jadi lebih menyenangkan.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich versuche, jeden Tag zwanzig Minuten zu üben.",
+      "id": "Saya berusaha berlatih dua puluh menit setiap hari.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Neue Wörter wiederhole ich abends vor dem Schlafen.",
+      "id": "Kata-kata baru saya ulang malam sebelum tidur.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "In der Prüfung wird viel geschrieben und gehört.",
+      "id": "Dalam ujian banyak menulis dan mendengar.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Deshalb übe ich auch Hörverstehen.",
+      "id": "Karena itu saya juga berlatih pemahaman mendengar.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Der Fortschritt ist langsam, aber ich bin motiviert.",
+      "id": "Kemajuannya lambat, tetapi saya termotivasi.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollege",
+      "de": "Seit ich einen Lernplan habe, macht das Lernen mehr Spaß.",
+      "id": "Sejak punya rencana belajar, belajar jadi lebih menyenangkan.",
+      "pose": "zuhoren",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "ich",
+      "de": "Ich versuche, jeden Tag zwanzig Minuten zu üben.",
+      "id": "Saya berusaha berlatih dua puluh menit setiap hari.",
+      "pose": "berichten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "nachbarin",
+      "de": "Neue Wörter wiederhole ich abends vor dem Schlafen.",
+      "id": "Kata-kata baru saya ulang malam sebelum tidur.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "kollege",
+      "de": "In der Prüfung wird viel geschrieben und gehört.",
+      "id": "Dalam ujian banyak menulis dan mendengar.",
+      "pose": "zuhoren",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Deshalb übe ich auch Hörverstehen.",
+      "id": "Karena itu saya juga berlatih pemahaman mendengar.",
+      "pose": "berichten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Der Fortschritt ist langsam, aber ich bin motiviert.",
+      "id": "Kemajuannya lambat, tetapi saya termotivasi.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

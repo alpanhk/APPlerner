@@ -1,0 +1,238 @@
+{
+  "storyId": "im-cafe",
+  "textId": 10,
+  "version": "v02",
+  "status": "candidate-for-user-review",
+  "styleReference": "../../referensi/acuan-gaya-kafe-pengguna-2026-11-19.png",
+  "styleReferenceSha256": "a130689c902914fe99e96195cbf6e2b10fe777e33fe59a141c6bc6e1b8c81405",
+  "cast": {
+    "ich": {
+      "label": "Tamu manusia",
+      "aliases": [
+        "guest"
+      ],
+      "view": "kanan",
+      "description": "Rambut bergelombang sebahu cokelat, anting emas, rajut krem, celana kobalt, tas bahu cokelat.",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "anchorXy": [
+        627,
+        1254
+      ],
+      "master": {
+        "file": "characters/ich/ich-master-neutral-v02.png",
+        "sha256": "0c87ba5d9f61ef14f02a5e689c5537687db8e010575a3a9c4bf7fe25773fe99f",
+        "alphaBounds": [
+          301,
+          75,
+          889,
+          1233
+        ]
+      },
+      "poseAliases": {
+        "calm": "master",
+        "listen": "master",
+        "friendly": "speaking"
+      },
+      "poses": {
+        "speaking": {
+          "file": "characters/ich/ich-speaking-v02.png",
+          "sha256": "edfa00248568109e2279d0f70f21c9e35ee8be498e025ca36902c6ce2d86fa30",
+          "alphaBounds": [
+            301,
+            75,
+            889,
+            1233
+          ],
+          "masterSha256": "0c87ba5d9f61ef14f02a5e689c5537687db8e010575a3a9c4bf7fe25773fe99f",
+          "zonesXyxy": [
+            [
+              753,
+              293,
+              833,
+              341
+            ]
+          ],
+          "changedOutsideEditZones": 0,
+          "changedVisibleOutsideEditZones": 0,
+          "sourceImageGenEdit": "source-edits/ich-speaking-v02.png"
+        },
+        "surprised": {
+          "file": "characters/ich/ich-surprised-v02.png",
+          "sha256": "997460c0f78dba924d2ece71bdf46d382f5ae696382554a80506f301f63e508c",
+          "alphaBounds": [
+            301,
+            75,
+            889,
+            1233
+          ],
+          "masterSha256": "0c87ba5d9f61ef14f02a5e689c5537687db8e010575a3a9c4bf7fe25773fe99f",
+          "zonesXyxy": [
+            [
+              760,
+              289,
+              838,
+              349
+            ],
+            [
+              731,
+              173,
+              796,
+              213
+            ]
+          ],
+          "changedOutsideEditZones": 0,
+          "changedVisibleOutsideEditZones": 0,
+          "sourceImageGenEdit": "source-edits/ich-surprised-v02.png"
+        }
+      }
+    },
+    "kellner": {
+      "label": "Barista",
+      "aliases": [
+        "barista"
+      ],
+      "view": "kiri",
+      "description": "Sanggul gelap keriting, kemeja putih lengan gulung, celemek merah tomat.",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "anchorXy": [
+        627,
+        1254
+      ],
+      "master": {
+        "file": "characters/kellner/kellner-master-neutral-v02.png",
+        "sha256": "1abbe76ed1448cbc214291881d23fc2ec434dc99f5f434668ca00b53549e000b",
+        "alphaBounds": [
+          325,
+          40,
+          898,
+          1238
+        ]
+      },
+      "poseAliases": {
+        "calm": "master",
+        "listen": "master",
+        "friendly": "speaking"
+      },
+      "poses": {
+        "speaking": {
+          "file": "characters/kellner/kellner-speaking-v02.png",
+          "sha256": "0df15bcdb2cd8fe42f10fdfdf631ff6839fd4dd392e3fab7ebdb92467b352f55",
+          "alphaBounds": [
+            325,
+            40,
+            898,
+            1238
+          ],
+          "masterSha256": "1abbe76ed1448cbc214291881d23fc2ec434dc99f5f434668ca00b53549e000b",
+          "zonesXyxy": [
+            [
+              455,
+              345,
+              536,
+              400
+            ]
+          ],
+          "changedOutsideEditZones": 0,
+          "changedVisibleOutsideEditZones": 0,
+          "sourceImageGenEdit": "source-edits/kellner-speaking-v02.png"
+        }
+      }
+    },
+    "freundin": {
+      "label": "Teman pemesan teh",
+      "aliases": [
+        "friend"
+      ],
+      "view": "kanan",
+      "description": "Tokoh tambahan. Bob lurus dan jepit emas, kulit cokelat, rompi kotak mustard. Tidak ada di acuan pengguna.",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "anchorXy": [
+        627,
+        1254
+      ],
+      "master": {
+        "file": "characters/freundin/freundin-master-neutral-v02.png",
+        "sha256": "0bd149f1ac2263db0a6d921c65cbbf60dd44578b3c9d1b7f1abf172bedcd6c9b",
+        "alphaBounds": [
+          366,
+          72,
+          882,
+          1236
+        ]
+      },
+      "poseAliases": {
+        "calm": "master",
+        "listen": "master",
+        "friendly": "speaking"
+      },
+      "poses": {
+        "speaking": {
+          "file": "characters/freundin/freundin-speaking-v02.png",
+          "sha256": "041d9dec9a6e8a6d4c90e87b9c97987842abd261c746b7805f33ce080ae80082",
+          "alphaBounds": [
+            366,
+            72,
+            882,
+            1236
+          ],
+          "masterSha256": "0bd149f1ac2263db0a6d921c65cbbf60dd44578b3c9d1b7f1abf172bedcd6c9b",
+          "zonesXyxy": [
+            [
+              702,
+              290,
+              778,
+              339
+            ]
+          ],
+          "changedOutsideEditZones": 0,
+          "changedVisibleOutsideEditZones": 0,
+          "sourceImageGenEdit": "source-edits/freundin-speaking-v02.png"
+        }
+      }
+    },
+    "mascot": {
+      "label": "Maskot kucing",
+      "aliases": [
+        "maskot"
+      ],
+      "view": "kanan",
+      "description": "Pendamping terpisah. Putih krem, telinga kobalt di kiri layar, syal merah, pose duduk.",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "anchorXy": [
+        627,
+        1254
+      ],
+      "master": {
+        "file": "characters/mascot/mascot-master-rest-v02.png",
+        "sha256": "5fa8fc2c2edda932ef64a4a93ae4be6ec11b0a23b70c9b14a6df9b8340f194b5",
+        "alphaBounds": [
+          289,
+          128,
+          929,
+          1135
+        ]
+      },
+      "poseAliases": {
+        "calm": "master",
+        "rest": "master"
+      },
+      "poses": {}
+    },
+    "narrator": {
+      "label": "Narator",
+      "visible": false
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "dialog-66",
+  "title": "Künstliche Intelligenz am Arbeitsplatz",
+  "textId": 66,
+  "level": "B2",
+  "tags": "seed · B2 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Künstliche Intelligenz verändert zunehmend die Arbeitswelt.",
+      "id": "Kecerdasan buatan makin mengubah dunia kerja.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Viele Aufgaben können automatisiert werden.",
+      "id": "Banyak tugas dapat diotomatiskan.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Dadurch entstehen neue Berufe, während andere verschwinden.",
+      "id": "Akibatnya muncul profesi baru sementara yang lain hilang.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Fachleute betonen, dass Weiterbildung entscheidend ist.",
+      "id": "Para ahli menekankan bahwa pendidikan lanjutan menentukan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Zugleich wird über Datenschutz und Verantwortung diskutiert.",
+      "id": "Pada saat yang sama dibahas perlindungan data dan tanggung jawab.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nur durch klare Regeln lässt sich Vertrauen schaffen.",
+      "id": "Hanya lewat aturan yang jelas kepercayaan dapat dibangun.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Künstliche Intelligenz verändert zunehmend die Arbeitswelt.",
+      "id": "Kecerdasan buatan makin mengubah dunia kerja.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "kollegin",
+      "de": "Viele Aufgaben können automatisiert werden.",
+      "id": "Banyak tugas dapat diotomatiskan.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "vorgesetzte",
+      "de": "Dadurch entstehen neue Berufe, während andere verschwinden.",
+      "id": "Akibatnya muncul profesi baru sementara yang lain hilang.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Fachleute betonen, dass Weiterbildung entscheidend ist.",
+      "id": "Para ahli menekankan bahwa pendidikan lanjutan menentukan.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "kollegin",
+      "de": "Zugleich wird über Datenschutz und Verantwortung diskutiert.",
+      "id": "Pada saat yang sama dibahas perlindungan data dan tanggung jawab.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "vorgesetzte",
+      "de": "Nur durch klare Regeln lässt sich Vertrauen schaffen.",
+      "id": "Hanya lewat aturan yang jelas kepercayaan dapat dibangun.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

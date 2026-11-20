@@ -1,0 +1,259 @@
+{
+  "unit": 3,
+  "level": "A1",
+  "theme": "Keluarga & hubungan",
+  "source": "Kerangka Goethe A1 + kurasi manual (PRD 6.3)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Familie",
+      "article": "die",
+      "plural": "die Familien",
+      "meaning_id": "keluarga",
+      "example_de": "Meine Familie ist klein.",
+      "example_id": "Keluarga saya kecil.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Mutter",
+      "article": "die",
+      "plural": "die Mütter",
+      "meaning_id": "ibu",
+      "example_de": "Meine Mutter heißt Siti.",
+      "example_id": "Ibu saya bernama Siti.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Vater",
+      "article": "der",
+      "plural": "die Väter",
+      "meaning_id": "ayah",
+      "example_de": "Mein Vater arbeitet in Jakarta.",
+      "example_id": "Ayah saya bekerja di Jakarta.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Eltern",
+      "article": "die",
+      "plural": "die Eltern",
+      "meaning_id": "orang tua",
+      "example_de": "Meine Eltern wohnen in Bandung.",
+      "example_id": "Orang tua saya tinggal di Bandung.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Sohn",
+      "article": "der",
+      "plural": "die Söhne",
+      "meaning_id": "anak laki-laki",
+      "example_de": "Ihr Sohn ist fünf Jahre alt.",
+      "example_id": "Anak laki-lakinya berumur lima tahun.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Tochter",
+      "article": "die",
+      "plural": "die Töchter",
+      "meaning_id": "anak perempuan",
+      "example_de": "Meine Tochter lernt Deutsch.",
+      "example_id": "Anak perempuan saya belajar bahasa Jerman.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Kind",
+      "article": "das",
+      "plural": "die Kinder",
+      "meaning_id": "anak",
+      "example_de": "Das Kind spielt im Garten.",
+      "example_id": "Anak itu bermain di taman.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Bruder",
+      "article": "der",
+      "plural": "die Brüder",
+      "meaning_id": "saudara laki-laki",
+      "example_de": "Mein Bruder ist Student.",
+      "example_id": "Saudara laki-laki saya mahasiswa.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwester",
+      "article": "die",
+      "plural": "die Schwestern",
+      "meaning_id": "saudara perempuan",
+      "example_de": "Meine Schwester wohnt in Berlin.",
+      "example_id": "Saudara perempuan saya tinggal di Berlin.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschwister",
+      "article": "die",
+      "plural": "die Geschwister",
+      "meaning_id": "saudara kandung (jamak)",
+      "example_de": "Ich habe zwei Geschwister.",
+      "example_id": "Saya punya dua saudara.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Großvater",
+      "article": "der",
+      "plural": "die Großväter",
+      "meaning_id": "kakek",
+      "example_de": "Mein Großvater ist 80 Jahre alt.",
+      "example_id": "Kakek saya berumur 80 tahun.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Großmutter",
+      "article": "die",
+      "plural": "die Großmütter",
+      "meaning_id": "nenek",
+      "example_de": "Meine Großmutter kocht sehr gut.",
+      "example_id": "Nenek saya memasak sangat enak.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Onkel",
+      "article": "der",
+      "plural": "die Onkel",
+      "meaning_id": "paman",
+      "example_de": "Mein Onkel wohnt in Surabaya.",
+      "example_id": "Paman saya tinggal di Surabaya.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Tante",
+      "article": "die",
+      "plural": "die Tanten",
+      "meaning_id": "bibi",
+      "example_de": "Meine Tante kommt heute.",
+      "example_id": "Bibi saya datang hari ini.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Cousin",
+      "article": "der",
+      "plural": "die Cousins",
+      "meaning_id": "sepupu (laki-laki)",
+      "example_de": "Mein Cousin ist 20 Jahre alt.",
+      "example_id": "Sepupu laki-laki saya berumur 20 tahun.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Cousine",
+      "article": "die",
+      "plural": "die Cousinen",
+      "meaning_id": "sepupu (perempuan)",
+      "example_de": "Meine Cousine lernt in Hamburg.",
+      "example_id": "Sepupu perempuan saya belajar di Hamburg.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Baby",
+      "article": "das",
+      "plural": "die Babys",
+      "meaning_id": "bayi",
+      "example_de": "Das Baby schläft.",
+      "example_id": "Bayinya sedang tidur.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Partner",
+      "article": "der",
+      "plural": "die Partner",
+      "meaning_id": "pasangan (laki-laki)",
+      "example_de": "Ihr Partner ist Lehrer.",
+      "example_id": "Pasangannya seorang guru.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "noun",
+      "de": "Partnerin",
+      "article": "die",
+      "plural": "die Partnerinnen",
+      "meaning_id": "pasangan (perempuan)",
+      "example_de": "Seine Partnerin kommt aus Wien.",
+      "example_id": "Pasangannya berasal dari Wina.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "adj",
+      "de": "verheiratet",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menikah",
+      "example_de": "Meine Schwester ist verheiratet.",
+      "example_id": "Saudara perempuan saya sudah menikah.",
+      "tags": "unit3,status"
+    },
+    {
+      "kind": "adj",
+      "de": "ledig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "belum menikah",
+      "example_de": "Ich bin noch ledig.",
+      "example_id": "Saya masih belum menikah.",
+      "tags": "unit3,status"
+    },
+    {
+      "kind": "adj",
+      "de": "geschieden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bercerai",
+      "example_de": "Ihre Eltern sind geschieden.",
+      "example_id": "Orang tuanya bercerai.",
+      "tags": "unit3,status"
+    },
+    {
+      "kind": "other",
+      "de": "zusammen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bersama",
+      "example_de": "Wir wohnen zusammen.",
+      "example_id": "Kami tinggal bersama.",
+      "tags": "unit3,status"
+    },
+    {
+      "kind": "verb",
+      "de": "besuchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengunjungi",
+      "example_de": "Am Sonntag besuche ich meine Eltern.",
+      "example_id": "Hari Minggu saya mengunjungi orang tua saya.",
+      "tags": "unit3,keluarga"
+    },
+    {
+      "kind": "verb",
+      "de": "lieben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencintai",
+      "example_de": "Ich liebe meine Familie.",
+      "example_id": "Saya mencintai keluarga saya.",
+      "tags": "unit3,keluarga"
+    }
+  ]
+}

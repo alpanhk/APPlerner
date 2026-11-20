@@ -1,0 +1,206 @@
+{
+  "id": "dialog-44",
+  "title": "Eine Woche in Wien",
+  "textId": 44,
+  "level": "B1",
+  "tags": "seed · B1 · unit 6",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Bevor wir nach Wien gefahren sind, hatten wir alles gebucht.",
+      "id": "Sebelum pergi ke Wina, kami sudah memesan semuanya.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Unterkunft, die wir gefunden hatten, war zentral.",
+      "id": "Akomodasi yang kami temukan berada di pusat.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Am ersten Tag haben wir eine Führung gemacht.",
+      "id": "Hari pertama kami ikut tur berpemandu.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Der Reiseführer hat uns viele Geschichten erzählt.",
+      "id": "Pemandunya bercerita banyak kisah.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Nachdem wir das Museum besichtigt hatten, waren wir müde.",
+      "id": "Setelah mengunjungi museum, kami lelah.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Am Abend haben wir mit Einheimischen gesprochen.",
+      "id": "Malamnya kami berbicara dengan penduduk lokal.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollege",
+      "de": "Bevor wir nach Wien gefahren sind, hatten wir alles gebucht.",
+      "id": "Sebelum pergi ke Wina, kami sudah memesan semuanya.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Unterkunft, die wir gefunden hatten, war zentral.",
+      "id": "Akomodasi yang kami temukan berada di pusat.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "nachbarin",
+      "de": "Am ersten Tag haben wir eine Führung gemacht.",
+      "id": "Hari pertama kami ikut tur berpemandu.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Der Reiseführer hat uns viele Geschichten erzählt.",
+      "id": "Pemandunya bercerita banyak kisah.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Nachdem wir das Museum besichtigt hatten, waren wir müde.",
+      "id": "Setelah mengunjungi museum, kami lelah.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "nachbarin",
+      "de": "Am Abend haben wir mit Einheimischen gesprochen.",
+      "id": "Malamnya kami berbicara dengan penduduk lokal.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

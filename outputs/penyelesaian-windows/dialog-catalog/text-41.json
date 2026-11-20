@@ -1,0 +1,206 @@
+{
+  "id": "dialog-41",
+  "title": "Eine neue Aufgabe",
+  "textId": 41,
+  "level": "B1",
+  "tags": "seed · B1 · unit 3",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit drei Jahren arbeitet Rina in diesem Unternehmen.",
+      "id": "Sudah tiga tahun Rina bekerja di perusahaan ini.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Letztes Jahr wurde sie zur Teamleiterin gemacht.",
+      "id": "Tahun lalu dia dijadikan pemimpin tim.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Obwohl die Arbeit stressig ist, macht sie ihr Spaß.",
+      "id": "Meskipun pekerjaannya penuh stres, dia menyukainya.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Das neue Projekt muss bis Ende des Monats beendet werden.",
+      "id": "Proyek baru harus selesai akhir bulan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Trotzdem nimmt sie sich Zeit für eine Fortbildung.",
+      "id": "Meskipun begitu dia menyempatkan diri untuk pelatihan.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Sie hofft, dass ihre Karriere so weitergeht.",
+      "id": "Dia berharap kariernya terus berjalan seperti ini.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "nachbarin",
+      "de": "Seit drei Jahren arbeitet Rina in diesem Unternehmen.",
+      "id": "Sudah tiga tahun Rina bekerja di perusahaan ini.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "kollege",
+      "de": "Letztes Jahr wurde sie zur Teamleiterin gemacht.",
+      "id": "Tahun lalu dia dijadikan pemimpin tim.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Obwohl die Arbeit stressig ist, macht sie ihr Spaß.",
+      "id": "Meskipun pekerjaannya penuh stres, dia menyukainya.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Das neue Projekt muss bis Ende des Monats beendet werden.",
+      "id": "Proyek baru harus selesai akhir bulan.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "kollege",
+      "de": "Trotzdem nimmt sie sich Zeit für eine Fortbildung.",
+      "id": "Meskipun begitu dia menyempatkan diri untuk pelatihan.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Sie hofft, dass ihre Karriere so weitergeht.",
+      "id": "Dia berharap kariernya terus berjalan seperti ini.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

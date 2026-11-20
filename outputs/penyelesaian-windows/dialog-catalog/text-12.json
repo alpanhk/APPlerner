@@ -1,0 +1,177 @@
+{
+  "id": "dialog-12",
+  "title": "Im Kleidungsgeschäft",
+  "textId": 12,
+  "level": "A1",
+  "tags": "seed · A1 · unit 5 · belanja",
+  "sourceFile": "src/data/reading/texts_a1a2_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop"
+      },
+      "kuchen": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Mira sucht eine blaue Jacke.",
+      "id": "Mira mencari jaket biru.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Jacke kostet sechzig Euro.",
+      "id": "Jaket itu harganya enam puluh euro.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Sie probiert die Jacke an.",
+      "id": "Dia mencoba jaket itu.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Ärmel sind ein bisschen lang.",
+      "id": "Lengan jaketnya sedikit panjang.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Mira kauft die Jacke an der Kasse.",
+      "id": "Mira membeli jaket itu di kasir.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "freundin",
+      "de": "Mira sucht eine blaue Jacke.",
+      "id": "Mira mencari jaket biru.",
+      "pose": "reply",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_076.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Jacke kostet sechzig Euro.",
+      "id": "Jaket itu harganya enam puluh euro.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_024.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Sie probiert die Jacke an.",
+      "id": "Dia mencoba jaket itu.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_081.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Ärmel sind ein bisschen lang.",
+      "id": "Lengan jaketnya sedikit panjang.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_029.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Mira kauft die Jacke an der Kasse.",
+      "id": "Mira membeli jaket itu di kasir.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_075.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    }
+  ]
+}

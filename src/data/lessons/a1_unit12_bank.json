@@ -1,0 +1,368 @@
+{
+  "level": "A1",
+  "unit": 12,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 12. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u12-o1-01",
+      "objectiveId": "a1-u12-o1",
+      "code": "D3",
+      "prompt": "Ich möchte dich zum Essen ___ .",
+      "sub": "Pilih infinitif setelah möchte.",
+      "mode": "choice",
+      "options": ["einladen", "einlädt", "eingeladen", "ladet"],
+      "answer": "einladen",
+      "wrongFeedback": {
+        "einlädt": "einlädt adalah bentuk er/sie/es; setelah möchte dipakai infinitif.",
+        "eingeladen": "eingeladen adalah Partizip II; setelah möchte dipakai infinitif.",
+        "ladet": "ladet adalah bentuk ihr; setelah möchte dipakai infinitif einladen."
+      },
+      "explanation": "Ich möchte dich zum Essen einladen. Setelah modal, infinitif di akhir."
+    },
+    {
+      "id": "u12-o1-02",
+      "objectiveId": "a1-u12-o1",
+      "code": "D3",
+      "prompt": "___ du am Freitag Zeit?",
+      "sub": "Konjugasi haben untuk du.",
+      "mode": "choice",
+      "options": ["Hast", "Haben", "Hat", "Habe"],
+      "answer": "Hast",
+      "wrongFeedback": {
+        "Haben": "Haben dipakai untuk wir/sie/Sie.",
+        "Hat": "Hat dipakai untuk er/sie/es.",
+        "Habe": "Habe dipakai untuk ich."
+      },
+      "explanation": "haben → du hast: Hast du am Freitag Zeit?"
+    },
+    {
+      "id": "u12-o1-03",
+      "objectiveId": "a1-u12-o1",
+      "code": "D3",
+      "prompt": "Um wie viel Uhr ___ wir uns?",
+      "sub": "Konjugasi sich treffen untuk wir.",
+      "mode": "choice",
+      "options": ["treffen", "trifft", "trefft", "getroffen"],
+      "answer": "treffen",
+      "wrongFeedback": {
+        "trifft": "trifft dipakai untuk er/sie/es.",
+        "trefft": "trefft dipakai untuk ihr.",
+        "getroffen": "getroffen adalah Partizip II, bukan bentuk finit wir."
+      },
+      "explanation": "sich treffen → wir treffen uns: Um wie viel Uhr treffen wir uns?"
+    },
+    {
+      "id": "u12-o1-04",
+      "objectiveId": "a1-u12-o1",
+      "code": "D9",
+      "prompt": "Lengkapi: Wir treffen uns ___ halb sieben. (pukul)",
+      "sub": "Ketik satu preposisi.",
+      "mode": "type",
+      "answer": "um",
+      "altAnswers": ["Um"],
+      "hintOnWrong": "Jam memakai um: um halb sieben.",
+      "explanation": "Wir treffen uns um halb sieben. um + jam."
+    },
+    {
+      "id": "u12-o1-05",
+      "objectiveId": "a1-u12-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Apakah kamu ingin ikut?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Möchtest", "du", "mitkommen?"],
+      "answer": "Möchtest du mitkommen?",
+      "hintOnWrong": "Mulai dengan Möchtest du, lalu mitkommen.",
+      "explanation": "Möchtest du mitkommen? berarti 'Apakah kamu ingin ikut?'."
+    },
+    {
+      "id": "u12-o2-01",
+      "objectiveId": "a1-u12-o2",
+      "code": "D3",
+      "prompt": "Danke für die Einladung. Ich komme ___ .",
+      "sub": "Pilih jawaban yang menerima ajakan.",
+      "mode": "choice",
+      "options": ["gern", "leider", "nicht", "später"],
+      "answer": "gern",
+      "wrongFeedback": {
+        "leider": "leider dipakai untuk menolak, bukan menerima.",
+        "nicht": "nicht adalah negasi; kalimat ini menerima ajakan.",
+        "später": "später berarti 'nanti', bukan penerimaan ajakan."
+      },
+      "explanation": "Ich komme gern. berarti 'Saya datang dengan senang hati'."
+    },
+    {
+      "id": "u12-o2-02",
+      "objectiveId": "a1-u12-o2",
+      "code": "D10",
+      "prompt": "Leider ___ ich nicht.",
+      "sub": "Konjugasi können untuk ich.",
+      "mode": "choice",
+      "options": ["kann", "kannst", "können", "könnt"],
+      "answer": "kann",
+      "wrongFeedback": {
+        "kannst": "kannst dipakai untuk du.",
+        "können": "können dipakai untuk wir/sie/Sie.",
+        "könnt": "könnt dipakai untuk ihr."
+      },
+      "explanation": "können → ich kann: Leider kann ich nicht."
+    },
+    {
+      "id": "u12-o2-03",
+      "objectiveId": "a1-u12-o2",
+      "code": "D3",
+      "prompt": "Können wir ___ am Sonntag treffen?",
+      "sub": "Pilih kata ganti refleksif untuk wir.",
+      "mode": "choice",
+      "options": ["uns", "mich", "dich", "sich"],
+      "answer": "uns",
+      "wrongFeedback": {
+        "mich": "mich adalah refleksif untuk ich.",
+        "dich": "dich adalah refleksif untuk du.",
+        "sich": "sich dipakai untuk er/sie/es atau sie/Sie."
+      },
+      "explanation": "sich treffen → wir treffen uns: Können wir uns am Sonntag treffen?"
+    },
+    {
+      "id": "u12-o2-04",
+      "objectiveId": "a1-u12-o2",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'sayangnya'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "leider",
+      "altAnswers": ["Leider"],
+      "hintOnWrong": "Sayangnya = leider. Leider kann ich nicht.",
+      "explanation": "leider berarti 'sayangnya'."
+    },
+    {
+      "id": "u12-o2-05",
+      "objectiveId": "a1-u12-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ikut dengan senang hati.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "komme", "gern", "mit."],
+      "answer": "Ich komme gern mit.",
+      "hintOnWrong": "Mulai dengan Ich komme, lalu gern, lalu mit di akhir.",
+      "explanation": "Ich komme gern mit. mitkommen adalah verba pisah; mit- di akhir."
+    },
+    {
+      "id": "u12-o3-01",
+      "objectiveId": "a1-u12-o3",
+      "code": "D3",
+      "prompt": "Hallo, ___ ist Rani.",
+      "sub": "Pilih kata untuk memperkenalkan diri di telepon.",
+      "mode": "choice",
+      "options": ["hier", "da", "dort", "es"],
+      "answer": "hier",
+      "wrongFeedback": {
+        "da": "da berarti 'di sana/ada', bukan frasa perkenalan telepon.",
+        "dort": "dort berarti 'di sana', bukan frasa perkenalan telepon.",
+        "es": "es tidak dipakai dalam frasa hier ist ... untuk telepon."
+      },
+      "explanation": "Hallo, hier ist Rani. berarti 'Halo, ini Rani'."
+    },
+    {
+      "id": "u12-o3-02",
+      "objectiveId": "a1-u12-o3",
+      "code": "D9",
+      "prompt": "Kann ich bitte ___ Herrn Müller sprechen?",
+      "sub": "Pilih preposisi untuk 'berbicara dengan'.",
+      "mode": "choice",
+      "options": ["mit", "zu", "bei", "für"],
+      "answer": "mit",
+      "wrongFeedback": {
+        "zu": "zu berarti 'kepada/menuju', bukan 'berbicara dengan'.",
+        "bei": "bei berarti 'di dekat/pada', bukan 'berbicara dengan'.",
+        "für": "für berarti 'untuk', bukan 'berbicara dengan'."
+      },
+      "explanation": "sprechen mit + Dativ: mit Herrn Müller sprechen."
+    },
+    {
+      "id": "u12-o3-03",
+      "objectiveId": "a1-u12-o3",
+      "code": "D3",
+      "prompt": "Einen ___ bitte.",
+      "sub": "Pilih kata untuk 'mohon tunggu sebentar'.",
+      "mode": "choice",
+      "options": ["Moment", "Minute", "Zeit", "Anruf"],
+      "answer": "Moment",
+      "wrongFeedback": {
+        "Minute": "Minute berarti 'menit'; frasa yang dipakai adalah Einen Moment bitte.",
+        "Zeit": "Zeit berarti 'waktu'; frasa yang dipakai adalah Einen Moment bitte.",
+        "Anruf": "Anruf berarti 'panggilan'; bukan frasa meminta tunggu."
+      },
+      "explanation": "Einen Moment bitte. berarti 'Mohon tunggu sebentar'."
+    },
+    {
+      "id": "u12-o3-04",
+      "objectiveId": "a1-u12-o3",
+      "code": "D9",
+      "prompt": "Lengkapi: Kann ich bitte ___ Frau Schmidt sprechen? (dengan)",
+      "sub": "Ketik satu preposisi.",
+      "mode": "type",
+      "answer": "mit",
+      "altAnswers": ["Mit"],
+      "hintOnWrong": "Berbicara dengan seseorang memakai mit: mit Frau Schmidt sprechen.",
+      "explanation": "Kann ich bitte mit Frau Schmidt sprechen? mit + Dativ."
+    },
+    {
+      "id": "u12-o3-05",
+      "objectiveId": "a1-u12-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Halo, ini Budi.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Hallo,", "hier", "ist", "Budi."],
+      "answer": "Hallo, hier ist Budi.",
+      "hintOnWrong": "Mulai dengan Hallo, lalu hier ist, lalu Budi.",
+      "explanation": "Hallo, hier ist Budi. Frasa hier ist dipakai saat memperkenalkan diri di telepon."
+    },
+    {
+      "id": "u12-o4-01",
+      "objectiveId": "a1-u12-o4",
+      "code": "D3",
+      "prompt": "Ich rufe dich heute Abend ___ .",
+      "sub": "Pilih awalan verba pisah anrufen.",
+      "mode": "choice",
+      "options": ["an", "auf", "aus", "ab"],
+      "answer": "an",
+      "wrongFeedback": {
+        "auf": "auf bukan awalan untuk anrufen.",
+        "aus": "aus bukan awalan untuk anrufen.",
+        "ab": "ab dipakai pada abfahren/abholen, bukan anrufen."
+      },
+      "explanation": "anrufen → Ich rufe dich an. Awalan an- di akhir kalimat."
+    },
+    {
+      "id": "u12-o4-02",
+      "objectiveId": "a1-u12-o4",
+      "code": "D3",
+      "prompt": "Ruf mich bitte nach der Arbeit ___ .",
+      "sub": "Pilih awalan verba pisah anrufen pada imperatif.",
+      "mode": "choice",
+      "options": ["an", "auf", "aus", "ab"],
+      "answer": "an",
+      "wrongFeedback": {
+        "auf": "auf bukan awalan untuk anrufen.",
+        "aus": "aus bukan awalan untuk anrufen.",
+        "ab": "ab dipakai pada abfahren/abholen, bukan anrufen."
+      },
+      "explanation": "Ruf mich bitte an. Imperatif anrufen tetap memisahkan an- di akhir."
+    },
+    {
+      "id": "u12-o4-03",
+      "objectiveId": "a1-u12-o4",
+      "code": "D1",
+      "prompt": "Kann ich eine ___ hinterlassen?",
+      "sub": "Pilih kata untuk 'pesan'.",
+      "mode": "choice",
+      "options": ["Nachricht", "Anruf", "Besuch", "Kontakt"],
+      "answer": "Nachricht",
+      "wrongFeedback": {
+        "Anruf": "Anruf berarti 'panggilan', bukan pesan.",
+        "Besuch": "Besuch berarti 'kunjungan', bukan pesan.",
+        "Kontakt": "Kontakt berarti 'kontak', bukan pesan."
+      },
+      "explanation": "eine Nachricht hinterlassen = meninggalkan pesan."
+    },
+    {
+      "id": "u12-o4-04",
+      "objectiveId": "a1-u12-o4",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'pesan suara' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Sprachnachricht",
+      "altAnswers": ["Sprachnachricht"],
+      "hintOnWrong": "Pesan suara = die Sprachnachricht. Kata Nachricht feminin.",
+      "explanation": "die Sprachnachricht berarti 'pesan suara'."
+    },
+    {
+      "id": "u12-o4-05",
+      "objectiveId": "a1-u12-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Saya meneleponmu besok.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "rufe", "dich", "morgen", "an."],
+      "answer": "Ich rufe dich morgen an.",
+      "hintOnWrong": "Mulai dengan Ich rufe dich, lalu morgen, lalu an di akhir.",
+      "explanation": "Ich rufe dich morgen an. Awalan an- di akhir kalimat."
+    },
+    {
+      "id": "u12-o5-01",
+      "objectiveId": "a1-u12-o5",
+      "code": "D1",
+      "prompt": "Surat fisik dimasukkan ke dalam ___ .",
+      "sub": "Pilih kata untuk 'amplop'.",
+      "mode": "choice",
+      "options": ["Briefumschlag", "Briefmarke", "Postkarte", "Sprachnachricht"],
+      "answer": "Briefumschlag",
+      "wrongFeedback": {
+        "Briefmarke": "Briefmarke adalah perangko, bukan amplop.",
+        "Postkarte": "Postkarte adalah kartu pos, bukan amplop.",
+        "Sprachnachricht": "Sprachnachricht adalah pesan suara, bukan amplop."
+      },
+      "explanation": "der Briefumschlag = amplop tempat surat fisik."
+    },
+    {
+      "id": "u12-o5-02",
+      "objectiveId": "a1-u12-o5",
+      "code": "D1",
+      "prompt": "Ich klebe eine ___ auf den Brief.",
+      "sub": "Pilih kata untuk 'perangko'.",
+      "mode": "choice",
+      "options": ["Briefmarke", "Briefumschlag", "Postkarte", "E-Mail"],
+      "answer": "Briefmarke",
+      "wrongFeedback": {
+        "Briefumschlag": "Briefumschlag adalah amplop, bukan perangko.",
+        "Postkarte": "Postkarte adalah kartu pos, bukan perangko.",
+        "E-Mail": "E-Mail adalah surel, bukan perangko."
+      },
+      "explanation": "die Briefmarke = perangko: Ich klebe eine Briefmarke auf den Brief."
+    },
+    {
+      "id": "u12-o5-03",
+      "objectiveId": "a1-u12-o5",
+      "code": "D1",
+      "prompt": "Danke für deine ___ .",
+      "sub": "Pilih kata yang berarti 'pesan'.",
+      "mode": "choice",
+      "options": ["Nachricht", "Briefmarke", "Reservierung", "Verabredung"],
+      "answer": "Nachricht",
+      "wrongFeedback": {
+        "Briefmarke": "Briefmarke adalah perangko, bukan pesan.",
+        "Reservierung": "Reservierung adalah reservasi, bukan pesan.",
+        "Verabredung": "Verabredung adalah janji pertemuan, bukan pesan."
+      },
+      "explanation": "Danke für deine Nachricht. berarti 'Terima kasih atas pesanmu'."
+    },
+    {
+      "id": "u12-o5-04",
+      "objectiveId": "a1-u12-o5",
+      "code": "D3",
+      "prompt": "Lengkapi: Ich ___ den Termin. (mengonfirmasi)",
+      "sub": "Ketik bentuk bestätigen untuk ich.",
+      "mode": "type",
+      "answer": "bestätige",
+      "altAnswers": ["bestaetige", "Bestätige", "Bestaetige"],
+      "hintOnWrong": "bestätigen → ich bestätige: Ich bestätige den Termin.",
+      "explanation": "Ich bestätige den Termin. berarti 'Saya mengonfirmasi janji itu'."
+    },
+    {
+      "id": "u12-o5-05",
+      "objectiveId": "a1-u12-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya mengirimimu pesan.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "schicke", "dir", "eine", "Nachricht."],
+      "answer": "Ich schicke dir eine Nachricht.",
+      "hintOnWrong": "Mulai dengan Ich schicke dir, lalu eine Nachricht.",
+      "explanation": "Ich schicke dir eine Nachricht. schicken memakai Dativ dir dan Akkusativ eine Nachricht."
+    }
+  ]
+}

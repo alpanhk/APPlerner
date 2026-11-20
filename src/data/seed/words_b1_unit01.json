@@ -1,0 +1,229 @@
+{
+  "unit": 201,
+  "level": "B1",
+  "theme": "Wohnen & Nachbarschaft",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Nachbar",
+      "article": "der",
+      "plural": "die Nachbarn",
+      "meaning_id": "tetangga",
+      "example_de": "Mein Nachbar hilft mir oft.",
+      "example_id": "Tetangga saya sering membantu.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachbarschaft",
+      "article": "die",
+      "plural": "die Nachbarschaften",
+      "meaning_id": "lingkungan tetangga",
+      "example_de": "Die Nachbarschaft ist ruhig.",
+      "example_id": "Lingkungan tetangganya tenang.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Mietvertrag",
+      "article": "der",
+      "plural": "die Mietverträge",
+      "meaning_id": "kontrak sewa",
+      "example_de": "Der Mietvertrag gilt drei Jahre.",
+      "example_id": "Kontrak sewanya berlaku tiga tahun.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Kaution",
+      "article": "die",
+      "plural": "die Kautionen",
+      "meaning_id": "deposit",
+      "example_de": "Die Kaution beträgt zwei Monatsmieten.",
+      "example_id": "Depositnya dua bulan sewa.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Eigentümer",
+      "article": "der",
+      "plural": "die Eigentümer",
+      "meaning_id": "pemilik",
+      "example_de": "Der Eigentümer wohnt im Ausland.",
+      "example_id": "Pemiliknya tinggal di luar negeri.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Hausmeister",
+      "article": "der",
+      "plural": "die Hausmeister",
+      "meaning_id": "petugas gedung",
+      "example_de": "Der Hausmeister repariert die Klingel.",
+      "example_id": "Petugas gedung memperbaiki bel.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Renovierung",
+      "article": "die",
+      "plural": "die Renovierungen",
+      "meaning_id": "renovasi",
+      "example_de": "Die Renovierung dauert zwei Wochen.",
+      "example_id": "Renovasinya dua pekan.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Umzug",
+      "article": "der",
+      "plural": "die Umzüge",
+      "meaning_id": "kepindahan",
+      "example_de": "Der Umzug war anstrengend.",
+      "example_id": "Kepindahannya melelahkan.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Klingel",
+      "article": "die",
+      "plural": "die Klingeln",
+      "meaning_id": "bel",
+      "example_de": "Die Klingel funktioniert nicht.",
+      "example_id": "Belnya tidak berfungsi.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Briefkasten",
+      "article": "der",
+      "plural": "die Briefkästen",
+      "meaning_id": "kotak surat",
+      "example_de": "Der Briefkasten ist unten im Flur.",
+      "example_id": "Kotak suratnya di bawah, di koridor.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "adj",
+      "de": "ordentlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "rapi",
+      "example_de": "Die Wohnung ist ordentlich.",
+      "example_id": "Apartemennya rapi.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "verb",
+      "de": "sich beschweren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengeluh",
+      "example_de": "Ich beschwere mich beim Hausmeister.",
+      "example_id": "Saya mengeluh kepada petugas gedung.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Hausordnung",
+      "article": "die",
+      "plural": "die Hausordnungen",
+      "meaning_id": "peraturan gedung",
+      "example_de": "Die Hausordnung hängt im Flur.",
+      "example_id": "Peraturan gedung tertempel di koridor.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Lärm",
+      "article": "der",
+      "plural": "die Lärme",
+      "meaning_id": "kebisingan",
+      "example_de": "Der Lärm ist unerträglich.",
+      "example_id": "Kebisingannya tak tertahankan.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Anwohner",
+      "article": "der",
+      "plural": "die Anwohner",
+      "meaning_id": "penghuni sekitar",
+      "example_de": "Die Anwohner beschweren sich.",
+      "example_id": "Penghuni sekitar mengeluh.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Wohnfläche",
+      "article": "die",
+      "plural": "die Wohnflächen",
+      "meaning_id": "luas hunian",
+      "example_de": "Die Wohnfläche beträgt 70 Quadratmeter.",
+      "example_id": "Luas huniannya 70 meter persegi.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Versammlung",
+      "article": "die",
+      "plural": "die Versammlungen",
+      "meaning_id": "pertemuan",
+      "example_de": "Die Versammlung ist morgen.",
+      "example_id": "Pertemuannya besok.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Umzugskarton",
+      "article": "der",
+      "plural": "die Umzugskartons",
+      "meaning_id": "kardus pindahan",
+      "example_de": "Die Umzugskartons sind gepackt.",
+      "example_id": "Kardus pindahannya sudah dikemas.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Gemeinschaftsgarten",
+      "article": "der",
+      "plural": "die Gemeinschaftsgärten",
+      "meaning_id": "taman bersama",
+      "example_de": "Der Gemeinschaftsgarten ist beliebt.",
+      "example_id": "Taman bersamanya populer.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Wohnungsbesichtigung",
+      "article": "die",
+      "plural": "die Wohnungsbesichtigungen",
+      "meaning_id": "lihat apartemen",
+      "example_de": "Die Wohnungsbesichtigung ist morgen.",
+      "example_id": "Lihat apartemennya besok.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Klingelschild",
+      "article": "das",
+      "plural": "die Klingelschilder",
+      "meaning_id": "papan bel",
+      "example_de": "Das Klingelschild ist neu.",
+      "example_id": "Papan belnya baru.",
+      "tags": "b1,unit1,wohnen"
+    },
+    {
+      "kind": "noun",
+      "de": "Hausflur",
+      "article": "der",
+      "plural": "die Hausflure",
+      "meaning_id": "koridor gedung",
+      "example_de": "Der Hausflur ist sauber.",
+      "example_id": "Koridor gedungnya bersih.",
+      "tags": "b1,unit1,wohnen"
+    }
+  ]
+}

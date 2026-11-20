@@ -1,0 +1,3199 @@
+{
+  "unit": 350,
+  "level": "B2",
+  "theme": "Wortschatz tambahan",
+  "source": "Kosakata tambahan B2 (kurasi manual, tanpa contoh kalimat)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Analyse",
+      "article": "die",
+      "plural": "die Analysen",
+      "meaning_id": "analisis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "These",
+      "article": "die",
+      "plural": "die Thesen",
+      "meaning_id": "tesis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Befund",
+      "article": "der",
+      "plural": "die Befunde",
+      "meaning_id": "temuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erhebung",
+      "article": "die",
+      "plural": "die Erhebungen",
+      "meaning_id": "pengumpulan data",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Datensatz",
+      "article": "der",
+      "plural": "die Datensätze",
+      "meaning_id": "kumpulan data",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Statistik",
+      "article": "die",
+      "plural": "die Statistiken",
+      "meaning_id": "statistik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Korrelation",
+      "article": "die",
+      "plural": "die Korrelationen",
+      "meaning_id": "korelasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kausalität",
+      "article": "die",
+      "plural": "die Kausalitäten",
+      "meaning_id": "kausalitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Validität",
+      "article": "die",
+      "plural": "die Validitäten",
+      "meaning_id": "validitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Reliabilität",
+      "article": "die",
+      "plural": "die Reliabilitäten",
+      "meaning_id": "reliabilitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Interpretation",
+      "article": "die",
+      "plural": "die Interpretationen",
+      "meaning_id": "interpretasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schlussfolgerung",
+      "article": "die",
+      "plural": "die Schlussfolgerungen",
+      "meaning_id": "kesimpulan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Annahme",
+      "article": "die",
+      "plural": "die Annahmen",
+      "meaning_id": "asumsi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Prämisse",
+      "article": "die",
+      "plural": "die Prämissen",
+      "meaning_id": "premis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Antithese",
+      "article": "die",
+      "plural": "die Antithesen",
+      "meaning_id": "antitesis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Synthese",
+      "article": "die",
+      "plural": "die Synthesen",
+      "meaning_id": "sintesis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Diskurs",
+      "article": "der",
+      "plural": "die Diskurse",
+      "meaning_id": "wacana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Narrativ",
+      "article": "das",
+      "plural": "die Narrative",
+      "meaning_id": "narasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Paradigma",
+      "article": "das",
+      "plural": "die Paradigmen",
+      "meaning_id": "paradigma",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Perspektive",
+      "article": "die",
+      "plural": "die Perspektiven",
+      "meaning_id": "perspektif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Standpunkt",
+      "article": "der",
+      "plural": "die Standpunkte",
+      "meaning_id": "sudut pandang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Haltung",
+      "article": "die",
+      "plural": "die Haltungen",
+      "meaning_id": "sikap",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Position",
+      "article": "die",
+      "plural": "die Positionen",
+      "meaning_id": "posisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Konsens",
+      "article": "der",
+      "plural": "die Konsense",
+      "meaning_id": "konsensus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dissens",
+      "article": "der",
+      "plural": "die Dissense",
+      "meaning_id": "perbedaan pendapat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mehrheit",
+      "article": "die",
+      "plural": "die Mehrheiten",
+      "meaning_id": "mayoritas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Minderheit",
+      "article": "die",
+      "plural": "die Minderheiten",
+      "meaning_id": "minoritas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Amtsträger",
+      "article": "der",
+      "plural": "die Amtsträger",
+      "meaning_id": "pejabat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erlass",
+      "article": "der",
+      "plural": "die Erlasse",
+      "meaning_id": "surat keputusan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Finanzierung",
+      "article": "die",
+      "plural": "die Finanzierungen",
+      "meaning_id": "pembiayaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittel",
+      "article": "die",
+      "plural": "die Mittel",
+      "meaning_id": "dana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einnahme",
+      "article": "die",
+      "plural": "die Einnahmen",
+      "meaning_id": "pendapatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Defizit",
+      "article": "das",
+      "plural": "die Defizite",
+      "meaning_id": "defisit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Überschuss",
+      "article": "der",
+      "plural": "die Überschüsse",
+      "meaning_id": "surplus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verschuldung",
+      "article": "die",
+      "plural": "die Verschuldungen",
+      "meaning_id": "utang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zins",
+      "article": "der",
+      "plural": "die Zinsen",
+      "meaning_id": "bunga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rendite",
+      "article": "die",
+      "plural": "die Renditen",
+      "meaning_id": "imbal hasil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Absicherung",
+      "article": "die",
+      "plural": "die Absicherungen",
+      "meaning_id": "perlindungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schaden",
+      "article": "der",
+      "plural": "die Schäden",
+      "meaning_id": "kerusakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Entschädigung",
+      "article": "die",
+      "plural": "die Entschädigungen",
+      "meaning_id": "kompensasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anspruch",
+      "article": "der",
+      "plural": "die Ansprüche",
+      "meaning_id": "hak, tuntutan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zuständigkeit",
+      "article": "die",
+      "plural": "die Zuständigkeiten",
+      "meaning_id": "kewenangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Befugnis",
+      "article": "die",
+      "plural": "die Befugnisse",
+      "meaning_id": "wewenang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontrolle",
+      "article": "die",
+      "plural": "die Kontrollen",
+      "meaning_id": "kontrol",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufsicht",
+      "article": "die",
+      "plural": "die Aufsichten",
+      "meaning_id": "pengawasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Revision",
+      "article": "die",
+      "plural": "die Revisionen",
+      "meaning_id": "revisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Audit",
+      "article": "das",
+      "plural": "die Audits",
+      "meaning_id": "audit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Korruption",
+      "article": "die",
+      "plural": "die Korruptionen",
+      "meaning_id": "korupsi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bestechung",
+      "article": "die",
+      "plural": "die Bestechungen",
+      "meaning_id": "penyuapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Betrug",
+      "article": "der",
+      "plural": "die Betruge",
+      "meaning_id": "penipuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Täuschung",
+      "article": "die",
+      "plural": "die Täuschungen",
+      "meaning_id": "penyesatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Meinungsfreiheit",
+      "article": "die",
+      "plural": "die Meinungsfreiheiten",
+      "meaning_id": "kebebasan berpendapat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Religionsfreiheit",
+      "article": "die",
+      "plural": "die Religionsfreiheiten",
+      "meaning_id": "kebebasan beragama",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gleichberechtigung",
+      "article": "die",
+      "plural": "die Gleichberechtigungen",
+      "meaning_id": "kesetaraan hak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Asyl",
+      "article": "das",
+      "plural": "die Asyle",
+      "meaning_id": "suaka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Flüchtling",
+      "article": "der",
+      "plural": "die Flüchtlinge",
+      "meaning_id": "pengungsi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Staatsbürgerschaft",
+      "article": "die",
+      "plural": "die Staatsbürgerschaften",
+      "meaning_id": "kewarganegaraan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einwanderung",
+      "article": "die",
+      "plural": "die Einwanderungen",
+      "meaning_id": "imigrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Auswanderung",
+      "article": "die",
+      "plural": "die Auswanderungen",
+      "meaning_id": "emigrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bevölkerung",
+      "article": "die",
+      "plural": "die Bevölkerungen",
+      "meaning_id": "populasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gemeinschaft",
+      "article": "die",
+      "plural": "die Gemeinschaften",
+      "meaning_id": "komunitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nation",
+      "article": "die",
+      "plural": "die Nationen",
+      "meaning_id": "bangsa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Staat",
+      "article": "der",
+      "plural": "die Staaten",
+      "meaning_id": "negara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Diktatur",
+      "article": "die",
+      "plural": "die Diktaturen",
+      "meaning_id": "kediktatoran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Volksabstimmung",
+      "article": "die",
+      "plural": "die Volksabstimmungen",
+      "meaning_id": "referendum",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regierungschef",
+      "article": "der",
+      "plural": "die Regierungschefs",
+      "meaning_id": "kepala pemerintahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Oppositionsführer",
+      "article": "der",
+      "plural": "die Oppositionsführer",
+      "meaning_id": "pemimpin oposisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Grundgesetz",
+      "article": "das",
+      "plural": "die Grundgesetze",
+      "meaning_id": "undang-undang dasar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verwaltungsakt",
+      "article": "der",
+      "plural": "die Verwaltungsakte",
+      "meaning_id": "tindakan administratif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Widerspruchsverfahren",
+      "article": "das",
+      "plural": "die Widerspruchsverfahren",
+      "meaning_id": "prosedur keberatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klageweg",
+      "article": "der",
+      "plural": "die Klagewege",
+      "meaning_id": "jalur gugatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechtsstaat",
+      "article": "der",
+      "plural": "die Rechtsstaaten",
+      "meaning_id": "negara hukum",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewaltenteilung",
+      "article": "die",
+      "plural": "die Gewaltenteilungen",
+      "meaning_id": "pemisahan kekuasaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Interessenkonflikt",
+      "article": "der",
+      "plural": "die Interessenkonflikte",
+      "meaning_id": "konflik kepentingan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regulierung",
+      "article": "die",
+      "plural": "die Regulierungen",
+      "meaning_id": "regulasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Deregulierung",
+      "article": "die",
+      "plural": "die Deregulierungen",
+      "meaning_id": "deregulasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Subventionierung",
+      "article": "die",
+      "plural": "die Subventionierungen",
+      "meaning_id": "pemberian subsidi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wettbewerbsfähigkeit",
+      "article": "die",
+      "plural": "die Wettbewerbsfähigkeiten",
+      "meaning_id": "daya saing",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Produktivitätssteigerung",
+      "article": "die",
+      "plural": "die Produktivitätssteigerungen",
+      "meaning_id": "peningkatan produktivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Innovationskraft",
+      "article": "die",
+      "plural": "die Innovationskräfte",
+      "meaning_id": "daya inovasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fachkräftebedarf",
+      "article": "der",
+      "plural": "die Fachkräftebedarfe",
+      "meaning_id": "kebutuhan tenaga ahli",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildungsniveau",
+      "article": "das",
+      "plural": "die Bildungsniveaus",
+      "meaning_id": "tingkat pendidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teilhabechance",
+      "article": "die",
+      "plural": "die Teilhabechancen",
+      "meaning_id": "peluang partisipasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Generationengerechtigkeit",
+      "article": "die",
+      "plural": "die Generationengerechtigkeiten",
+      "meaning_id": "keadilan antargenerasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ressourcenschutz",
+      "article": "der",
+      "plural": "die Ressourcenschutze",
+      "meaning_id": "perlindungan sumber daya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klimaneutralität",
+      "article": "die",
+      "plural": "die Klimaneutralitäten",
+      "meaning_id": "netralitas iklim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Emissionsminderung",
+      "article": "die",
+      "plural": "die Emissionsminderungen",
+      "meaning_id": "pengurangan emisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anpassungsstrategie",
+      "article": "die",
+      "plural": "die Anpassungsstrategien",
+      "meaning_id": "strategi adaptasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Risikobewertung",
+      "article": "die",
+      "plural": "die Risikobewertungen",
+      "meaning_id": "penilaian risiko",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verhältnismäßigkeit",
+      "article": "die",
+      "plural": "die Verhältnismäßigkeiten",
+      "meaning_id": "proporsionalitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verantwortungsübernahme",
+      "article": "die",
+      "plural": "die Verantwortungsübernahmen",
+      "meaning_id": "pengambilan tanggung jawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Entscheidungsbefugnis",
+      "article": "die",
+      "plural": "die Entscheidungsbefugnisse",
+      "meaning_id": "kewenangan memutuskan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontrollinstanz",
+      "article": "die",
+      "plural": "die Kontrollinstanzen",
+      "meaning_id": "lembaga pengawas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Öffentlichkeitsarbeit",
+      "article": "die",
+      "plural": "die Öffentlichkeitsarbeiten",
+      "meaning_id": "hubungan publik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "rechtfertigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membenarkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "legitimieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melegitimasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "regulieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meregulasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "subventionieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mensubsidi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Forschungsstand",
+      "article": "der",
+      "plural": "die Forschungsstände",
+      "meaning_id": "status penelitian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Forschungsfrage",
+      "article": "die",
+      "plural": "die Forschungsfragen",
+      "meaning_id": "pertanyaan penelitian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Methodik",
+      "article": "die",
+      "plural": "die Methodiken",
+      "meaning_id": "metodologi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Empirie",
+      "article": "die",
+      "plural": "die Empirien",
+      "meaning_id": "empiri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Abstraktion",
+      "article": "die",
+      "plural": "die Abstraktionen",
+      "meaning_id": "abstraksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Deduktion",
+      "article": "die",
+      "plural": "die Deduktionen",
+      "meaning_id": "deduksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Induktion",
+      "article": "die",
+      "plural": "die Induktionen",
+      "meaning_id": "induksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Falsifikation",
+      "article": "die",
+      "plural": "die Falsifikationen",
+      "meaning_id": "falsifikasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Objektivität",
+      "article": "die",
+      "plural": "die Objektivitäten",
+      "meaning_id": "objektivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Subjektivität",
+      "article": "die",
+      "plural": "die Subjektivitäten",
+      "meaning_id": "subjektivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Plausibilität",
+      "article": "die",
+      "plural": "die Plausibilitäten",
+      "meaning_id": "plausibilitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Evidenz",
+      "article": "die",
+      "plural": "die Evidenzen",
+      "meaning_id": "bukti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Datenlage",
+      "article": "die",
+      "plural": "die Datenlagen",
+      "meaning_id": "kondisi data",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Souveränität",
+      "article": "die",
+      "plural": "die Souveränitäten",
+      "meaning_id": "kedaulatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Föderalismus",
+      "article": "der",
+      "plural": "die Föderalismus",
+      "meaning_id": "federalisme",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Subsidiarität",
+      "article": "die",
+      "plural": "die Subsidiaritäten",
+      "meaning_id": "subsidiaritas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Legislative",
+      "article": "die",
+      "plural": "die Legislativen",
+      "meaning_id": "legislatif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Exekutive",
+      "article": "die",
+      "plural": "die Exekutiven",
+      "meaning_id": "eksekutif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Judikative",
+      "article": "die",
+      "plural": "die Judikativen",
+      "meaning_id": "yudikatif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Legitimität",
+      "article": "die",
+      "plural": "die Legitimitäten",
+      "meaning_id": "legitimasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Partizipation",
+      "article": "die",
+      "plural": "die Partizipationen",
+      "meaning_id": "partisipasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zivilgesellschaft",
+      "article": "die",
+      "plural": "die Zivilgesellschaften",
+      "meaning_id": "masyarakat sipil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Interessenvertretung",
+      "article": "die",
+      "plural": "die Interessenvertretungen",
+      "meaning_id": "perwakilan kepentingan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rezession",
+      "article": "die",
+      "plural": "die Rezessionen",
+      "meaning_id": "resesi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufschwung",
+      "article": "der",
+      "plural": "die Aufschwünge",
+      "meaning_id": "pemulihan ekonomi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Abschwung",
+      "article": "der",
+      "plural": "die Abschwünge",
+      "meaning_id": "penurunan ekonomi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Haushalt",
+      "article": "der",
+      "plural": "die Haushalte",
+      "meaning_id": "anggaran, rumah tangga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Staatsausgaben",
+      "article": "die",
+      "plural": "die Staatsausgaben",
+      "meaning_id": "belanja negara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Staatsverschuldung",
+      "article": "die",
+      "plural": "die Staatsverschuldungen",
+      "meaning_id": "utang negara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Haushaltsdefizit",
+      "article": "das",
+      "plural": "die Haushaltsdefizite",
+      "meaning_id": "defisit anggaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Steuerpolitik",
+      "article": "die",
+      "plural": "die Steuerpolitiken",
+      "meaning_id": "kebijakan pajak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geldpolitik",
+      "article": "die",
+      "plural": "die Geldpolitiken",
+      "meaning_id": "kebijakan moneter",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Leitzins",
+      "article": "der",
+      "plural": "die Leitzinsen",
+      "meaning_id": "suku bunga acuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Währung",
+      "article": "die",
+      "plural": "die Währungen",
+      "meaning_id": "mata uang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wechselkurs",
+      "article": "der",
+      "plural": "die Wechselkurse",
+      "meaning_id": "kurs tukar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Handelsbilanz",
+      "article": "die",
+      "plural": "die Handelsbilanzen",
+      "meaning_id": "neraca dagang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lieferkette",
+      "article": "die",
+      "plural": "die Lieferketten",
+      "meaning_id": "rantai pasok",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wertschöpfung",
+      "article": "die",
+      "plural": "die Wertschöpfungen",
+      "meaning_id": "nilai tambah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Datenethik",
+      "article": "die",
+      "plural": "die Datenethiken",
+      "meaning_id": "etika data",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Überwachungsstaat",
+      "article": "der",
+      "plural": "die Überwachungsstaaten",
+      "meaning_id": "negara pengawas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Privatheit",
+      "article": "die",
+      "plural": "die Privatheiten",
+      "meaning_id": "privasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Netzpolitik",
+      "article": "die",
+      "plural": "die Netzpolitiken",
+      "meaning_id": "politik internet",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Plattformökonomie",
+      "article": "die",
+      "plural": "die Plattformökonomien",
+      "meaning_id": "ekonomi platform",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Urheberrecht",
+      "article": "das",
+      "plural": "die Urheberrechte",
+      "meaning_id": "hak cipta",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lizenz",
+      "article": "die",
+      "plural": "die Lizenzen",
+      "meaning_id": "lisensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Quellcode",
+      "article": "der",
+      "plural": "die Quellcodes",
+      "meaning_id": "kode sumber",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gesetzgebung",
+      "article": "die",
+      "plural": "die Gesetzgebungen",
+      "meaning_id": "pembuatan undang-undang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechtsprechung",
+      "article": "die",
+      "plural": "die Rechtsprechungen",
+      "meaning_id": "yurisprudensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verfahren",
+      "article": "das",
+      "plural": "die Verfahren",
+      "meaning_id": "prosedur, perkara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Instanz",
+      "article": "die",
+      "plural": "die Instanzen",
+      "meaning_id": "instansi, tingkat pengadilan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "gewährleisten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menjamin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "sicherstellen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memastikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "umsetzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menerapkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "voraussetzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengandaikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beruhen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berdasar pada",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zunehmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "meningkat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "abnehmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menurun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "sinken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "turun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "steigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "naik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fallen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "jatuh",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "betragen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berjumlah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "umfassen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencakup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "gefährden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membahayakan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beeinträchtigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengganggu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zerstören",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghancurkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "erhalten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mempertahankan, menerima",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bewahren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melestarikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verankern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menanamkan, mengatur dalam hukum",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verpflichten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mewajibkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Grundversorgung",
+      "article": "die",
+      "plural": "die Grundversorgungen",
+      "meaning_id": "layanan dasar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Daseinsvorsorge",
+      "article": "die",
+      "plural": "die Daseinsvorsorgen",
+      "meaning_id": "pelayanan publik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Standortfaktor",
+      "article": "der",
+      "plural": "die Standortfaktoren",
+      "meaning_id": "faktor lokasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Strukturreform",
+      "article": "die",
+      "plural": "die Strukturreformen",
+      "meaning_id": "reformasi struktural",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsetzungsplan",
+      "article": "der",
+      "plural": "die Umsetzungspläne",
+      "meaning_id": "rencana implementasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zeithorizont",
+      "article": "der",
+      "plural": "die Zeithorizonte",
+      "meaning_id": "horizon waktu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zielkonflikt",
+      "article": "der",
+      "plural": "die Zielkonflikte",
+      "meaning_id": "konflik tujuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bewältigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengatasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verschärfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperketat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "lockern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melonggarkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ausweiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memperluas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "einschränken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membatasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "beschränken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membatasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "begrenzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membatasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "ausgleichen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyeimbangkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "kompensieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengompensasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "priorisieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memprioritaskan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "koordinieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengoordinasikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "integrieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengintegrasikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "implementieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengimplementasikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "evaluieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengevaluasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "reflektieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merefleksikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "argumentieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berargumen",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "kritisieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengkritik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kriterium",
+      "article": "das",
+      "plural": "die Kriterien",
+      "meaning_id": "kriteria",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Indikator",
+      "article": "der",
+      "plural": "die Indikatoren",
+      "meaning_id": "indikator",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Parameter",
+      "article": "der",
+      "plural": "die Parameter",
+      "meaning_id": "parameter",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Faktor",
+      "article": "der",
+      "plural": "die Faktoren",
+      "meaning_id": "faktor",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dimension",
+      "article": "die",
+      "plural": "die Dimensionen",
+      "meaning_id": "dimensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aspekt",
+      "article": "der",
+      "plural": "die Aspekte",
+      "meaning_id": "aspek",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontext",
+      "article": "der",
+      "plural": "die Kontexte",
+      "meaning_id": "konteks",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rahmen",
+      "article": "der",
+      "plural": "die Rahmen",
+      "meaning_id": "kerangka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Muster",
+      "article": "das",
+      "plural": "die Muster",
+      "meaning_id": "pola",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dynamik",
+      "article": "die",
+      "plural": "die Dynamiken",
+      "meaning_id": "dinamika",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stabilität",
+      "article": "die",
+      "plural": "die Stabilitäten",
+      "meaning_id": "stabilitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gleichgewicht",
+      "article": "das",
+      "plural": "die Gleichgewichte",
+      "meaning_id": "keseimbangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umbruch",
+      "article": "der",
+      "plural": "die Umbrüche",
+      "meaning_id": "perubahan besar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontinuität",
+      "article": "die",
+      "plural": "die Kontinuitäten",
+      "meaning_id": "kontinuitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ambivalenz",
+      "article": "die",
+      "plural": "die Ambivalenzen",
+      "meaning_id": "ambivalensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Paradox",
+      "article": "das",
+      "plural": "die Paradoxe",
+      "meaning_id": "paradoks",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Milieu",
+      "article": "das",
+      "plural": "die Milieus",
+      "meaning_id": "lingkungan sosial",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Elite",
+      "article": "die",
+      "plural": "die Eliten",
+      "meaning_id": "elite",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittelstand",
+      "article": "der",
+      "plural": "die Mittelstände",
+      "meaning_id": "kelas menengah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Oberschicht",
+      "article": "die",
+      "plural": "die Oberschichten",
+      "meaning_id": "kelas atas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unterschicht",
+      "article": "die",
+      "plural": "die Unterschichten",
+      "meaning_id": "kelas bawah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Abstieg",
+      "article": "der",
+      "plural": "die Abstiege",
+      "meaning_id": "penurunan status",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kompetenz",
+      "article": "die",
+      "plural": "die Kompetenzen",
+      "meaning_id": "kompetensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zertifizierung",
+      "article": "die",
+      "plural": "die Zertifizierungen",
+      "meaning_id": "sertifikasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Akkreditierung",
+      "article": "die",
+      "plural": "die Akkreditierungen",
+      "meaning_id": "akreditasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lehrplan",
+      "article": "der",
+      "plural": "die Lehrpläne",
+      "meaning_id": "kurikulum sekolah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Didaktik",
+      "article": "die",
+      "plural": "die Didaktiken",
+      "meaning_id": "didaktik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pädagogik",
+      "article": "die",
+      "plural": "die Pädagogiken",
+      "meaning_id": "pedagogi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Evaluation",
+      "article": "die",
+      "plural": "die Evaluationen",
+      "meaning_id": "evaluasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildungsauftrag",
+      "article": "der",
+      "plural": "die Bildungsaufträge",
+      "meaning_id": "mandat pendidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Chancenungleichheit",
+      "article": "die",
+      "plural": "die Chancenungleichheiten",
+      "meaning_id": "ketimpangan kesempatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sozialisation",
+      "article": "die",
+      "plural": "die Sozialisationen",
+      "meaning_id": "sosialisasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürgerbeteiligung",
+      "article": "die",
+      "plural": "die Bürgerbeteiligungen",
+      "meaning_id": "partisipasi warga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verwaltungsreform",
+      "article": "die",
+      "plural": "die Verwaltungsreformen",
+      "meaning_id": "reformasi administrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Haushaltsplan",
+      "article": "der",
+      "plural": "die Haushaltspläne",
+      "meaning_id": "rencana anggaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Finanzausgleich",
+      "article": "der",
+      "plural": "die Finanzausgleiche",
+      "meaning_id": "perimbangan keuangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Standortpolitik",
+      "article": "die",
+      "plural": "die Standortpolitiken",
+      "meaning_id": "politik lokasi usaha",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Innovationspolitik",
+      "article": "die",
+      "plural": "die Innovationspolitiken",
+      "meaning_id": "politik inovasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildungspolitik",
+      "article": "die",
+      "plural": "die Bildungspolitiken",
+      "meaning_id": "politik pendidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sozialpolitik",
+      "article": "die",
+      "plural": "die Sozialpolitiken",
+      "meaning_id": "politik sosial",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umweltpolitik",
+      "article": "die",
+      "plural": "die Umweltpolitiken",
+      "meaning_id": "politik lingkungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Außenpolitik",
+      "article": "die",
+      "plural": "die Außenpolitiken",
+      "meaning_id": "politik luar negeri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Innenpolitik",
+      "article": "die",
+      "plural": "die Innenpolitiken",
+      "meaning_id": "politik dalam negeri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sicherheitspolitik",
+      "article": "die",
+      "plural": "die Sicherheitspolitiken",
+      "meaning_id": "politik keamanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verteidigung",
+      "article": "die",
+      "plural": "die Verteidigungen",
+      "meaning_id": "pertahanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bündnis",
+      "article": "das",
+      "plural": "die Bündnisse",
+      "meaning_id": "aliansi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Diplomatie",
+      "article": "die",
+      "plural": "die Diplomatien",
+      "meaning_id": "diplomasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertragswerk",
+      "article": "das",
+      "plural": "die Vertragswerke",
+      "meaning_id": "perangkat perjanjian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gipfeltreffen",
+      "article": "das",
+      "plural": "die Gipfeltreffen",
+      "meaning_id": "pertemuan puncak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sanktionsmechanismus",
+      "article": "der",
+      "plural": "die Sanktionsmechanismen",
+      "meaning_id": "mekanisme sanksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kontrollmechanismus",
+      "article": "der",
+      "plural": "die Kontrollmechanismen",
+      "meaning_id": "mekanisme kontrol",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anreizsystem",
+      "article": "das",
+      "plural": "die Anreizsysteme",
+      "meaning_id": "sistem insentif",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regelwerk",
+      "article": "das",
+      "plural": "die Regelwerke",
+      "meaning_id": "perangkat aturan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ordnungsrahmen",
+      "article": "der",
+      "plural": "die Ordnungsrahmen",
+      "meaning_id": "kerangka regulasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Handlungsspielraum",
+      "article": "der",
+      "plural": "die Handlungsspielräume",
+      "meaning_id": "ruang gerak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ermessensspielraum",
+      "article": "der",
+      "plural": "die Ermessensspielräume",
+      "meaning_id": "ruang diskresi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verhältnismäßigkeitsprüfung",
+      "article": "die",
+      "plural": "die Verhältnismäßigkeitsprüfungen",
+      "meaning_id": "uji proporsionalitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Grundrechtsschutz",
+      "article": "der",
+      "plural": "die Grundrechtsschutze",
+      "meaning_id": "perlindungan hak dasar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Datenschutzaufsicht",
+      "article": "die",
+      "plural": "die Datenschutzaufsichten",
+      "meaning_id": "pengawas perlindungan data",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Transparenzgebot",
+      "article": "das",
+      "plural": "die Transparenzgebote",
+      "meaning_id": "prinsip transparansi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Begründungspflicht",
+      "article": "die",
+      "plural": "die Begründungspflichten",
+      "meaning_id": "kewajiban memberi alasan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verantwortungslücke",
+      "article": "die",
+      "plural": "die Verantwortungslücken",
+      "meaning_id": "kekosongan tanggung jawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fehlanreiz",
+      "article": "der",
+      "plural": "die Fehlanreize",
+      "meaning_id": "insentif yang salah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zielerreichung",
+      "article": "die",
+      "plural": "die Zielerreichungen",
+      "meaning_id": "pencapaian target",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wirkungsanalyse",
+      "article": "die",
+      "plural": "die Wirkungsanalysen",
+      "meaning_id": "analisis dampak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kosten-Nutzen-Abwägung",
+      "article": "die",
+      "plural": "die Kosten-Nutzen-Abwägungen",
+      "meaning_id": "pertimbangan biaya-manfaat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachhaltigkeitsstrategie",
+      "article": "die",
+      "plural": "die Nachhaltigkeitsstrategien",
+      "meaning_id": "strategi keberlanjutan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kreislaufwirtschaft",
+      "article": "die",
+      "plural": "die Kreislaufwirtschaften",
+      "meaning_id": "ekonomi sirkular",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ressourceneffizienz",
+      "article": "die",
+      "plural": "die Ressourceneffizienzen",
+      "meaning_id": "efisiensi sumber daya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Energieversorgung",
+      "article": "die",
+      "plural": "die Energieversorgungen",
+      "meaning_id": "pasokan energi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Versorgungssicherheit",
+      "article": "die",
+      "plural": "die Versorgungssicherheiten",
+      "meaning_id": "keamanan pasokan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Preisniveau",
+      "article": "das",
+      "plural": "die Preisniveaus",
+      "meaning_id": "tingkat harga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kaufkraft",
+      "article": "die",
+      "plural": "die Kaufkräfte",
+      "meaning_id": "daya beli",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Einkommensverteilung",
+      "article": "die",
+      "plural": "die Einkommensverteilungen",
+      "meaning_id": "distribusi pendapatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vermögensverteilung",
+      "article": "die",
+      "plural": "die Vermögensverteilungen",
+      "meaning_id": "distribusi kekayaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Steuerbelastung",
+      "article": "die",
+      "plural": "die Steuerbelastungen",
+      "meaning_id": "beban pajak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sozialausgaben",
+      "article": "die",
+      "plural": "die Sozialausgaben",
+      "meaning_id": "belanja sosial",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bildungsinvestition",
+      "article": "die",
+      "plural": "die Bildungsinvestitionen",
+      "meaning_id": "investasi pendidikan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wirksamkeit",
+      "article": "die",
+      "plural": "die Wirksamkeiten",
+      "meaning_id": "efektivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Effizienz",
+      "article": "die",
+      "plural": "die Effizienzen",
+      "meaning_id": "efisiensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Effektivität",
+      "article": "die",
+      "plural": "die Effektivitäten",
+      "meaning_id": "efektivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Akzeptanz",
+      "article": "die",
+      "plural": "die Akzeptanzen",
+      "meaning_id": "penerimaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsetzbarkeit",
+      "article": "die",
+      "plural": "die Umsetzbarkeiten",
+      "meaning_id": "kelayakan implementasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verantwortbarkeit",
+      "article": "die",
+      "plural": "die Verantwortbarkeiten",
+      "meaning_id": "kelayakan tanggung jawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zurechenbarkeit",
+      "article": "die",
+      "plural": "die Zurechenbarkeiten",
+      "meaning_id": "keteratribusian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechenschaftspflicht",
+      "article": "die",
+      "plural": "die Rechenschaftspflichten",
+      "meaning_id": "kewajiban akuntabilitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sorgfaltspflicht",
+      "article": "die",
+      "plural": "die Sorgfaltspflichten",
+      "meaning_id": "kewajiban kehati-hatian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fürsorgepflicht",
+      "article": "die",
+      "plural": "die Fürsorgepflichten",
+      "meaning_id": "kewajiban perlindungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Informationspflicht",
+      "article": "die",
+      "plural": "die Informationspflichten",
+      "meaning_id": "kewajiban informasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitwirkungspflicht",
+      "article": "die",
+      "plural": "die Mitwirkungspflichten",
+      "meaning_id": "kewajiban partisipasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachweispflicht",
+      "article": "die",
+      "plural": "die Nachweispflichten",
+      "meaning_id": "kewajiban pembuktian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dokumentationspflicht",
+      "article": "die",
+      "plural": "die Dokumentationspflichten",
+      "meaning_id": "kewajiban dokumentasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verschwiegenheit",
+      "article": "die",
+      "plural": "die Verschwiegenheiten",
+      "meaning_id": "kerahasiaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vertraulichkeit",
+      "article": "die",
+      "plural": "die Vertraulichkeiten",
+      "meaning_id": "konfidensialitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geheimhaltung",
+      "article": "die",
+      "plural": "die Geheimhaltungen",
+      "meaning_id": "penyimpanan rahasia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Offenlegung",
+      "article": "die",
+      "plural": "die Offenlegungen",
+      "meaning_id": "pengungkapan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachvollziehbarkeit",
+      "article": "die",
+      "plural": "die Nachvollziehbarkeiten",
+      "meaning_id": "ketertelusuran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stichhaltigkeit",
+      "article": "die",
+      "plural": "die Stichhaltigkeiten",
+      "meaning_id": "kekuatan argumen",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tragfähigkeit",
+      "article": "die",
+      "plural": "die Tragfähigkeiten",
+      "meaning_id": "daya dukung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Belastbarkeit",
+      "article": "die",
+      "plural": "die Belastbarkeiten",
+      "meaning_id": "ketahanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Resilienz",
+      "article": "die",
+      "plural": "die Resilienzen",
+      "meaning_id": "resiliensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anfälligkeit",
+      "article": "die",
+      "plural": "die Anfälligkeiten",
+      "meaning_id": "kerentanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verwundbarkeit",
+      "article": "die",
+      "plural": "die Verwundbarkeiten",
+      "meaning_id": "kerentanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Abhängigkeit",
+      "article": "die",
+      "plural": "die Abhängigkeiten",
+      "meaning_id": "ketergantungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Interdependenz",
+      "article": "die",
+      "plural": "die Interdependenzen",
+      "meaning_id": "saling ketergantungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Divergenz",
+      "article": "die",
+      "plural": "die Divergenzen",
+      "meaning_id": "divergensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Konvergenz",
+      "article": "die",
+      "plural": "die Konvergenzen",
+      "meaning_id": "konvergensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kohärenz",
+      "article": "die",
+      "plural": "die Kohärenzen",
+      "meaning_id": "koherensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Konsistenz",
+      "article": "die",
+      "plural": "die Konsistenzen",
+      "meaning_id": "konsistensi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Widersprüchlichkeit",
+      "article": "die",
+      "plural": "die Widersprüchlichkeiten",
+      "meaning_id": "kontradiksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Komplexität",
+      "article": "die",
+      "plural": "die Komplexitäten",
+      "meaning_id": "kompleksitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Unsicherheit",
+      "article": "die",
+      "plural": "die Unsicherheiten",
+      "meaning_id": "ketidakpastian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mehrdeutigkeit",
+      "article": "die",
+      "plural": "die Mehrdeutigkeiten",
+      "meaning_id": "ambiguitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zielgenauigkeit",
+      "article": "die",
+      "plural": "die Zielgenauigkeiten",
+      "meaning_id": "ketepatan sasaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Treffsicherheit",
+      "article": "die",
+      "plural": "die Treffsicherheiten",
+      "meaning_id": "akurasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wirksamkeitsprüfung",
+      "article": "die",
+      "plural": "die Wirksamkeitsprüfungen",
+      "meaning_id": "uji efektivitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Folgenabschätzung",
+      "article": "die",
+      "plural": "die Folgenabschätzungen",
+      "meaning_id": "penilaian dampak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gesetzesfolgenabschätzung",
+      "article": "die",
+      "plural": "die Gesetzesfolgenabschätzungen",
+      "meaning_id": "penilaian dampak regulasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachhaltigkeitsprüfung",
+      "article": "die",
+      "plural": "die Nachhaltigkeitsprüfungen",
+      "meaning_id": "uji keberlanjutan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Evaluationsbericht",
+      "article": "der",
+      "plural": "die Evaluationsberichte",
+      "meaning_id": "laporan evaluasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sachstandsbericht",
+      "article": "der",
+      "plural": "die Sachstandsberichte",
+      "meaning_id": "laporan status",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fortschrittsbericht",
+      "article": "der",
+      "plural": "die Fortschrittsberichte",
+      "meaning_id": "laporan kemajuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsetzungsbericht",
+      "article": "der",
+      "plural": "die Umsetzungsberichte",
+      "meaning_id": "laporan implementasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Steuerung",
+      "article": "die",
+      "plural": "die Steuerungen",
+      "meaning_id": "pengendalian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lenkung",
+      "article": "die",
+      "plural": "die Lenkungen",
+      "meaning_id": "pengarahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sorgfalt",
+      "article": "die",
+      "plural": "die Sorgfalten",
+      "meaning_id": "kehati-hatian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umsicht",
+      "article": "die",
+      "plural": "die Umsichten",
+      "meaning_id": "kearifan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Weitsicht",
+      "article": "die",
+      "plural": "die Weitsichten",
+      "meaning_id": "pandangan jauh",
+      "example_de": null,
+      "example_id": null,
+      "tags": "b2,wortschatz"
+    }
+  ]
+}

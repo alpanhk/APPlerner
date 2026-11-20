@@ -1,0 +1,368 @@
+{
+  "level": "A1",
+  "unit": 7,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 7. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u7-o1-01",
+      "objectiveId": "a1-u7-o1",
+      "code": "D1",
+      "prompt": "___ Rathaus ist alt.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Das", "Der", "Die", "Den"],
+      "answer": "Das",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk kata maskulin; Rathaus netral.",
+        "Die": "Die dipakai untuk kata feminin atau jamak; Rathaus netral.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Rathaus menjadi subjek nominatif."
+      },
+      "explanation": "das Rathaus. Kata Rathaus netral."
+    },
+    {
+      "id": "u7-o1-02",
+      "objectiveId": "a1-u7-o1",
+      "code": "D1",
+      "prompt": "___ Bäckerei ist klein.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Die", "Der", "Das", "Den"],
+      "answer": "Die",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk kata maskulin; Bäckerei feminin.",
+        "Das": "Das dipakai untuk kata netral; Bäckerei feminin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Bäckerei menjadi subjek nominatif."
+      },
+      "explanation": "die Bäckerei. Kata Bäckerei feminin."
+    },
+    {
+      "id": "u7-o1-03",
+      "objectiveId": "a1-u7-o1",
+      "code": "D1",
+      "prompt": "Artikel yang tepat untuk 'Post' adalah ...",
+      "sub": "Pilih artikel nominatif.",
+      "mode": "choice",
+      "options": ["die", "der", "das", "den"],
+      "answer": "die",
+      "wrongFeedback": {
+        "der": "der dipakai untuk kata maskulin; Post feminin.",
+        "das": "das dipakai untuk kata netral; Post feminin.",
+        "den": "den adalah bentuk Akkusativ maskulin; Post feminin nominatif."
+      },
+      "explanation": "die Post. Kata Post feminin."
+    },
+    {
+      "id": "u7-o1-04",
+      "objectiveId": "a1-u7-o1",
+      "code": "D1",
+      "prompt": "Tulis kata Jerman untuk 'perpustakaan' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Bibliothek",
+      "altAnswers": ["Bibliothek"],
+      "hintOnWrong": "Perpustakaan = die Bibliothek. Kata Bibliothek feminin.",
+      "explanation": "die Bibliothek berarti 'perpustakaan'."
+    },
+    {
+      "id": "u7-o1-05",
+      "objectiveId": "a1-u7-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Balai kota berada di pusat kota.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Das", "Rathaus", "liegt", "im", "Stadtzentrum."],
+      "answer": "Das Rathaus liegt im Stadtzentrum.",
+      "hintOnWrong": "Mulai dengan Das Rathaus liegt, lalu im Stadtzentrum.",
+      "explanation": "Das Rathaus liegt im Stadtzentrum. im = in + dem, menunjukkan lokasi."
+    },
+    {
+      "id": "u7-o2-01",
+      "objectiveId": "a1-u7-o2",
+      "code": "D9",
+      "prompt": "Die Bäckerei ist neben ___ Bibliothek.",
+      "sub": "Pilih artikel Dativ setelah neben.",
+      "mode": "choice",
+      "options": ["der", "die", "dem", "den"],
+      "answer": "der",
+      "wrongFeedback": {
+        "die": "die adalah nominatif/Akkusativ feminin; setelah neben dipakai Dativ.",
+        "dem": "dem dipakai untuk maskulin atau netral; Bibliothek feminin.",
+        "den": "den dipakai untuk Dativ plural; Bibliothek tunggal feminin."
+      },
+      "explanation": "neben + Dativ feminin = neben der Bibliothek."
+    },
+    {
+      "id": "u7-o2-02",
+      "objectiveId": "a1-u7-o2",
+      "code": "D9",
+      "prompt": "Die Post liegt gegenüber ___ Rathaus.",
+      "sub": "Pilih artikel Dativ setelah gegenüber.",
+      "mode": "choice",
+      "options": ["dem", "der", "die", "den"],
+      "answer": "dem",
+      "wrongFeedback": {
+        "der": "der dipakai untuk Dativ feminin; Rathaus netral.",
+        "die": "die adalah nominatif/Akkusativ; setelah gegenüber dipakai Dativ.",
+        "den": "den dipakai untuk Dativ plural; Rathaus tunggal netral."
+      },
+      "explanation": "gegenüber + Dativ netral = gegenüber dem Rathaus."
+    },
+    {
+      "id": "u7-o2-03",
+      "objectiveId": "a1-u7-o2",
+      "code": "D9",
+      "prompt": "Die Bank ist ___ der Apotheke und der Post.",
+      "sub": "Pilih preposisi yang berarti 'di antara'.",
+      "mode": "choice",
+      "options": ["zwischen", "neben", "gegenüber", "über"],
+      "answer": "zwischen",
+      "wrongFeedback": {
+        "neben": "neben berarti 'di samping', bukan di antara dua tempat.",
+        "gegenüber": "gegenüber berarti 'berseberangan', bukan di antara dua tempat.",
+        "über": "über berarti 'di atas' atau 'melewati', bukan di antara."
+      },
+      "explanation": "zwischen der Apotheke und der Post = di antara apotek dan kantor pos."
+    },
+    {
+      "id": "u7-o2-04",
+      "objectiveId": "a1-u7-o2",
+      "code": "D9",
+      "prompt": "Lengkapi: Die Bibliothek ist neben ___ Bäckerei. (die)",
+      "sub": "Ketik artikel Dativ feminin.",
+      "mode": "type",
+      "answer": "der",
+      "altAnswers": ["Der"],
+      "hintOnWrong": "neben + Dativ; Bäckerei feminin, jadi artikelnya der: neben der Bäckerei.",
+      "explanation": "Die Bibliothek ist neben der Bäckerei. Dativ feminin memakai der."
+    },
+    {
+      "id": "u7-o2-05",
+      "objectiveId": "a1-u7-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Apotek berada di seberang perpustakaan.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Die", "Apotheke", "ist", "gegenüber", "der", "Bibliothek."],
+      "answer": "Die Apotheke ist gegenüber der Bibliothek.",
+      "hintOnWrong": "Mulai dengan Die Apotheke ist, lalu gegenüber der Bibliothek.",
+      "explanation": "Die Apotheke ist gegenüber der Bibliothek. gegenüber + Dativ feminin = der."
+    },
+    {
+      "id": "u7-o3-01",
+      "objectiveId": "a1-u7-o3",
+      "code": "D3",
+      "prompt": "___ Sie geradeaus!",
+      "sub": "Pilih imperatif formal untuk gehen.",
+      "mode": "choice",
+      "options": ["Gehen", "Gehst", "Geht", "Gehe"],
+      "answer": "Gehen",
+      "wrongFeedback": {
+        "Gehst": "Gehst adalah bentuk du, bukan imperatif formal Sie.",
+        "Geht": "Geht adalah bentuk ihr, bukan imperatif formal Sie.",
+        "Gehe": "Gehe adalah imperatif du (bentuk pendek: geh), bukan bentuk formal Sie."
+      },
+      "explanation": "Imperatif formal: Gehen Sie geradeaus! Bentuk dasar tanpa akhiran."
+    },
+    {
+      "id": "u7-o3-02",
+      "objectiveId": "a1-u7-o3",
+      "code": "D3",
+      "prompt": "___ Sie an der Kreuzung die zweite Straße!",
+      "sub": "Pilih imperatif formal untuk nehmen.",
+      "mode": "choice",
+      "options": ["Nehmen", "Nimm", "Nehmt", "Nehme"],
+      "answer": "Nehmen",
+      "wrongFeedback": {
+        "Nimm": "Nimm adalah imperatif du, bukan bentuk formal Sie.",
+        "Nehmt": "Nehmt adalah bentuk ihr, bukan imperatif formal Sie.",
+        "Nehme": "Nehme bukan imperatif formal Sie."
+      },
+      "explanation": "Imperatif formal: Nehmen Sie an der Kreuzung die zweite Straße!"
+    },
+    {
+      "id": "u7-o3-03",
+      "objectiveId": "a1-u7-o3",
+      "code": "D3",
+      "prompt": "Gehen Sie ___ , dann links.",
+      "sub": "Pilih kata arah 'lurus'.",
+      "mode": "choice",
+      "options": ["geradeaus", "geradezu", "links", "rechts"],
+      "answer": "geradeaus",
+      "wrongFeedback": {
+        "geradezu": "geradezu berarti 'bahkan/sungguh', bukan arah lurus; arah lurus adalah geradeaus.",
+        "links": "links berarti 'kiri'; kalimat sudah menyebut links setelah dann.",
+        "rechts": "rechts berarti 'kanan'; kalimat membutuhkan arah lurus lebih dulu."
+      },
+      "explanation": "geradeaus berarti 'lurus': Gehen Sie geradeaus, dann links."
+    },
+    {
+      "id": "u7-o3-04",
+      "objectiveId": "a1-u7-o3",
+      "code": "D3",
+      "prompt": "Lengkapi: Gehen Sie an der Ampel nach ___ . (kiri)",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "links",
+      "altAnswers": ["Links"],
+      "hintOnWrong": "Kiri = links. Frasa arah: nach links.",
+      "explanation": "Gehen Sie an der Ampel nach links. berarti 'Belok kiri di lampu lalu lintas'."
+    },
+    {
+      "id": "u7-o3-05",
+      "objectiveId": "a1-u7-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Silakan belok kanan di persimpangan.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Gehen", "Sie", "an", "der", "Kreuzung", "nach", "rechts."],
+      "answer": "Gehen Sie an der Kreuzung nach rechts.",
+      "hintOnWrong": "Mulai dengan Gehen Sie, lalu an der Kreuzung, lalu nach rechts.",
+      "explanation": "Gehen Sie an der Kreuzung nach rechts. Imperatif formal dengan arah nach rechts."
+    },
+    {
+      "id": "u7-o4-01",
+      "objectiveId": "a1-u7-o4",
+      "code": "D9",
+      "prompt": "Wie komme ich ___ Rathaus?",
+      "sub": "Pilih zu + Dativ untuk Rathaus.",
+      "mode": "choice",
+      "options": ["zum", "zur", "zu", "im"],
+      "answer": "zum",
+      "wrongFeedback": {
+        "zur": "zur dipakai untuk kata feminin; Rathaus netral.",
+        "zu": "zu membutuhkan artikel Dativ; bentuk pendek untuk netral/maskulin adalah zum.",
+        "im": "im menunjukkan lokasi (di dalam), bukan tujuan menuju Rathaus."
+      },
+      "explanation": "zu + dem = zum: Wie komme ich zum Rathaus?"
+    },
+    {
+      "id": "u7-o4-02",
+      "objectiveId": "a1-u7-o4",
+      "code": "D9",
+      "prompt": "Wie komme ich ___ Bibliothek?",
+      "sub": "Pilih zu + Dativ untuk Bibliothek.",
+      "mode": "choice",
+      "options": ["zur", "zum", "zu", "in der"],
+      "answer": "zur",
+      "wrongFeedback": {
+        "zum": "zum dipakai untuk maskulin/netral; Bibliothek feminin.",
+        "zu": "zu membutuhkan artikel Dativ; bentuk pendek untuk feminin adalah zur.",
+        "in der": "in der menunjukkan lokasi, bukan tujuan menuju Bibliothek."
+      },
+      "explanation": "zu + der = zur: Wie komme ich zur Bibliothek?"
+    },
+    {
+      "id": "u7-o4-03",
+      "objectiveId": "a1-u7-o4",
+      "code": "D9",
+      "prompt": "Entschuldigung, wie komme ich ___ Bahnhof?",
+      "sub": "Pilih zu + Dativ untuk Bahnhof.",
+      "mode": "choice",
+      "options": ["zum", "zur", "zu", "am"],
+      "answer": "zum",
+      "wrongFeedback": {
+        "zur": "zur dipakai untuk kata feminin; Bahnhof maskulin.",
+        "zu": "zu membutuhkan artikel Dativ; bentuk pendek untuk maskulin adalah zum.",
+        "am": "am menunjukkan lokasi di tepi, bukan tujuan menuju Bahnhof."
+      },
+      "explanation": "Bahnhof maskulin; zu + dem = zum: zum Bahnhof."
+    },
+    {
+      "id": "u7-o4-04",
+      "objectiveId": "a1-u7-o4",
+      "code": "D9",
+      "prompt": "Lengkapi: Wie komme ich ___ Apotheke? (zu + der)",
+      "sub": "Ketik bentuk pendek zu + der.",
+      "mode": "type",
+      "answer": "zur",
+      "altAnswers": ["Zur"],
+      "hintOnWrong": "Apotheke feminin; zu + der = zur. Wie komme ich zur Apotheke?",
+      "explanation": "zur Apotheke = menuju apotek. zur adalah gabungan zu + der."
+    },
+    {
+      "id": "u7-o4-05",
+      "objectiveId": "a1-u7-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Bagaimana cara saya pergi ke balai kota?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Wie", "komme", "ich", "zum", "Rathaus?"],
+      "answer": "Wie komme ich zum Rathaus?",
+      "hintOnWrong": "Mulai dengan Wie komme ich, lalu zum Rathaus.",
+      "explanation": "Wie komme ich zum Rathaus? menanyakan jalan ke balai kota."
+    },
+    {
+      "id": "u7-o5-01",
+      "objectiveId": "a1-u7-o5",
+      "code": "D9",
+      "prompt": "Wir fahren ___ dem Bus.",
+      "sub": "Pilih preposisi transportasi.",
+      "mode": "choice",
+      "options": ["mit", "in", "auf", "zu"],
+      "answer": "mit",
+      "wrongFeedback": {
+        "in": "in berarti 'di dalam'; untuk naik kendaraan dipakai mit + Dativ.",
+        "auf": "auf tidak dipakai untuk mengatakan 'naik bus' dalam pola ini.",
+        "zu": "zu berarti 'menuju'; bukan preposisi untuk kendaraan yang dipakai."
+      },
+      "explanation": "mit + Dativ: mit dem Bus = dengan/naik bus."
+    },
+    {
+      "id": "u7-o5-02",
+      "objectiveId": "a1-u7-o5",
+      "code": "D9",
+      "prompt": "Ich fahre mit ___ Straßenbahn.",
+      "sub": "Pilih artikel Dativ setelah mit.",
+      "mode": "choice",
+      "options": ["der", "dem", "die", "den"],
+      "answer": "der",
+      "wrongFeedback": {
+        "dem": "dem dipakai untuk maskulin/netral; Straßenbahn feminin.",
+        "die": "die adalah nominatif/Akkusativ; setelah mit dipakai Dativ.",
+        "den": "den dipakai untuk Dativ plural; Straßenbahn tunggal feminin."
+      },
+      "explanation": "mit + Dativ feminin = mit der Straßenbahn."
+    },
+    {
+      "id": "u7-o5-03",
+      "objectiveId": "a1-u7-o5",
+      "code": "D3",
+      "prompt": "Der Bus ___ an der Bushaltestelle.",
+      "sub": "Pilih kata kerja 'berhenti' untuk der Bus.",
+      "mode": "choice",
+      "options": ["hält", "fährt", "haltet", "hälst"],
+      "answer": "hält",
+      "wrongFeedback": {
+        "fährt": "fährt berarti 'bergerak/berangkat', bukan berhenti.",
+        "haltet": "haltet dipakai untuk ihr, bukan der Bus.",
+        "hälst": "Bentuk ini salah; du hältst, er hält."
+      },
+      "explanation": "halten → er hält: Der Bus hält an der Bushaltestelle."
+    },
+    {
+      "id": "u7-o5-04",
+      "objectiveId": "a1-u7-o5",
+      "code": "D9",
+      "prompt": "Lengkapi: Die Straßenbahn fährt ___ zehn Uhr. (pukul)",
+      "sub": "Ketik preposisi untuk jam.",
+      "mode": "type",
+      "answer": "um",
+      "altAnswers": ["Um"],
+      "hintOnWrong": "Jam memakai um: um zehn Uhr. Jangan pakai am atau im.",
+      "explanation": "Die Straßenbahn fährt um zehn Uhr. um + jam."
+    },
+    {
+      "id": "u7-o5-05",
+      "objectiveId": "a1-u7-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Kami pergi ke perpustakaan dengan bus.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Wir", "fahren", "mit", "dem", "Bus", "zur", "Bibliothek."],
+      "answer": "Wir fahren mit dem Bus zur Bibliothek.",
+      "hintOnWrong": "Mulai dengan Wir fahren, lalu mit dem Bus, lalu zur Bibliothek.",
+      "explanation": "Wir fahren mit dem Bus zur Bibliothek. mit + Dativ dan zur = zu + der."
+    }
+  ]
+}

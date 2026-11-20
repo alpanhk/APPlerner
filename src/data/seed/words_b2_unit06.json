@@ -1,0 +1,229 @@
+{
+  "unit": 306,
+  "level": "B2",
+  "theme": "Medien & Desinformation",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Manipulation",
+      "article": "die",
+      "plural": "die Manipulationen",
+      "meaning_id": "manipulasi",
+      "example_de": "Manipulation ist schwer zu erkennen.",
+      "example_id": "Manipulasi sulit dikenali.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Desinformation",
+      "article": "die",
+      "plural": "die Desinformationen",
+      "meaning_id": "disinformasi",
+      "example_de": "Desinformation verbreitet sich schnell.",
+      "example_id": "Disinformasi menyebar cepat.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Journalismus",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "jurnalisme",
+      "example_de": "Guter Journalismus braucht Zeit.",
+      "example_id": "Jurnalisme bagus butuh waktu.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Pressefreiheit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "kebebasan pers",
+      "example_de": "Pressefreiheit ist ein Grundrecht.",
+      "example_id": "Kebebasan pers adalah hak dasar.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Berichterstattung",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "pemberitaan",
+      "example_de": "Die Berichterstattung war einseitig.",
+      "example_id": "Pemberitaannya sepihak.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Glaubwürdigkeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "kredibilitas",
+      "example_de": "Die Glaubwürdigkeit der Quelle ist fraglich.",
+      "example_id": "Kredibilitas sumbernya diragukan.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Tendenz",
+      "article": "die",
+      "plural": "die Tendenzen",
+      "meaning_id": "kecenderungan",
+      "example_de": "Der Artikel hat eine klare Tendenz.",
+      "example_id": "Artikelnya jelas cenderung ke satu arah.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Zensur",
+      "article": "die",
+      "plural": "die Zensuren",
+      "meaning_id": "sensor",
+      "example_de": "Zensur widerspricht der Pressefreiheit.",
+      "example_id": "Sensor bertentangan dengan kebebasan pers.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "manipulieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memanipulasi",
+      "example_de": "Bilder können manipulieren.",
+      "example_id": "Gambar bisa memanipulasi.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "hinterfragen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mempertanyakan",
+      "example_de": "Man sollte Quellen hinterfragen.",
+      "example_id": "Orang sebaiknya mempertanyakan sumber.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "verb",
+      "de": "recherchieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menelusuri",
+      "example_de": "Sie recherchieren den Fall.",
+      "example_id": "Mereka menelusuri kasusnya.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "adj",
+      "de": "einseitig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sepihak",
+      "example_de": "Die Darstellung ist einseitig.",
+      "example_id": "Penyajiannya sepihak.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Propaganda",
+      "article": "die",
+      "plural": "die Propaganden",
+      "meaning_id": "propaganda",
+      "example_de": "Propaganda verzerrt die Wahrheit.",
+      "example_id": "Propaganda memutar kebenaran.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Filterblase",
+      "article": "die",
+      "plural": "die Filterblasen",
+      "meaning_id": "filter bubble",
+      "example_de": "Filterblasen verstärken Meinungen.",
+      "example_id": "Filter bubble memperkuat opini.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Faktencheck",
+      "article": "der",
+      "plural": "die Faktenchecks",
+      "meaning_id": "pemeriksaan fakta",
+      "example_de": "Der Faktencheck widerlegt die Meldung.",
+      "example_id": "Pemeriksaan fakta menyangkal berita itu.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Reichweite",
+      "article": "die",
+      "plural": "die Reichweiten",
+      "meaning_id": "jangkauan",
+      "example_de": "Die Reichweite war enorm.",
+      "example_id": "Jangkauannya luar biasa.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Richtigstellung",
+      "article": "die",
+      "plural": "die Richtigstellungen",
+      "meaning_id": "koreksi",
+      "example_de": "Die Zeitung veröffentlichte eine Richtigstellung.",
+      "example_id": "Surat kabar itu menerbitkan koreksi.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Troll",
+      "article": "der",
+      "plural": "die Trolle",
+      "meaning_id": "troll",
+      "example_de": "Trolle stören die Diskussion.",
+      "example_id": "Troll mengganggu diskusi.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Medienkompetenz",
+      "article": "die",
+      "plural": "die Medienkompetenzen",
+      "meaning_id": "literasi media",
+      "example_de": "Medienkompetenz ist wichtig.",
+      "example_id": "Literasi media itu penting.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Quellenkritik",
+      "article": "die",
+      "plural": "die Quellenkritiken",
+      "meaning_id": "kritik sumber",
+      "example_de": "Quellenkritik gehört zum Handwerk.",
+      "example_id": "Kritik sumber bagian dari keahlian.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufmerksamkeit",
+      "article": "die",
+      "plural": "die Aufmerksamkeiten",
+      "meaning_id": "perhatian",
+      "example_de": "Aufmerksamkeit ist die Währung.",
+      "example_id": "Perhatian adalah mata uangnya.",
+      "tags": "b2,unit6,medien"
+    },
+    {
+      "kind": "noun",
+      "de": "Skandal",
+      "article": "der",
+      "plural": "die Skandale",
+      "meaning_id": "skandal",
+      "example_de": "Der Skandal war schnell vergessen.",
+      "example_id": "Skandalnya cepat dilupakan.",
+      "tags": "b2,unit6,medien"
+    }
+  ]
+}

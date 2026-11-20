@@ -1,0 +1,110 @@
+[
+  {
+    "sentence": "Ich heiße Anna.",
+    "meaning_id": "Nama saya Anna.",
+    "hint": "Kalimat utama: verb finit di posisi 2.",
+    "explanation": "heiße adalah verb finit dan menempati posisi 2; subjek ich di posisi 1."
+  },
+  {
+    "sentence": "Ich komme aus Indonesien.",
+    "meaning_id": "Saya berasal dari Indonesia.",
+    "hint": "aus + negara asal.",
+    "explanation": "komme di posisi 2, lalu keterangan aus Indonesien."
+  },
+  {
+    "sentence": "Wir wohnen in Berlin.",
+    "meaning_id": "Kami tinggal di Berlin.",
+    "hint": "wohnen + in + kota.",
+    "explanation": "wohnen untuk tempat tinggal; in Berlin menjawab wo?"
+  },
+  {
+    "sentence": "Meine Familie ist klein.",
+    "meaning_id": "Keluarga saya kecil.",
+    "hint": "ist = bentuk sein untuk er/sie/es.",
+    "explanation": "ist adalah verb finit sein untuk subjek feminin Meine Familie."
+  },
+  {
+    "sentence": "Heute trinke ich Kaffee.",
+    "meaning_id": "Hari ini saya minum kopi.",
+    "hint": "Keterangan waktu di awal tetap membuat verb di posisi 2.",
+    "explanation": "Heute di posisi 1, trinke di posisi 2, subjek ich setelah verb."
+  },
+  {
+    "sentence": "Am Montag fahre ich nach Berlin.",
+    "meaning_id": "Pada hari Senin saya pergi ke Berlin.",
+    "hint": "Am + hari; verb finit tetap posisi 2.",
+    "explanation": "Am Montag di posisi 1, fahre di posisi 2, ich di posisi 3."
+  },
+  {
+    "sentence": "Ich möchte Deutsch lernen.",
+    "meaning_id": "Saya ingin belajar bahasa Jerman.",
+    "hint": "Modal + infinitif di akhir.",
+    "explanation": "möchte di posisi 2; infinitif lernen diletakkan di akhir kalimat."
+  },
+  {
+    "sentence": "Kannst du mir helfen?",
+    "meaning_id": "Bisakah kamu membantuku?",
+    "hint": "Pertanyaan ya/tidak: verb finit di depan.",
+    "explanation": "Pada pertanyaan tanpa kata tanya, verb finit kannst pindah ke posisi 1."
+  },
+  {
+    "sentence": "Ich bleibe zu Hause, weil ich krank bin.",
+    "meaning_id": "Saya tinggal di rumah karena saya sakit.",
+    "hint": "Anak kalimat weil: verb finit di akhir.",
+    "explanation": "Pada Nebensatz dengan weil, verb finit bin berada di akhir anak kalimat."
+  },
+  {
+    "sentence": "Sie sagt, dass sie müde ist.",
+    "meaning_id": "Dia berkata bahwa dia lelah.",
+    "hint": "dass-Klausel: verb finit di akhir.",
+    "explanation": "dass memperkenalkan anak kalimat; ist diletakkan di akhir."
+  },
+  {
+    "sentence": "Wenn es regnet, bleiben wir zu Hause.",
+    "meaning_id": "Jika hujan, kami tinggal di rumah.",
+    "hint": "Anak kalimat di depan, verb kalimat utama langsung setelah koma.",
+    "explanation": "Wenn es regnet adalah anak kalimat; verb utama bleiben langsung setelah koma."
+  },
+  {
+    "sentence": "Ich habe gestern einen Film gesehen.",
+    "meaning_id": "Saya kemarin menonton sebuah film.",
+    "hint": "Perfekt: Partizip II di akhir.",
+    "explanation": "habe adalah auxiliary di posisi 2; Partizip II gesehen di akhir."
+  },
+  {
+    "sentence": "Ich habe gestern einen Film gesehen.",
+    "meaning_id": "Kemarin saya menonton sebuah film.",
+    "hint": "Perfekt: haben + Partizip II di akhir.",
+    "explanation": "habe di posisi 2, Partizip gesehen di akhir kalimat."
+  },
+  {
+    "sentence": "Weil ich krank bin, bleibe ich zu Hause.",
+    "meaning_id": "Karena saya sakit, saya tinggal di rumah.",
+    "hint": "Anak kalimat dengan weil: verb di akhir.",
+    "explanation": "weil ich krank bin — bin di akhir klausa; klausa utama bleibe posisi 2."
+  },
+  {
+    "sentence": "Kannst du mir bitte helfen?",
+    "meaning_id": "Bisakah kamu membantu saya?",
+    "hint": "Pertanyaan ya/tidak: verb di posisi 1.",
+    "explanation": "Kannst di posisi 1, subjek du mengikuti, infinitif helfen di akhir."
+  },
+  {
+    "sentence": "Am Wochenende fahren wir ans Meer.",
+    "meaning_id": "Akhir pekan kami pergi ke laut.",
+    "hint": "Keterangan waktu di posisi 1 → verb posisi 2.",
+    "explanation": "Am Wochenende di posisi 1, fahren di posisi 2, wir setelah verb."
+  },
+  {
+    "sentence": "Sie möchte in Deutschland studieren.",
+    "meaning_id": "Dia ingin kuliah di Jerman.",
+    "hint": "Modal + infinitif di akhir.",
+    "explanation": "möchte di posisi 2, infinitif studieren di akhir kalimat."
+  },
+  {
+    "sentence": "Wenn es regnet, bleiben wir drinnen.",
+    "meaning_id": "Jika hujan, kami tetap di dalam.",
+    "hint": "Nebensatz wenn: verb di akhir.",
+    "explanation": "wenn es regnet — regnet di akhir; klausa utama bleiben posisi 2."
+  }
+]

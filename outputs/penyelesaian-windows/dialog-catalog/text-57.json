@@ -1,0 +1,206 @@
+{
+  "id": "dialog-57",
+  "title": "Ein Termin bei der Behörde",
+  "textId": 57,
+  "level": "B2",
+  "tags": "seed · B2 · unit 9",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Für den Antrag braucht man einen Termin.",
+      "id": "Untuk permohonan itu butuh janji temu.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Der Antrag muss persönlich abgegeben werden.",
+      "id": "Permohonannya harus diserahkan langsung.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Falls Unterlagen fehlen, wird der Antrag abgelehnt.",
+      "id": "Jika dokumen kurang, permohonan ditolak.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Die Genehmigung wird nach der Prüfung erteilt.",
+      "id": "Izin diterbitkan setelah pemeriksaan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Gegen den Bescheid kann man klagen.",
+      "id": "Terhadap keputusan itu orang bisa menggugat.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Zuständig ist das Amt am Hauptbahnhof.",
+      "id": "Yang berwenang adalah kantor di stasiun utama.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "kollegin",
+      "de": "Für den Antrag braucht man einen Termin.",
+      "id": "Untuk permohonan itu butuh janji temu.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Der Antrag muss persönlich abgegeben werden.",
+      "id": "Permohonannya harus diserahkan langsung.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Falls Unterlagen fehlen, wird der Antrag abgelehnt.",
+      "id": "Jika dokumen kurang, permohonan ditolak.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Die Genehmigung wird nach der Prüfung erteilt.",
+      "id": "Izin diterbitkan setelah pemeriksaan.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "vorgesetzte",
+      "de": "Gegen den Bescheid kann man klagen.",
+      "id": "Terhadap keputusan itu orang bisa menggugat.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Zuständig ist das Amt am Hauptbahnhof.",
+      "id": "Yang berwenang adalah kantor di stasiun utama.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

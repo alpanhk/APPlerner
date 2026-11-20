@@ -1,0 +1,159 @@
+{
+  "unit": 11,
+  "level": "A1",
+  "theme": "Transportasi & perjalanan",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Bahnsteig",
+      "article": "der",
+      "plural": "die Bahnsteige",
+      "meaning_id": "peron",
+      "example_de": "Das ist der Bahnsteig.",
+      "example_id": "Ini peron.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Reisepass",
+      "article": "der",
+      "plural": "die Reisepässe",
+      "meaning_id": "paspor",
+      "example_de": "Das ist der Reisepass.",
+      "example_id": "Ini paspor.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Reisetasche",
+      "article": "die",
+      "plural": "die Reisetaschen",
+      "meaning_id": "tas perjalanan",
+      "example_de": "Das ist die Reisetasche.",
+      "example_id": "Ini tas perjalanan.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Kofferanhänger",
+      "article": "der",
+      "plural": "die Kofferanhänger",
+      "meaning_id": "label koper",
+      "example_de": "Das ist der Kofferanhänger.",
+      "example_id": "Ini label koper.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Abfahrtsanzeige",
+      "article": "die",
+      "plural": "die Abfahrtsanzeigen",
+      "meaning_id": "papan jadwal keberangkatan",
+      "example_de": "Das ist die Abfahrtsanzeige.",
+      "example_id": "Ini papan jadwal keberangkatan.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Umstieg",
+      "article": "der",
+      "plural": "die Umstiege",
+      "meaning_id": "perpindahan kereta",
+      "example_de": "Das ist der Umstieg.",
+      "example_id": "Ini perpindahan kereta.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Direktzug",
+      "article": "der",
+      "plural": "die Direktzüge",
+      "meaning_id": "kereta langsung",
+      "example_de": "Das ist der Direktzug.",
+      "example_id": "Ini kereta langsung.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Sitzplatzkarte",
+      "article": "die",
+      "plural": "die Sitzplatzkarten",
+      "meaning_id": "tiket tempat duduk",
+      "example_de": "Das ist die Sitzplatzkarte.",
+      "example_id": "Ini tiket tempat duduk.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrkartenkontrolle",
+      "article": "die",
+      "plural": "die Fahrkartenkontrollen",
+      "meaning_id": "pemeriksaan tiket",
+      "example_de": "Das ist die Fahrkartenkontrolle.",
+      "example_id": "Ini pemeriksaan tiket.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Fensterplatz",
+      "article": "der",
+      "plural": "die Fensterplätze",
+      "meaning_id": "tempat duduk dekat jendela",
+      "example_de": "Das ist der Fensterplatz.",
+      "example_id": "Ini tempat duduk dekat jendela.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Anzeigetafel",
+      "article": "die",
+      "plural": "die Anzeigetafeln",
+      "meaning_id": "papan informasi",
+      "example_de": "Das ist die Anzeigetafel.",
+      "example_id": "Ini papan informasi.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Ticketschalter",
+      "article": "der",
+      "plural": "die Ticketschalter",
+      "meaning_id": "loket tiket",
+      "example_de": "Das ist der Ticketschalter.",
+      "example_id": "Ini loket tiket.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Reiseplan",
+      "article": "der",
+      "plural": "die Reisepläne",
+      "meaning_id": "rencana perjalanan",
+      "example_de": "Das ist der Reiseplan.",
+      "example_id": "Ini rencana perjalanan.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Reisezeit",
+      "article": "die",
+      "plural": "die Reisezeiten",
+      "meaning_id": "waktu perjalanan",
+      "example_de": "Das ist die Reisezeit.",
+      "example_id": "Ini waktu perjalanan.",
+      "tags": "a1,unit11,perjalanan"
+    },
+    {
+      "kind": "noun",
+      "de": "Gepäckstück",
+      "article": "das",
+      "plural": "die Gepäckstücke",
+      "meaning_id": "bagasi",
+      "example_de": "Das ist das Gepäckstück.",
+      "example_id": "Ini bagasi.",
+      "tags": "a1,unit11,perjalanan"
+    }
+  ]
+}

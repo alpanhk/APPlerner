@@ -1,0 +1,206 @@
+{
+  "id": "dialog-62",
+  "title": "Die Bewerbung",
+  "textId": 62,
+  "level": "B1",
+  "tags": "seed · B1 · tambahan",
+  "sourceFile": "src/data/reading/texts_extra.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Seit Wochen sucht Fajar eine neue Stelle.",
+      "id": "Sejak berpekan-pekan Fajar mencari posisi baru.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Er hat mehrere Bewerbungen geschrieben.",
+      "id": "Dia menulis beberapa lamaran.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Die Firma hat ihn zu einem Gespräch eingeladen.",
+      "id": "Perusahaannya mengundangnya wawancara.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Im Gespräch betonte er, dass er zuverlässig und flexibel sei.",
+      "id": "Dalam wawancara dia menekankan bahwa dia dapat diandalkan dan fleksibel.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Zwei Tage später bekam er die Zusage.",
+      "id": "Dua hari kemudian dia mendapat persetujuan.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Er freut sich auf die neue Aufgabe.",
+      "id": "Dia menantikan tugas baru itu.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Seit Wochen sucht Fajar eine neue Stelle.",
+      "id": "Sejak berpekan-pekan Fajar mencari posisi baru.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "nachbarin",
+      "de": "Er hat mehrere Bewerbungen geschrieben.",
+      "id": "Dia menulis beberapa lamaran.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "narrator",
+      "de": "Die Firma hat ihn zu einem Gespräch eingeladen.",
+      "id": "Perusahaannya mengundangnya wawancara.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Im Gespräch betonte er, dass er zuverlässig und flexibel sei.",
+      "id": "Dalam wawancara dia menekankan bahwa dia dapat diandalkan dan fleksibel.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "nachbarin",
+      "de": "Zwei Tage später bekam er die Zusage.",
+      "id": "Dua hari kemudian dia mendapat persetujuan.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "kollege",
+      "de": "Er freut sich auf die neue Aufgabe.",
+      "id": "Dia menantikan tugas baru itu.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

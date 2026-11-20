@@ -1,0 +1,1077 @@
+{
+  "id": "TRANSFER-BANK-P3-GAP-02",
+  "reviewed": false,
+  "items": [
+    {
+      "id": "tr-u1-l1-01",
+      "unit": 1,
+      "lesson": 1,
+      "objectiveId": "a1-u1-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Sapaan sesuai waktu\".",
+      "sub": "Tujuan: a1-u1-o1",
+      "options": [
+        "Selamat siang, Ny. Müller!",
+        "Nama saya Alex. Saya berasal dari Indonesia.",
+        "Siapa nama Anda?",
+        "nama · wanita · negara"
+      ],
+      "answer": "Selamat siang, Ny. Müller!",
+      "wrongFeedback": {
+        "Nama saya Alex. Saya berasal dari Indonesia.": "Contoh \"Sapaan sesuai waktu\" berarti \"Selamat siang, Ny. Müller!\", bukan \"Nama saya Alex. Saya berasal dari Indonesia.\".",
+        "Siapa nama Anda?": "Contoh \"Sapaan sesuai waktu\" berarti \"Selamat siang, Ny. Müller!\", bukan \"Siapa nama Anda?\".",
+        "nama · wanita · negara": "Contoh \"Sapaan sesuai waktu\" berarti \"Selamat siang, Ny. Müller!\", bukan \"nama · wanita · negara\"."
+      },
+      "explanation": "Guten Tag, Frau Müller! = Selamat siang, Ny. Müller!.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u1-l1-03",
+      "unit": 1,
+      "lesson": 1,
+      "objectiveId": "a1-u1-o5",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Sapaan sesuai waktu\".",
+      "sub": "Tujuan: a1-u1-o5",
+      "options": [
+        "Guten Tag, Frau Müller!",
+        "Selamat siang, Ny. Müller!",
+        "Nama saya Alex. Saya berasal dari Indonesia.",
+        "Siapa nama Anda?"
+      ],
+      "answer": "Guten Tag, Frau Müller!",
+      "wrongFeedback": {
+        "Selamat siang, Ny. Müller!": "Contoh materi \"Sapaan sesuai waktu\" adalah \"Guten Tag, Frau Müller!\", bukan \"Selamat siang, Ny. Müller!\".",
+        "Nama saya Alex. Saya berasal dari Indonesia.": "Contoh materi \"Sapaan sesuai waktu\" adalah \"Guten Tag, Frau Müller!\", bukan \"Nama saya Alex. Saya berasal dari Indonesia.\".",
+        "Siapa nama Anda?": "Contoh materi \"Sapaan sesuai waktu\" adalah \"Guten Tag, Frau Müller!\", bukan \"Siapa nama Anda?\"."
+      },
+      "explanation": "Guten Tag, Frau Müller! = Selamat siang, Ny. Müller!.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u1-l2-01",
+      "unit": 1,
+      "lesson": 2,
+      "objectiveId": "a1-u1-o3",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Kommen aus — asal\".",
+      "sub": "Tujuan: a1-u1-o3",
+      "options": [
+        "Dari mana kamu? — Saya dari Bandung.",
+        "Selamat siang, Ny. Müller!",
+        "Nama saya Alex. Saya berasal dari Indonesia.",
+        "Siapa nama Anda?"
+      ],
+      "answer": "Dari mana kamu? — Saya dari Bandung.",
+      "wrongFeedback": {
+        "Selamat siang, Ny. Müller!": "Contoh \"Kommen aus — asal\" berarti \"Dari mana kamu? — Saya dari Bandung.\", bukan \"Selamat siang, Ny. Müller!\".",
+        "Nama saya Alex. Saya berasal dari Indonesia.": "Contoh \"Kommen aus — asal\" berarti \"Dari mana kamu? — Saya dari Bandung.\", bukan \"Nama saya Alex. Saya berasal dari Indonesia.\".",
+        "Siapa nama Anda?": "Contoh \"Kommen aus — asal\" berarti \"Dari mana kamu? — Saya dari Bandung.\", bukan \"Siapa nama Anda?\"."
+      },
+      "explanation": "Woher kommst du? — Ich komme aus Bandung. = Dari mana kamu? — Saya dari Bandung..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u1-l2-03",
+      "unit": 1,
+      "lesson": 2,
+      "objectiveId": "a1-u1-o3",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Kommen aus — asal\".",
+      "sub": "Tujuan: a1-u1-o3",
+      "options": [
+        "Woher kommst du? — Ich komme aus Bandung.",
+        "Selamat siang, Ny. Müller!",
+        "Nama saya Alex. Saya berasal dari Indonesia.",
+        "Siapa nama Anda?"
+      ],
+      "answer": "Woher kommst du? — Ich komme aus Bandung.",
+      "wrongFeedback": {
+        "Selamat siang, Ny. Müller!": "Contoh materi \"Kommen aus — asal\" adalah \"Woher kommst du? — Ich komme aus Bandung.\", bukan \"Selamat siang, Ny. Müller!\".",
+        "Nama saya Alex. Saya berasal dari Indonesia.": "Contoh materi \"Kommen aus — asal\" adalah \"Woher kommst du? — Ich komme aus Bandung.\", bukan \"Nama saya Alex. Saya berasal dari Indonesia.\".",
+        "Siapa nama Anda?": "Contoh materi \"Kommen aus — asal\" adalah \"Woher kommst du? — Ich komme aus Bandung.\", bukan \"Siapa nama Anda?\"."
+      },
+      "explanation": "Woher kommst du? — Ich komme aus Bandung. = Dari mana kamu? — Saya dari Bandung..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u1-l3-01",
+      "unit": 1,
+      "lesson": 3,
+      "objectiveId": "a1-u1-o4",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Freund & Freundin\".",
+      "sub": "Tujuan: a1-u1-o4",
+      "options": [
+        "Teman perempuan saya berasal dari Bandung.",
+        "Selamat siang, Ny. Müller!",
+        "Nama saya Alex. Saya berasal dari Indonesia.",
+        "Siapa nama Anda?"
+      ],
+      "answer": "Teman perempuan saya berasal dari Bandung.",
+      "wrongFeedback": {
+        "Selamat siang, Ny. Müller!": "Contoh \"Freund & Freundin\" berarti \"Teman perempuan saya berasal dari Bandung.\", bukan \"Selamat siang, Ny. Müller!\".",
+        "Nama saya Alex. Saya berasal dari Indonesia.": "Contoh \"Freund & Freundin\" berarti \"Teman perempuan saya berasal dari Bandung.\", bukan \"Nama saya Alex. Saya berasal dari Indonesia.\".",
+        "Siapa nama Anda?": "Contoh \"Freund & Freundin\" berarti \"Teman perempuan saya berasal dari Bandung.\", bukan \"Siapa nama Anda?\"."
+      },
+      "explanation": "Meine Freundin kommt aus Bandung. = Teman perempuan saya berasal dari Bandung..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u1-l3-02",
+      "unit": 1,
+      "lesson": 3,
+      "objectiveId": "a1-u1-o5",
+      "code": "D1",
+      "mode": "type",
+      "prompt": "Lengkapi contoh materi: Meine ___in kommt aus Bandung.",
+      "sub": "Ketik kata Jerman yang tepat. Teman perempuan saya berasal dari Bandung.",
+      "answer": "Freund",
+      "hintOnWrong": "Kata yang dicari adalah \"Freund\".",
+      "explanation": "Freund — Teman perempuan saya berasal dari Bandung..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u2-l1-01",
+      "unit": 2,
+      "lesson": 1,
+      "objectiveId": "a1-u2-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Angka 1–12\".",
+      "sub": "Tujuan: a1-u2-o1",
+      "options": [
+        "satu, dua, tiga, empat, lima",
+        "Umur saya delapan belas tahun.",
+        "Itu harganya dua puluh dua euro.",
+        "Berapa harga rotinya? — Tiga euro."
+      ],
+      "answer": "satu, dua, tiga, empat, lima",
+      "wrongFeedback": {
+        "Umur saya delapan belas tahun.": "Contoh \"Angka 1–12\" berarti \"satu, dua, tiga, empat, lima\", bukan \"Umur saya delapan belas tahun.\".",
+        "Itu harganya dua puluh dua euro.": "Contoh \"Angka 1–12\" berarti \"satu, dua, tiga, empat, lima\", bukan \"Itu harganya dua puluh dua euro.\".",
+        "Berapa harga rotinya? — Tiga euro.": "Contoh \"Angka 1–12\" berarti \"satu, dua, tiga, empat, lima\", bukan \"Berapa harga rotinya? — Tiga euro.\"."
+      },
+      "explanation": "eins, zwei, drei, vier, fünf = satu, dua, tiga, empat, lima.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u2-l1-03",
+      "unit": 2,
+      "lesson": 1,
+      "objectiveId": "a1-u2-o2",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Angka 1–12\".",
+      "sub": "Tujuan: a1-u2-o2",
+      "options": [
+        "eins, zwei, drei, vier, fünf",
+        "satu, dua, tiga, empat, lima",
+        "Umur saya delapan belas tahun.",
+        "Itu harganya dua puluh dua euro."
+      ],
+      "answer": "eins, zwei, drei, vier, fünf",
+      "wrongFeedback": {
+        "satu, dua, tiga, empat, lima": "Contoh materi \"Angka 1–12\" adalah \"eins, zwei, drei, vier, fünf\", bukan \"satu, dua, tiga, empat, lima\".",
+        "Umur saya delapan belas tahun.": "Contoh materi \"Angka 1–12\" adalah \"eins, zwei, drei, vier, fünf\", bukan \"Umur saya delapan belas tahun.\".",
+        "Itu harganya dua puluh dua euro.": "Contoh materi \"Angka 1–12\" adalah \"eins, zwei, drei, vier, fünf\", bukan \"Itu harganya dua puluh dua euro.\"."
+      },
+      "explanation": "eins, zwei, drei, vier, fünf = satu, dua, tiga, empat, lima.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u2-l2-01",
+      "unit": 2,
+      "lesson": 2,
+      "objectiveId": "a1-u2-o3",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Jam penuh\".",
+      "sub": "Tujuan: a1-u2-o3",
+      "options": [
+        "Sekarang pukul sepuluh.",
+        "satu, dua, tiga, empat, lima",
+        "Umur saya delapan belas tahun.",
+        "Itu harganya dua puluh dua euro."
+      ],
+      "answer": "Sekarang pukul sepuluh.",
+      "wrongFeedback": {
+        "satu, dua, tiga, empat, lima": "Contoh \"Jam penuh\" berarti \"Sekarang pukul sepuluh.\", bukan \"satu, dua, tiga, empat, lima\".",
+        "Umur saya delapan belas tahun.": "Contoh \"Jam penuh\" berarti \"Sekarang pukul sepuluh.\", bukan \"Umur saya delapan belas tahun.\".",
+        "Itu harganya dua puluh dua euro.": "Contoh \"Jam penuh\" berarti \"Sekarang pukul sepuluh.\", bukan \"Itu harganya dua puluh dua euro.\"."
+      },
+      "explanation": "Es ist zehn Uhr. = Sekarang pukul sepuluh..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u2-l2-02",
+      "unit": 2,
+      "lesson": 2,
+      "objectiveId": "a1-u2-o4",
+      "code": "D1",
+      "mode": "type",
+      "prompt": "Lengkapi contoh materi: Es ist zehn ___.",
+      "sub": "Ketik kata Jerman yang tepat. Sekarang pukul sepuluh.",
+      "answer": "Uhr",
+      "hintOnWrong": "Kata yang dicari adalah \"Uhr\".",
+      "explanation": "Uhr — Sekarang pukul sepuluh..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u3-l1-01",
+      "unit": 3,
+      "lesson": 1,
+      "objectiveId": "a1-u3-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Keluarga inti\".",
+      "sub": "Tujuan: a1-u3-o1",
+      "options": [
+        "Ini keluarga saya.",
+        "Saya punya seorang saudara perempuan.",
+        "Nenek saya tinggal bersama kami.",
+        "Ayah dan ibu saya datang hari ini."
+      ],
+      "answer": "Ini keluarga saya.",
+      "wrongFeedback": {
+        "Saya punya seorang saudara perempuan.": "Contoh \"Keluarga inti\" berarti \"Ini keluarga saya.\", bukan \"Saya punya seorang saudara perempuan.\".",
+        "Nenek saya tinggal bersama kami.": "Contoh \"Keluarga inti\" berarti \"Ini keluarga saya.\", bukan \"Nenek saya tinggal bersama kami.\".",
+        "Ayah dan ibu saya datang hari ini.": "Contoh \"Keluarga inti\" berarti \"Ini keluarga saya.\", bukan \"Ayah dan ibu saya datang hari ini.\"."
+      },
+      "explanation": "Das ist meine Familie. = Ini keluarga saya..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u3-l1-02",
+      "unit": 3,
+      "lesson": 1,
+      "objectiveId": "a1-u3-o2",
+      "code": "D1",
+      "mode": "type",
+      "prompt": "Lengkapi contoh materi: Das ist meine ___.",
+      "sub": "Ketik kata Jerman yang tepat. Ini keluarga saya.",
+      "answer": "Familie",
+      "hintOnWrong": "Kata yang dicari adalah \"Familie\".",
+      "explanation": "Familie — Ini keluarga saya..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u3-l2-01",
+      "unit": 3,
+      "lesson": 2,
+      "objectiveId": "a1-u3-o1",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Kata yang selalu jamak\".",
+      "sub": "Tujuan: a1-u3-o1",
+      "options": [
+        "Saudara-saudara saya tinggal di Jakarta.",
+        "Ini keluarga saya.",
+        "Saya punya seorang saudara perempuan.",
+        "Nenek saya tinggal bersama kami."
+      ],
+      "answer": "Saudara-saudara saya tinggal di Jakarta.",
+      "wrongFeedback": {
+        "Ini keluarga saya.": "Contoh \"Kata yang selalu jamak\" berarti \"Saudara-saudara saya tinggal di Jakarta.\", bukan \"Ini keluarga saya.\".",
+        "Saya punya seorang saudara perempuan.": "Contoh \"Kata yang selalu jamak\" berarti \"Saudara-saudara saya tinggal di Jakarta.\", bukan \"Saya punya seorang saudara perempuan.\".",
+        "Nenek saya tinggal bersama kami.": "Contoh \"Kata yang selalu jamak\" berarti \"Saudara-saudara saya tinggal di Jakarta.\", bukan \"Nenek saya tinggal bersama kami.\"."
+      },
+      "explanation": "Meine Geschwister wohnen in Jakarta. = Saudara-saudara saya tinggal di Jakarta..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u3-l2-03",
+      "unit": 3,
+      "lesson": 2,
+      "objectiveId": "a1-u3-o4",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Kata yang selalu jamak\".",
+      "sub": "Tujuan: a1-u3-o4",
+      "options": [
+        "Meine Geschwister wohnen in Jakarta.",
+        "Ini keluarga saya.",
+        "Saya punya seorang saudara perempuan.",
+        "Nenek saya tinggal bersama kami."
+      ],
+      "answer": "Meine Geschwister wohnen in Jakarta.",
+      "wrongFeedback": {
+        "Ini keluarga saya.": "Contoh materi \"Kata yang selalu jamak\" adalah \"Meine Geschwister wohnen in Jakarta.\", bukan \"Ini keluarga saya.\".",
+        "Saya punya seorang saudara perempuan.": "Contoh materi \"Kata yang selalu jamak\" adalah \"Meine Geschwister wohnen in Jakarta.\", bukan \"Saya punya seorang saudara perempuan.\".",
+        "Nenek saya tinggal bersama kami.": "Contoh materi \"Kata yang selalu jamak\" adalah \"Meine Geschwister wohnen in Jakarta.\", bukan \"Nenek saya tinggal bersama kami.\"."
+      },
+      "explanation": "Meine Geschwister wohnen in Jakarta. = Saudara-saudara saya tinggal di Jakarta..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u4-l1-01",
+      "unit": 4,
+      "lesson": 1,
+      "objectiveId": "a1-u4-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Di meja makan\".",
+      "sub": "Tujuan: a1-u4-o1",
+      "options": [
+        "Untuk sarapan saya makan roti dengan keju.",
+        "Apelnya merah dan manis.",
+        "Saya makan ikan dengan nasi.",
+        "Kuenya enak!"
+      ],
+      "answer": "Untuk sarapan saya makan roti dengan keju.",
+      "wrongFeedback": {
+        "Apelnya merah dan manis.": "Contoh \"Di meja makan\" berarti \"Untuk sarapan saya makan roti dengan keju.\", bukan \"Apelnya merah dan manis.\".",
+        "Saya makan ikan dengan nasi.": "Contoh \"Di meja makan\" berarti \"Untuk sarapan saya makan roti dengan keju.\", bukan \"Saya makan ikan dengan nasi.\".",
+        "Kuenya enak!": "Contoh \"Di meja makan\" berarti \"Untuk sarapan saya makan roti dengan keju.\", bukan \"Kuenya enak!\"."
+      },
+      "explanation": "Zum Frühstück esse ich Brot mit Käse. = Untuk sarapan saya makan roti dengan keju..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u4-l1-02",
+      "unit": 4,
+      "lesson": 1,
+      "objectiveId": "a1-u4-o2",
+      "code": "D1",
+      "mode": "type",
+      "prompt": "Lengkapi contoh materi: Zum Frühstück esse ich ___ mit Käse.",
+      "sub": "Ketik kata Jerman yang tepat. Untuk sarapan saya makan roti dengan keju.",
+      "answer": "Brot",
+      "hintOnWrong": "Kata yang dicari adalah \"Brot\".",
+      "explanation": "Brot — Untuk sarapan saya makan roti dengan keju..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u5-l1-01",
+      "unit": 5,
+      "lesson": 1,
+      "objectiveId": "a1-u5-o1",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Kata sifat warna\".",
+      "sub": "Tujuan: a1-u5-o1",
+      "options": [
+        "Jaket biru itu bagus.",
+        "Apakah sepatu ini juga ada ukuran 39?",
+        "Saya mencari mantel yang hangat.",
+        "Apakah Anda punya celana hitam?"
+      ],
+      "answer": "Jaket biru itu bagus.",
+      "wrongFeedback": {
+        "Apakah sepatu ini juga ada ukuran 39?": "Contoh \"Kata sifat warna\" berarti \"Jaket biru itu bagus.\", bukan \"Apakah sepatu ini juga ada ukuran 39?\".",
+        "Saya mencari mantel yang hangat.": "Contoh \"Kata sifat warna\" berarti \"Jaket biru itu bagus.\", bukan \"Saya mencari mantel yang hangat.\".",
+        "Apakah Anda punya celana hitam?": "Contoh \"Kata sifat warna\" berarti \"Jaket biru itu bagus.\", bukan \"Apakah Anda punya celana hitam?\"."
+      },
+      "explanation": "Die blaue Jacke ist schön. = Jaket biru itu bagus..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u5-l1-03",
+      "unit": 5,
+      "lesson": 1,
+      "objectiveId": "a1-u5-o3",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Kata sifat warna\".",
+      "sub": "Tujuan: a1-u5-o3",
+      "options": [
+        "Die blaue Jacke ist schön.",
+        "Jaket biru itu bagus.",
+        "Apakah sepatu ini juga ada ukuran 39?",
+        "Saya mencari mantel yang hangat."
+      ],
+      "answer": "Die blaue Jacke ist schön.",
+      "wrongFeedback": {
+        "Jaket biru itu bagus.": "Contoh materi \"Kata sifat warna\" adalah \"Die blaue Jacke ist schön.\", bukan \"Jaket biru itu bagus.\".",
+        "Apakah sepatu ini juga ada ukuran 39?": "Contoh materi \"Kata sifat warna\" adalah \"Die blaue Jacke ist schön.\", bukan \"Apakah sepatu ini juga ada ukuran 39?\".",
+        "Saya mencari mantel yang hangat.": "Contoh materi \"Kata sifat warna\" adalah \"Die blaue Jacke ist schön.\", bukan \"Saya mencari mantel yang hangat.\"."
+      },
+      "explanation": "Die blaue Jacke ist schön. = Jaket biru itu bagus..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u5-l2-01",
+      "unit": 5,
+      "lesson": 2,
+      "objectiveId": "a1-u5-o2",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Meminta barang\".",
+      "sub": "Tujuan: a1-u5-o2",
+      "options": [
+        "Apakah Anda punya celana hitam?",
+        "Jaket biru itu bagus.",
+        "Apakah sepatu ini juga ada ukuran 39?",
+        "Saya mencari mantel yang hangat."
+      ],
+      "answer": "Apakah Anda punya celana hitam?",
+      "wrongFeedback": {
+        "Jaket biru itu bagus.": "Contoh \"Meminta barang\" berarti \"Apakah Anda punya celana hitam?\", bukan \"Jaket biru itu bagus.\".",
+        "Apakah sepatu ini juga ada ukuran 39?": "Contoh \"Meminta barang\" berarti \"Apakah Anda punya celana hitam?\", bukan \"Apakah sepatu ini juga ada ukuran 39?\".",
+        "Saya mencari mantel yang hangat.": "Contoh \"Meminta barang\" berarti \"Apakah Anda punya celana hitam?\", bukan \"Saya mencari mantel yang hangat.\"."
+      },
+      "explanation": "Haben Sie eine schwarze Hose? = Apakah Anda punya celana hitam?.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u5-l2-03",
+      "unit": 5,
+      "lesson": 2,
+      "objectiveId": "a1-u5-o4",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Meminta barang\".",
+      "sub": "Tujuan: a1-u5-o4",
+      "options": [
+        "Haben Sie eine schwarze Hose?",
+        "Jaket biru itu bagus.",
+        "Apakah sepatu ini juga ada ukuran 39?",
+        "Saya mencari mantel yang hangat."
+      ],
+      "answer": "Haben Sie eine schwarze Hose?",
+      "wrongFeedback": {
+        "Jaket biru itu bagus.": "Contoh materi \"Meminta barang\" adalah \"Haben Sie eine schwarze Hose?\", bukan \"Jaket biru itu bagus.\".",
+        "Apakah sepatu ini juga ada ukuran 39?": "Contoh materi \"Meminta barang\" adalah \"Haben Sie eine schwarze Hose?\", bukan \"Apakah sepatu ini juga ada ukuran 39?\".",
+        "Saya mencari mantel yang hangat.": "Contoh materi \"Meminta barang\" adalah \"Haben Sie eine schwarze Hose?\", bukan \"Saya mencari mantel yang hangat.\"."
+      },
+      "explanation": "Haben Sie eine schwarze Hose? = Apakah Anda punya celana hitam?.",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u6-l1-01",
+      "unit": 6,
+      "lesson": 1,
+      "objectiveId": "a1-u6-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Benda di rumah\".",
+      "sub": "Tujuan: a1-u6-o1",
+      "options": [
+        "Di kamar tidur ada sebuah karpet.",
+        "Di apartemen kami ada mesin pencuci piring.",
+        "Kursi berlengan itu kecil dan sangat nyaman.",
+        "Kuncinya terletak di atas rak buku."
+      ],
+      "answer": "Di kamar tidur ada sebuah karpet.",
+      "wrongFeedback": {
+        "Di apartemen kami ada mesin pencuci piring.": "Contoh \"Benda di rumah\" berarti \"Di kamar tidur ada sebuah karpet.\", bukan \"Di apartemen kami ada mesin pencuci piring.\".",
+        "Kursi berlengan itu kecil dan sangat nyaman.": "Contoh \"Benda di rumah\" berarti \"Di kamar tidur ada sebuah karpet.\", bukan \"Kursi berlengan itu kecil dan sangat nyaman.\".",
+        "Kuncinya terletak di atas rak buku.": "Contoh \"Benda di rumah\" berarti \"Di kamar tidur ada sebuah karpet.\", bukan \"Kuncinya terletak di atas rak buku.\"."
+      },
+      "explanation": "Im Schlafzimmer liegt ein Teppich. = Di kamar tidur ada sebuah karpet..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u6-l1-03",
+      "unit": 6,
+      "lesson": 1,
+      "objectiveId": "a1-u6-o2",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Benda di rumah\".",
+      "sub": "Tujuan: a1-u6-o2",
+      "options": [
+        "Im Schlafzimmer liegt ein Teppich.",
+        "Di kamar tidur ada sebuah karpet.",
+        "Di apartemen kami ada mesin pencuci piring.",
+        "Kursi berlengan itu kecil dan sangat nyaman."
+      ],
+      "answer": "Im Schlafzimmer liegt ein Teppich.",
+      "wrongFeedback": {
+        "Di kamar tidur ada sebuah karpet.": "Contoh materi \"Benda di rumah\" adalah \"Im Schlafzimmer liegt ein Teppich.\", bukan \"Di kamar tidur ada sebuah karpet.\".",
+        "Di apartemen kami ada mesin pencuci piring.": "Contoh materi \"Benda di rumah\" adalah \"Im Schlafzimmer liegt ein Teppich.\", bukan \"Di apartemen kami ada mesin pencuci piring.\".",
+        "Kursi berlengan itu kecil dan sangat nyaman.": "Contoh materi \"Benda di rumah\" adalah \"Im Schlafzimmer liegt ein Teppich.\", bukan \"Kursi berlengan itu kecil dan sangat nyaman.\"."
+      },
+      "explanation": "Im Schlafzimmer liegt ein Teppich. = Di kamar tidur ada sebuah karpet..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u6-l3-01",
+      "unit": 6,
+      "lesson": 3,
+      "objectiveId": "a1-u6-o5",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Verba pisah aufräumen\".",
+      "sub": "Tujuan: a1-u6-o5",
+      "options": [
+        "Pada hari Sabtu kami membereskan ruang bawah tanah.",
+        "Di kamar tidur ada sebuah karpet.",
+        "Di apartemen kami ada mesin pencuci piring.",
+        "Kursi berlengan itu kecil dan sangat nyaman."
+      ],
+      "answer": "Pada hari Sabtu kami membereskan ruang bawah tanah.",
+      "wrongFeedback": {
+        "Di kamar tidur ada sebuah karpet.": "Contoh \"Verba pisah aufräumen\" berarti \"Pada hari Sabtu kami membereskan ruang bawah tanah.\", bukan \"Di kamar tidur ada sebuah karpet.\".",
+        "Di apartemen kami ada mesin pencuci piring.": "Contoh \"Verba pisah aufräumen\" berarti \"Pada hari Sabtu kami membereskan ruang bawah tanah.\", bukan \"Di apartemen kami ada mesin pencuci piring.\".",
+        "Kursi berlengan itu kecil dan sangat nyaman.": "Contoh \"Verba pisah aufräumen\" berarti \"Pada hari Sabtu kami membereskan ruang bawah tanah.\", bukan \"Kursi berlengan itu kecil dan sangat nyaman.\"."
+      },
+      "explanation": "Am Samstag räumen wir den Keller auf. = Pada hari Sabtu kami membereskan ruang bawah tanah..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u6-l3-03",
+      "unit": 6,
+      "lesson": 3,
+      "objectiveId": "a1-u6-o5",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Verba pisah aufräumen\".",
+      "sub": "Tujuan: a1-u6-o5",
+      "options": [
+        "Am Samstag räumen wir den Keller auf.",
+        "Di kamar tidur ada sebuah karpet.",
+        "Di apartemen kami ada mesin pencuci piring.",
+        "Kursi berlengan itu kecil dan sangat nyaman."
+      ],
+      "answer": "Am Samstag räumen wir den Keller auf.",
+      "wrongFeedback": {
+        "Di kamar tidur ada sebuah karpet.": "Contoh materi \"Verba pisah aufräumen\" adalah \"Am Samstag räumen wir den Keller auf.\", bukan \"Di kamar tidur ada sebuah karpet.\".",
+        "Di apartemen kami ada mesin pencuci piring.": "Contoh materi \"Verba pisah aufräumen\" adalah \"Am Samstag räumen wir den Keller auf.\", bukan \"Di apartemen kami ada mesin pencuci piring.\".",
+        "Kursi berlengan itu kecil dan sangat nyaman.": "Contoh materi \"Verba pisah aufräumen\" adalah \"Am Samstag räumen wir den Keller auf.\", bukan \"Kursi berlengan itu kecil dan sangat nyaman.\"."
+      },
+      "explanation": "Am Samstag räumen wir den Keller auf. = Pada hari Sabtu kami membereskan ruang bawah tanah..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u7-l1-01",
+      "unit": 7,
+      "lesson": 1,
+      "objectiveId": "a1-u7-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Tempat umum\".",
+      "sub": "Tujuan: a1-u7-o1",
+      "options": [
+        "Apotek berada di sebelah kantor pos.",
+        "Balai kota berada di seberang perpustakaan.",
+        "Di mana toko rotinya?",
+        "Silakan belok kiri di lampu lalu lintas."
+      ],
+      "answer": "Apotek berada di sebelah kantor pos.",
+      "wrongFeedback": {
+        "Balai kota berada di seberang perpustakaan.": "Contoh \"Tempat umum\" berarti \"Apotek berada di sebelah kantor pos.\", bukan \"Balai kota berada di seberang perpustakaan.\".",
+        "Di mana toko rotinya?": "Contoh \"Tempat umum\" berarti \"Apotek berada di sebelah kantor pos.\", bukan \"Di mana toko rotinya?\".",
+        "Silakan belok kiri di lampu lalu lintas.": "Contoh \"Tempat umum\" berarti \"Apotek berada di sebelah kantor pos.\", bukan \"Silakan belok kiri di lampu lalu lintas.\"."
+      },
+      "explanation": "Die Apotheke ist neben der Post. = Apotek berada di sebelah kantor pos..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u7-l1-03",
+      "unit": 7,
+      "lesson": 1,
+      "objectiveId": "a1-u7-o2",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Tempat umum\".",
+      "sub": "Tujuan: a1-u7-o2",
+      "options": [
+        "Die Apotheke ist neben der Post.",
+        "Apotek berada di sebelah kantor pos.",
+        "Balai kota berada di seberang perpustakaan.",
+        "Di mana toko rotinya?"
+      ],
+      "answer": "Die Apotheke ist neben der Post.",
+      "wrongFeedback": {
+        "Apotek berada di sebelah kantor pos.": "Contoh materi \"Tempat umum\" adalah \"Die Apotheke ist neben der Post.\", bukan \"Apotek berada di sebelah kantor pos.\".",
+        "Balai kota berada di seberang perpustakaan.": "Contoh materi \"Tempat umum\" adalah \"Die Apotheke ist neben der Post.\", bukan \"Balai kota berada di seberang perpustakaan.\".",
+        "Di mana toko rotinya?": "Contoh materi \"Tempat umum\" adalah \"Die Apotheke ist neben der Post.\", bukan \"Di mana toko rotinya?\"."
+      },
+      "explanation": "Die Apotheke ist neben der Post. = Apotek berada di sebelah kantor pos..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u8-l1-01",
+      "unit": 8,
+      "lesson": 1,
+      "objectiveId": "a1-u8-o1",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Urutan kegiatan\".",
+      "sub": "Tujuan: a1-u8-o1",
+      "options": [
+        "Sesudah itu rapat dimulai.",
+        "Shift pagi saya mulai pukul enam.",
+        "Rekan kerja perempuan saya bekerja di departemen lain.",
+        "Saya menyelesaikan tugas sebelum istirahat."
+      ],
+      "answer": "Sesudah itu rapat dimulai.",
+      "wrongFeedback": {
+        "Shift pagi saya mulai pukul enam.": "Contoh \"Urutan kegiatan\" berarti \"Sesudah itu rapat dimulai.\", bukan \"Shift pagi saya mulai pukul enam.\".",
+        "Rekan kerja perempuan saya bekerja di departemen lain.": "Contoh \"Urutan kegiatan\" berarti \"Sesudah itu rapat dimulai.\", bukan \"Rekan kerja perempuan saya bekerja di departemen lain.\".",
+        "Saya menyelesaikan tugas sebelum istirahat.": "Contoh \"Urutan kegiatan\" berarti \"Sesudah itu rapat dimulai.\", bukan \"Saya menyelesaikan tugas sebelum istirahat.\"."
+      },
+      "explanation": "Danach beginnt die Besprechung. = Sesudah itu rapat dimulai..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u8-l1-03",
+      "unit": 8,
+      "lesson": 1,
+      "objectiveId": "a1-u8-o3",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Urutan kegiatan\".",
+      "sub": "Tujuan: a1-u8-o3",
+      "options": [
+        "Danach beginnt die Besprechung.",
+        "Sesudah itu rapat dimulai.",
+        "Shift pagi saya mulai pukul enam.",
+        "Rekan kerja perempuan saya bekerja di departemen lain."
+      ],
+      "answer": "Danach beginnt die Besprechung.",
+      "wrongFeedback": {
+        "Sesudah itu rapat dimulai.": "Contoh materi \"Urutan kegiatan\" adalah \"Danach beginnt die Besprechung.\", bukan \"Sesudah itu rapat dimulai.\".",
+        "Shift pagi saya mulai pukul enam.": "Contoh materi \"Urutan kegiatan\" adalah \"Danach beginnt die Besprechung.\", bukan \"Shift pagi saya mulai pukul enam.\".",
+        "Rekan kerja perempuan saya bekerja di departemen lain.": "Contoh materi \"Urutan kegiatan\" adalah \"Danach beginnt die Besprechung.\", bukan \"Rekan kerja perempuan saya bekerja di departemen lain.\"."
+      },
+      "explanation": "Danach beginnt die Besprechung. = Sesudah itu rapat dimulai..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u8-l2-01",
+      "unit": 8,
+      "lesson": 2,
+      "objectiveId": "a1-u8-o4",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Tugas sehari-hari\".",
+      "sub": "Tujuan: a1-u8-o4",
+      "options": [
+        "Saya menyelesaikan tugas sebelum istirahat.",
+        "Sesudah itu rapat dimulai.",
+        "Shift pagi saya mulai pukul enam.",
+        "Rekan kerja perempuan saya bekerja di departemen lain."
+      ],
+      "answer": "Saya menyelesaikan tugas sebelum istirahat.",
+      "wrongFeedback": {
+        "Sesudah itu rapat dimulai.": "Contoh \"Tugas sehari-hari\" berarti \"Saya menyelesaikan tugas sebelum istirahat.\", bukan \"Sesudah itu rapat dimulai.\".",
+        "Shift pagi saya mulai pukul enam.": "Contoh \"Tugas sehari-hari\" berarti \"Saya menyelesaikan tugas sebelum istirahat.\", bukan \"Shift pagi saya mulai pukul enam.\".",
+        "Rekan kerja perempuan saya bekerja di departemen lain.": "Contoh \"Tugas sehari-hari\" berarti \"Saya menyelesaikan tugas sebelum istirahat.\", bukan \"Rekan kerja perempuan saya bekerja di departemen lain.\"."
+      },
+      "explanation": "Ich erledige die Aufgabe vor der Pause. = Saya menyelesaikan tugas sebelum istirahat..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u8-l2-03",
+      "unit": 8,
+      "lesson": 2,
+      "objectiveId": "a1-u8-o4",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Tugas sehari-hari\".",
+      "sub": "Tujuan: a1-u8-o4",
+      "options": [
+        "Ich erledige die Aufgabe vor der Pause.",
+        "Sesudah itu rapat dimulai.",
+        "Shift pagi saya mulai pukul enam.",
+        "Rekan kerja perempuan saya bekerja di departemen lain."
+      ],
+      "answer": "Ich erledige die Aufgabe vor der Pause.",
+      "wrongFeedback": {
+        "Sesudah itu rapat dimulai.": "Contoh materi \"Tugas sehari-hari\" adalah \"Ich erledige die Aufgabe vor der Pause.\", bukan \"Sesudah itu rapat dimulai.\".",
+        "Shift pagi saya mulai pukul enam.": "Contoh materi \"Tugas sehari-hari\" adalah \"Ich erledige die Aufgabe vor der Pause.\", bukan \"Shift pagi saya mulai pukul enam.\".",
+        "Rekan kerja perempuan saya bekerja di departemen lain.": "Contoh materi \"Tugas sehari-hari\" adalah \"Ich erledige die Aufgabe vor der Pause.\", bukan \"Rekan kerja perempuan saya bekerja di departemen lain.\"."
+      },
+      "explanation": "Ich erledige die Aufgabe vor der Pause. = Saya menyelesaikan tugas sebelum istirahat..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u9-l1-01",
+      "unit": 9,
+      "lesson": 1,
+      "objectiveId": "a1-u9-o1",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Keluhan dengan haben\".",
+      "sub": "Tujuan: a1-u9-o1",
+      "options": [
+        "Saudara laki-laki saya demam dan batuk.",
+        "Sejak kapan Anda sakit kepala?",
+        "Saya batuk sejak dua hari lalu.",
+        "Saya ingin janji pada sore hari."
+      ],
+      "answer": "Saudara laki-laki saya demam dan batuk.",
+      "wrongFeedback": {
+        "Sejak kapan Anda sakit kepala?": "Contoh \"Keluhan dengan haben\" berarti \"Saudara laki-laki saya demam dan batuk.\", bukan \"Sejak kapan Anda sakit kepala?\".",
+        "Saya batuk sejak dua hari lalu.": "Contoh \"Keluhan dengan haben\" berarti \"Saudara laki-laki saya demam dan batuk.\", bukan \"Saya batuk sejak dua hari lalu.\".",
+        "Saya ingin janji pada sore hari.": "Contoh \"Keluhan dengan haben\" berarti \"Saudara laki-laki saya demam dan batuk.\", bukan \"Saya ingin janji pada sore hari.\"."
+      },
+      "explanation": "Mein Bruder hat Fieber und Husten. = Saudara laki-laki saya demam dan batuk..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u9-l1-03",
+      "unit": 9,
+      "lesson": 1,
+      "objectiveId": "a1-u9-o2",
+      "code": "D1",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Keluhan dengan haben\".",
+      "sub": "Tujuan: a1-u9-o2",
+      "options": [
+        "Mein Bruder hat Fieber und Husten.",
+        "Saudara laki-laki saya demam dan batuk.",
+        "Sejak kapan Anda sakit kepala?",
+        "Saya batuk sejak dua hari lalu."
+      ],
+      "answer": "Mein Bruder hat Fieber und Husten.",
+      "wrongFeedback": {
+        "Saudara laki-laki saya demam dan batuk.": "Contoh materi \"Keluhan dengan haben\" adalah \"Mein Bruder hat Fieber und Husten.\", bukan \"Saudara laki-laki saya demam dan batuk.\".",
+        "Sejak kapan Anda sakit kepala?": "Contoh materi \"Keluhan dengan haben\" adalah \"Mein Bruder hat Fieber und Husten.\", bukan \"Sejak kapan Anda sakit kepala?\".",
+        "Saya batuk sejak dua hari lalu.": "Contoh materi \"Keluhan dengan haben\" adalah \"Mein Bruder hat Fieber und Husten.\", bukan \"Saya batuk sejak dua hari lalu.\"."
+      },
+      "explanation": "Mein Bruder hat Fieber und Husten. = Saudara laki-laki saya demam dan batuk..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u10-l1-01",
+      "unit": 10,
+      "lesson": 1,
+      "objectiveId": "a1-u10-o1",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"gern dan lieber\".",
+      "sub": "Tujuan: a1-u10-o1",
+      "options": [
+        "Di waktu luang saya paling suka memotret.",
+        "Pada hari Sabtu kami pergi berenang.",
+        "Saya suka kelas menari itu karena musiknya bagus.",
+        "Bagaimana kalau kita pergi ke kolam renang hari Sabtu?"
+      ],
+      "answer": "Di waktu luang saya paling suka memotret.",
+      "wrongFeedback": {
+        "Pada hari Sabtu kami pergi berenang.": "Contoh \"gern dan lieber\" berarti \"Di waktu luang saya paling suka memotret.\", bukan \"Pada hari Sabtu kami pergi berenang.\".",
+        "Saya suka kelas menari itu karena musiknya bagus.": "Contoh \"gern dan lieber\" berarti \"Di waktu luang saya paling suka memotret.\", bukan \"Saya suka kelas menari itu karena musiknya bagus.\".",
+        "Bagaimana kalau kita pergi ke kolam renang hari Sabtu?": "Contoh \"gern dan lieber\" berarti \"Di waktu luang saya paling suka memotret.\", bukan \"Bagaimana kalau kita pergi ke kolam renang hari Sabtu?\"."
+      },
+      "explanation": "In meiner Freizeit fotografiere ich am liebsten. = Di waktu luang saya paling suka memotret..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u10-l1-03",
+      "unit": 10,
+      "lesson": 1,
+      "objectiveId": "a1-u10-o2",
+      "code": "D2",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"gern dan lieber\".",
+      "sub": "Tujuan: a1-u10-o2",
+      "options": [
+        "In meiner Freizeit fotografiere ich am liebsten.",
+        "Di waktu luang saya paling suka memotret.",
+        "Pada hari Sabtu kami pergi berenang.",
+        "Saya suka kelas menari itu karena musiknya bagus."
+      ],
+      "answer": "In meiner Freizeit fotografiere ich am liebsten.",
+      "wrongFeedback": {
+        "Di waktu luang saya paling suka memotret.": "Contoh materi \"gern dan lieber\" adalah \"In meiner Freizeit fotografiere ich am liebsten.\", bukan \"Di waktu luang saya paling suka memotret.\".",
+        "Pada hari Sabtu kami pergi berenang.": "Contoh materi \"gern dan lieber\" adalah \"In meiner Freizeit fotografiere ich am liebsten.\", bukan \"Pada hari Sabtu kami pergi berenang.\".",
+        "Saya suka kelas menari itu karena musiknya bagus.": "Contoh materi \"gern dan lieber\" adalah \"In meiner Freizeit fotografiere ich am liebsten.\", bukan \"Saya suka kelas menari itu karena musiknya bagus.\"."
+      },
+      "explanation": "In meiner Freizeit fotografiere ich am liebsten. = Di waktu luang saya paling suka memotret..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u10-l3-01",
+      "unit": 10,
+      "lesson": 3,
+      "objectiveId": "a1-u10-o5",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Menjadi anggota\".",
+      "sub": "Tujuan: a1-u10-o5",
+      "options": [
+        "Saudara laki-laki saya anggota klub catur.",
+        "Di waktu luang saya paling suka memotret.",
+        "Pada hari Sabtu kami pergi berenang.",
+        "Saya suka kelas menari itu karena musiknya bagus."
+      ],
+      "answer": "Saudara laki-laki saya anggota klub catur.",
+      "wrongFeedback": {
+        "Di waktu luang saya paling suka memotret.": "Contoh \"Menjadi anggota\" berarti \"Saudara laki-laki saya anggota klub catur.\", bukan \"Di waktu luang saya paling suka memotret.\".",
+        "Pada hari Sabtu kami pergi berenang.": "Contoh \"Menjadi anggota\" berarti \"Saudara laki-laki saya anggota klub catur.\", bukan \"Pada hari Sabtu kami pergi berenang.\".",
+        "Saya suka kelas menari itu karena musiknya bagus.": "Contoh \"Menjadi anggota\" berarti \"Saudara laki-laki saya anggota klub catur.\", bukan \"Saya suka kelas menari itu karena musiknya bagus.\"."
+      },
+      "explanation": "Mein Bruder ist Mitglied im Schachverein. = Saudara laki-laki saya anggota klub catur..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u10-l3-03",
+      "unit": 10,
+      "lesson": 3,
+      "objectiveId": "a1-u10-o5",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Menjadi anggota\".",
+      "sub": "Tujuan: a1-u10-o5",
+      "options": [
+        "Mein Bruder ist Mitglied im Schachverein.",
+        "Di waktu luang saya paling suka memotret.",
+        "Pada hari Sabtu kami pergi berenang.",
+        "Saya suka kelas menari itu karena musiknya bagus."
+      ],
+      "answer": "Mein Bruder ist Mitglied im Schachverein.",
+      "wrongFeedback": {
+        "Di waktu luang saya paling suka memotret.": "Contoh materi \"Menjadi anggota\" adalah \"Mein Bruder ist Mitglied im Schachverein.\", bukan \"Di waktu luang saya paling suka memotret.\".",
+        "Pada hari Sabtu kami pergi berenang.": "Contoh materi \"Menjadi anggota\" adalah \"Mein Bruder ist Mitglied im Schachverein.\", bukan \"Pada hari Sabtu kami pergi berenang.\".",
+        "Saya suka kelas menari itu karena musiknya bagus.": "Contoh materi \"Menjadi anggota\" adalah \"Mein Bruder ist Mitglied im Schachverein.\", bukan \"Saya suka kelas menari itu karena musiknya bagus.\"."
+      },
+      "explanation": "Mein Bruder ist Mitglied im Schachverein. = Saudara laki-laki saya anggota klub catur..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u12-l2-01",
+      "unit": 12,
+      "lesson": 2,
+      "objectiveId": "a1-u12-o3",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Memulai percakapan telepon\".",
+      "sub": "Tujuan: a1-u12-o3",
+      "options": [
+        "Selamat siang, ini Rani.",
+        "Saya ingin mengundangmu makan.",
+        "Apakah kita bertemu hari Jumat pukul enam?",
+        "Terima kasih atas undangannya. Saya senang datang."
+      ],
+      "answer": "Selamat siang, ini Rani.",
+      "wrongFeedback": {
+        "Saya ingin mengundangmu makan.": "Contoh \"Memulai percakapan telepon\" berarti \"Selamat siang, ini Rani.\", bukan \"Saya ingin mengundangmu makan.\".",
+        "Apakah kita bertemu hari Jumat pukul enam?": "Contoh \"Memulai percakapan telepon\" berarti \"Selamat siang, ini Rani.\", bukan \"Apakah kita bertemu hari Jumat pukul enam?\".",
+        "Terima kasih atas undangannya. Saya senang datang.": "Contoh \"Memulai percakapan telepon\" berarti \"Selamat siang, ini Rani.\", bukan \"Terima kasih atas undangannya. Saya senang datang.\"."
+      },
+      "explanation": "Guten Tag, hier ist Rani. = Selamat siang, ini Rani..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u12-l2-03",
+      "unit": 12,
+      "lesson": 2,
+      "objectiveId": "a1-u12-o4",
+      "code": "D3",
+      "mode": "choice",
+      "prompt": "Pilih contoh kalimat Jerman dari materi \"Memulai percakapan telepon\".",
+      "sub": "Tujuan: a1-u12-o4",
+      "options": [
+        "Guten Tag, hier ist Rani.",
+        "Saya ingin mengundangmu makan.",
+        "Apakah kita bertemu hari Jumat pukul enam?",
+        "Terima kasih atas undangannya. Saya senang datang."
+      ],
+      "answer": "Guten Tag, hier ist Rani.",
+      "wrongFeedback": {
+        "Saya ingin mengundangmu makan.": "Contoh materi \"Memulai percakapan telepon\" adalah \"Guten Tag, hier ist Rani.\", bukan \"Saya ingin mengundangmu makan.\".",
+        "Apakah kita bertemu hari Jumat pukul enam?": "Contoh materi \"Memulai percakapan telepon\" adalah \"Guten Tag, hier ist Rani.\", bukan \"Apakah kita bertemu hari Jumat pukul enam?\".",
+        "Terima kasih atas undangannya. Saya senang datang.": "Contoh materi \"Memulai percakapan telepon\" adalah \"Guten Tag, hier ist Rani.\", bukan \"Terima kasih atas undangannya. Saya senang datang.\"."
+      },
+      "explanation": "Guten Tag, hier ist Rani. = Selamat siang, ini Rani..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "a1_objectives.json"
+    },
+    {
+      "id": "tr-u101-l1-01",
+      "unit": 101,
+      "lesson": 1,
+      "objectiveId": "a2-u101-g1",
+      "code": "D4",
+      "mode": "choice",
+      "prompt": "Pilih terjemahan contoh dari materi \"Perfekt dengan haben\".",
+      "sub": "Kisi-kisi unit.goals: Mendeskripsikan rumah dan apartemen",
+      "options": [
+        "Kami sudah menyewa sebuah apartemen.",
+        "Kucingnya ada di balkon.",
+        "Uang sewanya lebih tinggi dari tahun lalu.",
+        "Balkonnya besar."
+      ],
+      "answer": "Kami sudah menyewa sebuah apartemen.",
+      "wrongFeedback": {
+        "Kucingnya ada di balkon.": "Contoh \"Perfekt dengan haben\" berarti \"Kami sudah menyewa sebuah apartemen.\", bukan \"Kucingnya ada di balkon.\".",
+        "Uang sewanya lebih tinggi dari tahun lalu.": "Contoh \"Perfekt dengan haben\" berarti \"Kami sudah menyewa sebuah apartemen.\", bukan \"Uang sewanya lebih tinggi dari tahun lalu.\".",
+        "Balkonnya besar.": "Contoh \"Perfekt dengan haben\" berarti \"Kami sudah menyewa sebuah apartemen.\", bukan \"Balkonnya besar.\"."
+      },
+      "explanation": "Wir haben eine Wohnung gemietet. = Kami sudah menyewa sebuah apartemen..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "units_a2.json#unit.goals"
+    },
+    {
+      "id": "tr-u101-l1-02",
+      "unit": 101,
+      "lesson": 1,
+      "objectiveId": "a2-u101-g2",
+      "code": "D1",
+      "mode": "type",
+      "prompt": "Lengkapi contoh materi: Wir haben eine ___ gemietet.",
+      "sub": "Ketik kata Jerman yang tepat. Kami sudah menyewa sebuah apartemen.",
+      "answer": "Wohnung",
+      "hintOnWrong": "Kata yang dicari adalah \"Wohnung\".",
+      "explanation": "Wohnung — Kami sudah menyewa sebuah apartemen..",
+      "source": "bank",
+      "sourceFile": "src/klab/learning/transferBank.json",
+      "kisi": "units_a2.json#unit.goals"
+    }
+  ],
+  "similar": {
+    "lp-u4-l2-01": [
+      {
+        "id": "sim-u4-l2-01-a",
+        "unit": 4,
+        "lesson": 2,
+        "objectiveId": "a1-u4-o3",
+        "code": "D3",
+        "mode": "choice",
+        "prompt": "Pilih artikel Akkusativ: Ich möchte ___ Apfelsaft, bitte.",
+        "sub": "Pilih bentuk yang tepat untuk Apfelsaft (maskulin).",
+        "options": [
+          "einen",
+          "ein",
+          "eine",
+          "der"
+        ],
+        "answer": "einen",
+        "wrongFeedback": {
+          "ein": "Apfelsaft maskulin setelah möchte memakai einen, bukan ein.",
+          "eine": "eine dipakai untuk kata feminin; Apfelsaft maskulin.",
+          "der": "der adalah Nominativ; sebagai objek setelah möchte pakai einen."
+        },
+        "explanation": "möchte + Akkusativ: der Apfelsaft menjadi einen Apfelsaft.",
+        "source": "bank",
+        "sourceFile": "src/klab/learning/transferBank.json"
+      },
+      {
+        "id": "sim-u4-l2-01-b",
+        "unit": 4,
+        "lesson": 2,
+        "objectiveId": "a1-u4-o3",
+        "code": "D3",
+        "mode": "choice",
+        "prompt": "Pilih artikel Akkusativ: Ich möchte ___ Tee, bitte.",
+        "sub": "Pilih bentuk yang tepat untuk Tee (maskulin).",
+        "options": [
+          "einen",
+          "ein",
+          "eine",
+          "der"
+        ],
+        "answer": "einen",
+        "wrongFeedback": {
+          "ein": "Tee maskulin setelah möchte memakai einen.",
+          "eine": "eine untuk feminin; Tee maskulin.",
+          "der": "der Nominativ; objek setelah möchte memakai einen."
+        },
+        "explanation": "möchte + Akkusativ: der Tee menjadi einen Tee.",
+        "source": "bank",
+        "sourceFile": "src/klab/learning/transferBank.json"
+      }
+    ],
+    "lp-u4-l2-02": [
+      {
+        "id": "sim-u4-l2-02-a",
+        "unit": 4,
+        "lesson": 2,
+        "objectiveId": "a1-u4-o4",
+        "code": "D4",
+        "mode": "choice",
+        "prompt": "Pilih jawaban yang tepat: Zusammen oder ___?",
+        "sub": "Pilih kata untuk pembayaran terpisah.",
+        "options": [
+          "getrennt",
+          "zusammen",
+          "einzeln",
+          "getrent"
+        ],
+        "answer": "getrennt",
+        "wrongFeedback": {
+          "zusammen": "zusammen berarti bersama; yang dicari adalah terpisah.",
+          "einzeln": "einzeln berarti satu per satu, bukan istilah pembayaran.",
+          "getrent": "Ejaan getrent tidak benar; tulis getrennt."
+        },
+        "explanation": "Zusammen oder getrennt? berarti bersama atau terpisah.",
+        "source": "bank",
+        "sourceFile": "src/klab/learning/transferBank.json"
+      }
+    ]
+  }
+}

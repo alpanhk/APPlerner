@@ -1,0 +1,202 @@
+{
+  "id": "dialog-01",
+  "title": "Hallo, ich bin Anna",
+  "textId": 1,
+  "level": "A1",
+  "tags": "seed · unit 1 · perkenalan",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "cafe": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "tasse_kaffee": {
+        "kind": "prop"
+      },
+      "kuchen": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Hallo! Ich heiße Anna.",
+      "id": "Halo! Nama saya Anna.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ich komme aus Indonesien.",
+      "id": "Saya berasal dari Indonesia.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Ich wohne in Berlin.",
+      "id": "Saya tinggal di Berlin.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Das ist mein Freund Budi.",
+      "id": "Ini teman saya Budi.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Er kommt aus Bandung.",
+      "id": "Dia berasal dari Bandung.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Wir lernen Deutsch.",
+      "id": "Kami belajar bahasa Jerman.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "Hallo! Ich heiße Anna.",
+      "id": "Halo! Nama saya Anna.",
+      "pose": "reply",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_038.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Ich komme aus Indonesien.",
+      "id": "Saya berasal dari Indonesia.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_048.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Ich wohne in Berlin.",
+      "id": "Saya tinggal di Berlin.",
+      "pose": "order",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_example_069.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Das ist mein Freund Budi.",
+      "id": "Ini teman saya Budi.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "kuchen"
+      ],
+      "audio": "a1_text_015.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "ich",
+      "de": "Er kommt aus Bandung.",
+      "id": "Dia berasal dari Bandung.",
+      "pose": "calm",
+      "backgroundId": "cafe",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_033.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Wir lernen Deutsch.",
+      "id": "Kami belajar bahasa Jerman.",
+      "pose": "offscreen",
+      "backgroundId": "cafe",
+      "propIds": [
+        "tasse_kaffee"
+      ],
+      "audio": "a1_text_094.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

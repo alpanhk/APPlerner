@@ -1,0 +1,229 @@
+{
+  "unit": 207,
+  "level": "B1",
+  "theme": "Gesellschaft & Zusammenleben",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Gesellschaft",
+      "article": "die",
+      "plural": "die Gesellschaften",
+      "meaning_id": "masyarakat",
+      "example_de": "Die Gesellschaft verändert sich.",
+      "example_id": "Masyarakat berubah.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Generation",
+      "article": "die",
+      "plural": "die Generationen",
+      "meaning_id": "generasi",
+      "example_de": "Die junge Generation denkt anders.",
+      "example_id": "Generasi muda berpikir berbeda.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Integration",
+      "article": "die",
+      "plural": "die Integrationen",
+      "meaning_id": "integrasi",
+      "example_de": "Integration braucht Zeit.",
+      "example_id": "Integrasi butuh waktu.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Migration",
+      "article": "die",
+      "plural": "die Migrationen",
+      "meaning_id": "migrasi",
+      "example_de": "Migration prägt viele Städte.",
+      "example_id": "Migrasi membentuk banyak kota.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorurteil",
+      "article": "das",
+      "plural": "die Vorurteile",
+      "meaning_id": "prasangka",
+      "example_de": "Vorurteile entstehen oft aus Unwissenheit.",
+      "example_id": "Prasangka sering muncul dari ketidaktahuan.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Toleranz",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "toleransi",
+      "example_de": "Toleranz ist wichtig.",
+      "example_id": "Toleransi itu penting.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Konflikt",
+      "article": "der",
+      "plural": "die Konflikte",
+      "meaning_id": "konflik",
+      "example_de": "Der Konflikt wurde gelöst.",
+      "example_id": "Konfliknya terselesaikan.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Lösung",
+      "article": "die",
+      "plural": "die Lösungen",
+      "meaning_id": "solusi",
+      "example_de": "Wir brauchen eine Lösung.",
+      "example_id": "Kami butuh solusi.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Kompromiss",
+      "article": "der",
+      "plural": "die Kompromisse",
+      "meaning_id": "kompromi",
+      "example_de": "Ein Kompromiss ist oft nötig.",
+      "example_id": "Kompromi sering diperlukan.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "verb",
+      "de": "respektieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghormati",
+      "example_de": "Wir respektieren andere Meinungen.",
+      "example_id": "Kami menghormati pendapat lain.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "verb",
+      "de": "zusammenarbeiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bekerja sama",
+      "example_de": "Die Vereine arbeiten zusammen.",
+      "example_id": "Klub-klub bekerja sama.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "adj",
+      "de": "sozial",
+      "article": null,
+      "plural": null,
+      "meaning_id": "sosial",
+      "example_de": "Soziale Projekte helfen.",
+      "example_id": "Proyek sosial membantu.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Solidarität",
+      "article": "die",
+      "plural": "die Solidaritäten",
+      "meaning_id": "solidaritas",
+      "example_de": "Solidarität ist wichtig.",
+      "example_id": "Solidaritas itu penting.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Diskriminierung",
+      "article": "die",
+      "plural": "die Diskriminierungen",
+      "meaning_id": "diskriminasi",
+      "example_de": "Diskriminierung ist verboten.",
+      "example_id": "Diskriminasi dilarang.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Zuwanderung",
+      "article": "die",
+      "plural": "die Zuwanderungen",
+      "meaning_id": "imigrasi",
+      "example_de": "Zuwanderung verändert Städte.",
+      "example_id": "Imigrasi mengubah kota.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Ehrenamt",
+      "article": "das",
+      "plural": "die Ehrenämter",
+      "meaning_id": "kerja sukarela",
+      "example_de": "Sie macht ein Ehrenamt.",
+      "example_id": "Dia melakukan kerja sukarela.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Teilhabe",
+      "article": "die",
+      "plural": "die Teilhaben",
+      "meaning_id": "partisipasi",
+      "example_de": "Teilhabe braucht Angebote.",
+      "example_id": "Partisipasi butuh program.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Bürgerinitiative",
+      "article": "die",
+      "plural": "die Bürgerinitiativen",
+      "meaning_id": "inisiatif warga",
+      "example_de": "Die Bürgerinitiative protestiert.",
+      "example_id": "Inisiatif warga memprotes.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Chancengleichheit",
+      "article": "die",
+      "plural": "die Chancengleichheiten",
+      "meaning_id": "kesetaraan kesempatan",
+      "example_de": "Chancengleichheit ist ein Ziel.",
+      "example_id": "Kesetaraan kesempatan adalah tujuan.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Altersarmut",
+      "article": "die",
+      "plural": "die Altersarmuten",
+      "meaning_id": "kemiskinan lansia",
+      "example_de": "Altersarmut nimmt zu.",
+      "example_id": "Kemiskinan lansia meningkat.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Vereinsleben",
+      "article": "das",
+      "plural": "die Vereinsleben",
+      "meaning_id": "kehidupan klub",
+      "example_de": "Das Vereinsleben ist aktiv.",
+      "example_id": "Kehidupan klubnya aktif.",
+      "tags": "b1,unit7,gesellschaft"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachbarschaftshilfe",
+      "article": "die",
+      "plural": "die Nachbarschaftshilfen",
+      "meaning_id": "bantuan tetangga",
+      "example_de": "Nachbarschaftshilfe ist wichtig.",
+      "example_id": "Bantuan tetangga itu penting.",
+      "tags": "b1,unit7,gesellschaft"
+    }
+  ]
+}

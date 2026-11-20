@@ -1,0 +1,159 @@
+{
+  "unit": 6,
+  "level": "A1",
+  "theme": "Rumah & tempat tinggal",
+  "source": "Materi orisinal beracuan Goethe A1; pemetaan Studio D menunggu sumber lengkap",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Gardine",
+      "article": "die",
+      "plural": "die Gardinen",
+      "meaning_id": "gorden",
+      "example_de": "Das ist die Gardine.",
+      "example_id": "Ini gorden.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Wäschetrockner",
+      "article": "der",
+      "plural": "die Wäschetrockner",
+      "meaning_id": "mesin pengering pakaian",
+      "example_de": "Das ist der Wäschetrockner.",
+      "example_id": "Ini mesin pengering pakaian.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Steckdose",
+      "article": "die",
+      "plural": "die Steckdosen",
+      "meaning_id": "stopkontak",
+      "example_de": "Das ist die Steckdose.",
+      "example_id": "Ini stopkontak.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Dachboden",
+      "article": "der",
+      "plural": "die Dachböden",
+      "meaning_id": "loteng",
+      "example_de": "Das ist der Dachboden.",
+      "example_id": "Ini loteng.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Keller",
+      "article": "der",
+      "plural": "die Keller",
+      "meaning_id": "ruang bawah tanah",
+      "example_de": "Das ist der Keller.",
+      "example_id": "Ini ruang bawah tanah.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Heizkörper",
+      "article": "der",
+      "plural": "die Heizkörper",
+      "meaning_id": "radiator",
+      "example_de": "Das ist der Heizkörper.",
+      "example_id": "Ini radiator.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Möbelstück",
+      "article": "das",
+      "plural": "die Möbelstücke",
+      "meaning_id": "perabot",
+      "example_de": "Das ist das Möbelstück.",
+      "example_id": "Ini perabot.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Spülmaschine",
+      "article": "die",
+      "plural": "die Spülmaschinen",
+      "meaning_id": "mesin pencuci piring",
+      "example_de": "Das ist die Spülmaschine.",
+      "example_id": "Ini mesin pencuci piring.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Türschloss",
+      "article": "das",
+      "plural": "die Türschlösser",
+      "meaning_id": "kunci pintu",
+      "example_de": "Das ist das Türschloss.",
+      "example_id": "Ini kunci pintu.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Türmatte",
+      "article": "die",
+      "plural": "die Türmatten",
+      "meaning_id": "keset",
+      "example_de": "Das ist die Türmatte.",
+      "example_id": "Ini keset.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Bücherregal",
+      "article": "das",
+      "plural": "die Bücherregale",
+      "meaning_id": "rak buku",
+      "example_de": "Das ist das Bücherregal.",
+      "example_id": "Ini rak buku.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Sessel",
+      "article": "der",
+      "plural": "die Sessel",
+      "meaning_id": "kursi berlengan",
+      "example_de": "Das ist der Sessel.",
+      "example_id": "Ini kursi berlengan.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Matratze",
+      "article": "die",
+      "plural": "die Matratzen",
+      "meaning_id": "kasur",
+      "example_de": "Das ist die Matratze.",
+      "example_id": "Ini kasur.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Fußboden",
+      "article": "der",
+      "plural": "die Fußböden",
+      "meaning_id": "lantai",
+      "example_de": "Das ist der Fußboden.",
+      "example_id": "Ini lantai.",
+      "tags": "a1,unit6,rumah"
+    },
+    {
+      "kind": "noun",
+      "de": "Rollladen",
+      "article": "der",
+      "plural": "die Rollläden",
+      "meaning_id": "kerai gulung",
+      "example_de": "Das ist der Rollladen.",
+      "example_id": "Ini kerai gulung.",
+      "tags": "a1,unit6,rumah"
+    }
+  ]
+}

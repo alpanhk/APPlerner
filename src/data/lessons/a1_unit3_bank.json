@@ -1,0 +1,368 @@
+{
+  "level": "A1",
+  "unit": 3,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 3. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u3-o1-01",
+      "objectiveId": "a1-u3-o1",
+      "code": "D1",
+      "prompt": "___ Onkel heißt Sari.",
+      "sub": "Pilih artikel yang benar (keluarga extended).",
+      "mode": "choice",
+      "options": ["Der", "Die", "Das", "Den"],
+      "answer": "Der",
+      "wrongFeedback": {
+        "Die": "Die dipakai untuk feminin atau plural; Onkel maskulin.",
+        "Das": "Das dipakai untuk netral; Onkel maskulin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Onkel menjadi subjek nominatif."
+      },
+      "explanation": "der Onkel. Artikel harus dihafal bersama katanya."
+    },
+    {
+      "id": "u3-o1-02",
+      "objectiveId": "a1-u3-o1",
+      "code": "D1",
+      "prompt": "___ Vater arbeitet in Bandung.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Der", "Die", "Das", "Den"],
+      "answer": "Der",
+      "wrongFeedback": {
+        "Die": "Die dipakai untuk kata feminin atau jamak; Vater maskulin.",
+        "Das": "Das dipakai untuk kata netral; Vater maskulin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Vater menjadi subjek nominatif."
+      },
+      "explanation": "der Vater. Kata Vater selalu maskulin."
+    },
+    {
+      "id": "u3-o1-03",
+      "objectiveId": "a1-u3-o1",
+      "code": "D1",
+      "prompt": "Artikel yang tepat untuk 'Kind' adalah ...",
+      "sub": "Pilih artikel nominatif.",
+      "mode": "choice",
+      "options": ["das", "der", "die", "den"],
+      "answer": "das",
+      "wrongFeedback": {
+        "der": "der dipakai untuk kata maskulin; Kind netral.",
+        "die": "die dipakai untuk kata feminin atau jamak; Kind netral.",
+        "den": "den adalah bentuk Akkusativ maskulin; Kind netral nominatif."
+      },
+      "explanation": "das Kind. Bentuk jamaknya die Kinder."
+    },
+    {
+      "id": "u3-o1-04",
+      "objectiveId": "a1-u3-o1",
+      "code": "D1",
+      "prompt": "Tulis kata Jerman untuk 'orang tua' (jamak) dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Eltern",
+      "altAnswers": ["Eltern"],
+      "hintOnWrong": "Orang tua selalu jamak: die Eltern. Tidak ada bentuk tunggal yang dipakai sehari-hari.",
+      "explanation": "die Eltern berarti 'orang tua' (ayah dan ibu)."
+    },
+    {
+      "id": "u3-o1-05",
+      "objectiveId": "a1-u3-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Itu saudara perempuan saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Das", "ist", "meine", "Schwester."],
+      "answer": "Das ist meine Schwester.",
+      "hintOnWrong": "Mulai dengan Das ist, lalu meine, lalu Schwester.",
+      "explanation": "Das ist meine Schwester. berarti 'Itu saudara perempuan saya'."
+    },
+    {
+      "id": "u3-o2-01",
+      "objectiveId": "a1-u3-o2",
+      "code": "D1",
+      "prompt": "___ Bruder heißt Andi.",
+      "sub": "Pilih possessiv yang sesuai untuk Bruder.",
+      "mode": "choice",
+      "options": ["Mein", "Meine", "Meinen", "Meiner"],
+      "answer": "Mein",
+      "wrongFeedback": {
+        "Meine": "Meine dipakai untuk kata feminin atau jamak; Bruder maskulin.",
+        "Meinen": "Meinen adalah bentuk Akkusativ maskulin; di sini Bruder menjadi subjek nominatif.",
+        "Meiner": "Meiner adalah bentuk Dativ feminin atau Genitiv; bukan nominatif maskulin."
+      },
+      "explanation": "Bruder maskulin, jadi possessiv nominatifnya mein: Mein Bruder heißt Andi."
+    },
+    {
+      "id": "u3-o2-02",
+      "objectiveId": "a1-u3-o2",
+      "code": "D1",
+      "prompt": "___ Schwester wohnt in Berlin.",
+      "sub": "Pilih possessiv yang sesuai untuk Schwester.",
+      "mode": "choice",
+      "options": ["Meine", "Mein", "Meinen", "Meiner"],
+      "answer": "Meine",
+      "wrongFeedback": {
+        "Mein": "Mein dipakai untuk kata maskulin atau netral; Schwester feminin.",
+        "Meinen": "Meinen adalah bentuk Akkusativ maskulin; Schwester feminin nominatif.",
+        "Meiner": "Meiner adalah bentuk Dativ feminin atau Genitiv; kalimat ini membutuhkan nominatif."
+      },
+      "explanation": "Schwester feminin, jadi possessiv nominatifnya meine: Meine Schwester wohnt in Berlin."
+    },
+    {
+      "id": "u3-o2-03",
+      "objectiveId": "a1-u3-o2",
+      "code": "D1",
+      "prompt": "___ Eltern kommen heute.",
+      "sub": "Perhatikan bentuk jamak.",
+      "mode": "choice",
+      "options": ["Meine", "Mein", "Meinen", "Meiner"],
+      "answer": "Meine",
+      "wrongFeedback": {
+        "Mein": "Mein dipakai untuk kata tunggal maskulin atau netral; Eltern jamak.",
+        "Meinen": "Meinen dipakai untuk objek maskulin Akkusativ; di sini Eltern menjadi subjek.",
+        "Meiner": "Meiner adalah bentuk Dativ feminin atau Genitiv; bukan nominatif jamak."
+      },
+      "explanation": "Eltern jamak, jadi possessiv nominatifnya meine: Meine Eltern kommen heute."
+    },
+    {
+      "id": "u3-o2-04",
+      "objectiveId": "a1-u3-o2",
+      "code": "D3",
+      "prompt": "Tulis 'nenek saya' dalam bentuk nominatif.",
+      "sub": "Ketik dua kata.",
+      "mode": "type",
+      "answer": "meine Großmutter",
+      "altAnswers": ["Meine Großmutter"],
+      "hintOnWrong": "Großmutter feminin, jadi possessivnya meine: meine Großmutter.",
+      "explanation": "meine Großmutter berarti 'nenek saya'."
+    },
+    {
+      "id": "u3-o2-05",
+      "objectiveId": "a1-u3-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Saudara laki-laki saya seorang mahasiswa.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Mein", "Bruder", "ist", "Student."],
+      "answer": "Mein Bruder ist Student.",
+      "hintOnWrong": "Mulai dengan Mein Bruder, lalu kata kerja ist, lalu Student.",
+      "explanation": "Mein Bruder ist Student. Kata kerja finit berada di posisi kedua."
+    },
+    {
+      "id": "u3-o3-01",
+      "objectiveId": "a1-u3-o3",
+      "code": "D3",
+      "prompt": "___ Geschwister hast du?",
+      "sub": "Pilih pertanyaan jumlah yang benar.",
+      "mode": "choice",
+      "options": ["Wie viele", "Wie viel", "Wie alt", "Wo"],
+      "answer": "Wie viele",
+      "wrongFeedback": {
+        "Wie viel": "Wie viel dipakai untuk hal yang tidak dihitung satu per satu; Geschwister dihitung.",
+        "Wie alt": "Wie alt menanyakan umur, bukan jumlah.",
+        "Wo": "Wo menanyakan tempat, bukan jumlah."
+      },
+      "explanation": "Wie viele Geschwister hast du? berarti 'Berapa saudaramu?'."
+    },
+    {
+      "id": "u3-o3-02",
+      "objectiveId": "a1-u3-o3",
+      "code": "D4",
+      "prompt": "Ich habe ___ Bruder.",
+      "sub": "Pilih artikel Akkusativ untuk Bruder.",
+      "mode": "choice",
+      "options": ["einen", "ein", "eine", "einer"],
+      "answer": "einen",
+      "wrongFeedback": {
+        "ein": "ein adalah bentuk nominatif maskulin/netral; setelah haben objeknya Akkusativ.",
+        "eine": "eine dipakai untuk kata feminin; Bruder maskulin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "Bruder maskulin dan menjadi objek haben, jadi Akkusativ: einen Bruder."
+    },
+    {
+      "id": "u3-o3-03",
+      "objectiveId": "a1-u3-o3",
+      "code": "D4",
+      "prompt": "Ich habe ___ Schwester.",
+      "sub": "Pilih artikel Akkusativ untuk Schwester.",
+      "mode": "choice",
+      "options": ["eine", "einen", "ein", "einer"],
+      "answer": "eine",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Schwester feminin.",
+        "ein": "ein dipakai untuk kata netral atau nominatif maskulin; Schwester feminin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ."
+      },
+      "explanation": "Schwester feminin; bentuk Akkusativ feminin tetap eine: eine Schwester."
+    },
+    {
+      "id": "u3-o3-04",
+      "objectiveId": "a1-u3-o3",
+      "code": "D2",
+      "prompt": "Lengkapi: Wir haben zwei ___ . (anak)",
+      "sub": "Ketik bentuk jamak dari Kind.",
+      "mode": "type",
+      "answer": "Kinder",
+      "altAnswers": ["kinder"],
+      "hintOnWrong": "Plural das Kind adalah die Kinder. Setelah angka dua, dipakai bentuk jamak Kinder.",
+      "explanation": "Wir haben zwei Kinder. berarti 'Kami punya dua anak'."
+    },
+    {
+      "id": "u3-o3-05",
+      "objectiveId": "a1-u3-o3",
+      "code": "D6",
+      "prompt": "Susun pertanyaan formal: 'Berapa saudara Anda?'",
+      "sub": "Tap kata untuk menyusun pertanyaan.",
+      "mode": "order",
+      "tokens": ["Wie", "viele", "Geschwister", "haben", "Sie?"],
+      "answer": "Wie viele Geschwister haben Sie?",
+      "hintOnWrong": "Mulai dengan Wie viele, lalu Geschwister, lalu haben Sie.",
+      "explanation": "Wie viele Geschwister haben Sie? adalah pertanyaan formal tentang jumlah saudara."
+    },
+    {
+      "id": "u3-o4-01",
+      "objectiveId": "a1-u3-o4",
+      "code": "D1",
+      "prompt": "Kata Jerman untuk status 'sudah menikah' adalah ...",
+      "sub": "Pilih status pernikahan yang benar.",
+      "mode": "choice",
+      "options": ["verheiratet", "ledig", "geschieden", "zusammen"],
+      "answer": "verheiratet",
+      "wrongFeedback": {
+        "ledig": "ledig berarti 'belum menikah', bukan 'sudah menikah'.",
+        "geschieden": "geschieden berarti 'bercerai', bukan 'sudah menikah'.",
+        "zusammen": "zusammen berarti 'bersama', bukan status pernikahan."
+      },
+      "explanation": "verheiratet = sudah menikah."
+    },
+    {
+      "id": "u3-o4-02",
+      "objectiveId": "a1-u3-o4",
+      "code": "D3",
+      "prompt": "Sind Sie verheiratet? — Nein, ich war noch nie verheiratet. Ich bin ___ .",
+      "sub": "Pilih status yang sesuai dengan pernyataan 'belum pernah menikah'.",
+      "mode": "choice",
+      "options": ["ledig", "verheiratet", "geschieden", "zusammen"],
+      "answer": "ledig",
+      "wrongFeedback": {
+        "verheiratet": "Jawaban Nein menolak 'menikah', jadi verheiratet bertentangan.",
+        "geschieden": "geschieden berarti sudah menikah lalu bercerai; kalimat menyatakan belum pernah menikah.",
+        "zusammen": "zusammen bukan status pernikahan dan tidak menjawab pertanyaan."
+      },
+      "explanation": "Sind Sie verheiratet? — Nein, ich war noch nie verheiratet. Ich bin ledig. berarti 'Apakah Anda menikah? — Tidak, saya belum pernah menikah. Saya belum menikah'."
+    },
+    {
+      "id": "u3-o4-03",
+      "objectiveId": "a1-u3-o4",
+      "code": "D3",
+      "prompt": "Mein Partner und ich wohnen ___ .",
+      "sub": "Pilih kata yang berarti 'bersama'.",
+      "mode": "choice",
+      "options": ["zusammen", "ledig", "verheiratet", "geschieden"],
+      "answer": "zusammen",
+      "wrongFeedback": {
+        "ledig": "ledig adalah status 'belum menikah', bukan cara tinggal.",
+        "verheiratet": "verheiratet adalah status 'menikah', bukan 'bersama'.",
+        "geschieden": "geschieden adalah status 'bercerai', bukan 'bersama'."
+      },
+      "explanation": "zusammen wohnen = tinggal bersama."
+    },
+    {
+      "id": "u3-o4-04",
+      "objectiveId": "a1-u3-o4",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'bercerai' (status pernikahan).",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "geschieden",
+      "altAnswers": ["Geschieden"],
+      "hintOnWrong": "Status 'bercerai' adalah geschieden; bedakan dari ledig (belum menikah).",
+      "explanation": "geschieden = bercerai."
+    },
+    {
+      "id": "u3-o4-05",
+      "objectiveId": "a1-u3-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Orang tua saya tinggal bersama di Bandung.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Meine", "Eltern", "wohnen", "zusammen", "in", "Bandung."],
+      "answer": "Meine Eltern wohnen zusammen in Bandung.",
+      "hintOnWrong": "Eltern jamak, kata kerjanya wohnen; zusammen berarti 'bersama'.",
+      "explanation": "Meine Eltern wohnen zusammen in Bandung. zusammen wohnen = tinggal bersama."
+    },
+    {
+      "id": "u3-o5-01",
+      "objectiveId": "a1-u3-o5",
+      "code": "D1",
+      "prompt": "Wie heißt ___ Bruder? (kamu)",
+      "sub": "Pilih possessiv untuk pemilik 'kamu'.",
+      "mode": "choice",
+      "options": ["dein", "deine", "deinen", "deiner"],
+      "answer": "dein",
+      "wrongFeedback": {
+        "deine": "deine dipakai untuk kata feminin atau jamak; Bruder maskulin.",
+        "deinen": "deinen adalah bentuk Akkusativ maskulin; di sini Bruder menjadi subjek nominatif.",
+        "deiner": "deiner adalah bentuk Dativ feminin atau Genitiv; bukan nominatif maskulin."
+      },
+      "explanation": "Bruder maskulin nominatif, jadi possessiv untuk 'kamu' adalah dein: dein Bruder."
+    },
+    {
+      "id": "u3-o5-02",
+      "objectiveId": "a1-u3-o5",
+      "code": "D1",
+      "prompt": "Ich besuche ___ Bruder. (dia laki-laki)",
+      "sub": "Pilih possessiv Akkusativ maskulin untuk pemilik laki-laki.",
+      "mode": "choice",
+      "options": ["seinen", "sein", "seine", "seiner"],
+      "answer": "seinen",
+      "wrongFeedback": {
+        "sein": "sein adalah bentuk nominatif maskulin/netral; setelah besuchen objeknya Akkusativ.",
+        "seine": "seine dipakai untuk feminin atau jamak; Bruder maskulin tunggal.",
+        "seiner": "seiner adalah bentuk Dativ feminin atau Genitiv; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "besuchen + Akkusativ; Bruder maskulin → seinen Bruder."
+    },
+    {
+      "id": "u3-o5-03",
+      "objectiveId": "a1-u3-o5",
+      "code": "D4",
+      "prompt": "Ich besuche ___ Onkel. (kamu)",
+      "sub": "Pilih bentuk Akkusativ setelah besuchen untuk pemilik 'kamu'.",
+      "mode": "choice",
+      "options": ["deinen", "dein", "deine", "deiner"],
+      "answer": "deinen",
+      "wrongFeedback": {
+        "dein": "dein adalah bentuk nominatif maskulin/netral; setelah besuchen objeknya Akkusativ.",
+        "deine": "deine dipakai untuk feminin atau jamak; Onkel maskulin.",
+        "deiner": "deiner adalah bentuk Dativ feminin atau Genitiv; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "besuchen memakai Akkusativ; Onkel maskulin → deinen Onkel."
+    },
+    {
+      "id": "u3-o5-04",
+      "objectiveId": "a1-u3-o5",
+      "code": "D4",
+      "prompt": "Lengkapi: Ich besuche ___ Tante. (dia perempuan)",
+      "sub": "Ketik possessiv yang sesuai untuk Tante.",
+      "mode": "type",
+      "answer": "ihre",
+      "altAnswers": ["Ihre"],
+      "hintOnWrong": "Tante feminin; pemilik perempuan memakai ihre: ihre Tante.",
+      "explanation": "Ich besuche ihre Tante. Objek feminin tidak berubah antara nominatif dan Akkusativ."
+    },
+    {
+      "id": "u3-o5-05",
+      "objectiveId": "a1-u3-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Akhir pekan saya mengunjungi kakek saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Am", "Wochenende", "besuche", "ich", "meinen", "Großvater."],
+      "answer": "Am Wochenende besuche ich meinen Großvater.",
+      "hintOnWrong": "Mulai dengan Am Wochenende, lalu kata kerja besuche di posisi kedua, lalu ich, meinen, Großvater.",
+      "explanation": "Am Wochenende besuche ich meinen Großvater. Keterangan waktu di posisi 1, kata kerja finit di posisi 2."
+    }
+  ]
+}

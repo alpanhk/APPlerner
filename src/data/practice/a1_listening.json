@@ -1,0 +1,132 @@
+{
+  "level": "A1",
+  "source": "Latihan mendengar A1 orisinal. Dialog pendek dengan pertanyaan pemahaman; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "a1-listen-cafe",
+      "title": "Im Café",
+      "context": "Di kafe",
+      "lines": [
+        { "speaker": "Kellner", "de": "Guten Tag! Was möchten Sie?" },
+        { "speaker": "Gast", "de": "Ich möchte einen Kaffee und ein Wasser, bitte." },
+        { "speaker": "Kellner", "de": "Möchten Sie auch ein Stück Kuchen?" },
+        { "speaker": "Gast", "de": "Nein, danke. Nur den Kaffee und das Wasser." }
+      ],
+      "questions": [
+        {
+          "prompt": "Apa yang dipesan tamu?",
+          "options": ["Kopi dan air", "Kopi dan kue", "Teh dan air", "Kue dan air"],
+          "answer": "Kopi dan air",
+          "explanation": "Tamu mengatakan: Ich möchte einen Kaffee und ein Wasser."
+        },
+        {
+          "prompt": "Apakah tamu memesan kue?",
+          "options": ["Tidak", "Ya, satu potong", "Ya, dua potong", "Tidak disebutkan"],
+          "answer": "Tidak",
+          "explanation": "Tamu menjawab: Nein, danke. Nur den Kaffee und das Wasser."
+        }
+      ]
+    },
+    {
+      "id": "a1-listen-bahnhof",
+      "title": "Am Bahnhof",
+      "context": "Di stasiun",
+      "lines": [
+        { "speaker": "Reisende", "de": "Entschuldigung, wann fährt der Zug nach Berlin?" },
+        { "speaker": "Mitarbeiter", "de": "Der Zug fährt um neun Uhr von Gleis drei." },
+        { "speaker": "Reisende", "de": "Hat der Zug Verspätung?" },
+        { "speaker": "Mitarbeiter", "de": "Nein, der Zug ist pünktlich." }
+      ],
+      "questions": [
+        {
+          "prompt": "Ke mana kereta itu pergi?",
+          "options": ["Berlin", "Hamburg", "München", "Köln"],
+          "answer": "Berlin",
+          "explanation": "Penumpang bertanya: wann fährt der Zug nach Berlin?"
+        },
+        {
+          "prompt": "Dari peron berapa kereta berangkat?",
+          "options": ["Gleis drei", "Gleis vier", "Gleis neun", "Gleis zehn"],
+          "answer": "Gleis drei",
+          "explanation": "Petugas mengatakan: von Gleis drei."
+        }
+      ]
+    },
+    {
+      "id": "a1-listen-arzt",
+      "title": "Beim Arzt",
+      "context": "Di praktik dokter",
+      "lines": [
+        { "speaker": "Ärztin", "de": "Was fehlt Ihnen?" },
+        { "speaker": "Patient", "de": "Ich habe seit zwei Tagen Kopfschmerzen und Fieber." },
+        { "speaker": "Ärztin", "de": "Nehmen Sie die Tablette nach dem Essen." },
+        { "speaker": "Patient", "de": "Vielen Dank." }
+      ],
+      "questions": [
+        {
+          "prompt": "Apa keluhan pasien?",
+          "options": ["Sakit kepala dan demam", "Batuk dan pilek", "Sakit perut", "Sakit tenggorokan"],
+          "answer": "Sakit kepala dan demam",
+          "explanation": "Pasien mengatakan: Ich habe ... Kopfschmerzen und Fieber."
+        },
+        {
+          "prompt": "Kapan pasien harus minum tablet?",
+          "options": ["Setelah makan", "Sebelum tidur", "Sebelum makan", "Pagi saja"],
+          "answer": "Setelah makan",
+          "explanation": "Dokter mengatakan: Nehmen Sie die Tablette nach dem Essen."
+        }
+      ]
+    },
+    {
+      "id": "a1-listen-wohnung",
+      "title": "Die Wohnung",
+      "context": "Melihat apartemen",
+      "lines": [
+        { "speaker": "Maklerin", "de": "Die Wohnung hat zwei Zimmer und eine Küche." },
+        { "speaker": "Interessent", "de": "Wie viel kostet die Wohnung?" },
+        { "speaker": "Maklerin", "de": "Sie kostet sechshundert Euro pro Monat." },
+        { "speaker": "Interessent", "de": "Ist die Wohnung hell?" },
+        { "speaker": "Maklerin", "de": "Ja, alle Zimmer sind hell." }
+      ],
+      "questions": [
+        {
+          "prompt": "Berapa kamar yang dimiliki apartemen itu?",
+          "options": ["Dua", "Tiga", "Satu", "Empat"],
+          "answer": "Dua",
+          "explanation": "Maklerin mengatakan: Die Wohnung hat zwei Zimmer."
+        },
+        {
+          "prompt": "Berapa sewa per bulan?",
+          "options": ["600 Euro", "60 Euro", "6.000 Euro", "160 Euro"],
+          "answer": "600 Euro",
+          "explanation": "Maklerin mengatakan: sechshundert Euro pro Monat."
+        }
+      ]
+    },
+    {
+      "id": "a1-listen-verabredung",
+      "title": "Eine Verabredung",
+      "context": "Membuat janji lewat telepon",
+      "lines": [
+        { "speaker": "Sari", "de": "Hallo Budi, hast du am Samstag Zeit?" },
+        { "speaker": "Budi", "de": "Am Samstag kann ich leider nicht. Können wir uns am Sonntag treffen?" },
+        { "speaker": "Sari", "de": "Ja, gern. Um wie viel Uhr?" },
+        { "speaker": "Budi", "de": "Um drei Uhr vor dem Kino." }
+      ],
+      "questions": [
+        {
+          "prompt": "Kapan Sari dan Budi akan bertemu?",
+          "options": ["Hari Minggu pukul tiga", "Hari Sabtu pukul tiga", "Hari Minggu pukul enam", "Hari Sabtu pukul enam"],
+          "answer": "Hari Minggu pukul tiga",
+          "explanation": "Budi mengusulkan am Sonntag dan um drei Uhr."
+        },
+        {
+          "prompt": "Di mana mereka akan bertemu?",
+          "options": ["Di depan bioskop", "Di stasiun", "Di kafe", "Di depan sekolah"],
+          "answer": "Di depan bioskop",
+          "explanation": "Budi mengatakan: vor dem Kino."
+        }
+      ]
+    }
+  ]
+}

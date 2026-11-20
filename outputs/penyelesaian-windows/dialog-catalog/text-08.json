@@ -1,0 +1,202 @@
+{
+  "id": "dialog-08",
+  "title": "Meine große Familie",
+  "textId": 8,
+  "level": "A1",
+  "tags": "seed · unit 3 · keluarga",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "foto": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "buch": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Meine Familie ist groß.",
+      "id": "Keluarga saya besar.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Meine Eltern wohnen in Bandung.",
+      "id": "Orang tua saya tinggal di Bandung.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Ich habe zwei Brüder und eine Schwester.",
+      "id": "Saya punya dua saudara laki-laki dan satu saudara perempuan.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Mein Bruder ist verheiratet.",
+      "id": "Saudara laki-laki saya sudah menikah.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Meine Schwester ist noch ledig.",
+      "id": "Saudara perempuan saya masih belum menikah.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Meine Großmutter wohnt bei uns.",
+      "id": "Nenek saya tinggal bersama kami.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Meine Familie ist groß.",
+      "id": "Keluarga saya besar.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_066.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Meine Eltern wohnen in Bandung.",
+      "id": "Orang tua saya tinggal di Bandung.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_065.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Ich habe zwei Brüder und eine Schwester.",
+      "id": "Saya punya dua saudara laki-laki dan satu saudara perempuan.",
+      "pose": "calm",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_text_045.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "freundin",
+      "de": "Mein Bruder ist verheiratet.",
+      "id": "Saudara laki-laki saya sudah menikah.",
+      "pose": "order",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": "a1_text_057.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Meine Schwester ist noch ledig.",
+      "id": "Saudara perempuan saya masih belum menikah.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "buch"
+      ],
+      "audio": "a1_text_074.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "narrator",
+      "de": "Meine Großmutter wohnt bei uns.",
+      "id": "Nenek saya tinggal bersama kami.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "foto"
+      ],
+      "audio": "a1_example_085.wav",
+      "audioStatus": "exact-match",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "stage-direction"
+    }
+  ]
+}

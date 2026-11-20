@@ -1,0 +1,4719 @@
+{
+  "unit": 150,
+  "level": "A2",
+  "theme": "Wortschatz tambahan",
+  "source": "Kosakata tambahan A2 (kurasi manual, tanpa contoh kalimat)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Schreibtisch",
+      "article": "der",
+      "plural": "die Schreibtische",
+      "meaning_id": "meja kerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stuhl",
+      "article": "der",
+      "plural": "die Stühle",
+      "meaning_id": "kursi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schrank",
+      "article": "der",
+      "plural": "die Schränke",
+      "meaning_id": "lemari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spiegel",
+      "article": "der",
+      "plural": "die Spiegel",
+      "meaning_id": "cermin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bild",
+      "article": "das",
+      "plural": "die Bilder",
+      "meaning_id": "gambar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kalender",
+      "article": "der",
+      "plural": "die Kalender",
+      "meaning_id": "kalender",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Papier",
+      "article": "das",
+      "plural": "die Papiere",
+      "meaning_id": "kertas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stift",
+      "article": "der",
+      "plural": "die Stifte",
+      "meaning_id": "pena",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Heft",
+      "article": "das",
+      "plural": "die Hefte",
+      "meaning_id": "buku tulis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Buch",
+      "article": "das",
+      "plural": "die Bücher",
+      "meaning_id": "buku",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zeitschrift",
+      "article": "die",
+      "plural": "die Zeitschriften",
+      "meaning_id": "majalah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Roman",
+      "article": "der",
+      "plural": "die Romane",
+      "meaning_id": "novel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschichte",
+      "article": "die",
+      "plural": "die Geschichten",
+      "meaning_id": "cerita, sejarah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Brief",
+      "article": "der",
+      "plural": "die Briefe",
+      "meaning_id": "surat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Karte",
+      "article": "die",
+      "plural": "die Karten",
+      "meaning_id": "kartu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Paket",
+      "article": "das",
+      "plural": "die Pakete",
+      "meaning_id": "paket",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Adresse",
+      "article": "die",
+      "plural": "die Adressen",
+      "meaning_id": "alamat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Telefonnummer",
+      "article": "die",
+      "plural": "die Telefonnummern",
+      "meaning_id": "nomor telepon",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorname",
+      "article": "der",
+      "plural": "die Vornamen",
+      "meaning_id": "nama depan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Familienname",
+      "article": "der",
+      "plural": "die Familiennamen",
+      "meaning_id": "nama keluarga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geburtsort",
+      "article": "der",
+      "plural": "die Geburtsorte",
+      "meaning_id": "tempat lahir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geburtsdatum",
+      "article": "das",
+      "plural": "die Geburtsdaten",
+      "meaning_id": "tanggal lahir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Alter",
+      "article": "das",
+      "plural": "die Alter",
+      "meaning_id": "usia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Formular",
+      "article": "das",
+      "plural": "die Formulare",
+      "meaning_id": "formulir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausweis",
+      "article": "der",
+      "plural": "die Ausweise",
+      "meaning_id": "kartu identitas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bestätigung",
+      "article": "die",
+      "plural": "die Bestätigungen",
+      "meaning_id": "konfirmasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Antwort",
+      "article": "die",
+      "plural": "die Antworten",
+      "meaning_id": "jawaban",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Frage",
+      "article": "die",
+      "plural": "die Fragen",
+      "meaning_id": "pertanyaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Beispiel",
+      "article": "das",
+      "plural": "die Beispiele",
+      "meaning_id": "contoh",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufgabe",
+      "article": "die",
+      "plural": "die Aufgaben",
+      "meaning_id": "tugas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fehler",
+      "article": "der",
+      "plural": "die Fehler",
+      "meaning_id": "kesalahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geld",
+      "article": "das",
+      "plural": "die Gelder",
+      "meaning_id": "uang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Münze",
+      "article": "die",
+      "plural": "die Münzen",
+      "meaning_id": "koin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schein",
+      "article": "der",
+      "plural": "die Scheine",
+      "meaning_id": "uang kertas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tasche",
+      "article": "die",
+      "plural": "die Taschen",
+      "meaning_id": "tas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rucksack",
+      "article": "der",
+      "plural": "die Rucksäcke",
+      "meaning_id": "ransel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schirm",
+      "article": "der",
+      "plural": "die Schirme",
+      "meaning_id": "payung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Handschuh",
+      "article": "der",
+      "plural": "die Handschuhe",
+      "meaning_id": "sarung tangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schal",
+      "article": "der",
+      "plural": "die Schals",
+      "meaning_id": "syal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mütze",
+      "article": "die",
+      "plural": "die Mützen",
+      "meaning_id": "topi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Jacke",
+      "article": "die",
+      "plural": "die Jacken",
+      "meaning_id": "jaket",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hemd",
+      "article": "das",
+      "plural": "die Hemden",
+      "meaning_id": "kemeja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kleid",
+      "article": "das",
+      "plural": "die Kleider",
+      "meaning_id": "gaun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schuh",
+      "article": "der",
+      "plural": "die Schuhe",
+      "meaning_id": "sepatu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Socke",
+      "article": "die",
+      "plural": "die Socken",
+      "meaning_id": "kaus kaki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hose",
+      "article": "die",
+      "plural": "die Hosen",
+      "meaning_id": "celana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gürtel",
+      "article": "der",
+      "plural": "die Gürtel",
+      "meaning_id": "ikat pinggang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ring",
+      "article": "der",
+      "plural": "die Ringe",
+      "meaning_id": "cincin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kette",
+      "article": "die",
+      "plural": "die Ketten",
+      "meaning_id": "kalung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Brille",
+      "article": "die",
+      "plural": "die Brillen",
+      "meaning_id": "kacamata",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Seife",
+      "article": "die",
+      "plural": "die Seifen",
+      "meaning_id": "sabun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Handtuch",
+      "article": "das",
+      "plural": "die Handtücher",
+      "meaning_id": "handuk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zahnbürste",
+      "article": "die",
+      "plural": "die Zahnbürsten",
+      "meaning_id": "sikat gigi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kamm",
+      "article": "der",
+      "plural": "die Kämme",
+      "meaning_id": "sisir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kissen",
+      "article": "das",
+      "plural": "die Kissen",
+      "meaning_id": "bantal",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Decke",
+      "article": "die",
+      "plural": "die Decken",
+      "meaning_id": "selimut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mülleimer",
+      "article": "der",
+      "plural": "die Mülleimer",
+      "meaning_id": "tempat sampah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Besen",
+      "article": "der",
+      "plural": "die Besen",
+      "meaning_id": "sapu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Eimer",
+      "article": "der",
+      "plural": "die Eimer",
+      "meaning_id": "ember",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wäsche",
+      "article": "die",
+      "plural": "die Wäschen",
+      "meaning_id": "cucian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bügeleisen",
+      "article": "das",
+      "plural": "die Bügeleisen",
+      "meaning_id": "setrika",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Staubsauger",
+      "article": "der",
+      "plural": "die Staubsauger",
+      "meaning_id": "penyedot debu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschirr",
+      "article": "das",
+      "plural": "die Geschirre",
+      "meaning_id": "peralatan makan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teller",
+      "article": "der",
+      "plural": "die Teller",
+      "meaning_id": "piring",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tasse",
+      "article": "die",
+      "plural": "die Tassen",
+      "meaning_id": "cangkir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Glas",
+      "article": "das",
+      "plural": "die Gläser",
+      "meaning_id": "gelas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Messer",
+      "article": "das",
+      "plural": "die Messer",
+      "meaning_id": "pisau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gabel",
+      "article": "die",
+      "plural": "die Gabeln",
+      "meaning_id": "garpu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Löffel",
+      "article": "der",
+      "plural": "die Löffel",
+      "meaning_id": "sendok",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Topf",
+      "article": "der",
+      "plural": "die Töpfe",
+      "meaning_id": "panci",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pfanne",
+      "article": "die",
+      "plural": "die Pfannen",
+      "meaning_id": "wajan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Herd",
+      "article": "der",
+      "plural": "die Herde",
+      "meaning_id": "kompor",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ofen",
+      "article": "der",
+      "plural": "die Öfen",
+      "meaning_id": "oven",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kühlschrank",
+      "article": "der",
+      "plural": "die Kühlschränke",
+      "meaning_id": "kulkas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Waschmaschine",
+      "article": "die",
+      "plural": "die Waschmaschinen",
+      "meaning_id": "mesin cuci",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Föhn",
+      "article": "der",
+      "plural": "die Föhne",
+      "meaning_id": "pengering rambut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Toilette",
+      "article": "die",
+      "plural": "die Toiletten",
+      "meaning_id": "toilet",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dusche",
+      "article": "die",
+      "plural": "die Duschen",
+      "meaning_id": "shower",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Badewanne",
+      "article": "die",
+      "plural": "die Badewannen",
+      "meaning_id": "bak mandi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Waschbecken",
+      "article": "das",
+      "plural": "die Waschbecken",
+      "meaning_id": "wastafel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zahnpasta",
+      "article": "die",
+      "plural": "die Zahnpasten",
+      "meaning_id": "pasta gigi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bank",
+      "article": "die",
+      "plural": "die Banken",
+      "meaning_id": "bank",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Post",
+      "article": "die",
+      "plural": "die Posten",
+      "meaning_id": "kantor pos",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Polizei",
+      "article": "die",
+      "plural": "die Polizeien",
+      "meaning_id": "polisi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Feuerwehr",
+      "article": "die",
+      "plural": "die Feuerwehren",
+      "meaning_id": "pemadam kebakaran",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bäckerei",
+      "article": "die",
+      "plural": "die Bäckereien",
+      "meaning_id": "toko roti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Metzgerei",
+      "article": "die",
+      "plural": "die Metzgereien",
+      "meaning_id": "toko daging",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Markt",
+      "article": "der",
+      "plural": "die Märkte",
+      "meaning_id": "pasar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kiosk",
+      "article": "der",
+      "plural": "die Kioske",
+      "meaning_id": "kios",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Park",
+      "article": "der",
+      "plural": "die Parks",
+      "meaning_id": "taman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spielplatz",
+      "article": "der",
+      "plural": "die Spielplätze",
+      "meaning_id": "taman bermain",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwimmbad",
+      "article": "das",
+      "plural": "die Schwimmbäder",
+      "meaning_id": "kolam renang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bibliothek",
+      "article": "die",
+      "plural": "die Bibliotheken",
+      "meaning_id": "perpustakaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Theater",
+      "article": "das",
+      "plural": "die Theater",
+      "meaning_id": "teater",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kirche",
+      "article": "die",
+      "plural": "die Kirchen",
+      "meaning_id": "gereja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Moschee",
+      "article": "die",
+      "plural": "die Moscheen",
+      "meaning_id": "masjid",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rathaus",
+      "article": "das",
+      "plural": "die Rathäuser",
+      "meaning_id": "balai kota",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Flughafen",
+      "article": "der",
+      "plural": "die Flughäfen",
+      "meaning_id": "bandara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hafen",
+      "article": "der",
+      "plural": "die Häfen",
+      "meaning_id": "pelabuhan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Brücke",
+      "article": "die",
+      "plural": "die Brücken",
+      "meaning_id": "jembatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tunnel",
+      "article": "der",
+      "plural": "die Tunnel",
+      "meaning_id": "terowongan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Straße",
+      "article": "die",
+      "plural": "die Straßen",
+      "meaning_id": "jalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gasse",
+      "article": "die",
+      "plural": "die Gassen",
+      "meaning_id": "gang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Platz",
+      "article": "der",
+      "plural": "die Plätze",
+      "meaning_id": "lapangan, tempat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ecke",
+      "article": "die",
+      "plural": "die Ecken",
+      "meaning_id": "sudut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Seite",
+      "article": "die",
+      "plural": "die Seiten",
+      "meaning_id": "sisi, halaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitte",
+      "article": "die",
+      "plural": "die Mitten",
+      "meaning_id": "tengah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rand",
+      "article": "der",
+      "plural": "die Ränder",
+      "meaning_id": "tepi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tomate",
+      "article": "die",
+      "plural": "die Tomaten",
+      "meaning_id": "tomat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gurke",
+      "article": "die",
+      "plural": "die Gurken",
+      "meaning_id": "mentimun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zwiebel",
+      "article": "die",
+      "plural": "die Zwiebeln",
+      "meaning_id": "bawang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Knoblauch",
+      "article": "der",
+      "plural": "die Knoblauchs",
+      "meaning_id": "bawang putih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Karotte",
+      "article": "die",
+      "plural": "die Karotten",
+      "meaning_id": "wortel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Paprika",
+      "article": "die",
+      "plural": "die Paprikas",
+      "meaning_id": "paprika",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Salat",
+      "article": "der",
+      "plural": "die Salate",
+      "meaning_id": "selada, salad",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Birne",
+      "article": "die",
+      "plural": "die Birnen",
+      "meaning_id": "pir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Orange",
+      "article": "die",
+      "plural": "die Orangen",
+      "meaning_id": "jeruk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Traube",
+      "article": "die",
+      "plural": "die Trauben",
+      "meaning_id": "anggur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kirsche",
+      "article": "die",
+      "plural": "die Kirschen",
+      "meaning_id": "ceri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erdbeere",
+      "article": "die",
+      "plural": "die Erdbeeren",
+      "meaning_id": "stroberi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zitrone",
+      "article": "die",
+      "plural": "die Zitronen",
+      "meaning_id": "lemon",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hähnchen",
+      "article": "das",
+      "plural": "die Hähnchen",
+      "meaning_id": "ayam panggang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wurst",
+      "article": "die",
+      "plural": "die Würste",
+      "meaning_id": "sosis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schinken",
+      "article": "der",
+      "plural": "die Schinken",
+      "meaning_id": "ham",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Limonade",
+      "article": "die",
+      "plural": "die Limonaden",
+      "meaning_id": "limun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schokolade",
+      "article": "die",
+      "plural": "die Schokoladen",
+      "meaning_id": "cokelat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Keks",
+      "article": "der",
+      "plural": "die Kekse",
+      "meaning_id": "biskuit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Eis",
+      "article": "das",
+      "plural": "die Eis",
+      "meaning_id": "es krim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Honig",
+      "article": "der",
+      "plural": "die Honige",
+      "meaning_id": "madu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Marmelade",
+      "article": "die",
+      "plural": "die Marmeladen",
+      "meaning_id": "selai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Suppe",
+      "article": "die",
+      "plural": "die Suppen",
+      "meaning_id": "sup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nudeln",
+      "article": "die",
+      "plural": "die Nudeln",
+      "meaning_id": "mi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pizza",
+      "article": "die",
+      "plural": "die Pizzas",
+      "meaning_id": "pizza",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kopf",
+      "article": "der",
+      "plural": "die Köpfe",
+      "meaning_id": "kepala",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Haar",
+      "article": "das",
+      "plural": "die Haare",
+      "meaning_id": "rambut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Auge",
+      "article": "das",
+      "plural": "die Augen",
+      "meaning_id": "mata",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ohr",
+      "article": "das",
+      "plural": "die Ohren",
+      "meaning_id": "telinga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nase",
+      "article": "die",
+      "plural": "die Nasen",
+      "meaning_id": "hidung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mund",
+      "article": "der",
+      "plural": "die Münder",
+      "meaning_id": "mulut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zahn",
+      "article": "der",
+      "plural": "die Zähne",
+      "meaning_id": "gigi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hals",
+      "article": "der",
+      "plural": "die Hälse",
+      "meaning_id": "leher",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arm",
+      "article": "der",
+      "plural": "die Arme",
+      "meaning_id": "lengan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hand",
+      "article": "die",
+      "plural": "die Hände",
+      "meaning_id": "tangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Finger",
+      "article": "der",
+      "plural": "die Finger",
+      "meaning_id": "jari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bein",
+      "article": "das",
+      "plural": "die Beine",
+      "meaning_id": "kaki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fuß",
+      "article": "der",
+      "plural": "die Füße",
+      "meaning_id": "kaki (telapak)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rücken",
+      "article": "der",
+      "plural": "die Rücken",
+      "meaning_id": "punggung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bauch",
+      "article": "der",
+      "plural": "die Bäuche",
+      "meaning_id": "perut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Herz",
+      "article": "das",
+      "plural": "die Herzen",
+      "meaning_id": "jantung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Blut",
+      "article": "das",
+      "plural": "die Blute",
+      "meaning_id": "darah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wolke",
+      "article": "die",
+      "plural": "die Wolken",
+      "meaning_id": "awan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nebel",
+      "article": "der",
+      "plural": "die Nebel",
+      "meaning_id": "kabut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewitter",
+      "article": "das",
+      "plural": "die Gewitter",
+      "meaning_id": "badai petir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Blitz",
+      "article": "der",
+      "plural": "die Blitze",
+      "meaning_id": "kilat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Donner",
+      "article": "der",
+      "plural": "die Donner",
+      "meaning_id": "guntur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regenbogen",
+      "article": "der",
+      "plural": "die Regenbögen",
+      "meaning_id": "pelangi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Temperatur",
+      "article": "die",
+      "plural": "die Temperaturen",
+      "meaning_id": "suhu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Maus",
+      "article": "die",
+      "plural": "die Mäuse",
+      "meaning_id": "tikus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Elefant",
+      "article": "der",
+      "plural": "die Elefanten",
+      "meaning_id": "gajah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Löwe",
+      "article": "der",
+      "plural": "die Löwen",
+      "meaning_id": "singa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tiger",
+      "article": "der",
+      "plural": "die Tiger",
+      "meaning_id": "harimau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bär",
+      "article": "der",
+      "plural": "die Bären",
+      "meaning_id": "beruang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Affe",
+      "article": "der",
+      "plural": "die Affen",
+      "meaning_id": "monyet",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ente",
+      "article": "die",
+      "plural": "die Enten",
+      "meaning_id": "bebek",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schaf",
+      "article": "das",
+      "plural": "die Schafe",
+      "meaning_id": "domba",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ziege",
+      "article": "die",
+      "plural": "die Ziegen",
+      "meaning_id": "kambing",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Insekt",
+      "article": "das",
+      "plural": "die Insekten",
+      "meaning_id": "serangga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Biene",
+      "article": "die",
+      "plural": "die Bienen",
+      "meaning_id": "lebah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spinne",
+      "article": "die",
+      "plural": "die Spinnen",
+      "meaning_id": "laba-laba",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gras",
+      "article": "das",
+      "plural": "die Gräser",
+      "meaning_id": "rumput",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Blatt",
+      "article": "das",
+      "plural": "die Blätter",
+      "meaning_id": "daun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wurzel",
+      "article": "die",
+      "plural": "die Wurzeln",
+      "meaning_id": "akar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Samen",
+      "article": "der",
+      "plural": "die Samen",
+      "meaning_id": "biji",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rose",
+      "article": "die",
+      "plural": "die Rosen",
+      "meaning_id": "mawar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gebäude",
+      "article": "das",
+      "plural": "die Gebäude",
+      "meaning_id": "gedung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hochhaus",
+      "article": "das",
+      "plural": "die Hochhäuser",
+      "meaning_id": "gedung tinggi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stock",
+      "article": "der",
+      "plural": "die Stockwerke",
+      "meaning_id": "lantai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Aufzug",
+      "article": "der",
+      "plural": "die Aufzüge",
+      "meaning_id": "lift",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Treppe",
+      "article": "die",
+      "plural": "die Treppen",
+      "meaning_id": "tangga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schlüssel",
+      "article": "der",
+      "plural": "die Schlüssel",
+      "meaning_id": "kunci",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Portemonnaie",
+      "article": "das",
+      "plural": "die Portemonnaies",
+      "meaning_id": "dompet",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorort",
+      "article": "der",
+      "plural": "die Vororte",
+      "meaning_id": "pinggiran kota",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zentrum",
+      "article": "das",
+      "plural": "die Zentren",
+      "meaning_id": "pusat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umgebung",
+      "article": "die",
+      "plural": "die Umgebungen",
+      "meaning_id": "sekitar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dorf",
+      "article": "das",
+      "plural": "die Dörfer",
+      "meaning_id": "desa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Region",
+      "article": "die",
+      "plural": "die Regionen",
+      "meaning_id": "wilayah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bundesland",
+      "article": "das",
+      "plural": "die Bundesländer",
+      "meaning_id": "negara bagian",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bahn",
+      "article": "die",
+      "plural": "die Bahnen",
+      "meaning_id": "kereta api",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gleis",
+      "article": "das",
+      "plural": "die Gleise",
+      "meaning_id": "rel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schalter",
+      "article": "der",
+      "plural": "die Schalter",
+      "meaning_id": "loket",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Automat",
+      "article": "der",
+      "plural": "die Automaten",
+      "meaning_id": "mesin otomatis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Anschluss",
+      "article": "der",
+      "plural": "die Anschlüsse",
+      "meaning_id": "sambungan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umleitung",
+      "article": "die",
+      "plural": "die Umleitungen",
+      "meaning_id": "pengalihan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Baustelle",
+      "article": "die",
+      "plural": "die Baustellen",
+      "meaning_id": "proyek konstruksi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Werkstatt",
+      "article": "die",
+      "plural": "die Werkstätten",
+      "meaning_id": "bengkel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Garage",
+      "article": "die",
+      "plural": "die Garagen",
+      "meaning_id": "garasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Parkhaus",
+      "article": "das",
+      "plural": "die Parkhäuser",
+      "meaning_id": "gedung parkir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrgast",
+      "article": "der",
+      "plural": "die Fahrgäste",
+      "meaning_id": "penumpang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klinik",
+      "article": "die",
+      "plural": "die Kliniken",
+      "meaning_id": "klinik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tafel",
+      "article": "die",
+      "plural": "die Tafeln",
+      "meaning_id": "papan tulis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kreide",
+      "article": "die",
+      "plural": "die Kreiden",
+      "meaning_id": "kapur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Taschenrechner",
+      "article": "der",
+      "plural": "die Taschenrechner",
+      "meaning_id": "kalkulator",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wörterbuch",
+      "article": "das",
+      "plural": "die Wörterbücher",
+      "meaning_id": "kamus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Satz",
+      "article": "der",
+      "plural": "die Sätze",
+      "meaning_id": "kalimat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wort",
+      "article": "das",
+      "plural": "die Wörter",
+      "meaning_id": "kata",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Text",
+      "article": "der",
+      "plural": "die Texte",
+      "meaning_id": "teks",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Absatz",
+      "article": "der",
+      "plural": "die Absätze",
+      "meaning_id": "paragraf",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kapitel",
+      "article": "das",
+      "plural": "die Kapitel",
+      "meaning_id": "bab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rätsel",
+      "article": "das",
+      "plural": "die Rätsel",
+      "meaning_id": "teka-teki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fußball",
+      "article": "der",
+      "plural": "die Fußbälle",
+      "meaning_id": "sepak bola",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Basketball",
+      "article": "der",
+      "plural": "die Basketbälle",
+      "meaning_id": "basket",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tennis",
+      "article": "das",
+      "plural": "die Tennis",
+      "meaning_id": "tenis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stadion",
+      "article": "das",
+      "plural": "die Stadien",
+      "meaning_id": "stadion",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Spieler",
+      "article": "der",
+      "plural": "die Spieler",
+      "meaning_id": "pemain",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Trainer",
+      "article": "der",
+      "plural": "die Trainer",
+      "meaning_id": "pelatih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Musik",
+      "article": "die",
+      "plural": "die Musiken",
+      "meaning_id": "musik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lied",
+      "article": "das",
+      "plural": "die Lieder",
+      "meaning_id": "lagu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gitarre",
+      "article": "die",
+      "plural": "die Gitarren",
+      "meaning_id": "gitar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klavier",
+      "article": "das",
+      "plural": "die Klaviere",
+      "meaning_id": "piano",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Band",
+      "article": "die",
+      "plural": "die Bands",
+      "meaning_id": "band musik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sänger",
+      "article": "der",
+      "plural": "die Sänger",
+      "meaning_id": "penyanyi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schule",
+      "article": "die",
+      "plural": "die Schulen",
+      "meaning_id": "sekolah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lehrer",
+      "article": "der",
+      "plural": "die Lehrer",
+      "meaning_id": "guru",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lehrerin",
+      "article": "die",
+      "plural": "die Lehrerinnen",
+      "meaning_id": "guru perempuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schüler",
+      "article": "der",
+      "plural": "die Schüler",
+      "meaning_id": "murid",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Klasse",
+      "article": "die",
+      "plural": "die Klassen",
+      "meaning_id": "kelas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hausaufgabe",
+      "article": "die",
+      "plural": "die Hausaufgaben",
+      "meaning_id": "pekerjaan rumah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Büro",
+      "article": "das",
+      "plural": "die Büros",
+      "meaning_id": "kantor",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Firma",
+      "article": "die",
+      "plural": "die Firmen",
+      "meaning_id": "perusahaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sekretärin",
+      "article": "die",
+      "plural": "die Sekretärinnen",
+      "meaning_id": "sekretaris",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Drucker",
+      "article": "der",
+      "plural": "die Drucker",
+      "meaning_id": "printer",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kopie",
+      "article": "die",
+      "plural": "die Kopien",
+      "meaning_id": "salinan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gebühr",
+      "article": "die",
+      "plural": "die Gebühren",
+      "meaning_id": "biaya administrasi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sonne",
+      "article": "die",
+      "plural": "die Sonnen",
+      "meaning_id": "matahari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Regen",
+      "article": "der",
+      "plural": "die Regen",
+      "meaning_id": "hujan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schnee",
+      "article": "der",
+      "plural": "die Schnee",
+      "meaning_id": "salju",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wind",
+      "article": "der",
+      "plural": "die Winde",
+      "meaning_id": "angin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Himmel",
+      "article": "der",
+      "plural": "die Himmel",
+      "meaning_id": "langit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erde",
+      "article": "die",
+      "plural": "die Erden",
+      "meaning_id": "bumi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mond",
+      "article": "der",
+      "plural": "die Monde",
+      "meaning_id": "bulan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stern",
+      "article": "der",
+      "plural": "die Sterne",
+      "meaning_id": "bintang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Berg",
+      "article": "der",
+      "plural": "die Berge",
+      "meaning_id": "gunung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Fluss",
+      "article": "der",
+      "plural": "die Flüsse",
+      "meaning_id": "sungai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "See",
+      "article": "der",
+      "plural": "die Seen",
+      "meaning_id": "danau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wald",
+      "article": "der",
+      "plural": "die Wälder",
+      "meaning_id": "hutan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Baum",
+      "article": "der",
+      "plural": "die Bäume",
+      "meaning_id": "pohon",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Blume",
+      "article": "die",
+      "plural": "die Blumen",
+      "meaning_id": "bunga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tier",
+      "article": "das",
+      "plural": "die Tiere",
+      "meaning_id": "hewan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vogel",
+      "article": "der",
+      "plural": "die Vögel",
+      "meaning_id": "burung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hund",
+      "article": "der",
+      "plural": "die Hunde",
+      "meaning_id": "anjing",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Katze",
+      "article": "die",
+      "plural": "die Katzen",
+      "meaning_id": "kucing",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pferd",
+      "article": "das",
+      "plural": "die Pferde",
+      "meaning_id": "kuda",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kuh",
+      "article": "die",
+      "plural": "die Kühe",
+      "meaning_id": "sapi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwein",
+      "article": "das",
+      "plural": "die Schweine",
+      "meaning_id": "babi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Huhn",
+      "article": "das",
+      "plural": "die Hühner",
+      "meaning_id": "ayam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "machen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melakukan, membuat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "arbeiten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bekerja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "spielen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bermain",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "lernen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "belajar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "lesen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membaca",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schreiben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menulis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "hören",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mendengar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "sehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melihat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "sprechen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbicara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fahren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengendarai, pergi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fliegen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terbang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "laufen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berlari, berjalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "stehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berdiri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "sitzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "duduk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "liegen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbaring, terletak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schlafen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tidur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "aufstehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bangun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "anfangen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memulai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "aufhören",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berhenti",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "helfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membantu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "brauchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membutuhkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "suchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "finden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menemukan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "geben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memberi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "nehmen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengambil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bringen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membawa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "bleiben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tinggal, tetap",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "werden",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menjadi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "denken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berpikir",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "glauben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "percaya, mengira",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fragen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bertanya",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "antworten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menjawab",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "warten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menunggu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "öffnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membuka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schließen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menutup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "groß",
+      "article": null,
+      "plural": null,
+      "meaning_id": "besar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "klein",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kecil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "alt",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tua",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "jung",
+      "article": null,
+      "plural": null,
+      "meaning_id": "muda",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "gut",
+      "article": null,
+      "plural": null,
+      "meaning_id": "baik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schlecht",
+      "article": null,
+      "plural": null,
+      "meaning_id": "buruk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schön",
+      "article": null,
+      "plural": null,
+      "meaning_id": "indah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schnell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "cepat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "langsam",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lambat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "warm",
+      "article": null,
+      "plural": null,
+      "meaning_id": "hangat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "kalt",
+      "article": null,
+      "plural": null,
+      "meaning_id": "dingin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "heiß",
+      "article": null,
+      "plural": null,
+      "meaning_id": "panas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "nass",
+      "article": null,
+      "plural": null,
+      "meaning_id": "basah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "trocken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kering",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sauber",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bersih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schmutzig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kotor",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "voll",
+      "article": null,
+      "plural": null,
+      "meaning_id": "penuh",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "leer",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kosong",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "leicht",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ringan, mudah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schwer",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berat, sulit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "dauern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berlangsung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "rot",
+      "article": null,
+      "plural": null,
+      "meaning_id": "merah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "blau",
+      "article": null,
+      "plural": null,
+      "meaning_id": "biru",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "grün",
+      "article": null,
+      "plural": null,
+      "meaning_id": "hijau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "gelb",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kuning",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schwarz",
+      "article": null,
+      "plural": null,
+      "meaning_id": "hitam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "weiß",
+      "article": null,
+      "plural": null,
+      "meaning_id": "putih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "grau",
+      "article": null,
+      "plural": null,
+      "meaning_id": "abu-abu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "braun",
+      "article": null,
+      "plural": null,
+      "meaning_id": "cokelat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Quadrat",
+      "article": "das",
+      "plural": "die Quadrate",
+      "meaning_id": "persegi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechteck",
+      "article": "das",
+      "plural": "die Rechtecke",
+      "meaning_id": "persegi panjang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Dreieck",
+      "article": "das",
+      "plural": "die Dreiecke",
+      "meaning_id": "segitiga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Linie",
+      "article": "die",
+      "plural": "die Linien",
+      "meaning_id": "garis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Punkt",
+      "article": "der",
+      "plural": "die Punkte",
+      "meaning_id": "titik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Form",
+      "article": "die",
+      "plural": "die Formen",
+      "meaning_id": "bentuk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Enkel",
+      "article": "der",
+      "plural": "die Enkel",
+      "meaning_id": "cucu laki-laki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Enkelin",
+      "article": "die",
+      "plural": "die Enkelinnen",
+      "meaning_id": "cucu perempuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwager",
+      "article": "der",
+      "plural": "die Schwäger",
+      "meaning_id": "ipar laki-laki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schwägerin",
+      "article": "die",
+      "plural": "die Schwägerinnen",
+      "meaning_id": "ipar perempuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Neffe",
+      "article": "der",
+      "plural": "die Neffen",
+      "meaning_id": "keponakan laki-laki",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nichte",
+      "article": "die",
+      "plural": "die Nichten",
+      "meaning_id": "keponakan perempuan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stiefvater",
+      "article": "der",
+      "plural": "die Stiefväter",
+      "meaning_id": "ayah tiri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stiefmutter",
+      "article": "die",
+      "plural": "die Stiefmütter",
+      "meaning_id": "ibu tiri",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zwilling",
+      "article": "der",
+      "plural": "die Zwillinge",
+      "meaning_id": "kembar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Norden",
+      "article": "der",
+      "plural": "die Norden",
+      "meaning_id": "utara",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Süden",
+      "article": "der",
+      "plural": "die Süden",
+      "meaning_id": "selatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Osten",
+      "article": "der",
+      "plural": "die Osten",
+      "meaning_id": "timur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Westen",
+      "article": "der",
+      "plural": "die Westen",
+      "meaning_id": "barat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "oben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di atas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "unten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di bawah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "vorne",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di depan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "hinten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di belakang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "draußen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di luar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "drinnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di dalam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "überall",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di mana-mana",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "other",
+      "de": "nirgends",
+      "article": null,
+      "plural": null,
+      "meaning_id": "di mana pun tidak ada",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Jahreszeit",
+      "article": "die",
+      "plural": "die Jahreszeiten",
+      "meaning_id": "musim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Frühling",
+      "article": "der",
+      "plural": "die Frühlinge",
+      "meaning_id": "musim semi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sommer",
+      "article": "der",
+      "plural": "die Sommer",
+      "meaning_id": "musim panas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Herbst",
+      "article": "der",
+      "plural": "die Herbste",
+      "meaning_id": "musim gugur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Winter",
+      "article": "der",
+      "plural": "die Winter",
+      "meaning_id": "musim dingin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Abend",
+      "article": "der",
+      "plural": "die Abende",
+      "meaning_id": "malam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nacht",
+      "article": "die",
+      "plural": "die Nächte",
+      "meaning_id": "malam (larut)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mitternacht",
+      "article": "die",
+      "plural": "die Mitternächte",
+      "meaning_id": "tengah malam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mittag",
+      "article": "der",
+      "plural": "die Mittage",
+      "meaning_id": "tengah hari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Besteck",
+      "article": "das",
+      "plural": "die Bestecke",
+      "meaning_id": "peralatan makan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Serviette",
+      "article": "die",
+      "plural": "die Servietten",
+      "meaning_id": "serbet",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schüssel",
+      "article": "die",
+      "plural": "die Schüsseln",
+      "meaning_id": "mangkuk",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hammer",
+      "article": "der",
+      "plural": "die Hämmer",
+      "meaning_id": "palu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nagel",
+      "article": "der",
+      "plural": "die Nägel",
+      "meaning_id": "paku",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schraube",
+      "article": "die",
+      "plural": "die Schrauben",
+      "meaning_id": "sekrup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Säge",
+      "article": "die",
+      "plural": "die Sägen",
+      "meaning_id": "gergaji",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Leiter",
+      "article": "die",
+      "plural": "die Leitern",
+      "meaning_id": "tangga",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Seil",
+      "article": "das",
+      "plural": "die Seile",
+      "meaning_id": "tali",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kabel",
+      "article": "das",
+      "plural": "die Kabel",
+      "meaning_id": "kabel",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Batterie",
+      "article": "die",
+      "plural": "die Batterien",
+      "meaning_id": "baterai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Stecker",
+      "article": "der",
+      "plural": "die Stecker",
+      "meaning_id": "colokan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Insel",
+      "article": "die",
+      "plural": "die Inseln",
+      "meaning_id": "pulau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Küste",
+      "article": "die",
+      "plural": "die Küsten",
+      "meaning_id": "pantai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wüste",
+      "article": "die",
+      "plural": "die Wüsten",
+      "meaning_id": "gurun",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hügel",
+      "article": "der",
+      "plural": "die Hügel",
+      "meaning_id": "bukit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tal",
+      "article": "das",
+      "plural": "die Täler",
+      "meaning_id": "lembah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Feld",
+      "article": "das",
+      "plural": "die Felder",
+      "meaning_id": "ladang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bauer",
+      "article": "der",
+      "plural": "die Bauern",
+      "meaning_id": "petani",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Garten",
+      "article": "der",
+      "plural": "die Gärten",
+      "meaning_id": "taman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Zaun",
+      "article": "der",
+      "plural": "die Zäune",
+      "meaning_id": "pagar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hof",
+      "article": "der",
+      "plural": "die Höfe",
+      "meaning_id": "halaman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Tor",
+      "article": "das",
+      "plural": "die Tore",
+      "meaning_id": "gerbang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mauer",
+      "article": "die",
+      "plural": "die Mauern",
+      "meaning_id": "tembok",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Boden",
+      "article": "der",
+      "plural": "die Böden",
+      "meaning_id": "lantai, tanah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Wand",
+      "article": "die",
+      "plural": "die Wände",
+      "meaning_id": "dinding",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bleistift",
+      "article": "der",
+      "plural": "die Bleistifte",
+      "meaning_id": "pensil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kugelschreiber",
+      "article": "der",
+      "plural": "die Kugelschreiber",
+      "meaning_id": "pulpen",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Radiergummi",
+      "article": "der",
+      "plural": "die Radiergummis",
+      "meaning_id": "penghapus",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lineal",
+      "article": "das",
+      "plural": "die Lineale",
+      "meaning_id": "penggaris",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Schere",
+      "article": "die",
+      "plural": "die Scheren",
+      "meaning_id": "gunting",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kleber",
+      "article": "der",
+      "plural": "die Kleber",
+      "meaning_id": "lem",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Umschlag",
+      "article": "der",
+      "plural": "die Umschläge",
+      "meaning_id": "amplop",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schicken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengirim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "holen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengambil, menjemput",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "zeigen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menunjukkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "üben",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berlatih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verstehen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memahami",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "buchstabieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengeja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "übersetzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menerjemahkan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "danken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berterima kasih",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "wünschen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berharap",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "mögen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyukai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "gefallen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "disukai",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "passen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "cocok",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "probieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencoba",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schmecken",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terasa enak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "riechen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbau",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "springen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melompat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "werfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melempar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "fangen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menangkap",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "klettern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memanjat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "tanzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menari",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "singen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menyanyi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "lachen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tertawa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "weinen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menangis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "schreien",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berteriak",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "flüstern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berbisik",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "klatschen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bertepuk tangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "treffen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bertemu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "gewinnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "verlieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "kalah, kehilangan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "verb",
+      "de": "kämpfen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berjuang",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "lustig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "lucu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ernst",
+      "article": null,
+      "plural": null,
+      "meaning_id": "serius",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "nett",
+      "article": null,
+      "plural": null,
+      "meaning_id": "baik hati",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "böse",
+      "article": null,
+      "plural": null,
+      "meaning_id": "jahat, marah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "mutig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berani",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ängstlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "penakut",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "laut",
+      "article": null,
+      "plural": null,
+      "meaning_id": "keras (suara)",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "fleißig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "rajin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "faul",
+      "article": null,
+      "plural": null,
+      "meaning_id": "malas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "klug",
+      "article": null,
+      "plural": null,
+      "meaning_id": "cerdas",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "dumm",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bodoh",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "ehrlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "jujur",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "neugierig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ingin tahu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "schüchtern",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pemalu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Arbeit",
+      "article": "die",
+      "plural": "die Arbeiten",
+      "meaning_id": "pekerjaan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Freundschaft",
+      "article": "die",
+      "plural": "die Freundschaften",
+      "meaning_id": "persahabatan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Liebe",
+      "article": "die",
+      "plural": "die Lieben",
+      "meaning_id": "cinta",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ehe",
+      "article": "die",
+      "plural": "die Ehen",
+      "meaning_id": "pernikahan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Ehepartner",
+      "article": "der",
+      "plural": "die Ehepartner",
+      "meaning_id": "pasangan nikah",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lebenspartner",
+      "article": "der",
+      "plural": "die Lebenspartner",
+      "meaning_id": "pasangan hidup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Verwandte",
+      "article": "der",
+      "plural": "die Verwandten",
+      "meaning_id": "kerabat",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bekannte",
+      "article": "der",
+      "plural": "die Bekannten",
+      "meaning_id": "kenalan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kindheit",
+      "article": "die",
+      "plural": "die Kindheiten",
+      "meaning_id": "masa kecil",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Jugend",
+      "article": "die",
+      "plural": "die Jugenden",
+      "meaning_id": "masa muda",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Erwachsene",
+      "article": "der",
+      "plural": "die Erwachsenen",
+      "meaning_id": "orang dewasa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Senior",
+      "article": "der",
+      "plural": "die Senioren",
+      "meaning_id": "lansia",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teenager",
+      "article": "der",
+      "plural": "die Teenager",
+      "meaning_id": "remaja",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Lebensmittel",
+      "article": "das",
+      "plural": "die Lebensmittel",
+      "meaning_id": "bahan makanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Getränk",
+      "article": "das",
+      "plural": "die Getränke",
+      "meaning_id": "minuman",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Speisekarte",
+      "article": "die",
+      "plural": "die Speisekarten",
+      "meaning_id": "menu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Portion",
+      "article": "die",
+      "plural": "die Portionen",
+      "meaning_id": "porsi",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Geschmack",
+      "article": "der",
+      "plural": "die Geschmäcke",
+      "meaning_id": "rasa",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorspeise",
+      "article": "die",
+      "plural": "die Vorspeisen",
+      "meaning_id": "hidangan pembuka",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Nachspeise",
+      "article": "die",
+      "plural": "die Nachspeisen",
+      "meaning_id": "hidangan penutup",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Hauptgericht",
+      "article": "das",
+      "plural": "die Hauptgerichte",
+      "meaning_id": "hidangan utama",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Kellner",
+      "article": "der",
+      "plural": "die Kellner",
+      "meaning_id": "pelayan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Trinkgeld",
+      "article": "das",
+      "plural": "die Trinkgelder",
+      "meaning_id": "tip",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Bestellung",
+      "article": "die",
+      "plural": "die Bestellungen",
+      "meaning_id": "pesanan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Menü",
+      "article": "das",
+      "plural": "die Menüs",
+      "meaning_id": "menu set",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewürz",
+      "article": "das",
+      "plural": "die Gewürze",
+      "meaning_id": "bumbu",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Pfeffer",
+      "article": "der",
+      "plural": "die Pfeffer",
+      "meaning_id": "merica",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Butter",
+      "article": "die",
+      "plural": "die Butter",
+      "meaning_id": "mentega",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Joghurt",
+      "article": "der",
+      "plural": "die Joghurts",
+      "meaning_id": "yogurt",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Sahne",
+      "article": "die",
+      "plural": "die Sahnen",
+      "meaning_id": "krim",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Mehl",
+      "article": "das",
+      "plural": "die Mehle",
+      "meaning_id": "tepung",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Teig",
+      "article": "der",
+      "plural": "die Teige",
+      "meaning_id": "adonan",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "noun",
+      "de": "Torte",
+      "article": "die",
+      "plural": "die Torten",
+      "meaning_id": "tart",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "scharf",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pedas, tajam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "süß",
+      "article": null,
+      "plural": null,
+      "meaning_id": "manis",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "salzig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "asin",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "sauer",
+      "article": null,
+      "plural": null,
+      "meaning_id": "asam",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "bitter",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pahit",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    },
+    {
+      "kind": "adj",
+      "de": "frisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "segar",
+      "example_de": null,
+      "example_id": null,
+      "tags": "a2,wortschatz"
+    }
+  ]
+}

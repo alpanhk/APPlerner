@@ -1,0 +1,139 @@
+{
+  "unit": 1,
+  "level": "A1",
+  "theme": "Salam & perkenalan diri",
+  "source": "Goethe A1 + kurasi manual (PRD 6.3)",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Name",
+      "article": "der",
+      "plural": "die Namen",
+      "meaning_id": "nama",
+      "example_de": "Wie ist Ihr Name?",
+      "example_id": "Siapa nama Anda?",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Mann",
+      "article": "der",
+      "plural": "die Männer",
+      "meaning_id": "pria",
+      "example_de": "Der Mann heißt Ali.",
+      "example_id": "Pria itu bernama Ali.",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Frau",
+      "article": "die",
+      "plural": "die Frauen",
+      "meaning_id": "wanita",
+      "example_de": "Die Frau heißt Devi.",
+      "example_id": "Wanita itu bernama Devi.",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Herr",
+      "article": "der",
+      "plural": "die Herren",
+      "meaning_id": "tuan (sapaan formal)",
+      "example_de": "Herr Renner, wie geht es Ihnen?",
+      "example_id": "Tuan Renner, apa kabar Anda?",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Land",
+      "article": "das",
+      "plural": "die Länder",
+      "meaning_id": "negara",
+      "example_de": "Woher kommen Sie? — Aus Indonesien.",
+      "example_id": "Anda dari negara mana? — Dari Indonesia.",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Sprache",
+      "article": "die",
+      "plural": "die Sprachen",
+      "meaning_id": "bahasa",
+      "example_de": "Wir lernen Deutsch als fremde Sprache.",
+      "example_id": "Kami belajar bahasa Jerman sebagai bahasa asing.",
+      "tags": "unit1,salam"
+    },
+    {
+      "kind": "noun",
+      "de": "Stadt",
+      "article": "die",
+      "plural": "die Städte",
+      "meaning_id": "kota",
+      "example_de": "Jakarta ist eine große Stadt.",
+      "example_id": "Jakarta adalah kota besar.",
+      "tags": "unit1,salam,asal"
+    },
+    {
+      "kind": "noun",
+      "de": "Freund",
+      "article": "der",
+      "plural": "die Freunde",
+      "meaning_id": "teman (laki-laki)",
+      "example_de": "Mein Freund lernt Deutsch.",
+      "example_id": "Temanku belajar bahasa Jerman.",
+      "tags": "unit1,orang"
+    },
+    {
+      "kind": "noun",
+      "de": "Freundin",
+      "article": "die",
+      "plural": "die Freundinnen",
+      "meaning_id": "teman (perempuan)",
+      "example_de": "Meine Freundin kommt aus Bandung.",
+      "example_id": "Teman perempuanku berasal dari Bandung.",
+      "tags": "unit1,orang"
+    },
+    {
+      "kind": "noun",
+      "de": "Jahr",
+      "article": "das",
+      "plural": "die Jahre",
+      "meaning_id": "tahun (umur: Jahre alt)",
+      "example_de": "Ich bin 24 Jahre alt.",
+      "example_id": "Umurku 24 tahun.",
+      "tags": "unit1,angka"
+    },
+    {
+      "kind": "verb",
+      "de": "kommen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "datang; berasal (aus/von)",
+      "example_de": "Ich komme aus Indonesien.",
+      "example_id": "Saya berasal dari Indonesia.",
+      "tags": "unit1,inti"
+    },
+    {
+      "kind": "verb",
+      "de": "heißen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bernama",
+      "example_de": "Ich heiße Alex.",
+      "example_id": "Nama saya Alex.",
+      "tags": "unit1,inti"
+    },
+    {
+      "kind": "verb",
+      "de": "wohnen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "tinggal (tempat)",
+      "example_de": "Wo wohnen Sie?",
+      "example_id": "Anda tinggal di mana?",
+      "tags": "unit1,inti"
+    }
+  ]
+}

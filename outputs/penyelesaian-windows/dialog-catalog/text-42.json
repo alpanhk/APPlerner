@@ -1,0 +1,206 @@
+{
+  "id": "dialog-42",
+  "title": "Eine Diskussion über Medien",
+  "textId": 42,
+  "level": "B1",
+  "tags": "seed · B1 · unit 4",
+  "sourceFile": "src/data/reading/texts_b1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "nachbarin": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollege": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "wohnung": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "zeitung": {
+        "kind": "prop"
+      },
+      "tasse": {
+        "kind": "prop"
+      },
+      "schluessel": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Gestern haben wir in der Klasse über Medien diskutiert.",
+      "id": "Kemarin kami berdiskusi soal media di kelas.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Ein Student meint, soziale Medien hätten zu viel Einfluss.",
+      "id": "Seorang mahasiswa berpendapat media sosial terlalu berpengaruh.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Eine andere Meinung war, dass man selbst entscheiden müsse.",
+      "id": "Pendapat lain adalah bahwa kita harus memutuskan sendiri.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Wir haben auch über Quellen gesprochen, auf die man sich verlassen kann.",
+      "id": "Kami juga membahas sumber yang bisa diandalkan.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Einerseits bieten Medien viele Informationen, andererseits können sie täuschen.",
+      "id": "Di satu sisi media memberi banyak informasi, di sisi lain bisa menipu.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Am Ende war die Diskussion sehr konstruktiv.",
+      "id": "Akhirnya diskusinya sangat konstruktif.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "nachbarin",
+      "de": "Gestern haben wir in der Klasse über Medien diskutiert.",
+      "id": "Kemarin kami berdiskusi soal media di kelas.",
+      "pose": "berichten",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "kollege",
+      "de": "Ein Student meint, soziale Medien hätten zu viel Einfluss.",
+      "id": "Seorang mahasiswa berpendapat media sosial terlalu berpengaruh.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Eine andere Meinung war, dass man selbst entscheiden müsse.",
+      "id": "Pendapat lain adalah bahwa kita harus memutuskan sendiri.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Wir haben auch über Quellen gesprochen, auf die man sich verlassen kann.",
+      "id": "Kami juga membahas sumber yang bisa diandalkan.",
+      "pose": "offscreen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "zeitung"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "kollege",
+      "de": "Einerseits bieten Medien viele Informationen, andererseits können sie täuschen.",
+      "id": "Di satu sisi media memberi banyak informasi, di sisi lain bisa menipu.",
+      "pose": "fragen",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "tasse"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Am Ende war die Diskussion sehr konstruktiv.",
+      "id": "Akhirnya diskusinya sangat konstruktif.",
+      "pose": "zuhoren",
+      "backgroundId": "wohnung",
+      "propIds": [
+        "schluessel"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

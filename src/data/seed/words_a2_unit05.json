@@ -1,0 +1,269 @@
+{
+  "unit": 105,
+  "level": "A2",
+  "theme": "Reisen & Urlaub",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Reise",
+      "article": "die",
+      "plural": "die Reisen",
+      "meaning_id": "perjalanan",
+      "example_de": "Die Reise dauert zwei Wochen.",
+      "example_id": "Perjalanannya dua pekan.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Urlaub",
+      "article": "der",
+      "plural": "die Urlaube",
+      "meaning_id": "liburan",
+      "example_de": "Im Urlaub fahren wir ans Meer.",
+      "example_id": "Saat liburan kami pergi ke laut.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Hotel",
+      "article": "das",
+      "plural": "die Hotels",
+      "meaning_id": "hotel",
+      "example_de": "Das Hotel liegt am Strand.",
+      "example_id": "Hotelnya berada di tepi pantai.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Buchung",
+      "article": "die",
+      "plural": "die Buchungen",
+      "meaning_id": "pemesanan",
+      "example_de": "Die Buchung ist bestätigt.",
+      "example_id": "Pemesannya sudah dikonfirmasi.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Flug",
+      "article": "der",
+      "plural": "die Flüge",
+      "meaning_id": "penerbangan",
+      "example_de": "Der Flug hat Verspätung.",
+      "example_id": "Penerbangannya terlambat.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Koffer",
+      "article": "der",
+      "plural": "die Koffer",
+      "meaning_id": "koper",
+      "example_de": "Mein Koffer ist zu schwer.",
+      "example_id": "Koper saya terlalu berat.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Pass",
+      "article": "der",
+      "plural": "die Pässe",
+      "meaning_id": "paspor",
+      "example_de": "Zeigen Sie bitte Ihren Pass.",
+      "example_id": "Tunjukkan paspor Anda.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Grenze",
+      "article": "die",
+      "plural": "die Grenzen",
+      "meaning_id": "perbatasan",
+      "example_de": "Wir überqueren die Grenze.",
+      "example_id": "Kami melewati perbatasan.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Meer",
+      "article": "das",
+      "plural": "die Meere",
+      "meaning_id": "laut",
+      "example_de": "Das Meer ist heute ruhig.",
+      "example_id": "Lautnya hari ini tenang.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Strand",
+      "article": "der",
+      "plural": "die Strände",
+      "meaning_id": "pantai",
+      "example_de": "Wir liegen am Strand.",
+      "example_id": "Kami berbaring di pantai.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Sehenswürdigkeit",
+      "article": "die",
+      "plural": "die Sehenswürdigkeiten",
+      "meaning_id": "tempat wisata",
+      "example_de": "Berlin hat viele Sehenswürdigkeiten.",
+      "example_id": "Berlin punya banyak tempat wisata.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "verb",
+      "de": "buchen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memesan",
+      "example_de": "Wir buchen ein Hotel.",
+      "example_id": "Kami memesan hotel.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "verb",
+      "de": "packen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengemas",
+      "example_de": "Ich packe den Koffer.",
+      "example_id": "Saya mengemas koper.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "verb",
+      "de": "verreisen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pergi bepergian",
+      "example_de": "Sie verreist im August.",
+      "example_id": "Dia pergi bepergian bulan Agustus.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "adj",
+      "de": "fremd",
+      "article": null,
+      "plural": null,
+      "meaning_id": "asing",
+      "example_de": "Ich bin fremd hier.",
+      "example_id": "Saya orang asing di sini.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "adj",
+      "de": "berühmt",
+      "article": null,
+      "plural": null,
+      "meaning_id": "terkenal",
+      "example_de": "Der Dom ist berühmt.",
+      "example_id": "Katedralnya terkenal.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausflug",
+      "article": "der",
+      "plural": "die Ausflüge",
+      "meaning_id": "tamasya",
+      "example_de": "Wir machen einen Ausflug.",
+      "example_id": "Kami bertamasya.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Gepäck",
+      "article": "das",
+      "plural": "die Gepäcke",
+      "meaning_id": "bagasi",
+      "example_de": "Mein Gepäck ist verloren.",
+      "example_id": "Bagasi saya hilang.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ticket",
+      "article": "das",
+      "plural": "die Tickets",
+      "meaning_id": "tiket",
+      "example_de": "Das Ticket ist billig.",
+      "example_id": "Tiketnya murah.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Verspätung",
+      "article": "die",
+      "plural": "die Verspätungen",
+      "meaning_id": "keterlambatan",
+      "example_de": "Der Zug hat Verspätung.",
+      "example_id": "Keretanya terlambat.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Ankunft",
+      "article": "die",
+      "plural": "die Ankünfte",
+      "meaning_id": "kedatangan",
+      "example_de": "Die Ankunft ist um acht.",
+      "example_id": "Kedatangannya pukul delapan.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Fähre",
+      "article": "die",
+      "plural": "die Fähren",
+      "meaning_id": "kapal feri",
+      "example_de": "Die Fähre fährt stündlich.",
+      "example_id": "Ferinya tiap jam.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Souvenir",
+      "article": "das",
+      "plural": "die Souvenirs",
+      "meaning_id": "suvenir",
+      "example_de": "Das Souvenir ist klein.",
+      "example_id": "Suvenirnya kecil.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Campingplatz",
+      "article": "der",
+      "plural": "die Campingplätze",
+      "meaning_id": "tempat kamping",
+      "example_de": "Der Campingplatz liegt am See.",
+      "example_id": "Tempat kampingnya di danau.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Jugendherberge",
+      "article": "die",
+      "plural": "die Jugendherbergen",
+      "meaning_id": "hostel remaja",
+      "example_de": "Die Jugendherberge ist günstig.",
+      "example_id": "Hostelnya murah.",
+      "tags": "a2,unit5,reisen"
+    },
+    {
+      "kind": "noun",
+      "de": "Abfahrt",
+      "article": "die",
+      "plural": "die Abfahrten",
+      "meaning_id": "keberangkatan",
+      "example_de": "Die Abfahrt ist um sieben.",
+      "example_id": "Keberangkatannya pukul tujuh.",
+      "tags": "a2,unit5,reisen"
+    }
+  ]
+}

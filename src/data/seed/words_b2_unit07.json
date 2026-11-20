@@ -1,0 +1,229 @@
+{
+  "unit": 307,
+  "level": "B2",
+  "theme": "Kultur & Identität",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Identität",
+      "article": "die",
+      "plural": "die Identitäten",
+      "meaning_id": "identitas",
+      "example_de": "Identität hat viele Seiten.",
+      "example_id": "Identitas punya banyak sisi.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Herkunft",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "asal-usul",
+      "example_de": "Meine Herkunft prägt mich.",
+      "example_id": "Asal-usul saya membentuk saya.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Vielfalt",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "keberagaman",
+      "example_de": "Vielfalt ist eine Chance.",
+      "example_id": "Keberagaman adalah peluang.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Zugehörigkeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "rasa memiliki",
+      "example_de": "Zugehörigkeit ist ein Grundbedürfnis.",
+      "example_id": "Rasa memiliki adalah kebutuhan dasar.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Tradition",
+      "article": "die",
+      "plural": "die Traditionen",
+      "meaning_id": "tradisi",
+      "example_de": "Die Tradition wird weitergegeben.",
+      "example_id": "Tradisinya diwariskan.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Werte",
+      "article": "die",
+      "plural": "die Werte",
+      "meaning_id": "nilai-nilai",
+      "example_de": "Werte verbinden Menschen.",
+      "example_id": "Nilai-nilai menyatukan orang.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "verb",
+      "de": "prägen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "membentuk",
+      "example_de": "Die Kindheit prägt uns.",
+      "example_id": "Masa kecil membentuk kita.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "verb",
+      "de": "sich identifizieren",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mengidentifikasi diri",
+      "example_de": "Ich identifiziere mich mit dieser Kultur.",
+      "example_id": "Saya mengidentifikasi diri dengan budaya ini.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "adj",
+      "de": "interkulturell",
+      "article": null,
+      "plural": null,
+      "meaning_id": "antarbudaya",
+      "example_de": "Interkulturelle Projekte helfen.",
+      "example_id": "Proyek antarbudaya membantu.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "adj",
+      "de": "vielfältig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "beragam",
+      "example_de": "Die Stadt ist vielfältig.",
+      "example_id": "Kotanya beragam.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "adj",
+      "de": "tolerant",
+      "article": null,
+      "plural": null,
+      "meaning_id": "toleran",
+      "example_de": "Eine tolerante Gesellschaft ist stärker.",
+      "example_id": "Masyarakat toleran lebih kuat.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "adj",
+      "de": "respektvoll",
+      "article": null,
+      "plural": null,
+      "meaning_id": "penuh hormat",
+      "example_de": "Wir sprechen respektvoll miteinander.",
+      "example_id": "Kami berbicara dengan saling menghormati.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Heimat",
+      "article": "die",
+      "plural": "die Heimate",
+      "meaning_id": "tanah air",
+      "example_de": "Heimat ist ein Gefühl.",
+      "example_id": "Tanah air adalah perasaan.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Muttersprache",
+      "article": "die",
+      "plural": "die Muttersprachen",
+      "meaning_id": "bahasa ibu",
+      "example_de": "Meine Muttersprache ist Indonesisch.",
+      "example_id": "Bahasa ibu saya Indonesia.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Stereotyp",
+      "article": "das",
+      "plural": "die Stereotype",
+      "meaning_id": "stereotip",
+      "example_de": "Stereotype sind oft falsch.",
+      "example_id": "Stereotip sering salah.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Klischee",
+      "article": "das",
+      "plural": "die Klischees",
+      "meaning_id": "klise",
+      "example_de": "Das ist ein Klischee.",
+      "example_id": "Itu sebuah klise.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Selbstbild",
+      "article": "das",
+      "plural": "die Selbstbilder",
+      "meaning_id": "citra diri",
+      "example_de": "Das Selbstbild verändert sich.",
+      "example_id": "Citra dirinya berubah.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Diaspora",
+      "article": "die",
+      "plural": "die Diasporen",
+      "meaning_id": "diaspora",
+      "example_de": "Die Diaspora pflegt die Sprache.",
+      "example_id": "Diaspora merawat bahasanya.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Zweitsprache",
+      "article": "die",
+      "plural": "die Zweitsprachen",
+      "meaning_id": "bahasa kedua",
+      "example_de": "Deutsch ist meine Zweitsprache.",
+      "example_id": "Jerman adalah bahasa kedua saya.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Fremdbild",
+      "article": "das",
+      "plural": "die Fremdbilder",
+      "meaning_id": "citra dari luar",
+      "example_de": "Das Fremdbild ist oft verzerrt.",
+      "example_id": "Citra dari luar sering terdistorsi.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Wertewandel",
+      "article": "der",
+      "plural": "die Wertewandel",
+      "meaning_id": "pergeseran nilai",
+      "example_de": "Der Wertewandel ist spürbar.",
+      "example_id": "Pergeseran nilainya terasa.",
+      "tags": "b2,unit7,kultur"
+    },
+    {
+      "kind": "noun",
+      "de": "Mehrsprachigkeit",
+      "article": "die",
+      "plural": "die Mehrsprachigkeiten",
+      "meaning_id": "kemampuan multibahasa",
+      "example_de": "Mehrsprachigkeit ist ein Vorteil.",
+      "example_id": "Kemampuan multibahasa itu keunggulan.",
+      "tags": "b2,unit7,kultur"
+    }
+  ]
+}

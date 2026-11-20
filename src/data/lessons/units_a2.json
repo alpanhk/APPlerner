@@ -1,0 +1,1320 @@
+{
+  "level": "A2",
+  "source": "Konten A2 - kurikulum Goethe + kurasi manual (dibuat scripts/generate_levels.py)",
+  "units": [
+    {
+      "unit": 101,
+      "title": "Wohnen & Miete",
+      "goals": [
+        "Mendeskripsikan rumah dan apartemen",
+        "Berbicara soal sewa, pemilik, dan biaya tambahan",
+        "Memakai Perfekt dan preposisi tempat"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Perfekt dengan haben",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada wohnen & miete.",
+            "Perfekt dengan haben; Wo? Wohin? — Dativ & Akkusativ; Komparativ"
+          ],
+          "slides": [
+            {
+              "title": "Perfekt dengan haben",
+              "body": [
+                "Perfekt = haben + Partizip II di akhir kalimat.",
+                "Partizip lemah: ge- + batang + -t (gemietet, renoviert).",
+                "Contoh: Wir haben eine Wohnung gemietet."
+              ],
+              "example_de": "Wir haben eine Wohnung gemietet.",
+              "example_id": "Kami sudah menyewa sebuah apartemen."
+            },
+            {
+              "title": "Wo? Wohin? — Dativ & Akkusativ",
+              "body": [
+                "Wohin? → Akkusativ: in die Wohnung, auf den Balkon.",
+                "Wo? → Dativ: in der Wohnung, auf dem Balkon.",
+                "Banyak preposisi dua arah: in, an, auf, unter, über."
+              ],
+              "example_de": "Die Katze ist auf dem Balkon.",
+              "example_id": "Kucingnya ada di balkon."
+            },
+            {
+              "title": "Komparativ",
+              "body": [
+                "teuer → teurer, billig → billiger, hoch → höher.",
+                "Perbandingan memakai als: höher als im letzten Jahr.",
+                "Sama dengan wie: so teuer wie."
+              ],
+              "example_de": "Die Miete ist höher als im letzten Jahr.",
+              "example_id": "Uang sewanya lebih tinggi dari tahun lalu."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Wohnung",
+            "Haus",
+            "Zimmer",
+            "Küche",
+            "Bad"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Wohnen & Miete",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Balkon, Miete, Vermieter, Mieter."
+          ],
+          "slides": [
+            {
+              "title": "Balkon",
+              "body": [
+                "balkon",
+                "Plural: die Balkone"
+              ],
+              "example_de": "Der Balkon ist groß.",
+              "example_id": "Balkonnya besar."
+            },
+            {
+              "title": "Miete",
+              "body": [
+                "uang sewa",
+                "Plural: die Mieten"
+              ],
+              "example_de": "Die Miete ist zu hoch.",
+              "example_id": "Uang sewanya terlalu tinggi."
+            },
+            {
+              "title": "Vermieter",
+              "body": [
+                "pemilik sewa",
+                "Plural: die Vermieter"
+              ],
+              "example_de": "Der Vermieter ist freundlich.",
+              "example_id": "Pemilik sewanya ramah."
+            },
+            {
+              "title": "Mieter",
+              "body": [
+                "penyewa",
+                "Plural: die Mieter"
+              ],
+              "example_de": "Der Mieter zahlt pünktlich.",
+              "example_id": "Penyewanya membayar tepat waktu."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Balkon",
+            "Miete",
+            "Vermieter",
+            "Mieter",
+            "Nebenkosten"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D4",
+          "D7",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 102,
+      "title": "Arbeit & Beruf",
+      "goals": [
+        "Berbicara tentang pekerjaan dan lamaran",
+        "Menuliskan pengalaman dan kualifikasi",
+        "Memakai modalverben bentuk lampau"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Modalverben im Präteritum",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada arbeit & beruf.",
+            "Modalverben im Präteritum; Nebensatz mit weil; Trennbare Verben"
+          ],
+          "slides": [
+            {
+              "title": "Modalverben im Präteritum",
+              "body": [
+                "müssen → musste, können → konnte, dürfen → durfte.",
+                "ich/er sama: ich musste, er musste.",
+                "Contoh: Ich musste gestern lange arbeiten."
+              ],
+              "example_de": "Ich musste gestern lange arbeiten.",
+              "example_id": "Kemarin saya harus bekerja lama."
+            },
+            {
+              "title": "Nebensatz mit weil",
+              "body": [
+                "weil membuat verba finit pindah ke akhir kalimat.",
+                "Ich lerne Deutsch, weil ich in Berlin arbeiten will.",
+                "Perhatikan urutan: subjek + ... + verb."
+              ],
+              "example_de": "Ich lerne Deutsch, weil ich in Berlin arbeiten will.",
+              "example_id": "Saya belajar bahasa Jerman karena ingin bekerja di Berlin."
+            },
+            {
+              "title": "Trennbare Verben",
+              "body": [
+                "anrufen → ich rufe an, du rufst an.",
+                "Präfix di akhir kalimat pada kalimat utama.",
+                "Contoh: Ich rufe den Chef morgen an."
+              ],
+              "example_de": "Ich rufe den Chef morgen an.",
+              "example_id": "Saya menelepon atasan besok."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Stelle",
+            "Beruf",
+            "Bewerbung",
+            "Lebenslauf",
+            "Vorstellungsgespräch"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Arbeit & Beruf",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Chef, Kollege, Kollegin, Gehalt."
+          ],
+          "slides": [
+            {
+              "title": "Chef",
+              "body": [
+                "atasan",
+                "Plural: die Chefs"
+              ],
+              "example_de": "Mein Chef ist zufrieden.",
+              "example_id": "Atasan saya puas."
+            },
+            {
+              "title": "Kollege",
+              "body": [
+                "rekan kerja",
+                "Plural: die Kollegen"
+              ],
+              "example_de": "Mein Kollege hilft mir.",
+              "example_id": "Rekan kerja saya membantu saya."
+            },
+            {
+              "title": "Kollegin",
+              "body": [
+                "rekan kerja (perempuan)",
+                "Plural: die Kolleginnen"
+              ],
+              "example_de": "Meine Kollegin ist im Urlaub.",
+              "example_id": "Rekan kerja saya sedang libur."
+            },
+            {
+              "title": "Gehalt",
+              "body": [
+                "gaji",
+                "Plural: die Gehälter"
+              ],
+              "example_de": "Das Gehalt ist gut.",
+              "example_id": "Gajinya bagus."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Chef",
+            "Kollege",
+            "Kollegin",
+            "Gehalt",
+            "Erfahrung"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D3",
+          "D9",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 103,
+      "title": "Einkaufen & Konsum",
+      "goals": [
+        "Berbelanja dan menanyakan harga/diskon",
+        "Mengembalikan barang dan meminta struk",
+        "Memakai bentuk lampau haben/sein"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Präteritum haben & sein",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada einkaufen & konsum.",
+            "Präteritum haben & sein; Dativ setelah mit/nach/bei; Vergleich: so ... wie"
+          ],
+          "slides": [
+            {
+              "title": "Präteritum haben & sein",
+              "body": [
+                "haben: hatte, hattest, hatte, hatten.",
+                "sein: war, warst, war, waren.",
+                "Contoh: Gestern war ich im Supermarkt."
+              ],
+              "example_de": "Gestern war ich im Supermarkt.",
+              "example_id": "Kemarin saya di supermarket."
+            },
+            {
+              "title": "Dativ setelah mit/nach/bei",
+              "body": [
+                "mit dem Bus, nach dem Einkauf, bei der Arbeit.",
+                "Artikel berubah: der → dem, die → der, das → dem.",
+                "Plural Dativ: mit den Kindern."
+              ],
+              "example_de": "Nach dem Einkauf fahre ich mit dem Bus.",
+              "example_id": "Setelah berbelanja saya naik bus."
+            },
+            {
+              "title": "Vergleich: so ... wie",
+              "body": [
+                "Sama: so günstig wie, so gut wie.",
+                "Berbeda: günstiger als, besser als.",
+                "Contoh: Das Geschäft ist so gut wie der Markt."
+              ],
+              "example_de": "Dieses Geschäft ist so gut wie der Markt.",
+              "example_id": "Toko ini sama bagusnya dengan pasar."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Geschäft",
+            "Supermarkt",
+            "Kasse",
+            "Rabatt",
+            "Quittung"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Einkaufen & Konsum",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Angebot, Kunde, Kundin, Größe."
+          ],
+          "slides": [
+            {
+              "title": "Angebot",
+              "body": [
+                "penawaran",
+                "Plural: die Angebote"
+              ],
+              "example_de": "Das Angebot gilt nur heute.",
+              "example_id": "Penawarannya hanya berlaku hari ini."
+            },
+            {
+              "title": "Kunde",
+              "body": [
+                "pelanggan",
+                "Plural: die Kunden"
+              ],
+              "example_de": "Der Kunde fragt nach dem Preis.",
+              "example_id": "Pelanggan bertanya harga."
+            },
+            {
+              "title": "Kundin",
+              "body": [
+                "pelanggan (perempuan)",
+                "Plural: die Kundinnen"
+              ],
+              "example_de": "Die Kundin bezahlt bar.",
+              "example_id": "Pelanggan itu membayar tunai."
+            },
+            {
+              "title": "Größe",
+              "body": [
+                "ukuran",
+                "Plural: die Größen"
+              ],
+              "example_de": "Welche Größe brauchen Sie?",
+              "example_id": "Ukuran apa yang Anda butuhkan?"
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Angebot",
+            "Kunde",
+            "Kundin",
+            "Größe",
+            "Qualität"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D9",
+          "D10",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 104,
+      "title": "Gesundheit & Arzt",
+      "goals": [
+        "Menceritakan keluhan kesehatan",
+        "Membuat janji dengan dokter",
+        "Memakai modalverben sollen/dürfen dan imperatif"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "sollen & dürfen",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada gesundheit & arzt.",
+            "sollen & dürfen; Imperativ (Sie-Form); Reflexive Verben"
+          ],
+          "slides": [
+            {
+              "title": "sollen & dürfen",
+              "body": [
+                "sollen untuk saran/kewajiban: Du sollst dich ausruhen.",
+                "dürfen untuk izin: Du darfst nicht rauchen.",
+                "Bentuk er/sie/es tanpa akhiran: er soll, er darf."
+              ],
+              "example_de": "Du sollst dich ausruhen und viel trinken.",
+              "example_id": "Kamu harus beristirahat dan banyak minum."
+            },
+            {
+              "title": "Imperativ (Sie-Form)",
+              "body": [
+                "Bentuk formal: Verben + Sie: Nehmen Sie das Medikament!",
+                "Bentuk du: Nimm! / Trink! / Ruf an!",
+                "Bentuk ihr: Nehmt! / Trinkt!"
+              ],
+              "example_de": "Nehmen Sie das Medikament täglich.",
+              "example_id": "Minum obatnya setiap hari."
+            },
+            {
+              "title": "Reflexive Verben",
+              "body": [
+                "sich fühlen: ich fühle mich, du fühlst dich.",
+                "sich ausruhen: ich ruhe mich aus.",
+                "Kata ganti refleksif mengikuti subjek."
+              ],
+              "example_de": "Ich fühle mich heute nicht gut.",
+              "example_id": "Hari ini saya merasa tidak enak badan."
+            }
+          ],
+          "drill": {
+            "code": "D10",
+            "count": 5
+          },
+          "vocab": [
+            "Gesundheit",
+            "Arzt",
+            "Ärztin",
+            "Praxis",
+            "Termin"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Gesundheit & Arzt",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Rezept, Apotheke, Medikament, Schmerz."
+          ],
+          "slides": [
+            {
+              "title": "Rezept",
+              "body": [
+                "resep",
+                "Plural: die Rezepte"
+              ],
+              "example_de": "Der Arzt schreibt ein Rezept.",
+              "example_id": "Dokter menulis resep."
+            },
+            {
+              "title": "Apotheke",
+              "body": [
+                "apotek",
+                "Plural: die Apotheken"
+              ],
+              "example_de": "Die Apotheke ist nebenan.",
+              "example_id": "Apoteknya di sebelah."
+            },
+            {
+              "title": "Medikament",
+              "body": [
+                "obat",
+                "Plural: die Medikamente"
+              ],
+              "example_de": "Nehmen Sie das Medikament täglich.",
+              "example_id": "Minum obatnya setiap hari."
+            },
+            {
+              "title": "Schmerz",
+              "body": [
+                "rasa sakit",
+                "Plural: die Schmerzen"
+              ],
+              "example_de": "Ich habe starke Schmerzen.",
+              "example_id": "Saya sakit sekali."
+            }
+          ],
+          "drill": {
+            "code": "D2",
+            "count": 5
+          },
+          "vocab": [
+            "Rezept",
+            "Apotheke",
+            "Medikament",
+            "Schmerz",
+            "Erkältung"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D10",
+          "D2",
+          "D1",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 105,
+      "title": "Reisen & Urlaub",
+      "goals": [
+        "Merencanakan perjalanan dan pemesanan",
+        "Berbicara tentang hotel, penerbangan, dan tujuan",
+        "Memakai Perfekt dengan sein"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Perfekt dengan sein",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada reisen & urlaub.",
+            "Perfekt dengan sein; Präpositionen: nach, in, zu; Wohin? Woher? Wo?"
+          ],
+          "slides": [
+            {
+              "title": "Perfekt dengan sein",
+              "body": [
+                "Verba gerak: gehen, fahren, fliegen, reisen memakai sein.",
+                "Partizip: gefahren, geflogen, gereist.",
+                "Contoh: Wir sind nach Berlin gefahren."
+              ],
+              "example_de": "Wir sind nach Berlin gefahren.",
+              "example_id": "Kami pergi ke Berlin."
+            },
+            {
+              "title": "Präpositionen: nach, in, zu",
+              "body": [
+                "nach + kota/negara tanpa artikel: nach Berlin.",
+                "in + negara berartikel: in die Schweiz, in die Türkei.",
+                "zu + orang/tempat: zum Bahnhof, zur Oma."
+              ],
+              "example_de": "Im Sommer fahren wir in die Schweiz.",
+              "example_id": "Pada musim panas kami pergi ke Swiss."
+            },
+            {
+              "title": "Wohin? Woher? Wo?",
+              "body": [
+                "Wohin? → nach/in/zu + Akkusativ.",
+                "Woher? → aus + Dativ.",
+                "Wo? → in + Dativ: in der Stadt."
+              ],
+              "example_de": "Woher kommst du? — Aus Indonesien.",
+              "example_id": "Dari mana asalmu? — Dari Indonesia."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Reise",
+            "Urlaub",
+            "Hotel",
+            "Buchung",
+            "Flug"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Reisen & Urlaub",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Koffer, Pass, Grenze, Meer."
+          ],
+          "slides": [
+            {
+              "title": "Koffer",
+              "body": [
+                "koper",
+                "Plural: die Koffer"
+              ],
+              "example_de": "Mein Koffer ist zu schwer.",
+              "example_id": "Koper saya terlalu berat."
+            },
+            {
+              "title": "Pass",
+              "body": [
+                "paspor",
+                "Plural: die Pässe"
+              ],
+              "example_de": "Zeigen Sie bitte Ihren Pass.",
+              "example_id": "Tunjukkan paspor Anda."
+            },
+            {
+              "title": "Grenze",
+              "body": [
+                "perbatasan",
+                "Plural: die Grenzen"
+              ],
+              "example_de": "Wir überqueren die Grenze.",
+              "example_id": "Kami melewati perbatasan."
+            },
+            {
+              "title": "Meer",
+              "body": [
+                "laut",
+                "Plural: die Meere"
+              ],
+              "example_de": "Das Meer ist heute ruhig.",
+              "example_id": "Lautnya hari ini tenang."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Koffer",
+            "Pass",
+            "Grenze",
+            "Meer",
+            "Strand"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D6",
+          "D3",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 106,
+      "title": "Verkehr & Orientierung",
+      "goals": [
+        "Menggunakan transportasi umum",
+        "Menanyakan dan memberi arah",
+        "Memakai imperatif dan verba terpisah"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Imperativ: Sie & du",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada verkehr & orientierung.",
+            "Imperativ: Sie & du; Wechselpräpositionen mit Dativ; Trennbare Verben: ein-/aus-/um-"
+          ],
+          "slides": [
+            {
+              "title": "Imperativ: Sie & du",
+              "body": [
+                "Sie: Gehen Sie geradeaus! Nehmen Sie die Linie 5!",
+                "du: Geh geradeaus! Nimm die Linie 5!",
+                "Verba terpisah: Steig am Markt aus!"
+              ],
+              "example_de": "Gehen Sie geradeaus und dann links.",
+              "example_id": "Jalan lurus lalu ke kiri."
+            },
+            {
+              "title": "Wechselpräpositionen mit Dativ",
+              "body": [
+                "Bewegung zu einem Ort: zu dem → zum, zu der → zur.",
+                "Ich gehe zum Bahnhof, zur Haltestelle.",
+                "in + Dativ untuk berada: in der Stadt."
+              ],
+              "example_de": "Ich gehe zur Haltestelle.",
+              "example_id": "Saya pergi ke halte bus."
+            },
+            {
+              "title": "Trennbare Verben: ein-/aus-/um-",
+              "body": [
+                "einsteigen: Ich steige ein.",
+                "aussteigen: Wir steigen am Markt aus.",
+                "umsteigen: Du steigst in der Mitte um."
+              ],
+              "example_de": "Wir steigen am Markt aus.",
+              "example_id": "Kami turun di pasar."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Verkehr",
+            "Kreuzung",
+            "Ampel",
+            "Bahnhof",
+            "Haltestelle"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Verkehr & Orientierung",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Bus, Straßenbahn, Fahrkarte, Fahrplan."
+          ],
+          "slides": [
+            {
+              "title": "Bus",
+              "body": [
+                "bus",
+                "Plural: die Busse"
+              ],
+              "example_de": "Der Bus kommt in fünf Minuten.",
+              "example_id": "Busnya datang lima menit lagi."
+            },
+            {
+              "title": "Straßenbahn",
+              "body": [
+                "trem",
+                "Plural: die Straßenbahnen"
+              ],
+              "example_de": "Die Straßenbahn fährt zum Zentrum.",
+              "example_id": "Tremnya menuju pusat kota."
+            },
+            {
+              "title": "Fahrkarte",
+              "body": [
+                "tiket",
+                "Plural: die Fahrkarten"
+              ],
+              "example_de": "Ich kaufe eine Fahrkarte.",
+              "example_id": "Saya membeli tiket."
+            },
+            {
+              "title": "Fahrplan",
+              "body": [
+                "jadwal",
+                "Plural: die Fahrpläne"
+              ],
+              "example_de": "Der Fahrplan hängt dort.",
+              "example_id": "Jadwalnya tertempel di sana."
+            }
+          ],
+          "drill": {
+            "code": "D4",
+            "count": 5
+          },
+          "vocab": [
+            "Bus",
+            "Straßenbahn",
+            "Fahrkarte",
+            "Fahrplan",
+            "Richtung"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D9",
+          "D4",
+          "D1",
+          "D2"
+        ]
+      }
+    },
+    {
+      "unit": 107,
+      "title": "Freizeit & Hobbys",
+      "goals": [
+        "Menceritakan hobi dan waktu luang",
+        "Menyatakan kesukaan (gern/lieber)",
+        "Berbicara tentang rencana dengan werden"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "gern, lieber, am liebsten",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada freizeit & hobbys.",
+            "gern, lieber, am liebsten; Futur mit werden; Präpositionen mit Dativ (Zeit/Ort)"
+          ],
+          "slides": [
+            {
+              "title": "gern, lieber, am liebsten",
+              "body": [
+                "gern: suka — Ich lese gern.",
+                "lieber: lebih suka — Ich lese lieber als fernzusehen.",
+                "am liebsten: paling suka — Am liebsten schwimme ich."
+              ],
+              "example_de": "Am liebsten schwimme ich im See.",
+              "example_id": "Paling suka saya berenang di danau."
+            },
+            {
+              "title": "Futur mit werden",
+              "body": [
+                "werden + infinitif: Ich werde morgen wandern.",
+                "werden: werde, wirst, wird, werden, werdet.",
+                "Sering diganti Präsens + keterangan waktu."
+              ],
+              "example_de": "Am Wochenende werde ich wandern.",
+              "example_id": "Akhir pekan ini saya akan mendaki."
+            },
+            {
+              "title": "Präpositionen mit Dativ (Zeit/Ort)",
+              "body": [
+                "im Verein, im Kino, am See, beim Sport.",
+                "in + dem = im, an + dem = am, bei + dem = beim.",
+                "Contoh: Ich bin im Sportverein."
+              ],
+              "example_de": "Ich bin in einem Sportverein.",
+              "example_id": "Saya ikut klub olahraga."
+            }
+          ],
+          "drill": {
+            "code": "D3",
+            "count": 5
+          },
+          "vocab": [
+            "Freizeit",
+            "Hobby",
+            "Verein",
+            "Konzert",
+            "Kino"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Freizeit & Hobbys",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Museum, Ausstellung, Sport, Spiel."
+          ],
+          "slides": [
+            {
+              "title": "Museum",
+              "body": [
+                "museum",
+                "Plural: die Museen"
+              ],
+              "example_de": "Das Museum ist heute geschlossen.",
+              "example_id": "Museumnya tutup hari ini."
+            },
+            {
+              "title": "Ausstellung",
+              "body": [
+                "pameran",
+                "Plural: die Ausstellungen"
+              ],
+              "example_de": "Die Ausstellung ist interessant.",
+              "example_id": "Pamerannya menarik."
+            },
+            {
+              "title": "Sport",
+              "body": [
+                "olahraga",
+                "Plural: die Sportarten"
+              ],
+              "example_de": "Sport ist gesund.",
+              "example_id": "Olahraga itu sehat."
+            },
+            {
+              "title": "Spiel",
+              "body": [
+                "permainan",
+                "Plural: die Spiele"
+              ],
+              "example_de": "Das Spiel war spannend.",
+              "example_id": "Permainannya menegangkan."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Museum",
+            "Ausstellung",
+            "Sport",
+            "Spiel",
+            "Mannschaft"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D3",
+          "D5",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 108,
+      "title": "Medien & Kommunikation",
+      "goals": [
+        "Berbicara tentang media dan teknologi",
+        "Menjelaskan masalah komunikasi",
+        "Memakai nebensatz dass dan bentuk lampau"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Nebensatz mit dass",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada medien & kommunikation.",
+            "Nebensatz mit dass; Präteritum war & hatte; Indirekte Frage"
+          ],
+          "slides": [
+            {
+              "title": "Nebensatz mit dass",
+              "body": [
+                "dass mengirim verba finit ke akhir.",
+                "Ich glaube, dass er Recht hat.",
+                "Sering dipakai setelah glauben, sagen, denken."
+              ],
+              "example_de": "Ich glaube, dass er Recht hat.",
+              "example_id": "Saya rasa dia benar."
+            },
+            {
+              "title": "Präteritum war & hatte",
+              "body": [
+                "war/hatte dipakai dalam cerita dan laporan.",
+                "Ich war gestern online. Ich hatte kein Internet.",
+                "Bentuk jamak: wir waren, wir hatten."
+              ],
+              "example_de": "Gestern war ich den ganzen Tag online.",
+              "example_id": "Kemarin saya online sepanjang hari."
+            },
+            {
+              "title": "Indirekte Frage",
+              "body": [
+                "Pertanyaan tidak langsung memakai ob.",
+                "Ich weiß nicht, ob er kommt.",
+                "Pertanyaan W: Ich weiß nicht, wann er kommt."
+              ],
+              "example_de": "Ich weiß nicht, ob er heute kommt.",
+              "example_id": "Saya tidak tahu apakah dia datang hari ini."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Nachricht",
+            "Zeitung",
+            "Sendung",
+            "Film",
+            "Werbung"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Medien & Kommunikation",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Internet, App, Handy, Computer."
+          ],
+          "slides": [
+            {
+              "title": "Internet",
+              "body": [
+                "internet"
+              ],
+              "example_de": "Ich suche im Internet.",
+              "example_id": "Saya mencari di internet."
+            },
+            {
+              "title": "App",
+              "body": [
+                "aplikasi",
+                "Plural: die Apps"
+              ],
+              "example_de": "Die App ist kostenlos.",
+              "example_id": "Aplikasinya gratis."
+            },
+            {
+              "title": "Handy",
+              "body": [
+                "ponsel",
+                "Plural: die Handys"
+              ],
+              "example_de": "Mein Handy ist leer.",
+              "example_id": "Ponsel saya habis baterai."
+            },
+            {
+              "title": "Computer",
+              "body": [
+                "komputer",
+                "Plural: die Computer"
+              ],
+              "example_de": "Der Computer ist kaputt.",
+              "example_id": "Komputernya rusak."
+            }
+          ],
+          "drill": {
+            "code": "D6",
+            "count": 5
+          },
+          "vocab": [
+            "Internet",
+            "App",
+            "Handy",
+            "Computer",
+            "Passwort"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D7",
+          "D6",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 109,
+      "title": "Feste & Traditionen",
+      "goals": [
+        "Berbicara tentang pesta dan tradisi",
+        "Mengundang dan memberi selamat",
+        "Memakai wenn/als untuk waktu"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Temporale Nebensätze: wenn & als",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada feste & traditionen.",
+            "Temporale Nebensätze: wenn & als; Personalpronomen im Dativ; Perfekt dengan haben"
+          ],
+          "slides": [
+            {
+              "title": "Temporale Nebensätze: wenn & als",
+              "body": [
+                "als untuk satu kejadian di masa lalu.",
+                "wenn untuk berulang/ masa kini-depan.",
+                "Als ich zwanzig war, habe ich viel gefeiert."
+              ],
+              "example_de": "Als ich zwanzig war, habe ich viel gefeiert.",
+              "example_id": "Saat saya dua puluh tahun, saya banyak berpesta."
+            },
+            {
+              "title": "Personalpronomen im Dativ",
+              "body": [
+                "mir, dir, ihm, ihr, uns, euch, ihnen.",
+                "Ich gratuliere dir. Ich schenke ihm ein Buch.",
+                "Dativ untuk penerima."
+              ],
+              "example_de": "Ich gratuliere dir zum Geburtstag.",
+              "example_id": "Saya mengucapkan selamat ulang tahun kepadamu."
+            },
+            {
+              "title": "Perfekt dengan haben",
+              "body": [
+                "gefeiert, eingeladen, geschenkt.",
+                "Verba berakhiran -ieren tanpa ge-: gratuliert.",
+                "Wir haben den ganzen Abend gefeiert."
+              ],
+              "example_de": "Wir haben den ganzen Abend gefeiert.",
+              "example_id": "Kami berpesta sepanjang malam."
+            }
+          ],
+          "drill": {
+            "code": "D2",
+            "count": 5
+          },
+          "vocab": [
+            "Fest",
+            "Feier",
+            "Geburtstag",
+            "Hochzeit",
+            "Geschenk"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Feste & Traditionen",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Gast, Einladung, Weihnachtsmarkt, Feuerwerk."
+          ],
+          "slides": [
+            {
+              "title": "Gast",
+              "body": [
+                "tamu",
+                "Plural: die Gäste"
+              ],
+              "example_de": "Wir haben viele Gäste.",
+              "example_id": "Kami punya banyak tamu."
+            },
+            {
+              "title": "Einladung",
+              "body": [
+                "undangan",
+                "Plural: die Einladungen"
+              ],
+              "example_de": "Die Einladung ist per Post gekommen.",
+              "example_id": "Undangannya datang lewat pos."
+            },
+            {
+              "title": "Weihnachtsmarkt",
+              "body": [
+                "pasar Natal",
+                "Plural: die Weihnachtsmärkte"
+              ],
+              "example_de": "Der Weihnachtsmarkt ist im Dezember.",
+              "example_id": "Pasar Natalnya bulan Desember."
+            },
+            {
+              "title": "Feuerwerk",
+              "body": [
+                "kembang api",
+                "Plural: die Feuerwerke"
+              ],
+              "example_de": "Das Feuerwerk ist um Mitternacht.",
+              "example_id": "Kembang apinya tengah malam."
+            }
+          ],
+          "drill": {
+            "code": "D7",
+            "count": 5
+          },
+          "vocab": [
+            "Gast",
+            "Einladung",
+            "Weihnachtsmarkt",
+            "Feuerwerk",
+            "Brauch"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D2",
+          "D7",
+          "D1",
+          "D4"
+        ]
+      }
+    },
+    {
+      "unit": 110,
+      "title": "Umwelt & Alltag",
+      "goals": [
+        "Berbicara tentang lingkungan sehari-hari",
+        "Menjelaskan kebiasaan memilah sampah",
+        "Memakai kalimat pasif dan man"
+      ],
+      "lessons": [
+        {
+          "no": 1,
+          "title": "Passiv Präsens",
+          "minutes": 14,
+          "recap": [
+            "Unit ini berfokus pada umwelt & alltag.",
+            "Passiv Präsens; man; Kausal: weil & deshalb"
+          ],
+          "slides": [
+            {
+              "title": "Passiv Präsens",
+              "body": [
+                "werden + Partizip II: Der Müll wird getrennt.",
+                "Pelaku bisa dihilangkan dengan von + Dativ.",
+                "Contoh: Die Flaschen werden gesammelt."
+              ],
+              "example_de": "Der Müll wird zu Hause getrennt.",
+              "example_id": "Sampah dipilah di rumah."
+            },
+            {
+              "title": "man",
+              "body": [
+                "man = orang pada umumnya, verba bentuk er/sie/es.",
+                "Man trennt Müll. Man spart Wasser.",
+                "Sering dipakai untuk aturan/kebiasaan."
+              ],
+              "example_de": "In Deutschland trennt man den Müll.",
+              "example_id": "Di Jerman orang memilah sampah."
+            },
+            {
+              "title": "Kausal: weil & deshalb",
+              "body": [
+                "weil + verba di akhir: …, weil es wichtig ist.",
+                "deshalb + verba di posisi 2: Es ist wichtig, deshalb trenne ich Müll.",
+                "Dua cara menyatakan sebab."
+              ],
+              "example_de": "Umweltschutz ist wichtig, deshalb sparen wir Strom.",
+              "example_id": "Perlindungan lingkungan penting, karena itu kami menghemat listrik."
+            }
+          ],
+          "drill": {
+            "code": "D5",
+            "count": 5
+          },
+          "vocab": [
+            "Umwelt",
+            "Müll",
+            "Recycling",
+            "Energie",
+            "Strom"
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Anwendung: Umwelt & Alltag",
+          "minutes": 12,
+          "recap": [
+            "Ubah pengetahuan tata bahasa menjadi kalimat sendiri.",
+            "Fokus kosakata: Abfall, Flasche, Tüte, Luft."
+          ],
+          "slides": [
+            {
+              "title": "Abfall",
+              "body": [
+                "limbah, sampah",
+                "Plural: die Abfälle"
+              ],
+              "example_de": "Der Abfall kommt in die Tonne.",
+              "example_id": "Sampahnya masuk ke tong."
+            },
+            {
+              "title": "Flasche",
+              "body": [
+                "botol",
+                "Plural: die Flaschen"
+              ],
+              "example_de": "Die Flasche ist aus Glas.",
+              "example_id": "Botolnya dari kaca."
+            },
+            {
+              "title": "Tüte",
+              "body": [
+                "kantong",
+                "Plural: die Tüten"
+              ],
+              "example_de": "Ich brauche keine Tüte.",
+              "example_id": "Saya tidak butuh kantong."
+            },
+            {
+              "title": "Luft",
+              "body": [
+                "udara"
+              ],
+              "example_de": "Die Luft ist sauber.",
+              "example_id": "Udaranya bersih."
+            }
+          ],
+          "drill": {
+            "code": "D9",
+            "count": 5
+          },
+          "vocab": [
+            "Abfall",
+            "Flasche",
+            "Tüte",
+            "Luft",
+            "Tonne"
+          ]
+        }
+      ],
+      "checkpoint": {
+        "count": 15,
+        "pass": 70,
+        "codes": [
+          "D5",
+          "D9",
+          "D1",
+          "D2",
+          "D4"
+        ]
+      }
+    }
+  ]
+}

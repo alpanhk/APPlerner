@@ -1,0 +1,206 @@
+{
+  "id": "dialog-05",
+  "title": "Ein Wochenende in Hamburg",
+  "textId": 5,
+  "level": "A2",
+  "tags": "seed · A2 · cerita",
+  "sourceFile": "src/data/reading/texts_a1.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Am Wochenende bin ich nach Hamburg gefahren.",
+      "id": "Pada akhir pekan saya pergi ke Hamburg.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Die Fahrt hat drei Stunden gedauert.",
+      "id": "Perjalanannya memakan waktu tiga jam.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Ich habe meine Tante besucht.",
+      "id": "Saya mengunjungi bibi saya.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Wir haben einen Spaziergang an der Elbe gemacht.",
+      "id": "Kami berjalan-jalan di tepi sungai Elbe.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Das Wetter war leider kalt und windig.",
+      "id": "Cuacanya sayangnya dingin dan berangin.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Am Abend sind wir in einem kleinen Restaurant gegessen.",
+      "id": "Pada malam hari kami makan di sebuah restoran kecil.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "lehrerin",
+      "de": "Am Wochenende bin ich nach Hamburg gefahren.",
+      "id": "Pada akhir pekan saya pergi ke Hamburg.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "narrator",
+      "de": "Die Fahrt hat drei Stunden gedauert.",
+      "id": "Perjalanannya memakan waktu tiga jam.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t03",
+      "speakerId": "freundin",
+      "de": "Ich habe meine Tante besucht.",
+      "id": "Saya mengunjungi bibi saya.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "narrator",
+      "de": "Wir haben einen Spaziergang an der Elbe gemacht.",
+      "id": "Kami berjalan-jalan di tepi sungai Elbe.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Das Wetter war leider kalt und windig.",
+      "id": "Cuacanya sayangnya dingin dan berangin.",
+      "pose": "offscreen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "freundin",
+      "de": "Am Abend sind wir in einem kleinen Restaurant gegessen.",
+      "id": "Pada malam hari kami makan di sebuah restoran kecil.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

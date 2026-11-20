@@ -1,0 +1,18 @@
+[
+  { "prompt": "ich ___ (können) gut schwimmen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "kann", "explanation": "ich kann — bentuk modal können untuk ich." },
+  { "prompt": "du ___ (müssen) jetzt gehen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "musst", "explanation": "du musst — müssen untuk du berakhiran -st." },
+  { "prompt": "er ___ (dürfen) hier nicht rauchen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "darf", "explanation": "er darf — dürfen untuk er/sie/es." },
+  { "prompt": "wir ___ (wollen) Deutsch lernen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "wollen", "explanation": "wir wollen — bentuk wollen untuk wir sama dengan infinitif." },
+  { "prompt": "ihr ___ (können) morgen kommen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "könnt", "explanation": "ihr könnt — können untuk ihr berakhiran -t." },
+  { "prompt": "sie ___ (müssen) arbeiten.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "müssen", "explanation": "sie müssen — bentuk jamak sama dengan infinitif." },
+  { "prompt": "ich ___ (mögen) Kaffee.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "mag", "explanation": "ich mag — mögen berubah vokal pada bentuk ich." },
+  { "prompt": "du ___ (wollen) nach Berlin fahren.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "willst", "explanation": "du willst — wollen untuk du." },
+  { "prompt": "er ___ (können) gut kochen.", "sub": "Ketik bentuk modal yang benar.", "mode": "type", "answer": "kann", "explanation": "er kann — können untuk er/sie/es." },
+  { "prompt": "Ich kann heute nicht ___.", "sub": "Pilih infinitif yang tepat di akhir kalimat.", "mode": "choice", "options": ["kommen", "komme", "kommt"], "answer": "kommen", "explanation": "Modal + infinitif: kann ... kommen; infinitif tetap di akhir." },
+  { "prompt": "Wir müssen jetzt ___.", "sub": "Pilih infinitif yang tepat di akhir kalimat.", "mode": "choice", "options": ["gehen", "gehe", "geht"], "answer": "gehen", "explanation": "müssen + infinitif gehen di akhir kalimat." },
+  { "prompt": "Sie will ein Buch ___.", "sub": "Pilih infinitif yang tepat di akhir kalimat.", "mode": "choice", "options": ["lesen", "liest", "lese"], "answer": "lesen", "explanation": "will + infinitif lesen di akhir kalimat." },
+  { "prompt": "Darf ich hier ___?", "sub": "Pilih infinitif yang tepat di akhir kalimat.", "mode": "choice", "options": ["rauchen", "rauche", "raucht"], "answer": "rauchen", "explanation": "darf + infinitif rauchen; pada pertanyaan modal di depan." },
+  { "prompt": "Kannst du mir ___?", "sub": "Pilih infinitif yang tepat di akhir kalimat.", "mode": "choice", "options": ["helfen", "hilfst", "hilft"], "answer": "helfen", "explanation": "kannst + infinitif helfen di akhir." },
+  { "prompt": "___ du mir helfen?", "sub": "Pilih bentuk modal yang benar untuk du.", "mode": "choice", "options": ["Kannst", "Kann", "Können"], "answer": "Kannst", "explanation": "Kannst du ...? — können untuk du adalah kannst." },
+  { "prompt": "Wir ___ heute nicht kommen.", "sub": "Pilih bentuk modal yang benar untuk wir.", "mode": "choice", "options": ["können", "könnt", "kann"], "answer": "können", "explanation": "wir können — bentuk jamak sama dengan infinitif." }
+]

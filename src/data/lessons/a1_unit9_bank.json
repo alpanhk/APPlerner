@@ -1,0 +1,368 @@
+{
+  "level": "A1",
+  "unit": 9,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 9. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u9-o1-01",
+      "objectiveId": "a1-u9-o1",
+      "code": "D1",
+      "prompt": "Ich habe ___ . (demam)",
+      "sub": "Pilih keluhan yang berarti 'demam'.",
+      "mode": "choice",
+      "options": ["Fieber", "Husten", "Kopfschmerzen", "Halsschmerzen"],
+      "answer": "Fieber",
+      "wrongFeedback": {
+        "Husten": "Husten berarti 'batuk', bukan demam.",
+        "Kopfschmerzen": "Kopfschmerzen berarti 'sakit kepala', bukan demam.",
+        "Halsschmerzen": "Halsschmerzen berarti 'sakit tenggorokan', bukan demam."
+      },
+      "explanation": "Fieber berarti 'demam': Ich habe Fieber."
+    },
+    {
+      "id": "u9-o1-02",
+      "objectiveId": "a1-u9-o1",
+      "code": "D1",
+      "prompt": "Mein Bruder hat ___ . (batuk)",
+      "sub": "Pilih keluhan yang berarti 'batuk'.",
+      "mode": "choice",
+      "options": ["Husten", "Fieber", "Schnupfen", "Schmerzen"],
+      "answer": "Husten",
+      "wrongFeedback": {
+        "Fieber": "Fieber berarti 'demam', bukan batuk.",
+        "Schnupfen": "Schnupfen berarti 'pilek', bukan batuk.",
+        "Schmerzen": "Schmerzen berarti 'rasa sakit' secara umum, bukan batuk."
+      },
+      "explanation": "Husten berarti 'batuk': Mein Bruder hat Husten."
+    },
+    {
+      "id": "u9-o1-03",
+      "objectiveId": "a1-u9-o1",
+      "code": "D1",
+      "prompt": "Ich habe ___ . (sakit kepala)",
+      "sub": "Pilih keluhan yang berarti 'sakit kepala'.",
+      "mode": "choice",
+      "options": ["Kopfschmerzen", "Halsschmerzen", "Bauchschmerzen", "Fieber"],
+      "answer": "Kopfschmerzen",
+      "wrongFeedback": {
+        "Halsschmerzen": "Halsschmerzen berarti 'sakit tenggorokan', bukan sakit kepala.",
+        "Bauchschmerzen": "Bauchschmerzen berarti 'sakit perut', bukan sakit kepala.",
+        "Fieber": "Fieber berarti 'demam', bukan sakit kepala."
+      },
+      "explanation": "Kopfschmerzen berarti 'sakit kepala': Ich habe Kopfschmerzen."
+    },
+    {
+      "id": "u9-o1-04",
+      "objectiveId": "a1-u9-o1",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'sakit tenggorokan' (plural).",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Halsschmerzen",
+      "altAnswers": ["halsschmerzen"],
+      "hintOnWrong": "Sakit tenggorokan = Halsschmerzen: Hals + Schmerzen (jamak).",
+      "explanation": "Halsschmerzen berarti 'sakit tenggorokan'."
+    },
+    {
+      "id": "u9-o1-05",
+      "objectiveId": "a1-u9-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Saya demam dan sakit kepala.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "habe", "Fieber", "und", "Kopfschmerzen."],
+      "answer": "Ich habe Fieber und Kopfschmerzen.",
+      "hintOnWrong": "Mulai dengan Ich habe, lalu Fieber und Kopfschmerzen.",
+      "explanation": "Ich habe Fieber und Kopfschmerzen. haben dipakai untuk menyebut keluhan."
+    },
+    {
+      "id": "u9-o2-01",
+      "objectiveId": "a1-u9-o2",
+      "code": "D3",
+      "prompt": "___ fehlt Ihnen?",
+      "sub": "Pilih kata tanya untuk keluhan.",
+      "mode": "choice",
+      "options": ["Was", "Wie", "Wo", "Wann"],
+      "answer": "Was",
+      "wrongFeedback": {
+        "Wie": "Wie dipakai dalam Wie geht es Ihnen?, bukan untuk menanyakan keluhan.",
+        "Wo": "Wo menanyakan tempat, bukan keluhan.",
+        "Wann": "Wann menanyakan waktu, bukan keluhan."
+      },
+      "explanation": "Was fehlt Ihnen? berarti 'Apa keluhan Anda?'."
+    },
+    {
+      "id": "u9-o2-02",
+      "objectiveId": "a1-u9-o2",
+      "code": "D3",
+      "prompt": "Wie geht es ___ ?",
+      "sub": "Pilih bentuk formal yang tepat.",
+      "mode": "choice",
+      "options": ["Ihnen", "Sie", "Ihr", "du"],
+      "answer": "Ihnen",
+      "wrongFeedback": {
+        "Sie": "Sie adalah bentuk nominatif/Akkusativ; setelah es geht memakai Dativ Ihnen.",
+        "Ihr": "Ihr adalah possessiv 'Anda/kalian', bukan bentuk Dativ di sini.",
+        "du": "du terlalu santai untuk bentuk formal dan tidak sesuai struktur kalimat."
+      },
+      "explanation": "Wie geht es Ihnen? berarti 'Bagaimana kabar Anda?' (formal)."
+    },
+    {
+      "id": "u9-o2-03",
+      "objectiveId": "a1-u9-o2",
+      "code": "D9",
+      "prompt": "Ich habe ___ zwei Tagen Husten.",
+      "sub": "Pilih preposisi untuk durasi yang masih berlangsung.",
+      "mode": "choice",
+      "options": ["seit", "vor", "für", "in"],
+      "answer": "seit",
+      "wrongFeedback": {
+        "vor": "vor berarti 'yang lalu' dan tidak menyatakan keadaan yang masih berlangsung.",
+        "für": "für berarti 'untuk' dan tidak dipakai untuk durasi keluhan ini.",
+        "in": "in berarti 'di dalam/dalam', bukan 'sejak'."
+      },
+      "explanation": "seit zwei Tagen = sejak dua hari. Keadaan masih berlangsung."
+    },
+    {
+      "id": "u9-o2-04",
+      "objectiveId": "a1-u9-o2",
+      "code": "D9",
+      "prompt": "Lengkapi: Ich habe ___ gestern Kopfschmerzen. (sejak)",
+      "sub": "Ketik satu preposisi.",
+      "mode": "type",
+      "answer": "seit",
+      "altAnswers": ["Seit"],
+      "hintOnWrong": "Sejak = seit. Ich habe seit gestern Kopfschmerzen.",
+      "explanation": "seit gestern berarti 'sejak kemarin'."
+    },
+    {
+      "id": "u9-o2-05",
+      "objectiveId": "a1-u9-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Saya sakit sejak kemarin.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "bin", "seit", "gestern", "krank."],
+      "answer": "Ich bin seit gestern krank.",
+      "hintOnWrong": "Mulai dengan Ich bin, lalu seit gestern, lalu krank.",
+      "explanation": "Ich bin seit gestern krank. seit + waktu menunjukkan keadaan yang masih berlangsung."
+    },
+    {
+      "id": "u9-o3-01",
+      "objectiveId": "a1-u9-o3",
+      "code": "D1",
+      "prompt": "Ich brauche einen ___ .",
+      "sub": "Pilih kata untuk 'janji dokter'.",
+      "mode": "choice",
+      "options": ["Arzttermin", "Untersuchung", "Versicherungskarte", "Apotheker"],
+      "answer": "Arzttermin",
+      "wrongFeedback": {
+        "Untersuchung": "Untersuchung adalah pemeriksaan, bukan janji.",
+        "Versicherungskarte": "Versicherungskarte adalah kartu asuransi, bukan janji.",
+        "Apotheker": "Apotheker adalah apoteker, bukan janji."
+      },
+      "explanation": "Arzttermin berarti 'janji dokter': Ich brauche einen Arzttermin."
+    },
+    {
+      "id": "u9-o3-02",
+      "objectiveId": "a1-u9-o3",
+      "code": "D3",
+      "prompt": "Haben Sie heute einen Termin ___ ?",
+      "sub": "Pilih kata yang berarti 'kosong/tersedia'.",
+      "mode": "choice",
+      "options": ["frei", "offen", "leer", "bereit"],
+      "answer": "frei",
+      "wrongFeedback": {
+        "offen": "offen berarti 'terbuka', bukan jadwal yang tersedia.",
+        "leer": "leer berarti 'kosong' untuk wadah, bukan jadwal.",
+        "bereit": "bereit berarti 'siap', bukan jadwal yang masih tersedia."
+      },
+      "explanation": "einen Termin frei haben = memiliki jadwal kosong."
+    },
+    {
+      "id": "u9-o3-03",
+      "objectiveId": "a1-u9-o3",
+      "code": "D9",
+      "prompt": "Ich möchte einen Termin ___ Nachmittag.",
+      "sub": "Pilih preposisi untuk bagian hari.",
+      "mode": "choice",
+      "options": ["am", "im", "um", "in der"],
+      "answer": "am",
+      "wrongFeedback": {
+        "im": "im dipakai untuk bulan atau musim, bukan bagian hari.",
+        "um": "um dipakai untuk jam, bukan bagian hari.",
+        "in der": "in der dipakai untuk kata feminin dalam konteks lain; bagian hari memakai am."
+      },
+      "explanation": "am Nachmittag = pada sore hari."
+    },
+    {
+      "id": "u9-o3-04",
+      "objectiveId": "a1-u9-o3",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'jam praktik dokter' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Sprechstunde",
+      "altAnswers": ["Sprechstunde"],
+      "hintOnWrong": "Jam praktik = die Sprechstunde. Kata berakhiran -stunde di sini feminin.",
+      "explanation": "die Sprechstunde berarti 'jam praktik dokter'."
+    },
+    {
+      "id": "u9-o3-05",
+      "objectiveId": "a1-u9-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ingin janji pada pagi hari.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "möchte", "einen", "Termin", "am", "Vormittag."],
+      "answer": "Ich möchte einen Termin am Vormittag.",
+      "hintOnWrong": "Mulai dengan Ich möchte einen Termin, lalu am Vormittag.",
+      "explanation": "Ich möchte einen Termin am Vormittag. am Vormittag = pada pagi hari."
+    },
+    {
+      "id": "u9-o4-01",
+      "objectiveId": "a1-u9-o4",
+      "code": "D3",
+      "prompt": "Mein Hals ___ weh.",
+      "sub": "Konjugasi wehtun untuk Mein Hals.",
+      "mode": "choice",
+      "options": ["tut", "tun", "tust", "hat"],
+      "answer": "tut",
+      "wrongFeedback": {
+        "tun": "tun dipakai untuk subjek plural; Mein Hals tunggal.",
+        "tust": "tust dipakai untuk du, bukan Mein Hals.",
+        "hat": "hat adalah bentuk haben dan tidak membentuk frasa weh tun."
+      },
+      "explanation": "Mein Hals tut weh. berarti 'Tenggorokan saya sakit'."
+    },
+    {
+      "id": "u9-o4-02",
+      "objectiveId": "a1-u9-o4",
+      "code": "D3",
+      "prompt": "Ich fühle ___ müde.",
+      "sub": "Pilih kata ganti refleksif untuk ich.",
+      "mode": "choice",
+      "options": ["mich", "mir", "ich", "sich"],
+      "answer": "mich",
+      "wrongFeedback": {
+        "mir": "mir adalah Dativ; sich fühlen untuk ich memakai Akkusativ mich.",
+        "ich": "ich adalah subjek dan tidak dipakai setelah fühle.",
+        "sich": "sich dipakai untuk er/sie/es atau sie/Sie, bukan ich."
+      },
+      "explanation": "Ich fühle mich müde. berarti 'Saya merasa lelah'."
+    },
+    {
+      "id": "u9-o4-03",
+      "objectiveId": "a1-u9-o4",
+      "code": "D1",
+      "prompt": "Bitte bringen Sie Ihre ___ mit.",
+      "sub": "Pilih kartu yang dibawa ke praktik dokter.",
+      "mode": "choice",
+      "options": ["Versicherungskarte", "Untersuchung", "Sprechstunde", "Krankmeldung"],
+      "answer": "Versicherungskarte",
+      "wrongFeedback": {
+        "Untersuchung": "Untersuchung adalah pemeriksaan, bukan kartu.",
+        "Sprechstunde": "Sprechstunde adalah jam praktik, bukan kartu.",
+        "Krankmeldung": "Krankmeldung adalah surat izin sakit, bukan kartu."
+      },
+      "explanation": "die Versicherungskarte adalah kartu asuransi yang dibawa ke praktik."
+    },
+    {
+      "id": "u9-o4-04",
+      "objectiveId": "a1-u9-o4",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'pemeriksaan' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Untersuchung",
+      "altAnswers": ["Untersuchung"],
+      "hintOnWrong": "Pemeriksaan = die Untersuchung. Kata berakhiran -ung umumnya feminin.",
+      "explanation": "die Untersuchung berarti 'pemeriksaan'."
+    },
+    {
+      "id": "u9-o4-05",
+      "objectiveId": "a1-u9-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Dokter memeriksa saya.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Die", "Ärztin", "untersucht", "mich."],
+      "answer": "Die Ärztin untersucht mich.",
+      "hintOnWrong": "Mulai dengan Die Ärztin, lalu untersucht, lalu mich.",
+      "explanation": "Die Ärztin untersucht mich. untersuchen memakai objek Akkusativ mich."
+    },
+    {
+      "id": "u9-o5-01",
+      "objectiveId": "a1-u9-o5",
+      "code": "D10",
+      "prompt": "Sie ___ die Tablette nach dem Essen nehmen.",
+      "sub": "Konjugasi sollen untuk bentuk formal Sie.",
+      "mode": "choice",
+      "options": ["sollen", "soll", "sollst", "sollt"],
+      "answer": "sollen",
+      "wrongFeedback": {
+        "soll": "soll dipakai untuk ich atau er/sie/es.",
+        "sollst": "sollst dipakai untuk du.",
+        "sollt": "sollt dipakai untuk ihr."
+      },
+      "explanation": "sollen → Sie sollen: Sie sollen die Tablette nach dem Essen nehmen."
+    },
+    {
+      "id": "u9-o5-02",
+      "objectiveId": "a1-u9-o5",
+      "code": "D10",
+      "prompt": "Ich ___ die Tropfen dreimal täglich nehmen.",
+      "sub": "Konjugasi sollen untuk ich.",
+      "mode": "choice",
+      "options": ["soll", "sollen", "sollst", "sollt"],
+      "answer": "soll",
+      "wrongFeedback": {
+        "sollen": "sollen dipakai untuk wir/sie/Sie.",
+        "sollst": "sollst dipakai untuk du.",
+        "sollt": "sollt dipakai untuk ihr."
+      },
+      "explanation": "sollen → ich soll: Ich soll die Tropfen dreimal täglich nehmen."
+    },
+    {
+      "id": "u9-o5-03",
+      "objectiveId": "a1-u9-o5",
+      "code": "D9",
+      "prompt": "Der ___ gibt mir ein Schmerzmittel.",
+      "sub": "Pilih orang yang bekerja di apotek.",
+      "mode": "choice",
+      "options": ["Apotheker", "Arzt", "Rezept", "Tablette"],
+      "answer": "Apotheker",
+      "wrongFeedback": {
+        "Arzt": "Arzt adalah dokter; yang menyerahkan obat di apotek adalah Apotheker.",
+        "Rezept": "Rezept adalah resep, bukan orang.",
+        "Tablette": "Tablette adalah tablet, bukan orang."
+      },
+      "explanation": "Der Apotheker gibt mir ein Schmerzmittel. Apotheker = apoteker; Schmerzmittel = obat pereda nyeri."
+    },
+    {
+      "id": "u9-o5-04",
+      "objectiveId": "a1-u9-o5",
+      "code": "D1",
+      "prompt": "Ketik kata Jerman untuk 'surat izin sakit' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "die Krankmeldung",
+      "altAnswers": ["Krankmeldung"],
+      "hintOnWrong": "Surat izin sakit = die Krankmeldung. Kata berakhiran -ung feminin.",
+      "explanation": "die Krankmeldung berarti 'surat izin sakit'."
+    },
+    {
+      "id": "u9-o5-05",
+      "objectiveId": "a1-u9-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Saya minum tablet setelah makan.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "nehme", "die", "Tablette", "nach", "dem", "Essen."],
+      "answer": "Ich nehme die Tablette nach dem Essen.",
+      "hintOnWrong": "Mulai dengan Ich nehme die Tablette, lalu nach dem Essen.",
+      "explanation": "Ich nehme die Tablette nach dem Essen. nach + Dativ netral = nach dem Essen."
+    }
+  ]
+}

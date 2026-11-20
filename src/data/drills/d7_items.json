@@ -1,0 +1,20 @@
+[
+  { "prompt": "sein → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "war", "explanation": "ich war, du warst, er/sie/es war, wir waren." },
+  { "prompt": "sein → Präteritum (du)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "warst", "explanation": "du warst — bentuk Präteritum sein untuk du." },
+  { "prompt": "sein → Präteritum (wir)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "waren", "explanation": "wir waren — bentuk Präteritum sein untuk wir." },
+  { "prompt": "haben → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "hatte", "explanation": "ich hatte, du hattest, er/sie/es hatte, wir hatten." },
+  { "prompt": "haben → Präteritum (du)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "hattest", "explanation": "du hattest — bentuk Präteritum haben untuk du." },
+  { "prompt": "haben → Präteritum (sie/Sie)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "hatten", "explanation": "sie/Sie hatten — bentuk Präteritum haben untuk jamak." },
+  { "prompt": "gehen → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "ging", "explanation": "ich ging, du gingst, er ging, wir gingen." },
+  { "prompt": "gehen → Präteritum (wir)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "gingen", "explanation": "wir gingen — bentuk Präteritum gehen untuk wir." },
+  { "prompt": "kommen → Präteritum (er/sie/es)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "kam", "explanation": "er kam, du kamst, wir kamen." },
+  { "prompt": "kommen → Präteritum (wir)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "kamen", "explanation": "wir kamen — bentuk Präteritum kommen untuk wir." },
+  { "prompt": "sehen → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "sah", "explanation": "ich sah, du sahst, er sah, wir sahen." },
+  { "prompt": "sprechen → Präteritum (er/sie/es)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "sprach", "explanation": "er sprach — vokal e berubah menjadi a pada Präteritum sprechen." },
+  { "prompt": "fahren → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "fuhr", "explanation": "ich fuhr, du fuhrst, er fuhr, wir fuhren." },
+  { "prompt": "essen → Präteritum (er/sie/es)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "aß", "explanation": "er aß — Präteritum essen memakai vokal a dan ß." },
+  { "prompt": "trinken → Präteritum (wir)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "tranken", "explanation": "wir tranken — Präteritum trinken berubah i menjadi a." },
+  { "prompt": "wohnen → Präteritum (ich)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "wohnte", "explanation": "wohnen adalah verb lemah: ich wohnte." },
+  { "prompt": "machen → Präteritum (er/sie/es)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "machte", "explanation": "machen adalah verb lemah: er machte." },
+  { "prompt": "lernen → Präteritum (wir)", "sub": "Ketik bentuk Präteritum.", "mode": "type", "answer": "lernten", "explanation": "lernen adalah verb lemah: wir lernten." }
+]

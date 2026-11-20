@@ -1,0 +1,377 @@
+{
+  "level": "A1",
+  "unit": 4,
+  "reviewed": false,
+  "source": "Soal transfer untuk checkpoint berbasis tujuan Unit 4. Bukan salinan contoh slide; belum ditinjau pengajar.",
+  "items": [
+    {
+      "id": "u4-o1-01",
+      "objectiveId": "a1-u4-o1",
+      "code": "D1",
+      "prompt": "___ Käse ist aus der Schweiz.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Der", "Die", "Das", "Den"],
+      "answer": "Der",
+      "wrongFeedback": {
+        "Die": "Die dipakai untuk kata feminin atau jamak; Käse maskulin.",
+        "Das": "Das dipakai untuk kata netral; Käse maskulin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Käse menjadi subjek nominatif."
+      },
+      "explanation": "der Käse. Kata Käse maskulin."
+    },
+    {
+      "id": "u4-o1-02",
+      "objectiveId": "a1-u4-o1",
+      "code": "D1",
+      "prompt": "___ Milch ist kalt.",
+      "sub": "Pilih artikel yang benar.",
+      "mode": "choice",
+      "options": ["Die", "Der", "Das", "Den"],
+      "answer": "Die",
+      "wrongFeedback": {
+        "Der": "Der dipakai untuk kata maskulin; Milch feminin.",
+        "Das": "Das dipakai untuk kata netral; Milch feminin.",
+        "Den": "Den adalah bentuk Akkusativ maskulin; di sini Milch menjadi subjek nominatif."
+      },
+      "explanation": "die Milch. Milch adalah kata massal dan umumnya tidak dipakai dalam bentuk jamak."
+    },
+    {
+      "id": "u4-o1-03",
+      "objectiveId": "a1-u4-o1",
+      "code": "D1",
+      "prompt": "Artikel yang tepat untuk 'Brot' adalah ...",
+      "sub": "Pilih artikel nominatif.",
+      "mode": "choice",
+      "options": ["das", "der", "die", "den"],
+      "answer": "das",
+      "wrongFeedback": {
+        "der": "der dipakai untuk kata maskulin; Brot netral.",
+        "die": "die dipakai untuk kata feminin atau jamak; Brot netral.",
+        "den": "den adalah bentuk Akkusativ maskulin; Brot netral nominatif."
+      },
+      "explanation": "das Brot. Bentuk jamaknya die Brote."
+    },
+    {
+      "id": "u4-o1-04",
+      "objectiveId": "a1-u4-o1",
+      "code": "D1",
+      "prompt": "Tulis kata Jerman untuk 'apel' dengan artikelnya.",
+      "sub": "Ketik artikel dan kata bendanya.",
+      "mode": "type",
+      "answer": "der Apfel",
+      "altAnswers": ["Apfel"],
+      "hintOnWrong": "Apel = der Apfel. Artikel maskulin harus dihafal bersama katanya.",
+      "explanation": "der Apfel berarti 'apel'; bentuk jamaknya die Äpfel."
+    },
+    {
+      "id": "u4-o1-05",
+      "objectiveId": "a1-u4-o1",
+      "code": "D6",
+      "prompt": "Susun: 'Saya minum teh dengan gula.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "trinke", "Tee", "mit", "Zucker."],
+      "answer": "Ich trinke Tee mit Zucker.",
+      "hintOnWrong": "Mulai dengan Ich trinke, lalu Tee mit Zucker.",
+      "explanation": "Ich trinke Tee mit Zucker. Kata kerja finit trinke berada di posisi kedua."
+    },
+    {
+      "id": "u4-o2-01",
+      "objectiveId": "a1-u4-o2",
+      "code": "D1",
+      "prompt": "Der Kuchen ist ___ . (enak)",
+      "sub": "Pilih kata yang menerangkan rasa makanan.",
+      "mode": "choice",
+      "options": ["lecker", "hungrig", "durstig", "kalt"],
+      "answer": "lecker",
+      "wrongFeedback": {
+        "hungrig": "hungrig berarti 'lapar' dan menerangkan orang, bukan rasa kue.",
+        "durstig": "durstig berarti 'haus' dan menerangkan orang, bukan rasa kue.",
+        "kalt": "kalt berarti 'dingin' dan menerangkan suhu, bukan rasa enak."
+      },
+      "explanation": "lecker berarti 'enak' untuk makanan: Der Kuchen ist lecker."
+    },
+    {
+      "id": "u4-o2-02",
+      "objectiveId": "a1-u4-o2",
+      "code": "D3",
+      "prompt": "Ich möchte etwas trinken. Ich bin ___ .",
+      "sub": "Pilih keadaan yang sesuai.",
+      "mode": "choice",
+      "options": ["durstig", "hungrig", "lecker", "süß"],
+      "answer": "durstig",
+      "wrongFeedback": {
+        "hungrig": "hungrig berarti 'lapar'; keinginan minum menunjukkan haus.",
+        "lecker": "lecker menerangkan makanan yang enak, bukan keadaan orang.",
+        "süß": "süß berarti 'manis' dan menerangkan rasa, bukan keinginan minum."
+      },
+      "explanation": "durstig berarti 'haus': Ich bin durstig."
+    },
+    {
+      "id": "u4-o2-03",
+      "objectiveId": "a1-u4-o2",
+      "code": "D3",
+      "prompt": "Ich möchte etwas essen. Ich bin ___ .",
+      "sub": "Pilih keadaan yang sesuai.",
+      "mode": "choice",
+      "options": ["hungrig", "durstig", "lecker", "salzig"],
+      "answer": "hungrig",
+      "wrongFeedback": {
+        "durstig": "durstig berarti 'haus'; keinginan makan menunjukkan lapar.",
+        "lecker": "lecker menerangkan makanan yang enak, bukan keadaan orang.",
+        "salzig": "salzig berarti 'asin' dan menerangkan rasa, bukan keadaan orang."
+      },
+      "explanation": "hungrig berarti 'lapar': Ich bin hungrig."
+    },
+    {
+      "id": "u4-o2-04",
+      "objectiveId": "a1-u4-o2",
+      "code": "D3",
+      "prompt": "Ketik kata Jerman untuk 'haus'.",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "durstig",
+      "altAnswers": ["Durstig"],
+      "hintOnWrong": "Haus = durstig; bedakan dari hungrig (lapar).",
+      "explanation": "durstig berarti 'haus'."
+    },
+    {
+      "id": "u4-o2-05",
+      "objectiveId": "a1-u4-o2",
+      "code": "D6",
+      "prompt": "Susun: 'Tehnya enak.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Der", "Tee", "ist", "lecker."],
+      "answer": "Der Tee ist lecker.",
+      "hintOnWrong": "Mulai dengan Der Tee, lalu kata kerja ist, lalu lecker.",
+      "explanation": "Der Tee ist lecker. berarti 'Tehnya enak'."
+    },
+    {
+      "id": "u4-o3-01",
+      "objectiveId": "a1-u4-o3",
+      "code": "D4",
+      "prompt": "Ich möchte ___ Kaffee, bitte.",
+      "sub": "Pilih bentuk Akkusativ untuk Kaffee.",
+      "mode": "choice",
+      "options": ["einen", "ein", "eine", "einer"],
+      "answer": "einen",
+      "wrongFeedback": {
+        "ein": "ein adalah bentuk nominatif maskulin/netral; setelah möchte objeknya Akkusativ.",
+        "eine": "eine dipakai untuk kata feminin; Kaffee maskulin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ maskulin."
+      },
+      "explanation": "Kaffee maskulin dan menjadi objek möchte, jadi Akkusativ: einen Kaffee."
+    },
+    {
+      "id": "u4-o3-02",
+      "objectiveId": "a1-u4-o3",
+      "code": "D4",
+      "prompt": "Ich möchte ___ Wasser, bitte.",
+      "sub": "Pilih bentuk Akkusativ untuk Wasser.",
+      "mode": "choice",
+      "options": ["ein", "einen", "eine", "einer"],
+      "answer": "ein",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Wasser netral.",
+        "eine": "eine dipakai untuk kata feminin; Wasser netral.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ netral."
+      },
+      "explanation": "Wasser netral; bentuk Akkusativ netral tetap ein: ein Wasser."
+    },
+    {
+      "id": "u4-o3-03",
+      "objectiveId": "a1-u4-o3",
+      "code": "D4",
+      "prompt": "Ich möchte ___ Milch, bitte.",
+      "sub": "Pilih bentuk Akkusativ untuk Milch.",
+      "mode": "choice",
+      "options": ["eine", "einen", "ein", "einer"],
+      "answer": "eine",
+      "wrongFeedback": {
+        "einen": "einen dipakai untuk kata maskulin; Milch feminin.",
+        "ein": "ein dipakai untuk kata netral atau nominatif maskulin; Milch feminin.",
+        "einer": "einer adalah bentuk Dativ feminin; kalimat ini membutuhkan Akkusativ."
+      },
+      "explanation": "Milch feminin; bentuk Akkusativ feminin tetap eine: eine Milch."
+    },
+    {
+      "id": "u4-o3-04",
+      "objectiveId": "a1-u4-o3",
+      "code": "D4",
+      "prompt": "Lengkapi: Ich möchte ___ Saft, bitte. (ein)",
+      "sub": "Ketik bentuk Akkusativ maskulin.",
+      "mode": "type",
+      "answer": "einen",
+      "altAnswers": ["Einen"],
+      "hintOnWrong": "Saft maskulin dan menjadi objek möchte, jadi Akkusativ: einen Saft.",
+      "explanation": "Ich möchte einen Saft, bitte. Maskulin Akkusativ memakai einen."
+    },
+    {
+      "id": "u4-o3-05",
+      "objectiveId": "a1-u4-o3",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ingin teh, tolong.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "möchte", "einen", "Tee,", "bitte."],
+      "answer": "Ich möchte einen Tee, bitte.",
+      "hintOnWrong": "Mulai dengan Ich möchte, lalu einen Tee, lalu bitte.",
+      "explanation": "Ich möchte einen Tee, bitte. Tee maskulin, jadi Akkusativ einen Tee."
+    },
+    {
+      "id": "u4-o4-01",
+      "objectiveId": "a1-u4-o4",
+      "code": "D3",
+      "prompt": "Kamu ingin meminta menu. Apa yang kamu katakan?",
+      "sub": "Pilih ungkapan yang tepat.",
+      "mode": "choice",
+      "options": ["Die Speisekarte, bitte.", "Die Rechnung, bitte.", "Zusammen oder getrennt?", "Ich zahle mit Karte."],
+      "answer": "Die Speisekarte, bitte.",
+      "wrongFeedback": {
+        "Die Rechnung, bitte.": "Die Rechnung adalah tagihan, bukan menu.",
+        "Zusammen oder getrennt?": "Itu pertanyaan tentang cara membayar, bukan permintaan menu.",
+        "Ich zahle mit Karte.": "Itu pernyataan cara membayar, bukan permintaan menu."
+      },
+      "explanation": "Die Speisekarte, bitte. berarti 'Menu, tolong'."
+    },
+    {
+      "id": "u4-o4-02",
+      "objectiveId": "a1-u4-o4",
+      "code": "D3",
+      "prompt": "Kamu sudah selesai makan dan ingin membayar. Apa yang kamu katakan?",
+      "sub": "Pilih ungkapan yang tepat.",
+      "mode": "choice",
+      "options": ["Die Rechnung, bitte.", "Die Speisekarte, bitte.", "Was empfehlen Sie?", "Ich möchte einen Tee."],
+      "answer": "Die Rechnung, bitte.",
+      "wrongFeedback": {
+        "Die Speisekarte, bitte.": "Die Speisekarte adalah menu, bukan tagihan.",
+        "Was empfehlen Sie?": "Itu menanyakan rekomendasi, bukan meminta tagihan.",
+        "Ich möchte einen Tee.": "Itu memesan teh, bukan meminta tagihan."
+      },
+      "explanation": "Die Rechnung, bitte. berarti 'Tagihannya, tolong'."
+    },
+    {
+      "id": "u4-o4-03",
+      "objectiveId": "a1-u4-o4",
+      "code": "D3",
+      "prompt": "Pelayan bertanya 'Zusammen oder getrennt?' Apa artinya?",
+      "sub": "Pilih terjemahan yang tepat.",
+      "mode": "choice",
+      "options": ["Bersama atau terpisah?", "Makan di sini atau dibungkus?", "Dengan kartu atau tunai?", "Pagi atau malam?"],
+      "answer": "Bersama atau terpisah?",
+      "wrongFeedback": {
+        "Makan di sini atau dibungkus?": "Itu pertanyaan tempat makan, bukan cara membayar.",
+        "Dengan kartu atau tunai?": "Itu pertanyaan metode bayar, bukan bersama/terpisah.",
+        "Pagi atau malam?": "Itu pertanyaan waktu, bukan cara membayar."
+      },
+      "explanation": "zusammen = bersama; getrennt = terpisah. Pertanyaannya menanyakan cara membayar."
+    },
+    {
+      "id": "u4-o4-04",
+      "objectiveId": "a1-u4-o4",
+      "code": "D3",
+      "prompt": "Lengkapi: Ich zahle mit ___ . (kartu)",
+      "sub": "Ketik satu kata.",
+      "mode": "type",
+      "answer": "Karte",
+      "altAnswers": ["karte"],
+      "hintOnWrong": "mit Karte = dengan kartu. Kartu = Karte.",
+      "explanation": "Ich zahle mit Karte. berarti 'Saya membayar dengan kartu'."
+    },
+    {
+      "id": "u4-o4-05",
+      "objectiveId": "a1-u4-o4",
+      "code": "D6",
+      "prompt": "Susun: 'Saya ingin membayar.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Ich", "möchte", "bezahlen."],
+      "answer": "Ich möchte bezahlen.",
+      "hintOnWrong": "Mulai dengan Ich möchte, lalu infinitif bezahlen di akhir.",
+      "explanation": "Ich möchte bezahlen. berarti 'Saya ingin membayar'."
+    },
+    {
+      "id": "u4-o5-01",
+      "objectiveId": "a1-u4-o5",
+      "code": "D1",
+      "prompt": "Sebutkan 'makan pagi' dan 'makan siang' dalam bahasa Jerman.",
+      "sub": "Pilih pasangan nama waktu makan yang tepat.",
+      "mode": "choice",
+      "options": [
+        "das Frühstück und das Mittagessen",
+        "das Frühstück und das Abendessen",
+        "das Mittagessen und das Abendessen",
+        "der Kaffee und das Brot"
+      ],
+      "answer": "das Frühstück und das Mittagessen",
+      "wrongFeedback": {
+        "das Frühstück und das Abendessen": "Abendessen adalah makan malam; pasangan yang diminta adalah pagi dan siang.",
+        "das Mittagessen und das Abendessen": "Mittagessen adalah makan siang dan Abendessen makan malam; makan pagi belum disebut.",
+        "der Kaffee und das Brot": "Kaffee dan Brot adalah minuman/makanan, bukan nama waktu makan."
+      },
+      "explanation": "das Frühstück = makan pagi; das Mittagessen = makan siang."
+    },
+    {
+      "id": "u4-o5-02",
+      "objectiveId": "a1-u4-o5",
+      "code": "D3",
+      "prompt": "Du ___ gern Fisch.",
+      "sub": "Konjugasi essen untuk du.",
+      "mode": "choice",
+      "options": ["isst", "esst", "esse", "essen"],
+      "answer": "isst",
+      "wrongFeedback": {
+        "esst": "esst dipakai untuk ihr, bukan du.",
+        "esse": "esse dipakai untuk ich (ich esse).",
+        "essen": "essen dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "essen → du isst. Bentuk du dan er/sie/es sama-sama isst."
+    },
+    {
+      "id": "u4-o5-03",
+      "objectiveId": "a1-u4-o5",
+      "code": "D3",
+      "prompt": "Er ___ jeden Morgen Kaffee.",
+      "sub": "Konjugasi trinken untuk er.",
+      "mode": "choice",
+      "options": ["trinkt", "trinke", "trinkst", "trinken"],
+      "answer": "trinkt",
+      "wrongFeedback": {
+        "trinke": "trinke dipakai untuk ich.",
+        "trinkst": "trinkst dipakai untuk du.",
+        "trinken": "trinken dipakai untuk wir/sie/Sie."
+      },
+      "explanation": "trinken → er trinkt."
+    },
+    {
+      "id": "u4-o5-04",
+      "objectiveId": "a1-u4-o5",
+      "code": "D3",
+      "prompt": "Makan malam dalam bahasa Jerman disebut ...",
+      "sub": "Pilih nama waktu makan malam.",
+      "mode": "choice",
+      "options": ["das Abendessen", "das Mittagessen", "das Frühstück", "der Kaffee"],
+      "answer": "das Abendessen",
+      "wrongFeedback": {
+        "das Mittagessen": "Mittagessen adalah makan siang, bukan makan malam.",
+        "das Frühstück": "Frühstück adalah makan pagi, bukan makan malam.",
+        "der Kaffee": "Kaffee adalah minuman, bukan nama waktu makan."
+      },
+      "explanation": "das Abendessen = makan malam."
+    },
+    {
+      "id": "u4-o5-05",
+      "objectiveId": "a1-u4-o5",
+      "code": "D6",
+      "prompt": "Susun: 'Pada pagi hari saya minum teh.'",
+      "sub": "Tap kata untuk menyusun kalimat.",
+      "mode": "order",
+      "tokens": ["Am", "Morgen", "trinke", "ich", "Tee."],
+      "answer": "Am Morgen trinke ich Tee.",
+      "hintOnWrong": "Mulai dengan Am Morgen, lalu kata kerja trinke di posisi kedua, lalu ich dan Tee.",
+      "explanation": "Am Morgen trinke ich Tee. Keterangan waktu di posisi 1, kata kerja finit di posisi 2."
+    }
+  ]
+}

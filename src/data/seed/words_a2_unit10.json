@@ -1,0 +1,269 @@
+{
+  "unit": 110,
+  "level": "A2",
+  "theme": "Umwelt & Alltag",
+  "source": "Konten A2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Umwelt",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "lingkungan",
+      "example_de": "Wir müssen die Umwelt schützen.",
+      "example_id": "Kita harus melindungi lingkungan.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Müll",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "sampah",
+      "example_de": "Der Müll wird getrennt.",
+      "example_id": "Sampahnya dipilah.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Recycling",
+      "article": "das",
+      "plural": null,
+      "meaning_id": "daur ulang",
+      "example_de": "Recycling ist wichtig.",
+      "example_id": "Daur ulang itu penting.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Energie",
+      "article": "die",
+      "plural": "die Energien",
+      "meaning_id": "energi",
+      "example_de": "Wir sparen Energie.",
+      "example_id": "Kami menghemat energi.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Strom",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "listrik",
+      "example_de": "Der Strom ist teuer.",
+      "example_id": "Listriknya mahal.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Abfall",
+      "article": "der",
+      "plural": "die Abfälle",
+      "meaning_id": "limbah, sampah",
+      "example_de": "Der Abfall kommt in die Tonne.",
+      "example_id": "Sampahnya masuk ke tong.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Flasche",
+      "article": "die",
+      "plural": "die Flaschen",
+      "meaning_id": "botol",
+      "example_de": "Die Flasche ist aus Glas.",
+      "example_id": "Botolnya dari kaca.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Tüte",
+      "article": "die",
+      "plural": "die Tüten",
+      "meaning_id": "kantong",
+      "example_de": "Ich brauche keine Tüte.",
+      "example_id": "Saya tidak butuh kantong.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Luft",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "udara",
+      "example_de": "Die Luft ist sauber.",
+      "example_id": "Udaranya bersih.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Tonne",
+      "article": "die",
+      "plural": "die Tonnen",
+      "meaning_id": "tong sampah",
+      "example_de": "Die Tonne ist voll.",
+      "example_id": "Tongnya penuh.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "sparen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghemat",
+      "example_de": "Wir sparen Wasser.",
+      "example_id": "Kami menghemat air.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "trennen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "memisahkan",
+      "example_de": "Man trennt Müll zu Hause.",
+      "example_id": "Orang memilah sampah di rumah.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "schützen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "melindungi",
+      "example_de": "Wir schützen die Natur.",
+      "example_id": "Kami melindungi alam.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "verb",
+      "de": "verschmutzen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "mencemari",
+      "example_de": "Plastik verschmutzt das Meer.",
+      "example_id": "Plastik mencemari laut.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "adj",
+      "de": "umweltfreundlich",
+      "article": null,
+      "plural": null,
+      "meaning_id": "ramah lingkungan",
+      "example_de": "Das ist umweltfreundlich.",
+      "example_id": "Itu ramah lingkungan.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "adj",
+      "de": "nachhaltig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "berkelanjutan",
+      "example_de": "Nachhaltig leben ist möglich.",
+      "example_id": "Hidup berkelanjutan itu mungkin.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Windrad",
+      "article": "das",
+      "plural": "die Windräder",
+      "meaning_id": "kincir angin",
+      "example_de": "Das Windrad erzeugt Strom.",
+      "example_id": "Kincir angin menghasilkan listrik.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Solaranlage",
+      "article": "die",
+      "plural": "die Solaranlagen",
+      "meaning_id": "panel surya",
+      "example_de": "Die Solaranlage ist auf dem Dach.",
+      "example_id": "Panel suryanya di atap.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Plastiktüte",
+      "article": "die",
+      "plural": "die Plastiktüten",
+      "meaning_id": "kantong plastik",
+      "example_de": "Plastiktüten schaden der Umwelt.",
+      "example_id": "Kantong plastik merugikan lingkungan.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Fahrgemeinschaft",
+      "article": "die",
+      "plural": "die Fahrgemeinschaften",
+      "meaning_id": "carpool",
+      "example_de": "Wir fahren in einer Fahrgemeinschaft.",
+      "example_id": "Kami berkendara bersama.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Mülltrennung",
+      "article": "die",
+      "plural": "die Mülltrennungen",
+      "meaning_id": "pemilahan sampah",
+      "example_de": "Mülltrennung ist Pflicht.",
+      "example_id": "Pemilahan sampah itu wajib.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Glascontainer",
+      "article": "der",
+      "plural": "die Glascontainer",
+      "meaning_id": "kontainer kaca",
+      "example_de": "Der Glascontainer ist voll.",
+      "example_id": "Kontainer kacanya penuh.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Kompost",
+      "article": "der",
+      "plural": "die Komposte",
+      "meaning_id": "kompos",
+      "example_de": "Der Kompost ist reif.",
+      "example_id": "Komposnya matang.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Ökostrom",
+      "article": "der",
+      "plural": "die Ökostrome",
+      "meaning_id": "listrik hijau",
+      "example_de": "Ökostrom ist teurer.",
+      "example_id": "Listrik hijaunya lebih mahal.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Biomüll",
+      "article": "der",
+      "plural": "die Biomülle",
+      "meaning_id": "sampah organik",
+      "example_de": "Biomüll kommt in die grüne Tonne.",
+      "example_id": "Sampah organik masuk tong hijau.",
+      "tags": "a2,unit10,umwelt"
+    },
+    {
+      "kind": "noun",
+      "de": "Wiederverwendung",
+      "article": "die",
+      "plural": "die Wiederverwendungen",
+      "meaning_id": "penggunaan kembali",
+      "example_de": "Wiederverwendung spart Ressourcen.",
+      "example_id": "Penggunaan kembali menghemat sumber daya.",
+      "tags": "a2,unit10,umwelt"
+    }
+  ]
+}

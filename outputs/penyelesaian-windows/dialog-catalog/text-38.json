@@ -1,0 +1,206 @@
+{
+  "id": "dialog-38",
+  "title": "Müll trennen in Deutschland",
+  "textId": 38,
+  "level": "A2",
+  "tags": "seed · A2 · unit 10",
+  "sourceFile": "src/data/reading/texts_a2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "freundin": {
+        "kind": "character",
+        "visible": true
+      },
+      "lehrerin": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "schule": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "buch": {
+        "kind": "prop"
+      },
+      "heft": {
+        "kind": "prop"
+      },
+      "stift": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "In Deutschland wird der Müll zu Hause getrennt.",
+      "id": "Di Jerman sampah dipilah di rumah.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Papier, Glas und Plastik kommen in verschiedene Tonnen.",
+      "id": "Kertas, kaca, dan plastik masuk ke tong berbeda.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Man spart Energie, wenn man Flaschen recycelt.",
+      "id": "Orang menghemat energi jika mendaur ulang botol.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Ich kaufe keine Tüten mehr und benutze eine Tasche.",
+      "id": "Saya tidak membeli kantong lagi dan memakai tas.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Umweltschutz ist wichtig, deshalb fahre ich oft Fahrrad.",
+      "id": "Perlindungan lingkungan penting, karena itu saya sering bersepeda.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Kleine Dinge ändern viel.",
+      "id": "Hal-hal kecil mengubah banyak hal.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "ich",
+      "de": "In Deutschland wird der Müll zu Hause getrennt.",
+      "id": "Di Jerman sampah dipilah di rumah.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t02",
+      "speakerId": "freundin",
+      "de": "Papier, Glas und Plastik kommen in verschiedene Tonnen.",
+      "id": "Kertas, kaca, dan plastik masuk ke tong berbeda.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "lehrerin",
+      "de": "Man spart Energie, wenn man Flaschen recycelt.",
+      "id": "Orang menghemat energi jika mendaur ulang botol.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "ich",
+      "de": "Ich kaufe keine Tüten mehr und benutze eine Tasche.",
+      "id": "Saya tidak membeli kantong lagi dan memakai tas.",
+      "pose": "fragen",
+      "backgroundId": "schule",
+      "propIds": [
+        "stift"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "freundin",
+      "de": "Umweltschutz ist wichtig, deshalb fahre ich oft Fahrrad.",
+      "id": "Perlindungan lingkungan penting, karena itu saya sering bersepeda.",
+      "pose": "antworten",
+      "backgroundId": "schule",
+      "propIds": [
+        "buch"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t06",
+      "speakerId": "lehrerin",
+      "de": "Kleine Dinge ändern viel.",
+      "id": "Hal-hal kecil mengubah banyak hal.",
+      "pose": "erzaehlen",
+      "backgroundId": "schule",
+      "propIds": [
+        "heft"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

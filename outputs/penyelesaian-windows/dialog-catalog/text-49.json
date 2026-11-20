@@ -1,0 +1,206 @@
+{
+  "id": "dialog-49",
+  "title": "Arbeit 2030",
+  "textId": 49,
+  "level": "B2",
+  "tags": "seed · B2 · unit 1",
+  "sourceFile": "src/data/reading/texts_b2.json",
+  "status": "generated-from-source-not-teacher-reviewed",
+  "audioSource": "src/assets/tts_core/manifest.json",
+  "assetContract": {
+    "kinds": [
+      "character",
+      "background",
+      "prop"
+    ],
+    "characters": {
+      "ich": {
+        "kind": "character",
+        "visible": true
+      },
+      "kollegin": {
+        "kind": "character",
+        "visible": true
+      },
+      "vorgesetzte": {
+        "kind": "character",
+        "visible": true
+      },
+      "narrator": {
+        "kind": "character",
+        "visible": false,
+        "label": "Suara narasi"
+      }
+    },
+    "backgrounds": {
+      "buero": {
+        "kind": "background"
+      }
+    },
+    "props": {
+      "dokument": {
+        "kind": "prop"
+      },
+      "laptop": {
+        "kind": "prop"
+      },
+      "kalender": {
+        "kind": "prop"
+      }
+    }
+  },
+  "sourceMap": [
+    {
+      "index": 0,
+      "de": "Die Arbeitswelt befindet sich in einem tiefen Wandel.",
+      "id": "Dunia kerja berada dalam perubahan mendalam.",
+      "mappedTo": [
+        "t01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 1,
+      "de": "Digitalisierung und Automatisierung verändern viele Berufe.",
+      "id": "Digitalisasi dan otomatisasi mengubah banyak profesi.",
+      "mappedTo": [
+        "t02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 2,
+      "de": "Gleichzeitig entstehen neue Berufe, die spezielle Qualifikationen verlangen.",
+      "id": "Pada saat yang sama muncul profesi baru yang menuntut kualifikasi khusus.",
+      "mappedTo": [
+        "t03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 3,
+      "de": "Weiterbildung wird deshalb immer wichtiger.",
+      "id": "Karena itu pendidikan lanjutan makin penting.",
+      "mappedTo": [
+        "t04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 4,
+      "de": "Die Gewerkschaften fordern bessere Bedingungen für die Beschäftigten.",
+      "id": "Serikat pekerja menuntut kondisi lebih baik bagi pekerja.",
+      "mappedTo": [
+        "t05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "index": 5,
+      "de": "Nur wer flexibel bleibt, kann auf dem Arbeitsmarkt bestehen.",
+      "id": "Hanya yang tetap fleksibel dapat bertahan di pasar kerja.",
+      "mappedTo": [
+        "t06"
+      ],
+      "kind": "dialogue"
+    }
+  ],
+  "turns": [
+    {
+      "key": "t01",
+      "speakerId": "narrator",
+      "de": "Die Arbeitswelt befindet sich in einem tiefen Wandel.",
+      "id": "Dunia kerja berada dalam perubahan mendalam.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 0,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t02",
+      "speakerId": "vorgesetzte",
+      "de": "Digitalisierung und Automatisierung verändern viele Berufe.",
+      "id": "Digitalisasi dan otomatisasi mengubah banyak profesi.",
+      "pose": "erklaeren",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 1,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t03",
+      "speakerId": "ich",
+      "de": "Gleichzeitig entstehen neue Berufe, die spezielle Qualifikationen verlangen.",
+      "id": "Pada saat yang sama muncul profesi baru yang menuntut kualifikasi khusus.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 2,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t04",
+      "speakerId": "kollegin",
+      "de": "Weiterbildung wird deshalb immer wichtiger.",
+      "id": "Karena itu pendidikan lanjutan makin penting.",
+      "pose": "zusammenfassen",
+      "backgroundId": "buero",
+      "propIds": [
+        "dokument"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 3,
+      "staging": "dialogue"
+    },
+    {
+      "key": "t05",
+      "speakerId": "narrator",
+      "de": "Die Gewerkschaften fordern bessere Bedingungen für die Beschäftigten.",
+      "id": "Serikat pekerja menuntut kondisi lebih baik bagi pekerja.",
+      "pose": "offscreen",
+      "backgroundId": "buero",
+      "propIds": [
+        "laptop"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 4,
+      "staging": "stage-direction"
+    },
+    {
+      "key": "t06",
+      "speakerId": "ich",
+      "de": "Nur wer flexibel bleibt, kann auf dem Arbeitsmarkt bestehen.",
+      "id": "Hanya yang tetap fleksibel dapat bertahan di pasar kerja.",
+      "pose": "diskutieren",
+      "backgroundId": "buero",
+      "propIds": [
+        "kalender"
+      ],
+      "audio": null,
+      "audioStatus": "missing-audio",
+      "kind": "source",
+      "sourceIndex": 5,
+      "staging": "dialogue"
+    }
+  ]
+}

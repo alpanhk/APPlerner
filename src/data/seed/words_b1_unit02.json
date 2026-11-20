@@ -1,0 +1,229 @@
+{
+  "unit": 202,
+  "level": "B1",
+  "theme": "Gesundheit & Lebensstil",
+  "source": "Konten B1 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Ernährung",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "pola makan",
+      "example_de": "Eine gesunde Ernährung ist wichtig.",
+      "example_id": "Pola makan sehat itu penting.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Bewegung",
+      "article": "die",
+      "plural": "die Bewegungen",
+      "meaning_id": "gerakan, aktivitas fisik",
+      "example_de": "Ich brauche mehr Bewegung.",
+      "example_id": "Saya butuh lebih banyak aktivitas fisik.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Stress",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "stres",
+      "example_de": "Zu viel Stress macht krank.",
+      "example_id": "Terlalu banyak stres membuat sakit.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Schlaf",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "tidur",
+      "example_de": "Guter Schlaf ist wichtig.",
+      "example_id": "Tidur yang baik itu penting.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vorsorge",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "pencegahan, pemeriksaan dini",
+      "example_de": "Vorsorge ist besser als Behandlung.",
+      "example_id": "Pencegahan lebih baik daripada pengobatan.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Impfung",
+      "article": "die",
+      "plural": "die Impfungen",
+      "meaning_id": "vaksinasi",
+      "example_de": "Die Impfung schützt vor Krankheiten.",
+      "example_id": "Vaksinasi melindungi dari penyakit.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Krankenhaus",
+      "article": "das",
+      "plural": "die Krankenhäuser",
+      "meaning_id": "rumah sakit",
+      "example_de": "Sie liegt im Krankenhaus.",
+      "example_id": "Dia dirawat di rumah sakit.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Patient",
+      "article": "der",
+      "plural": "die Patienten",
+      "meaning_id": "pasien",
+      "example_de": "Der Patient wartet im Zimmer.",
+      "example_id": "Pasien menunggu di kamar.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "verb",
+      "de": "sich erholen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "pulih, beristirahat",
+      "example_de": "Im Urlaub erhole ich mich.",
+      "example_id": "Saat liburan saya memulihkan diri.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "verb",
+      "de": "verzichten",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menghindari, tidak memakai",
+      "example_de": "Ich verzichte auf Zucker.",
+      "example_id": "Saya menghindari gula.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "adj",
+      "de": "regelmäßig",
+      "article": null,
+      "plural": null,
+      "meaning_id": "teratur",
+      "example_de": "Ich gehe regelmäßig schwimmen.",
+      "example_id": "Saya berenang secara teratur.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "adj",
+      "de": "ausgewogen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "seimbang",
+      "example_de": "Eine ausgewogene Ernährung hilft.",
+      "example_id": "Pola makan seimbang membantu.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Physiotherapie",
+      "article": "die",
+      "plural": "die Physiotherapien",
+      "meaning_id": "fisioterapi",
+      "example_de": "Die Physiotherapie hilft.",
+      "example_id": "Fisioterapinya membantu.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Entspannung",
+      "article": "die",
+      "plural": "die Entspannungen",
+      "meaning_id": "relaksasi",
+      "example_de": "Entspannung ist wichtig.",
+      "example_id": "Relaksasi itu penting.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Gewohnheit",
+      "article": "die",
+      "plural": "die Gewohnheiten",
+      "meaning_id": "kebiasaan",
+      "example_de": "Gute Gewohnheiten helfen.",
+      "example_id": "Kebiasaan baik membantu.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ausdauer",
+      "article": "die",
+      "plural": "die Ausdauern",
+      "meaning_id": "daya tahan",
+      "example_de": "Ausdauer braucht Training.",
+      "example_id": "Daya tahan butuh latihan.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Wohlbefinden",
+      "article": "das",
+      "plural": "die Wohlbefinden",
+      "meaning_id": "kesejahteraan",
+      "example_de": "Sport steigert das Wohlbefinden.",
+      "example_id": "Olahraga meningkatkan kesejahteraan.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Vitamin",
+      "article": "das",
+      "plural": "die Vitamine",
+      "meaning_id": "vitamin",
+      "example_de": "Vitamine sind wichtig.",
+      "example_id": "Vitamin itu penting.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Kalorie",
+      "article": "die",
+      "plural": "die Kalorien",
+      "meaning_id": "kalori",
+      "example_de": "Das Essen hat viele Kalorien.",
+      "example_id": "Makanannya banyak kalori.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Schlafrhythmus",
+      "article": "der",
+      "plural": "die Schlafrhythmen",
+      "meaning_id": "ritme tidur",
+      "example_de": "Mein Schlafrhythmus ist gestört.",
+      "example_id": "Ritme tidur saya terganggu.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Krafttraining",
+      "article": "das",
+      "plural": "die Krafttrainings",
+      "meaning_id": "latihan kekuatan",
+      "example_de": "Krafttraining stärkt die Muskeln.",
+      "example_id": "Latihan kekuatan menguatkan otot.",
+      "tags": "b1,unit2,gesundheit"
+    },
+    {
+      "kind": "noun",
+      "de": "Ernährungsberatung",
+      "article": "die",
+      "plural": "die Ernährungsberatungen",
+      "meaning_id": "konsultasi gizi",
+      "example_de": "Die Ernährungsberatung hilft.",
+      "example_id": "Konsultasi gizinya membantu.",
+      "tags": "b1,unit2,gesundheit"
+    }
+  ]
+}

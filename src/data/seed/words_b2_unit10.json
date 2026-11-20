@@ -1,0 +1,229 @@
+{
+  "unit": 310,
+  "level": "B2",
+  "theme": "Zukunft & Ethik",
+  "source": "Konten B2 (kurikulum Goethe) + kurasi manual",
+  "seed_version": 1,
+  "words": [
+    {
+      "kind": "noun",
+      "de": "Ethik",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "etika",
+      "example_de": "Die Ethik fragt nach dem Richtigen.",
+      "example_id": "Etika menanyakan apa yang benar.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Moral",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "moral",
+      "example_de": "Moral ist kulturell geprägt.",
+      "example_id": "Moral dibentuk budaya.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Datenschutz",
+      "article": "der",
+      "plural": null,
+      "meaning_id": "perlindungan data",
+      "example_de": "Datenschutz ist ein Grundrecht.",
+      "example_id": "Perlindungan data adalah hak dasar.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Überwachung",
+      "article": "die",
+      "plural": "die Überwachungen",
+      "meaning_id": "pengawasan",
+      "example_de": "Überwachung kann Freiheit einschränken.",
+      "example_id": "Pengawasan bisa membatasi kebebasan.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Freiheit",
+      "article": "die",
+      "plural": "die Freiheiten",
+      "meaning_id": "kebebasan",
+      "example_de": "Freiheit braucht Verantwortung.",
+      "example_id": "Kebebasan butuh tanggung jawab.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Gerechtigkeit",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "keadilan",
+      "example_de": "Gerechtigkeit ist nicht selbstverständlich.",
+      "example_id": "Keadilan tidak otomatis.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Würde",
+      "article": "die",
+      "plural": null,
+      "meaning_id": "martabat",
+      "example_de": "Die Würde des Menschen ist unantastbar.",
+      "example_id": "Martabat manusia tidak boleh dilanggar.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Entscheidung",
+      "article": "die",
+      "plural": "die Entscheidungen",
+      "meaning_id": "keputusan",
+      "example_de": "Die Entscheidung war schwierig.",
+      "example_id": "Keputusannya sulit.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "verb",
+      "de": "abwägen",
+      "article": null,
+      "plural": null,
+      "meaning_id": "menimbang",
+      "example_de": "Wir müssen die Risiken abwägen.",
+      "example_id": "Kami harus menimbang risikonya.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "adj",
+      "de": "ethisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "etis",
+      "example_de": "Das ist ethisch problematisch.",
+      "example_id": "Itu bermasalah secara etis.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "adj",
+      "de": "moralisch",
+      "article": null,
+      "plural": null,
+      "meaning_id": "moral",
+      "example_de": "Die Frage ist moralisch schwierig.",
+      "example_id": "Pertanyaannya sulit secara moral.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "adj",
+      "de": "verantwortungsvoll",
+      "article": null,
+      "plural": null,
+      "meaning_id": "bertanggung jawab",
+      "example_de": "Wir brauchen verantwortungsvolle Entscheidungen.",
+      "example_id": "Kita butuh keputusan yang bertanggung jawab.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Menschenwürde",
+      "article": "die",
+      "plural": "die Menschenwürden",
+      "meaning_id": "martabat manusia",
+      "example_de": "Die Menschenwürde ist unantastbar.",
+      "example_id": "Martabat manusia tidak boleh dilanggar.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Autonomie",
+      "article": "die",
+      "plural": "die Autonomien",
+      "meaning_id": "otonomi",
+      "example_de": "Autonomie hat Grenzen.",
+      "example_id": "Otonomi punya batas.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Dilemma",
+      "article": "das",
+      "plural": "die Dilemmata",
+      "meaning_id": "dilema",
+      "example_de": "Das ist ein ethisches Dilemma.",
+      "example_id": "Ini dilema etis.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Transparenz",
+      "article": "die",
+      "plural": "die Transparenzen",
+      "meaning_id": "transparansi",
+      "example_de": "Transparenz schafft Vertrauen.",
+      "example_id": "Transparansi menciptakan kepercayaan.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Missbrauch",
+      "article": "der",
+      "plural": "die Missbräuche",
+      "meaning_id": "penyalahgunaan",
+      "example_de": "Missbrauch muss bestraft werden.",
+      "example_id": "Penyalahgunaan harus dihukum.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Verantwortungsethik",
+      "article": "die",
+      "plural": "die Verantwortungsethiken",
+      "meaning_id": "etika tanggung jawab",
+      "example_de": "Verantwortungsethik fragt nach Folgen.",
+      "example_id": "Etika tanggung jawab menanyakan akibat.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Gesinnungsethik",
+      "article": "die",
+      "plural": "die Gesinnungsethiken",
+      "meaning_id": "etika niat",
+      "example_de": "Gesinnungsethik betont die Absicht.",
+      "example_id": "Etika niat menekankan maksud.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Güterabwägung",
+      "article": "die",
+      "plural": "die Güterabwägungen",
+      "meaning_id": "penimbangan nilai",
+      "example_de": "Güterabwägung ist schwierig.",
+      "example_id": "Penimbangan nilainya sulit.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Rechenschaft",
+      "article": "die",
+      "plural": "die Rechenschaften",
+      "meaning_id": "pertanggungjawaban",
+      "example_de": "Sie legt Rechenschaft ab.",
+      "example_id": "Dia memberi pertanggungjawaban.",
+      "tags": "b2,unit10,ethik"
+    },
+    {
+      "kind": "noun",
+      "de": "Menschenbild",
+      "article": "das",
+      "plural": "die Menschenbilder",
+      "meaning_id": "pandangan tentang manusia",
+      "example_de": "Das Menschenbild prägt die Regeln.",
+      "example_id": "Pandangan tentang manusia membentuk aturan.",
+      "tags": "b2,unit10,ethik"
+    }
+  ]
+}
