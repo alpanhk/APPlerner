@@ -5,9 +5,12 @@
   --k-focus: #1746d1; --k-tint: #eaf0ff; --k-success: #216239;
   --k-display: Georgia, 'Times New Roman', serif;
   --k-editorial-serif: var(--k-display);
+  /* KONF-02 residual: tokens.css dimuat terakhir oleh App.tsx, jadi stack font
+     di sini yang menang atas visual.css. Atkinson Hyperlegible harus utama. */
+  --k-font-sans: 'Atkinson Hyperlegible', 'Segoe UI', 'Noto Sans', system-ui, sans-serif;
   min-height: 100vh; min-height: 100dvh; color-scheme: light;
   background: var(--k-canvas); color: var(--k-text);
-  font: 1rem/1.55 'Segoe UI', system-ui, sans-serif; display: flex;
+  font: 1rem/1.55 var(--k-font-sans); display: flex;
 }
 .klab-app[data-theme='dark'] {
   --k-canvas: #151922; --k-surface: #222938; --k-text: #f5f7fb; --k-muted: #bac5d6;
@@ -33,7 +36,10 @@
 .klab-app[data-theme='dark'] .card-soft { background: #222938; border-color: #596577; }
 .klab-app[data-theme='dark'] .badge { background: #222938; border-color: #596577; color: #ffe16a; }
 .klab-app *, .klab-app *::before, .klab-app *::after { box-sizing: border-box; }
-.klab-app button, .klab-app input, .klab-app textarea, .klab-app select { font: inherit; }
+.klab-app button, .klab-app input, .klab-app textarea, .klab-app select {
+  font: inherit;
+  font-family: var(--k-font-sans);
+}
 .klab-app button { color: inherit; cursor: pointer; }
 .klab-app .btn-gold { color: #fffdf6; }
 .klab-app button:disabled { cursor: default; opacity: .6; }

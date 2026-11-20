@@ -15,6 +15,7 @@ import { loadPreferences, patchPreferences, effectiveTheme } from "./app/prefere
 import type { Preferences } from "./klab/contracts";
 import { RouteView } from "./app/routeView";
 import CoverIndex from "./app/CoverIndex";
+import MediaIndex from "./app/MediaIndex";
 import { effectiveReducedMotion, loadUiSettings } from "./app/uiSettings";
 import "./App.css";
 import "./klab/tokens.css";
@@ -187,6 +188,7 @@ export default function App() {
         <button type="button" className="klab-back" onClick={back}>← Kembali</button>
       )}
       {dbState === "ready" && <CoverIndex />}
+      {dbState === "ready" && <MediaIndex />}
       {dbState === "ready"
         ? <RouteView
             route={route}

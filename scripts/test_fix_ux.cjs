@@ -15,6 +15,10 @@ function load(file, mocks) {
   const mod = { exports: {} };
   new Function("require", "module", "exports", transpile(file))(
     (id) => {
+      // ROMBAK UI/UX: dep baru 1a tidak mengubah perilaku halaman lama.
+      if (id === "./novelViews") return { TitleView: () => null, CreateView: () => null, StoryView: () => null };
+      if (id === "./StoryFlowView") return { __esModule: true, default: () => null };
+      if (id === "./mediaResolver") return { coverSrc: () => undefined, allCovers: () => [], resolveMedia: () => null, bgSrc: () => undefined, sceneSrc: () => undefined };
       assert.ok(Object.hasOwn(mocks, id), `dependency tak terduga ${id} di ${file}`);
       return mocks[id];
     }, mod, mod.exports,
@@ -158,6 +162,9 @@ let shared = hooks();
       "zustand/vanilla": require("zustand/vanilla"),
       "./routes": {
         homeRoute: (tab) => ({ name: tab }),
+        homeGroupRoute: (group) => group === "story" ? { name: "title" } : { name: group },
+        groupForRoute: (route) => ["title", "create", "story"].includes(route.name) ? "story"
+          : route.name === "explore" ? "explore" : "today",
         tabForRoute: (route) => route.name === "lesson" ? "today" : route.name === "explore" ? "explore" : "today",
       },
     });

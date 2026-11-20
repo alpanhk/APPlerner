@@ -319,15 +319,18 @@ assert.equal(meer.meaning, "laut", "Meer = laut (bahasa Indonesia), bukan 'loud'
 assert.equal(meer.ex_id.toLowerCase().includes("laut"), true, "contoh kalimat memakai 'laut' secara konsisten");
 recordAudit("A2-GAP-07 adalah false positive", { de: meer.de, id: meer.meaning, contoh: meer.ex_id });
 
-// --- Aset lokal disalin byte-identik dari paket prototipe (bukan gambar baru) ---
-const assetDir = path.join(root, "outputs/prototipe-interaksi-klab-2026-11-19/assets");
-for (const name of fs.readdirSync(assetDir)) {
-  assert.ok(fs.existsSync(path.join(root, "src/klab/learning/assets", name)), `aset ${name}`);
-  assert.equal(
-    sha(`src/klab/learning/assets/${name}`),
-    sha(`outputs/prototipe-interaksi-klab-2026-11-19/assets/${name}`),
-    `hash aset ${name}`,
-  );
+// --- Aset lokal: kit lama tetap ada; bandingkan ke worktree desain bila tersedia ---
+const localAssetDir = path.join(root, "src/klab/learning/assets");
+const kitNames = ["a1_example_062.wav", "a1_text_019.wav", "a1_text_027.wav", "a1_text_068.wav", "a1_text_092.wav", "a1_text_097.wav"];
+for (const name of kitNames) {
+  assert.ok(fs.existsSync(path.join(localAssetDir, name)), `aset ${name}`);
+}
+const designAssetDir = path.join(root, "outputs/prototipe-interaksi-klab-2026-11-19/assets");
+if (fs.existsSync(designAssetDir)) {
+  for (const name of fs.readdirSync(designAssetDir)) {
+    assert.ok(fs.existsSync(path.join(localAssetDir, name)), `aset ${name}`);
+    assert.equal(sha(`src/klab/learning/assets/${name}`), sha(`outputs/prototipe-interaksi-klab-2026-11-19/assets/${name}`), `hash aset ${name}`);
+  }
 }
 
 // --- Batas komponen: tanpa mock/iframe/skor palsu, kontrak UI-CONTRACT dipakai ---

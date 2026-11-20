@@ -1,10 +1,10 @@
-// Data agenda dan aksi navigasi disediakan oleh composition root.
-// RAK-DIALOG-20261120: satu tujuan + satu tombol utama. Katalog unit/Drill/SRS
-// berada di Jelajah (1a sudah menyediakannya di sana).
+// UIUX-VISUAL-NOVEL-20261121 / 4a — Hari Ini memakai bahasa visual referensi.
+// Satu tujuan + satu tombol; katalog unit/Drill/SRS tetap di Jelajah (1a).
 import type { AgendaCardData, LoadState, QuickLinkData, UnitItemData } from './viewModels';
 import Icon from '../Icon';
 import { EmptyState, ErrorState, KButton, LoadingState, SegmentedProgress } from '../components/ui';
 import { sampleVisuals } from '../sampleVisuals';
+import { bgSrc } from '../components/visual';
 import '../editorial.css';
 
 export type TodayPageProps = {
@@ -25,41 +25,34 @@ export default function TodayPage({
 }: TodayPageProps) {
   const { done, total } = agenda ?? {};
   const hasChapterProgress = typeof done === 'number' && typeof total === 'number' && total > 0;
-  // Sampel bab aktif dipakai bila adapter belum memberi gambar khusus.
   const chapterArt = agenda?.image || sampleVisuals['hari-ini'];
 
   return <div className="home editorial-today">
-    <header className="editorial-page-header">
-      <h1>Hari Ini</h1>
-    </header>
-
     {loadState === 'loading' && <LoadingState label="Menyiapkan Hari Ini..." />}
     {loadState === 'failed' && <ErrorState title="Hari Ini belum siap" message="Data belajar tidak dapat dimuat."
       detail="Periksa koneksi penyimpanan lokal, lalu coba lagi. Progres Anda tidak dihapus."
       onRetry={onRetry} />}
 
     {loadState === 'ready' && <>
-      {agenda ? <section className="editorial-chapter" data-has-art="true">
-        <div className="editorial-chapter-copy">
-          {agenda.eyebrow && <p className="editorial-kicker">{agenda.eyebrow}</p>}
-          <h2>{agenda.title}</h2>
-          {agenda.subtitle && <p className="editorial-chapter-subtitle">{agenda.subtitle}</p>}
-          {agenda.meta && <p className="editorial-chapter-meta">{agenda.meta}</p>}
-          {hasChapterProgress && <div className="editorial-chapter-progress">
-            <SegmentedProgress done={done} total={total} variant="meter" />
-          </div>}
+      {agenda ? <section className="vn-title vn-fade">
+        <img src={bgSrc('judul')} alt="" />
+        <p className="vn-kicker">{agenda.eyebrow ?? 'A1 · Pelajaran 2'}</p>
+        <h1>{agenda.title}</h1>
+        <p>{agenda.subtitle}</p>
+        <img className="vn-title-art" src={chapterArt} alt="" />
+        {hasChapterProgress && <div className="editorial-chapter-progress">
+          <SegmentedProgress done={done} total={total} variant="meter" />
+        </div>}
+        <div className="vn-title-actions">
+          <KButton className="editorial-chapter-action" variant="primary" onClick={onOpenAgenda}>
+            {agenda.actionLabel ?? (agenda.meta ? 'Lanjutkan belajar' : 'Mulai belajar')}<Icon name="arrow" />
+          </KButton>
         </div>
-        <div className="editorial-chapter-art">
-          <img src={chapterArt} alt="" decoding="async" fetchPriority="high" />
-        </div>
-        <KButton className="editorial-chapter-action" variant="primary" onClick={onOpenAgenda}>
-          {agenda.actionLabel ?? (agenda.meta ? 'Lanjutkan belajar' : 'Mulai belajar')}<Icon name="arrow" />
-        </KButton>
       </section> : <EmptyState icon={<Icon name="today" />} title="Belum ada sesi lanjutan"
         description="Mulai dari Unit 1 untuk membangun progres pertama Anda."
         actionLabel="Mulai dari Unit 1" onAction={() => onOpenUnit(1)} />}
 
-      {motivation && <p className="support-copy editorial-motivation">{motivation}</p>}
+      {motivation && <p className="support-copy editorial-motivation vn-muted">{motivation}</p>}
     </>}
   </div>;
 }

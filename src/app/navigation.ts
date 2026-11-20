@@ -2,7 +2,7 @@
 // src/klab/navigation tetap sumber rute; useNav dipertahankan agar halaman lama
 // yang memanggil setPage/startDrill tidak putus selama migrasi bertahap.
 import { createNavigation } from "../klab/navigation";
-import { homeRoute, legacyRoute, tabForRoute, type Route } from "../klab/routes";
+import { groupForRoute, homeGroupRoute, legacyRoute, tabForRoute, type NavGroup, type Route } from "../klab/routes";
 import { useNav } from "../stores/nav";
 
 const baseNavigation = createNavigation();
@@ -18,10 +18,10 @@ function sameRoute(a: Route, b: Route): boolean {
 // yang berisi pelajaran itu sendiri — nav menyala tetapi konten tidak berubah.
 // Klik tab yang sedang aktif dari rute bertingkat harus kembali ke root tab.
 baseNavigation.setState({
-  selectTab(tab) {
+  selectTab(tab: NavGroup) {
     const state = baseNavigation.getState();
-    const root = homeRoute(tab);
-    if (tabForRoute(state.route) === tab && !sameRoute(state.route, root)) {
+    const root = homeGroupRoute(tab);
+    if (groupForRoute(state.route) === tab && !sameRoute(state.route, root)) {
       baseNavigation.setState({
         tab,
         route: root,

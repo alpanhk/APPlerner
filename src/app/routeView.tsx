@@ -5,7 +5,7 @@ import { useEffect, useState, type ComponentType, type ReactElement } from "reac
 import type { Route } from "../klab/routes";
 import { TodayPage, ExplorePage, NotesPage, ProfilePage, AssetCollectionPage } from "../klab/pages";
 import type { LoadState, PreferencesView } from "../klab/pages/viewModels";
-import { LessonFlow, ReadingFlow, CheckpointFlow, CafeConversation, type ReadingFlowProps } from "../klab/learning";
+import { LessonFlow, ReadingFlow, CheckpointFlow, CafeConversation, StoryView, type ReadingFlowProps } from "../klab/learning";
 import type { Note, Preferences, SaveState } from "../klab/contracts";
 import { getUnit } from "../lessons/units";
 import LessonRunner from "../ui/lessons/LessonRunner";
@@ -20,6 +20,9 @@ import { FocusHeader } from "../klab/components/session";
 import { listNotes, saveNote, removeNote } from "./notesRepository";
 import { loadLessonFlowState, saveLessonFlowProgress, saveCheckpointFlowResult } from "./flowPersistence";
 import { loadReadingMode, readingMeta, saveReadingMode } from "./readingAdapter";
+// StoryView berasal dari 2a (src/klab/learning), bukan placeholder ./novelViews.
+import { TitleView, CreateView } from "./novelViews";
+import StoryFlowView from "./StoryFlowView";
 
 export type ViewProps = {
   route: Route;
@@ -47,6 +50,15 @@ export function resetViewRegistry(): void {
   tabViews.clear();
   featureViews.clear();
 }
+
+// KONF-01: 1a tetap pemilik pendaftaran. Komponen cerita nyata milik 2a
+// (StoryView -> StoryFlow -> pilihan/input/koreksi/ResultScreen) dipasang lewat
+// host 1a yang menambah panel + fokus balik. Fallback StoryView lama hanya
+// dipakai bila registri sengaja dikosongkan (resetViewRegistry).
+function StoryHostView(props: ViewProps): ReactElement {
+  return <StoryFlowView {...props} storyView={StoryView} />;
+}
+registerFeatureView("story", StoryHostView);
 
 const TAB_NAMES = ["today", "explore", "notes", "profile"] as const;
 
@@ -77,7 +89,9 @@ function ProductionToday(props: ViewProps) {
     progress={progress}
     motivation="Belajar sedikit setiap hari lebih baik daripada sekali saja."
     onOpenAgenda={() => navigate(agendaRoute(targets))}
-    onOpenQuickLink={(id) => id === "drills"
+    onOpenQuickLink={(id) => id === "story"
+      ? navigate({ name: "title" })
+      : id === "drills"
       ? navigate({ name: "drills", code: "D1" })
       : id === "srs"
         ? navigate({ name: "srs", sessionId: "review" })
@@ -137,7 +151,9 @@ function ProductionExplore({ route, navigate }: ViewProps) {
       void saveReadingMode(mode);
       navigate({ name: "reader", textId: resolved });
     }}
-    onOpenPractice={(id) => id === "collection"
+    onOpenPractice={(id) => id === "story"
+      ? navigate({ name: "title" })
+      : id === "collection"
       ? navigate({ name: "notes", noteId: "collection" })
       : id === "drills" || id === "exam"
         ? navigate(id === "drills" ? { name: "drills" } : { name: "exam" })
@@ -407,6 +423,11 @@ export function RouteView(props: ViewProps): ReactElement {
     const ViewComponent = feature;
     return <ViewComponent {...props} />;
   }
+  // ROMBAK UI/UX: rute baru title/create/story. 4a/2a dapat mengganti view
+  // default ini lewat registerFeatureView tanpa menyunting file 1a.
+  if (route.name === "title") return <TitleView {...props} />;
+  if (route.name === "create") return <CreateView {...props} />;
+  if (route.name === "story") return <StoryHostView {...props} />;
   if (route.name === "lesson") return <LessonKlabFlow {...props} />;
   if (route.name === "reader") return <ReadingKlabFlow {...props} />;
   if (route.name === "checkpoint") return <CheckpointKlabFlow {...props} />;

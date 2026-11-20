@@ -16,6 +16,9 @@ function load(file, mocks = {}) {
   const mod = { exports: {} };
   new Function("require", "module", "exports", transpile(file))(
     (id) => {
+      if (id === "./novelViews") return { TitleView: () => null, CreateView: () => null, StoryView: () => null };
+      if (id === "./StoryFlowView") return { __esModule: true, default: () => null };
+      if (id === "./mediaResolver") return { coverSrc: () => undefined, allCovers: () => [], resolveMedia: () => null, bgSrc: () => undefined, sceneSrc: () => undefined };
       assert.ok(Object.hasOwn(mocks, id), `Unexpected dependency ${id} in ${file}`);
       return mocks[id];
     }, mod, mod.exports,

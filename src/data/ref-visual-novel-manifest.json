@@ -1,0 +1,489 @@
+{
+  "task": "UIUX-VISUAL-NOVEL-20261121",
+  "reference": "<referensi-visual-novel-20261121>",
+  "at": "2026-11-20T19:33:22.054Z",
+  "files": 96,
+  "aggregate_sha256": "a562f171a09e789036467595bf5eeac90bfcba3e15bf4188fe664d9fd78238de",
+  "rows": [
+    {
+      "path": "index.html",
+      "bytes": 796,
+      "sha256": "c95dd58cd9951ffe772548f6cd28343fb77442845d1a2226b55f74291aee1eb6"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 85622,
+      "sha256": "c377364fa65cc0972016dc15bab48e13ce37a70daaa2df568e706dc9d4fdc07c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 629,
+      "sha256": "b0f49f655da6cf2d1ab6a55b970bf4c02556cccdc6eb5ed7ba6157d2949f1af6"
+    },
+    {
+      "path": "public/klab/sampul/10/cover.webp",
+      "bytes": 74882,
+      "sha256": "c6ad8eab1c592a8ccc475d2a04d8b139cc6d22a972f9c574f6f303adf14ccb58"
+    },
+    {
+      "path": "public/klab/sampul/11/cover.webp",
+      "bytes": 79766,
+      "sha256": "12d8cec1311c876914d58fc4e936d6de8228d1166f62d72b1c7c4b5088f7688a"
+    },
+    {
+      "path": "public/klab/sampul/12/cover.webp",
+      "bytes": 44690,
+      "sha256": "386c1433702e1039aeb31212423cc379610266c537be849b941bb2a17857baf6"
+    },
+    {
+      "path": "public/klab/sampul/13/cover.webp",
+      "bytes": 62618,
+      "sha256": "5b7e4ac135eaf7d74633c08736e63d4951353ada5d87cfcc2493f44d8745d7f8"
+    },
+    {
+      "path": "public/klab/sampul/14/cover.webp",
+      "bytes": 61916,
+      "sha256": "0394c3ee591ec6f1983f29c72530f1058eab772593e8eaca44266c6840cac5d8"
+    },
+    {
+      "path": "public/klab/sampul/15/cover.webp",
+      "bytes": 47262,
+      "sha256": "3e8d38cdc30a805d988236b293ca2ed7fd52b373c557a0f842fe034998ddf714"
+    },
+    {
+      "path": "public/klab/sampul/16/cover.webp",
+      "bytes": 75426,
+      "sha256": "14031b8ca8c9068c2d074567745bf2127ea852f2752a1708ed50adc511991c00"
+    },
+    {
+      "path": "public/klab/sampul/17/cover.webp",
+      "bytes": 81928,
+      "sha256": "13b3cb5778651880fba78c084e030676b32f8920e9d62a46697f90398074fa53"
+    },
+    {
+      "path": "public/klab/sampul/18/cover.webp",
+      "bytes": 54376,
+      "sha256": "cc70301a5bf50b36929ab19a9cfc19c7ac5279a6141471a5ebb772070e59e48e"
+    },
+    {
+      "path": "public/klab/sampul/19/cover.webp",
+      "bytes": 46260,
+      "sha256": "e6b5460e772244eb82dfbc4cca2ed20496512d95cf215662c715cea7c52d64a1"
+    },
+    {
+      "path": "public/klab/sampul/1/cover.webp",
+      "bytes": 54260,
+      "sha256": "ebb40a9388d6d592c87ce91edc8a862239c9744fc98fdd60a400264a9591f6bb"
+    },
+    {
+      "path": "public/klab/sampul/2/cover.webp",
+      "bytes": 59474,
+      "sha256": "ece851cce82dcaf98f7a7bf5b7330062033620ddd91a158096107fc8ff8ff71b"
+    },
+    {
+      "path": "public/klab/sampul/3/cover.webp",
+      "bytes": 86128,
+      "sha256": "4c7dd99827e564f693e454aceff754761a7b758f40dd1eb39b50a8bb819e310e"
+    },
+    {
+      "path": "public/klab/sampul/4/cover.webp",
+      "bytes": 59388,
+      "sha256": "e08a920a2b20b1c16a27ec8f754ff22e61e78fca329eafdc36757f401e382a76"
+    },
+    {
+      "path": "public/klab/sampul/6/cover.webp",
+      "bytes": 69558,
+      "sha256": "27cc62f99748ee7fa708265c0c3405ff04e592feb1d92e8d52b6c90a212b3be9"
+    },
+    {
+      "path": "public/klab/sampul/7/cover.webp",
+      "bytes": 59142,
+      "sha256": "bdf5516bf3d646faa5d4ba9643ee2376f743c54aafe1be149bb7b1d760e1076f"
+    },
+    {
+      "path": "public/klab/sampul/8/cover.webp",
+      "bytes": 102258,
+      "sha256": "3c174c78e4acb6919737b217eac2f8c2dfa3a882e346df159e9caeaceeafac02"
+    },
+    {
+      "path": "public/klab/sampul/9/cover.webp",
+      "bytes": 59678,
+      "sha256": "57f1edc01ccba3f31141b7f601fb9db26fce3d649991452ff2c9da5d7aa71829"
+    },
+    {
+      "path": "public/media/scenes/u01-perkenalan/scene.webp",
+      "bytes": 90152,
+      "sha256": "a8e01f301295b68b6454ccf343b8f7b4381b84c1e99693392307cca00ac0c532"
+    },
+    {
+      "path": "public/media/scenes/u02-jadwal/scene.webp",
+      "bytes": 72824,
+      "sha256": "85af7a9d89013553515c79557013290730dac08b0c78f874b73a910c5404e9c9"
+    },
+    {
+      "path": "public/media/scenes/u02-pasar/scene.webp",
+      "bytes": 110496,
+      "sha256": "ffbb9c915a07d6f4563ea2736c30a620eda9d66a5f0dba3edf77816777f0171b"
+    },
+    {
+      "path": "public/media/scenes/u03-keluarga/scene.webp",
+      "bytes": 73172,
+      "sha256": "005a76e7530b713e473e2b264ca4f2d85cd03158fed34d5a9472f0761bf892e6"
+    },
+    {
+      "path": "public/media/scenes/u04-makan/scene.webp",
+      "bytes": 68720,
+      "sha256": "5ce36a133d656fd24b8b7921872292a37b8c573c624bb3e1163dd7064ad1f80c"
+    },
+    {
+      "path": "public/media/scenes/u05-toko/scene.webp",
+      "bytes": 56994,
+      "sha256": "f07817c82b7afc28c0d95d383c5ef12ba6ceb38a56bf712f4b3840521c39011f"
+    },
+    {
+      "path": "public/media/scenes/u06-rumah/scene.webp",
+      "bytes": 54986,
+      "sha256": "1e51913cd6444c635170ee2b9f515afaefa5c09cff663cdb1db307556f450de9"
+    },
+    {
+      "path": "public/media/scenes/u07-kota-arah/scene.webp",
+      "bytes": 94890,
+      "sha256": "f7516c11a3dab1beb4dea5eea908e01e52c7f4d1551c743da47ed982aa71a6bf"
+    },
+    {
+      "path": "public/media/scenes/u08-hari-kerja/scene.webp",
+      "bytes": 65930,
+      "sha256": "8816d3f3ff5c02611aa3e74cb73bdf0aabde96c3e3684ca691b70ace589ebff8"
+    },
+    {
+      "path": "public/media/scenes/u09-klinik/scene.webp",
+      "bytes": 63822,
+      "sha256": "006ffd82b373897cc9299afb1d3c546885acb5c0f5e7127580a69ba8c63ccfc5"
+    },
+    {
+      "path": "public/media/scenes/u10-renang/scene.webp",
+      "bytes": 94426,
+      "sha256": "5cb4479edd9aa3f34fa1d4a4a10939c11de30ebe00996a970cbf68a694648437"
+    },
+    {
+      "path": "public/media/scenes/u11-stasiun/scene.webp",
+      "bytes": 158186,
+      "sha256": "544856e3649aabdd943dd28ea13f4f8d52ab54cc8c6eea373dea498cc6c2905d"
+    },
+    {
+      "path": "public/media/scenes/u12-telepon-pesan/scene.webp",
+      "bytes": 41446,
+      "sha256": "be7485dc6807f22862d5b1801b65e8e7dff493c10d6c4a18442b46ed1bc639d9"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 16084,
+      "sha256": "bda08a4ff83eb220ec1055bd112b112166809e3e04574b61584b945e01ac6e46"
+    },
+    {
+      "path": "src/assets/bg/jalan.jpg",
+      "bytes": 241408,
+      "sha256": "41bc38d4b4f915e64eba24691e05ec6b5d0672b1f4d2cc7f3ffdb294797984c3"
+    },
+    {
+      "path": "src/assets/bg/jendela.jpg",
+      "bytes": 227315,
+      "sha256": "1562e0547bb439cd9b0ac8cbe6a3527f3bb27f95f95fa816a271ac28d0d80c1a"
+    },
+    {
+      "path": "src/assets/bg/judul.jpg",
+      "bytes": 227291,
+      "sha256": "a94df649ac30e805aaf67265218af46e1fbe8aab9522c14d938a73f99b81a7ab"
+    },
+    {
+      "path": "src/assets/bg/kamar.jpg",
+      "bytes": 185356,
+      "sha256": "4fe0e67bbebec13d709700dfab0f8cc2f46690dec1480a5522c1fe2c975e7357"
+    },
+    {
+      "path": "src/assets/bg/pintu.jpg",
+      "bytes": 144567,
+      "sha256": "d560c8b9fa825cf12ba08ee257d90ddcda23f785e47709e9c3d6a16907c18152"
+    },
+    {
+      "path": "src/assets/covers/cover-1.webp",
+      "bytes": 54260,
+      "sha256": "ebb40a9388d6d592c87ce91edc8a862239c9744fc98fdd60a400264a9591f6bb"
+    },
+    {
+      "path": "src/assets/covers/cover-10.webp",
+      "bytes": 74882,
+      "sha256": "c6ad8eab1c592a8ccc475d2a04d8b139cc6d22a972f9c574f6f303adf14ccb58"
+    },
+    {
+      "path": "src/assets/covers/cover-11.webp",
+      "bytes": 79766,
+      "sha256": "12d8cec1311c876914d58fc4e936d6de8228d1166f62d72b1c7c4b5088f7688a"
+    },
+    {
+      "path": "src/assets/covers/cover-12.webp",
+      "bytes": 44690,
+      "sha256": "386c1433702e1039aeb31212423cc379610266c537be849b941bb2a17857baf6"
+    },
+    {
+      "path": "src/assets/covers/cover-13.webp",
+      "bytes": 62618,
+      "sha256": "5b7e4ac135eaf7d74633c08736e63d4951353ada5d87cfcc2493f44d8745d7f8"
+    },
+    {
+      "path": "src/assets/covers/cover-14.webp",
+      "bytes": 61916,
+      "sha256": "0394c3ee591ec6f1983f29c72530f1058eab772593e8eaca44266c6840cac5d8"
+    },
+    {
+      "path": "src/assets/covers/cover-15.webp",
+      "bytes": 47262,
+      "sha256": "3e8d38cdc30a805d988236b293ca2ed7fd52b373c557a0f842fe034998ddf714"
+    },
+    {
+      "path": "src/assets/covers/cover-16.webp",
+      "bytes": 75426,
+      "sha256": "14031b8ca8c9068c2d074567745bf2127ea852f2752a1708ed50adc511991c00"
+    },
+    {
+      "path": "src/assets/covers/cover-17.webp",
+      "bytes": 81928,
+      "sha256": "13b3cb5778651880fba78c084e030676b32f8920e9d62a46697f90398074fa53"
+    },
+    {
+      "path": "src/assets/covers/cover-18.webp",
+      "bytes": 54376,
+      "sha256": "cc70301a5bf50b36929ab19a9cfc19c7ac5279a6141471a5ebb772070e59e48e"
+    },
+    {
+      "path": "src/assets/covers/cover-19.webp",
+      "bytes": 46260,
+      "sha256": "e6b5460e772244eb82dfbc4cca2ed20496512d95cf215662c715cea7c52d64a1"
+    },
+    {
+      "path": "src/assets/covers/cover-2.webp",
+      "bytes": 59474,
+      "sha256": "ece851cce82dcaf98f7a7bf5b7330062033620ddd91a158096107fc8ff8ff71b"
+    },
+    {
+      "path": "src/assets/covers/cover-3.webp",
+      "bytes": 86128,
+      "sha256": "4c7dd99827e564f693e454aceff754761a7b758f40dd1eb39b50a8bb819e310e"
+    },
+    {
+      "path": "src/assets/covers/cover-4.webp",
+      "bytes": 59388,
+      "sha256": "e08a920a2b20b1c16a27ec8f754ff22e61e78fca329eafdc36757f401e382a76"
+    },
+    {
+      "path": "src/assets/covers/cover-6.webp",
+      "bytes": 69558,
+      "sha256": "27cc62f99748ee7fa708265c0c3405ff04e592feb1d92e8d52b6c90a212b3be9"
+    },
+    {
+      "path": "src/assets/covers/cover-7.webp",
+      "bytes": 59142,
+      "sha256": "bdf5516bf3d646faa5d4ba9643ee2376f743c54aafe1be149bb7b1d760e1076f"
+    },
+    {
+      "path": "src/assets/covers/cover-8.webp",
+      "bytes": 102258,
+      "sha256": "3c174c78e4acb6919737b217eac2f8c2dfa3a882e346df159e9caeaceeafac02"
+    },
+    {
+      "path": "src/assets/covers/cover-9.webp",
+      "bytes": 59678,
+      "sha256": "57f1edc01ccba3f31141b7f601fb9db26fce3d649991452ff2c9da5d7aa71829"
+    },
+    {
+      "path": "src/assets/scenes/u01-perkenalan.webp",
+      "bytes": 90152,
+      "sha256": "a8e01f301295b68b6454ccf343b8f7b4381b84c1e99693392307cca00ac0c532"
+    },
+    {
+      "path": "src/assets/scenes/u02-jadwal.webp",
+      "bytes": 72824,
+      "sha256": "85af7a9d89013553515c79557013290730dac08b0c78f874b73a910c5404e9c9"
+    },
+    {
+      "path": "src/assets/scenes/u02-pasar.webp",
+      "bytes": 110496,
+      "sha256": "ffbb9c915a07d6f4563ea2736c30a620eda9d66a5f0dba3edf77816777f0171b"
+    },
+    {
+      "path": "src/assets/scenes/u03-keluarga.webp",
+      "bytes": 73172,
+      "sha256": "005a76e7530b713e473e2b264ca4f2d85cd03158fed34d5a9472f0761bf892e6"
+    },
+    {
+      "path": "src/assets/scenes/u04-makan.webp",
+      "bytes": 68720,
+      "sha256": "5ce36a133d656fd24b8b7921872292a37b8c573c624bb3e1163dd7064ad1f80c"
+    },
+    {
+      "path": "src/assets/scenes/u05-toko.webp",
+      "bytes": 56994,
+      "sha256": "f07817c82b7afc28c0d95d383c5ef12ba6ceb38a56bf712f4b3840521c39011f"
+    },
+    {
+      "path": "src/assets/scenes/u06-rumah.webp",
+      "bytes": 54986,
+      "sha256": "1e51913cd6444c635170ee2b9f515afaefa5c09cff663cdb1db307556f450de9"
+    },
+    {
+      "path": "src/assets/scenes/u07-kota-arah.webp",
+      "bytes": 94890,
+      "sha256": "f7516c11a3dab1beb4dea5eea908e01e52c7f4d1551c743da47ed982aa71a6bf"
+    },
+    {
+      "path": "src/assets/scenes/u08-hari-kerja.webp",
+      "bytes": 65930,
+      "sha256": "8816d3f3ff5c02611aa3e74cb73bdf0aabde96c3e3684ca691b70ace589ebff8"
+    },
+    {
+      "path": "src/assets/scenes/u09-klinik.webp",
+      "bytes": 63822,
+      "sha256": "006ffd82b373897cc9299afb1d3c546885acb5c0f5e7127580a69ba8c63ccfc5"
+    },
+    {
+      "path": "src/assets/scenes/u10-renang.webp",
+      "bytes": 94426,
+      "sha256": "5cb4479edd9aa3f34fa1d4a4a10939c11de30ebe00996a970cbf68a694648437"
+    },
+    {
+      "path": "src/assets/scenes/u11-stasiun.webp",
+      "bytes": 158186,
+      "sha256": "544856e3649aabdd943dd28ea13f4f8d52ab54cc8c6eea373dea498cc6c2905d"
+    },
+    {
+      "path": "src/assets/scenes/u12-telepon-pesan.webp",
+      "bytes": 41446,
+      "sha256": "be7485dc6807f22862d5b1801b65e8e7dff493c10d6c4a18442b46ed1bc639d9"
+    },
+    {
+      "path": "src/audio/AudioController.ts",
+      "bytes": 10305,
+      "sha256": "908e0b7c95e2fa610d314cbbd9134582bb5e2a3e2010ca6435fe5713df709111"
+    },
+    {
+      "path": "src/components/DialogPanel.tsx",
+      "bytes": 7701,
+      "sha256": "7df8996f09f572c61e38cd2d874d90a74ad2f0a016065b2f444523e4b311ddfc"
+    },
+    {
+      "path": "src/components/Panels.tsx",
+      "bytes": 18744,
+      "sha256": "67d7c4b009101b3e79d1e5496081b2cdcce0c8176d708905fbd7e67ff9aa2d77"
+    },
+    {
+      "path": "src/components/Portrait.tsx",
+      "bytes": 10922,
+      "sha256": "b25199863ed01d326ed675a6d0920b8ad80da5b17509d552290c6676cddaef25"
+    },
+    {
+      "path": "src/components/ResultScreen.tsx",
+      "bytes": 3290,
+      "sha256": "d3c7dc020cbfe1d2d2073fb1096a405313544d716e2a9dedf0fba994bfc1bae7"
+    },
+    {
+      "path": "src/components/Stage.tsx",
+      "bytes": 5935,
+      "sha256": "4f9232af475e24dcbab4816d2660c9f13aa3345e951871abaec0cf7ad81ab28e"
+    },
+    {
+      "path": "src/components/TitleScreen.tsx",
+      "bytes": 8165,
+      "sha256": "9e3d93b9a9efddd1b2328def8aafcc18e6852ddc0da01239a8fe72ae37d3ab75"
+    },
+    {
+      "path": "src/data/a1_objectives.json",
+      "bytes": 2596,
+      "sha256": "d2bde059eefb9c36a463f416dc3d5c586d96542f885a6cadbe6e9104e8619b5f"
+    },
+    {
+      "path": "src/data/cover-map.json",
+      "bytes": 9975,
+      "sha256": "f7d53978f3c41a7212801d5a43b1ce38554b1c05c4e0d751a2032edab067c61c"
+    },
+    {
+      "path": "src/data/curriculum.json",
+      "bytes": 18620,
+      "sha256": "ec2ae3f8aae15234edb60f65be55378629a0ed7e74f76177aaf301c81bd6d9f4"
+    },
+    {
+      "path": "src/data/index.ts",
+      "bytes": 1240,
+      "sha256": "449d42fdfdf2269619a9bff9ff9e882a473a3ee75d0b58f3ba11235f3b3d5eea"
+    },
+    {
+      "path": "src/data/media-manifest.ts",
+      "bytes": 6709,
+      "sha256": "db940297687e428f682b212ef8b34daf9e84dcbcfabcf051a803bd55272007d3"
+    },
+    {
+      "path": "src/data/readings.json",
+      "bytes": 46835,
+      "sha256": "f941aa79456a24a33c0993b89be546aa908c0d4b172e6988c8fb10948a83254d"
+    },
+    {
+      "path": "src/data/story/prolog.ts",
+      "bytes": 19369,
+      "sha256": "05c29ffeb9a4b5416a7d1a6d2d787a8fef21f960758cea27d573ced9652e79b0"
+    },
+    {
+      "path": "src/engine/evaluate.ts",
+      "bytes": 3700,
+      "sha256": "ae9598d79fe2a8c7b73a76e104f10de4f22de2b1f8abb7cddacb5caecb4a0807"
+    },
+    {
+      "path": "src/engine/matchers.ts",
+      "bytes": 2936,
+      "sha256": "994eedcb146dd9ca6adf14427e703ebe9a138ac48c99c36c2fb41c384dee4ec4"
+    },
+    {
+      "path": "src/engine/story.ts",
+      "bytes": 3257,
+      "sha256": "cae0cb33e17a39675d1b28dc7499d3713e79e86ba207c6bf3053a42668fb5dab"
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 1911,
+      "sha256": "0a81b591d3bc5c8528a3fb11f92088fbe65866472af84d788caa71b442884dcb"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 230,
+      "sha256": "f268dc44f71240012de0cfb1569d8ac906265cccd45eb3a99059c1a663d2f830"
+    },
+    {
+      "path": "src/storage/progress.ts",
+      "bytes": 1882,
+      "sha256": "d8e2feec28197e0ff9dc749e3a52689977d67151eee40de6630b30389def5920"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 3885,
+      "sha256": "6ef9be809360e4f3bc728654b14212ecf9d16ac9ac8c2d527309264bc1ed2d28"
+    },
+    {
+      "path": "src/utils/cn.ts",
+      "bytes": 169,
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 180,
+      "sha256": "dbb88820353d3696713a2ae27f5380439f1ff9e56c3a060a37eac39103e9e495"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 681,
+      "sha256": "2a760f56fa49b96935783a2c3b4ce63d67e4547fdace88c4f4361a0c4fc10848"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 538,
+      "sha256": "18dd184b9091357fe23797ee047138e6af7663b59697ac45d6c3c219522db9fa"
+    }
+  ]
+}

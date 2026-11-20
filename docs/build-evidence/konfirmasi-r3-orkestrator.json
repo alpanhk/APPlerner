@@ -1,0 +1,85 @@
+{
+  "task": "KONFORMITAS-FINAL-R3 / orkestrator",
+  "at": "2026-11-20T22:02:48.731Z",
+  "sha": "bbf336c9968666009b6af91337b025037041eeec0caca6383a2cace7d4c900f0",
+  "steps": {
+    "kill": {
+      "pids": [],
+      "graceful": true,
+      "verified": true
+    },
+    "C8-font": {
+      "root": "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+      "body": "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+      "app": "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+      "buttons": [
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+        "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif"
+      ],
+      "buruk": 0,
+      "ttf": 5
+    },
+    "N1-create": {
+      "kandidat": [
+        "Mulai pelajaran"
+      ],
+      "picked": [
+        {
+          "t": "Mulai pelajaran",
+          "ok": true
+        }
+      ],
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nKembali\nA1 · Unit 4 · Pelajaran 2\nMateri 1 dari 4\nMemesan dengan sopan\n\nIch möchte … — Saya ingin …\n\nIch möchte einen Tee, bitte. Coba tanpa bantuan\n\nMöchten Sie etwas trinken? Coba tanpa bantuan\n\nAkkusativ: Bentuk kata benda sebagai objek langsung kata kerja, misalnya einen Apfelsaft.\n\nobjek: Bagian kalimat yang dikenai tindakan; menjawab pertanyaan \"apa/siapa\".\n\nNominativ: Bentuk dasar kata benda sebagai subjek, misalnya der Apfelsaft.\n\nDativ: Bentuk kata benda untuk penerima atau setelah preposisi tertentu, misalnya dem Freund.\n\nIch möchte einen Kaffee, bitte.\n\nSaya ingin kopi, tolong.\n\nDengarkan\nDengarkan dialog\n\nBerikutnya\nLangsung ke latihan\nIm Café · A1 Unit 4",
+      "testids": [],
+      "inputs": []
+    },
+    "KONF-01": {
+      "log": [
+        {
+          "step": 0,
+          "act": "button",
+          "t": "Berikutnya"
+        },
+        {
+          "step": 1,
+          "act": "button",
+          "t": "Berikutnya"
+        },
+        {
+          "step": 2,
+          "act": "button",
+          "t": "Berikutnya"
+        },
+        {
+          "step": 3,
+          "act": "none",
+          "body": "osisi tertentu, misalnya dem Freund.\n\nDie Rechnung, bitte. — Zusammen, bitte.\n\nTagihannya, tolong. — Bersama, tolong.\n\nDengarkan\nDengarkan dialog\n\nMulai latihan\nIm Café · A1 Unit 4"
+        }
+      ],
+      "langkah": 4,
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nKembali\nA1 · Unit 4 · Pelajaran 2\nMateri 4 dari 4\nMembayar\n\nDie Rechnung, bitte. — Tagihannya, tolong.\n\nZusammen oder getrennt? — Bersama atau terpisah?\n\nIch zahle mit Karte. Coba tanpa bantuan\n\nPrasyarat: Artikel dan kosakata makanan dari Pelajaran 1. Kesalahan umum: 'Ich möchte ein Kaffee' (harus einen Kaffee); bitte membuat pesanan sopan; zusammen/getrennt untuk pembayaran. Ringkasan: möchte + Akkusativ, menu, tagihan, dan cara membayar.\n\nAkkusativ: Bentuk kata benda sebagai objek langsung kata kerja, misalnya einen Apfelsaft.\n\nobjek: Bagian kalimat yang dikenai tindakan; menjawab pertanyaan \"apa/siapa\".\n\nNominativ: Bentuk dasar kata benda sebagai subjek, misalnya der Apfelsaft.\n\nDativ: Bentuk kata benda untuk penerima atau setelah preposisi tertentu, misalnya dem Freund.\n\nDie Rechnung, bitte. — Zusammen, bitte.\n\nTagihannya, tolong. — Bersama, tolong.\n\nDengarkan\nDengarkan dialog\n\nMulai latihan\nIm Café · A1 Unit 4",
+      "testids": [],
+      "inputs": 0
+    },
+    "data": {
+      "consoleErrors": 0,
+      "detail": [],
+      "external": []
+    },
+    "close": {
+      "pids": [
+        17608
+      ],
+      "graceful": true,
+      "verified": true,
+      "remaining": []
+    }
+  },
+  "external": []
+}

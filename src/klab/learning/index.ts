@@ -1,6 +1,9 @@
 // Titik masuk komponen alur belajar KLAB untuk integrasi runner (1a).
 export { LessonFlow } from './LessonFlow';
 export { CafeDialog } from './CafeDialog';
+export { StoryFlow } from './StoryFlow';
+export { StoryView } from './StoryView';
+export type { StoryFlowProps, StoryPanel, NovelStore, NovelProgress } from './StoryFlow';
 export { CafeConversation } from './CafeConversation';
 export { CafeScene } from './CafeScene';
 export type { LessonFlowProps, LessonProgress } from './LessonFlow';
@@ -52,6 +55,10 @@ export {
   translationLabel,
   transferCoverage,
 } from './logic';
+export { newGame, nodeOf, transition, INITIAL_STAGE } from './story/engine';
+export { detectIntents, fillTemplate, resolveInputHandler, normalize as normalizeAnswer } from './story/matchers';
+export { objectiveLevel, demonstratedFullSentence, buildSummary, LEVEL_LABEL } from './story/evaluate';
+export { PROLOG_START, PROLOG_META, PROLOG_NODES } from './story/prolog';
 export { loadOptIn, saveOptIn, soundController, soundPriority } from './soundController';
 export type {
   AudioMatch,
@@ -64,4 +71,4 @@ export type {
   ReadingSentence,
   ReadingView,
 } from './logic';
-export type { SoundRoute, SoundState, SoundController } from './soundController';
+export type { SoundRoute, SoundState, SoundController, SpeakingStatus } from './soundController';
