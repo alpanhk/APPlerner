@@ -77,10 +77,10 @@ export function buildSummary(attempts: Attempt[], flags: Flags, name: string): {
     next = "Mulai dengan berlatih „Ich heiße …“ bersama tutor, lalu jawab pertanyaan Mia di pintu dengan namamu sendiri.";
   } else if (!demonstratedFullSentence(attempts, "introduce")) {
     next = "Berikutnya, ulangi perkenalan dengan kalimat lengkap „Ich heiße …“ — nama saja sudah dipahami, tetapi kalimat utuh membuatmu lebih siap saat ditanya orang asing.";
-  } else if (greets.length === 0) {
-    next = "Berikutnya, coba sapa tetangga di jalan dengan „Guten Morgen!“ sebelum lanjut ke asal-usul (Pelajaran 2).";
   } else if (objectiveLevel(attempts, "introduce") === "petunjuk") {
-    next = "Berikutnya, ulangi perkenalan dengan petugas pos tanpa membuka petunjuk, lalu lanjut ke „Ich komme aus …“.";
+    next = "Nama sudah dipahami. Coba perkenalkan diri dengan kalimat lengkap dalam situasi baru tanpa contoh, lalu cek lagi pada hari lain.";
+  } else if (greets.length === 0) {
+    next = "Berikutnya, coba sapa tetangga di jalan dengan „Guten Morgen!“.";
   }
   return { lines, next };
 }

@@ -147,7 +147,7 @@ const N: StoryNode[] = [
     lang: "de",
     text: "Ich heiße {name}.",
     translation: "Nama saya {name}. (ich = saya, heiße = bernama)",
-    next: "b_contoh1",
+    next: "b_tip",
   },
   {
     id: "b_contoh1",
@@ -258,6 +258,7 @@ const N: StoryNode[] = [
   },
   {
     id: "c_answer",
+    stage: { chars: [{ id: "player", side: "left" }, { id: "mia", side: "right", expr: "question" }] },
     kind: "input",
     speaker: "mia",
     where: "mia",
@@ -270,13 +271,26 @@ const N: StoryNode[] = [
     ],
     handlers: [
       { intents: ["intro_full"], next: "c_freut", record: { objective: "introduce", full: true }, setFlags: { metMia: true } },
-      { intents: ["name_only"], next: "c_freut", record: { objective: "introduce", full: false }, setFlags: { metMia: true } },
+      { intents: ["name_only"], next: "c_name_feedback", record: { objective: "introduce", full: false }, setFlags: { metMia: true } },
       { intents: ["intro_other"], next: "c_wrongname" },
       { intents: ["greet"], next: "c_greet", record: { objective: "greet", full: true } },
       { intents: ["ja", "nein"], next: "c_janein" },
     ],
     unknownHint: "Mia belum paham. Coba sebutkan namamu dengan „Ich heiße …“.",
     skip: { label: "Minta bantuan", next: "c_help" },
+  },
+  {
+    id: "c_name_feedback", kind: "line", speaker: "tutor", lang: "id",
+    stage: { chars: [{ id: "player", side: "left" }, { id: "tutor", side: "right" }] },
+    text: "Mia memahami namamu. Kamu bisa mencoba kalimat lengkap, atau melanjutkan percakapan.",
+    next: "c_name_choice",
+  },
+  {
+    id: "c_name_choice", kind: "choice", prompt: "Apa yang ingin kamu lakukan?",
+    options: [
+      { label: "Coba perkenalan lengkap", next: "c_answer" },
+      { label: "Lanjut bersama Mia", next: "c_freut" },
+    ],
   },
   {
     id: "c_help",

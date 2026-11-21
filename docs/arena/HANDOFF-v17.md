@@ -37,3 +37,7 @@ Pemeriksaan otomatis browser dicoba menggunakan Chromium headless, namun proses 
 2. Satukan peron–petugas–pesan dalam alur aktif dengan rekam lokal, transkrip, umpan balik/revisi, respons pertama dan persistensi idempoten; jangan menyebut ketikan sebagai lisan.
 3. Rancang bukti baru dan evaluasi tertunda lintas konteks; migrasikan profil lama tanpa menaikkan status. Jalankan U07–U12 dan uji Windows.
 4. Kembangkan bertahap 42 unit/96 pelajaran sesuai mandat; katalog atau naskah bukan bukti materi tuntas. A1–B2 belum selesai; kesiapan aplikasi masih kandidat parsial. Hasil belajar peserta dan target kelulusan Goethe >80% **belum terukur**, tidak ada data kohor.
+
+## Kelanjutan PR #4
+
+Kandidat berikutnya menggantikan status lama di atas: lihat [HASIL-PILOT.md](HASIL-PILOT.md) untuk alur langsung dari menu, SHA awal sesi, tabel U01–U12, bukti gambar, hasil browser dan batas Windows. Chromium terbaru berhasil dijalankan dengan pustaka NSS terpisah untuk pengujian; satu crash riwayat telah diperbaiki. Misi stasiun baru aktif melalui `arena/App.tsx`; StoryPage lama tetap tersedia dan belum dianggap selesai. Prioritas selanjutnya: penilaian alternatif yang ditelaah, bank stimulus transfer/cek tertunda, penyimpanan lintas backend, uji manusia/Windows, serta memperbaiki ruang belajar SQLite pada preview browser.

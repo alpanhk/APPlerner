@@ -12,6 +12,7 @@ export function TitleScreen({
   onSettings,
   onLibrary,
   onLearning,
+  onPractice,
 }: {
   hasSave: boolean;
   saveName?: string;
@@ -20,6 +21,7 @@ export function TitleScreen({
   onSettings: () => void;
   onLibrary: () => void;
   onLearning: () => void;
+  onPractice: () => void;
 }) {
   const [loaded, setLoaded] = useState(false);
   const first = useRef<HTMLButtonElement>(null);
@@ -60,6 +62,7 @@ export function TitleScreen({
               Pengaturan
             </button>
           </div>
+          <button type="button" onClick={onPractice} className="btn-secondary justify-center">Latih keterampilan · Peron berubah</button>
           <button type="button" onClick={onLearning} className="btn-secondary justify-center">Ruang belajar A1–B2</button>
         </nav>
         <p className="mt-2 text-xs text-[#f7efdd]/70">Untuk penutur bahasa Indonesia</p>

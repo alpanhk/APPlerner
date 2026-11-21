@@ -5,6 +5,7 @@ import { DEFAULT_PLAYER, localStore } from "./storage/progress";
 import { PROLOG_START } from "./data/story/prolog";
 import { detectIntents, fillTemplate, resolveInputHandler } from "./engine/matchers";
 import { INITIAL_STAGE, newGame, nodeOf, transition, type Effect, type Game } from "./engine/story";
+import { StationMission } from "./components/StationMission";
 import { Stage } from "./components/Stage";
 import { AnswerInput, ChoiceList, DialogPanel, NextButton } from "./components/DialogPanel";
 import { CharacterCreator, TitleScreen } from "./components/TitleScreen";
@@ -15,7 +16,7 @@ import StoryPage, { beginStoryForPlayer } from "../klab/StoryPage";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters";
+type Screen = "title" | "create" | "story" | "chapters" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -159,7 +160,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   const go = useCallback(
     (targetId: string, extra?: Parameters<typeof transition>[2], base?: Game) => {
       const g = base ?? gameRef.current;
-      if (!g) return;
+      if (!g || g.nodeId === targetId) return;
       const { g: ng, effects } = transition(g, targetId, extra);
       gameRef.current = ng;
       setGame(ng);
@@ -229,6 +230,8 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   // Jika baris saat ini langsung diikuti giliran pemain, tampilkan kolom jawaban tanpa klik "Lanjut" tambahan
   const inputNode: InputNode | null =
     node?.kind === "input" ? node : node?.kind === "line" && nodeOf(node.next).kind === "input" ? (nodeOf(node.next) as InputNode) : null;
+  const draftKey = inputNode ? `lernen.prolog.draft.${inputNode.id}` : null;
+  useEffect(() => { setDraft(draftKey ? localStorage.getItem(draftKey) ?? "" : ""); }, [draftKey]);
   const name = game?.player.name ?? "";
   const lastLine = useMemo(() => {
     if (!game) return null;
@@ -238,7 +241,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
   // ----- Jawaban pemain -----
   const submitAnswer = (n: InputNode) => {
-    if (!game) return;
+    if (!game || gameRef.current !== game) return;
     const intents = detectIntents(draft, name);
     if (intents.includes("empty")) {
       setFeedback("Ketik atau susun jawabanmu dulu, lalu tekan Kirim.");
@@ -273,6 +276,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     });
     // Sapaan yang menyertai jawaban (mis. "Hallo! Ich heiße …") juga menjadi bukti tujuan "menyapa"
     if (intents.includes("greet") && h.record?.objective !== "greet") newAttempts.push({ objective: "greet", where: n.where, text: draft.trim(), hintsUsed, full: true, at: Date.now() });
+    if (draftKey) localStorage.removeItem(draftKey);
     const base: Game = newAttempts.length ? { ...game, attempts: [...game.attempts, ...newAttempts] } : game;
     go(h.next, { setFlags: flags, playerLine: draft.trim() }, base);
   };
@@ -305,9 +309,11 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   return (
     <div className={`arena-root relative h-dvh w-full overflow-hidden bg-[#1f2740] font-sans ${textSizeClass}`}>
       {screen === "title" && (
-        <TitleScreen hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} />
+        <TitleScreen hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
       )}
-      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("chapters"); }} onHear={(portrait) => { audio.unlock(); const next = { ...settings, soundOn: true }; audio.updateSettings(next); setSettings(next); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
+      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("station"); }} onHear={(portrait) => { audio.unlock(); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
+
+      {screen === "station" && <StationMission soundOn={settings.soundOn} onBack={backToTitle} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
@@ -375,11 +381,14 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                 />
               )}
               {inputNode && (
+                <>
+                {game.stage.chars.some((c) => c.id === "player") && <button type="button" className="btn-ghost mb-2" onClick={() => speakLine("Hallo!", `avatar-${game.nodeId}`, `avatar-hallo:${game.player.portrait ?? "player-01"}`, "player")}>Dengar sapaan tokohmu: Hallo!</button>}
                 <AnswerInput
                   prompt={fillTemplate(inputNode.prompt, name)}
                   value={draft}
                   onChange={(v) => {
                     setDraft(v);
+                    if (draftKey) localStorage.setItem(draftKey, v);
                     if (feedback) setFeedback("");
                   }}
                   onSubmit={() => submitAnswer(inputNode)}
@@ -390,6 +399,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                   feedback={feedback}
                   skip={inputNode.skip ? { label: inputNode.skip.label, onSkip: () => go(inputNode.skip!.next) } : undefined}
                 />
+                </>
               )}
             </DialogPanel>
           )}
