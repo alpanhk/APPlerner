@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Desktop from "./App";
+import { isTauri } from "@tauri-apps/api/core";
+import { WebLearning } from "./arena/components/WebLearning";
 import Arena from "./arena/App";
 import { navigation } from "./app/navigation";
 import type { Route } from "./klab/routes";
@@ -11,6 +13,7 @@ export default function DesktopEntry() {
   const [desktop, setDesktop] = useState<{ route?: Route } | null>(null);
 
   if (desktop) {
+    if (!isTauri()) return <WebLearning route={desktop.route} onBack={() => setDesktop(null)} />;
     return (
       <div className="relative h-full w-full">
         <Desktop />

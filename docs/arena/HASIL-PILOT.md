@@ -1,3 +1,5 @@
+> **Status terbaru:** lihat [hasil kelanjutan dari ef47c5c](HASIL-PILOT-v2.md); laporan ini mempertahankan bukti pembanding.
+
 # Pilot · hasil browser dan langkah uji
 
 Perubahan ini dilanjutkan dari HEAD `11eb96204ba17b7769100aa338a7686ce2df7853`, pada PR #4 berbasis `pilot-lernen-v16`. SHA yang diuji adalah commit yang memuat dokumen dan gambar ini (lihat head PR). Jalur pengguna: `src/main.tsx → DesktopEntry → arena/App.tsx`; misi stasiun kini dipasang di menu judul aplikasi itu, bukan entry demo. Browser: Chromium 153 headless Linux, profil lokal fiktif terisolasi, Vite. Gambar dan log di bawah dibuat dari perubahan kode yang sama; tidak ada rekaman suara pengguna di repositori.
