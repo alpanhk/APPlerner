@@ -75,12 +75,14 @@ export function CharacterCreator({
   onBack,
   onPractice,
   onHear,
+  onStop,
 }: {
   initial: PlayerProfile;
   onDone: (p: PlayerProfile) => void;
   onBack: () => void;
   onPractice: () => void;
   onHear: (portrait: string) => void;
+  onStop: () => void;
 }) {
   const [p, setP] = useState<PlayerProfile>({ ...initial, portrait: initial.portrait ?? playerIds[0] });
   const nameRef = useRef<HTMLInputElement>(null);
@@ -154,7 +156,7 @@ export function CharacterCreator({
             <div className="grid grid-cols-4 gap-2">
               {playerIds.map((id, index) => <label key={id} className="rounded-lg border border-[#2c3e6b]/40 p-2 text-center">
                 <img src={arenaPortrait(id)} alt="" className="mx-auto h-20 object-contain" />
-                <input type="radio" name="portrait" checked={p.portrait === id} onChange={() => setP({ ...p, portrait: id })} />
+                <input type="radio" name="portrait" checked={p.portrait === id} onChange={() => { onStop(); setP({ ...p, portrait: id }); }} />
                 <span className="ml-1">{index + 1}</span>
               </label>)}
             </div>

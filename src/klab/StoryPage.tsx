@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import "./story.css";
 import storyData from "./story-data.json";
+import { indexedStoryClips } from "./indexed-story-clips";
 
 type Turn = { id: string; actor: string; name: string; text: string; lang: string; translation: string; audio: string | null };
 type Goal = {
@@ -20,7 +21,7 @@ type Cursor = {
 };
 const players = ["player-01", "player-02", "player-03", "player-04"];
 const storageKey = "lernen:a1-story:v1";
-const url = (file: string) => import.meta.env.BASE_URL + "a1-story/" + file;
+const url = (file: string) => indexedStoryClips[file] ?? import.meta.env.BASE_URL + "a1-story/" + file;
 const normalize = (value: string) => value.toLocaleLowerCase("de").trim().normalize("NFC")
   .replace(/[.,!?„“"]/g, "").replace(/\s+/g, " ");
 const decisions: Record<string, { task: string; options: string[]; correct: string }> = {
@@ -112,17 +113,20 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
 }) {
   const dialog = [...goal.intro, ...goal.dialog];
   const stepKey = storageKey + ":" + goal.id;
-  const [savedStep] = useState<{ turn?: number; feedback?: "correct" | "retry"; assisted?: boolean }>(() => {
+  const [savedStep] = useState<{ turn?: number; feedback?: "correct" | "retry"; assisted?: boolean; transcriptOpened?: boolean }>(() => {
     try { return JSON.parse(localStorage.getItem(stepKey) ?? "{}") ?? {}; }
     catch { return {}; }
   });
   const [turnIndex, setTurnIndex] = useState(savedStep.turn ?? 0);
   const [feedback, setFeedback] = useState(savedStep.feedback);
-  const [text, setText] = useState("");
+  const [text, setText] = useState(() => {
+    try { return JSON.parse(localStorage.getItem(stepKey) ?? "{}").text ?? ""; } catch { return ""; }
+  });
+  const [transcriptOpened, setTranscriptOpened] = useState(savedStep.transcriptOpened ?? false);
   const [assisted, setAssisted] = useState(savedStep.assisted ?? false);
   useEffect(() => {
-    localStorage.setItem(stepKey, JSON.stringify({ turn: turnIndex, feedback, assisted }));
-  }, [stepKey, turnIndex, feedback, assisted]);
+    localStorage.setItem(stepKey, JSON.stringify({ turn: turnIndex, feedback, assisted, text, transcriptOpened }));
+  }, [stepKey, turnIndex, feedback, assisted, text, transcriptOpened]);
   const [variation, setVariation] = useState(false);
   const [variationCorrect, setVariationCorrect] = useState<boolean>();
   const [muted, setMuted] = useState(() => localStorage.getItem("lernen:a1-muted") === "1");
@@ -203,6 +207,7 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
   const shown = playing ?? turn;
   const props = scene?.props.filter(prop => {
     if (goal.id === "a1-u4-o3") return prop.id === "menu" || (feedback === "correct" && ["kopi", "sup"].includes(prop.id));
+    if (goal.id === "a1-u11-o4" && prop.id === "papan-peron" && (feedback !== "correct" || (variation && variationCorrect === undefined))) return false;
     return true;
   });
   const npc = shown?.actor === "player" ? player : shown?.actor === player ? turn?.actor : shown?.actor;
@@ -218,7 +223,8 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
     <div className="a1-story-panel">
       {goal.intro.length > 0 && <p>{scene?.context}</p>}
       {shown && <div aria-live="polite">
-        <strong>{players.includes(shown.actor) ? "Tokohmu" : shown.name}</strong><p lang={shown.lang}>{shown.text}</p>
+        <strong>{players.includes(shown.actor) ? "Tokohmu" : shown.name}</strong><p lang={shown.lang}>{goal.id === "a1-u11-o4" && shown.actor === "pengumuman" && (feedback !== "correct" || (variation && variationCorrect === undefined)) ? "[Dengarkan pengumuman.]" : shown.text}</p>
+        {goal.id === "a1-u11-o4" && shown.actor === "pengumuman" && (feedback !== "correct" || (variation && variationCorrect === undefined)) && <details onToggle={event => { if (event.currentTarget.open) { setAssisted(true); setTranscriptOpened(true); } }}><summary>Buka transkrip (dicatat sebagai bantuan membaca)</summary><p lang="de">{variation ? shown.text : "Achtung, der Zug fährt heute von Gleis vier ab."}</p></details>}
         {shown.translation && <details onToggle={event => { if (event.currentTarget.open) setAssisted(true); }}><summary>Terjemahan</summary><p>{shown.translation}</p></details>}
       </div>}
       <div className="a1-story-tools">
@@ -242,10 +248,10 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
             <label>Jawaban <input lang="de" value={text} onChange={e => setText(e.target.value)} required /></label>
             <button type="submit">Periksa jawaban</button>
           </form> : <button onClick={() => moveOn()}>Lanjut</button>}
-        {feedback === "retry" && <p role="status">{goal.hint || "Dengarkan lagi dan coba jawaban lain."}</p>}
+        {feedback === "retry" && <p role="status">{goal.id === "a1-u11-o4" ? "Itu peron lama. Dengarkan kembali pengumuman untuk mencari peron terbaru." : goal.hint || "Dengarkan lagi dan coba jawaban lain."}</p>}
         {feedback === "retry" && <button ref={action} onClick={() => { stop(); setFeedback(undefined); setText(""); if (turnIndex >= 0) play(dialog[turnIndex]); }}>Coba lagi</button>}
         <details onToggle={event => { if (event.currentTarget.open) setAssisted(true); }}>
-          <summary>Bantuan</summary><p>{goal.help[0]?.text || goal.hint}</p>
+          <summary>Bantuan</summary><p>{goal.help[0]?.text || (goal.id === "a1-u11-o4" ? "Dengarkan angka setelah Gleis." : goal.hint)}</p>
           {goal.help[0]?.audio && <button disabled={muted} onClick={() => play(goal.help[0])}>Dengarkan tutor</button>}
           {variants[0] && <p lang="de">{variants[0]}</p>}
         </details>
@@ -258,7 +264,7 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
           {["Gleis 4", "Gleis 5"].map(value => <button key={value} onClick={() => answer(value)} lang="de">{value}</button>)}
           {variationCorrect !== undefined && <p role="status">{variationCorrect ? "Peron cocok dengan pengumuman terbaru." : "Dengarkan lagi untuk menemukan peron terbaru."}</p>}
         </div>}
-        <button ref={action} onClick={() => moveOn(variationCorrect ? "Variasi peron benar" : assisted ? "Berbantuan" : decision ? "Pilihan tanpa bantuan" : "Jawaban tanpa bantuan")}>Lanjut</button>
+        <button ref={action} onClick={() => moveOn(variationCorrect && !assisted && !transcriptOpened ? "Variasi peron benar" : assisted || transcriptOpened ? "Berbantuan" : decision ? "Pilihan tanpa bantuan" : "Jawaban tanpa bantuan")}>Lanjut</button>
       </>}
     </div>
   </>;

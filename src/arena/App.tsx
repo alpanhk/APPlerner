@@ -307,7 +307,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
       {screen === "title" && (
         <TitleScreen hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} />
       )}
-      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => setScreen("title")} onPractice={() => { leave(); setScreen("chapters"); }} onHear={(portrait) => { audio.unlock(); const next = { ...settings, soundOn: true }; audio.updateSettings(next); setSettings(next); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
+      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("chapters"); }} onHear={(portrait) => { audio.unlock(); const next = { ...settings, soundOn: true }; audio.updateSettings(next); setSettings(next); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
