@@ -5,6 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 import process from "node:process";
 // @ts-expect-error type error without @types/node package
 import fs from "node:fs";
+// @ts-expect-error type error without @types/node package
+import path from "node:path";
 const host = process.env.TAURI_DEV_HOST;
 
 // https://vite.dev/config/
@@ -27,7 +29,26 @@ export default defineConfig(() => ({
         setTimeout(() => {
           try {
             fs.rmSync("dist/a1-story", { recursive: true, force: true });
-            console.log("[buang-a1-story] dist/a1-story dibuang — arsip 360 MB tidak ikut EXE");
+            // Audit 21 Nov: resolver arena memuat BASE_URL + "a1-story/...".
+            // Kembalikan HANYA aset yang direferensikan (daftar di
+            // scripts/a1-story-required.json) agar avatar PNG, klip "Hallo!",
+            // gambar bab, dan audio prolog benar-benar ada di EXE — tanpa
+            // membawa seluruh arsip ~529 MB.
+            const required = JSON.parse(
+              fs.readFileSync("scripts/a1-story-required.json", "utf8"),
+            ) as string[];
+            let copied = 0;
+            for (const rel of required) {
+              const from = path.join("public", "a1-story", rel);
+              const to = path.join("dist", "a1-story", rel);
+              if (!fs.existsSync(from)) continue;
+              fs.mkdirSync(path.dirname(to), { recursive: true });
+              fs.copyFileSync(from, to);
+              copied++;
+            }
+            console.log(
+              `[buang-a1-story] arsip dibuang; ${copied}/${required.length} aset required dikembalikan ke dist/a1-story`,
+            );
           } catch (error) {
             console.warn("[buang-a1-story] gagal membersihkan dist/a1-story:", error);
           }
