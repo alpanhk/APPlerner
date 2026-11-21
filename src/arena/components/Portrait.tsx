@@ -34,6 +34,7 @@ export const SPEAKER_NAMES: Record<string, string> = {
   barista: "Pelayan",
   "penjual-pakaian": "Penjual pakaian",
   kasir: "Kasir",
+  "tamu-kota": "Tamu",
   "penjual-pasar": "Penjual pasar",
   "penjual-mandiri-ch02": "Penjual kios lain",
   tetangga: "Herr Bauer",

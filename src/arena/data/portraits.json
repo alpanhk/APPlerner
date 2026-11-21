@@ -50,5 +50,9 @@
   "kasir": {
     "neutral": "actors/kasir/neutral.png",
     "open": "actors/kasir/talk-open.png"
+  },
+  "tamu-kota": {
+    "neutral": "actors/tamu-kota/neutral.png",
+    "open": "actors/tamu-kota/talk-open.png"
   }
 }

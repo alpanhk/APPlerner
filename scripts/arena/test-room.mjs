@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';import {assessRoom as a,sceneForRoomStep as scene} from '../../src/arena/engine/room.ts';
+const check=(step,yes,no,table='wohnzimmer',chair='küche')=>{assert(a(step,yes,table,chair).ok,`${step}: ${yes}`);assert(!a(step,no,table,chair).ok,`${step}: ${no}`)};
+check('labels','Das Wohnzimmer, die Küche, der Tisch, der Stuhl, das Sofa','Das Wohnzimmer und der Tisch');
+check('plural','Die Tische, die Stühle, die Sofas','Die Tische und die Sofas');
+check('contents','Es gibt einen Tisch, eine Lampe, ein Sofa und zwei Stühle','Es gibt einen Tisch');
+check('location','Das Buch liegt auf dem Tisch. Die Lampe steht im Wohnzimmer','Die Lampe steht im Wohnzimmer');
+check('move','Wir stellen den Tisch in die Küche','Der Tisch steht im Wohnzimmer');
+check('move','Wir stellen den Tisch in die Küche','Wir stellen den Tisch in die Küche oder ins Wohnzimmer');
+check('position','Er steht in der Küche','Er steht im Wohnzimmer','küche');
+check('tasks','Ich muss die Fenster putzen. Ich räume die Küche auf','Ich räume die Küche auf');
+check('ind-label','Der Stuhl, die Stühle','der Stuhl');
+check('ind-contents','Es gibt einen Stuhl und eine Lampe','Es gibt einen Stuhl');
+check('ind-location','Der Stuhl steht in der Küche','Der Stuhl steht im Wohnzimmer');
+check('ind-move','Wir stellen den Stuhl ins Wohnzimmer','Der Stuhl steht in der Küche');
+check('ind-position','Er steht im Wohnzimmer','Er steht in der Küche','küche','wohnzimmer');
+check('ind-tasks','Ich muss die Handtücher waschen. Wir räumen das Zimmer auf','Ich muss die Handtücher waschen');
+assert.equal(scene('move'),1);assert.equal(scene('ind-move'),3);assert.equal(scene('journal'),4);console.log('Room pattern and scene checks PASS');
