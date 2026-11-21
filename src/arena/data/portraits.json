@@ -42,5 +42,9 @@
   "barista": {
     "neutral": "actors/barista/neutral.png",
     "open": "actors/barista/speaking.png"
+  },
+  "penjual-pakaian": {
+    "neutral": "actors/penjual-pakaian/neutral.png",
+    "open": "actors/penjual-pakaian/talk-open.png"
   }
 }

@@ -1,3 +1,4 @@
+import {ChapterFiveStart} from './components/ChapterFiveStart';
 import {ChapterFourStart} from './components/ChapterFourStart';
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Attempt, CharId, ChoiceOption, InputNode, Progress, Settings } from "./types";
@@ -22,7 +23,7 @@ import { ChapterOne } from "./components/ChapterOne";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "chapter-three" | "chapter-four" | "station";
+type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "chapter-three" | "chapter-four" | "chapter-five" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -329,7 +330,8 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
       {screen === "kiosk" && game && <ChapterTwoKiosk player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => { localStorage.removeItem(profileKey("lernen.chapter02.active")); setScreen("chapter-one"); }} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter03.active"), "1"); setScreen("chapter-three"); }} />}
 
       {screen === "chapter-three" && game && <ChapterThreeStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => {localStorage.removeItem(profileKey("lernen.chapter03.active")); setScreen("kiosk");}} onLegacy={() => {setStoryChapter(3);setScreen("chapters");}} onNextChapter={() => {try{localStorage.setItem(profileKey("lernen.chapter04.active"),"1");setScreen("chapter-four");}catch{window.alert("Progres Bab 04 tidak dapat disimpan.");}}} />}
-      {screen === "chapter-four" && game && <ChapterFourStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter04.active"));setScreen("chapter-three");}} />}
+      {screen === "chapter-four" && game && <ChapterFourStart player={game.player} reducedMotion={settings.reducedMotion} soundOn={settings.soundOn} dialogVolume={settings.volDialog} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter04.active"));setScreen("chapter-three");}} onNextChapter={() => {try{localStorage.setItem(profileKey("lernen.chapter05.active"),"1");setScreen("chapter-five");}catch{window.alert("Progres Bab 05 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-five" && game && <ChapterFiveStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter05.active"));setScreen("chapter-four");}} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
