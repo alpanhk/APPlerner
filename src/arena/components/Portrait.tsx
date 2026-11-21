@@ -31,6 +31,7 @@ export const SPEAKER_NAMES: Record<string, string> = {
   tutor: "Frau Lehmann (tutor)",
   mia: "Mia",
   pos: "Petugas pos",
+  barista: "Pelayan",
   "penjual-pasar": "Penjual pasar",
   "penjual-mandiri-ch02": "Penjual kios lain",
   tetangga: "Herr Bauer",

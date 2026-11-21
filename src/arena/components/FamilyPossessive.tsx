@@ -14,7 +14,7 @@ type Attempt={step:'practice'|'task'|'new-task'|`review:${number}`;value:string;
 type Save={beat:Beat;draft:string;help:boolean;attempts:Attempt[];dates:number[];reviews:Record<string,number>;reviewDay?:number;feedback:string};
 const initial=():Save=>({beat:'intro',draft:'',help:false,attempts:[],dates:[],reviews:{},feedback:''});
 function load():Save{try{const s=JSON.parse(localStorage.getItem(profileKey(KEY))||'null');return s&&Array.isArray(s.attempts)?{...initial(),...s}:initial();}catch{return initial();}}
-export function FamilyPossessive({player,onBack,onChapterJournal,reducedMotion}:{player:PlayerProfile;onBack:()=>void;onChapterJournal:()=>void;reducedMotion:boolean}){
+export function FamilyPossessive({player,onBack,onChapterJournal,reducedMotion,onNextChapter}:{player:PlayerProfile;onBack:()=>void;onChapterJournal:()=>void;reducedMotion:boolean;onNextChapter?:()=>void}){
  const [s,setS]=useState(load),ref=useRef(s),lock=useRef(false);ref.current=s;const [translation,setTranslation]=useState(false),[panel,setPanel]=useState(false),[count,setCount]=useState(()=>{try{return !!localStorage.getItem(profileKey('lernen.chapter03.family-count.v1'));}catch{return false;}});
  const update=(f:(v:Save)=>Save)=>{const n=f(ref.current);try{localStorage.setItem(profileKey(KEY),JSON.stringify(n));ref.current=n;setS(n);}catch{window.alert('Progres Bab 03 tidak dapat disimpan.');}};
  const go=(beat:Beat,help=false)=>{setTranslation(false);update(v=>({...v,beat,help:help||v.help}));};
@@ -43,7 +43,7 @@ export function FamilyPossessive({player,onBack,onChapterJournal,reducedMotion}:
  const e=entries[s.beat]??{speaker:'narator' as SpeakerId,lang:'id' as const,text:s.beat==='review'?'Kartu ulasan baru membantu mengingat bentuk yang sesuai.':'Mia menyimpan kedua bingkai. Hasil latihan tersimpan di jurnal.'};
  const stage:StageState={bg:'dapur-warga',chars:[{id:'player',side:'left'},{id:e.speaker==='tutor'?'tutor':'mia',side:'right'}],overlay:null,ambience:'none'};
  const reviewOptions:Record<string,[string,string]>={'3':['mein Bruder','meine Bruder'],'7':['meine Mutter','mein Mutter'],'21':['meine Kinder','mein Kinder']};
- if(count)return <FamilyCount player={player} onBack={onBack} onPrevious={()=>setCount(false)} reducedMotion={reducedMotion}/>;
+ if(count)return <FamilyCount player={player} onBack={onBack} onPrevious={()=>setCount(false)} reducedMotion={reducedMotion} onNextChapter={onNextChapter}/>;
  return <main className="relative h-full overflow-hidden bg-[#1f2740] text-[#f7efdd]"><Stage stage={stage} player={player} speakingChar={null} mouthOpen={false} reducedMotion={reducedMotion}/><header className="absolute inset-x-0 top-0 z-10 flex flex-wrap gap-1 p-2"><span className="mr-auto rounded bg-[#1b2033]/80 px-2 py-1 text-xs font-semibold">A1 · Bab 03 · {CHAPTER_THREE.title} · {CHAPTER_THREE.scenes[0].title} · Mein / meine · {player.name}</span><button className="btn-top" onClick={()=>setPanel(true)}>Jurnal</button><button className="btn-top" onClick={onBack}>Judul</button></header>
  <DialogPanel speaker={e.speaker} playerName={player.name} text={e.text} lang={e.lang} translation={e.translation} showTranslation={translation} onToggleTranslation={()=>setTranslation(x=>!x)} canListen={false} onListen={()=>{}} isSpeaking={false} audioStatus={e.lang==='de'?'Klip tepat belum tersedia · baca teks.':undefined}>
  {s.beat==='intro' && <><p className="text-sm">Mia menawarkan kartu keluarga pinjaman; kamu tidak perlu membagikan informasi pribadi.</p><NextButton onClick={()=>go('explain')}/></>}

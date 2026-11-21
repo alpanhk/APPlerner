@@ -62,7 +62,7 @@ export function DialogPanel(p: PanelProps) {
           )}
           {p.audioStatus && <p className="mt-1 text-xs text-[#6b5e4e]">{p.audioStatus}</p>}
         </div>
-        <div className="border-t border-[#2c3e6b]/15 px-4 py-3 sm:px-6">{p.children}</div>
+        <div className="border-t border-[#2c3e6b]/15 px-4 py-3 text-[#1f2233] sm:px-6">{p.children}</div>
       </div>
     </section>
   );

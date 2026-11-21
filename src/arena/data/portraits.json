@@ -38,5 +38,9 @@
   "penjual-mandiri-ch02": {
     "neutral": "actors/penjual-mandiri-ch02/neutral.png",
     "open": "actors/penjual-mandiri-ch02/talk-open.png"
+  },
+  "barista": {
+    "neutral": "actors/barista/neutral.png",
+    "open": "actors/barista/speaking.png"
   }
 }
