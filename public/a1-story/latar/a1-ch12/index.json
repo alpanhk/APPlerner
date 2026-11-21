@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch12",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Einladen und verabreden",
+    "assetId": "ruang-warga",
+    "storyContext": "Ruang warga. Buku tamu yang dulu hanya berisi satu nama kini hampir penuh. Pilih waktu untuk menyambut seorang pendatang baru.",
+    "objectiveIds": [
+      "a1-u12-o1",
+      "a1-u12-o2"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch12",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Am Telefon",
+    "assetId": "ruang-warga",
+    "storyContext": "Telepon di meja. Tamu meminta bicara dengan Mia yang sedang di luar. Catat pesan dan janjikan panggilan kembali.",
+    "objectiveIds": [
+      "a1-u12-o3",
+      "a1-u12-o4"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch12",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Eine Nachricht schreiben",
+    "assetId": "ambang-rumah",
+    "storyContext": "Meja tulis dan kotak pos. Ada kartu dengan gambar cangkir kosong, sama seperti surat pertamamu. Sekarang giliranmu menulis ajakan.",
+    "objectiveIds": [
+      "a1-u12-o5"
+    ],
+    "status": "baru",
+    "path": "../master/ambang-rumah.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch12",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "ruang-warga",
+    "storyContext": "Baca jadwal tamu baru, negosiasikan waktu, terima telepon, lalu kirim konfirmasi tertulis yang konsisten. Akhiri dengan sapaan untuk tamu.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch12",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "ruang-warga",
+    "storyContext": "Pendatang membuka kartu dan bertanya «Wie heißt du?». Pemain menjawab dengan nama pilihannya. Mia menutup buku tamu. Jurnal menunjukkan keterampilan mandiri dan yang bisa diulang.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp"
+  }
+]

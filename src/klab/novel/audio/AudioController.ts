@@ -199,12 +199,21 @@ export class AudioController {
     }, est + 4000);
   }
 
-  // ---------- Efek sintesis ----------
+  // ---------- Efek sintesis & berkas ----------
   playSfx(id: SfxId) {
-    if (!this.settings.soundOn || !this.ctx) return;
-    const ctx = this.ctx;
+    if (!this.settings.soundOn) return;
     const vol = this.settings.volSfx;
     if (vol <= 0) return;
+    // SFX produksi berkas (peron-chime, telepon, kertas) — diputar apa adanya.
+    const fileAsset = MEDIA[`sfx:${id}`];
+    if (fileAsset && fileAsset.src) {
+      const a = new Audio(fileAsset.src);
+      a.volume = vol;
+      void a.play().catch(() => {});
+      return;
+    }
+    if (!this.ctx) return;
+    const ctx = this.ctx;
     const master = ctx.createGain();
     master.gain.value = vol;
     master.connect(ctx.destination);

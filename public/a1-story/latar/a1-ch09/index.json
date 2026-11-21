@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch09",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Körper und Beschwerden",
+    "assetId": "dapur-warga",
+    "storyContext": "Dapur pagi. Mia menulis keluhannya di secarik kertas. Bantu ia menyampaikan keluhan tokoh fiktif kepada petugas praktik.",
+    "objectiveIds": [
+      "a1-u9-o1",
+      "a1-u9-o2"
+    ],
+    "status": "baru",
+    "path": "../master/dapur-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch09",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Beim Arzt",
+    "assetId": "praktik",
+    "storyContext": "Meja penerima pasien. Dua slot kosong terlihat di kalender. Mia baru bisa datang sesudah tengah hari. Setelah memilih, petugas meminta kartu asuransi.",
+    "objectiveIds": [
+      "a1-u9-o3",
+      "a1-u9-o4"
+    ],
+    "status": "baru",
+    "path": "../master/praktik.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch09",
+    "sceneId": "s03",
+    "title": "Adegan 3 · In der Apotheke",
+    "assetId": "apotek",
+    "storyContext": "Apotek. Mia menyerahkan resep dari cerita. Dengarkan instruksi administratif pada kartu dan ulangi isinya. Adegan ini melatih bahasa.",
+    "objectiveIds": [
+      "a1-u9-o5"
+    ],
+    "status": "baru",
+    "path": "../master/apotek.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch09",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "praktik",
+    "storyContext": "Dengan kartu pasien fiktif lain, tanyakan sejak kapan keluhannya, minta janji yang cocok, dan sampaikan kembali pesan pada kertas praktik.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/praktik.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch09",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "dapur-warga",
+    "storyContext": "Mia beristirahat. Beberapa hari kemudian ia mengirim foto raket dan bertanya apakah kamu mau ikut kegiatan klub.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/dapur-warga.webp"
+  }
+]

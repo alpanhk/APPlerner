@@ -15,14 +15,14 @@ import { loadPreferences, patchPreferences, effectiveTheme } from "./app/prefere
 import type { Preferences } from "./klab/contracts";
 import { RouteView } from "./app/routeView";
 import CoverIndex from "./app/CoverIndex";
-import MediaIndex from "./app/MediaIndex";
 import { effectiveReducedMotion, loadUiSettings } from "./app/uiSettings";
 import "./App.css";
 import "./klab/tokens.css";
 import { friendlyErrorMessage } from "./klab/errorMessage";
 
-// CLONE PERSIS: modul lama dipertahankan sebagai modul tidur. Tidak dirender
-// dari main.tsx; lihat docs/superpowers/DATA-BERIKUTNYA.md untuk mengaktifkan.
+// PILOT-AGENT-1: novel visual (src/klab/novel) adalah entry utama; aplikasi
+// KLAB lama tetap dapat dibuka lewat NovelRoot ("Materi A1-B2") dan tetap
+// dikompilasi utuh. Kontrak DesktopEntry (import default) dipertahankan.
 export function LegacyApp() {
   const route = useStore(navigation, (state) => state.route);
   const [dbState, setDbState] = useState<DbState>("loading");
@@ -190,7 +190,6 @@ export function LegacyApp() {
         <button type="button" className="klab-back" onClick={back}>← Kembali</button>
       )}
       {dbState === "ready" && <CoverIndex />}
-      {dbState === "ready" && <MediaIndex />}
       {dbState === "ready"
         ? <RouteView
             route={route}
@@ -206,3 +205,6 @@ export function LegacyApp() {
     </Shell>
   );
 }
+
+// Kontrak lama: DesktopEntry.tsx memakai import default.
+export default LegacyApp;

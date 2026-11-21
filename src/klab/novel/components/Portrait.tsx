@@ -25,6 +25,11 @@ export const NPC_LOOKS: Record<Exclude<CharId, "player">, CharLook> = {
   mia: { name: "Mia", skin: "#f1d2b8", hair: "#d8a85a", hairStyle: "bob", outfit: "#b5533c", accent: "#f0dcc5" },
   pos: { name: "Petugas pos", skin: "#d9a87c", hair: "#4a3326", hairStyle: "short", outfit: "#e8b429", accent: "#2c3e6b", cap: "post", bag: true },
   tetangga: { name: "Herr Bauer", skin: "#e2b89a", hair: "#9a948f", hairStyle: "short", outfit: "#6b7f58", accent: "#4a4a3a", cap: "flat" },
+  // Fallback SVG bila frame produksi tidak tersedia; frame webp produksi
+  // (story-media.generated) dipakai terlebih dahulu oleh CharSprite.
+  "petugas-stasiun": { name: "Petugas stasiun", skin: "#d9a87c", hair: "#4a3326", hairStyle: "short", outfit: "#2c3e6b", accent: "#e8b429", cap: "post" },
+  eva: { name: "Eva", skin: "#f1d2b8", hair: "#8a4b2a", hairStyle: "long", outfit: "#3f7d7a", accent: "#f0dcc5" },
+  "pendatang-baru": { name: "Pendatang baru", skin: "#e6b48f", hair: "#2f2520", hairStyle: "curly", outfit: "#8a6d3b", accent: "#f3e9d8" },
 };
 
 export const SPEAKER_NAMES: Record<string, string> = {
@@ -32,6 +37,10 @@ export const SPEAKER_NAMES: Record<string, string> = {
   mia: "Mia",
   pos: "Petugas pos",
   tetangga: "Herr Bauer",
+  "petugas-stasiun": "Petugas stasiun",
+  eva: "Eva",
+  "pendatang-baru": "Pendatang baru",
+  pengumuman: "Pengumuman",
   narator: "",
   player: "",
 };

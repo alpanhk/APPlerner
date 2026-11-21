@@ -1,0 +1,50 @@
+{
+  "status": "verified-draft-ready",
+  "completedChapterIds": [
+    "a1-ch01",
+    "a1-ch02",
+    "a1-ch03",
+    "a1-ch04",
+    "a1-ch05",
+    "a1-ch06",
+    "a1-ch07",
+    "a1-ch08",
+    "a1-ch09",
+    "a1-ch10",
+    "a1-ch11",
+    "a1-ch12"
+  ],
+  "batches": [
+    "01-04",
+    "05-08",
+    "09-12"
+  ],
+  "speech": {
+    "uniqueCreated": 759,
+    "uniqueReused": 1,
+    "playerClipsUnique": 408,
+    "audioContexts": 760,
+    "contextsByStatus": {
+      "new": 759,
+      "dynamic": 3,
+      "dynamic-unwritten": 12,
+      "ui-only": 11,
+      "reused-verified": 1,
+      "dynamic-text-only": 1
+    },
+    "verifiedPhysicalFilesIncludingChapterPreviews": 1544,
+    "reuseFullScaleSamples": 2,
+    "worstNewMasterPeakDbfs": -3.0,
+    "worstNewRuntimePeakDbfs": -2.68,
+    "activeRmsDbfsRange": [
+      -23.64,
+      -20.0
+    ]
+  },
+  "soundDesign": {
+    "created": 5,
+    "referenced": 7,
+    "manifest": "sound-design/manifest.json"
+  },
+  "index": "README.md"
+}

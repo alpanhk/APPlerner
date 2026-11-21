@@ -1,6 +1,9 @@
 import type { Attempt, Flags, HistoryItem, PlayerProfile, SfxId, StageState, StoryContext, StoryNode, CharId } from "../types";
 import { PROLOG_NODES } from "../data/story/prolog";
+import { CH11_NODES } from "../data/story/bab-11";
+import { CH12_NODES } from "../data/story/bab-12";
 import { fillTemplate } from "./matchers";
+import { resolveAudio } from "../data/audio-manifest";
 
 // ===== Keadaan permainan & transisi murni =====
 
@@ -15,6 +18,14 @@ export interface Game {
   history: HistoryItem[];
   prologCompleted: boolean;
   visit: number; // bertambah setiap transisi, memicu efek samping
+  /**
+   * PILOT-AGENT-1: "latihan" = misi "Peron berubah" dijalankan langsung dari
+   * jalur pengguna biasa; jalur ini TIDAK menandai Bab 01-10 selesai dan
+   * buktinya tercatat terpisah di jurnal (Mandat §1.3/§1.5).
+   */
+  mode?: "cerita" | "latihan";
+  /** Rekaman lisan milik pemain (base64), dikelola di luar transisi murni. */
+  recordings?: Record<string, { mime: string; data: string; at: number }>;
 }
 
 export type Effect =
@@ -23,8 +34,11 @@ export type Effect =
 
 export const INITIAL_STAGE: StageState = { bg: "kamar", chars: [], overlay: null, ambience: "none" };
 
+// Registri node gabungan: prolog + Bab 11 + Bab 12 (PILOT-AGENT-1).
+const ALL_NODES: Record<string, StoryNode> = { ...PROLOG_NODES, ...CH11_NODES, ...CH12_NODES };
+
 export function nodeOf(id: string): StoryNode {
-  const n = PROLOG_NODES[id];
+  const n = ALL_NODES[id];
   if (!n) throw new Error(`Node cerita tidak ditemukan: ${id}`);
   return n;
 }
@@ -56,6 +70,9 @@ export function transition(g0: Game, targetId: string, extra: TransitionExtra = 
         chars: n.stage.chars ?? g.stage.chars,
         overlay: n.stage.overlay === undefined ? g.stage.overlay : n.stage.overlay,
         ambience: n.stage.ambience ?? g.stage.ambience,
+        board: n.stage.board === undefined ? g.stage.board : n.stage.board,
+        ticket: n.stage.ticket === undefined ? g.stage.ticket : n.stage.ticket,
+        calendar: n.stage.calendar === undefined ? g.stage.calendar : n.stage.calendar,
       };
     }
     if (n.sfx) effects.push({ type: "sfx", id: n.sfx });
@@ -66,10 +83,15 @@ export function transition(g0: Game, targetId: string, extra: TransitionExtra = 
     g.nodeId = id;
     if (n.kind === "line") {
       const text = fillTemplate(n.text, g.player.name);
+      const spoken = n.spokenText ? fillTemplate(n.spokenText, g.player.name) : text;
       const translation = n.translation ? fillTemplate(n.translation, g.player.name) : undefined;
-      g.history.push({ speaker: n.speaker, text, lang: n.lang, translation, audio: n.audio });
+      g.history.push({ speaker: n.speaker, text: spoken, lang: n.lang, translation, audio: n.audio });
       if (n.lang === "de") {
-        effects.push({ type: "speak", char: n.speaker === "narator" ? null : n.speaker, text, asset: n.audio, key: `${id}#${g.visit}` });
+        // Pengumuman pengeras suara bersuara tanpa potret: mulut tokoh tidak
+        // bergerak (Mandat §5.5). Id klip pemain memakai pola {avatar}.
+        const asset = resolveAudio(n.audio, g.player.characterId);
+        const char = n.speaker === "narator" || n.speaker === "pengumuman" ? null : n.speaker;
+        effects.push({ type: "speak", char, text: spoken, asset, key: `${id}#${g.visit}` });
       }
     }
     if (n.kind === "end") {

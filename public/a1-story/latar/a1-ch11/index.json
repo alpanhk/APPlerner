@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch11",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Eine Reise planen",
+    "assetId": "ruang-warga",
+    "storyContext": "Meja dengan tiket dan peta. Mia menandai Leipzig, lalu menunjukkan kartu pos dari Swiss. Siapkan perjalanan yang cocok dengan undangan.",
+    "objectiveIds": [
+      "a1-u11-o1",
+      "a1-u11-o2",
+      "a1-u11-o3"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch11",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Am Bahnhof",
+    "assetId": "peron",
+    "storyContext": "Stasiun. Bunyi pengumuman sekali. Papan keberangkatan berganti saat kalian tiba. Kereta terlambat dan jadwal sambungan harus diperiksa.",
+    "objectiveIds": [
+      "a1-u11-o4"
+    ],
+    "status": "baru",
+    "path": "../master/peron.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch11",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Informationen und Reservierung",
+    "assetId": "stasiun",
+    "storyContext": "Loket informasi. Ada tiket namun tempat duduk belum dipesan. Cari sambungan dan pesan kursi agar buku tamu ikut dengan aman.",
+    "objectiveIds": [
+      "a1-u11-o5"
+    ],
+    "status": "baru",
+    "path": "../master/stasiun.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch11",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "stasiun",
+    "storyContext": "Gunakan tiket kedua. Tentukan tujuan, barang bawaan, jam tiba dan peron terbaru, lalu tanyakan sambungan dan pesan kursi.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/stasiun.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch11",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "stasiun",
+    "storyContext": "Dari kota tujuan, kirim pesan agar tamu tahu jam pertemuan terakhir di ruang warga.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/stasiun.webp"
+  }
+]

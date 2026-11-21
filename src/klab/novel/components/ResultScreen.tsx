@@ -11,6 +11,7 @@ export function ResultScreen({
   onRetryIntro,
   onSaveAndFinish,
   onOpenReading,
+  onContinueMission,
 }: {
   attempts: Attempt[];
   flags: Flags;
@@ -19,6 +20,8 @@ export function ResultScreen({
   onRetryIntro: () => void;
   onSaveAndFinish: () => void;
   onOpenReading: (id: number) => void;
+  /** PILOT-AGENT-1: lanjut dari prolog ke Bab 11 „Peron berubah“ (mode latihan). */
+  onContinueMission?: () => void;
 }) {
   const first = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -69,6 +72,11 @@ export function ResultScreen({
           <button type="button" onClick={onRetryIntro} className="btn-secondary">
             Ulangi perkenalan
           </button>
+          {onContinueMission && (
+            <button type="button" onClick={onContinueMission} className="btn-primary" data-testid="continue-mission">
+              Lanjut ke Bab 11 · Peron berubah
+            </button>
+          )}
           <button ref={first} type="button" onClick={onSaveAndFinish} className="btn-primary">
             Simpan & selesai
           </button>

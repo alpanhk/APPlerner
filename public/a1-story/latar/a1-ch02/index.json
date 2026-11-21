@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch02",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Zahlen & Preise",
+    "assetId": "kios-pasar",
+    "storyContext": "Kios pasar. Ujung daftar Mia basah. Angka 17 dan 70 masih terbaca, tetapi masing-masing milik barang yang berbeda. Dengarkan penjual sebelum menyerahkan uang mainan.",
+    "objectiveIds": [
+      "a1-u2-o1",
+      "a1-u2-o2"
+    ],
+    "status": "baru",
+    "path": "../master/kios-pasar.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch02",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Uhrzeit & Wochentage",
+    "assetId": "kios-pasar",
+    "storyContext": "Jam di atas kios mati. Penjual menunjuk jadwal tertulis. Tentukan kapan harus kembali mengambil pesanan.",
+    "objectiveIds": [
+      "a1-u2-o3",
+      "a1-u2-o4"
+    ],
+    "status": "baru",
+    "path": "../master/kios-pasar.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch02",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Zeitausdrücke: um, am, im",
+    "assetId": "kios-pasar",
+    "storyContext": "Kalender di jendela. Mia akan menjaga kios sendirian jika catatan untuk giliran berikutnya keliru. Tinggalkan pesan waktu untuknya.",
+    "objectiveIds": [
+      "a1-u2-o5"
+    ],
+    "status": "baru",
+    "path": "../master/kios-pasar.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch02",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "kios-pasar",
+    "storyContext": "Kios lain menawarkan barang seharga 21 euro, tersedia Sabtu pukul 08.45. Tanyakan harga dan jadwal, lalu pilih waktu pengambilan yang tepat.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/kios-pasar.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch02",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "kios-pasar",
+    "storyContext": "Di balik kuitansi ada foto keluarga yang terlipat. Mia mengenali rumah di foto, tetapi dua orang memakai nama keluarga yang sama.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/kios-pasar.webp"
+  }
+]

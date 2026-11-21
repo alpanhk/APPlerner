@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch08",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Ein Arbeitstag",
+    "assetId": "kantor-warga",
+    "storyContext": "Meja informasi. Ada tiga kartu tugas dan telepon mulai berdering. Susun urutan membuka meja agar tamu pertama bisa dilayani.",
+    "objectiveIds": [
+      "a1-u8-o1",
+      "a1-u8-o2",
+      "a1-u8-o3"
+    ],
+    "status": "baru",
+    "path": "../master/kantor-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch08",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Aufgaben und Kollegen",
+    "assetId": "kantor-warga",
+    "storyContext": "Kantor belakang. Map lamaran relawan terselip di antara berkas rapat. Jelaskan kepada rekan apa yang harus dikerjakan bersama.",
+    "objectiveIds": [
+      "a1-u8-o4"
+    ],
+    "status": "baru",
+    "path": "../master/kantor-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch08",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Arbeitszeit und Pflichten",
+    "assetId": "kantor-warga",
+    "storyContext": "Papan giliran. Satu rekan datang terlambat. Sepakati jam kerja, waktu istirahat, dan tugas yang sanggup kamu ambil.",
+    "objectiveIds": [
+      "a1-u8-o5"
+    ],
+    "status": "baru",
+    "path": "../master/kantor-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch08",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "kantor-warga",
+    "storyContext": "Baca jadwal pengganti, jelaskan giliran orang ketiga, urutan kerja, rekan serta jeda. Tempel jadwal yang dapat dijalankan.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/kantor-warga.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch08",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "kantor-warga",
+    "storyContext": "Saat menutup meja, Mia meninggalkan pesan bahwa tenggorokannya sakit. Ia meminta ditemani membuat janji.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/kantor-warga.webp"
+  }
+]

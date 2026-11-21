@@ -1,0 +1,314 @@
+{
+  "reference": "../../aset-im-cafe-produksi-2026-11-20/review/komposit-normal.webp",
+  "model": "ImageGen bawaan; GPT Image 2.6 Sunburst tidak dapat dipilih atau diverifikasi",
+  "frames": [
+    {
+      "characterId": "player-03",
+      "frameId": "neutral",
+      "path": "player-03/neutral.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        100,
+        104,
+        675,
+        1132
+      ],
+      "editZones": [],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": null,
+      "sha256": "726c42e266dbd76e529209683802139e371bd5b7ba3c1d3f110209bba2423608"
+    },
+    {
+      "characterId": "player-03",
+      "frameId": "talk-small",
+      "path": "player-03/talk-small.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        100,
+        104,
+        675,
+        1132
+      ],
+      "editZones": [
+        [
+          445,
+          314,
+          501,
+          362
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-251e081b-2398-45d7-81e6-b56fb59f5728.png",
+      "sha256": "c97fc4b3f5b337272d3ece4af5dac9c5ebfa51635c8f8f510470b3e56202e914"
+    },
+    {
+      "characterId": "player-03",
+      "frameId": "talk-open",
+      "path": "player-03/talk-open.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        100,
+        104,
+        675,
+        1132
+      ],
+      "editZones": [
+        [
+          445,
+          314,
+          501,
+          362
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-3d417e51-d0c7-4f8e-8c53-e77376c1e73f.png",
+      "sha256": "3695c444bbf2e4fe3fb83e40dad1521256472e863a788340c37dcbf5f956ad7f"
+    },
+    {
+      "characterId": "player-03",
+      "frameId": "smile",
+      "path": "player-03/smile.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        100,
+        104,
+        675,
+        1132
+      ],
+      "editZones": [
+        [
+          445,
+          314,
+          501,
+          362
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-253bb25d-bf4d-45cb-83a7-f6025064aee8.png",
+      "sha256": "b1e9d9f24608de1ae144568d8e0ca479471faed52c13ed0baddf2e94627b14b5"
+    },
+    {
+      "characterId": "player-03",
+      "frameId": "question",
+      "path": "player-03/question.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        100,
+        104,
+        675,
+        1132
+      ],
+      "editZones": [
+        [
+          445,
+          314,
+          501,
+          362
+        ],
+        [
+          407,
+          218,
+          478,
+          252
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-d97a6439-a52a-40fb-8351-c9546a1fea1f.png",
+      "sha256": "39316ee2b8e74ec5a3cf38f91e6c2a0fb3d03c01f35c6d3edf0beb20eaea925d"
+    },
+    {
+      "characterId": "player-04",
+      "frameId": "neutral",
+      "path": "player-04/neutral.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        64,
+        87,
+        682,
+        1144
+      ],
+      "editZones": [],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": null,
+      "sha256": "aa8eebfa68abf3317925b97b04cf2f12e6e35dc6d07f280733627bcb1b1b7d12"
+    },
+    {
+      "characterId": "player-04",
+      "frameId": "talk-small",
+      "path": "player-04/talk-small.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        64,
+        87,
+        682,
+        1144
+      ],
+      "editZones": [
+        [
+          438,
+          300,
+          492,
+          346
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-df1460d0-f88a-454c-949f-2cc2e3310e26.png",
+      "sha256": "2f33fcb0f43291e3e415ff488ca0945857cbfd37ea4d812cf36002c92eb178e9"
+    },
+    {
+      "characterId": "player-04",
+      "frameId": "talk-open",
+      "path": "player-04/talk-open.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        64,
+        87,
+        682,
+        1144
+      ],
+      "editZones": [
+        [
+          438,
+          300,
+          492,
+          346
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-7c3478de-f9c9-4c61-81e1-17062f9701aa.png",
+      "sha256": "62724be8d74ccbc6ba05d1627391bca200a590963768f1ab9c3add96805ca476"
+    },
+    {
+      "characterId": "player-04",
+      "frameId": "smile",
+      "path": "player-04/smile.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        64,
+        87,
+        682,
+        1144
+      ],
+      "editZones": [
+        [
+          438,
+          300,
+          492,
+          346
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-4b0bddd3-6111-490f-b3be-3d0dd2f52b00.png",
+      "sha256": "febebfc4b5a8972324ba06929daba4a7e58c6c716a4040e9529584fe6499d23d"
+    },
+    {
+      "characterId": "player-04",
+      "frameId": "question",
+      "path": "player-04/question.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "alphaBounds": [
+        64,
+        87,
+        682,
+        1144
+      ],
+      "editZones": [
+        [
+          438,
+          300,
+          492,
+          346
+        ],
+        [
+          385,
+          210,
+          475,
+          250
+        ]
+      ],
+      "changedOutsideEditZones": 0,
+      "alphaChangedPixels": 0,
+      "sourceImageGen": "exec-2cd0fdc3-eddb-4e10-afd3-e7c2f8ca6bc8.png",
+      "sha256": "3effcab71b16a399126600b241b6e0dad22a11ed79ef03a3fe197f71f62136ba"
+    }
+  ]
+}

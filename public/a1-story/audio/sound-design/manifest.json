@@ -1,0 +1,741 @@
+{
+  "status": "draf-tinjauan",
+  "stage": "bab-01-12",
+  "pathBase": "Relatif dari direktori manifest ini.",
+  "scriptDirectory": "../../../../../lernen-app/docs/naskah-visual-novel-a1",
+  "playbackDefaults": {
+    "enabledByDefault": false,
+    "minimizedOrHidden": "berhenti",
+    "speechPriority": true,
+    "speechReplay": "Aset efek tidak diputar ulang pada replay ujaran. Sediakan indikator visual dari naskah saat audio dimatikan."
+  },
+  "stockReference": "../../../stok-aset-audio-lernen-2026-11-20/audio-manifest.json",
+  "assets": [
+    {
+      "assetId": "a1-sfx-kertas-surat",
+      "title": "Gesek kertas surat",
+      "status": "baru",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Sintesis lokal dari derau berpita, empat gesekan dan perubahan kekuatan gesekan.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "a1-sfx-kertas-surat.wav",
+          "codec": "PCM s16le",
+          "durationMs": 890.0,
+          "sha256": "66ec7fc5c00d5a35ba9dc2f3a14050615dfc15eaaba79a16db7ffa6a4a1cd2d2",
+          "peakDbfs": -18.0,
+          "rmsDbfs": -38.44,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "a1-sfx-kertas-surat.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 890.0,
+          "sha256": "fb5c035af58a4eb1879ba7379c8017a19fd45bffa5a7a47c8708b430cfa4b97c",
+          "peakDbfs": -18.31,
+          "rmsDbfs": -38.43,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "sekali",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 60,
+        "fadeInMs": 0,
+        "stop": "Akhiri atau lewati saat dialog harus dimulai, keluar adegan, fokus hilang, audio dijeda, atau pengaturan Suasana dimatikan. Jangan ulang karena muat simpan atau kemas kini UI."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "s01",
+          "scriptAnchor": "bab-01.md:10",
+          "objectiveIds": [],
+          "trigger": "Saat pemain membalik surat Mia.",
+          "visualCue": "Balik ilustrasi surat.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-03.md:71",
+          "objectiveIds": [
+            "a1-u3-o4"
+          ],
+          "trigger": "Saat amplop yang tepat benar-benar dikembalikan.",
+          "visualCue": "Tampilkan amplop berpindah.",
+          "optionalInterpretation": true
+        },
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "s03",
+          "scriptAnchor": "bab-03.md:96",
+          "objectiveIds": [
+            "a1-u3-o5"
+          ],
+          "trigger": "Saat penyerahan amplop terjadi setelah pemain menyebut siapa yang berkunjung.",
+          "visualCue": "Tampilkan amplop berpindah.",
+          "optionalInterpretation": true
+        },
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "s03",
+          "scriptAnchor": "bab-09.md:96",
+          "objectiveIds": [
+            "a1-u9-o5"
+          ],
+          "trigger": "Saat Mia menyimpan resep dan surat ilustratif pada kantong berbeda, sebelum dialog berikut.",
+          "visualCue": "Tampilkan dua kantong.",
+          "optionalInterpretation": true
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "s03",
+          "scriptAnchor": "bab-12.md:94",
+          "objectiveIds": [
+            "a1-u12-o5"
+          ],
+          "trigger": "Saat ilustrasi amplop dipilih untuk versi surat.",
+          "visualCue": "Tampilkan amplop di meja.",
+          "optionalInterpretation": true
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "penutup",
+          "scriptAnchor": "bab-12.md:115",
+          "objectiveIds": [],
+          "trigger": "Saat pendatang membuka kartu sebelum sapaan berikutnya.",
+          "visualCue": "Tampilkan kartu terbuka.",
+          "optionalInterpretation": false
+        }
+      ]
+    },
+    {
+      "assetId": "a1-amb-pasar",
+      "title": "Suasana kios pasar tanpa ujaran",
+      "status": "baru",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Sintesis lokal dari derau udara, langkah pendek, dan gesekan barang terfilter. Lapisan tanpa sampel/gumaman manusia.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "a1-amb-pasar.wav",
+          "codec": "PCM s16le",
+          "durationMs": 24000.0,
+          "sha256": "37f28371e638c7933e2890e5d436ab472cef274221e2267ba632883637cd8b19",
+          "peakDbfs": -27.0,
+          "rmsDbfs": -40.94,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": -90.31,
+          "loopStartSample": 0,
+          "loopEndSampleExclusive": 1152000,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "a1-amb-pasar.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 24000.0,
+          "sha256": "59cc55dd9677a2e0931a5cf44672bf61d049c23ce51b1ff8aa25f3d1df43ba4d",
+          "peakDbfs": -27.04,
+          "rmsDbfs": -40.93,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": -74.79,
+          "loopStartSample": 0,
+          "loopEndSampleExclusive": 1152000,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "loop",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 100,
+        "fadeInMs": 400,
+        "preSpeechGuardMs": 145,
+        "stop": "Fade hingga senyap lalu pause sebelum dialog mulai. Tetap mati selama tugas menyimak/ujian, hentikan saat keluar adegan, fokus hilang, atau Suasana dimatikan. Jalankan satu loop pada satu waktu."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s01",
+          "scriptAnchor": "bab-02.md:8",
+          "objectiveIds": [
+            "a1-u2-o1",
+            "a1-u2-o2"
+          ],
+          "trigger": "Fade masuk saat tiba di kios dan Suasana aktif. Matikan untuk stimulus 17/70 dan variasi bantuan 18/80.",
+          "visualCue": "Tampilkan kios.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-02.md:44",
+          "objectiveIds": [
+            "a1-u2-o3",
+            "a1-u2-o4"
+          ],
+          "trigger": "Lanjut hanya saat visual tetap di kios dan tidak ada audio pelajaran.",
+          "visualCue": "Tampilkan jam yang tidak berfungsi.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s03",
+          "scriptAnchor": "bab-02.md:82",
+          "objectiveIds": [
+            "a1-u2-o5"
+          ],
+          "trigger": "Lanjut hanya saat adegan masih di kios dan tidak ada audio pelajaran.",
+          "visualCue": "Tampilkan kalender kios.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "transfer",
+          "scriptAnchor": "bab-02.md:114",
+          "objectiveIds": [],
+          "trigger": "Opsional hanya pada intro kios lain sebelum interaksi. Diam sampai hasil penilaian tercatat.",
+          "visualCue": "Tampilkan kios lain.",
+          "optionalInterpretation": false
+        }
+      ]
+    },
+    {
+      "assetId": "im-cafe-ruang-tenang",
+      "title": "Suasana dalam Im Café",
+      "status": "stok-terverifikasi",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Stok Lernen 20 November 2026, audio-manifest.json bagian soundDesign.ambience. Sintesis orisinal lokal.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "../../../stok-aset-audio-lernen-2026-11-20/ambience/im-cafe-ruang-tenang.wav",
+          "codec": "PCM s16le",
+          "durationMs": 24000.0,
+          "sha256": "10ef4e8ae0453b5f70d34e7a9934081920672740cd9e860b3d512b7543d2e752",
+          "peakDbfs": -25.77,
+          "rmsDbfs": -40.0,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": -51.42,
+          "loopStartSample": 0,
+          "loopEndSampleExclusive": 1152000,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "../../../stok-aset-audio-lernen-2026-11-20/ambience/im-cafe-ruang-tenang.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 24000.0,
+          "sha256": "7bd0313a61998da0bb98232d68f95406392a90422d15dd9983a179c4772d1eda",
+          "peakDbfs": -25.49,
+          "rmsDbfs": -39.97,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": -46.3,
+          "loopStartSample": 0,
+          "loopEndSampleExclusive": 1152000,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "loop",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 100,
+        "fadeInMs": 400,
+        "preSpeechGuardMs": 145,
+        "stop": "Fade hingga senyap lalu pause sebelum dialog mulai. Tetap mati selama tugas menyimak/ujian, hentikan saat keluar adegan, fokus hilang, atau Suasana dimatikan. Jalankan satu loop pada satu waktu."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s01",
+          "scriptAnchor": "bab-04.md:8",
+          "objectiveIds": [],
+          "trigger": "Saat latar menampilkan interior kafe dan Suasana aktif, di sela tuturan.",
+          "visualCue": "Tampilkan interior.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-04.md:44",
+          "objectiveIds": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ],
+          "trigger": "Saat latar menampilkan meja Im Café, di sela tuturan.",
+          "visualCue": "Tampilkan meja dekat jendela.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s03",
+          "scriptAnchor": "bab-04.md:82",
+          "objectiveIds": [
+            "a1-u4-o5"
+          ],
+          "trigger": "Pertahankan hanya selama latar interior kafe terlihat, di sela tuturan.",
+          "visualCue": "Tampilkan papan sarapan.",
+          "optionalInterpretation": false
+        }
+      ]
+    },
+    {
+      "assetId": "im-cafe-cangkir-di-meja",
+      "title": "Cangkir menyentuh meja",
+      "status": "stok-terverifikasi",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Stok Lernen 20 November 2026 bagian soundDesign.cue-materi. WAV asli dipakai ulang, turunan Opus baru.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "../../../stok-aset-audio-lernen-2026-11-20/cue-materi/im-cafe-cangkir-di-meja.wav",
+          "codec": "PCM s16le",
+          "durationMs": 620.0,
+          "sha256": "3e3403bbcb4241e5db4d1b3f1d6b9129dbf7e8787238900ab003bc11fc2ec0da",
+          "peakDbfs": -14.0,
+          "rmsDbfs": -36.56,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "im-cafe-cangkir-di-meja.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 620.0,
+          "sha256": "2e3bdb98a996c2e81924436ef6a061c76264091abf63823af5ae2e5b16c4fbe1",
+          "peakDbfs": -14.13,
+          "rmsDbfs": -36.56,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "sekali",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 60,
+        "fadeInMs": 0,
+        "stop": "Akhiri atau lewati saat dialog harus dimulai, keluar adegan, fokus hilang, audio dijeda, atau pengaturan Suasana dimatikan. Jangan ulang karena muat simpan atau kemas kini UI."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-04.md:58",
+          "objectiveIds": [
+            "a1-u4-o3"
+          ],
+          "trigger": "Satu kali saat cangkir pertama diletakkan setelah kopi dipesan. Mainkan jika tersedia 620 ms sebelum tuturan berikutnya.",
+          "visualCue": "Tampilkan cangkir muncul.",
+          "optionalInterpretation": false
+        }
+      ]
+    },
+    {
+      "assetId": "a1-sfx-bel-trem",
+      "title": "Satu ketuk bel trem",
+      "status": "baru",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Sintesis lokal dari satu impuls logam dengan resonansi inharmonik dan pantulan pendek.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "a1-sfx-bel-trem.wav",
+          "codec": "PCM s16le",
+          "durationMs": 1360.0,
+          "sha256": "a5fe33637483e7744335203b3199dcae7543693d177f5d75aaa9a27a2ad80040",
+          "peakDbfs": -15.0,
+          "rmsDbfs": -31.89,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "a1-sfx-bel-trem.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 1360.0,
+          "sha256": "f993ead2835f545e636d85deff9c9e67c30766204fe5e28bfc06bdadffa3fc31",
+          "peakDbfs": -14.97,
+          "rmsDbfs": -31.9,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "sekali",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 60,
+        "fadeInMs": 0,
+        "stop": "Akhiri atau lewati saat dialog harus dimulai, keluar adegan, fokus hilang, audio dijeda, atau pengaturan Suasana dimatikan. Jangan ulang karena muat simpan atau kemas kini UI."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-07.md:44",
+          "objectiveIds": [],
+          "trigger": "Satu kali saat tiba di persimpangan. Tunggu klip selesai sebelum tamu membuka percakapan.",
+          "visualCue": "Tampilkan ikon trem atau status bel.",
+          "optionalInterpretation": false
+        }
+      ]
+    },
+    {
+      "assetId": "a1-sfx-telepon",
+      "title": "Dering telepon meja",
+      "status": "baru",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Sintesis lokal dari dua semburan nada ganda termodulasi, dengan serangan dan peluruhan pendek.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "a1-sfx-telepon.wav",
+          "codec": "PCM s16le",
+          "durationMs": 1310.0,
+          "sha256": "579c987e10a6d00ad04e27b09f5cd5786a43264a0cb7ab44d6d61473fd870736",
+          "peakDbfs": -17.0,
+          "rmsDbfs": -28.5,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "a1-sfx-telepon.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 1310.0,
+          "sha256": "f4dbe2458342c8a4d40ccc86993ee317a2bbdee3d355eeab49c52d8944074d81",
+          "peakDbfs": -17.03,
+          "rmsDbfs": -28.5,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "sekali",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 60,
+        "fadeInMs": 0,
+        "stop": "Hentikan pada saat pemain mengangkat telepon, dialog mulai, rangkaian selesai, keluar adegan, fokus hilang, atau Suasana mati. Tidak mengulang otomatis untuk panggilan yang sama."
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "s01",
+          "scriptAnchor": "bab-08.md:8",
+          "objectiveIds": [
+            "a1-u8-o1"
+          ],
+          "trigger": "Satu rangkaian ketika telepon mulai berdering saat meja informasi dibuka.",
+          "visualCue": "Tampilkan status telepon berdering.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-12.md:44",
+          "objectiveIds": [
+            "a1-u12-o3",
+            "a1-u12-o4"
+          ],
+          "trigger": "Satu rangkaian saat panggilan masuk. Hentikan/alihkan sebelum suara penelepon; ulang hanya saat panggilan berbeda dimulai.",
+          "visualCue": "Tampilkan panggilan masuk.",
+          "optionalInterpretation": false
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "transfer",
+          "scriptAnchor": "bab-12.md:109",
+          "objectiveIds": [
+            "a1-u12-o3"
+          ],
+          "trigger": "Satu rangkaian saat panggilan baru pada pertemuan mandiri masuk. Jangan ulang untuk replay.",
+          "visualCue": "Tampilkan panggilan masuk.",
+          "optionalInterpretation": true
+        }
+      ]
+    },
+    {
+      "assetId": "a1-sfx-peron-chime",
+      "title": "Nada pembuka pengumuman perubahan peron",
+      "status": "baru",
+      "language": null,
+      "transcript": null,
+      "voiceId": null,
+      "source": "Tiga nada orisinal pendek hasil sintesis lokal, tanpa sampel operator angkutan.",
+      "rights": "Sintesis orisinal lokal untuk penggunaan dalam Lernen dan peninjauan aset. Tanpa rekaman, ujaran, musik, atau sampel pihak ketiga. Distribusi umum mengikuti keputusan pemilik proyek.",
+      "files": {
+        "master": {
+          "path": "a1-sfx-peron-chime.wav",
+          "codec": "PCM s16le",
+          "durationMs": 1340.0,
+          "sha256": "618b6426356a29e2bd8c5520a92c2473b9f2a43e98ca3d0c7e2c6973f669d48b",
+          "peakDbfs": -16.0,
+          "rmsDbfs": -28.58,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        },
+        "runtime": {
+          "path": "a1-sfx-peron-chime.opus",
+          "codec": "Opus/Ogg",
+          "durationMs": 1340.0,
+          "sha256": "c1c585051b4b48cbf1d1d91343fa33fd8802e05d0485cad3f2586cc57ab602c6",
+          "peakDbfs": -16.01,
+          "rmsDbfs": -28.59,
+          "fullScaleSamples": 0,
+          "seamStepDbfs": null,
+          "loopStartSample": null,
+          "loopEndSampleExclusive": null,
+          "decode": "lulus"
+        }
+      },
+      "playback": {
+        "mode": "sekali",
+        "gainDuringSpeechDb": "-inf",
+        "fadeOutMs": 60,
+        "fadeInMs": 0,
+        "stop": "Akhiri sebelum ujaran. Jika pemain menekan putar ulang ketika chime masih aktif, hentikan dengan fade singkat, lalu mainkan ujaran saja. Jangan ulang chime pada rekaman bantuan atau muat simpan.",
+        "postCueSpeechGapMs": 120
+      },
+      "triggers": [
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "s02",
+          "scriptAnchor": "bab-11.md:57",
+          "objectiveIds": [
+            "a1-u11-o4"
+          ],
+          "trigger": "Satu kali sebelum perubahan papan dan stimulus Gleis vier. Tuturan mulai sekurangnya 120 ms sesudah cue selesai; indikator dan stimulus tetap tersedia saat Suasana mati. Replay menyimak hanya mengulang tuturan.",
+          "visualCue": "Tampilkan indikator pengumuman. Pada jalur baca, tampilkan kemunculan stimulus teks sesuai aksesibilitas.",
+          "optionalInterpretation": false
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "chapterId": "a1-ch01",
+      "assetIds": [
+        "a1-sfx-kertas-surat"
+      ]
+    },
+    {
+      "chapterId": "a1-ch02",
+      "assetIds": [
+        "a1-amb-pasar"
+      ]
+    },
+    {
+      "chapterId": "a1-ch03",
+      "assetIds": [
+        "a1-sfx-kertas-surat"
+      ]
+    },
+    {
+      "chapterId": "a1-ch04",
+      "assetIds": [
+        "im-cafe-ruang-tenang",
+        "im-cafe-cangkir-di-meja"
+      ]
+    },
+    {
+      "chapterId": "a1-ch05",
+      "assetIds": [],
+      "reason": "Naskah tidak menetapkan kejadian yang memakai salah satu cue atau suasana paket ini."
+    },
+    {
+      "chapterId": "a1-ch06",
+      "assetIds": [],
+      "reason": "Naskah tidak menetapkan kejadian yang memakai salah satu cue atau suasana paket ini."
+    },
+    {
+      "chapterId": "a1-ch07",
+      "assetIds": [
+        "a1-sfx-bel-trem"
+      ]
+    },
+    {
+      "chapterId": "a1-ch08",
+      "assetIds": [
+        "a1-sfx-telepon"
+      ]
+    },
+    {
+      "chapterId": "a1-ch09",
+      "assetIds": [
+        "a1-sfx-kertas-surat"
+      ]
+    },
+    {
+      "chapterId": "a1-ch10",
+      "assetIds": [],
+      "reason": "Naskah tidak menetapkan kejadian yang memakai salah satu cue atau suasana paket ini."
+    },
+    {
+      "chapterId": "a1-ch11",
+      "assetIds": [
+        "a1-sfx-peron-chime"
+      ]
+    },
+    {
+      "chapterId": "a1-ch12",
+      "assetIds": [
+        "a1-sfx-kertas-surat",
+        "a1-sfx-telepon"
+      ]
+    }
+  ],
+  "preview": {
+    "master": {
+      "path": "pratinjau-efek-dan-suasana.wav",
+      "codec": "PCM s16le",
+      "durationMs": 26100.0,
+      "sha256": "7c569a22f2374453dbf71d71ab380b8badebaa3cb37116ed3ffb1d1f47e1906b",
+      "peakDbfs": -14.0,
+      "rmsDbfs": -35.13,
+      "fullScaleSamples": 0,
+      "seamStepDbfs": null,
+      "loopStartSample": null,
+      "loopEndSampleExclusive": null,
+      "decode": "lulus"
+    },
+    "runtime": {
+      "path": "pratinjau-efek-dan-suasana.mp3",
+      "codec": "MP3",
+      "durationMs": 26100.0,
+      "sha256": "769d20ed07c859bc7f91c5840558cd871f0838dd5468d2e2fc689d3e44b37b14",
+      "peakDbfs": -14.53,
+      "rmsDbfs": -35.58,
+      "fullScaleSamples": 0,
+      "seamStepDbfs": null,
+      "loopStartSample": null,
+      "loopEndSampleExclusive": null,
+      "decode": "lulus"
+    },
+    "timeline": [
+      {
+        "chapterId": "a1-ch01",
+        "assetId": "a1-sfx-kertas-surat",
+        "startSeconds": 0,
+        "endSeconds": 0.89
+      },
+      {
+        "chapterId": "a1-ch02",
+        "assetId": "a1-amb-pasar",
+        "startSeconds": 1.49,
+        "endSeconds": 6.49
+      },
+      {
+        "chapterId": "a1-ch03",
+        "assetId": "a1-sfx-kertas-surat",
+        "startSeconds": 7.09,
+        "endSeconds": 7.98
+      },
+      {
+        "chapterId": "a1-ch04",
+        "assetId": "im-cafe-ruang-tenang",
+        "startSeconds": 8.58,
+        "endSeconds": 13.58
+      },
+      {
+        "chapterId": "a1-ch04",
+        "assetId": "im-cafe-cangkir-di-meja",
+        "startSeconds": 14.18,
+        "endSeconds": 14.8
+      },
+      {
+        "chapterId": "a1-ch07",
+        "assetId": "a1-sfx-bel-trem",
+        "startSeconds": 15.4,
+        "endSeconds": 16.76
+      },
+      {
+        "chapterId": "a1-ch08",
+        "assetId": "a1-sfx-telepon",
+        "startSeconds": 17.36,
+        "endSeconds": 18.67
+      },
+      {
+        "chapterId": "a1-ch09",
+        "assetId": "a1-sfx-kertas-surat",
+        "startSeconds": 19.27,
+        "endSeconds": 20.16
+      },
+      {
+        "chapterId": "a1-ch11",
+        "assetId": "a1-sfx-peron-chime",
+        "startSeconds": 20.76,
+        "endSeconds": 22.1
+      },
+      {
+        "chapterId": "a1-ch12",
+        "assetId": "a1-sfx-kertas-surat",
+        "startSeconds": 22.7,
+        "endSeconds": 23.59
+      },
+      {
+        "chapterId": "a1-ch12",
+        "assetId": "a1-sfx-telepon",
+        "startSeconds": 24.19,
+        "endSeconds": 25.5
+      }
+    ]
+  },
+  "checks": {
+    "decodedMastersAndRuntimeFiles": 16,
+    "marketSpeechGuard": {
+      "tested": "Fade 100 ms dimulai 145 ms sebelum stimulus; simulasi memakai runtime Opus.",
+      "preSpeechSilentMs": 45,
+      "maxLinearMaskerDuringStimulus": 0,
+      "stimuli": [
+        "17/70",
+        "18/80"
+      ],
+      "speechPronunciationCheck": "Pelafalan dan kecocokan stimulus dinilai di paket tuturan."
+    },
+    "announcementChime": {
+      "tested": "Chime Opus selesai lalu dijeda sebelum stimulus Gleis vier. Pengukuran jadwal pada aset audio, belum uji pemutar aplikasi.",
+      "chimeDurationMs": 1340,
+      "postCueSilentMs": 120,
+      "maxLinearMaskerDuringStimulus": 0
+    },
+    "loopSeamThresholdDbfs": -40,
+    "listenReview": "Uji dengar manusia dan integrasi pemutar masih untuk tahap tinjauan.",
+    "stockHashesMatched": 3
+  }
+}

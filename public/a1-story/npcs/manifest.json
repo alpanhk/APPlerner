@@ -1,0 +1,1016 @@
+{
+  "status": "review-ready",
+  "tool": "ImageGen bawaan, versi model tidak terverifikasi",
+  "sources": {
+    "story": "<referensi-visual-novel>/src/data/story/prolog.ts",
+    "identity": "<referensi-visual-novel>/src/components/Portrait.tsx",
+    "approvedStyle": [
+      "../../aset-im-cafe-produksi-2026-11-20/review/komposit-normal.webp",
+      "../../aset-im-cafe-produksi-2026-11-20/characters/barista/neutral.png"
+    ]
+  },
+  "canvas": [
+    768,
+    1152
+  ],
+  "pivot": [
+    384,
+    1064
+  ],
+  "pivotOrigin": "top-left, pixels; waist alignment",
+  "characters": {
+    "tutor": {
+      "characterId": "tutor",
+      "name": "Frau Lehmann",
+      "sceneNodes": [
+        "a_tutor1",
+        "c_tutor"
+      ],
+      "facing": "left",
+      "status": "review-ready",
+      "master": {
+        "path": "tutor/master.png",
+        "size": [
+          768,
+          1152
+        ],
+        "pivot": [
+          384,
+          1064
+        ],
+        "contentBounds": [
+          105,
+          64,
+          662,
+          1064
+        ],
+        "prompt": "One production-ready isolated visual novel NPC neutral master in 2:3 portrait, genuine transparent background. Reference 1 establishes the approved illustration style; reference 2 establishes visual density, lighting, three-quarter angle and illustrative character scale. Design and identity: Frau Lehmann, composed older German woman and warm, professional language tutor. Light warm peach skin, swept-back silver gray hair in a tidy bun, thin reading glasses, deep dusty teal cardigan or jacket, understated brick red scarf. Sharp distinct mature facial structure with restrained facial lines. Draw exactly one new character facing screen left 3/4 to address the player positioned left. Focused unobstructed face and a completely closed neutral mouth with a clear simple lip line. Frame from crown with a small top margin down to a straight waist crop, complete shoulders, centered, arms in relaxed visible natural position. Restrained angular cel shading with broad controlled geometric shadows, delicate warm brown ink lines and light subtle vintage print texture, realistic slender adult proportions; softly warm daylight from upper left. Keep a restrained palette. Real transparent alpha on every pixel outside silhouette. No cast shadow, vignette, scene, props, frame, lettering or watermark. Single finished cutout."
+      },
+      "frames": [
+        {
+          "characterId": "tutor",
+          "frameId": "neutral",
+          "path": "tutor/neutral.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            105,
+            64,
+            662,
+            1064
+          ]
+        },
+        {
+          "characterId": "tutor",
+          "frameId": "talk-small",
+          "path": "tutor/talk-small.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            105,
+            64,
+            662,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              298,
+              289,
+              355,
+              326
+            ]
+          ],
+          "changedBounds": [
+            299,
+            290,
+            353,
+            325
+          ],
+          "changedPixels": 1390,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a very slightly parted horizontal mouth for a quiet spoken syllable. A thin clear dark brown interior gap, roughly twice the thickness of the original lip contour, no teeth. Keep lip corners, silhouette and every other feature fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tutor",
+          "frameId": "talk-open",
+          "path": "tutor/talk-open.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            105,
+            64,
+            662,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              298,
+              286,
+              355,
+              329
+            ]
+          ],
+          "changedBounds": [
+            299,
+            287,
+            353,
+            328
+          ],
+          "changedPixels": 1606,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a clearly open mouth for an ah spoken syllable, with a narrow oval/trapezoidal shape and dark warm-burgundy cavity. Subtle inner lip color, no exaggerated teeth. Keep the outer chin, eyes, brow, nose, jaw, and mouth center fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tutor",
+          "frameId": "smile",
+          "path": "tutor/smile.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            105,
+            64,
+            662,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              298,
+              289,
+              355,
+              326
+            ]
+          ],
+          "changedBounds": [
+            299,
+            290,
+            353,
+            325
+          ],
+          "changedPixels": 1390,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a gentle distinct closed smile, with corners visibly lifted and a subtle crescent that stays closed. Keep original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tutor",
+          "frameId": "question",
+          "path": "tutor/question.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            105,
+            64,
+            662,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              298,
+              289,
+              355,
+              326
+            ],
+            [
+              313,
+              186,
+              390,
+              217
+            ]
+          ],
+          "changedBounds": [
+            299,
+            187,
+            389,
+            325
+          ],
+          "changedPixels": 3013,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a closed unsure questioning expression, slightly asymmetric and subtly downturned. Lift the near brow very slightly if possible. Keep the original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        }
+      ],
+      "preview": {
+        "path": "tutor/preview-speaking.webp",
+        "size": [
+          320,
+          480
+        ],
+        "sequence": [
+          "neutral",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "neutral"
+        ],
+        "holdMs": [
+          680,
+          110,
+          145,
+          105,
+          145,
+          110,
+          850
+        ],
+        "loops": 1
+      }
+    },
+    "mia": {
+      "characterId": "mia",
+      "name": "Mia",
+      "sceneNodes": [
+        "c_mia1",
+        "c_answer"
+      ],
+      "facing": "left",
+      "status": "review-ready",
+      "master": {
+        "path": "mia/master.png",
+        "size": [
+          768,
+          1152
+        ],
+        "pivot": [
+          384,
+          1064
+        ],
+        "contentBounds": [
+          106,
+          64,
+          661,
+          1064
+        ],
+        "prompt": "One production-ready isolated visual novel NPC neutral master in 2:3 portrait, genuine transparent background. Reference 1 establishes the approved illustration style; reference 2 establishes visual density, lighting, three-quarter angle and illustrative character scale. Design and identity: Mia, friendly young adult German neighbor. Light warm skin, a distinct ear-to-chin-length honey blond bob with side-swept fringe, understated terracotta-red casual jacket over cream shirt. Youthful adult proportions and cheerful eyes, neutral lips fully closed. Draw exactly one new character facing screen left 3/4 to address the player positioned left. Focused unobstructed face and a completely closed neutral mouth with a clear simple lip line. Frame from crown with a small top margin down to a straight waist crop, complete shoulders, centered, arms in relaxed visible natural position. Restrained angular cel shading with broad controlled geometric shadows, delicate warm brown ink lines and light subtle vintage print texture, realistic slender adult proportions; softly warm daylight from upper left. Keep a restrained palette. Real transparent alpha on every pixel outside silhouette. No cast shadow, vignette, scene, props, frame, lettering or watermark. Single finished cutout."
+      },
+      "frames": [
+        {
+          "characterId": "mia",
+          "frameId": "neutral",
+          "path": "mia/neutral.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            106,
+            64,
+            661,
+            1064
+          ]
+        },
+        {
+          "characterId": "mia",
+          "frameId": "talk-small",
+          "path": "mia/talk-small.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            106,
+            64,
+            661,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              312,
+              317,
+              371,
+              354
+            ]
+          ],
+          "changedBounds": [
+            314,
+            318,
+            369,
+            353
+          ],
+          "changedPixels": 1450,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a very slightly parted horizontal mouth for a quiet spoken syllable. A thin clear dark brown interior gap, roughly twice the thickness of the original lip contour, no teeth. Keep lip corners, silhouette and every other feature fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "mia",
+          "frameId": "talk-open",
+          "path": "mia/talk-open.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            106,
+            64,
+            661,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              312,
+              314,
+              371,
+              357
+            ]
+          ],
+          "changedBounds": [
+            314,
+            315,
+            370,
+            356
+          ],
+          "changedPixels": 1723,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a clearly open mouth for an ah spoken syllable, with a narrow oval/trapezoidal shape and dark warm-burgundy cavity. Subtle inner lip color, no exaggerated teeth. Keep the outer chin, eyes, brow, nose, jaw, and mouth center fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "mia",
+          "frameId": "smile",
+          "path": "mia/smile.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            106,
+            64,
+            661,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              312,
+              317,
+              371,
+              354
+            ]
+          ],
+          "changedBounds": [
+            313,
+            318,
+            370,
+            353
+          ],
+          "changedPixels": 1477,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a gentle distinct closed smile, with corners visibly lifted and a subtle crescent that stays closed. Keep original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "mia",
+          "frameId": "question",
+          "path": "mia/question.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            106,
+            64,
+            661,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              312,
+              317,
+              371,
+              354
+            ],
+            [
+              327,
+              212,
+              412,
+              245
+            ]
+          ],
+          "changedBounds": [
+            315,
+            213,
+            410,
+            353
+          ],
+          "changedPixels": 3238,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a closed unsure questioning expression, slightly asymmetric and subtly downturned. Lift the near brow very slightly if possible. Keep the original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        }
+      ],
+      "preview": {
+        "path": "mia/preview-speaking.webp",
+        "size": [
+          320,
+          480
+        ],
+        "sequence": [
+          "neutral",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "neutral"
+        ],
+        "holdMs": [
+          680,
+          110,
+          145,
+          105,
+          145,
+          110,
+          850
+        ],
+        "loops": 1
+      }
+    },
+    "pos": {
+      "characterId": "pos",
+      "name": "Petugas pos",
+      "sceneNodes": [
+        "d_post_q",
+        "d_post_give"
+      ],
+      "facing": "left",
+      "status": "review-ready",
+      "master": {
+        "path": "pos/master.png",
+        "size": [
+          768,
+          1152
+        ],
+        "pivot": [
+          384,
+          1064
+        ],
+        "contentBounds": [
+          119,
+          64,
+          649,
+          1064
+        ],
+        "prompt": "One production-ready isolated visual novel NPC neutral master in 2:3 portrait, genuine transparent background. Reference 1 establishes the approved illustration style; reference 2 establishes visual density, lighting, three-quarter angle and illustrative character scale. Design and identity: Adult postal worker, warm medium tan skin, neat short dark brown hair, muted mustard yellow postal uniform and mustard cap with dark navy visor, a plain circular navy cap pin, dark navy shoulder bag strap visible over torso. No letters and no real-world insignia. Relaxed hands, no envelope in this neutral pose. Draw exactly one new character facing screen left 3/4 to address the player positioned left. Focused unobstructed face and a completely closed neutral mouth with a clear simple lip line. Frame from crown with a small top margin down to a straight waist crop, complete shoulders, centered, arms in relaxed visible natural position. Restrained angular cel shading with broad controlled geometric shadows, delicate warm brown ink lines and light subtle vintage print texture, realistic slender adult proportions; softly warm daylight from upper left. Keep a restrained palette. Real transparent alpha on every pixel outside silhouette. No cast shadow, vignette, scene, props, frame, lettering or watermark. Single finished cutout."
+      },
+      "frames": [
+        {
+          "characterId": "pos",
+          "frameId": "neutral",
+          "path": "pos/neutral.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            119,
+            64,
+            649,
+            1064
+          ]
+        },
+        {
+          "characterId": "pos",
+          "frameId": "talk-small",
+          "path": "pos/talk-small.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            119,
+            64,
+            649,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              304,
+              292,
+              355,
+              329
+            ]
+          ],
+          "changedBounds": [
+            305,
+            293,
+            353,
+            328
+          ],
+          "changedPixels": 1232,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a very slightly parted horizontal mouth for a quiet spoken syllable. A thin clear dark brown interior gap, roughly twice the thickness of the original lip contour, no teeth. Keep lip corners, silhouette and every other feature fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "pos",
+          "frameId": "talk-open",
+          "path": "pos/talk-open.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            119,
+            64,
+            649,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              304,
+              289,
+              355,
+              332
+            ]
+          ],
+          "changedBounds": [
+            305,
+            290,
+            354,
+            331
+          ],
+          "changedPixels": 1477,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a clearly open mouth for an ah spoken syllable, with a narrow oval/trapezoidal shape and dark warm-burgundy cavity. Subtle inner lip color, no exaggerated teeth. Keep the outer chin, eyes, brow, nose, jaw, and mouth center fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "pos",
+          "frameId": "smile",
+          "path": "pos/smile.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            119,
+            64,
+            649,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              304,
+              292,
+              355,
+              329
+            ]
+          ],
+          "changedBounds": [
+            305,
+            293,
+            354,
+            328
+          ],
+          "changedPixels": 1242,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a gentle distinct closed smile, with corners visibly lifted and a subtle crescent that stays closed. Keep original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "pos",
+          "frameId": "question",
+          "path": "pos/question.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            119,
+            64,
+            649,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              304,
+              292,
+              355,
+              329
+            ],
+            [
+              317,
+              216,
+              384,
+              247
+            ]
+          ],
+          "changedBounds": [
+            305,
+            217,
+            382,
+            328
+          ],
+          "changedPixels": 2713,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a closed unsure questioning expression, slightly asymmetric and subtly downturned. Lift the near brow very slightly if possible. Keep the original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        }
+      ],
+      "poses": [
+        {
+          "characterId": "pos",
+          "frameId": "offer-envelope",
+          "path": "pos/offer-envelope.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            18,
+            64,
+            651,
+            1066
+          ],
+          "sceneNode": "d_post_give",
+          "propIncluded": "envelope",
+          "unchangedRowsFromMaster": [
+            0,
+            420
+          ],
+          "prompt": "Precisely edit first input, the existing transparent sprite of the German visual-novel postman facing LEFT. This alternate still is for the instant he says 'Ah, name! Hier, für dich.' The only action change is his arm on the viewer's left bent forward to pass a single small sealed ivory envelope at around lower chest level, clearly extending toward the unseen player off-screen left. The hand naturally grips bottom side, use second reference for the simple envelope; show flap, no writing or logos. Change closed neutral mouth to the faintest closed friendly smile if necessary. Keep exact identity, hat, dark hair, face size and position, jacket color and buttons, navy bag strap and rest of body. Keep original 2:3 composition and waist position, preserve negative space and don't clip hand or envelope. Warm angular cel shading, restrained color and warm brown ink as the third reference. Genuine transparent cutout on all sides, no scene or ground shadows."
+        }
+      ],
+      "preview": {
+        "path": "pos/preview-speaking.webp",
+        "size": [
+          320,
+          480
+        ],
+        "sequence": [
+          "neutral",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "neutral"
+        ],
+        "holdMs": [
+          680,
+          110,
+          145,
+          105,
+          145,
+          110,
+          850
+        ],
+        "loops": 1
+      }
+    },
+    "tetangga": {
+      "characterId": "tetangga",
+      "name": "Herr Bauer",
+      "sceneNodes": [
+        "d_nb1",
+        "d_nb_answer"
+      ],
+      "facing": "left",
+      "status": "review-ready",
+      "master": {
+        "path": "tetangga/master.png",
+        "size": [
+          768,
+          1152
+        ],
+        "pivot": [
+          384,
+          1064
+        ],
+        "contentBounds": [
+          93,
+          64,
+          674,
+          1064
+        ],
+        "prompt": "One production-ready isolated visual novel NPC neutral master in 2:3 portrait, genuine transparent background. Reference 1 establishes the approved illustration style; reference 2 establishes visual density, lighting, three-quarter angle and illustrative character scale. Design and identity: Herr Bauer, affable older male German neighbor. Light warm skin, graying short hair at temples, subdued olive green layering, warm charcoal-brown flat cap with short brim, weathered clean-shaven angular face, retired neighbor who tends flowers. Hands resting naturally. Draw exactly one new character facing screen left 3/4 to address the player positioned left. Focused unobstructed face and a completely closed neutral mouth with a clear simple lip line. Frame from crown with a small top margin down to a straight waist crop, complete shoulders, centered, arms in relaxed visible natural position. Restrained angular cel shading with broad controlled geometric shadows, delicate warm brown ink lines and light subtle vintage print texture, realistic slender adult proportions; softly warm daylight from upper left. Keep a restrained palette. Real transparent alpha on every pixel outside silhouette. No cast shadow, vignette, scene, props, frame, lettering or watermark. Single finished cutout."
+      },
+      "frames": [
+        {
+          "characterId": "tetangga",
+          "frameId": "neutral",
+          "path": "tetangga/neutral.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            93,
+            64,
+            674,
+            1064
+          ]
+        },
+        {
+          "characterId": "tetangga",
+          "frameId": "talk-small",
+          "path": "tetangga/talk-small.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            93,
+            64,
+            674,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              305,
+              275,
+              366,
+              312
+            ]
+          ],
+          "changedBounds": [
+            306,
+            276,
+            365,
+            311
+          ],
+          "changedPixels": 1538,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a very slightly parted horizontal mouth for a quiet spoken syllable. A thin clear dark brown interior gap, roughly twice the thickness of the original lip contour, no teeth. Keep lip corners, silhouette and every other feature fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tetangga",
+          "frameId": "talk-open",
+          "path": "tetangga/talk-open.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            93,
+            64,
+            674,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              305,
+              272,
+              366,
+              315
+            ]
+          ],
+          "changedBounds": [
+            306,
+            273,
+            364,
+            314
+          ],
+          "changedPixels": 1788,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the closed lip contour into a clearly open mouth for an ah spoken syllable, with a narrow oval/trapezoidal shape and dark warm-burgundy cavity. Subtle inner lip color, no exaggerated teeth. Keep the outer chin, eyes, brow, nose, jaw, and mouth center fixed. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tetangga",
+          "frameId": "smile",
+          "path": "tetangga/smile.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            93,
+            64,
+            674,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              305,
+              275,
+              366,
+              312
+            ]
+          ],
+          "changedBounds": [
+            306,
+            276,
+            365,
+            311
+          ],
+          "changedPixels": 1514,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a gentle distinct closed smile, with corners visibly lifted and a subtle crescent that stays closed. Keep original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        },
+        {
+          "characterId": "tetangga",
+          "frameId": "question",
+          "path": "tetangga/question.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "pivot": [
+            384,
+            1064
+          ],
+          "bounds": [
+            93,
+            64,
+            674,
+            1064
+          ],
+          "allowedEditBounds": [
+            [
+              305,
+              275,
+              366,
+              312
+            ],
+            [
+              322,
+              191,
+              397,
+              220
+            ]
+          ],
+          "changedBounds": [
+            306,
+            192,
+            396,
+            311
+          ],
+          "changedPixels": 3060,
+          "outsideEditChangedPixels": 0,
+          "alphaChangedPixels": 0,
+          "prompt": "Precisely edit the supplied face crop of an approved visual-novel character. Change only the mouth to a closed unsure questioning expression, slightly asymmetric and subtly downturned. Lift the near brow very slightly if possible. Keep the original mouth center and exact jaw. Keep square canvas, identical framing, position, size, orientation, illumination, print texture, and line weight. Preserve every pixel outside the edited feature as much as possible. Preserve the face shape and likeness, both eyes, nose, hair, ear, glasses or hat, collar and genuine transparent background. Do not add anything, no labels. Return the one edited square face crop, matching the same coordinates."
+        }
+      ],
+      "preview": {
+        "path": "tetangga/preview-speaking.webp",
+        "size": [
+          320,
+          480
+        ],
+        "sequence": [
+          "neutral",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "talk-open",
+          "talk-small",
+          "neutral"
+        ],
+        "holdMs": [
+          680,
+          110,
+          145,
+          105,
+          145,
+          110,
+          850
+        ],
+        "loops": 1
+      }
+    }
+  },
+  "props": {
+    "envelope": {
+      "propId": "envelope",
+      "path": "props/envelope.webp",
+      "size": [
+        512,
+        352
+      ],
+      "pivot": [
+        256,
+        176
+      ],
+      "bounds": [
+        27,
+        36,
+        484,
+        316
+      ],
+      "prompt": "Extract and recreate only the small plain ivory envelope held by the postman in image 1, for the visual novel close-up. Same envelope with its cream triangular back flap and warm brown outline. Same slightly tilted three-quarter perspective. Ordinary glued flap. Absolutely no red sealing wax, no seal, no stamps, symbols, text, fingers or other objects. Image 2 confirms warm print-textured cel shading. Fill most of a horizontal canvas with one clean cutout. Transparent alpha outside its edges.",
+      "notes": "Sisi flap tanpa nama penerima. Nama pemain dan detail amplop disampaikan melalui UI pada e_envelope.",
+      "relatedSceneNodes": [
+        "d_post_give",
+        "e_envelope"
+      ],
+      "designReference": "pos/offer-envelope.webp"
+    }
+  },
+  "contactSheet": "contact-sheet.webp",
+  "qa": {
+    "characters": 4,
+    "frames": 20,
+    "losslessFrames": 20,
+    "framesWithUnchangedAlpha": 20,
+    "framesWithZeroPixelsChangedOutsideEdit": 20,
+    "previews": 4,
+    "extraPoses": 1,
+    "props": 1
+  },
+  "triggerNotes": {
+    "talk": [
+      "talk-small",
+      "talk-open"
+    ],
+    "beforeAndAfter": "neutral or current closed expression",
+    "expressionsChangeOn": "dialogue boundary",
+    "idleAnimation": false,
+    "thinkClosedFallback": "question",
+    "offer_envelope": "use only on d_post_give; envelope already included in sprite"
+  }
+}

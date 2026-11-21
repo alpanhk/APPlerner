@@ -21,5 +21,9 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
+  /* PAKET V17: jalur aktif adalah src/main.tsx -> src/DesktopEntry.tsx ->
+     src/arena/App.tsx (Arena + StoryPage). src/klab/novel dipertahankan
+     sebagai modul tidur/acuan clone-persis dan tidak ikut typecheck. */
+  "exclude": ["src/klab/novel"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

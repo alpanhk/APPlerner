@@ -1,0 +1,144 @@
+{
+  "scope": "Prolog A1 Unit 1, Surat untuk Siapa?",
+  "status": "untuk-review-pengguna",
+  "pivotConvention": "piksel dari kiri atas; titik tengah tepi bawah",
+  "motion": "sekali saat bicara; kembali ke neutral; tanpa idle",
+  "generator": "ImageGen bawaan; GPT Image 2.6 Sunburst tidak terverifikasi",
+  "story": "<referensi-visual-novel>/src/data/story/prolog.ts",
+  "styleReferences": [
+    "../../aset-im-cafe-produksi-2026-11-20/review/komposit-normal.webp",
+    "../../aset-im-cafe-produksi-2026-11-20/characters/learner/neutral.png"
+  ],
+  "frames": [
+    {
+      "characterId": "player-01",
+      "frameId": "neutral",
+      "path": "player-01/neutral.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 0,
+      "sha256": "65598d1ecb9fa363163d881c1bd10d82f81e3ddae2578892d84fdee381225e55"
+    },
+    {
+      "characterId": "player-01",
+      "frameId": "speak-small",
+      "path": "player-01/speak-small.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3033,
+      "sha256": "34a2b3de3ff7dc1a7a55ec6a8b8efcac5cfdd1787fe20e0428676ea4c23400ef"
+    },
+    {
+      "characterId": "player-01",
+      "frameId": "speak-open",
+      "path": "player-01/speak-open.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3033,
+      "sha256": "34320c379c03c3f2b771e33ee25eea29c937cad0b62e7a09d7ebbbef764c1cd4"
+    },
+    {
+      "characterId": "player-01",
+      "frameId": "smile",
+      "path": "player-01/smile.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3033,
+      "sha256": "dbdf9a0fca4a3148d4bace40b5058c139b3b0bcb88dae526c29f7b18acad502b"
+    },
+    {
+      "characterId": "player-01",
+      "frameId": "question",
+      "path": "player-01/question.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 5971,
+      "sha256": "8102593160b1b177237b191c3eee7838eec31f9e4117f44eeb91f0cec2c9ec8a"
+    },
+    {
+      "characterId": "player-02",
+      "frameId": "neutral",
+      "path": "player-02/neutral.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 0,
+      "sha256": "9066036d9327798bf1d37d25dfe1bf04562e8c100f2aabd8a6d47b63e1095a8c"
+    },
+    {
+      "characterId": "player-02",
+      "frameId": "speak-small",
+      "path": "player-02/speak-small.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3468,
+      "sha256": "9a198f0210fcafda61fecafaf259b527e62597d5a10d3bc709f0a0a19812c528"
+    },
+    {
+      "characterId": "player-02",
+      "frameId": "speak-open",
+      "path": "player-02/speak-open.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3470,
+      "sha256": "56a784f7b08b828cf681052334c0932da406752058fce69e7132d31ee002c8f6"
+    },
+    {
+      "characterId": "player-02",
+      "frameId": "smile",
+      "path": "player-02/smile.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 3471,
+      "sha256": "d810c0838ec83888e160363edf93ddd30fe0d1579ae18ed9ae8bd527468ca506"
+    },
+    {
+      "characterId": "player-02",
+      "frameId": "question",
+      "path": "player-02/question.webp",
+      "width": 768,
+      "height": 1152,
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "changedPixels": 5772,
+      "sha256": "e155203bfd72bee8bdba5226053c1742eb3784c7abcf4452f3125a165d40dc2f"
+    }
+  ]
+}

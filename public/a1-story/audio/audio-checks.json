@@ -1,0 +1,308 @@
+{
+  "status": "verified-draft-review",
+  "speech": {
+    "uniqueCreated": 759,
+    "uniqueReused": 1,
+    "playerClipsUnique": 408,
+    "audioContexts": 760,
+    "contextsByStatus": {
+      "new": 759,
+      "dynamic": 3,
+      "dynamic-unwritten": 12,
+      "ui-only": 11,
+      "reused-verified": 1,
+      "dynamic-text-only": 1
+    },
+    "verifiedPhysicalFilesIncludingChapterPreviews": 1544,
+    "reuseFullScaleSamples": 2,
+    "worstNewMasterPeakDbfs": -3.0,
+    "worstNewRuntimePeakDbfs": -2.68,
+    "activeRmsDbfsRange": [
+      -23.64,
+      -20.0
+    ]
+  },
+  "soundDesign": {
+    "created": 5,
+    "referenced": 7,
+    "manifest": "sound-design/manifest.json"
+  },
+  "stimuli": [
+    {
+      "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07",
+      "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07.penjual-pasar",
+      "transcript": "siebzehn",
+      "expected": 17,
+      "context": {
+        "value": 17
+      }
+    },
+    {
+      "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08",
+      "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08.penjual-pasar",
+      "transcript": "siebzig",
+      "expected": 70,
+      "context": {
+        "value": 70
+      }
+    },
+    {
+      "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09",
+      "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09.penjual-pasar",
+      "transcript": "achtzehn",
+      "expected": 18,
+      "context": {
+        "value": 18
+      }
+    },
+    {
+      "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10",
+      "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10.penjual-pasar",
+      "transcript": "achtzig",
+      "expected": 80,
+      "context": {
+        "value": 80
+      }
+    },
+    {
+      "nodeId": "a1-ch11.s02.a1-u11-o4.transisi-01",
+      "assetId": "a1-ch11.s02.a1-u11-o4.transisi-01.petugas-stasiun",
+      "transcript": "Achtung, der Zug fährt heute von Gleis vier ab.",
+      "expected": 4,
+      "context": {
+        "latestPlatform": 4,
+        "recordedVariantOnly": true
+      }
+    },
+    {
+      "nodeId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01",
+      "assetId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01.petugas-stasiun",
+      "transcript": "Achtung, der Zug fährt heute von Gleis fünf ab.",
+      "expected": 5,
+      "context": {
+        "oldPlatform": 2,
+        "latestPlatform": 5
+      }
+    }
+  ],
+  "audioStimulusRecognition": {
+    "status": "done",
+    "method": "Vosk German small 0.15 with constrained alternatives and unknown option",
+    "results": [
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07.penjual-pasar",
+        "format": "master",
+        "expected": 17,
+        "detected": "siebzehn",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07.penjual-pasar",
+        "format": "runtime",
+        "expected": 17,
+        "detected": "siebzehn",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08.penjual-pasar",
+        "format": "master",
+        "expected": 70,
+        "detected": "siebzig",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08.penjual-pasar",
+        "format": "runtime",
+        "expected": 70,
+        "detected": "siebzig",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09.penjual-pasar",
+        "format": "master",
+        "expected": 18,
+        "detected": "achtzehn",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09.penjual-pasar",
+        "format": "runtime",
+        "expected": 18,
+        "detected": "achtzehn",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10.penjual-pasar",
+        "format": "master",
+        "expected": 80,
+        "detected": "achtzig",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10.penjual-pasar",
+        "format": "runtime",
+        "expected": 80,
+        "detected": "achtzig",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch11.s02.a1-u11-o4.transisi-01.petugas-stasiun",
+        "format": "master",
+        "expected": 4,
+        "detected": "achtung der zug fährt heute von gleis vier ab",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch11.s02.a1-u11-o4.transisi-01.petugas-stasiun",
+        "format": "runtime",
+        "expected": 4,
+        "detected": "achtung der zug fährt heute von gleis vier ab",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01.petugas-stasiun",
+        "format": "master",
+        "expected": 5,
+        "detected": "achtung der zug fährt heute von gleis fünf ab",
+        "matched": true
+      },
+      {
+        "assetId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01.petugas-stasiun",
+        "format": "runtime",
+        "expected": 5,
+        "detected": "achtung der zug fährt heute von gleis fünf ab",
+        "matched": true
+      }
+    ],
+    "matched": 12
+  },
+  "checks": {
+    "sourceSha256Equal": true,
+    "newDigitalClipping": false,
+    "audioDecodes": true,
+    "durationMatches": true,
+    "pcmIdentitiesDistinct": true
+  },
+  "pending": [
+    "Telaah pengajar dan uji dengar manusia",
+    "Waktu, tujuan, pilihan barang, input bebas dan kasus transfer tanpa ujaran final tetap dinamis.",
+    "Pemutaran oleh aplikasi belum diuji. Periksa izin distribusi publik sumber M-AILABS."
+  ],
+  "stimulusReviewPlayback": {
+    "files": {
+      "wav": {
+        "path": "pratinjau-stimulus.wav",
+        "sha256": "0f34b3262a212f3b92b672c76dead834edd203f97dc8187e55736c48f9a21f21",
+        "durationMs": 15710,
+        "peakDbfs": -3.0,
+        "sampleRateHz": 44100
+      },
+      "mp3": {
+        "path": "pratinjau-stimulus.mp3",
+        "sha256": "981f587e97610b9e5b81c08d3a0ff9bdd4b76b5de650da7beea0f36f3591315f",
+        "durationMs": 15710,
+        "peakDbfs": -3.32,
+        "sampleRateHz": 44100
+      }
+    },
+    "timeline": [
+      {
+        "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07",
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-07.penjual-pasar",
+        "transcript": "siebzehn",
+        "expected": 17,
+        "context": {
+          "value": 17
+        },
+        "kind": "speech",
+        "startSample": 8379,
+        "endSampleExclusive": 49171,
+        "startMs": 190,
+        "endMs": 1115
+      },
+      {
+        "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08",
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-08.penjual-pasar",
+        "transcript": "siebzig",
+        "expected": 70,
+        "context": {
+          "value": 70
+        },
+        "kind": "speech",
+        "startSample": 69457,
+        "endSampleExclusive": 106280,
+        "startMs": 1575,
+        "endMs": 2410
+      },
+      {
+        "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09",
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-09.penjual-pasar",
+        "transcript": "achtzehn",
+        "expected": 18,
+        "context": {
+          "value": 18
+        },
+        "kind": "speech",
+        "startSample": 150380,
+        "endSampleExclusive": 192495,
+        "startMs": 3410,
+        "endMs": 4365
+      },
+      {
+        "nodeId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10",
+        "assetId": "a1-ch02.s01.a1-u2-o1.stimulus-cocokkan-10.penjual-pasar",
+        "transcript": "achtzig",
+        "expected": 80,
+        "context": {
+          "value": 80
+        },
+        "kind": "speech",
+        "startSample": 212781,
+        "endSampleExclusive": 254896,
+        "startMs": 4825,
+        "endMs": 5780
+      },
+      {
+        "assetId": "a1-sfx-peron-chime",
+        "kind": "cue",
+        "startSample": 298996,
+        "endSampleExclusive": 358090,
+        "startMs": 6780,
+        "endMs": 8120
+      },
+      {
+        "nodeId": "a1-ch11.s02.a1-u11-o4.transisi-01",
+        "assetId": "a1-ch11.s02.a1-u11-o4.transisi-01.petugas-stasiun",
+        "transcript": "Achtung, der Zug fährt heute von Gleis vier ab.",
+        "expected": 4,
+        "context": {
+          "latestPlatform": 4,
+          "recordedVariantOnly": true
+        },
+        "kind": "speech",
+        "startSample": 363382,
+        "endSampleExclusive": 498989,
+        "startMs": 8240,
+        "endMs": 11315
+      },
+      {
+        "nodeId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01",
+        "assetId": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01.petugas-stasiun",
+        "transcript": "Achtung, der Zug fährt heute von Gleis fünf ab.",
+        "expected": 5,
+        "context": {
+          "oldPlatform": 2,
+          "latestPlatform": 5
+        },
+        "kind": "speech",
+        "startSample": 543089,
+        "endSampleExclusive": 672522,
+        "startMs": 12315,
+        "endMs": 15250
+      }
+    ],
+    "audioDuringCueGuard": "zero WAV samples",
+    "cueToSpeechGapMs": 120,
+    "notes": "17/70, 18/80, kemudian chime dan peron 4; peron 5 adalah variasi yang ditinjau tanpa mengulang chime dalam trek perbandingan."
+  }
+}

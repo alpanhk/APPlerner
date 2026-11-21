@@ -7,6 +7,8 @@ import getDb from "../stores/db";
 
 export const NOVEL_PROGRESS_KEY = "novel.progress.v1";
 export const NOVEL_SETTINGS_KEY = "novel.settings.v1";
+/** Misi "Peron berubah" berjalan terpisah dari progres cerita (Mandat §1.3). */
+export const NOVEL_MISSION_KEY = "novel.mission.v1";
 export const NOVEL_PROGRESS_VERSION = 1;
 
 export type NovelPlayer = {
@@ -15,18 +17,29 @@ export type NovelPlayer = {
   hairColor: string;
   outfit: string;
   skin: string;
+  /** PILOT-AGENT-1: avatar produksi player-01..04; profil lama tanpa ini. */
+  characterId?: "player-01" | "player-02" | "player-03" | "player-04";
 };
 export type NovelStage = {
-  bg: "kamar" | "jendela" | "pintu" | "jalan" | "judul";
+  bg: string;
   chars: Array<{ id: string; side: "left" | "right" | "center"; expr?: string }>;
   overlay?: string | null;
   ambience?: "rumah" | "jalan" | "none";
+  /** Papan/tiket/kalender Bab 11-12 — dipulihkan apa adanya. */
+  board?: Record<string, unknown>;
+  ticket?: Record<string, unknown>;
+  calendar?: Record<string, unknown>;
 };
 export type NovelHistoryItem = {
   speaker: string; text: string; lang: "de" | "id"; translation?: string; audio?: string; isPlayer?: boolean;
 };
 export type NovelAttempt = {
   objective: string; where: string; text: string; hintsUsed: number; full: boolean; at: number;
+  mode?: "cerita" | "latihan" | "simulasi";
+  skill?: "hoeren" | "lesen" | "schreiben" | "sprechen" | "umum";
+  spoken?: boolean;
+  reviewStatus?: "menunggu-telaah";
+  transcriptUsed?: boolean;
 };
 export type NovelProgress = {
   version: number;
@@ -40,6 +53,12 @@ export type NovelProgress = {
   history: NovelHistoryItem[];
   prologCompleted: boolean;
   updatedAt: number;
+  /** Draf jawaban yang sedang diketik — dipulihkan saat muat ulang (U09). */
+  draft?: string;
+  /** Rekaman lisan pemain (base64); dapat dihapus dari jurnal (U07). */
+  recordings?: Record<string, { mime: string; data: string; at: number }>;
+  /** Misi "Peron berubah" pernah diselesaikan sampai akhir. */
+  missionCompleted?: boolean;
 };
 export type NovelSettings = {
   textSize: "normal" | "besar" | "sangat-besar";
@@ -101,6 +120,9 @@ function parseProgress(raw: string | null): NovelProgress | null {
       history: Array.isArray(value.history) ? value.history as NovelHistoryItem[] : [],
       prologCompleted: Boolean(value.prologCompleted),
       updatedAt: typeof value.updatedAt === "number" ? value.updatedAt : Date.now(),
+      draft: typeof value.draft === "string" ? value.draft : undefined,
+      recordings: (object(value.recordings) as NovelProgress["recordings"]) ?? undefined,
+      missionCompleted: Boolean(value.missionCompleted) || undefined,
     };
   } catch { return null; }
 }
@@ -119,6 +141,20 @@ export const novelStore = {
   async clearProgress(): Promise<void> {
     const db = await getDb();
     await db.execute("DELETE FROM config WHERE key = $1", [NOVEL_PROGRESS_KEY]);
+  },
+
+  // ----- Misi "Peron berubah" (slot terpisah; tidak menandai Bab 01-10) -----
+  async loadMission(): Promise<NovelProgress | null> {
+    return parseProgress(await readConfig(NOVEL_MISSION_KEY));
+  },
+  async saveMission(progress: NovelProgress): Promise<NovelProgress> {
+    const next: NovelProgress = { ...progress, version: NOVEL_PROGRESS_VERSION, updatedAt: Date.now() };
+    await writeConfig(NOVEL_MISSION_KEY, next);
+    return next;
+  },
+  async clearMission(): Promise<void> {
+    const db = await getDb();
+    await db.execute("DELETE FROM config WHERE key = $1", [NOVEL_MISSION_KEY]);
   },
   async loadSettings(): Promise<NovelSettings> {
     let value: Record<string, unknown> = {};

@@ -39,7 +39,43 @@ export function Modal({ title, onClose, children, wide }: { title: string; onClo
 const LEVELS = ["A1", "A2", "B1", "B2"] as const;
 const COMPANION_READINGS: Record<string, number[]> = { "A1-1": [1], "A1-4": [10] }; // 10 = Im Café
 
-export function Journal({ attempts, flags, name, onOpenReading }: { attempts: Attempt[]; flags: Flags; name: string; onOpenReading: (textId: number) => void }) {
+const SKILL_LABEL: Record<string, string> = {
+  hoeren: "Hören · menyimak",
+  lesen: "Lesen · membaca",
+  schreiben: "Schreiben · menulis",
+  sprechen: "Sprechen · berbicara",
+  umum: "Umum",
+};
+const MODE_LABEL: Record<string, string> = {
+  cerita: "cerita",
+  latihan: "latihan",
+  simulasi: "simulasi",
+};
+const OBJECTIVE_TITLE: Record<string, string> = {
+  "a1-u11-o1": "Tujuan dengan nach dan in die Schweiz",
+  "a1-u11-o2": "Jam keberangkatan dan kedatangan",
+  "a1-u11-o3": "Barang bawaan dengan mitnehmen",
+  "a1-u11-o4": "Peron, keterlambatan, dan sambungan",
+  "a1-u11-o5": "Reservasi tempat duduk dan informasi",
+  "a1-u12-o1": "Mengundang dan menyepakati waktu",
+  "a1-u12-o2": "Menerima atau menolak ajakan",
+  "a1-u12-o3": "Memulai percakapan telepon",
+  "a1-u12-o4": "anrufen pisah dan meninggalkan pesan",
+  "a1-u12-o5": "Menulis dan membalas pesan sederhana",
+};
+
+export interface JournalProps {
+  attempts: Attempt[];
+  flags: Flags;
+  name: string;
+  onOpenReading: (textId: number) => void;
+  /** Rekaman lisan milik pemain (base64) — dapat diputar dan dihapus (U07). */
+  recordings?: Record<string, { mime: string; data: string; at: number }>;
+  onPlayRecording?: (key: string) => void;
+  onDeleteRecording?: (key: string) => void;
+}
+
+export function Journal({ attempts, flags, name, onOpenReading, recordings, onPlayRecording, onDeleteRecording }: JournalProps) {
   const [openLevel, setOpenLevel] = useState<string>("A1");
   const greet = objectiveLevel(attempts, "greet");
   const intro = objectiveLevel(attempts, "introduce");
@@ -47,6 +83,12 @@ export function Journal({ attempts, flags, name, onOpenReading }: { attempts: At
   const summary = buildSummary(attempts, flags, name);
   const unitProgress = (u: Unit) => (u.level === "A1" && u.unit === 1 ? done : 0);
   const levelUnits = (lv: string) => UNITS.filter((u) => u.level === lv);
+
+  // Bukti Bab 11-12 dipisahkan per jalur (cerita vs latihan) dan keterampilan
+  // (Mandat §1.5): hasil cerita, latihan dengan bantuan, keberhasilan mandiri,
+  // dan rekaman menunggu telaah dapat dibedakan.
+  const missionAttempts = attempts.filter((a) => a.objective.startsWith("a1-u1"));
+  const byMode = (mode: string) => missionAttempts.filter((a) => (a.mode ?? "cerita") === mode);
 
   return (
     <div className="space-y-5">
@@ -83,6 +125,74 @@ export function Journal({ attempts, flags, name, onOpenReading }: { attempts: At
           Bukti dalam prolog ini berupa jawaban tertulis/susunan kata. Ini menunjukkan pemahaman teks dan produksi tulisan sederhana, bukan kemampuan berbicara. Klik „Lanjut“ tidak dihitung sebagai bukti.
         </p>
       </section>
+
+      {missionAttempts.length > 0 && (
+        <section className="rounded-xl border border-[#b5533c]/30 bg-white/70 p-4" data-testid="journal-mission">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#b5533c]">Misi Peron berubah · Bukti per keterampilan</p>
+          <h3 className="text-lg font-black text-[#2c3e6b]">Bab 11–12 · hasil cerita, latihan, dan rekamanmu dapat dibedakan</h3>
+          <div className="mt-3 space-y-2">
+            {(["cerita", "latihan"] as const).map((mode) => {
+              const rows = byMode(mode);
+              if (!rows.length) return null;
+              return (
+                <div key={mode} className="rounded-lg bg-[#f7efdd] p-2">
+                  <p className="text-xs font-bold uppercase tracking-wide text-[#6b5e4e]">
+                    {mode === "latihan" ? "Latihan (dipilih langsung dari jalur pengguna; Bab 01–10 tidak ditandai selesai)" : "Cerita"}
+                  </p>
+                  <ul className="mt-1 space-y-1">
+                    {rows.map((a, i) => (
+                      <li key={`${a.at}-${i}`} className="flex flex-wrap items-start gap-2 text-sm">
+                        <span className="rounded bg-[#2c3e6b] px-1.5 py-0.5 text-[10px] font-bold text-white">
+                          {SKILL_LABEL[a.skill ?? "umum"]}
+                        </span>
+                        <span className="flex-1">
+                          <span className="font-semibold">{OBJECTIVE_TITLE[a.objective] ?? a.objective}</span>
+                          {a.full ? " · tercapai" : " · belum pada percobaan ini"}
+                          {a.hintsUsed > 0 && ` · bantuan ${a.hintsUsed}×`}
+                          {a.transcriptUsed && " · transkrip dibuka (bukti membaca, bukan menyimak)"}
+                          {a.spoken && " · dijawab dengan rekaman lisan"}
+                          {a.reviewStatus === "menunggu-telaah" && (
+                            <span className="ml-1 rounded bg-[#8a6d3b] px-1.5 py-0.5 text-[10px] font-bold text-white">menunggu telaah</span>
+                          )}
+                          {a.text && <span className="block text-xs text-[#6b5e4e]">„{a.text}“</span>}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+          {recordings && Object.keys(recordings).length > 0 && (
+            <div className="mt-2 rounded-lg border border-[#2c3e6b]/20 p-2">
+              <p className="text-xs font-bold uppercase tracking-wide text-[#6b5e4e]">Rekamanmu (tersimpan di perangkat ini)</p>
+              <ul className="mt-1 space-y-1">
+                {Object.entries(recordings).map(([key, rec]) => (
+                  <li key={key} className="flex flex-wrap items-center gap-2 text-sm">
+                    <span className="font-mono text-xs text-[#6b5e4e]">{key}</span>
+                    <span className="text-xs text-[#6b5e4e]">{new Date(rec.at).toLocaleString("id-ID")}</span>
+                    {onPlayRecording && (
+                      <button type="button" className="btn-ghost" onClick={() => onPlayRecording(key)} data-testid={`play-${key}`}>
+                        ▶ Putar
+                      </button>
+                    )}
+                    {onDeleteRecording && (
+                      <button type="button" className="btn-ghost" onClick={() => onDeleteRecording(key)} data-testid={`delete-${key}`}>
+                        Hapus
+                      </button>
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-1 text-xs text-[#6b5e4e]">Rekaman tidak dinilai otomatis; statusnya menunggu telaah manusia.</p>
+            </div>
+          )}
+          <p className="mt-3 text-xs text-[#6b5e4e]">
+            Bukti menyimak dicatat dari kejadian audio yang benar-benar diputar; membuka transkrip mengubah bukti menjadi membaca.
+            Nilai ini bukan penilaian kemampuan bersertifikat.
+          </p>
+        </section>
+      )}
 
       <section>
         <h3 className="mb-2 font-black text-[#2c3e6b]">Peta kurikulum A1–B2 (42 unit)</h3>
@@ -357,5 +467,85 @@ export function SettingsPanel({ s, onChange, audioStatus }: { s: Settings; onCha
         </ul>
       </details>
     </div>
+  );
+}
+
+// ===== Ringkasan misi (akhir latihan/cerita Bab 11-12) =====
+// Mandat §6.B baris terakhir: setelah transfer, buka ringkasan empat
+// keterampilan; jurnal membedakan cerita/latihan dan rekaman menunggu telaah.
+export function MissionResult({ attempts, name, recordings, onPlayRecording, onDeleteRecording, onRetryDifferent, onBackToTitle }: {
+  attempts: Attempt[];
+  name: string;
+  recordings?: Record<string, { mime: string; data: string; at: number }>;
+  onPlayRecording?: (key: string) => void;
+  onDeleteRecording?: (key: string) => void;
+  onRetryDifferent: () => void;
+  onBackToTitle: () => void;
+}) {
+  const rows = attempts.filter((a) => a.objective.startsWith("a1-u1"));
+  const skillOf = (s: string) => rows.filter((a) => (a.skill ?? "umum") === s);
+  const skills: Array<["hoeren" | "lesen" | "schreiben" | "sprechen", string]> = [
+    ["hoeren", "Hören — kamu menemukan perubahan peron melalui audio"],
+    ["lesen", "Lesen — kamu mengambil jam dan tujuan dari tiket"],
+    ["schreiben", "Schreiben — kamu menulis pesan dengan waktu dan tempat"],
+    ["sprechen", "Sprechen — kamu bertanya kepada petugas (rekaman atau teks)"],
+  ];
+  return (
+    <section aria-label="Ringkasan misi" className="absolute inset-x-0 bottom-0 z-10 mx-auto w-full max-w-3xl px-2 pb-4 sm:px-4" data-testid="mission-result">
+      <div className="rounded-2xl border-2 border-[#b5533c]/50 bg-[#f7efdd]/95 p-5 shadow-[0_-6px_30px_rgba(20,25,50,.35)] backdrop-blur-sm">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#b5533c]">Misi selesai · {name}</p>
+        <h2 className="mt-1 text-2xl font-black text-[#2c3e6b]">Peron berubah — ringkasan empat keterampilan</h2>
+        <ul className="mt-3 space-y-1">
+          {skills.map(([s, label]) => {
+            const list = skillOf(s);
+            const independent = list.some((a) => a.full && a.hintsUsed === 0 && !a.transcriptUsed);
+            return (
+              <li key={s} className="flex items-start gap-2 text-sm" data-testid={`summary-${s}`}>
+                <span aria-hidden="true">{independent ? "✓" : list.length ? "◐" : "○"}</span>
+                <span>
+                  <span className="font-semibold">{label}</span>
+                  <span className="text-[#6b5e4e]">
+                    {list.length === 0
+                      ? " · belum ada sampel pada sesi ini"
+                      : independent
+                        ? " · keberhasilan mandiri pada sesi ini"
+                        : " · tercatat dengan bantuan"}
+                  </span>
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+        {recordings && Object.keys(recordings).length > 0 && (
+          <div className="mt-3 rounded-lg border border-[#2c3e6b]/20 p-2">
+            <p className="text-xs font-bold uppercase tracking-wide text-[#6b5e4e]">Rekaman lisan — menunggu telaah</p>
+            <ul className="mt-1 space-y-1">
+              {Object.entries(recordings).map(([key]) => (
+                <li key={key} className="flex flex-wrap items-center gap-2 text-sm">
+                  <span className="font-mono text-xs text-[#6b5e4e]">{key}</span>
+                  {onPlayRecording && (
+                    <button type="button" className="btn-ghost" onClick={() => onPlayRecording(key)}>▶ Putar</button>
+                  )}
+                  {onDeleteRecording && (
+                    <button type="button" className="btn-ghost" onClick={() => onDeleteRecording(key)}>Hapus</button>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button type="button" className="btn-primary" onClick={onRetryDifferent} data-testid="retry-different">
+            Coba jadwal lain
+          </button>
+          <button type="button" className="btn-secondary" onClick={onBackToTitle}>
+            Kembali ke judul (progres tersimpan)
+          </button>
+        </div>
+        <p className="mt-3 text-xs text-[#6b5e4e]">
+          Ringkasan ini menggambarkan tindakanmu pada sesi ini, bukan sertifikasi kemampuan. Rekaman menunggu telaah manusia.
+        </p>
+      </div>
+    </section>
   );
 }
