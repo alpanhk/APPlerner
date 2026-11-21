@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* Font referensi ditanam offline (tanpa Google Fonts / request eksternal). */
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Atkinson Hyperlegible"), url("../../assets/fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Atkinson Hyperlegible Bold"), url("../../assets/fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Atkinson Hyperlegible Italic"), url("../../assets/fonts/AtkinsonHyperlegible-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Caveat SemiBold"), url("../../assets/fonts/Caveat-SemiBold.ttf") format("truetype");
+}
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible", "Segoe UI", "Noto Sans", system-ui, sans-serif;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #1f2740;
+}
+
+.app-root {
+  --dialog-size: 1.25rem;
+  --dialog-sub: 1rem;
+}
+.app-root.ts-besar {
+  --dialog-size: 1.5rem;
+  --dialog-sub: 1.15rem;
+}
+.app-root.ts-sangat-besar {
+  --dialog-size: 1.8rem;
+  --dialog-sub: 1.35rem;
+}
+.dialog-text {
+  font-size: var(--dialog-size);
+}
+.dialog-sub {
+  font-size: var(--dialog-sub);
+}
+
+@media (max-height: 640px) {
+  .app-root {
+    --dialog-size: 1.1rem;
+    --dialog-sub: 0.95rem;
+  }
+}
+
+/* Fokus keyboard yang jelas */
+:focus-visible {
+  outline: 3px solid #b5533c;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-lg bg-[#b5533c] px-4 py-2 font-bold text-white shadow hover:bg-[#a3452f] disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-lg border-2 border-[#2c3e6b] bg-[#f7efdd] px-4 py-2 font-bold text-[#2c3e6b] hover:bg-white;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center rounded-md border border-[#2c3e6b]/40 bg-white/70 px-2 py-1 text-sm font-semibold text-[#2c3e6b] hover:bg-white;
+  }
+  .btn-choice {
+    @apply inline-flex items-center rounded-lg border-2 border-[#2c3e6b]/50 bg-white px-4 py-2 text-left font-semibold text-[#1f2233] shadow-sm hover:border-[#b5533c] hover:bg-[#fff8ea];
+    font-size: var(--dialog-sub);
+  }
+  .btn-top {
+    @apply rounded-md bg-[#f7efdd]/90 px-2.5 py-1 text-sm font-bold text-[#2c3e6b] shadow hover:bg-white;
+  }
+  .chip {
+    @apply rounded-full border border-[#2c3e6b]/40 bg-white px-3 py-1 text-sm font-semibold text-[#2c3e6b] hover:border-[#b5533c] hover:bg-[#fff8ea];
+  }
+  .chip-muted {
+    @apply border-dashed text-[#6b5e4e];
+  }
+}

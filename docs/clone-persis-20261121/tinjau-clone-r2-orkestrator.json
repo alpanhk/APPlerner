@@ -1,0 +1,79 @@
+{
+  "task": "TINJAU-CLONE-R2-ORK",
+  "at": "2026-11-21T09:03:14.652Z",
+  "sha": "961e664ac36ff662423d724f83fe739f549d0bdf4a6de7e5ef66a03434a4d062",
+  "steps": {
+    "kill": {
+      "pids": [],
+      "graceful": true,
+      "verified": true
+    },
+    "awal": {
+      "rootLen": 160,
+      "body": "VISUAL NOVEL BAHASA JERMAN\n\nLernen\n\nProlog: Surat untuk Siapa?\n\nMulai cerita\nPerpustakaan\nPengaturan\n\nUntuk penutur bahasa Indonesia · A1 Unit 1 „Salam & perkenalan diri“",
+      "oldShell": {
+        "klab": false,
+        "koleksi": false,
+        "tabs": false
+      },
+      "consoleErrors": 0
+    },
+    "ke-title": {
+      "ok": false,
+      "body": "VISUAL NOVEL BAHASA JERMAN\n\nLernen\n\nProlog: Surat untuk Siapa?\n\nMulai cerita\nPerpustakaan\nPengaturan\n\nUntuk penutur bahasa Indonesia · A1 Unit 1 „Salam & perkenalan diri“"
+    },
+    "riwayat-tutup": {
+      "opened": false,
+      "rootSaatPanel": 160,
+      "rootSesudahTutup": 160,
+      "exceptions": 0,
+      "consoleErrors": 0,
+      "panelLain": {
+        "Jurnal": false,
+        "Perpustakaan": true,
+        "Pengaturan": true
+      }
+    },
+    "font-audio": {
+      "body": "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+      "root": "\"Atkinson Hyperlegible\", \"Segoe UI\", \"Noto Sans\", system-ui, sans-serif",
+      "tombolBuruk": 0,
+      "media": []
+    },
+    "viewport": {
+      "900x600": {
+        "rootLen": 1237,
+        "body": "VISUAL NOVEL BAHASA JERMAN\n\nLernen\n\nProlog: Surat untuk Siapa?\n\nMulai cerita\nPerpustakaan\nPengaturan\n\nUntuk penutur bahasa Indonesia · A1 Unit 1 „Salam & perkenalan diri“\n\nPengatur"
+      },
+      "1280x800": {
+        "rootLen": 1237,
+        "body": "VISUAL NOVEL BAHASA JERMAN\n\nLernen\n\nProlog: Surat untuk Siapa?\n\nMulai cerita\nPerpustakaan\nPengaturan\n\nUntuk penutur bahasa Indonesia · A1 Unit 1 „Salam & perkenalan diri“\n\nPengatur"
+      }
+    },
+    "reduced": {
+      "rootLen": 1237,
+      "body": "VISUAL NOVEL BAHASA JERMAN\n\nLernen\n\nProlog: Surat untuk Siapa?\n\nMulai cerita\nPerpustakaan\nPengaturan\n\nUntuk penutur bahasa Indonesia · A1 Unit 1 „Salam & perkenalan diri“\n\nPengaturan\nTutup ✕\nUkuran teks\nNormal\nBesar\nSang"
+    },
+    "keyboard": {
+      "fokusSetelahTab": {
+        "tag": "BUTTON",
+        "text": "Normal"
+      },
+      "rootLen": 160
+    },
+    "integritas": {
+      "consoleErrors": 0,
+      "exceptions": 0,
+      "external": []
+    },
+    "close": {
+      "pids": [
+        22452
+      ],
+      "graceful": true,
+      "verified": true,
+      "remaining": []
+    }
+  },
+  "external": []
+}

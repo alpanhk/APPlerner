@@ -21,7 +21,9 @@ import "./App.css";
 import "./klab/tokens.css";
 import { friendlyErrorMessage } from "./klab/errorMessage";
 
-export default function App() {
+// CLONE PERSIS: modul lama dipertahankan sebagai modul tidur. Tidak dirender
+// dari main.tsx; lihat docs/superpowers/DATA-BERIKUTNYA.md untuk mengaktifkan.
+export function LegacyApp() {
   const route = useStore(navigation, (state) => state.route);
   const [dbState, setDbState] = useState<DbState>("loading");
   const [dbMessage, setDbMessage] = useState("");
