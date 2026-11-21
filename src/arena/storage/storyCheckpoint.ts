@@ -1,16 +1,18 @@
 import type { Progress } from '../types';
 import { PROLOG_META } from '../data/story/prolog';
-import { CHAPTER_ONE, CHAPTER_TWO, CHAPTER_THREE, CHAPTER_FOUR, CHAPTER_FIVE, CHAPTER_SIX, CHAPTER_SEVEN } from '../data/story/chapters';
+import { CHAPTER_ONE, CHAPTER_TWO, CHAPTER_THREE, CHAPTER_FOUR, CHAPTER_FIVE, CHAPTER_SIX, CHAPTER_SEVEN, CHAPTER_EIGHT } from '../data/story/chapters';
+import { CITY_KEY, cityScene } from '../engine/cityRoute';
 import { ROOM_KEY, sceneForRoomStep } from '../engine/room';
 import { shopSceneIndex } from '../engine/clothing';
 import { cafeSceneIndex } from '../engine/cafe';
 import { profileKey } from './profiles';
 import { savedChapterTwoStep, sceneTitleForStep } from './chapterTwoCheckpoint';
 
-export type ContinueDestination = 'story' | 'chapter-one' | 'kiosk' | 'chapter-three' | 'chapter-four' | 'chapter-five' | 'chapter-six' | 'chapter-seven';
+export type ContinueDestination = 'story' | 'chapter-one' | 'kiosk' | 'chapter-three' | 'chapter-four' | 'chapter-five' | 'chapter-six' | 'chapter-seven' | 'chapter-eight';
 /** Exactly the recovery path used by Continue, including pre-profile saves. */
 export function continueDestination(saved: Progress | null): ContinueDestination {
   if (!saved?.prologCompleted || !saved.flags?.letterOpened) return 'story';
+  if (localStorage.getItem(profileKey('lernen.chapter08.active')) === '1') return 'chapter-eight';
   if (localStorage.getItem(profileKey('lernen.chapter07.active')) === '1') return 'chapter-seven';
   if (localStorage.getItem(profileKey('lernen.chapter06.active')) === '1') return 'chapter-six';
   if (localStorage.getItem(profileKey('lernen.chapter05.active')) === '1') return 'chapter-five';
@@ -19,7 +21,8 @@ export function continueDestination(saved: Progress | null): ContinueDestination
   return localStorage.getItem(profileKey('lernen.chapter02.active')) === '1' ? 'kiosk' : 'chapter-one';
 }
 export function checkpointTitle(destination: ContinueDestination): {label:string; title:string; scene?:string} {
-  if (destination === 'chapter-seven') return {label:'Bab 07',title:CHAPTER_SEVEN.title,scene:CHAPTER_SEVEN.scenes[0].title};
+  if (destination === 'chapter-eight') return {label:'Bab 08',title:CHAPTER_EIGHT.title,scene:CHAPTER_EIGHT.scenes[0].title};
+  if (destination === 'chapter-seven') {let index=0;try{if(localStorage.getItem(profileKey('lernen.chapter07.journey.open'))!=='0')index=cityScene(JSON.parse(localStorage.getItem(profileKey(CITY_KEY))||'null')?.step)}catch{/* old journal */}return {label:'Bab 07',title:CHAPTER_SEVEN.title,scene:CHAPTER_SEVEN.scenes[index].title};}
   if (destination === 'chapter-six') {let index=0;try{index=sceneForRoomStep(JSON.parse(localStorage.getItem(profileKey(ROOM_KEY))||'null')?.step);}catch{/* Old opening stays available. */}return {label:'Bab 06',title:CHAPTER_SIX.title,scene:CHAPTER_SIX.scenes[index].title};}
   if (destination === 'chapter-five') {let index=0;try{index=shopSceneIndex(JSON.parse(localStorage.getItem(profileKey('lernen.chapter05.visit.v1'))||'null'));}catch{/* Older saves stay at the opening. */}return {label:'Bab 05',title:CHAPTER_FIVE.title,scene:CHAPTER_FIVE.scenes[index].title};}
   if (destination === 'chapter-four') { let index=0;try{index=cafeSceneIndex(JSON.parse(localStorage.getItem(profileKey('lernen.chapter04.visit.v1'))||'null'));}catch{/* Older saves remain at the opening. */}return {label:'Bab 04',title:CHAPTER_FOUR.title,scene:CHAPTER_FOUR.scenes[index].title}; }

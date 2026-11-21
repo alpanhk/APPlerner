@@ -54,5 +54,9 @@
   "tamu-kota": {
     "neutral": "actors/tamu-kota/neutral.png",
     "open": "actors/tamu-kota/talk-open.png"
+  },
+  "rekan-panitia": {
+    "neutral": "actors/rekan-panitia/neutral.png",
+    "open": "actors/rekan-panitia/talk-open.png"
   }
 }
