@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+// CLONE PERSIS: entry merender tampilan referensi. LegacyApp tetap dipertahankan
+// sebagai modul tidur di src/App.tsx, tidak dirender dari jalur utama.
+import App from "./klab/novel/App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

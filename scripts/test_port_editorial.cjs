@@ -10,6 +10,8 @@ function load(file, mocks) {
   }).outputText;
   const mod = { exports: {} };
   new Function("require", "module", "exports", code)((id) => {
+    if (id === "./novelViews") return { TitleView: () => null, CreateView: () => null, StoryView: () => null };
+    if (id === "./mediaResolver") return { coverSrc: () => undefined, allCovers: () => [], resolveMedia: () => null, bgSrc: () => undefined, sceneSrc: () => undefined };
     assert.ok(Object.hasOwn(mocks, id), `dependency tak terduga ${id} di ${file}`);
     return mocks[id];
   }, mod, mod.exports);

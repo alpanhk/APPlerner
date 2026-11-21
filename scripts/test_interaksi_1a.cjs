@@ -81,6 +81,11 @@ function loadSampleVisuals() {
   const marker = (name) => function Marker() { return name; };
   const CafeConversation = marker("CafeConversation");
   const AssetCollectionPage = marker("AssetCollectionPage");
+  const novelViews = {
+    TitleView: marker("TitleView"), CreateView: marker("CreateView"), StoryView: marker("StoryView"),
+  };
+  const storyFlowView = marker("StoryFlowView");
+  const storyView2a = marker("StoryView2a");
   const routeDeps = {
     react: {
       useState: (initial) => [typeof initial === "function" ? initial() : initial, () => undefined],
@@ -96,6 +101,7 @@ function loadSampleVisuals() {
     "../klab/learning": {
       LessonFlow: marker("LessonFlow"), ReadingFlow: marker("ReadingFlow"),
       CheckpointFlow: marker("CheckpointFlow"), CafeConversation,
+      StoryView: storyView2a,
     },
     "../klab/components/session": { FocusHeader: marker("FocusHeader") },
     "./viewAdapters": {
@@ -113,6 +119,8 @@ function loadSampleVisuals() {
     "./readingAdapter": { readingMeta: () => null, loadReadingMode: async () => null, saveReadingMode: async () => undefined },
     "../lessons/units": { getUnit: () => ({ unit: 4, lessons: [{ no: 2 }] }) },
     "../ui/lessons/LessonRunner": { __esModule: true, default: marker("LessonRunner") },
+    "./novelViews": novelViews,
+    "./StoryFlowView": { __esModule: true, default: storyFlowView },
   };
   const view = load("src/app/routeView.tsx", routeDeps);
   const base = { navigate: () => {}, back: () => {}, targets: [], route: { name: "reader", textId: 10 } };
@@ -123,6 +131,17 @@ function loadSampleVisuals() {
   assert.equal(typeof stage.props.onStartTask, "function");
   const collectionView = view.RouteView({ ...base, route: { name: "notes", noteId: "collection" } });
   assert.equal(collectionView.type, AssetCollectionPage, "Koleksi aset terjangkau lewat rute");
+  // ROMBAK UI/UX: peta rute baru tidak menggusur rute produksi.
+  assert.equal(view.RouteView({ ...base, route: { name: "title" } }).type, novelViews.TitleView);
+  assert.equal(view.RouteView({ ...base, route: { name: "create" } }).type, novelViews.CreateView);
+  // NOVEL-GAP-01: rute story memakai StoryFlow 2a yang terdaftar, bukan placeholder.
+  const storyView = view.RouteView({ ...base, route: { name: "story", panel: "journal" } });
+  assert.equal(storyView.type.name, "StoryHostView", "1a tetap pemilik registerFeatureView('story')");
+  const hosted = storyView.type(storyView.props);
+  assert.equal(hosted.type, storyFlowView, "host 1a membungkus komponen cerita");
+  assert.equal(hosted.props.storyView, storyView2a, "komponen cerita berasal dari ekspor 2a ../klab/learning");
+  assert.equal(view.RouteView({ ...base, route: { name: "today" } }).type.name, "ProductionToday");
+  assert.equal(view.RouteView({ ...base, route: { name: "profile", section: "overview" } }).type.name, "ProductionProfile");
   const index = load("src/app/CoverIndex.tsx", {
     "./coverResolver": covers, "react/jsx-runtime": { jsx, jsxs: jsx },
   });

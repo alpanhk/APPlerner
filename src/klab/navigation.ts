@@ -1,13 +1,14 @@
 import { createStore } from 'zustand/vanilla';
-import { homeRoute, tabForRoute, type Route, type Tab } from './routes';
+import { groupForRoute, homeGroupRoute, homeRoute, type NavGroup, type Route } from './routes';
 
 type NavigationState = {
   route: Route;
-  tab: Tab;
-  stacks: Record<Tab, Route[]>;
+  /** Grup aktif; 'story' bukan tab produksi dan tidak dirender Shell. */
+  tab: NavGroup;
+  stacks: Record<NavGroup, Route[]>;
   push: (route: Route) => void;
   replace: (route: Route) => void;
-  selectTab: (tab: Tab) => void;
+  selectTab: (tab: NavGroup) => void;
   back: () => boolean;
 };
 
@@ -23,27 +24,30 @@ export function createNavigation() {
     stacks: {
       today: [homeRoute('today')], explore: [homeRoute('explore')],
       notes: [homeRoute('notes')], profile: [homeRoute('profile')],
+      // ROMBAK UI/UX: cerita punya stack sendiri; tombol Kembali di story
+      // tidak pernah memunculkan rute produksi yang sedang dikerjakan peserta.
+      story: [homeGroupRoute('story')],
     },
     push(route) {
-      const tab = tabForRoute(route);
-      const stack = get().stacks[tab];
+      const group = groupForRoute(route);
+      const stack = get().stacks[group];
       if (sameRoute(stack[stack.length - 1], route)) {
-        set({ tab, route });
+        set({ tab: group, route });
         return;
       }
       const next = [...stack, route];
       const bounded = next.length > 20 ? [next[0], ...next.slice(-19)] : next;
-      set({ tab, route, stacks: { ...get().stacks, [tab]: bounded } });
+      set({ tab: group, route, stacks: { ...get().stacks, [group]: bounded } });
     },
     replace(route) {
-      const tab = tabForRoute(route);
-      const stack = get().stacks[tab];
+      const group = groupForRoute(route);
+      const stack = get().stacks[group];
       const next = stack.length === 1 ? [stack[0], route] : [...stack.slice(0, -1), route];
-      set({ tab, route, stacks: { ...get().stacks, [tab]: sameRoute(stack[0], route) ? [route] : next } });
+      set({ tab: group, route, stacks: { ...get().stacks, [group]: sameRoute(stack[0], route) ? [route] : next } });
     },
-    selectTab(tab) {
-      const stack = get().stacks[tab];
-      set({ tab, route: stack[stack.length - 1] });
+    selectTab(group) {
+      const stack = get().stacks[group];
+      set({ tab: group, route: stack[stack.length - 1] });
     },
     back() {
       const { tab, stacks } = get();

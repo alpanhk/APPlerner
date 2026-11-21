@@ -3,7 +3,10 @@
 // aktif. Modul ini tidak menyentuh App/routeView/pages milik 1a/4a.
 export type SoundRoute = 'today' | 'explore' | 'cafe' | 'other';
 
+export type SpeakingStatus = 'idle' | 'loading' | 'playing' | 'paused' | 'finished' | 'error';
+
 export type SoundState = {
+  speaking: { char: string | null; token: string; status: SpeakingStatus };
   optIn: boolean;
   route: SoundRoute;
   speechActive: boolean;
@@ -53,11 +56,13 @@ export type SoundController = {
   setHoeren: (active: boolean) => void;
   setHidden: (hidden: boolean) => void;
   setOptIn: (value: boolean) => void;
+  setSpeaking: (char: string | null, token: string, status: SpeakingStatus) => void;
   markCue: () => void;
   subscribe: (listener: (state: SoundState, priority: ReturnType<typeof soundPriority>) => void) => () => void;
 };
 
 let current: SoundState = {
+  speaking: { char: null, token: '', status: 'idle' },
   optIn: loadOptIn(),
   route: 'other',
   speechActive: false,
@@ -104,6 +109,16 @@ export const soundController: SoundController = {
     if (current.optIn === value) return;
     saveOptIn(value);
     current = { ...current, optIn: value };
+    emit();
+  },
+  setSpeaking(char, token, status) {
+    const next = { char, token, status };
+    if (
+      current.speaking.char === next.char &&
+      current.speaking.token === next.token &&
+      current.speaking.status === next.status
+    ) return;
+    current = { ...current, speaking: next };
     emit();
   },
   markCue() {

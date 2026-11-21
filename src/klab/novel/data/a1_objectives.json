@@ -1,0 +1,96 @@
+{
+ "note": "Inventaris tujuan A1. Status peninjauan bahasa belum dilakukan pengajar; jangan dipakai sebagai bukti penguasaan CEFR.",
+ "objectives": [
+  {
+   "id": "a1-u1-o1",
+   "unit": 1,
+   "title": "Menyapa sesuai waktu hari",
+   "canDo": "Memilih sapaan Jerman yang wajar untuk pagi, siang, malam, dan saat berpisah; membedakan sapaan formal dan santai.",
+   "lessonNos": [
+    1
+   ]
+  },
+  {
+   "id": "a1-u1-o2",
+   "unit": 1,
+   "title": "Memperkenalkan dan menanyakan nama",
+   "canDo": "Memperkenalkan nama sendiri dan menanyakan nama orang lain dengan bentuk formal (Sie) atau santai (du).",
+   "lessonNos": [
+    1
+   ]
+  },
+  {
+   "id": "a1-u1-o3",
+   "unit": 1,
+   "title": "Menyebut asal dan tempat tinggal",
+   "canDo": "Mengatakan dari mana asal seseorang dan di mana tinggal; memakai kommen aus dan wohnen in dengan konjugasi yang benar.",
+   "lessonNos": [
+    2
+   ]
+  },
+  {
+   "id": "a1-u1-o4",
+   "unit": 1,
+   "title": "Menyebut teman dan umur",
+   "canDo": "Memperkenalkan teman dengan mein/meine dan menanyakan atau menyebut umur dengan Jahre.",
+   "lessonNos": [
+    3
+   ]
+  },
+  {
+   "id": "a1-u1-o5",
+   "unit": 1,
+   "title": "Artikel dan bentuk plural",
+   "canDo": "Memilih artikel der/die/das untuk kata yang dipelajari dan menyebut bentuk pluralnya dengan artikel die.",
+   "lessonNos": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "a1-u2-o1",
+   "unit": 2,
+   "title": "Menyebut angka 1–100",
+   "canDo": "Menyebut angka 1–12, 13–19, puluhan, dan angka gabungan seperti 21 atau 99; memahami angka dalam umur dan harga.",
+   "lessonNos": [
+    1
+   ]
+  },
+  {
+   "id": "a1-u2-o2",
+   "unit": 2,
+   "title": "Menanyakan dan menjawab harga",
+   "canDo": "Menanyakan harga dengan Wie viel kostet ...? dan menjawab dengan angka + Euro; membedakan teuer (mahal) dan billig (murah).",
+   "lessonNos": [
+    1
+   ]
+  },
+  {
+   "id": "a1-u2-o3",
+   "unit": 2,
+   "title": "Menanyakan dan menyebut jam",
+   "canDo": "Menyebut jam penuh, halb, viertel nach, dan viertel vor; memahami bahwa halb neun berarti 08.30.",
+   "lessonNos": [
+    2
+   ]
+  },
+  {
+   "id": "a1-u2-o4",
+   "unit": 2,
+   "title": "Menyebut hari dan menanyakan jadwal",
+   "canDo": "Menyebut tujuh hari dalam urutan yang benar, memakai der untuk semua hari, dan menanyakan jadwal dengan Wann ...? serta am + hari.",
+   "lessonNos": [
+    2
+   ]
+  },
+  {
+   "id": "a1-u2-o5",
+   "unit": 2,
+   "title": "Memakai preposisi waktu um, am, im",
+   "canDo": "Memilih um + jam, am + hari/bagian hari, im + bulan/musim; memakai heute, morgen, dan gestern tanpa preposisi.",
+   "lessonNos": [
+    3
+   ]
+  }
+ ]
+}

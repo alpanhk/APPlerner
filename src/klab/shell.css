@@ -1,208 +1,69 @@
+/* UIUX-VISUAL-NOVEL-20261121 / 4a — shell referensi. */
 .klab-app.klab-navigation-shell {
-  --shell-width: 68rem;
+  --shell-width: 74rem;
   --shell-gutter: clamp(1rem, 4vw, 2.5rem);
   --shell-control: 44px;
   --shell-header-top: max(.6rem, env(safe-area-inset-top));
-  --shell-menu-top: calc(var(--shell-header-top) + var(--shell-control) + .55rem);
-}
-.klab-app.klab-navigation-shell[data-theme='light'] {
-  --k-canvas: #fcfaf5;
-  --k-surface: #fffdf9;
 }
 .klab-app .klab-topbar.klab-shell-header {
-  width: 100%;
-  max-width: var(--shell-width);
-  min-height: 0;
-  justify-content: space-between;
-  gap: .65rem;
-  padding: var(--shell-header-top) var(--shell-gutter) .6rem;
+  inline-size: 100%; max-inline-size: var(--shell-width); min-block-size: 0;
+  justify-content: space-between; gap: .65rem; padding: var(--shell-header-top) var(--shell-gutter) .7rem;
+  background: var(--vn-bg);
 }
 .klab-app .klab-shell-brand {
-  font: 700 italic clamp(1.7rem, 4vw, 2.1rem)/1 var(--k-display);
-  letter-spacing: -.065em;
-  color: var(--k-text);
+  font: 800 italic clamp(1.8rem, 4vw, 2.3rem)/1 var(--vn-font);
+  letter-spacing: -.04em; color: var(--vn-cream);
 }
-.klab-app .klab-shell-controls {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: .35rem;
-  min-width: 0;
+.klab-app .klab-shell-controls { display: flex; align-items: center; justify-content: flex-end; gap: .4rem; min-inline-size: 0; }
+.klab-app .klab-shell-notice { color: var(--vn-cream); font-size: .75rem; text-align: end; overflow-wrap: anywhere; }
+@media (max-width: 1100px) { .klab-app .klab-topbar.klab-shell-header { max-inline-size: none; } }
+
+/* Tombol header */
+.klab-app :is(.klab-icon-button, .klab-collection-trigger, .klab-theme-toggle) {
+  display: inline-flex; align-items: center; justify-content: center; gap: .35rem;
+  min-block-size: var(--shell-control); padding: .3rem .7rem;
+  border: 1px solid var(--vn-cream); border-radius: 10px;
+  background: color-mix(in srgb, var(--vn-cream) 92%, transparent);
+  color: var(--vn-blue); font-weight: 700; cursor: pointer;
 }
-.klab-app .klab-shell-notice {
-  color: var(--k-muted);
-  font-size: .75rem;
-  line-height: 1.25;
-  text-align: end;
-  overflow-wrap: anywhere;
-  margin-inline-end: clamp(.2rem, 1.4vw, .75rem);
-}
-.klab-app .klab-shell-controls .klab-icon-button {
-  flex: 0 0 var(--shell-control);
-  width: var(--shell-control);
-  height: var(--shell-control);
-  padding: 0;
-  color: var(--k-text);
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: .65rem;
-}
-.klab-app .klab-shell-controls :is(.klab-icon-button:hover, .klab-icon-button:active, .klab-nav-trigger[aria-expanded='true']) {
-  background: var(--k-surface);
-  border-color: var(--k-ink-line);
-}
-.klab-app .klab-shell-controls .klab-nav-trigger {
-  border-color: var(--k-line);
-  background: var(--k-surface);
-}
-.klab-app .klab-shell-controls svg {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-.klab-app.klab-navigation-shell:not([data-focused]) .klab-workspace > .klab-shell-content {
-  max-width: var(--shell-width);
-  padding: .85rem var(--shell-gutter) max(2.5rem, env(safe-area-inset-bottom));
-}
+.klab-app :is(.klab-icon-button, .klab-collection-trigger, .klab-theme-toggle):hover { background: #fff; }
+.klab-app .klab-collection-trigger span { font-size: .8125rem; }
+.klab-app .klab-collection-trigger svg { inline-size: 1.1rem; block-size: 1.1rem; }
+
+/* Menu navigasi */
 .klab-app .klab-nav-popover {
-  position: fixed;
-  inset: var(--shell-menu-top) max(var(--shell-gutter), calc((100% - var(--shell-width)) / 2 + var(--shell-gutter))) auto auto;
-  margin: 0;
-  z-index: 6;
-  width: min(14rem, calc(100% - 2 * var(--shell-gutter)));
-  max-height: calc(100dvh - var(--shell-menu-top) - .75rem);
-  padding: .45rem;
-  overflow: auto;
-  border: 1px solid var(--k-ink-line);
-  border-radius: var(--k-radius);
-  background: var(--k-surface);
-  color: var(--k-text);
-  box-shadow: 0 12px 35px color-mix(in srgb, #000 14%, transparent);
-}
-@supports (position-area: block-end span-inline-start) {
-  .klab-app .klab-nav-popover[popover] {
-    inset: auto;
-    position-area: block-end span-inline-start;
-    position-try-fallbacks: flip-block, flip-inline, flip-block flip-inline;
-    justify-self: end;
-    margin-block-start: .45rem;
-  }
-}
-.klab-app .klab-nav-popover ul {
-  display: grid;
-  gap: .15rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  border: 2px solid var(--vn-blue); border-radius: 14px; background: var(--vn-cream);
+  color: var(--vn-blue); box-shadow: var(--vn-shadow); padding: .5rem;
 }
 .klab-app .klab-nav-popover button {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 48px;
-  padding: .45rem .7rem;
-  gap: .7rem;
-  border: 1px solid transparent;
-  border-radius: .45rem;
-  background: transparent;
-  text-align: start;
+  display: flex; align-items: center; gap: .6rem; inline-size: 100%; min-block-size: 44px;
+  padding: .45rem .7rem; border: 0; border-radius: 9px; background: transparent; color: inherit;
+  font-family: var(--vn-font); font-weight: 700; text-align: start; cursor: pointer;
 }
-.klab-app .klab-nav-popover button:is(:hover, :active) {
-  background: var(--k-tint);
-}
-.klab-app .klab-nav-popover button[aria-current='page'] {
-  background: var(--k-tint);
-  border-color: var(--k-line);
-  color: var(--k-primary);
-  font-weight: 720;
-}
-.klab-app .klab-nav-popover button svg {
-  width: 1.12rem;
-  height: 1.12rem;
-}
-@media (max-width: 460px) {
-  .klab-app .klab-shell-notice {
-    max-inline-size: 7rem;
-    font-size: .6875rem;
-  }
-}
-/* Layar lebar/fullscreen: brand di kiri, tombol tema/menu menempel di kanan. */
-@media (min-width: 1100px) {
-  .klab-app .klab-topbar.klab-shell-header {
-    max-width: none;
-  }
-}
+.klab-app .klab-nav-popover button[aria-current='page'] { background: var(--vn-blue); color: var(--vn-cream); }
 
-/* Koleksi media — akses yang selalu terjangkau dari Shell (milik 4a). */
-.klab-app .klab-collection-trigger {
-  display: inline-flex;
-  align-items: center;
-  gap: .35rem;
-  min-height: var(--shell-control);
-  padding: .3rem .7rem;
-  border: 1px solid var(--k-line);
-  border-radius: 999px;
-  background: var(--k-surface);
-  color: var(--k-text);
-  font-size: .8125rem;
-  font-weight: 650;
-  cursor: pointer;
-}
-.klab-app .klab-collection-trigger svg { inline-size: 1.1rem; block-size: 1.1rem; }
-.klab-app .klab-collection-trigger:hover { background: var(--k-tint); }
-.klab-app .klab-collection-trigger:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 2px; }
-
+/* Akses Koleksi dari Shell */
 .klab-app .klab-collection-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 20;
-  display: grid;
-  place-items: center;
-  padding: clamp(.5rem, 2vw, 1.5rem);
-  background: color-mix(in srgb, var(--k-text) 48%, transparent);
+  position: fixed; inset: 0; z-index: 20; display: grid; place-items: center;
+  padding: clamp(.5rem, 2vw, 1.5rem); background: color-mix(in srgb, #101526 66%, transparent);
 }
 .klab-app .klab-collection-dialog {
-  display: flex;
-  flex-direction: column;
-  inline-size: min(100%, 72rem);
-  max-block-size: calc(100dvh - 2rem);
-  overflow: hidden;
-  border: 1px solid var(--k-ink-line);
-  border-radius: 14px;
-  background: var(--k-canvas);
-  color: var(--k-text);
-  box-shadow: 0 24px 64px color-mix(in srgb, #000 34%, transparent);
+  display: flex; flex-direction: column; inline-size: min(100%, 74rem); max-block-size: calc(100dvh - 2rem);
+  overflow: hidden; border: 2px solid var(--vn-blue); border-radius: var(--vn-radius);
+  background: var(--vn-bg); color: var(--vn-on); box-shadow: var(--vn-shadow);
 }
 .klab-app .klab-collection-dialog-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: .8rem 1rem;
-  border-block-end: 1px solid var(--k-line);
-  background: var(--k-surface);
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: .75rem 1rem; border-block-end: 1px solid var(--vn-line); background: var(--vn-surface);
 }
-.klab-app .klab-collection-dialog-head h2 {
-  margin: 0;
-  font: 700 1.25rem/1.2 var(--k-editorial-serif, Georgia, serif);
-}
-.klab-app .klab-collection-dialog-head h2:focus-visible { outline: 3px solid var(--k-focus); outline-offset: 2px; }
+.klab-app .klab-collection-dialog-head h2 { margin: 0; color: var(--vn-on); font: 800 1.2rem/1.2 var(--vn-font); }
 .klab-app .klab-collection-close {
-  inline-size: 40px;
-  block-size: 40px;
-  flex: none;
-  border: 1px solid var(--k-line);
-  border-radius: .5rem;
-  background: var(--k-surface);
-  color: var(--k-text);
-  font-size: 1.5rem;
-  line-height: 1;
-  cursor: pointer;
+  inline-size: 40px; block-size: 40px; flex: none; border: 1px solid var(--vn-line); border-radius: 9px;
+  background: var(--vn-cream); color: var(--vn-blue); font-size: 1.5rem; line-height: 1; cursor: pointer;
 }
-.klab-app .klab-collection-close:hover { background: var(--k-tint); }
 .klab-app .klab-collection-dialog-body { overflow: auto; padding: .5rem 1.1rem 1.2rem; }
 @media (max-width: 900px) {
   .klab-app .klab-collection-trigger span { display: none; }
   .klab-app .klab-collection-overlay { padding: 0; }
   .klab-app .klab-collection-dialog { max-block-size: 100dvh; border-radius: 0; }
 }
-

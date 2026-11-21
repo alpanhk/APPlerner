@@ -1,0 +1,56 @@
+{
+  "task": "KONF-01-PENENTU",
+  "at": "2026-11-20T22:14:28.025Z",
+  "sha": "bbf336c9968666009b6af91337b025037041eeec0caca6383a2cace7d4c900f0",
+  "steps": {
+    "title": {
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nJelajah\nMateri\nKosakata\nBacaan\nLatihan\nDrill D1–D10\nUji A1 · Uji Tiruan\nMendengar\nMenulis\nPercakapan bercabang\nDrill D1–D10\nUji A1 · Uji Tiruan\nKoleksi aset\nPratinjau media\nCerita · Novel Visual\nAlur cerita bergambar"
+    },
+    "creator": {
+      "typed": false,
+      "started": false,
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nJelajah\nMateri\nKosakata\nBacaan\nLatihan\nDrill D1–D10\nUji A1 · Uji Tiruan\nMendengar\nMenulis\nPercakapan bercabang\nDrill D1–D10\nUji A1 · Uji Tiruan\nKoleksi aset\nPratinjau media\nCerita · Novel Visual\nAlur cerita bergambar",
+      "testids": [
+        "cover-index",
+        "cover-1",
+        "cover-2",
+        "cover-3",
+        "cover-4",
+        "cover-5",
+        "cover-6",
+        "cover-7",
+        "cover-8",
+        "cover-9",
+        "cover-10",
+        "cover-11",
+        "cover-12",
+        "cover-13",
+        "cover-14",
+        "cover-15",
+        "cover-16",
+        "cover-17",
+        "cover-18",
+        "cover-19"
+      ]
+    },
+    "story": {
+      "log": [
+        {
+          "i": 0,
+          "a": "none",
+          "tail": "A1 · Uji Tiruan\nMendengar\nMenulis\nPercakapan bercabang\nDrill D1–D10\nUji A1 · Uji Tiruan\nKoleksi aset\nPratinjau media\nCerita · Novel Visual\nAlur cerita bergambar"
+        }
+      ],
+      "langkah": 1,
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nJelajah\nMateri\nKosakata\nBacaan\nLatihan\nDrill D1–D10\nUji A1 · Uji Tiruan\nMendengar\nMenulis\nPercakapan bercabang\nDrill D1–D10\nUji A1 · Uji Tiruan\nKoleksi aset\nPratinjau media\nCerita · Novel Visual\nAlur cerita bergambar"
+    },
+    "close": {
+      "pids": [
+        7156
+      ],
+      "graceful": true,
+      "verified": true,
+      "remaining": []
+    }
+  }
+}

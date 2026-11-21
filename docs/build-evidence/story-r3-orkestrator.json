@@ -1,0 +1,410 @@
+{
+  "task": "STORY-R3-ORK",
+  "at": "2026-11-20T22:09:42.177Z",
+  "sha": "bbf336c9968666009b6af91337b025037041eeec0caca6383a2cace7d4c900f0",
+  "steps": {
+    "cari-title": {
+      "Kembali": {
+        "ok": false
+      },
+      "Kembali ke Hari Ini": {
+        "ok": false
+      },
+      "Hari Ini": {
+        "ok": true,
+        "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\n\nA1 · PELAJARAN 2\n\nMemesan minuman di kafe\n\nDengarkan percakapan singkat dan coba pesan minuman dalam bahasa Jerman.\n\nMulai pelajaran\n\nBelajar sedikit setiap hari lebih baik daripada sekali saja.",
+        "buttons": [
+          "Koleksi media",
+          "Hari Ini",
+          "Jelajah",
+          "Catatan",
+          "Profil",
+          "Mulai pelajaran"
+        ]
+      },
+      "Profil": {
+        "ok": true,
+        "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nSiapkan audio bahasa Jerman. Klip bawaan sudah mencakup materi A1 inti. Untuk teks bebas A2-B2, siapkan Piper saat terhubung internet.\nSiapkan suara\nLanjut tanpa suara\nProfil\nRingkasan\nStatistik\nPengaturan\nRekaman\nPemulihan\nPeralatan lama\nRingkasan belajar\n\nLihat statistik, pengaturan, dan",
+        "buttons": [
+          "Koleksi media",
+          "Hari Ini",
+          "Jelajah",
+          "Catatan",
+          "Profil",
+          "Siapkan suara",
+          "Lanjut tanpa suara",
+          "Ringkasan",
+          "Statistik",
+          "Pengaturan",
+          "Rekaman",
+          "Pemulihan",
+          "Peralatan lama",
+          "Statistik",
+          "Pengaturan",
+          "Rekaman saya",
+          "Backup & Pemulihan data"
+        ]
+      },
+      "Koleksi media": {
+        "ok": true,
+        "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nSiapkan audio bahasa Jerman. Klip bawaan sudah mencakup materi A1 inti. Untuk teks bebas A2-B2, siapkan Piper saat terhubung internet.\nSiapkan suara\nLanjut tanpa suara\nProfil\nRingkasan\nStatistik\nPengaturan\nRekaman\nPemulihan\nPeralatan lama\nRingkasan belajar\n\nLihat statistik, pengaturan, dan",
+        "buttons": [
+          "Koleksi media",
+          "Hari Ini",
+          "Jelajah",
+          "Catatan",
+          "Profil",
+          "Siapkan suara",
+          "Lanjut tanpa suara",
+          "Ringkasan",
+          "Statistik",
+          "Pengaturan",
+          "Rekaman",
+          "Pemulihan",
+          "Peralatan lama",
+          "Statistik",
+          "Pengaturan",
+          "Rekaman saya",
+          "Backup & Pemulihan data",
+          "×"
+        ]
+      }
+    },
+    "title": {
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nSiapkan audio bahasa Jerman. Klip bawaan sudah mencakup materi A1 inti. Untuk teks bebas A2-B2, siapkan Piper saat terhubung internet.\nSiapkan suara\nLanjut tanpa suara\nProfil\nRingkasan\nStatistik\nPengaturan\nRekaman\nPemulihan\nPeralatan lama\nRingkasan belajar\n\nLihat statistik, pengaturan, dan pemulihan data dari satu tempat.\n\nStatistik\nPengaturan\nRekaman saya\nBackup & Pemulihan data\nKoleksi aset & pratinjau media\n×\nKoleksi aset\n\nPratinjau ",
+      "buttons": [
+        "Koleksi media",
+        "Hari Ini",
+        "Jelajah",
+        "Catatan",
+        "Profil",
+        "Siapkan suara",
+        "Lanjut tanpa suara",
+        "Ringkasan",
+        "Statistik",
+        "Pengaturan",
+        "Rekaman",
+        "Pemulihan",
+        "Peralatan lama",
+        "Statistik",
+        "Pengaturan",
+        "Rekaman saya",
+        "Backup & Pemulihan data",
+        "×",
+        "Semua",
+        "Sampul",
+        "Karakter & pose",
+        "Latar",
+        "Properti",
+        "Ilustrasi",
+        "Suara tunggal",
+        "Musik",
+        "Ambience",
+        "Efek",
+        "Contoh tampilan",
+        "Kembali"
+      ]
+    },
+    "cerita-baru": {
+      "ok": false,
+      "body": "Lewati navigasi\nlernen\nBelajar di perangkatmu\nKoleksi media\nSiapkan audio bahasa Jerman. Klip bawaan sudah mencakup materi A1 inti. Untuk teks bebas A2-B2, siapkan Piper saat terhubung internet.\nSiapkan suara\nLanjut tanpa suara\nProfil\nRingkasan\nStatistik\nPengaturan\nRekaman\nPemulihan\nPeralatan lama\nRingkasan belajar\n\nLihat statistik, pengaturan, dan pemulihan data dari satu tempat.\n\nStatistik\nPengaturan\nRekaman saya\nBackup & Pemulihan data\nKoleksi aset & pratinjau media\n×\nKoleksi aset\n\nPratinjau media produksi: sampul, tokoh, latar, properti, ilustrasi, dan audio. Item draf atau alternatif diberi label.\n\nSemua\nSampul\nKarakter & pose\nLatar\nProperti\nIlustrasi\nSuara tunggal\nMusik\nAmbience\nEfek\nContoh tampilan\nCari media\nPratinjau cepat — satu contoh tiap jenis\n\nSatu contoh per jenis media; audio bisa diputar langsung. Item draf/alternatif tetap berlabel.\n\nHallo, ich bin Anna\nA1 · verified\nSa",
+      "buttons": [
+        {
+          "t": "Koleksi media",
+          "id": ""
+        },
+        {
+          "t": "",
+          "id": ""
+        },
+        {
+          "t": "",
+          "id": ""
+        },
+        {
+          "t": "Hari Ini",
+          "id": ""
+        },
+        {
+          "t": "Jelajah",
+          "id": ""
+        },
+        {
+          "t": "Catatan",
+          "id": ""
+        },
+        {
+          "t": "Profil",
+          "id": ""
+        },
+        {
+          "t": "Siapkan suara",
+          "id": ""
+        },
+        {
+          "t": "Lanjut tanpa suara",
+          "id": ""
+        },
+        {
+          "t": "Ringkasan",
+          "id": ""
+        },
+        {
+          "t": "Statistik",
+          "id": ""
+        },
+        {
+          "t": "Pengaturan",
+          "id": ""
+        },
+        {
+          "t": "Rekaman",
+          "id": ""
+        },
+        {
+          "t": "Pemulihan",
+          "id": ""
+        },
+        {
+          "t": "Peralatan lama",
+          "id": ""
+        },
+        {
+          "t": "Statistik",
+          "id": ""
+        },
+        {
+          "t": "Pengaturan",
+          "id": ""
+        },
+        {
+          "t": "Rekaman saya",
+          "id": ""
+        },
+        {
+          "t": "Backup & Pemulihan data",
+          "id": ""
+        },
+        {
+          "t": "×",
+          "id": ""
+        },
+        {
+          "t": "Semua",
+          "id": ""
+        },
+        {
+          "t": "Sampul",
+          "id": ""
+        },
+        {
+          "t": "Karakter & pose",
+          "id": ""
+        },
+        {
+          "t": "Latar",
+          "id": ""
+        },
+        {
+          "t": "Properti",
+          "id": ""
+        },
+        {
+          "t": "Ilustrasi",
+          "id": ""
+        },
+        {
+          "t": "Suara tunggal",
+          "id": ""
+        },
+        {
+          "t": "Musik",
+          "id": ""
+        },
+        {
+          "t": "Ambience",
+          "id": ""
+        },
+        {
+          "t": "Efek",
+          "id": ""
+        }
+      ],
+      "inputs": 1
+    },
+    "jalan-story": {
+      "log": [
+        {
+          "i": 0,
+          "act": "type"
+        },
+        {
+          "i": 1,
+          "act": "type"
+        },
+        {
+          "i": 2,
+          "act": "type"
+        },
+        {
+          "i": 3,
+          "act": "type"
+        },
+        {
+          "i": 4,
+          "act": "type"
+        },
+        {
+          "i": 5,
+          "act": "type"
+        },
+        {
+          "i": 6,
+          "act": "type"
+        },
+        {
+          "i": 7,
+          "act": "type"
+        },
+        {
+          "i": 8,
+          "act": "type"
+        },
+        {
+          "i": 9,
+          "act": "type"
+        },
+        {
+          "i": 10,
+          "act": "type"
+        },
+        {
+          "i": 11,
+          "act": "type"
+        },
+        {
+          "i": 12,
+          "act": "type"
+        },
+        {
+          "i": 13,
+          "act": "type"
+        },
+        {
+          "i": 14,
+          "act": "type"
+        },
+        {
+          "i": 15,
+          "act": "type"
+        },
+        {
+          "i": 16,
+          "act": "type"
+        },
+        {
+          "i": 17,
+          "act": "type"
+        },
+        {
+          "i": 18,
+          "act": "type"
+        },
+        {
+          "i": 19,
+          "act": "type"
+        },
+        {
+          "i": 20,
+          "act": "type"
+        },
+        {
+          "i": 21,
+          "act": "type"
+        },
+        {
+          "i": 22,
+          "act": "type"
+        },
+        {
+          "i": 23,
+          "act": "type"
+        },
+        {
+          "i": 24,
+          "act": "type"
+        },
+        {
+          "i": 25,
+          "act": "type"
+        },
+        {
+          "i": 26,
+          "act": "type"
+        },
+        {
+          "i": 27,
+          "act": "type"
+        },
+        {
+          "i": 28,
+          "act": "type"
+        },
+        {
+          "i": 29,
+          "act": "type"
+        },
+        {
+          "i": 30,
+          "act": "type"
+        },
+        {
+          "i": 31,
+          "act": "type"
+        },
+        {
+          "i": 32,
+          "act": "type"
+        },
+        {
+          "i": 33,
+          "act": "type"
+        },
+        {
+          "i": 34,
+          "act": "type"
+        },
+        {
+          "i": 35,
+          "act": "type"
+        },
+        {
+          "i": 36,
+          "act": "type"
+        },
+        {
+          "i": 37,
+          "act": "type"
+        },
+        {
+          "i": 38,
+          "act": "type"
+        },
+        {
+          "i": 39,
+          "act": "type"
+        }
+      ],
+      "langkah": 40,
+      "body": "turan\nRekaman saya\nBackup & Pemulihan data\nKoleksi aset & pratinjau media\n×\nKoleksi aset\n\nPratinjau media produksi: sampul, tokoh, latar, properti, ilustrasi, dan audio. Item draf atau alternatif diberi label.\n\nSemua\nSampul\nKarakter & pose\nLatar\nProperti\nIlustrasi\nSuara tunggal\nMusik\nAmbience\nEfek\nContoh tampilan\nCari media\nPratinjau cepat — satu contoh tiap jenis\n\nSatu contoh per jenis media; audio bisa diputar langsung. Item draf/alternatif tetap berlabel.\n\nHallo, ich bin Anna\nA1 · verified\nSampul khusus\nIm Café\ntextId 10\nIm Café\ntextId 10\nIm Café\ntextId 10\nAnna dan Budi berkenalan\nAnna menyapa Budi sambil belajar bahasa Jerman di meja bersama di Berlin. Buku tanpa tulisan dan Menara TV Berlin memberi konteks.\nsprechen:prompt-01:model:sentence-01\nBudi — Hallo, ich heiße Budi.\nidle · idle-jelajah-felt-70bpm.wav\nmusik\nambience · im-cafe-ruang-tenang.wav\nambience\ncue-materi · im-cafe-cangkir-di-meja.wav\nefek\nbacaan · contoh tampilan\nmockup antarmuka; bukan ilustrasi produksi\nDraf / alternatif\n\nMenampilkan 139 item\n\nHallo, ich bin Anna\nA1 · verified\nSampul khusus\nMeine Familie\nA1 · verified\nSampul khusus\nIn der Stadt\nA1 · verified\nSampul khusus\nEin Tag in Berlin\nA1 · verified\nSampul "
+    },
+    "close": {
+      "pids": [
+        1528
+      ],
+      "graceful": true,
+      "verified": true,
+      "remaining": []
+    }
+  }
+}

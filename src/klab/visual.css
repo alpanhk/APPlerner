@@ -1,0 +1,337 @@
+/* ==========================================================================
+   UIUX-VISUAL-NOVEL-20261121 / 4a — Sistem visual referensi tunggal.
+   Palet: #1f2740 / #b5533c / #f7efdd / #2c3e6b. Font Atkinson Hyperlegible.
+   Fokus 3px, fade 500ms, reduced motion, dua tema. CSS murni (tanpa Tailwind).
+   ========================================================================== */
+
+/* KONF-02: font benar-benar di-embed (SIL OFL), bukan sekadar daftar CSS. */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Atkinson Hyperlegible'), url('../assets/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+  src: local('Atkinson Hyperlegible Bold'), url('../assets/fonts/AtkinsonHyperlegible-Bold.ttf') format('truetype');
+}
+
+/* Terapkan di luar .klab-app agar computed style body & tombol cocok.
+   Spesifisitas `html body` mengalahkan base rule Tailwind/App yang dimuat kemudian. */
+html, html body, html #root,
+html :is(button, input, textarea, select, a) {
+  font-family: 'Atkinson Hyperlegible', 'Segoe UI', 'Noto Sans', system-ui, sans-serif;
+}
+
+.klab-app {
+  --vn-bg: #1f2740;
+  --vn-accent: #b5533c;
+  --vn-cream: #f7efdd;
+  --vn-blue: #2c3e6b;
+  --vn-ink: #1f2233;
+  --vn-muted: #6b5e4e;
+  --vn-surface: #f7efdd;
+  --vn-on: #1f2233;
+  --vn-line: color-mix(in srgb, var(--vn-blue) 28%, var(--vn-cream));
+  --vn-shadow: 0 8px 26px color-mix(in srgb, #101526 34%, transparent);
+  --vn-radius: 16px;
+  --vn-font: "Atkinson Hyperlegible", "Segoe UI", "Noto Sans", system-ui, sans-serif;
+  --vn-fade: 500ms;
+  background: var(--vn-bg);
+  color: var(--vn-on);
+  font-family: var(--vn-font);
+}
+.klab-app[data-theme='dark'] {
+  --vn-bg: #151b2e;
+  --vn-surface: #243257;
+  --vn-on: #f7efdd;
+  --vn-muted: #c7d2e8;
+  --vn-accent: #e0785d;
+  --vn-blue: #9fb4df;
+  --vn-line: color-mix(in srgb, var(--vn-blue) 38%, transparent);
+}
+.klab-app,
+.klab-app :is(button, input, textarea, select) { font-family: var(--vn-font); }
+
+@keyframes vn-fade { from { opacity: 0; } to { opacity: 1; } }
+.klab-app .vn-fade { animation: vn-fade var(--vn-fade) ease both; }
+.klab-app .vn-stage-fade { animation: vn-fade var(--vn-fade) ease both; }
+
+/* Fokus 3 px konsisten. */
+.klab-app :is(button, a, input, textarea, select, [role='button'], [tabindex]:not([tabindex='-1'])):focus-visible {
+  outline: 3px solid var(--vn-accent);
+  outline-offset: 2px;
+}
+
+/* Tombol referensi. */
+.klab-app :is(.button, .vn-btn) {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  min-height: 44px; padding: .55rem .95rem; border-radius: 10px;
+  font-family: var(--vn-font); font-weight: 700; font-size: .95rem;
+  cursor: pointer; transition: transform 90ms ease, background-color 160ms ease, box-shadow 160ms ease;
+  text-decoration: none;
+}
+.klab-app :is(.button, .vn-btn):active:not(:disabled) { transform: translateY(1px); }
+.klab-app .vn-btn-primary,
+.klab-app .button-primary,
+.klab-app .klab-app .button-primary:where(.vn-btn-primary) {
+  background: var(--vn-accent); color: #fff; border: 2px solid var(--vn-accent);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--vn-accent) 36%, transparent);
+}
+.klab-app .vn-btn-primary:hover { background: color-mix(in srgb, var(--vn-accent) 86%, #000); }
+.klab-app .vn-btn-secondary,
+.klab-app .button-secondary {
+  background: var(--vn-cream); color: var(--vn-blue); border: 2px solid var(--vn-blue);
+}
+.klab-app[data-theme='dark'] :is(.vn-btn-secondary, .button-secondary) {
+  background: color-mix(in srgb, var(--vn-blue) 26%, var(--vn-surface)); color: var(--vn-on);
+}
+.klab-app .vn-btn-ghost,
+.klab-app .button-text,
+.klab-app .button { background: transparent; color: var(--vn-blue); border: 1px solid var(--vn-line); }
+.klab-app[data-theme='dark'] :is(.vn-btn-ghost, .button-text) { color: var(--vn-on); }
+.klab-app .vn-btn-choice {
+  background: var(--vn-cream); color: var(--vn-ink); border: 2px solid var(--vn-line);
+  justify-content: flex-start; text-align: start;
+}
+.klab-app .vn-btn-choice:hover { border-color: var(--vn-accent); background: #fff8ea; }
+.klab-app .vn-chip,
+.klab-app .chip {
+  min-height: 36px; padding: .25rem .7rem; border-radius: 999px;
+  border: 1px solid var(--vn-line); background: var(--vn-cream); color: var(--vn-blue);
+  font-weight: 700;
+}
+.klab-app[data-theme='dark'] :is(.vn-chip, .chip) { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app [aria-pressed='true'].vn-chip,
+.klab-app [aria-pressed='true'].chip { border-color: var(--vn-accent); box-shadow: inset 0 0 0 2px var(--vn-accent); }
+
+/* Permukaan & panel. */
+.klab-app :is(.panel, .editorial-curriculum, .note-editor, .collection-item, .editorial-quick-preview,
+  .editorial-book-preview .preview-content, .vn-panel) {
+  background: var(--vn-surface);
+  color: var(--vn-on);
+  border: 1px solid var(--vn-line);
+  border-radius: var(--vn-radius);
+  box-shadow: var(--vn-shadow);
+}
+.klab-app :is(.muted, .editorial-chapter-meta, .shelf-count, .collection-copy small) { color: var(--vn-muted); }
+
+/* Judul halaman — tipografi berani referensi. */
+.klab-app :is(.editorial-page-header h1, .home h1, .shelf > h1) {
+  color: var(--vn-cream);
+  font-family: var(--vn-font);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.02;
+  text-shadow: 0 3px 12px #10152688;
+}
+.klab-app[data-theme='dark'] :is(.editorial-page-header h1, .home h1, .shelf > h1) { color: var(--vn-cream); }
+.klab-app :is(.editorial-page-header h2, .editorial-shelf-heading h2, .editorial-chapter h2,
+  .editorial-preview-heading, .editorial-excerpt) {
+  color: var(--vn-on); font-family: var(--vn-font); font-weight: 800; letter-spacing: -.015em;
+}
+
+/* Header/shell — latar gelap, aksen kream. */
+.klab-app .klab-topbar.klab-shell-header,
+.klab-app .klab-shell-brand { background: var(--vn-bg); color: var(--vn-cream); }
+.klab-app .klab-shell-brand { font-weight: 800; font-style: normal; letter-spacing: -.03em; }
+.klab-app :is(.klab-icon-button, .klab-collection-trigger, .klab-theme-toggle) {
+  background: color-mix(in srgb, var(--vn-cream) 90%, transparent);
+  color: var(--vn-blue); border: 1px solid var(--vn-cream);
+  border-radius: 10px; font-weight: 700;
+}
+.klab-app .klab-shell-content { color: var(--vn-on); }
+
+/* TitleScreen / hero Hari Ini. */
+.klab-app :is(.vn-title, .editorial-chapter) {
+  position: relative; overflow: hidden;
+  border-radius: var(--vn-radius);
+  box-shadow: var(--vn-shadow);
+}
+.klab-app .vn-title {
+  display: grid; align-content: end; gap: .6rem;
+  min-block-size: clamp(260px, 46vh, 460px);
+  padding: clamp(1.2rem, 4vw, 2.6rem);
+  background-image: linear-gradient(180deg, #1b203333, #1b2033cc);
+}
+.klab-app .vn-title > img:first-child {
+  position: absolute; inset: 0; inline-size: 100%; block-size: 100%; object-fit: cover; z-index: -1;
+  animation: vn-fade var(--vn-fade) ease both;
+}
+.klab-app .vn-title-art {
+  position: absolute; inset-block-start: 18%; inset-inline-end: clamp(1rem, 4vw, 2.5rem);
+  inline-size: clamp(5rem, 13vw, 9rem); aspect-ratio: 1; object-fit: cover;
+  border: 3px solid var(--vn-cream); border-radius: 14px; box-shadow: var(--vn-shadow);
+}
+.klab-app .vn-title:has(.vn-title-art) h1,
+.klab-app .vn-title:has(.vn-title-art) > p { padding-inline-end: clamp(4rem, 15vw, 10rem); }
+.klab-app .vn-title h1 {
+  margin: 0; color: #f7efdd; font-size: clamp(2.6rem, 6vw, 4.6rem); font-weight: 900;
+  letter-spacing: -.04em; text-shadow: 0 3px 14px #0009;
+}
+.klab-app .vn-title .vn-kicker {
+  color: #f7efdd; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .3em;
+}
+.klab-app .vn-title p { color: #f7efdd; margin: 0; }
+.klab-app .vn-title-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-block-start: .5rem; }
+
+/* Rak & cuplikan — pustaka kartu sampul. */
+.klab-app .shelf-grid.editorial-shelf-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr)); gap: 1rem; }
+.klab-app .book-card.editorial-book-card { background: transparent; box-shadow: none; }
+.klab-app .book-cover.editorial-book {
+  background: var(--vn-cream); color: var(--vn-blue);
+  border: 2px solid var(--vn-blue); box-shadow: 0 6px 16px #10152655;
+}
+.klab-app[data-theme='dark'] .book-cover.editorial-book { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app .editorial-book-print { padding: .55rem .6rem .55rem .8rem; background: color-mix(in srgb, var(--vn-cream) 92%, transparent); }
+.klab-app[data-theme='dark'] .editorial-book-print { background: var(--vn-surface); }
+.klab-app .editorial-book-level { color: var(--vn-accent); font-weight: 800; }
+.klab-app .editorial-book-title { color: var(--vn-blue); font-weight: 800; }
+.klab-app[data-theme='dark'] .editorial-book-title { color: var(--vn-on); }
+.klab-app .book-action.editorial-book-action { color: var(--vn-accent); font-weight: 750; }
+.klab-app .editorial-book-card:is(:hover, :focus-visible) .editorial-book { border-color: var(--vn-accent); box-shadow: 0 10px 26px #10152688; }
+.klab-app .editorial-shelf-heading h2 { color: var(--vn-cream); }
+.klab-app .visual-shelf-art img { border-radius: 8px; box-shadow: var(--vn-shadow); }
+
+/* Bacaan — permukaan kream di atas latar gelap. */
+.klab-app :is(.reader-content, .reading-pair) { background: var(--vn-surface); color: var(--vn-on); border-color: var(--vn-line); }
+.klab-app .reading-pair { border-radius: 10px; padding: .6rem .75rem; margin-block-start: .6rem; }
+.klab-app .reading-pair [lang='de'] { color: var(--vn-blue); font-weight: 800; }
+.klab-app[data-theme='dark'] .reading-pair [lang='de'] { color: var(--vn-on); }
+.klab-app .reading-pair[data-active='true'] [lang='de'] {
+  background: color-mix(in srgb, var(--vn-accent) 14%, var(--vn-surface));
+  box-shadow: inset 4px 0 0 var(--vn-accent);
+}
+
+/* Panggung & panel dialog referensi. */
+.klab-app :is(.vn-stage, .cafe-port-stage, .cafe-scene) {
+  background: var(--vn-bg); border-radius: var(--vn-radius); overflow: hidden;
+}
+.klab-app .vn-stage { position: relative; inline-size: 100%; aspect-ratio: 16 / 9; }
+.klab-app .vn-stage > img.vn-bg { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; object-fit: cover; }
+.klab-app .vn-stage .vn-shade {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, #1b20331a, transparent 45%, #1b2033b3);
+}
+.klab-app .vn-char { position: absolute; bottom: 20%; block-size: 70%; aspect-ratio: 320 / 440; filter: drop-shadow(0 8px 12px #14142866); }
+.klab-app .vn-char[data-side='left'] { left: 6%; }
+.klab-app .vn-char[data-side='right'] { right: 6%; }
+.klab-app .vn-char[data-speaking='false'] { filter: brightness(.82) drop-shadow(0 8px 12px #14142866); }
+.klab-app :is(.vn-dialog, .cafe-port-stage > div:last-child, .cafe-immersive-caption) {
+  background: color-mix(in srgb, var(--vn-cream) 96%, transparent);
+  color: var(--vn-ink);
+  border: 2px solid var(--vn-blue);
+  border-radius: var(--vn-radius);
+  box-shadow: 0 -6px 30px #14193259;
+  padding: clamp(.8rem, 2vw, 1.25rem);
+}
+.klab-app[data-theme='dark'] :is(.vn-dialog, .cafe-port-stage > div:last-child, .cafe-immersive-caption) {
+  background: var(--vn-surface); color: var(--vn-on); border-color: var(--vn-blue);
+}
+.klab-app .vn-speaker {
+  display: inline-block; background: var(--vn-blue); color: var(--vn-cream);
+  border-radius: 8px; padding: .2rem .7rem; font-size: .85rem; font-weight: 800;
+}
+.klab-app .vn-line { color: var(--vn-ink); font-size: var(--vn-dialog-size, 1.25rem); font-weight: 700; margin: .45rem 0 .25rem; }
+.klab-app[data-theme='dark'] .vn-line { color: var(--vn-on); }
+.klab-app .vn-translation { color: var(--vn-muted); border-inline-start: 4px solid var(--vn-accent); padding-inline-start: .7rem; }
+.klab-app .vn-actions { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: flex-end; margin-block-start: .6rem; }
+.klab-app .vn-badge-de { border: 1px solid var(--vn-accent); color: var(--vn-accent); border-radius: 4px; padding: 0 .35rem; font-size: .7rem; font-weight: 800; }
+
+/* CharacterCreator / ResultScreen / Panels. */
+.klab-app :is(.vn-creator, .vn-result, .vn-modal) {
+  background: var(--vn-surface); color: var(--vn-on);
+  border: 2px solid var(--vn-line); border-radius: var(--vn-radius);
+  box-shadow: var(--vn-shadow); padding: clamp(1rem, 3vw, 1.6rem);
+}
+.klab-app .vn-modal { max-inline-size: 40rem; margin-inline: auto; }
+.klab-app .vn-swatch[aria-checked='true'] { border-color: var(--vn-accent); box-shadow: inset 0 0 0 2px var(--vn-accent); }
+.klab-app .vn-swatch { display: inline-flex; align-items: center; gap: .4rem; min-height: 40px; padding: .3rem .7rem;
+  border: 2px solid var(--vn-line); border-radius: 10px; background: var(--vn-cream); color: var(--vn-ink); font-weight: 700; }
+.klab-app[data-theme='dark'] .vn-swatch { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app .vn-swatch-dot { inline-size: 16px; block-size: 16px; border-radius: 50%; border: 1px solid #0004; }
+.klab-app .vn-tabs { display: flex; gap: .4rem; flex-wrap: wrap; }
+.klab-app .vn-tabs button { min-height: 40px; padding: .3rem .75rem; border: 1px solid var(--vn-line);
+  border-radius: 999px; background: var(--vn-cream); color: var(--vn-blue); font-weight: 700; }
+.klab-app[data-theme='dark'] .vn-tabs button { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app .vn-tabs button[aria-pressed='true'] { border-color: var(--vn-accent); box-shadow: inset 0 0 0 2px var(--vn-accent); }
+
+/* Koleksi & pratinjau. */
+.klab-app :is(.editorial-collection-grid, .editorial-quick-preview ul) { gap: .8rem; }
+.klab-app .collection-item { animation: vn-fade var(--vn-fade) ease both; }
+.klab-app .collection-preview { background: color-mix(in srgb, var(--vn-cream) 70%, var(--vn-blue)); border-radius: 10px; }
+.klab-app .collection-label { color: var(--vn-accent); border-color: var(--vn-accent); }
+
+/* Navigasi & tab lama tetap terbaca. */
+.klab-app .tabs button { border-radius: 999px; font-weight: 700; }
+.klab-app .tabs button[aria-pressed='true'] { background: var(--vn-blue); color: var(--vn-cream); border-color: var(--vn-blue); }
+.klab-app .unit-row, .klab-app .note-item { border-radius: 12px; background: var(--vn-surface); color: var(--vn-on); }
+.klab-app :is(.unit-row, .note-item)[data-active='true'], .klab-app .note-item[data-selected='true'] {
+  box-shadow: inset 0 0 0 2px var(--vn-accent);
+}
+
+/* Keadaan status teks+simbol. */
+.klab-app [data-state='pending']::after { content: ' \2026 Menunggu'; font-weight: 700; }
+.klab-app [data-state='success']::after { content: ' \2713 Tersimpan'; font-weight: 700; }
+.klab-app [data-state='error']::after { content: ' \26A0 Coba lagi'; font-weight: 700; }
+
+/* Reduced motion — OS dan setelan aplikasi. */
+@media (prefers-reduced-motion: reduce) {
+  .klab-app .vn-fade, .klab-app .vn-stage-fade, .klab-app .vn-title > img,
+  .klab-app .collection-item { animation: none !important; }
+  .klab-app :is(.button, .vn-btn, .vn-chip, .vn-swatch, .book-card):active { transform: none; }
+}
+html[data-reduced-motion='true'] .klab-app .vn-fade,
+html[data-reduced-motion='true'] .klab-app .vn-stage-fade,
+html[data-reduced-motion='true'] .klab-app .vn-title > img,
+html[data-reduced-motion='true'] .klab-app .collection-item { animation: none !important; }
+html[data-reduced-motion='true'] .klab-app :is(.button, .vn-btn, .vn-chip, .vn-swatch, .book-card):active { transform: none; }
+
+/* Detail komponen referensi. */
+.klab-app .vn-kicker { text-transform: uppercase; letter-spacing: .22em; font-size: .75rem; font-weight: 800; color: var(--vn-accent); }
+.klab-app .vn-muted { color: var(--vn-muted); }
+.klab-app .vn-accent-text { color: var(--vn-accent); }
+.klab-app .vn-portrait { inline-size: 100%; block-size: 100%; }
+.klab-app .vn-creator {
+  display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 1.5rem; align-items: start;
+}
+.klab-app .vn-creator-preview { display: grid; gap: .5rem; justify-items: center; }
+.klab-app .vn-creator-preview > svg { inline-size: min(100%, 260px); aspect-ratio: 320 / 440; border-radius: 12px; background: linear-gradient(#c9d6e8, #e9dfc9); }
+.klab-app .vn-creator h2, .klab-app .vn-panel h2, .klab-app .vn-result h2 { margin: 0 0 .8rem; color: var(--vn-on); font-weight: 800; }
+.klab-app .vn-field { display: grid; gap: .3rem; margin-block: .7rem; font-weight: 700; }
+.klab-app .vn-field input { min-height: 44px; padding: .5rem .7rem; border: 2px solid var(--vn-line); border-radius: 10px; background: var(--vn-cream); color: var(--vn-ink); }
+.klab-app[data-theme='dark'] .vn-field input { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app .vn-fieldset { border: 0; padding: 0; margin: .9rem 0 0; }
+.klab-app .vn-fieldset legend { font-weight: 800; margin-block-end: .4rem; }
+.klab-app .vn-swatches { display: flex; gap: .45rem; flex-wrap: wrap; }
+.klab-app .vn-error { border-inline-start: 4px solid var(--vn-accent); background: color-mix(in srgb, var(--vn-accent) 12%, var(--vn-surface)); padding: .45rem .7rem; border-radius: 8px; }
+.klab-app .vn-dialog-head { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.klab-app .vn-turn { background: var(--vn-accent); color: #fff; border-radius: 6px; padding: .2rem .5rem; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.klab-app .vn-prompt { margin: 0; font-weight: 700; color: var(--vn-muted); }
+.klab-app .vn-chips, .klab-app .vn-choice-list { display: flex; gap: .45rem; flex-wrap: wrap; list-style: none; margin: .6rem 0; padding: 0; }
+.klab-app .vn-answer { display: grid; gap: .6rem; }
+.klab-app .vn-answer-row { display: flex; gap: .5rem; }
+.klab-app .vn-answer-row input { flex: 1; min-inline-size: 0; min-height: 44px; padding: .5rem .7rem; border: 2px solid var(--vn-line); border-radius: 10px; background: var(--vn-cream); color: var(--vn-ink); }
+.klab-app[data-theme='dark'] .vn-answer-row input { background: var(--vn-surface); color: var(--vn-on); }
+.klab-app .vn-answer-tools { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.klab-app .vn-hints { background: color-mix(in srgb, var(--vn-blue) 10%, var(--vn-surface)); border-radius: 10px; padding: .6rem .8rem; }
+.klab-app .vn-panel-body { display: grid; gap: .6rem; }
+.klab-app .vn-library-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 9rem), 1fr)); gap: .7rem; margin-block-start: .8rem; }
+.klab-app .vn-modal-overlay { position: fixed; inset: 0; z-index: 22; display: grid; place-items: center; padding: 1rem; background: color-mix(in srgb, #101526 66%, transparent); }
+.klab-app .vn-modal { inline-size: min(100%, 40rem); }
+.klab-app .vn-result { text-align: start; }
+.klab-app .vn-result-summary { font-size: 1.15rem; font-weight: 700; color: var(--vn-on); }
+.klab-app .vn-result ul { padding-inline-start: 1.1rem; }
+
+/* Dua ukuran. */
+@media (max-width: 900px) {
+  .klab-app .vn-title { min-block-size: 240px; padding: 1rem; }
+  .klab-app .shelf-grid.editorial-shelf-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 8rem), 1fr)); }
+  .klab-app :is(.notes-layout, .preview-content.editorial-preview-content) { grid-template-columns: minmax(0, 1fr); }
+  .klab-app .vn-char { block-size: 60%; }
+}

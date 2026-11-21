@@ -1,0 +1,67 @@
+{
+  "task": "RIWAYAT-TUTUP-ORK",
+  "at": "2026-11-21T09:06:03.920Z",
+  "sha": "961e664ac36ff662423d724f83fe739f549d0bdf4a6de7e5ef66a03434a4d062",
+  "steps": {
+    "mulai": {
+      "klik": true,
+      "titleButtons": [
+        "Mulai cerita",
+        "Perpustakaan",
+        "Pengaturan"
+      ],
+      "creator": "Pratinjau: —\n\nSiapa kamu di kota ini?\nNama panggilanNama ini akan dipakai NPC sepanjang cerita.\nGaya rambut\nPendek\n✓\nSebahu\nPanjang\nIkal\nWarna rambut\nHitam\n✓\nCokelat\nKemerahan\nPirang\nWarna kulit\nTerang\nSawo\n✓\nCokelat\nGelap\nWarna pakaian\nBiru tua\n✓\nMerah bata\nHijau laut\nKuning tanah\n‹ Kembali\nMulai prolog ▸"
+    },
+    "masuk-story": {
+      "start": false,
+      "body": "Pratinjau: —\n\nSiapa kamu di kota ini?\nNama panggilanNama ini akan dipakai NPC sepanjang cerita.\nGaya rambut\nPendek\n✓\nSebahu\nPanjang\nIkal\nWarna rambut\nHitam\n✓\nCokelat\nKemerahan\nPirang\nWarna kulit\nTerang\nSawo\n✓\nCokelat\nGelap\nWarna pakaian\nBiru tua\n✓\nMerah bata\nHijau laut\nKuning tanah\n‹ Kembali\nMulai prolog ▸",
+      "rootLen": 278,
+      "buttons": [
+        "Pendek✓",
+        "Sebahu",
+        "Panjang",
+        "Ikal",
+        "Hitam✓",
+        "Cokelat",
+        "Kemerahan",
+        "Pirang",
+        "Terang",
+        "Sawo✓",
+        "Cokelat",
+        "Gelap",
+        "Biru tua✓",
+        "Merah bata",
+        "Hijau laut",
+        "Kuning tanah",
+        "‹ Kembali",
+        "Mulai prolog ▸"
+      ]
+    },
+    "riwayat-tutup": {
+      "opened": false,
+      "aria": "",
+      "rootSaat": 278,
+      "rootSesudah": 278,
+      "exceptions": 0,
+      "consoleErrors": 0,
+      "sesudahBody": "Pratinjau: —\n\nSiapa kamu di kota ini?\nNama panggilanNama ini akan dipakai NPC sepanjang cerita.\nGaya rambut\nPendek\n✓\nSebahu\nPanjang\nIkal\nWarna rambut\nHitam\n✓\nCokelat\nKemerahan\nPirang\nWarna kulit\nTerang\nSawo\n✓\nCokelat\nGelap\nWarna pakaian\nBiru tua\n✓\nMerah bata\nHijau laut\nKuning tanah\n‹ Kembali\nMulai prolog ▸"
+    },
+    "panel-lain": {
+      "Jurnal": false,
+      "JurnalRoot": 278,
+      "Perpustakaan": false,
+      "PerpustakaanRoot": 278,
+      "Pengaturan": false,
+      "PengaturanRoot": 278
+    },
+    "close": {
+      "pids": [
+        4752
+      ],
+      "graceful": true,
+      "verified": true,
+      "remaining": []
+    }
+  },
+  "exceptions": []
+}

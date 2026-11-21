@@ -9,6 +9,7 @@ import type {
 import type { Note, Preferences } from "../klab/contracts";
 import type { Route } from "../klab/routes";
 import type { ContinueTarget } from "./sessionRegistry";
+import { coverSrc } from "./mediaResolver";
 
 export type ProgressModel = { title: string; done: number; total: number; units: UnitItemData[] };
 
@@ -60,6 +61,8 @@ export function todayQuickLinks(): QuickLinkData[] {
     { id: "drills", label: "Mulai D1 (Drill)", icon: "play", meta: "Artikel der/die/das" },
     { id: "srs", label: "Ulangi kosakata (SRS)", icon: "book", meta: "Menunggu antrean" },
     { id: "reading", label: "Baca & dengarkan", icon: "book", meta: "Rak Im Café" },
+    // ROMBAK UI/UX: pintu masuk cerita bergambar, label awam tanpa jargon.
+    { id: "story", label: "Cerita · Novel Visual", icon: "book", meta: "Alur cerita bergambar" },
   ];
 }
 
@@ -116,6 +119,8 @@ export function exploreBooks(): BookItemData[] {
     meta: `${reading.level} · Bacaan`,
     label: `${reading.level} · ${reading.tags || "Bacaan"}`,
     lead: reading.sentences[0]?.de,
+    // Satu resolver media untuk rak: sampul sama dengan cuplikan/Stage/Koleksi.
+    image: coverSrc(reading.textId),
   }));
 }
 
@@ -145,6 +150,7 @@ export function explorePracticeLinks(): PracticeLinkData[] {
     { id: "drills", label: "Drill D1–D10" },
     { id: "exam", label: "Uji Tiruan A1" },
     { id: "collection", label: "Koleksi aset", meta: "Pratinjau media" },
+    { id: "story", label: "Cerita · Novel Visual", meta: "Alur cerita bergambar" },
   ];
 }
 
