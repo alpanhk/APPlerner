@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { CHAPTER_ONE } from "../data/story/chapters";
 import { profileKey } from "../storage/profiles";
 import { LocalRecording } from "./LocalRecording";
 import { assessChapter } from "../engine/chapterAnswers";
@@ -51,7 +52,7 @@ export function ChapterOne({player,onBack,onLegacy,onNext,soundOn,reducedMotion}
  const transferPrompts=["Sapa penjaga buku pada siang hari.","Perkenalkan dirimu dan tanyakan nama penjaga secara sopan.","Kartu baru: kamu berasal dari Stuttgart dan sekarang tinggal di Bonn. Jelaskan keduanya.","Kartu baru: Amir teman laki-laki, 30 tahun. Kenalkan dia dan tanyakan umur penjaga secara sopan.","Untuk halaman baru, tulis label tunggal Freund, Freundin, Jahr dan label jamak Länder, Jahre."];
  const prompt=data.phase==="practice"?goal.practice:data.phase==="task"?goal.task:review?.question;
  const options=data.phase==="practice"?goal.practiceOptions:data.phase==="task"?goal.options:review?.options;
- return <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]"><div className="mx-auto max-w-5xl p-3"><header className="flex flex-wrap items-center gap-2"><button className="btn-top" onClick={()=>{stop();onBack();}}>Judul</button><button className="btn-top" onClick={()=>{stop();onLegacy();}}>Cerita A1 lama / Bab 02</button><h1 className="text-xl font-black">A1 · Bab 01 · Tanda cangkir di balik surat</h1></header>
+ return <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]"><div className="mx-auto max-w-5xl p-3"><header className="flex flex-wrap items-center gap-2"><button className="btn-top" onClick={()=>{stop();onBack();}}>Judul</button><button className="btn-top" onClick={()=>{stop();onLegacy();}}>Cerita A1 lama / Bab 02</button><h1 className="text-xl font-black">A1 · Bab 01 · {CHAPTER_ONE.title}</h1></header>
  <p className="my-2">{data.phase==="done"||data.phase==="review"?"Jurnal dan ulasan":data.phase==="transfer"?"Pertemuan mandiri · penjaga buku":`${data.index+1}/5 · ${goal.title}`} · {player.name} · {data.phase==="task"||data.phase==="transfer"?"menulis":"membaca"}</p>
  {data.phase!=="done" && data.phase!=="review" && <div className="relative h-[32vh] min-h-[160px] overflow-hidden rounded-lg"><Stage stage={stage} player={player} speakingChar={speaking} mouthOpen={open} reducedMotion={reducedMotion}/>{data.phase==="transfer" && <img alt="" className="absolute bottom-0 right-[6%] h-[75%] object-contain" src={import.meta.env.BASE_URL+"a1-story/actors/penjaga-buku-ch01/neutral.png"}/>} {visualActor==="eva" && data.phase!=="transfer" && <img alt="" className="absolute bottom-0 right-[6%] h-[90%] object-contain" src={import.meta.env.BASE_URL+"a1-story/actors/eva/neutral.png"}/>}</div>}
  <section className="mt-3 rounded-xl bg-[#f7efdd] p-4 text-[#1f2233]" aria-live="polite">

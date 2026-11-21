@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Attempt, CharId, ChoiceOption, InputNode, Progress, Settings } from "./types";
 import { AudioController, type SpeechState } from "./audio/AudioController";
+import { checkpointTitle, continueDestination } from "./storage/storyCheckpoint";
 import { createProfile, initProfiles, profileKey, selectProfile } from "./storage/profiles";
 import { DEFAULT_PLAYER, localStore } from "./storage/progress";
 import { PROLOG_START } from "./data/story/prolog";
@@ -194,10 +195,11 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   };
   const continueSaved = () => {
     if (!saved) return;
-    if (saved.prologCompleted && saved.flags?.letterOpened) {
+    const destination = continueDestination(saved);
+    if (destination !== "story") {
       setGame(fromProgress(saved));
       beginStoryForPlayer(saved.player.portrait, saved.player.name);
-      setScreen(localStorage.getItem(profileKey("lernen.chapter02.active")) === "1" ? "kiosk" : "chapter-one");
+      setScreen(destination);
       return;
     }
     audio.unlock();
@@ -314,7 +316,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   return (
     <div className={`arena-root relative h-dvh w-full overflow-hidden bg-[#1f2740] font-sans ${textSizeClass}`}>
       {screen === "title" && (
-        <TitleScreen profiles={registry.profiles} activeId={registry.active} onSelectProfile={(id) => { try { setRegistry(selectProfile(id)); setSaved(localStore.loadProgress()); setGame(null); } catch { window.alert("Profil tidak dapat dibuka; data tidak diubah."); } }} hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
+        <TitleScreen checkpoint={checkpointTitle(continueDestination(saved))} profiles={registry.profiles} activeId={registry.active} onSelectProfile={(id) => { try { setRegistry(selectProfile(id)); setSaved(localStore.loadProgress()); setGame(null); } catch { window.alert("Profil tidak dapat dibuka; data tidak diubah."); } }} hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
       )}
       {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("station"); }} onHear={(portrait) => { audio.unlock(); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
 
