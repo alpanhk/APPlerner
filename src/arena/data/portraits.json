@@ -46,5 +46,9 @@
   "penjual-pakaian": {
     "neutral": "actors/penjual-pakaian/neutral.png",
     "open": "actors/penjual-pakaian/talk-open.png"
+  },
+  "kasir": {
+    "neutral": "actors/kasir/neutral.png",
+    "open": "actors/kasir/talk-open.png"
   }
 }

@@ -11,4 +11,5 @@ export const CHAPTER_TWO = chapter('a1-ch02');
 export const CHAPTER_THREE = chapter('a1-ch03');
 export const CHAPTER_FOUR = chapter('a1-ch04');
 export const CHAPTER_FIVE = chapter('a1-ch05');
+export const CHAPTER_SIX = chapter('a1-ch06');
 export const KIOSK_SCENE = CHAPTER_TWO.scenes.find(scene => scene.id === 's01')!;
