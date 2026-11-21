@@ -5,6 +5,7 @@ import { arenaPortrait, playerIds } from "../portraits";
 
 // ===== Layar judul =====
 export function TitleScreen({
+  profiles, activeId, onSelectProfile,
   hasSave,
   saveName,
   onStart,
@@ -14,6 +15,7 @@ export function TitleScreen({
   onLearning,
   onPractice,
 }: {
+  profiles: {id:string;name:string;portrait?:string}[]; activeId:string|null; onSelectProfile:(id:string)=>void;
   hasSave: boolean;
   saveName?: string;
   onStart: () => void;
@@ -45,6 +47,7 @@ export function TitleScreen({
             Prolog: <span className="font-semibold italic">Surat untuk Siapa?</span>
           </p>
         </div>
+        {profiles.length > 0 && <label className="rounded bg-[#1b2033]/90 p-2 text-white">Pemain aktif <select aria-label="Pemain aktif" className="ml-2 rounded bg-white p-1 text-[#1f2233]" value={activeId ?? ""} onChange={e=>onSelectProfile(e.target.value)}>{profiles.map((p,i)=><option value={p.id} key={p.id}>{p.name} · profil {i+1}</option>)}</select></label>}
         <nav className="mt-4 flex w-full max-w-sm flex-col gap-2" aria-label="Menu utama">
           {hasSave && (
             <button ref={first} type="button" onClick={onContinue} className="btn-primary w-full justify-center text-lg">
@@ -130,7 +133,7 @@ export function CharacterCreator({
             submit();
           }}
         >
-          <h2 className="text-2xl font-black text-[#2c3e6b]">Siapa kamu di kota ini?</h2>
+          <h2 className="text-2xl font-black text-[#2c3e6b]">Profil baru · Siapa kamu di kota ini?</h2>
           <label className="block">
             <span className="text-sm font-semibold text-[#4b4238]">Nama panggilan</span>
             <input

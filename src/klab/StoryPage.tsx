@@ -1,3 +1,4 @@
+import { profileKey } from "../arena/storage/profiles";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import "./story.css";
 import storyData from "./story-data.json";
@@ -34,7 +35,7 @@ const decisions: Record<string, { task: string; options: string[]; correct: stri
 function savedCursor(): Cursor {
   const fallback = { chapter: 0, goal: 0, player: "" };
   try {
-    const saved = JSON.parse(localStorage.getItem(storageKey) ?? "null");
+    const saved = JSON.parse(localStorage.getItem(profileKey(storageKey)) ?? "null");
     if (!saved || !(saved.player === "" || players.includes(saved.player)) || !Number.isInteger(saved.chapter) ||
       saved.chapter < 0 || saved.chapter > 11 || !Number.isInteger(saved.goal) || saved.goal < 0) return fallback;
     return saved;
@@ -44,7 +45,7 @@ function savedCursor(): Cursor {
 export function beginStoryForPlayer(portrait: string | undefined, name: string) {
   const previous = savedCursor();
   const player = portrait && players.includes(portrait) ? portrait : players[0];
-  localStorage.setItem(storageKey, JSON.stringify({ ...previous, player, name, letterOpened: true }));
+  localStorage.setItem(profileKey(storageKey), JSON.stringify({ ...previous, player, name, letterOpened: true }));
 }
 
 export default function StoryPage({ initialChapter, paused = false }: { initialChapter?: number; paused?: boolean }) {
@@ -55,7 +56,7 @@ export default function StoryPage({ initialChapter, paused = false }: { initialC
     return { ...saved, chapter, goal: chapter === saved.chapter ? saved.goal : saved.positions?.[chapter] ?? 0 };
   });
   useEffect(() => {
-    localStorage.setItem(storageKey, JSON.stringify(cursor));
+    localStorage.setItem(profileKey(storageKey), JSON.stringify(cursor));
   }, [cursor]);
 
   const chapter = story.chapters[cursor.chapter];
@@ -114,18 +115,18 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
   const dialog = [...goal.intro, ...goal.dialog];
   const stepKey = storageKey + ":" + goal.id;
   const [savedStep] = useState<{ turn?: number; feedback?: "correct" | "retry"; assisted?: boolean; transcriptOpened?: boolean }>(() => {
-    try { return JSON.parse(localStorage.getItem(stepKey) ?? "{}") ?? {}; }
+    try { return JSON.parse(localStorage.getItem(profileKey(stepKey)) ?? "{}") ?? {}; }
     catch { return {}; }
   });
   const [turnIndex, setTurnIndex] = useState(savedStep.turn ?? 0);
   const [feedback, setFeedback] = useState(savedStep.feedback);
   const [text, setText] = useState(() => {
-    try { return JSON.parse(localStorage.getItem(stepKey) ?? "{}").text ?? ""; } catch { return ""; }
+    try { return JSON.parse(localStorage.getItem(profileKey(stepKey)) ?? "{}").text ?? ""; } catch { return ""; }
   });
   const [transcriptOpened, setTranscriptOpened] = useState(savedStep.transcriptOpened ?? false);
   const [assisted, setAssisted] = useState(savedStep.assisted ?? false);
   useEffect(() => {
-    localStorage.setItem(stepKey, JSON.stringify({ turn: turnIndex, feedback, assisted, text, transcriptOpened }));
+    localStorage.setItem(profileKey(stepKey), JSON.stringify({ turn: turnIndex, feedback, assisted, text, transcriptOpened }));
   }, [stepKey, turnIndex, feedback, assisted, text, transcriptOpened]);
   const [variation, setVariation] = useState(false);
   const [variationCorrect, setVariationCorrect] = useState<boolean>();
@@ -145,7 +146,7 @@ function StoryScene({ story, chapter, goal, player, paused, next }: {
   const variants = examples.length ? examples.map(answer => answer.text) : [...goal.task.matchAll(/«([^»{}]+)»/g)].map(match => match[1]);
   const canAnswer = turnIndex >= dialog.length - 1;
   const moveOn = (outcome?: Outcome) => {
-    localStorage.removeItem(stepKey);
+    localStorage.removeItem(profileKey(stepKey));
     next(outcome);
   };
 

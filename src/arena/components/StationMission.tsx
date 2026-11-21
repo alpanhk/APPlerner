@@ -1,3 +1,4 @@
+import { profileKey } from "../storage/profiles";
 import { useEffect, useRef, useState } from "react";
 import { assessPlatformMessage } from "../engine/message";
 import { readiness, type Evidence } from "../engine/readiness";
@@ -12,7 +13,7 @@ type Event = { kind: string; stimulus: string; value: string; at: number; suppor
 type Mission = { phase: Phase; answer: string; question: string; message: string; transcript: Record<string, boolean>; played: Record<string, boolean>; failed: Record<string, boolean>; events: Event[]; transferFresh?: boolean };
 const key = "lernen.station.v1";
 const fresh = (): Mission => ({phase:"ticket",answer:"",question:"",message:"",transcript:{},played:{},failed:{},events:[]});
-function load(): Mission { try { const v = JSON.parse(localStorage.getItem(key) || "null"); return v && Array.isArray(v.events) && ["ticket","listen4","listen5","ask","message","result","transfer","delayed"].includes(v.phase) ? {...fresh(), ...v} : fresh(); } catch { return fresh(); } }
+function load(): Mission { try { const v = JSON.parse(localStorage.getItem(profileKey(key)) || "null"); return v && Array.isArray(v.events) && ["ticket","listen4","listen5","ask","message","result","transfer","delayed"].includes(v.phase) ? {...fresh(), ...v} : fresh(); } catch { return fresh(); } }
 export function StationMission({ onBack, soundOn }: {onBack: () => void; soundOn: boolean}) {
   const [data, setData] = useState<Mission>(load);
   const current = useRef(data); current.current = data;
@@ -29,7 +30,7 @@ export function StationMission({ onBack, soundOn }: {onBack: () => void; soundOn
   const locked = useRef(false);
   const lastAttempt = useRef("");
   const lastMessage = useRef("");
-  const update = (fn: (v: Mission) => Mission) => { const next=fn(current.current); current.current=next; setData(next); try { localStorage.setItem(key,JSON.stringify(next)); } catch { setFeedback("Penyimpanan tidak tersedia; progres mungkin tidak tersimpan."); } };
+  const update = (fn: (v: Mission) => Mission) => { const next=fn(current.current); current.current=next; setData(next); try { localStorage.setItem(profileKey(key),JSON.stringify(next)); } catch { setFeedback("Penyimpanan tidak tersedia; progres mungkin tidak tersimpan."); } };
   const event = (kind: string, stimulus: string, value: string, extra: Partial<Event> = {}): Event => ({kind,stimulus,value,at:Date.now(),...extra});
   const stop = () => { audio.current?.pause(); audio.current = null; setPlaying(false); };
   const clearRecording = () => { if (urlRef.current) URL.revokeObjectURL(urlRef.current); urlRef.current=""; setRecordingUrl(""); };

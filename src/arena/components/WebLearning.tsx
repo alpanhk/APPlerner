@@ -1,3 +1,4 @@
+import { profileKey } from "../storage/profiles";
 import { useMemo, useRef, useState } from "react";
 import { READINGS } from "../data";
 import type { Route } from "../../klab/routes";
@@ -5,7 +6,7 @@ import type { Route } from "../../klab/routes";
 type Result = { attempts: number; correct: number; lastAt: number };
 type Progress = Record<string, Result>;
 const STORAGE = "lernen.web-reading.v1";
-function load(): Progress { try { const v=JSON.parse(localStorage.getItem(STORAGE) ?? "{}"); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; } catch { return {}; } }
+function load(): Progress { try { const v=JSON.parse(localStorage.getItem(profileKey(STORAGE)) ?? "{}"); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; } catch { return {}; } }
 export function WebLearning({ onBack, route }: {onBack:()=>void; route?:Route}) {
   const [progress,setProgress]=useState(load);
   const [level,setLevel]=useState("A1");
@@ -26,7 +27,7 @@ export function WebLearning({ onBack, route }: {onBack:()=>void; route?:Route}) 
     const correct=choice===sentence.id;
     const prev=progress[String(text.textId)] ?? {attempts:0,correct:0,lastAt:0};
     const next={...progress,[text.textId]:{attempts:prev.attempts+1,correct:prev.correct+(correct?1:0),lastAt:Date.now()}};
-    try {localStorage.setItem(STORAGE,JSON.stringify(next));setProgress(next);setFeedback(correct?"Benar. Ini latihan membaca, bukan bukti kelulusan.":"Belum tepat. Baca kembali kalimat dan terjemahannya, lalu coba lagi.");}
+    try {localStorage.setItem(profileKey(STORAGE),JSON.stringify(next));setProgress(next);setFeedback(correct?"Benar. Ini latihan membaca, bukan bukti kelulusan.":"Belum tepat. Baca kembali kalimat dan terjemahannya, lalu coba lagi.");}
     catch {setFeedback("Progres tidak dapat disimpan di browser ini.");}
   };
   return <main className="h-dvh overflow-y-auto bg-[#1f2740] p-4 text-[#f7efdd]"><div className="mx-auto max-w-4xl">

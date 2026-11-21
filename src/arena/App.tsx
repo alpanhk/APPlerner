@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Attempt, CharId, ChoiceOption, InputNode, Progress, Settings } from "./types";
 import { AudioController, type SpeechState } from "./audio/AudioController";
+import { createProfile, initProfiles, profileKey, selectProfile } from "./storage/profiles";
 import { DEFAULT_PLAYER, localStore } from "./storage/progress";
 import { PROLOG_START } from "./data/story/prolog";
 import { detectIntents, fillTemplate, resolveInputHandler } from "./engine/matchers";
@@ -13,11 +14,12 @@ import { HistoryPanel, Journal, Library, Modal, SettingsPanel } from "./componen
 import { ResultScreen } from "./components/ResultScreen";
 
 import StoryPage, { beginStoryForPlayer } from "../klab/StoryPage";
+import { ChapterTwoKiosk } from "./components/ChapterTwoKiosk";
 import { ChapterOne } from "./components/ChapterOne";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "station";
+type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -68,6 +70,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
   const [screen, setScreen] = useState<Screen>("title");
   const [storyChapter, setStoryChapter] = useState<number | undefined>(undefined);
+  const [registry, setRegistry] = useState(() => initProfiles());
   const [saved, setSaved] = useState<Progress | null>(() => localStore.loadProgress());
   const [game, setGame] = useState<Game | null>(null);
   const [panel, setPanel] = useState<PanelId>(null);
@@ -180,7 +183,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     setScreen("create");
   };
   const onCharacterDone = (p: typeof DEFAULT_PLAYER) => {
-    localStorage.removeItem("lernen.chapter01.v1");
+    try { setRegistry(createProfile(p.name, p.portrait)); } catch { window.alert("Profil baru tidak dapat disimpan; profil lama tidak diubah."); return; }
     const g = newGame(p, PROLOG_START);
     setScreen("story");
     // masuk ke node awal
@@ -194,7 +197,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     if (saved.prologCompleted && saved.flags?.letterOpened) {
       setGame(fromProgress(saved));
       beginStoryForPlayer(saved.player.portrait, saved.player.name);
-      setScreen("chapter-one");
+      setScreen(localStorage.getItem(profileKey("lernen.chapter02.active")) === "1" ? "kiosk" : "chapter-one");
       return;
     }
     audio.unlock();
@@ -232,7 +235,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   // Jika baris saat ini langsung diikuti giliran pemain, tampilkan kolom jawaban tanpa klik "Lanjut" tambahan
   const inputNode: InputNode | null =
     node?.kind === "input" ? node : node?.kind === "line" && nodeOf(node.next).kind === "input" ? (nodeOf(node.next) as InputNode) : null;
-  const draftKey = inputNode ? `lernen.prolog.draft.${inputNode.id}` : null;
+  const draftKey = inputNode ? profileKey(`lernen.prolog.draft.${inputNode.id}`) : null;
   useEffect(() => { setDraft(draftKey ? localStorage.getItem(draftKey) ?? "" : ""); }, [draftKey]);
   const name = game?.player.name ?? "";
   const lastLine = useMemo(() => {
@@ -311,13 +314,15 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   return (
     <div className={`arena-root relative h-dvh w-full overflow-hidden bg-[#1f2740] font-sans ${textSizeClass}`}>
       {screen === "title" && (
-        <TitleScreen hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
+        <TitleScreen profiles={registry.profiles} activeId={registry.active} onSelectProfile={(id) => { try { setRegistry(selectProfile(id)); setSaved(localStore.loadProgress()); setGame(null); } catch { window.alert("Profil tidak dapat dibuka; data tidak diubah."); } }} hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
       )}
       {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("station"); }} onHear={(portrait) => { audio.unlock(); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
 
       {screen === "station" && <StationMission soundOn={settings.soundOn} onBack={backToTitle} />}
 
-      {screen === "chapter-one" && game && <ChapterOne player={game.player} soundOn={settings.soundOn} reducedMotion={settings.reducedMotion} onBack={backToTitle} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} />}
+      {screen === "chapter-one" && game && <ChapterOne player={game.player} soundOn={settings.soundOn} reducedMotion={settings.reducedMotion} onBack={backToTitle} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter02.active"), "1"); setScreen("kiosk"); }} />}
+
+      {screen === "kiosk" && game && <ChapterTwoKiosk player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => { localStorage.removeItem(profileKey("lernen.chapter02.active")); setScreen("chapter-one"); }} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
