@@ -30,5 +30,9 @@
   "tetangga": {
     "neutral": "actors/tetangga/neutral.png",
     "open": "actors/tetangga/talk-open.png"
+  },
+  "penjual-pasar": {
+    "neutral": "actors/penjual-pasar/neutral.png",
+    "open": "actors/penjual-pasar/talk-open.png"
   }
 }

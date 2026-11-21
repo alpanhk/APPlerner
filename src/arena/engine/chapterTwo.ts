@@ -20,3 +20,16 @@ export function assessMessage(value:string):Assessment {
 export function assessTransferQuestion(value:string):boolean {
  const s=clean(value);return /\b(?:wie viel|was)\s+(?:kostet|kosten)\b/.test(s) && /\b(?:wann|uhrzeit)\b/.test(s) && !/\b(?:nicht|kein|sondern)\b/.test(s);
 }
+
+/** A fresh Friday appointment. Only clear, non-contradictory day and time are scored. */
+export function assessFridayMessage(value:string):Assessment {
+ const s=clean(value);
+ if (/\b(?:nicht|kein|keine|sondern|aber)\b/.test(s)) return {correct:false,reason:'Maksud belum dapat dipastikan otomatis; jelaskan satu hari dan satu jam.'};
+ const day=/\bam freitag\b/.test(s) && !/\b(?:montag|dienstag|mittwoch|donnerstag|samstag|sonntag)\b/.test(s);
+ const time=/\bum (?:neun|9|09) uhr\b/.test(s) || /\bum 0?9[:.]00\b/.test(s);
+ const numeric=s.match(/\b(?:0?[0-9]|1[0-9]|2[0-3])\s*[:.]\s*[0-5][0-9]\b/g) ?? [];
+ const words=s.match(/\b(?:[01]?\d|2[0-3]|eins|zwei|drei|vier|fünf|funf|sechs|sieben|acht|neun|zehn|elf|zwölf|zwoelf)\s+uhr(?:\s+(?:dreissig|30))?\b/g) ?? [];
+ const other=numeric.some(x=>!/^0?9[:.]00$/.test(x.replace(/\s/g,''))) || words.some(x=>!/^(?:neun|0?9) uhr$/.test(x)) || /\b(?:halb|viertel)\b/.test(s);
+ if(day && time && !other) return {correct:true,day,time,reason:'Hari Jumat dan jam sembilan tersampaikan; tulisan masih perlu telaah.'};
+ return {correct:false,day,time,reason:day?'Hari sudah sesuai; periksa jam dan gunakan um.':'Periksa hari dan jam pada kartu; gunakan am untuk hari dan um untuk jam.'};
+}
