@@ -2,11 +2,21 @@ import type { Attempt, Flags, ObjectiveId, ResultLevel } from "../types";
 
 // ===== Penilaian berbasis tindakan nyata =====
 // Bukti kemampuan hanya dari jawaban pemain (tulis/susun), bukan klik "Lanjut".
+// Dua sinyal sengaja dipisah:
+//  - conversationSucceeded: percakapan berjalan; menyebut nama saja diterima wajar.
+//  - objectiveLevel "mandiri": bukti kemampuan, bukan sekadar kelancaran dialog.
+//    Syaratnya: kalimat lengkap (full), tanpa petunjuk (hintsUsed === 0), dan di
+//    konteks penggunaan nyata (bukan latihan bersama tutor). Nama saja atau latihan
+//    tutor tetap "petunjuk" — bukti mandirinya tertunda sampai ada jawaban lengkap.
+
+export function conversationSucceeded(attempts: Attempt[], id: ObjectiveId): boolean {
+  return attempts.some((a) => a.objective === id && a.text.trim().length > 0);
+}
 
 export function objectiveLevel(attempts: Attempt[], id: ObjectiveId): ResultLevel {
   const rel = attempts.filter((a) => a.objective === id);
   if (rel.length === 0) return "belum";
-  if (rel.some((a) => a.hintsUsed === 0)) return "mandiri";
+  if (rel.some((a) => a.full && a.hintsUsed === 0 && a.where !== "tutor")) return "mandiri";
   return "petunjuk";
 }
 

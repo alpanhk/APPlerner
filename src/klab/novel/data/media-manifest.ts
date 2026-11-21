@@ -3,6 +3,7 @@
 // status: "github" = aset asli repo APPlerner, "generated" = ilustrasi pengganti,
 // "synth" = efek disintesis WebAudio, "tts" = suara browser de-DE.
 
+import { STORY_BG } from "./story-media.generated";
 import bgKamar from "../assets/bg/kamar.jpg";
 import bgJendela from "../assets/bg/jendela.jpg";
 import bgPintu from "../assets/bg/pintu.jpg";
@@ -145,5 +146,7 @@ export const COVER_SRC: Record<number, string> = {
 };
 
 export function bgSrc(id: string): string {
-  return MEDIA["bg:" + id]?.src ?? "";
+  // PILOT-AGENT-1: latar bab produksi (ruang-warga/peron/stasiun/ambang-rumah)
+  // datang dari story-media.generated; latar lama tetap dari MEDIA.
+  return MEDIA["bg:" + id]?.src ?? STORY_BG[id] ?? "";
 }

@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch07",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Orte in der Stadt",
+    "assetId": "simpang-halte",
+    "storyContext": "Papan peta di alun-alun. Seorang tamu memegang undangan ruang warga. Keterangan petanya pudar, tetapi ia mengenali kantor pos.",
+    "objectiveIds": [
+      "a1-u7-o1",
+      "a1-u7-o2"
+    ],
+    "status": "baru",
+    "path": "../master/simpang-halte.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch07",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Nach dem Weg fragen",
+    "assetId": "simpang-halte",
+    "storyContext": "Persimpangan. Lonceng trem terdengar sekali. Tamu ingin membeli sesuatu sebelum acara dan menanyakan dua tujuan.",
+    "objectiveIds": [
+      "a1-u7-o3",
+      "a1-u7-o4"
+    ],
+    "status": "baru",
+    "path": "../master/simpang-halte.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch07",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Mit Bus und Bahn",
+    "assetId": "simpang-halte",
+    "storyContext": "Halte. Mia naik lebih dulu. Pilih kendaraan dan halte yang mendekatkan tamu ke ruang warga.",
+    "objectiveIds": [
+      "a1-u7-o5"
+    ],
+    "status": "baru",
+    "path": "../master/simpang-halte.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch07",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "simpang-halte",
+    "storyContext": "Dari peta alternatif, tanyakan arah ke apotek, pandu tamu dari kantor pos, kemudian beri pilihan trem dan halte akhir.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/simpang-halte.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch07",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "simpang-halte",
+    "storyContext": "Tamu tiba dan menawarkan giliran kerja singkat di kantor penyelenggara.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/simpang-halte.webp"
+  }
+]

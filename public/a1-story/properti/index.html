@@ -1,0 +1,80 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Properti Lernen A1</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.5 system-ui;background:#f8efe2;color:#382630;margin:0}main{max-width:980px;margin:auto;padding:20px}h1,h2,h3,p{margin:0 0 10px}header{margin-bottom:20px}select{padding:8px;font:inherit;max-width:100%;width:500px}section{background:#fffcf7;padding:16px;margin:0 0 12px;border:1px solid #cfbcac;border-radius:10px}small{display:block;color:#614e53;margin-bottom:8px}.props{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}figure{margin:0;width:100px;text-align:center}figure img{width:100px;height:76px;object-fit:contain}figcaption{font-size:13px}.state{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr))}.state div{background:#f5e5d5;padding:10px;border-radius:8px}.state p{margin:5px 0 0;white-space:pre-wrap}.state strong{font-size:14px}.diagram{width:min(100%,340px);display:block;margin:12px 0}canvas{width:min(100%,360px);height:auto;display:block;border:1px solid #cfbcac;border-radius:8px;margin:10px 0}a{color:#773349}
+</style>
+<main><header><h1>Properti Lernen A1</h1><label>Bab <select id="chapter"></select></label></header><div id="scenes"></div></main>
+<script src="./data.js"></script><script>
+const {bab,aset}=window.PROPERTI
+const select=document.getElementById('chapter'), host=document.getElementById('scenes')
+for(const c of bab) select.add(new Option(c.judul,c.id))
+function put(parent,tag,text){
+ const e=document.createElement(tag);e.textContent=text;parent.append(e);return e
+}
+function diagram(parent,kind){
+ const c=put(parent,'canvas','');c.width=360;c.height=170
+ const ctx=c.getContext('2d'); ctx.fillStyle='#f4e6d7';ctx.fillRect(0,0,360,170)
+ ctx.font='16px system-ui';ctx.fillStyle='#382630'
+ if(kind==='plan'){
+  ctx.strokeStyle='#5a4144';ctx.lineWidth=2
+  ctx.strokeRect(12,36,158,110);ctx.strokeRect(188,36,158,110)
+  ctx.fillText('Wohnzimmer',29,61);ctx.fillText('Küche',204,61)
+  ctx.strokeStyle='#a47554';ctx.strokeRect(65,89,55,24)
+  ctx.fillStyle='#a47554';ctx.fillRect(236,89,55,24)
+  ctx.fillStyle='#382630';ctx.fillText('→',167,106)
+  c.setAttribute('aria-label','Meja pindah dari ruang duduk ke dapur')
+ } else {
+  ctx.lineWidth=13;ctx.strokeStyle='#dbc2ae'
+  for(const [x,y,X,Y] of [[38,32,325,32],[38,86,325,86],[38,139,325,139],[75,18,75,153],[193,18,193,153],[292,18,292,153]]){
+   ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(X,Y);ctx.stroke()
+  }
+  for(const [route,color] of [[[[193,139],[193,86],[75,86],[75,32]],'#793541'],[[[193,139],[292,139],[292,32]],'#3d6371']]){
+   ctx.lineWidth=4;ctx.strokeStyle=color;ctx.beginPath()
+   for(const [i,[x,y]] of route.entries()) i?ctx.lineTo(x,y):ctx.moveTo(x,y)
+   ctx.stroke()
+   for(const [x,y] of [route[0],route.at(-1)]){ctx.beginPath();ctx.fillStyle=color;ctx.arc(x,y,5,0,Math.PI*2);ctx.fill()}
+  }
+  ctx.fillStyle='#382630';ctx.fillText('Mulai',146,159);ctx.fillText('Post',85,25);ctx.fillText('Rathaus',228,25)
+  c.setAttribute('aria-label','Peta skematis. Ke Pos: lurus, kiri, belok kanan pertama. Rute alternatif ke balai kota berwarna biru.')
+ }
+}
+function render(){
+ const c=bab.find(x=>x.id===select.value);host.replaceChildren()
+ put(host,'h2',c.judul)
+ for(const s of c.adegan){
+  const card=put(host,'section','')
+  put(card,'h3',s.id+' · '+s.judul);put(card,'small',s.tujuan.join(' · '))
+  const props=put(card,'div','');props.className='props'
+  for(const id of s.aset){
+   const f=put(props,'figure',''),a=put(f,'a','');a.href=aset[id].file
+   const image=put(a,'img','');image.src=aset[id].file;image.alt=id.replaceAll('-',' ')
+   put(f,'figcaption',image.alt)
+  }
+  if(c.id==='a1-ch02'&&s.id==='s02'){
+   const options=put(card,'select',''); options.setAttribute('aria-label','Pilih jam contoh')
+   for(const time of ['08:30','08:00','08:15','08:45','09:30']) options.add(new Option(time,time))
+   const face=put(card,'canvas','');face.width=360;face.height=115
+   function drawClock(){
+    const context=face.getContext('2d'),[hour,minute]=options.value.split(':').map(Number)
+    context.clearRect(0,0,360,115);context.lineWidth=2;context.strokeStyle='#50343e'
+    context.beginPath();context.arc(57,57,43,0,2*Math.PI);context.stroke()
+    for(let i=0;i<12;i++){const a=i*Math.PI/6;context.beginPath();context.moveTo(57+37*Math.sin(a),57-37*Math.cos(a));context.lineTo(57+42*Math.sin(a),57-42*Math.cos(a));context.stroke()}
+    for(const [turn,length] of [[(hour+minute/60)/12,24],[minute/60,36]]){
+     const a=turn*2*Math.PI;context.beginPath();context.moveTo(57,57);context.lineTo(57+length*Math.sin(a),57-length*Math.cos(a));context.stroke()
+    }
+    context.font='22px system-ui';context.fillStyle='#382630';context.fillText(options.value,122,65);face.setAttribute('aria-label','Jam '+options.value)
+   }
+   options.addEventListener('change',drawClock);drawClock()
+  }
+  if(c.id==='a1-ch06'&&s.id==='s02') diagram(card,'plan')
+  if(c.id==='a1-ch07'&&s.id==='s02') diagram(card,'route')
+  const state=put(card,'div','');state.className='state'
+  for(const [label,value] of [['Awal',s.awal],['Setelah keputusan / variasi',s.variasi]]){
+   const pane=put(state,'div','');put(pane,'strong',label)
+   const text=put(pane,'p',value);text.contentEditable='plaintext-only';text.setAttribute('aria-label',label+' — contoh teks dapat diedit')
+  }
+ }
+ const notes=put(host,'section','');put(notes,'h3','Pertemuan mandiri');put(notes,'p',c.transfer)
+ put(notes,'h3','Penutup');put(notes,'p',c.penutup)
+}
+select.addEventListener('change',render);render()
+</script></html>

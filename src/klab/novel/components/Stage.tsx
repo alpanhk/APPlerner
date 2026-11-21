@@ -1,6 +1,6 @@
 import type { CharId, PlayerProfile, StageState } from "../types";
 import { bgSrc } from "../data/media-manifest";
-import { NPC_LOOKS, Portrait, playerLook } from "./Portrait";
+import { CharSprite } from "./CharSprite";
 
 interface Props {
   stage: StageState;
@@ -27,7 +27,6 @@ export function Stage({ stage, player, speakingChar, mouthOpen, reducedMotion, d
 
       {/* Potret karakter: diam; hanya mulut penutur yang berganti frame */}
       {stage.chars.map((c) => {
-        const look = c.id === "player" ? playerLook(player) : NPC_LOOKS[c.id];
         const isSpeaking = speakingChar === c.id;
         const pos =
           c.side === "left"
@@ -44,13 +43,15 @@ export function Stage({ stage, player, speakingChar, mouthOpen, reducedMotion, d
             data-char={c.id}
             data-mouth={isSpeaking && mouthOpen ? "open" : "closed"}
           >
-            <Portrait
-              look={look}
-              expr={c.expr ?? "neutral"}
-              mouthOpen={isSpeaking && mouthOpen}
+            <CharSprite
+              id={c.id}
+              expr={c.expr}
+              speaking={isSpeaking}
+              mouthOpen={mouthOpen}
+              player={player}
               prop={c.prop}
               className="h-full w-full drop-shadow-[0_8px_12px_rgba(20,20,40,.35)]"
-              title={look.name}
+              title={c.id === "player" ? player.name || "Kamu" : undefined}
             />
           </div>
         );
@@ -58,11 +59,15 @@ export function Stage({ stage, player, speakingChar, mouthOpen, reducedMotion, d
 
       {/* Overlay properti */}
       {stage.overlay && (
-        <div className="absolute inset-0 flex items-start justify-center pt-[6%]">
+        <div className="pointer-events-none absolute inset-0 flex items-start justify-center pt-[6%]">
           <div className={`${reducedMotion ? "" : "animate-[fadein_.4s_ease]"}`}>
             {stage.overlay === "note" && <NoteCard />}
             {stage.overlay === "envelope" && <Envelope name={player.name} />}
             {stage.overlay === "letter" && <Letter />}
+            {stage.overlay === "ticket" && <TicketCard ticket={stage.ticket} />}
+            {stage.overlay === "board" && <StationBoard board={stage.board} />}
+            {stage.overlay === "calendar" && <CalendarCard calendar={stage.calendar} />}
+            {stage.overlay === "postcard" && <PostCard name={player.name} />}
           </div>
         </div>
       )}
@@ -120,6 +125,111 @@ function Letter() {
       </text>
       <text x={330} y={240} textAnchor="middle" fontFamily="'Caveat','Segoe Script',cursive" fontSize={40} fill="#b5533c" transform="rotate(-3 330 240)">
         — Mia
+      </text>
+    </svg>
+  );
+}
+
+/**
+ * Tiket perjalanan Bab 11 (Mandat §6.B "Baca tiket"): teks nyata yang dapat
+ * dibaca pembaca layar — bukan gambar — supaya uji menyimak menyasar audio,
+ * bukan kesulitan membaca ilustrasi.
+ */
+function TicketCard({ ticket }: { ticket?: StageState["ticket"] }) {
+  if (!ticket) return null;
+  return (
+    <div
+      role="img"
+      aria-label={`Tiket perjalanan: tujuan ${ticket.ziel}, berangkat ${ticket.abfahrt}, tiba ${ticket.ankunft}, peron ${ticket.gleis}`}
+      className="w-[62%] max-w-[520px] rounded-lg border-2 border-[#3a3040] bg-[#f6efe2] p-4 shadow-[0_10px_18px_rgba(0,0,0,.35)]"
+      data-testid="ticket-card"
+    >
+      <p className="text-[11px] font-bold uppercase tracking-[.25em] text-[#6b5e4e]">Reiseplan · Deutsche Bahn</p>
+      <div className="mt-2 grid grid-cols-3 gap-2 text-center text-[#2c3e6b]">
+        <div>
+          <p className="text-[10px] uppercase text-[#6b5e4e]">Ziel</p>
+          <p className="text-lg font-black">{ticket.ziel}</p>
+        </div>
+        <div>
+          <p className="text-[10px] uppercase text-[#6b5e4e]">Abfahrt</p>
+          <p className="text-lg font-black" data-testid="ticket-abfahrt">{ticket.abfahrt}</p>
+        </div>
+        <div>
+          <p className="text-[10px] uppercase text-[#6b5e4e]">Ankunft</p>
+          <p className="text-lg font-black" data-testid="ticket-ankunft">{ticket.ankunft}</p>
+        </div>
+      </div>
+      <p className="mt-2 text-center text-sm font-semibold text-[#b5533c]" data-testid="ticket-gleis">
+        Gleis {ticket.gleis}
+      </p>
+    </div>
+  );
+}
+
+/**
+ * Anzeigetafel peron (Bab 11 s02). Angka peron BARU tidak boleh muncul di
+ * papan sebelum pemain menjawab (Mandat §6.B / U05): node soal menyimak
+ * mengirim state fresh=false + data lama; node setelah jawaban mengirim
+ * fresh=true dengan peron terbaru.
+ */
+function StationBoard({ board }: { board?: StageState["board"] }) {
+  if (!board) return null;
+  return (
+    <div
+      role="img"
+      aria-label={`Papan keberangkatan: kereta ke ${board.ziel}, berangkat ${board.abfahrt}${board.verspaetung ? `, ${board.verspaetung}` : ""}, peron ${board.gleis}`}
+      className="w-[68%] max-w-[560px] rounded-lg border border-[#0d1b2a] bg-[#0d1b2a] p-3 font-mono shadow-[0_10px_18px_rgba(0,0,0,.45)]"
+      data-testid="station-board"
+      data-fresh={board.fresh ? "1" : "0"}
+    >
+      <p className="text-[10px] uppercase tracking-[.35em] text-[#7fb069]">Abfahrt · Abfahrtsanzeige</p>
+      <div className="mt-1 flex items-baseline justify-between text-[#e9dfc9]">
+        <span className="text-lg font-bold">RE 5 → {board.ziel}</span>
+        <span className="text-lg font-bold" data-testid="board-abfahrt">{board.abfahrt}</span>
+      </div>
+      <div className="mt-1 flex items-baseline justify-between text-[#e9dfc9]">
+        <span className={board.verspaetung ? "text-sm text-[#f0a35e]" : "text-sm text-[#7fb069]"} data-testid="board-verspaetung">
+          {board.verspaetung || "on time"}
+        </span>
+        <span className="text-2xl font-black text-[#e9dfc9]" data-testid="board-gleis">
+          Gleis {board.gleis}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+/** Kalender bab 12: sibuk vs bebas (konteks negosiasi waktu). */
+function CalendarCard({ calendar }: { calendar?: StageState["calendar"] }) {
+  if (!calendar) return null;
+  return (
+    <div
+      role="img"
+      aria-label={`Kalender: ${calendar.busy} penuh; ${calendar.free} tersedia`}
+      className="w-[56%] max-w-[480px] rounded-lg border-2 border-[#3a3040] bg-[#f6efe2] p-4 shadow-[0_10px_18px_rgba(0,0,0,.35)]"
+      data-testid="calendar-card"
+    >
+      <p className="text-[11px] font-bold uppercase tracking-[.25em] text-[#6b5e4e]">Terminkalender</p>
+      <p className="mt-2 text-sm text-[#b5533c]" data-testid="calendar-busy">✗ {calendar.busy}</p>
+      <p className="text-sm text-[#3f7d7a]" data-testid="calendar-free">✓ {calendar.free}</p>
+      {calendar.agreed && <p className="mt-2 text-sm font-bold text-[#2c3e6b]" data-testid="calendar-agreed">✓ Disepakati: {calendar.agreed}</p>}
+    </div>
+  );
+}
+
+/** Kartu pos cangkir Bab 12 s03 (menulis pesan). */
+function PostCard({ name }: { name: string }) {
+  return (
+    <svg viewBox="0 0 420 300" className="w-[56%] max-w-[520px] drop-shadow-[0_10px_18px_rgba(0,0,0,.35)]" role="img" aria-label="Kartu pos bergambar cangkir, menunggu pesanmu">
+      <path d="M20 16 L400 10 L404 288 L16 294 Z" fill="#fbf5e8" stroke="#3a3040" strokeWidth={2.5} />
+      <path d="M44 70 L380 66 M44 110 L380 106 M44 150 L380 146" stroke="#d8c9a8" strokeWidth={1.2} />
+      <g transform="translate(70 120)">
+        <path d="M0 0 h64 v40 q0 20 -32 20 q-32 0 -32 -20 Z" fill="#fff" stroke="#b5533c" strokeWidth={3} />
+        <path d="M64 8 q22 0 22 15 q0 15 -22 15" fill="none" stroke="#b5533c" strokeWidth={3} />
+        <path d="M18 -10 q5 -8 0 -14 M36 -10 q5 -8 0 -14" fill="none" stroke="#b5533c" strokeWidth={2.5} opacity={0.6} />
+      </g>
+      <text x={280} y={240} textAnchor="middle" fontFamily="'Caveat','Segoe Script',cursive" fontSize={34} fill="#2c3e6b">
+        — {name}
       </text>
     </svg>
   );

@@ -1,0 +1,3649 @@
+{
+  "status": "verified-ready-for-review",
+  "planSha256": "a6788477a90b4eb61a64434fb3c76cd88b6153d0bef6a6747dc30ed83a33f84e",
+  "plannedClips": 71,
+  "completedClips": 71,
+  "readyVoiceIds": [
+    "mia",
+    "player-01",
+    "player-02",
+    "player-03",
+    "player-04",
+    "pos",
+    "tetangga",
+    "tutor"
+  ],
+  "sourceSha256": {
+    "src/data/story/prolog.ts": "05c29ffeb9a4b5416a7d1a6d2d787a8fef21f960758cea27d573ced9652e79b0",
+    "src/components/Portrait.tsx": "b25199863ed01d326ed675a6d0920b8ad80da5b17509d552290c6676cddaef25",
+    "src/engine/story.ts": "cae0cb33e17a39675d1b28dc7499d3713e79e86ba207c6bf3053a42668fb5dab",
+    "src/engine/matchers.ts": "994eedcb146dd9ca6adf14427e703ebe9a138ac48c99c36c2fb41c384dee4ec4",
+    "src/App.tsx": "bda08a4ff83eb220ec1055bd112b112166809e3e04574b61584b945e01ac6e46",
+    "src/audio/AudioController.ts": "908e0b7c95e2fa610d314cbbd9134582bb5e2a3e2010ca6435fe5713df709111"
+  },
+  "clips": {
+    "tutor/a_tutor1-s02": {
+      "clipId": "tutor/a_tutor1-s02",
+      "characterId": "tutor",
+      "nodeId": "a_tutor1",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Aku Frau Lehmann.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1645,
+      "wav": {
+        "path": "masters/tutor/a_tutor1-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "8a6601c112b76b9285d424d59513a5a8c135682e95623531414369f8a2a024c0",
+        "durationMs": 1645,
+        "samples": 72546,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.78,
+        "rmsDbfs": -22.81
+      },
+      "runtime": {
+        "path": "runtime/tutor/a_tutor1-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "d7076ace727f4c34aa65daba48e93dca396f598c8696c66d85160bdb5aa74c75",
+        "durationMs": 1645,
+        "samples": 72546,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.21,
+        "rmsDbfs": -23.26
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Aku"
+        },
+        {
+          "language": "de",
+          "text": "Frau Lehmann."
+        }
+      ]
+    },
+    "tutor/a_tutor1-s03": {
+      "clipId": "tutor/a_tutor1-s03",
+      "characterId": "tutor",
+      "nodeId": "a_tutor1",
+      "sentenceIndex": 2,
+      "language": "id",
+      "transcript": "Mulai hari ini kamu tinggal di kota ini.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 2665,
+      "wav": {
+        "path": "masters/tutor/a_tutor1-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "4b21b4ff90f51b662c67370a43c2b6f3ebd0ea6aff8aad4bc61c6c11e2157e67",
+        "durationMs": 2665,
+        "samples": 117527,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.96,
+        "rmsDbfs": -21.12
+      },
+      "runtime": {
+        "path": "runtime/tutor/a_tutor1-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "1d896bbdb983f805d898b7649d9ed10753b4c98495d939ae6d0989ed75330b19",
+        "durationMs": 2666,
+        "samples": 117551,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.27,
+        "rmsDbfs": -21.5
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Mulai hari ini kamu tinggal di kota ini."
+        }
+      ]
+    },
+    "tutor/a_tutor2-s01": {
+      "clipId": "tutor/a_tutor2-s01",
+      "characterId": "tutor",
+      "nodeId": "a_tutor2",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Misimu sederhana tapi panjang: belajar bahasa Jerman supaya kamu bisa mengenal orang-orang di sini dan hidup mandiri.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 8235,
+      "wav": {
+        "path": "masters/tutor/a_tutor2-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "0a67e10463debe9c71d20882491fb06c8d959d431bc300498b0b68cc0bc3470c",
+        "durationMs": 8235,
+        "samples": 363164,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.57,
+        "rmsDbfs": -20.85
+      },
+      "runtime": {
+        "path": "runtime/tutor/a_tutor2-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "16921b47dbdce658340838e7ffcb35fffcfa6e1cc8e24c6f67b0576a2219d4e5",
+        "durationMs": 8235,
+        "samples": 363164,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.88,
+        "rmsDbfs": -21.3
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Misimu sederhana tapi panjang: belajar bahasa Jerman supaya kamu bisa mengenal orang-orang di sini dan hidup mandiri."
+        }
+      ]
+    },
+    "tutor/a_tutor3-s01": {
+      "clipId": "tutor/a_tutor3-s01",
+      "characterId": "tutor",
+      "nodeId": "a_tutor3",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Kita mulai dari yang paling dekat: orang yang tinggal di sebelahmu.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 4115,
+      "wav": {
+        "path": "masters/tutor/a_tutor3-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "ac22da441d8be11d64bcca7477fc9dcbb2c151275efa5679a69daf315a5be3f8",
+        "durationMs": 4115,
+        "samples": 181472,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.24,
+        "rmsDbfs": -21.06
+      },
+      "runtime": {
+        "path": "runtime/tutor/a_tutor3-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "7282ebfcd964b0aae6708048e362825b7afc0f301c69b0be77f9350e2fc04172",
+        "durationMs": 4115,
+        "samples": 181472,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.67,
+        "rmsDbfs": -21.55
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Kita mulai dari yang paling dekat: orang yang tinggal di sebelahmu."
+        }
+      ]
+    },
+    "tutor/b_intro-s01": {
+      "clipId": "tutor/b_intro-s01",
+      "characterId": "tutor",
+      "nodeId": "b_intro",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Ada yang mengetuk.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1225,
+      "wav": {
+        "path": "masters/tutor/b_intro-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "81dc28d282442094a244b493e30e30806b5df8e1b0cc957434153f27574a6d6c",
+        "durationMs": 1225,
+        "samples": 54023,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.87,
+        "rmsDbfs": -22.43
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_intro-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5853b7d1fbad3a2b912f74ffa7351560ab1e3a66143f10c908a6d7a664f21f70",
+        "durationMs": 1225,
+        "samples": 54023,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.29,
+        "rmsDbfs": -22.86
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Ada yang mengetuk."
+        }
+      ]
+    },
+    "tutor/b_intro-s02": {
+      "clipId": "tutor/b_intro-s02",
+      "characterId": "tutor",
+      "nodeId": "b_intro",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Mari belajar menyapa supaya kamu sendiri bisa membuka pintu.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 4085,
+      "wav": {
+        "path": "masters/tutor/b_intro-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "ebd67743291932940739463d607f2f0ef95bc03656392026c0446e4c04ca0281",
+        "durationMs": 4085,
+        "samples": 180149,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.22,
+        "rmsDbfs": -20.87
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_intro-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "1f49c3c0a264b21d25c883106c7eb299ab00a9fca3a999ce946368b7ca1d8d5b",
+        "durationMs": 4085,
+        "samples": 180149,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.73,
+        "rmsDbfs": -21.29
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Mari belajar menyapa supaya kamu sendiri bisa membuka pintu."
+        }
+      ]
+    },
+    "tutor/b_hallo-s01": {
+      "clipId": "tutor/b_hallo-s01",
+      "characterId": "tutor",
+      "nodeId": "b_hallo",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 965,
+      "wav": {
+        "path": "masters/tutor/b_hallo-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "30981ab10cb13fd17ef55f9cdaf16957de6edbae0629d68ad1a18a1fcc5d6252",
+        "durationMs": 965,
+        "samples": 42557,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.47,
+        "rmsDbfs": -23.03
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_hallo-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "7ac6d85fb2ec2bf4aeb64489e60f469fc41930430990ced4884be7ceaad51604",
+        "durationMs": 965,
+        "samples": 42557,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -9.04,
+        "rmsDbfs": -23.45
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!"
+        }
+      ]
+    },
+    "tutor/b_contoh1-s01": {
+      "clipId": "tutor/b_contoh1-s01",
+      "characterId": "tutor",
+      "nodeId": "b_contoh1",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo, ich heiße Budi.",
+      "dynamic": false,
+      "originalRuntimeAssetId": "speech:hallo-ich-heisse-budi",
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1455,
+      "wav": {
+        "path": "masters/tutor/b_contoh1-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "02981527a5e6ef6df0ea59b84389a061c9d7b9abbed1fed5d3bc6a4c5e0002ba",
+        "durationMs": 1455,
+        "samples": 64166,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.18,
+        "rmsDbfs": -21.89
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_contoh1-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "65b980446e2554b26d7cac167ef7e538600b188fa1d1271d0bbddef63dbe85c1",
+        "durationMs": 1455,
+        "samples": 64166,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.6,
+        "rmsDbfs": -22.35
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo, ich heiße Budi."
+        }
+      ]
+    },
+    "tutor/b_contoh2-s01": {
+      "clipId": "tutor/b_contoh2-s01",
+      "characterId": "tutor",
+      "nodeId": "b_contoh2",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Ich heiße Alex.",
+      "dynamic": false,
+      "originalRuntimeAssetId": "speech:ich-heisse-alex",
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1155,
+      "wav": {
+        "path": "masters/tutor/b_contoh2-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "e6cbca9bf6df52000e98331745c1360a608b8070ebb8ed6910ce74d7cd8dc0a4",
+        "durationMs": 1155,
+        "samples": 50936,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.37,
+        "rmsDbfs": -22.56
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_contoh2-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "7ea9c65e954d4e7985d57f7c244371b7250b26dc5e049dfdb6e4586827a7c158",
+        "durationMs": 1155,
+        "samples": 50936,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.79,
+        "rmsDbfs": -22.98
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ich heiße Alex."
+        }
+      ]
+    },
+    "tutor/b_tip-s02": {
+      "clipId": "tutor/b_tip-s02",
+      "characterId": "tutor",
+      "nodeId": "b_tip",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Sekarang giliranmu mencoba.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1755,
+      "wav": {
+        "path": "masters/tutor/b_tip-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "a16a43e92fb8c0f4db69640780dc48ba0a7db56ea816c356ca563446d5af6b39",
+        "durationMs": 1755,
+        "samples": 77396,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.43,
+        "rmsDbfs": -21.5
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_tip-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "05b0a1d6219f6202ab04bac93a7c7e458d5e9e63a23b324d29129f03de17be66",
+        "durationMs": 1755,
+        "samples": 77396,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.95,
+        "rmsDbfs": -21.94
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Sekarang giliranmu mencoba."
+        }
+      ]
+    },
+    "tutor/b_tip-s03": {
+      "clipId": "tutor/b_tip-s03",
+      "characterId": "tutor",
+      "nodeId": "b_tip",
+      "sentenceIndex": 2,
+      "language": "id",
+      "transcript": "Ketik atau susun kalimatnya.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1815,
+      "wav": {
+        "path": "masters/tutor/b_tip-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "6cd5c41dd2ce919c0a3a09c0cee0d0867533cb598f8bd7053ffe5ea88b0b60e1",
+        "durationMs": 1815,
+        "samples": 80042,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.62,
+        "rmsDbfs": -21.87
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_tip-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "77764e45d51dabc59cd4ba4ac17311ab0b30710c1a3e88b415ca5ee4192ed310",
+        "durationMs": 1815,
+        "samples": 80042,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.02,
+        "rmsDbfs": -22.31
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Ketik atau susun kalimatnya."
+        }
+      ]
+    },
+    "tutor/b_wrongname-s01": {
+      "clipId": "tutor/b_wrongname-s01",
+      "characterId": "tutor",
+      "nodeId": "b_wrongname",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Susunannya sudah benar!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1705,
+      "wav": {
+        "path": "masters/tutor/b_wrongname-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "12996d3b8fb6c205b9c75194e5c310469f1aa7cc85f3f24684ea92e16965b0fc",
+        "durationMs": 1705,
+        "samples": 75191,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.71,
+        "rmsDbfs": -21.52
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_wrongname-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "1f9c325893865f75a1f6d99ba5a63b2eefa8257f80269bd8473054990593864e",
+        "durationMs": 1705,
+        "samples": 75191,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.14,
+        "rmsDbfs": -21.95
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Susunannya sudah benar!"
+        }
+      ]
+    },
+    "tutor/b_wrongname-s02": {
+      "clipId": "tutor/b_wrongname-s02",
+      "characterId": "tutor",
+      "nodeId": "b_wrongname",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Tapi nama itu bukan namamu.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1655,
+      "wav": {
+        "path": "masters/tutor/b_wrongname-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "71fa3408bc78d185798bb748a27f741ee939abbfd43f8ff843938d4f661037a1",
+        "durationMs": 1655,
+        "samples": 72986,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.42,
+        "rmsDbfs": -21.54
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_wrongname-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "928df6a8cba159875bd2ea4e0dce322b79160e7783df12a381a4127961454a9e",
+        "durationMs": 1655,
+        "samples": 72986,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.91,
+        "rmsDbfs": -21.99
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Tapi nama itu bukan namamu."
+        }
+      ]
+    },
+    "tutor/b_nameonly-s01": {
+      "clipId": "tutor/b_nameonly-s01",
+      "characterId": "tutor",
+      "nodeId": "b_nameonly",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Namamu sudah terdengar.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1585,
+      "wav": {
+        "path": "masters/tutor/b_nameonly-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "68805e4e5609b701b93617fb40284b4f6f5b3bb97f6fdecb9e39f75f417877b2",
+        "durationMs": 1585,
+        "samples": 69899,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.89,
+        "rmsDbfs": -21.99
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_nameonly-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "92ee4ea2b87914804344f8dcdfbf6bcdc9ab76f50863364a5d586baa130f3ee9",
+        "durationMs": 1585,
+        "samples": 69899,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.73,
+        "rmsDbfs": -22.39
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Namamu sudah terdengar."
+        }
+      ]
+    },
+    "tutor/b_greetonly-s01": {
+      "clipId": "tutor/b_greetonly-s01",
+      "characterId": "tutor",
+      "nodeId": "b_greetonly",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Sapaanmu bagus.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1255,
+      "wav": {
+        "path": "masters/tutor/b_greetonly-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "f58989eb0bb9f5037efe3644c8d45a0ff5ac370fcf0129d1229fe7d3c22987ef",
+        "durationMs": 1255,
+        "samples": 55346,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.34,
+        "rmsDbfs": -22.65
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_greetonly-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "a782e75aaad27f8c6de3222bbde394d052ce920e30b4198e62756eba631df4d0",
+        "durationMs": 1255,
+        "samples": 55346,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.84,
+        "rmsDbfs": -23.09
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Sapaanmu bagus."
+        }
+      ]
+    },
+    "tutor/b_ok-s01": {
+      "clipId": "tutor/b_ok-s01",
+      "characterId": "tutor",
+      "nodeId": "b_ok",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Tepat sekali.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1085,
+      "wav": {
+        "path": "masters/tutor/b_ok-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "e3d36bf61873d29867af0668d6529f3c0fb5e25ed7fc6928401c540dc729435f",
+        "durationMs": 1085,
+        "samples": 47849,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.1,
+        "rmsDbfs": -23.19
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_ok-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b8ec531efde4f0e5e88bcaa0782f0269fba15359bed217f9594debd05867cb12",
+        "durationMs": 1085,
+        "samples": 47849,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.43,
+        "rmsDbfs": -23.61
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Tepat sekali."
+        }
+      ]
+    },
+    "tutor/b_ok-s02": {
+      "clipId": "tutor/b_ok-s02",
+      "characterId": "tutor",
+      "nodeId": "b_ok",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Kalau nanti ditanya „Und du?“ artinya „Dan kamu?“ — itu saatnya kamu menyebut nama.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 5235,
+      "wav": {
+        "path": "masters/tutor/b_ok-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "5bbd54dbb75a645e9026b0ca8a809093fe19bcd83037687f4f28d60a85af8307",
+        "durationMs": 5235,
+        "samples": 230866,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.82,
+        "rmsDbfs": -21.67
+      },
+      "runtime": {
+        "path": "runtime/tutor/b_ok-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "8c46661f9d8591c3390fee54e4b54de4ff0e2cab38f04cd40efee8a1ee4f1cf4",
+        "durationMs": 5235,
+        "samples": 230866,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.32,
+        "rmsDbfs": -22.11
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Kalau nanti ditanya",
+          "engineText": "Kalau nanti ditanya"
+        },
+        {
+          "language": "de",
+          "text": "Und du?",
+          "engineText": "Und du?"
+        },
+        {
+          "language": "id",
+          "text": "artinya „Dan kamu?“ — itu saatnya kamu menyebut nama.",
+          "engineText": "artinya Dan kamu? , itu saatnya kamu menyebut nama."
+        }
+      ]
+    },
+    "mia/c_mia1-s01": {
+      "clipId": "mia/c_mia1-s01",
+      "characterId": "mia",
+      "nodeId": "c_mia1",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 795,
+      "wav": {
+        "path": "masters/mia/c_mia1-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "e75b4b4897911733414db1be2b81b9e3bb3c05e05efe681c8e805db3f960b606",
+        "durationMs": 795,
+        "samples": 35060,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.19,
+        "rmsDbfs": -24.23
+      },
+      "runtime": {
+        "path": "runtime/mia/c_mia1-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "6540950689c50ee5a0ae6c4300e48c95867df7999e4a386bc96edd6e71aa0f59",
+        "durationMs": 795,
+        "samples": 35060,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.68,
+        "rmsDbfs": -24.68
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "mia/c_mia1-s02": {
+      "clipId": "mia/c_mia1-s02",
+      "characterId": "mia",
+      "nodeId": "c_mia1",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Ich bin Mia.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1005,
+      "wav": {
+        "path": "masters/mia/c_mia1-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "19baffb33aba00fb01f5215e0f0805f023194801aa379435bd717f629cda8caf",
+        "durationMs": 1005,
+        "samples": 44321,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.79,
+        "rmsDbfs": -23.58
+      },
+      "runtime": {
+        "path": "runtime/mia/c_mia1-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "755d4461587c3d89b9047f7894c6f5faaf6a173f3e7231d6f96807a50b225937",
+        "durationMs": 1005,
+        "samples": 44321,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -9.36,
+        "rmsDbfs": -24.02
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ich bin Mia.",
+          "engineText": "Ich bin Mia."
+        }
+      ]
+    },
+    "mia/c_mia1-s03": {
+      "clipId": "mia/c_mia1-s03",
+      "characterId": "mia",
+      "nodeId": "c_mia1",
+      "sentenceIndex": 2,
+      "language": "de",
+      "transcript": "Und du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 755,
+      "wav": {
+        "path": "masters/mia/c_mia1-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "4f76a4e61cd8f58a1649073d07845762c420b0914a323a8085d10232f1f4007b",
+        "durationMs": 755,
+        "samples": 33296,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -9.82,
+        "rmsDbfs": -23.46
+      },
+      "runtime": {
+        "path": "runtime/mia/c_mia1-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b3d8e9cb766813a98f0d3f7600e2fc18395304c7ad1d58bd2b1fdbcd7550c935",
+        "durationMs": 755,
+        "samples": 33296,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.25,
+        "rmsDbfs": -23.88
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Und du?",
+          "engineText": "Und du?"
+        }
+      ]
+    },
+    "mia/c_greet-s01": {
+      "clipId": "mia/c_greet-s01",
+      "characterId": "mia",
+      "nodeId": "c_greet",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 775,
+      "wav": {
+        "path": "masters/mia/c_greet-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "918e87b1dbaf5d9d45f874c936b1728a7059b13990bc2b1dcc50782881db3961",
+        "durationMs": 775,
+        "samples": 34178,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.83,
+        "rmsDbfs": -24.42
+      },
+      "runtime": {
+        "path": "runtime/mia/c_greet-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "1215fb91a2bcdc041348c74fb8ed6842a20188a832eac37ac4ed57100835b1e1",
+        "durationMs": 775,
+        "samples": 34178,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.11,
+        "rmsDbfs": -24.91
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "mia/c_greet-s02": {
+      "clipId": "mia/c_greet-s02",
+      "characterId": "mia",
+      "nodeId": "c_greet",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Und wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1035,
+      "wav": {
+        "path": "masters/mia/c_greet-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "7cb1d5a3e23bd8580eb7838206b83b44d60e221a5d475e340d75536cd52ca669",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.48,
+        "rmsDbfs": -22.98
+      },
+      "runtime": {
+        "path": "runtime/mia/c_greet-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "8274ace5b585bb59804871128fdb657936307968c75012bf3ba757f02c12d179",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.72,
+        "rmsDbfs": -23.36
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Und wie heißt du?",
+          "engineText": "Und wie heißt du?"
+        }
+      ]
+    },
+    "mia/c_janein-s01": {
+      "clipId": "mia/c_janein-s01",
+      "characterId": "mia",
+      "nodeId": "c_janein",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hm?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 675,
+      "wav": {
+        "path": "masters/mia/c_janein-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "2db0f78f0dc5a0726b19e8c838a28118358a6ba31d6bbaaa4bfa8b86b05b5e14",
+        "durationMs": 675,
+        "samples": 29768,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -11.87,
+        "rmsDbfs": -24.49
+      },
+      "runtime": {
+        "path": "runtime/mia/c_janein-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "e72c22dd0f7130ed3ebae0af615e75ac8ca579f3bb974ba6e836c8725a0ba16d",
+        "durationMs": 675,
+        "samples": 29768,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -12.38,
+        "rmsDbfs": -24.96
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hm?",
+          "engineText": "Hm?"
+        }
+      ]
+    },
+    "mia/c_janein-s02": {
+      "clipId": "mia/c_janein-s02",
+      "characterId": "mia",
+      "nodeId": "c_janein",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 975,
+      "wav": {
+        "path": "masters/mia/c_janein-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "74f5b2bf34bac2e7a763d8ca6e665a6b82edb95963f1a2bbee41ffc48ce0b375",
+        "durationMs": 975,
+        "samples": 42998,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.86,
+        "rmsDbfs": -23.07
+      },
+      "runtime": {
+        "path": "runtime/mia/c_janein-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "a3fe0485a636d80cf6541294067b204ccc2e07eceb713281b9414987c214bf13",
+        "durationMs": 975,
+        "samples": 42998,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.22,
+        "rmsDbfs": -23.5
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Wie heißt du?",
+          "engineText": "Wie heißt du?"
+        }
+      ]
+    },
+    "mia/c_wrongname-s01": {
+      "clipId": "mia/c_wrongname-s01",
+      "characterId": "mia",
+      "nodeId": "c_wrongname",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Oh?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 685,
+      "wav": {
+        "path": "masters/mia/c_wrongname-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "733eab93ed2ffecb16ff8dd2c5cbc349f72b132d9f0fffd7fc012641c501da74",
+        "durationMs": 685,
+        "samples": 30209,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -11.14,
+        "rmsDbfs": -24.55
+      },
+      "runtime": {
+        "path": "runtime/mia/c_wrongname-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "528575acbb71c2feae56016147e1e0039d85cd7cb9c80dac05ce84684cb0e3d0",
+        "durationMs": 685,
+        "samples": 30209,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -11.58,
+        "rmsDbfs": -24.99
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Oh?",
+          "engineText": "Oh?"
+        }
+      ]
+    },
+    "mia/c_wrongname-s02": {
+      "clipId": "mia/c_wrongname-s02",
+      "characterId": "mia",
+      "nodeId": "c_wrongname",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Ich bin Mia.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 955,
+      "wav": {
+        "path": "masters/mia/c_wrongname-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "9fec2d1703eeaa6f9915bc87f1aae2a45368bd8874da1bcf528c4c34b9becfde",
+        "durationMs": 955,
+        "samples": 42116,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.78,
+        "rmsDbfs": -23.17
+      },
+      "runtime": {
+        "path": "runtime/mia/c_wrongname-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "02f89d8615c4681d2ad10080afd9828df7b161ea20d0e54903cf8a1b992724a0",
+        "durationMs": 955,
+        "samples": 42116,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.19,
+        "rmsDbfs": -23.63
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ich bin Mia.",
+          "engineText": "Ich bin Mia."
+        }
+      ]
+    },
+    "mia/c_wrongname-s03": {
+      "clipId": "mia/c_wrongname-s03",
+      "characterId": "mia",
+      "nodeId": "c_wrongname",
+      "sentenceIndex": 2,
+      "language": "de",
+      "transcript": "Und wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1045,
+      "wav": {
+        "path": "masters/mia/c_wrongname-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "41224368f2a83c60744e78cd4c3301886579f70009bc62b3206f6444172c05c6",
+        "durationMs": 1045,
+        "samples": 46085,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.64,
+        "rmsDbfs": -23.02
+      },
+      "runtime": {
+        "path": "runtime/mia/c_wrongname-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "2f7e7bbbf51037d574969c6a10897958e249388a766ae7fce7049e6eda8dfc52",
+        "durationMs": 1046,
+        "samples": 46127,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.35,
+        "rmsDbfs": -23.43
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Und wie heißt du?",
+          "engineText": "Und wie heißt du?"
+        }
+      ]
+    },
+    "mia/c_bye-s01": {
+      "clipId": "mia/c_bye-s01",
+      "characterId": "mia",
+      "nodeId": "c_bye",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Ich wohne nebenan.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1235,
+      "wav": {
+        "path": "masters/mia/c_bye-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "3b6de631b820af28821c2f5da7948efebae630bb9e2548bf29ecf4cfceb39497",
+        "durationMs": 1235,
+        "samples": 54464,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.01,
+        "rmsDbfs": -22.46
+      },
+      "runtime": {
+        "path": "runtime/mia/c_bye-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "22a8be4e624337c0d3de893565b4c2e477664210182a5ee87e54fc43e48da821",
+        "durationMs": 1235,
+        "samples": 54464,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.39,
+        "rmsDbfs": -22.86
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ich wohne nebenan.",
+          "engineText": "Ich wohne nebenan."
+        }
+      ]
+    },
+    "mia/c_bye-s02": {
+      "clipId": "mia/c_bye-s02",
+      "characterId": "mia",
+      "nodeId": "c_bye",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Bis später!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 975,
+      "wav": {
+        "path": "masters/mia/c_bye-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "875083627aa5903db338f82087143423f516876f2ba474c005ebe2d0a18b6abe",
+        "durationMs": 975,
+        "samples": 42998,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.11,
+        "rmsDbfs": -23.86
+      },
+      "runtime": {
+        "path": "runtime/mia/c_bye-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "9b1a197b2ec04cbe7d24c3a4287634c9a334a51c9435b6a0175c44133a78aac1",
+        "durationMs": 975,
+        "samples": 42998,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.69,
+        "rmsDbfs": -24.25
+      },
+      "voiceSpeed": 0.94,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Bis später!",
+          "engineText": "Bis später!"
+        }
+      ]
+    },
+    "tutor/c_tutor-s01": {
+      "clipId": "tutor/c_tutor-s01",
+      "characterId": "tutor",
+      "nodeId": "c_tutor",
+      "sentenceIndex": 0,
+      "language": "id",
+      "transcript": "Kamu baru saja berkenalan dengan tetangga.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 2625,
+      "wav": {
+        "path": "masters/tutor/c_tutor-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "612c1f61a54acbbc0944cc84080667006b90aae572c0ce0667406d91c7a118ce",
+        "durationMs": 2625,
+        "samples": 115763,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.24,
+        "rmsDbfs": -21.17
+      },
+      "runtime": {
+        "path": "runtime/tutor/c_tutor-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5d187cc5393887bd334869c6a3b464e2052dd9fdb9905052782a3631ecdc8bfe",
+        "durationMs": 2625,
+        "samples": 115763,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.68,
+        "rmsDbfs": -21.61
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Kamu baru saja berkenalan dengan tetangga.",
+          "engineText": "Kamu baru saja berkenalan dengan tetangga."
+        }
+      ]
+    },
+    "tutor/c_tutor-s02": {
+      "clipId": "tutor/c_tutor-s02",
+      "characterId": "tutor",
+      "nodeId": "c_tutor",
+      "sentenceIndex": 1,
+      "language": "id",
+      "transcript": "Udara pagi di luar segar — ayo lihat jalan di depan rumah.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-F4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 3885,
+      "wav": {
+        "path": "masters/tutor/c_tutor-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "fe2f3cebb753d0521321585e44d8e196648a1f4f3035c6ee4a9b2ba0d65a9c77",
+        "durationMs": 3885,
+        "samples": 171329,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.27,
+        "rmsDbfs": -20.92
+      },
+      "runtime": {
+        "path": "runtime/tutor/c_tutor-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b9ce959fd892e0fb3616df79f2820881f6f67aafd567cf7a07d1d42b55e678dd",
+        "durationMs": 3885,
+        "samples": 171329,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.79,
+        "rmsDbfs": -21.37
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "id",
+          "text": "Udara pagi di luar segar — ayo lihat jalan di depan rumah.",
+          "engineText": "Udara pagi di luar segar , ayo lihat jalan di depan rumah."
+        }
+      ]
+    },
+    "tetangga/d_nb1-s01": {
+      "clipId": "tetangga/d_nb1-s01",
+      "characterId": "tetangga",
+      "nodeId": "d_nb1",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1105,
+      "wav": {
+        "path": "masters/tetangga/d_nb1-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "701ca918758afd9fbf3ce2bd75d7c4495640b3a53be8679da94618df2ff1e8ca",
+        "durationMs": 1105,
+        "samples": 48731,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.76,
+        "rmsDbfs": -22.37
+      },
+      "runtime": {
+        "path": "runtime/tetangga/d_nb1-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "6b6c9466ed526e58bed3cdba0f5f4228799d7b4b8047f8bc284da7eea30c268a",
+        "durationMs": 1105,
+        "samples": 48731,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -9.2,
+        "rmsDbfs": -22.79
+      },
+      "voiceSpeed": 0.9,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "tetangga/d_nb_hm-s01": {
+      "clipId": "tetangga/d_nb_hm-s01",
+      "characterId": "tetangga",
+      "nodeId": "d_nb_hm",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Wie bitte?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 895,
+      "wav": {
+        "path": "masters/tetangga/d_nb_hm-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "1570b05f8f1c5069c4ec68492502f12fa7c8f5fd34d3909a120ab16c25f27706",
+        "durationMs": 895,
+        "samples": 39470,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.46,
+        "rmsDbfs": -23.08
+      },
+      "runtime": {
+        "path": "runtime/tetangga/d_nb_hm-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b54456afb0bb9531a6674c5eadeb5a5b270f62b42855b4551486e0fa46fdc7b3",
+        "durationMs": 895,
+        "samples": 39470,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.56,
+        "rmsDbfs": -23.52
+      },
+      "voiceSpeed": 0.9,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Wie bitte?",
+          "engineText": "Wie bitte?"
+        }
+      ]
+    },
+    "tetangga/d_nb_hm-s02": {
+      "clipId": "tetangga/d_nb_hm-s02",
+      "characterId": "tetangga",
+      "nodeId": "d_nb_hm",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1125,
+      "wav": {
+        "path": "masters/tetangga/d_nb_hm-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "2162861d1f59c586dbc62bd03d56540554056726796341417d50cb6eaba50bc3",
+        "durationMs": 1125,
+        "samples": 49613,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.42,
+        "rmsDbfs": -22.73
+      },
+      "runtime": {
+        "path": "runtime/tetangga/d_nb_hm-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "99236238db45bb6d5147764fc7f07793da61af6e309355101f06b645d409392c",
+        "durationMs": 1125,
+        "samples": 49613,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.81,
+        "rmsDbfs": -23.16
+      },
+      "voiceSpeed": 0.9,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "tetangga/d_nb_ok-s01": {
+      "clipId": "tetangga/d_nb_ok-s01",
+      "characterId": "tetangga",
+      "nodeId": "d_nb_ok",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Schönen Tag noch!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M4",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1365,
+      "wav": {
+        "path": "masters/tetangga/d_nb_ok-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "f66eb66b3d6075331baa65ca327eec090fc6fcaa79002a01a7bc38861c032e2f",
+        "durationMs": 1365,
+        "samples": 60197,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.6,
+        "rmsDbfs": -22.89
+      },
+      "runtime": {
+        "path": "runtime/tetangga/d_nb_ok-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "4564222fecbd3345ce23bc39dd4aaeec31c326e6209880ad824f0ec91b120b12",
+        "durationMs": 1365,
+        "samples": 60197,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -11.13,
+        "rmsDbfs": -23.35
+      },
+      "voiceSpeed": 0.9,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Schönen Tag noch!",
+          "engineText": "Schönen Tag noch!"
+        }
+      ]
+    },
+    "pos/d_post_q-s01": {
+      "clipId": "pos/d_post_q-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_q",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 815,
+      "wav": {
+        "path": "masters/pos/d_post_q-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "b250294d9e77eba95a5aaeae07ec9d94dd194a0a1c265975e7853400a5baa067",
+        "durationMs": 815,
+        "samples": 35942,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.4,
+        "rmsDbfs": -24.05
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_q-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "2ee060ddd8206e6a0b73e73f027587359c808ac7993cf8244b36b2ebafe029b6",
+        "durationMs": 815,
+        "samples": 35942,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.03,
+        "rmsDbfs": -24.49
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "pos/d_post_q-s02": {
+      "clipId": "pos/d_post_q-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_q",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Bist du Mia?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1135,
+      "wav": {
+        "path": "masters/pos/d_post_q-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "e049612cdd61073ab2f54c5d69441eafc92cf5bab78a3b1c2c4b3eeb4003552e",
+        "durationMs": 1135,
+        "samples": 50054,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.78,
+        "rmsDbfs": -22.76
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_q-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "107f8456386d87a95139a06a681f53bc7b661e58870dc160f8e54b59fa3bf1e6",
+        "durationMs": 1135,
+        "samples": 50054,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.24,
+        "rmsDbfs": -23.19
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Bist du Mia?",
+          "engineText": "Bist du Mia?"
+        }
+      ]
+    },
+    "pos/d_post_greet-s01": {
+      "clipId": "pos/d_post_greet-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_greet",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hallo!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 885,
+      "wav": {
+        "path": "masters/pos/d_post_greet-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "ff1fa61da9ed4fa8e15b2ffdcdbcb6ece78283840d98394fe98c9f49a76a7ae2",
+        "durationMs": 885,
+        "samples": 39029,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.78,
+        "rmsDbfs": -24.15
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_greet-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "020dd116d2fbc556e75b4e6f377bbdc6586ef8ed1020324ca02e3a3fed19356f",
+        "durationMs": 885,
+        "samples": 39029,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.25,
+        "rmsDbfs": -24.6
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "pos/d_post_greet-s02": {
+      "clipId": "pos/d_post_greet-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_greet",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Also — bist du Mia?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1395,
+      "wav": {
+        "path": "masters/pos/d_post_greet-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "0dca8f55a77dc172d21786b811d34658d9b2fed3bdcd67387c68911aa3d84613",
+        "durationMs": 1395,
+        "samples": 61520,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.17,
+        "rmsDbfs": -22.41
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_greet-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "210cf1b99fe1939f98a454e9dff3b23f11e03acae53d0e88dd05c4859d93119e",
+        "durationMs": 1395,
+        "samples": 61520,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.6,
+        "rmsDbfs": -22.85
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Also — bist du Mia?",
+          "engineText": "Also , bist du Mia?"
+        }
+      ]
+    },
+    "pos/d_post_nein-s01": {
+      "clipId": "pos/d_post_nein-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_nein",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hm.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 705,
+      "wav": {
+        "path": "masters/pos/d_post_nein-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "1cf42b8c078662eb1b1c2dc4c75d7331186ffdfe6f1d91ee939258c751bddf63",
+        "durationMs": 705,
+        "samples": 31091,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.02,
+        "rmsDbfs": -24.33
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_nein-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "79100787eb813aa1f9325ffb04d3608b22206b06cff3383e891707a9b40456a0",
+        "durationMs": 705,
+        "samples": 31091,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.47,
+        "rmsDbfs": -24.76
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hm.",
+          "engineText": "Hm."
+        }
+      ]
+    },
+    "pos/d_post_nein-s02": {
+      "clipId": "pos/d_post_nein-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_nein",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 905,
+      "wav": {
+        "path": "masters/pos/d_post_nein-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "a0e4a1f441f2b961a41fb8c7d71cbc907249a1e33915704d4e7a7083912019c2",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -26.26
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_nein-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "9a083733054d31969bd199dc843f5b95310f551adc495ba9c86571f5900ee4df",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.38,
+        "rmsDbfs": -26.68
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -22.93,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Wie heißt du?",
+          "engineText": "Wie heißt du?"
+        }
+      ]
+    },
+    "pos/d_post_ja-s01": {
+      "clipId": "pos/d_post_ja-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_ja",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Mia?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 845,
+      "wav": {
+        "path": "masters/pos/d_post_ja-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "25be3c1d194752398d601b2b73ef866ec619e4c7f785908bbe186478026e2dc2",
+        "durationMs": 845,
+        "samples": 37265,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.55,
+        "rmsDbfs": -23.25
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_ja-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b2e6698f7124d40fae20a909775f394b1aa8d77fde3580e72a7ced42df27ce2c",
+        "durationMs": 845,
+        "samples": 37265,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.92,
+        "rmsDbfs": -23.69
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Mia?",
+          "engineText": "Mia?"
+        }
+      ]
+    },
+    "pos/d_post_ja-s03": {
+      "clipId": "pos/d_post_ja-s03",
+      "characterId": "pos",
+      "nodeId": "d_post_ja",
+      "sentenceIndex": 2,
+      "language": "de",
+      "transcript": "Wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 965,
+      "wav": {
+        "path": "masters/pos/d_post_ja-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "5d8b0e60f86abf3f41dcabac5943168adeedcbab33a3c718eb26ff53819f6cc5",
+        "durationMs": 965,
+        "samples": 42557,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.57,
+        "rmsDbfs": -23.03
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_ja-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "723cfa14086a004f2964d6e37f4ca7b548c8edb935e71f09bf1a0057ecbd924a",
+        "durationMs": 965,
+        "samples": 42557,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.0,
+        "rmsDbfs": -23.47
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Wie heißt du?",
+          "engineText": "Wie heißt du?"
+        }
+      ]
+    },
+    "pos/d_post_ja_mia-s01": {
+      "clipId": "pos/d_post_ja_mia-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_ja_mia",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Mia?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 795,
+      "wav": {
+        "path": "masters/pos/d_post_ja_mia-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "4f39551ccc91fcdcde6d3e69ce72c36d7a9615f608786ca7a99088c440868ff5",
+        "durationMs": 795,
+        "samples": 35060,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.58,
+        "rmsDbfs": -23.44
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_ja_mia-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "9d23c937a54e4f8574fa3532d4db891c8f47aaa7a839d0f965346e73d1489798",
+        "durationMs": 795,
+        "samples": 35060,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.92,
+        "rmsDbfs": -23.83
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Mia?",
+          "engineText": "Mia?"
+        }
+      ]
+    },
+    "pos/d_post_ja_mia-s02": {
+      "clipId": "pos/d_post_ja_mia-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_ja_mia",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Hier steht „Für die neue Nachbarin“.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 2085,
+      "wav": {
+        "path": "masters/pos/d_post_ja_mia-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "9422b4e6ae7a1180f99c3bf985e692e5ba6c70c536996ddca187b2d7e8316c19",
+        "durationMs": 2085,
+        "samples": 91949,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.39,
+        "rmsDbfs": -22.04
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_ja_mia-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "0db09a437d393d1c1bf604ba7ebdd7f1794b5211616464ba26c059d7a8973b37",
+        "durationMs": 2085,
+        "samples": 91949,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.9,
+        "rmsDbfs": -22.49
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hier steht „Für die neue Nachbarin“.",
+          "engineText": "Hier steht Für die neue Nachbarin."
+        }
+      ]
+    },
+    "pos/d_post_ja_mia-s03": {
+      "clipId": "pos/d_post_ja_mia-s03",
+      "characterId": "pos",
+      "nodeId": "d_post_ja_mia",
+      "sentenceIndex": 2,
+      "language": "de",
+      "transcript": "Wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 905,
+      "wav": {
+        "path": "masters/pos/d_post_ja_mia-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "2802f04e75158cc8567767e07420b4bc5781a5c3d7b2824cf3479a3b1042cfc7",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -26.29
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_ja_mia-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "9b44e9063688df6b0dd8eba1d82cddb75d97f80eb654530cd5588a751d1b8d50",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.26,
+        "rmsDbfs": -26.7
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -22.96,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Wie heißt du?",
+          "engineText": "Wie heißt du?"
+        }
+      ]
+    },
+    "pos/d_post_other-s01": {
+      "clipId": "pos/d_post_other-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_other",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Hm, so heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1175,
+      "wav": {
+        "path": "masters/pos/d_post_other-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "8ab671c3eefc3fcb6f2908ac12c46a77651c5d4d6c23091400b981cce6993c4b",
+        "durationMs": 1175,
+        "samples": 51818,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -22.75
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_other-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "3ef325472be17ce0c565199e3fb09a15f394eb9cba60c0a3cb2b50ecd145b9f5",
+        "durationMs": 1175,
+        "samples": 51818,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.21,
+        "rmsDbfs": -23.16
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.38,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hm, so heißt du?",
+          "engineText": "Hm, so heißt du?"
+        }
+      ]
+    },
+    "pos/d_post_again-s01": {
+      "clipId": "pos/d_post_again-s01",
+      "characterId": "pos",
+      "nodeId": "d_post_again",
+      "sentenceIndex": 0,
+      "language": "de",
+      "transcript": "Okay… aber wie heißt du?",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1925,
+      "wav": {
+        "path": "masters/pos/d_post_again-s01.wav",
+        "codec": "PCM s16le",
+        "sha256": "a4a9815cf9441ac41a0b39a9fe15ebd09a661747b1c3ff4582bf9e03a0e6c0ed",
+        "durationMs": 1925,
+        "samples": 84893,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.39,
+        "rmsDbfs": -23.2
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_again-s01.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "6d7c94584d2c38cff7752ffe7ad3efc0e612a1cd8a74bdea6b5cacdf89262959",
+        "durationMs": 1925,
+        "samples": 84893,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.84,
+        "rmsDbfs": -23.64
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Okay… aber wie heißt du?",
+          "engineText": "Okay... aber wie heißt du?"
+        }
+      ]
+    },
+    "pos/d_post_give-s02": {
+      "clipId": "pos/d_post_give-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_give",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Hier, für dich.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1075,
+      "wav": {
+        "path": "masters/pos/d_post_give-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "eef95366c3a58aec22b6263fdc1451f037c8cf8e87baf072264a015b8c6ce7e4",
+        "durationMs": 1075,
+        "samples": 47408,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.51,
+        "rmsDbfs": -24.73
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_give-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "172a265e2895f9e10968d89b2de00ad69be7a21b66a54c7ca64f6cba6be359c0",
+        "durationMs": 1075,
+        "samples": 47408,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.73,
+        "rmsDbfs": -25.2
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hier, für dich.",
+          "engineText": "Hier, für dich."
+        }
+      ]
+    },
+    "pos/d_post_already-s02": {
+      "clipId": "pos/d_post_already-s02",
+      "characterId": "pos",
+      "nodeId": "d_post_already",
+      "sentenceIndex": 1,
+      "language": "de",
+      "transcript": "Den Brief hast du ja schon.",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1565,
+      "wav": {
+        "path": "masters/pos/d_post_already-s02.wav",
+        "codec": "PCM s16le",
+        "sha256": "2d0daac16a1b6a6c1c99dbc15d0c74ced08f3574cc5c25d374877011630e6a8b",
+        "durationMs": 1565,
+        "samples": 69017,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.85,
+        "rmsDbfs": -22.2
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_already-s02.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "503ea4802b6ed26bacf82f5b58c5f387c229b16a5485e9722c6765eddd41b204",
+        "durationMs": 1565,
+        "samples": 69017,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.12,
+        "rmsDbfs": -22.6
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Den Brief hast du ja schon.",
+          "engineText": "Den Brief hast du ja schon."
+        }
+      ]
+    },
+    "pos/d_post_already-s03": {
+      "clipId": "pos/d_post_already-s03",
+      "characterId": "pos",
+      "nodeId": "d_post_already",
+      "sentenceIndex": 2,
+      "language": "de",
+      "transcript": "Schönen Tag!",
+      "dynamic": false,
+      "originalRuntimeAssetId": null,
+      "voiceId": "supertonic3-M2",
+      "usage": "npc-line",
+      "status": "rendered",
+      "durationMs": 1095,
+      "wav": {
+        "path": "masters/pos/d_post_already-s03.wav",
+        "codec": "PCM s16le",
+        "sha256": "be7b3d014d3ced270cafaec6fa3c495991840a7a2bcc27fe55fa0b00461140d6",
+        "durationMs": 1095,
+        "samples": 48290,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.74,
+        "rmsDbfs": -23.76
+      },
+      "runtime": {
+        "path": "runtime/pos/d_post_already-s03.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "a08c5b899d80e56ce3e275c21cd0c9917279d4c1164bcaac076993e87a64b73c",
+        "durationMs": 1095,
+        "samples": 48290,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.02,
+        "rmsDbfs": -24.22
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Schönen Tag!",
+          "engineText": "Schönen Tag!"
+        }
+      ]
+    },
+    "player-01/respons-hallo": {
+      "clipId": "player-01/respons-hallo",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "b_hallo",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Hallo!",
+      "usage": "player-stock",
+      "source": "b_hallo",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 865,
+      "wav": {
+        "path": "masters/player-01/respons-hallo.wav",
+        "codec": "PCM s16le",
+        "sha256": "0bf2f861cf1b2947f399d9237353850e1044aa183aea19dc3dd49768b8f5164d",
+        "durationMs": 865,
+        "samples": 38147,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.12,
+        "rmsDbfs": -23.14
+      },
+      "runtime": {
+        "path": "runtime/player-01/respons-hallo.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b67d0c360dd508436d9d329b3627dbe584696443e86ed2b11b60a3c493a697fe",
+        "durationMs": 865,
+        "samples": 38147,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.04,
+        "rmsDbfs": -23.57
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "player-01/respons-guten-morgen": {
+      "clipId": "player-01/respons-guten-morgen",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_nb_answer",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "usage": "player-stock",
+      "source": "d_nb_answer.hints[1]",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 1085,
+      "wav": {
+        "path": "masters/player-01/respons-guten-morgen.wav",
+        "codec": "PCM s16le",
+        "sha256": "23cffe185fbf77e945234c569d1ee33b1370d5e508283ee1bc6b4297c5ccf392",
+        "durationMs": 1085,
+        "samples": 47849,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -9.82,
+        "rmsDbfs": -22.43
+      },
+      "runtime": {
+        "path": "runtime/player-01/respons-guten-morgen.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "2e6005ab36549780f4af4e0536912554874399221126f3d61d78f3979ba35a4e",
+        "durationMs": 1085,
+        "samples": 47849,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.13,
+        "rmsDbfs": -22.86
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "player-01/respons-ja": {
+      "clipId": "player-01/respons-ja",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Ja",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_ja"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 785,
+      "wav": {
+        "path": "masters/player-01/respons-ja.wav",
+        "codec": "PCM s16le",
+        "sha256": "54ea9f6d3a48e5735e97beadb18b735816af1d3a5b56f2a5033fe9d0ddac1586",
+        "durationMs": 785,
+        "samples": 34619,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.3,
+        "rmsDbfs": -24.48
+      },
+      "runtime": {
+        "path": "runtime/player-01/respons-ja.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "dde953812ba212aebe024826a778bc4bed6add3b8f8b7fe91aa3dc5645b71d78",
+        "durationMs": 785,
+        "samples": 34619,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.74,
+        "rmsDbfs": -24.92
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ja",
+          "engineText": "Ja"
+        }
+      ]
+    },
+    "player-01/respons-nein": {
+      "clipId": "player-01/respons-nein",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Nein",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_nein"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 805,
+      "wav": {
+        "path": "masters/player-01/respons-nein.wav",
+        "codec": "PCM s16le",
+        "sha256": "0737bc66c320866e4583246b3b7cc764d2c4ba14560c0c0f52969a95f1192ae2",
+        "durationMs": 805,
+        "samples": 35501,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.81,
+        "rmsDbfs": -23.26
+      },
+      "runtime": {
+        "path": "runtime/player-01/respons-nein.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "e07e11c284185642987776efd1d9edafe21ea4d2c998782f10e090038d38519a",
+        "durationMs": 805,
+        "samples": 35501,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.12,
+        "rmsDbfs": -23.71
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Nein",
+          "engineText": "Nein"
+        }
+      ]
+    },
+    "player-01/demo-perkenalan": {
+      "transcript": "Hallo, ich heiße Alex.",
+      "demoName": "Alex",
+      "source": "b_contoh1 + b_contoh2; pola contoh, khusus demo",
+      "clipId": "player-01/demo-perkenalan",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "language": "de",
+      "usage": "player-demo",
+      "nodeId": null,
+      "choiceId": null,
+      "demoOnly": true,
+      "status": "rendered",
+      "durationMs": 1565,
+      "wav": {
+        "path": "demo-perkenalan/player-01/demo-perkenalan.wav",
+        "codec": "PCM s16le",
+        "sha256": "9ecfd765e6cfc4f6c5ec2f1a1e1e5ae874bd6ac020de9a109f7ab3a613cf50a8",
+        "durationMs": 1565,
+        "samples": 69017,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.93,
+        "rmsDbfs": -21.94
+      },
+      "runtime": {
+        "path": "demo-perkenalan/player-01/demo-perkenalan.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "9a2978fb8e04ca8580aafd8b4d0d3468032e7755e5150190f33c35ebef6dfe9e",
+        "durationMs": 1565,
+        "samples": 69017,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.47,
+        "rmsDbfs": -22.4
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo, ich heiße Alex.",
+          "engineText": "Hallo, ich heiße Alex."
+        }
+      ]
+    },
+    "player-02/respons-hallo": {
+      "clipId": "player-02/respons-hallo",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "b_hallo",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Hallo!",
+      "usage": "player-stock",
+      "source": "b_hallo",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 865,
+      "wav": {
+        "path": "masters/player-02/respons-hallo.wav",
+        "codec": "PCM s16le",
+        "sha256": "44d5ea4b2052c407e9fd87a9a91fa017d8d242f8419a672c18fb8a9f96ec4da7",
+        "durationMs": 865,
+        "samples": 38147,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.43,
+        "rmsDbfs": -23.8
+      },
+      "runtime": {
+        "path": "runtime/player-02/respons-hallo.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "2ea97f0b3e6fa5693f6efd24c337f7e1e396b405a28c104f401059d5415b8a69",
+        "durationMs": 865,
+        "samples": 38147,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -7.91,
+        "rmsDbfs": -24.17
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "player-02/respons-guten-morgen": {
+      "clipId": "player-02/respons-guten-morgen",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_nb_answer",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "usage": "player-stock",
+      "source": "d_nb_answer.hints[1]",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 1035,
+      "wav": {
+        "path": "masters/player-02/respons-guten-morgen.wav",
+        "codec": "PCM s16le",
+        "sha256": "93a9c5ce6401439a9976adee1c21b53aed5a5f2690bc083f1c32f7f55ff5c14f",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.2,
+        "rmsDbfs": -22.99
+      },
+      "runtime": {
+        "path": "runtime/player-02/respons-guten-morgen.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "c45e4944a8d2142efec723aa49aa61054790bb8fde0457dfa8e5d552f042e9dc",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.58,
+        "rmsDbfs": -23.43
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "player-02/respons-ja": {
+      "clipId": "player-02/respons-ja",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Ja",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_ja"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 735,
+      "wav": {
+        "path": "masters/player-02/respons-ja.wav",
+        "codec": "PCM s16le",
+        "sha256": "4662cfeaaa78b4ac58cd9eaab35d32c67afd93f9005e30e6af24c83468ca23e8",
+        "durationMs": 735,
+        "samples": 32414,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.57,
+        "rmsDbfs": -23.89
+      },
+      "runtime": {
+        "path": "runtime/player-02/respons-ja.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5864fd5cb9e6d9e388f5ca9a625b6916244babcbd56552e2aef803db3f620b59",
+        "durationMs": 735,
+        "samples": 32414,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.11,
+        "rmsDbfs": -24.29
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ja",
+          "engineText": "Ja"
+        }
+      ]
+    },
+    "player-02/respons-nein": {
+      "clipId": "player-02/respons-nein",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Nein",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_nein"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 875,
+      "wav": {
+        "path": "masters/player-02/respons-nein.wav",
+        "codec": "PCM s16le",
+        "sha256": "3763657eecd51277b1daf9e3a3fe0a4c7d78319c44caa415ecc929dcd1d42c46",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.17,
+        "rmsDbfs": -24.63
+      },
+      "runtime": {
+        "path": "runtime/player-02/respons-nein.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "8c0ee289fc6e7213d73b2b4e805244a831175b23874d4c28a1f553a793fed5f9",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.59,
+        "rmsDbfs": -25.07
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Nein",
+          "engineText": "Nein"
+        }
+      ]
+    },
+    "player-02/demo-perkenalan": {
+      "transcript": "Hallo, ich heiße Alex.",
+      "demoName": "Alex",
+      "source": "b_contoh1 + b_contoh2; pola contoh, khusus demo",
+      "clipId": "player-02/demo-perkenalan",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "language": "de",
+      "usage": "player-demo",
+      "nodeId": null,
+      "choiceId": null,
+      "demoOnly": true,
+      "status": "rendered",
+      "durationMs": 1655,
+      "wav": {
+        "path": "demo-perkenalan/player-02/demo-perkenalan.wav",
+        "codec": "PCM s16le",
+        "sha256": "0c84929a725475213a330fc751f33f75a915807eeea2e6bb2cd73d00bb51f088",
+        "durationMs": 1655,
+        "samples": 72986,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -22.95
+      },
+      "runtime": {
+        "path": "demo-perkenalan/player-02/demo-perkenalan.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5be0f75f62d731c0e69151d0e8a176a6f3eeed1dd1127e533503e3f5529fe805",
+        "durationMs": 1655,
+        "samples": 72986,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.47,
+        "rmsDbfs": -23.37
+      },
+      "voiceSpeed": 0.93,
+      "speechActiveDbfs": -21.1,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo, ich heiße Alex.",
+          "engineText": "Hallo, ich heiße Alex."
+        }
+      ]
+    },
+    "player-03/respons-hallo": {
+      "clipId": "player-03/respons-hallo",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "b_hallo",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Hallo!",
+      "usage": "player-stock",
+      "source": "b_hallo",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 835,
+      "wav": {
+        "path": "masters/player-03/respons-hallo.wav",
+        "codec": "PCM s16le",
+        "sha256": "cb5acacd1b4415d44e233606691ffd841a0b319093c18764df389fc0bf509593",
+        "durationMs": 835,
+        "samples": 36824,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.02,
+        "rmsDbfs": -23.65
+      },
+      "runtime": {
+        "path": "runtime/player-03/respons-hallo.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "f701eb2aa0f582f6f9badbeedf84c4da168a538f875571359c444bc826e8e514",
+        "durationMs": 835,
+        "samples": 36824,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -10.47,
+        "rmsDbfs": -24.06
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "player-03/respons-guten-morgen": {
+      "clipId": "player-03/respons-guten-morgen",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_nb_answer",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "usage": "player-stock",
+      "source": "d_nb_answer.hints[1]",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 1225,
+      "wav": {
+        "path": "masters/player-03/respons-guten-morgen.wav",
+        "codec": "PCM s16le",
+        "sha256": "319efe01fdd5138a0e0ca1a6ae4ef9e83e784f9feaffe1a5b13c53285d225693",
+        "durationMs": 1225,
+        "samples": 54023,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -12.3,
+        "rmsDbfs": -22.43
+      },
+      "runtime": {
+        "path": "runtime/player-03/respons-guten-morgen.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5494442322211b2e314295a52339eacc0f8ce19c87e50239d3f519ec6e47b110",
+        "durationMs": 1225,
+        "samples": 54023,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -12.59,
+        "rmsDbfs": -22.86
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "player-03/respons-ja": {
+      "clipId": "player-03/respons-ja",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Ja",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_ja"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 825,
+      "wav": {
+        "path": "masters/player-03/respons-ja.wav",
+        "codec": "PCM s16le",
+        "sha256": "d7ba669139491f7bf945b8a0bfc2b9ffaa08962e6090dc74662e03658c4f18e1",
+        "durationMs": 825,
+        "samples": 36383,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.34,
+        "rmsDbfs": -23.14
+      },
+      "runtime": {
+        "path": "runtime/player-03/respons-ja.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "543f9ff105676fde016c34a6f0052917c400483f2b9b48618f8a00ebca76ce99",
+        "durationMs": 825,
+        "samples": 36383,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.8,
+        "rmsDbfs": -23.61
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ja",
+          "engineText": "Ja"
+        }
+      ]
+    },
+    "player-03/respons-nein": {
+      "clipId": "player-03/respons-nein",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Nein",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_nein"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 905,
+      "wav": {
+        "path": "masters/player-03/respons-nein.wav",
+        "codec": "PCM s16le",
+        "sha256": "dd254be2a520ef61ab0b6b0bf2d8991c8ce94d9cc73dbec786fc35b9be30739e",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -11.84,
+        "rmsDbfs": -22.75
+      },
+      "runtime": {
+        "path": "runtime/player-03/respons-nein.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5e929dfc7070e75dab3430953bf3e66c1c352034b9994c7248dd7f25bbb48c8d",
+        "durationMs": 905,
+        "samples": 39911,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -12.28,
+        "rmsDbfs": -23.24
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Nein",
+          "engineText": "Nein"
+        }
+      ]
+    },
+    "player-03/demo-perkenalan": {
+      "transcript": "Hallo, ich heiße Alex.",
+      "demoName": "Alex",
+      "source": "b_contoh1 + b_contoh2; pola contoh, khusus demo",
+      "clipId": "player-03/demo-perkenalan",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "language": "de",
+      "usage": "player-demo",
+      "nodeId": null,
+      "choiceId": null,
+      "demoOnly": true,
+      "status": "rendered",
+      "durationMs": 1725,
+      "wav": {
+        "path": "demo-perkenalan/player-03/demo-perkenalan.wav",
+        "codec": "PCM s16le",
+        "sha256": "eba9f61944f69218ecdfa133cbe90146b4405652792abeb0fcd4420cb143c6f2",
+        "durationMs": 1725,
+        "samples": 76073,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -22.42
+      },
+      "runtime": {
+        "path": "demo-perkenalan/player-03/demo-perkenalan.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "5186293fc3857241dcf5cb8239f10a2eba3d3eec8b3063de17f802760335647e",
+        "durationMs": 1725,
+        "samples": 76079,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.15,
+        "rmsDbfs": -22.88
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.4,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo, ich heiße Alex.",
+          "engineText": "Hallo, ich heiße Alex."
+        }
+      ]
+    },
+    "player-04/respons-hallo": {
+      "clipId": "player-04/respons-hallo",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "b_hallo",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Hallo!",
+      "usage": "player-stock",
+      "source": "b_hallo",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 875,
+      "wav": {
+        "path": "masters/player-04/respons-hallo.wav",
+        "codec": "PCM s16le",
+        "sha256": "dde9dda248c68f248691a42ff0b661b7b9c071fbc0ac381707fd063ea194c8e7",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -5.68,
+        "rmsDbfs": -23.19
+      },
+      "runtime": {
+        "path": "runtime/player-04/respons-hallo.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "b5fe6f08f31d27928bfb93701d4e9e3549be7858967b5201b175730de6dc9346",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.0,
+        "rmsDbfs": -23.63
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo!",
+          "engineText": "Hallo!"
+        }
+      ]
+    },
+    "player-04/respons-guten-morgen": {
+      "clipId": "player-04/respons-guten-morgen",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "nodeIds": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_nb_answer",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Guten Morgen!",
+      "usage": "player-stock",
+      "source": "d_nb_answer.hints[1]",
+      "routes": [
+        {
+          "nodeId": "b_practice",
+          "next": "b_greetonly"
+        },
+        {
+          "nodeId": "c_answer",
+          "next": "c_greet"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_ok"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_greet"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 1035,
+      "wav": {
+        "path": "masters/player-04/respons-guten-morgen.wav",
+        "codec": "PCM s16le",
+        "sha256": "948353a986a6ca9d40ce1019e5e2b8faa56df8d3a359285cf5403972fb84561f",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.03,
+        "rmsDbfs": -22.51
+      },
+      "runtime": {
+        "path": "runtime/player-04/respons-guten-morgen.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "1dd8133bdba2c32e584a5796b061f020649506026cb451b4adcea1fdba70c949",
+        "durationMs": 1035,
+        "samples": 45644,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -8.47,
+        "rmsDbfs": -22.94
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Guten Morgen!",
+          "engineText": "Guten Morgen!"
+        }
+      ]
+    },
+    "player-04/respons-ja": {
+      "clipId": "player-04/respons-ja",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Ja",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_ja"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 705,
+      "wav": {
+        "path": "masters/player-04/respons-ja.wav",
+        "codec": "PCM s16le",
+        "sha256": "6550fdd80f379387e246569297da2474e7046d28a0a2f3d5619bf253687f3a02",
+        "durationMs": 705,
+        "samples": 31091,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.74,
+        "rmsDbfs": -24.33
+      },
+      "runtime": {
+        "path": "runtime/player-04/respons-ja.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "a97e5ef1f699dd5d4a28db12432f5554b16dffd9913f7fc6eeee65eaee889323",
+        "durationMs": 705,
+        "samples": 31091,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -4.29,
+        "rmsDbfs": -24.74
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Ja",
+          "engineText": "Ja"
+        }
+      ]
+    },
+    "player-04/respons-nein": {
+      "clipId": "player-04/respons-nein",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "nodeIds": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "nodeId": "d_post_a1",
+      "choiceId": null,
+      "language": "de",
+      "transcript": "Nein",
+      "usage": "player-stock",
+      "source": "d_post_a1.chips",
+      "routes": [
+        {
+          "nodeId": "c_answer",
+          "next": "c_janein"
+        },
+        {
+          "nodeId": "d_nb_answer",
+          "next": "d_nb_hm"
+        },
+        {
+          "nodeId": "d_post_a1",
+          "next": "d_post_nein"
+        },
+        {
+          "nodeId": "d_post_a2",
+          "next": "d_post_again"
+        }
+      ],
+      "demoOnly": false,
+      "status": "rendered",
+      "durationMs": 875,
+      "wav": {
+        "path": "masters/player-04/respons-nein.wav",
+        "codec": "PCM s16le",
+        "sha256": "cabdd6020e98f55c0dfd809ef9e3718cf8da4f4fcd3bd4beb8ec8a24c469b3c4",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.33,
+        "rmsDbfs": -22.98
+      },
+      "runtime": {
+        "path": "runtime/player-04/respons-nein.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "793b9143e8efca0318afafad9beb53bdb1dc691a870fc0420bcf61eb12b5182f",
+        "durationMs": 875,
+        "samples": 38588,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -6.61,
+        "rmsDbfs": -23.39
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -20.0,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Nein",
+          "engineText": "Nein"
+        }
+      ]
+    },
+    "player-04/demo-perkenalan": {
+      "transcript": "Hallo, ich heiße Alex.",
+      "demoName": "Alex",
+      "source": "b_contoh1 + b_contoh2; pola contoh, khusus demo",
+      "clipId": "player-04/demo-perkenalan",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "language": "de",
+      "usage": "player-demo",
+      "nodeId": null,
+      "choiceId": null,
+      "demoOnly": true,
+      "status": "rendered",
+      "durationMs": 1375,
+      "wav": {
+        "path": "demo-perkenalan/player-04/demo-perkenalan.wav",
+        "codec": "PCM s16le",
+        "sha256": "04e3ed94e2a676182f7d6f1cd8699aed4c1db028e94be3632981f49f6ee5a413",
+        "durationMs": 1375,
+        "samples": 60638,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.0,
+        "rmsDbfs": -23.64
+      },
+      "runtime": {
+        "path": "demo-perkenalan/player-04/demo-perkenalan.mp3",
+        "codec": "MP3 64 kbps",
+        "sha256": "e1fa729e29cba2f0ba6b2263401b6418feaf7d7f7e1010303dbd525a4d5c71aa",
+        "durationMs": 1375,
+        "samples": 60638,
+        "sampleRateHz": 44100,
+        "channels": 1,
+        "peakDbfs": -3.41,
+        "rmsDbfs": -24.1
+      },
+      "voiceSpeed": 0.91,
+      "speechActiveDbfs": -21.71,
+      "synthesisSpans": [
+        {
+          "language": "de",
+          "text": "Hallo, ich heiße Alex.",
+          "engineText": "Hallo, ich heiße Alex."
+        }
+      ]
+    }
+  },
+  "audioIndex": "audio-index.json",
+  "validatedMedia": 144
+}

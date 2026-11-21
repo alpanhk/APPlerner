@@ -1,0 +1,988 @@
+{
+ "units": [
+  {
+   "level": "A1",
+   "unit": 1,
+   "title": "Salam & perkenalan diri",
+   "goals": [
+    "Menyapa sesuai waktu hari",
+    "Memperkenalkan nama, asal, dan tempat tinggal",
+    "Menyebut teman, umur, dan bentuk plural"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Hallo! Ich heiße …",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Woher kommen Sie?",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Freunde & Alter",
+     "minutes": 10
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 2,
+   "title": "Angka, waktu, harga",
+   "goals": [
+    "Menyebut angka, harga, dan jam",
+    "Memakai nama hari dan waktu (heute, morgen, gestern)",
+    "Bertanya dan menjawab harga dengan um/am/im"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Zahlen & Preise",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Uhrzeit & Wochentage",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Zeitausdrücke: um, am, im",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 3,
+   "title": "Keluarga & hubungan",
+   "goals": [
+    "Menyebut anggota keluarga dengan artikel yang benar",
+    "Menceritakan status dan jumlah saudara",
+    "Memakai mein/meine dan kalimat dengan objek Akkusativ"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Meine Familie",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Eltern, Geschwister & Status",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Possessiv & besuchen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 4,
+   "title": "Makanan & minuman",
+   "goals": [
+    "Menyebut makanan dan minuman dengan artikel yang benar",
+    "Memesan di restoran dengan möchte + Akkusativ",
+    "Menceritakan waktu makan dan kebiasaan makan"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Essen & Trinken",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Im Restaurant bestellen",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Mahlzeiten & Verben",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 5,
+   "title": "Belanja & harga",
+   "goals": [
+    "Menyebut pakaian, warna, dan ukuran",
+    "Menanyakan harga serta membayar",
+    "Meminta barang dan menukar barang dengan sopan"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Farben und Größen",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Im Geschäft",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Bezahlen und umtauschen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 6,
+   "title": "Rumah & tempat tinggal",
+   "goals": [
+    "Menyebut bagian rumah dan perabot",
+    "Menjelaskan letak benda di rumah",
+    "Membicarakan pekerjaan rumah sederhana"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Zimmer und Möbel",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Wo steht was?",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Arbeit im Haushalt",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 7,
+   "title": "Kota & petunjuk arah",
+   "goals": [
+    "Mengenali tempat umum di kota",
+    "Meminta dan memberi petunjuk arah",
+    "Menyebut cara pergi ke suatu tempat"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Orte in der Stadt",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Nach dem Weg fragen",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Mit Bus und Bahn",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 8,
+   "title": "Pekerjaan & kegiatan harian",
+   "goals": [
+    "Menceritakan rutinitas kerja",
+    "Menyebut jadwal kerja dan waktu istirahat",
+    "Membicarakan tugas serta kemampuan di tempat kerja"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Ein Arbeitstag",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Aufgaben und Kollegen",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Arbeitszeit und Pflichten",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 9,
+   "title": "Kesehatan & tubuh",
+   "goals": [
+    "Menyebut keluhan kesehatan umum",
+    "Membuat janji dan menjelaskan gejala",
+    "Memahami saran sederhana dari dokter"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Körper und Beschwerden",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Beim Arzt",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "In der Apotheke",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 10,
+   "title": "Waktu luang & hobi",
+   "goals": [
+    "Menyebut hobi dan kegiatan waktu luang",
+    "Menyatakan kesukaan dan kemampuan",
+    "Mengajak teman melakukan kegiatan bersama"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Hobbys und Vorlieben",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Freizeit planen",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Im Verein",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 11,
+   "title": "Transportasi & perjalanan",
+   "goals": [
+    "Merencanakan perjalanan dengan kereta",
+    "Memahami jadwal, peron, dan keterlambatan",
+    "Memesan tempat dan meminta informasi perjalanan"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Eine Reise planen",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Am Bahnhof",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Informationen und Reservierung",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "unit": 12,
+   "title": "Komunikasi & janji",
+   "goals": [
+    "Mengundang dan membuat janji",
+    "Menelepon serta meninggalkan pesan singkat",
+    "Menulis pesan sederhana dan memberi jawaban"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Einladen und verabreden",
+     "minutes": 12
+    },
+    {
+     "no": 2,
+     "title": "Am Telefon",
+     "minutes": 12
+    },
+    {
+     "no": 3,
+     "title": "Eine Nachricht schreiben",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 101,
+   "title": "Wohnen & Miete",
+   "goals": [
+    "Mendeskripsikan rumah dan apartemen",
+    "Berbicara soal sewa, pemilik, dan biaya tambahan",
+    "Memakai Perfekt dan preposisi tempat"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Perfekt dengan haben",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Wohnen & Miete",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 102,
+   "title": "Arbeit & Beruf",
+   "goals": [
+    "Berbicara tentang pekerjaan dan lamaran",
+    "Menuliskan pengalaman dan kualifikasi",
+    "Memakai modalverben bentuk lampau"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Modalverben im Präteritum",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Arbeit & Beruf",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 103,
+   "title": "Einkaufen & Konsum",
+   "goals": [
+    "Berbelanja dan menanyakan harga/diskon",
+    "Mengembalikan barang dan meminta struk",
+    "Memakai bentuk lampau haben/sein"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Präteritum haben & sein",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Einkaufen & Konsum",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 104,
+   "title": "Gesundheit & Arzt",
+   "goals": [
+    "Menceritakan keluhan kesehatan",
+    "Membuat janji dengan dokter",
+    "Memakai modalverben sollen/dürfen dan imperatif"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "sollen & dürfen",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Gesundheit & Arzt",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 105,
+   "title": "Reisen & Urlaub",
+   "goals": [
+    "Merencanakan perjalanan dan pemesanan",
+    "Berbicara tentang hotel, penerbangan, dan tujuan",
+    "Memakai Perfekt dengan sein"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Perfekt dengan sein",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Reisen & Urlaub",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 106,
+   "title": "Verkehr & Orientierung",
+   "goals": [
+    "Menggunakan transportasi umum",
+    "Menanyakan dan memberi arah",
+    "Memakai imperatif dan verba terpisah"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Imperativ: Sie & du",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Verkehr & Orientierung",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 107,
+   "title": "Freizeit & Hobbys",
+   "goals": [
+    "Menceritakan hobi dan waktu luang",
+    "Menyatakan kesukaan (gern/lieber)",
+    "Berbicara tentang rencana dengan werden"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "gern, lieber, am liebsten",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Freizeit & Hobbys",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 108,
+   "title": "Medien & Kommunikation",
+   "goals": [
+    "Berbicara tentang media dan teknologi",
+    "Menjelaskan masalah komunikasi",
+    "Memakai nebensatz dass dan bentuk lampau"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Nebensatz mit dass",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Medien & Kommunikation",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 109,
+   "title": "Feste & Traditionen",
+   "goals": [
+    "Berbicara tentang pesta dan tradisi",
+    "Mengundang dan memberi selamat",
+    "Memakai wenn/als untuk waktu"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Temporale Nebensätze: wenn & als",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Feste & Traditionen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "unit": 110,
+   "title": "Umwelt & Alltag",
+   "goals": [
+    "Berbicara tentang lingkungan sehari-hari",
+    "Menjelaskan kebiasaan memilah sampah",
+    "Memakai kalimat pasif dan man"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv Präsens",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Umwelt & Alltag",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 201,
+   "title": "Wohnen & Nachbarschaft",
+   "goals": [
+    "Mengurus kontrak sewa dan deposit",
+    "Berbicara tentang tetangga dan lingkungan rumah",
+    "Memakai kalimat relatif dan pasif"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Relativsätze",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Wohnen & Nachbarschaft",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 202,
+   "title": "Gesundheit & Lebensstil",
+   "goals": [
+    "Berbicara tentang gaya hidup sehat",
+    "Memberi saran dengan Konjunktiv II",
+    "Memakai verba dengan preposisi"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Konjunktiv II: sollte, wäre, hätte",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Gesundheit & Lebensstil",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 203,
+   "title": "Arbeit & Karriere",
+   "goals": [
+    "Membahas karier dan tanggung jawab",
+    "Memakai pasif lampau dan konjungsi",
+    "Menjelaskan pengalaman kerja"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv mit Modalverben",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Arbeit & Karriere",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 204,
+   "title": "Medien & Meinung",
+   "goals": [
+    "Menyampaikan pendapat dan argumen",
+    "Memakai kalimat relatif lanjutan",
+    "Membahas berita dan sumbernya"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Indirekte Rede (Konjunktiv I)",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Medien & Meinung",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 205,
+   "title": "Umwelt & Klima",
+   "goals": [
+    "Membahas perubahan iklim",
+    "Menjelaskan sebab dan akibat",
+    "Memakai pasif dengan modalverba"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv mit Modalverben",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Umwelt & Klima",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 206,
+   "title": "Reisen & Kultur",
+   "goals": [
+    "Membahas budaya dan wisata",
+    "Menceritakan pengalaman sebelum perjalanan",
+    "Memakai Plusquamperfekt"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Plusquamperfekt",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Reisen & Kultur",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 207,
+   "title": "Gesellschaft & Zusammenleben",
+   "goals": [
+    "Membahas masyarakat dan integrasi",
+    "Menyampaikan saran dan harapan",
+    "Memakai verba dengan preposisi"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Konjunktiv II für Wünsche",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Gesellschaft & Zusammenleben",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 208,
+   "title": "Bildung & Lernen",
+   "goals": [
+    "Membahas pendidikan dan ujian",
+    "Menjelaskan tujuan belajar",
+    "Memakai infinitif dengan zu"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Infinitiv mit zu",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Bildung & Lernen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 209,
+   "title": "Geld & Finanzen",
+   "goals": [
+    "Membahas anggaran dan pengeluaran",
+    "Menjelaskan saran keuangan",
+    "Memakai kalimat syarat"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Konditional mit wenn",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Geld & Finanzen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "unit": 210,
+   "title": "Technik & Zukunft",
+   "goals": [
+    "Membahas teknologi dan masa depan",
+    "Menjelaskan perkembangan",
+    "Memakai pasif dan kalimat relatif"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv mit werden (Zukunft)",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Technik & Zukunft",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 301,
+   "title": "Arbeitswelt im Wandel",
+   "goals": [
+    "Membahas perubahan dunia kerja",
+    "Menjelaskan konsekuensi sosial",
+    "Memakai nominalisasi dan konjungsi lanjut"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Nominalisierung",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Arbeitswelt im Wandel",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 302,
+   "title": "Politik & Gesellschaft",
+   "goals": [
+    "Membahas politik dan demokrasi",
+    "Menyampaikan pendapat kritis",
+    "Memakai Konjunktiv I dalam laporan"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Indirekte Rede: Konjunktiv I",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Politik & Gesellschaft",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 303,
+   "title": "Wissenschaft & Forschung",
+   "goals": [
+    "Membahas penelitian dan hasil studi",
+    "Menjelaskan bukti dan teori",
+    "Memakai Partizipialkonstruktionen"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Partizipialkonstruktionen",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Wissenschaft & Forschung",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 304,
+   "title": "Wirtschaft & Unternehmen",
+   "goals": [
+    "Membahas ekonomi dan bisnis",
+    "Menjelaskan tren pasar",
+    "Memakai Funktionsverbgefüge"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Funktionsverbgefüge",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Wirtschaft & Unternehmen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 305,
+   "title": "Klimapolitik & Ressourcen",
+   "goals": [
+    "Membahas kebijakan iklim",
+    "Menjelaskan target dan tindakan",
+    "Memakai konjungsi lanjut dan nominalisasi"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Nominalisierung mit Präposition",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Klimapolitik & Ressourcen",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 306,
+   "title": "Medien & Desinformation",
+   "goals": [
+    "Menganalisis pemberitaan",
+    "Memakai indirekte Rede secara kritis",
+    "Menilai sumber informasi"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Indirekte Rede mit Konjunktiv I",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Medien & Desinformation",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 307,
+   "title": "Kultur & Identität",
+   "goals": [
+    "Membahas identitas dan budaya",
+    "Menyampaikan refleksi pribadi",
+    "Memakai kalimat relatif dan nominalisasi"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Relativsätze im Genitiv",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Kultur & Identität",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 308,
+   "title": "Medizin & Gesundheit",
+   "goals": [
+    "Membahas diagnosa dan pengobatan",
+    "Menjelaskan risiko kesehatan",
+    "Memakai pasif dan nominalisasi medis"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv mit Modalverben",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Medizin & Gesundheit",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 309,
+   "title": "Recht & Verwaltung",
+   "goals": [
+    "Mengurus urusan administratif",
+    "Menjelaskan hak dan kewajiban",
+    "Memakai kalimat pasif formal"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Passiv in Amtsdeutsch",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Recht & Verwaltung",
+     "minutes": 12
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "unit": 310,
+   "title": "Zukunft & Ethik",
+   "goals": [
+    "Membahas dilema etika teknologi",
+    "Menyampaikan pertimbangan seimbang",
+    "Memakai Konjunktiv II dan pasif"
+   ],
+   "lessons": [
+    {
+     "no": 1,
+     "title": "Abwägen mit einerseits … andererseits",
+     "minutes": 14
+    },
+    {
+     "no": 2,
+     "title": "Anwendung: Zukunft & Ethik",
+     "minutes": 12
+    }
+   ]
+  }
+ ]
+}

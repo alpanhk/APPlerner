@@ -1,0 +1,766 @@
+{
+  "bab": [
+    {
+      "id": "a1-ch09",
+      "judul": "Bab 09 · Suara Mia serak",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-09.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Körper und Beschwerden",
+          "tujuan": [
+            "a1-u9-o1",
+            "a1-u9-o2"
+          ],
+          "aset": [
+            "resep"
+          ],
+          "awal": "Halsschmerzen · seit gestern",
+          "variasi": "Husten · Fieber · Kopfschmerzen"
+        },
+        {
+          "id": "s02",
+          "judul": "Beim Arzt",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ],
+          "aset": [
+            "kartu-asuransi",
+            "kalender",
+            "kartu-bank"
+          ],
+          "awal": "Arzttermin · 15:00",
+          "variasi": "Variasi: hanya luang pagi"
+        },
+        {
+          "id": "s03",
+          "judul": "In der Apotheke",
+          "tujuan": [
+            "a1-u9-o5"
+          ],
+          "aset": [
+            "resep",
+            "air"
+          ],
+          "awal": "Rezept · Krankmeldung",
+          "variasi": "Ilustrasi pembelajaran · dokumen fiktif"
+        }
+      ],
+      "transfer": "Coba pasien lain dan durasi seit zwei Tagen.",
+      "penutup": "Simpan kartu janji dan dokumen pada kantong berbeda."
+    },
+    {
+      "id": "a1-ch10",
+      "judul": "Bab 10 · Satu kursi kosong di klub",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-10.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Hobbys und Vorlieben",
+          "tujuan": [
+            "a1-u10-o1",
+            "a1-u10-o2"
+          ],
+          "aset": [
+            "gitar",
+            "bola-sepak"
+          ],
+          "awal": "Karten spielen · schwimmen · Musik machen",
+          "variasi": "Urutan gern / lieber / am liebsten dari pilihan pemain"
+        },
+        {
+          "id": "s02",
+          "judul": "Freizeit planen",
+          "tujuan": [
+            "a1-u10-o3",
+            "a1-u10-o4"
+          ],
+          "aset": [
+            "kalender"
+          ],
+          "awal": "Freitag bentrok → Samstag 16:00",
+          "variasi": "Variasi: Dienstag 17:00"
+        },
+        {
+          "id": "s03",
+          "judul": "Im Verein",
+          "tujuan": [
+            "a1-u10-o5"
+          ],
+          "aset": [
+            "lambang-klub",
+            "kartu-anggota"
+          ],
+          "awal": "Dienstag und Freitag",
+          "variasi": "Zweimal pro Woche"
+        }
+      ],
+      "transfer": "Coba Jumat kosong dan ajakan baru.",
+      "penutup": "Tampilkan lambang yang sama pada kartu anggota."
+    },
+    {
+      "id": "a1-ch11",
+      "judul": "Bab 11 · Peron berubah",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-11.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Eine Reise planen",
+          "tujuan": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ],
+          "aset": [
+            "tiket",
+            "koper",
+            "ransel",
+            "paspor"
+          ],
+          "awal": "Leipzig · 09:10 → 10:25",
+          "variasi": "Schweiz · tujuan alternatif"
+        },
+        {
+          "id": "s02",
+          "judul": "Am Bahnhof",
+          "tujuan": [
+            "a1-u11-o4"
+          ],
+          "aset": [
+            "papan-peron",
+            "tiket"
+          ],
+          "awal": "Jalur lama: nilai sesi",
+          "variasi": "Gleis 4 · +10 Min."
+        },
+        {
+          "id": "s03",
+          "judul": "Informationen und Reservierung",
+          "tujuan": [
+            "a1-u11-o5"
+          ],
+          "aset": [
+            "tiket",
+            "buku-tamu-terbuka"
+          ],
+          "awal": "Fahrkarte · Sitzplatzreservierung",
+          "variasi": "Leipzig · Ankunft 10:25"
+        }
+      ],
+      "transfer": "Variasi eksplisit: Gleis 2 → Gleis 5.",
+      "penutup": "Bandingkan jam tiba dengan konfirmasi reservasi."
+    },
+    {
+      "id": "a1-ch12",
+      "judul": "Bab 12 · Sekarang kamu yang menyambut",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-12.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Einladen und verabreden",
+          "tujuan": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ],
+          "aset": [
+            "buku-tamu-terbuka",
+            "kalender"
+          ],
+          "awal": "Samstag bentrok · usulkan Sonntag",
+          "variasi": "Disepakati: Sonntag · 16:00"
+        },
+        {
+          "id": "s02",
+          "judul": "Am Telefon",
+          "tujuan": [
+            "a1-u12-o3",
+            "a1-u12-o4"
+          ],
+          "aset": [
+            "telepon"
+          ],
+          "awal": "Eva · Sonntag · Rückruf",
+          "variasi": "Catat penelepon dan hari"
+        },
+        {
+          "id": "s03",
+          "judul": "Eine Nachricht schreiben",
+          "tujuan": [
+            "a1-u12-o5"
+          ],
+          "aset": [
+            "kartu-cangkir",
+            "surat-tertutup",
+            "buku-tamu-terbuka",
+            "prangko-cangkir"
+          ],
+          "awal": "Usulan · Sonntag · 16:00 · im Café",
+          "variasi": "Terkonfirmasi · Sonntag · 16:00 · im Café"
+        }
+      ],
+      "transfer": "Tukar waktu dan tempat pada pesan uji berikut.",
+      "penutup": "Kartu cangkir ditandatangani pemain. Buku tamu yang sama kembali muncul."
+    }
+  ],
+  "aset": {
+    "air": {
+      "file": "gambar/air.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 2,
+      "ukuran": [
+        199,
+        271
+      ],
+      "sha256": "2e47745f717e9e721430b33366841d7e7995f5aad797aff5d6dc18eb64734ec2",
+      "pemakaian": [
+        {
+          "bab": "a1-ch04",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u4-o1",
+            "a1-u4-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch04",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u9-o5"
+          ]
+        }
+      ]
+    },
+    "bola-sepak": {
+      "file": "../../stok-aset-materi-2026-11-20/latar-properti/properti/bola-sepak/aset.webp",
+      "status": "pakai ulang",
+      "sumber": "outputs/stok-aset-materi-2026-11-20/latar-properti/properti/bola-sepak/aset.webp",
+      "pemakaian": [
+        {
+          "bab": "a1-ch10",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u10-o1",
+            "a1-u10-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        502,
+        512
+      ],
+      "sha256": "8c0dc8b526cd0264dfd559f8730dcc4a3574b9f5f29e809ed6798da3904977f8"
+    },
+    "buku-tamu-terbuka": {
+      "file": "gambar/buku-tamu-terbuka.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 4,
+      "pemakaian": [
+        {
+          "bab": "a1-ch01",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u1-o1",
+            "a1-u1-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch02",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u2-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch06",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u11-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u12-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        389,
+        275
+      ],
+      "sha256": "7e9cef1a8e4300962efd29ea22f62b61f948d6b7adca5abfec3fbf62995375e8"
+    },
+    "gitar": {
+      "file": "../../stok-aset-materi-2026-11-20/latar-properti/properti/gitar/aset.webp",
+      "status": "pakai ulang",
+      "sumber": "outputs/stok-aset-materi-2026-11-20/latar-properti/properti/gitar/aset.webp",
+      "pemakaian": [
+        {
+          "bab": "a1-ch10",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u10-o1",
+            "a1-u10-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        415,
+        512
+      ],
+      "sha256": "e4b8924e369aed3e24016d418ca2f4d45003f5e41b4616ddee0545d8a338f66f"
+    },
+    "kalender": {
+      "file": "gambar/kalender.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 7,
+      "pemakaian": [
+        {
+          "bab": "a1-ch02",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u2-o3",
+            "a1-u2-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch02",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u2-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch08",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u8-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch10",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u10-o3",
+            "a1-u10-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        335,
+        306
+      ],
+      "sha256": "d6a3978805a28aac0e703dc7115b6890bf888c4f525c839daefa55b1c039e3ab"
+    },
+    "kartu-anggota": {
+      "file": "gambar/kartu-anggota.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 9,
+      "pemakaian": [
+        {
+          "bab": "a1-ch10",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u10-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        368,
+        241
+      ],
+      "sha256": "4d921d64d6efaf6b59cb5d5048bf545e5849409cb8274780b464fa59a9b0119a"
+    },
+    "kartu-asuransi": {
+      "file": "gambar/kartu-asuransi.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 1,
+      "pemakaian": [
+        {
+          "bab": "a1-ch09",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        346,
+        225
+      ],
+      "sha256": "c4cb502adffd43781093ffb218637e420c2af2dc77c52c35ac1e4e7c55cf0cdf"
+    },
+    "kartu-bank": {
+      "file": "gambar/kartu-bank.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 4,
+      "ukuran": [
+        301,
+        182
+      ],
+      "sha256": "6c310128a170deb2058fccc060d4a633e2458fd5dc480d42f22918b726ad70d8",
+      "pemakaian": [
+        {
+          "bab": "a1-ch04",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        }
+      ]
+    },
+    "kartu-cangkir": {
+      "file": "gambar/kartu-cangkir.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 8,
+      "pemakaian": [
+        {
+          "bab": "a1-ch01",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u1-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch03",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u3-o3",
+            "a1-u3-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u12-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        365,
+        252
+      ],
+      "sha256": "950314b017ff25fbce56a442357d3b34cebb3046da32112eac6665e4131fd30a"
+    },
+    "koper": {
+      "file": "gambar/koper.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 5,
+      "pemakaian": [
+        {
+          "bab": "a1-ch11",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ]
+        }
+      ],
+      "ukuran": [
+        348,
+        326
+      ],
+      "sha256": "c98b8acc9de5ab13e0162efc9989a9a81510404ff52aa0a4065335362440e8ba"
+    },
+    "lambang-klub": {
+      "file": "gambar/lambang-klub.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 3,
+      "pemakaian": [
+        {
+          "bab": "a1-ch10",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u10-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        319,
+        324
+      ],
+      "sha256": "188dc7a4490d573222613229916ba00e0cd89d911ea1c7e43858e40d3b502489"
+    },
+    "papan-peron": {
+      "file": "gambar/papan-peron.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 6,
+      "pemakaian": [
+        {
+          "bab": "a1-ch07",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u7-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u11-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        369,
+        319
+      ],
+      "sha256": "bc79a6acd73202ff10b1d641ef9e9152b91ea866f58e2af8e4033ef429c1dd47"
+    },
+    "paspor": {
+      "file": "gambar/paspor.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 7,
+      "ukuran": [
+        262,
+        310
+      ],
+      "sha256": "8d6a27de536c8db4b9db8cf47b208e9bba990c582fc812555179b8dd30b94526",
+      "pemakaian": [
+        {
+          "bab": "a1-ch11",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ]
+        }
+      ]
+    },
+    "prangko-cangkir": {
+      "file": "gambar/prangko-cangkir.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 9,
+      "ukuran": [
+        242,
+        276
+      ],
+      "sha256": "ec469b6c5eb9da36bfac6c75b00f4ca92798b01b9d17dc69867e090c4a04a382",
+      "pemakaian": [
+        {
+          "bab": "a1-ch12",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u12-o5"
+          ]
+        }
+      ]
+    },
+    "ransel": {
+      "file": "gambar/ransel.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 6,
+      "ukuran": [
+        277,
+        313
+      ],
+      "sha256": "4c3914278d2cca6e5872d310042920a523188b870dbddc306b0e03b1d1078d9b",
+      "pemakaian": [
+        {
+          "bab": "a1-ch11",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ]
+        }
+      ]
+    },
+    "resep": {
+      "file": "gambar/resep.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 2,
+      "pemakaian": [
+        {
+          "bab": "a1-ch09",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u9-o1",
+            "a1-u9-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u9-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        269,
+        331
+      ],
+      "sha256": "bf53015759b38a8cf431f34e0cc1266d4b63d5081fb9d851d1edb801a026e7ab"
+    },
+    "surat-tertutup": {
+      "file": "gambar/surat-tertutup.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 1,
+      "pemakaian": [
+        {
+          "bab": "a1-ch01",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u1-o1",
+            "a1-u1-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch03",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u3-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u12-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        306,
+        228
+      ],
+      "sha256": "1152b01242a5385e99bf59c513c9bc19a6f4040f6cd54f0fe19389a68a07240f"
+    },
+    "telepon": {
+      "file": "gambar/telepon.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 7,
+      "pemakaian": [
+        {
+          "bab": "a1-ch12",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u12-o3",
+            "a1-u12-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        203,
+        361
+      ],
+      "sha256": "3cc6ecf20315f2e761ef5cae54a253a8f905538433e17199a29c20f3857f672b"
+    },
+    "tiket": {
+      "file": "gambar/tiket.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 4,
+      "pemakaian": [
+        {
+          "bab": "a1-ch11",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u11-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u11-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        360,
+        202
+      ],
+      "sha256": "831898d6f010063415d61f049c2dddbd102552e0def040f57001d885cb452639"
+    }
+  }
+}

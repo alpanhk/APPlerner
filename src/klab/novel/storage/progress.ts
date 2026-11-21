@@ -52,6 +52,10 @@ const sqlitePersister: NovelPersister = {
       history: progress.history,
       prologCompleted: progress.prologCompleted,
       updatedAt: progress.updatedAt,
+      // PILOT-AGENT-1: draf + rekaman + status misi ikut dipulihkan (U07/U09).
+      ...(progress.draft !== undefined ? { draft: progress.draft } : {}),
+      ...(progress.recordings ? { recordings: progress.recordings } : {}),
+      ...(progress.missionCompleted ? { missionCompleted: progress.missionCompleted } : {}),
     });
   },
   async saveSettings(settings) {
@@ -125,7 +129,53 @@ export async function readNovelSeed(): Promise<{ progress: Progress | null; sett
       history: progress.history,
       prologCompleted: progress.prologCompleted,
       updatedAt: progress.updatedAt,
+      draft: progress.draft,
+      recordings: progress.recordings,
+      missionCompleted: progress.missionCompleted,
     } as Progress) : null,
     settings: settings as Settings,
   };
+}
+
+/**
+ * Seed slot misi "Peron berubah" (config novel.mission.v1) — terpisah dari
+ * progres cerita; memilih latihan tidak menandai Bab 01-10 selesai.
+ */
+export async function readNovelMissionSeed(): Promise<Progress | null> {
+  const mission = await sqliteStore.loadMission();
+  if (!mission) return null;
+  return {
+    version: mission.version,
+    player: mission.player,
+    nodeId: mission.nodeId,
+    stage: mission.stage,
+    flags: mission.flags,
+    hintCounts: mission.hintCounts,
+    attempts: mission.attempts,
+    history: mission.history,
+    prologCompleted: mission.prologCompleted,
+    updatedAt: mission.updatedAt,
+    draft: mission.draft,
+    recordings: mission.recordings,
+    missionCompleted: mission.missionCompleted,
+  } as Progress;
+}
+
+/** Penulisan slot misi (idempoten; bisa diganti stub di tes). */
+export async function writeNovelMission(progress: Progress): Promise<void> {
+  await sqliteStore.saveMission({
+    version: progress.version,
+    player: progress.player,
+    nodeId: progress.nodeId,
+    stage: progress.stage,
+    flags: progress.flags,
+    hintCounts: progress.hintCounts,
+    attempts: progress.attempts,
+    history: progress.history,
+    prologCompleted: progress.prologCompleted,
+    updatedAt: progress.updatedAt,
+    ...(progress.draft !== undefined ? { draft: progress.draft } : {}),
+    ...(progress.recordings ? { recordings: progress.recordings } : {}),
+    ...(progress.missionCompleted ? { missionCompleted: progress.missionCompleted } : {}),
+  });
 }

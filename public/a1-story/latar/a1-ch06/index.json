@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch06",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Zimmer und Möbel",
+    "assetId": "ruang-warga",
+    "storyContext": "Ruang warga baru dibuka setelah lama terkunci. Ada denah lama, tetapi sebagian perabot telah dipindah.",
+    "objectiveIds": [
+      "a1-u6-o1",
+      "a1-u6-o2"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch06",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Wo steht was?",
+    "assetId": "ruang-warga",
+    "storyContext": "Sudut baca. Mia memegang lampu di depan dua meja. Bedakan melaporkan letaknya dan meminta seseorang memindahkannya.",
+    "objectiveIds": [
+      "a1-u6-o3",
+      "a1-u6-o4"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch06",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Arbeit im Haushalt",
+    "assetId": "ruang-warga",
+    "storyContext": "Daftar piket di pintu. Pilih satu tugas, bagi sisanya dengan Mia, lalu tulis ruangan yang sudah siap.",
+    "objectiveIds": [
+      "a1-u6-o5"
+    ],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch06",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "ruang-warga",
+    "storyContext": "Amati denah kedua. Laporkan satu benda dan letaknya, beri instruksi memindahkannya, lalu sepakati tugas yang tersisa.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch06",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "ruang-warga",
+    "storyContext": "Di bawah kursi muncul peta kota tanpa keterangan. Kalian perlu menunjukkan jalan kepada tamu pertama.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/ruang-warga.webp"
+  }
+]

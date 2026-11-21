@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch10",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Hobbys und Vorlieben",
+    "assetId": "ruang-klub",
+    "storyContext": "Papan klub. Ada klub musik, kartu, renang, dan jalan kaki. Herr Bauer menyimpan satu kursi untuk tamu, tetapi tidak tahu kegiatan favoritmu.",
+    "objectiveIds": [
+      "a1-u10-o1",
+      "a1-u10-o2"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../stok-aset-materi-2026-11-20/latar-properti/latar/ruang-klub/aset.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch10",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Freizeit planen",
+    "assetId": "taman-waktu-luang",
+    "storyContext": "Bangku dekat lapangan. Mia hanya luang pada satu dari dua waktu. Atur pertemuan yang benar-benar bisa kalian hadiri.",
+    "objectiveIds": [
+      "a1-u10-o3",
+      "a1-u10-o4"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../stok-aset-materi-2026-11-20/latar-properti/latar/taman-waktu-luang/aset.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch10",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Im Verein",
+    "assetId": "ruang-klub",
+    "storyContext": "Meja anggota. Kartu jadwal ada dua sisi. Isi frekuensi, rekan latihan dan jadwal yang sesuai dengan klub pilihan skenario.",
+    "objectiveIds": [
+      "a1-u10-o5"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../stok-aset-materi-2026-11-20/latar-properti/latar/ruang-klub/aset.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch10",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "taman-waktu-luang",
+    "storyContext": "Dengan kalender baru, tolak satu ajakan secara sopan, tawarkan jam lain, lalu jelaskan seberapa sering dan dengan siapa kamu berlatih.",
+    "objectiveIds": [],
+    "status": "dipakai-ulang",
+    "path": "../../../stok-aset-materi-2026-11-20/latar-properti/latar/taman-waktu-luang/aset.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch10",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "ruang-klub",
+    "storyContext": "Sebuah klub di kota lain mengundang kalian membawa buku tamu untuk dipamerkan. Kalian perlu mencari kereta.",
+    "objectiveIds": [],
+    "status": "dipakai-ulang",
+    "path": "../../../stok-aset-materi-2026-11-20/latar-properti/latar/ruang-klub/aset.webp"
+  }
+]

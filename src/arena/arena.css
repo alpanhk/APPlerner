@@ -1,0 +1,73 @@
+@reference "../App.css";
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.arena-root {
+  --dialog-size: 1.25rem;
+  --dialog-sub: 1rem;
+}
+.arena-root.ts-besar {
+  --dialog-size: 1.5rem;
+  --dialog-sub: 1.15rem;
+}
+.arena-root.ts-sangat-besar {
+  --dialog-size: 1.8rem;
+  --dialog-sub: 1.35rem;
+}
+.dialog-text {
+  font-size: var(--dialog-size);
+}
+.dialog-sub {
+  font-size: var(--dialog-sub);
+}
+
+@media (max-height: 640px) {
+  .arena-root {
+    --dialog-size: 1.1rem;
+    --dialog-sub: 0.95rem;
+  }
+}
+
+/* Fokus keyboard yang jelas */
+.arena-root :focus-visible {
+  outline: 3px solid #b5533c;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .arena-root .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-lg bg-[#b5533c] px-4 py-2 font-bold text-white shadow hover:bg-[#a3452f] disabled:opacity-50;
+  }
+  .arena-root .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-lg border-2 border-[#2c3e6b] bg-[#f7efdd] px-4 py-2 font-bold text-[#2c3e6b] hover:bg-white;
+  }
+  .arena-root .btn-ghost {
+    @apply inline-flex items-center rounded-md border border-[#2c3e6b]/40 bg-white/70 px-2 py-1 text-sm font-semibold text-[#2c3e6b] hover:bg-white;
+  }
+  .arena-root .btn-choice {
+    @apply inline-flex items-center rounded-lg border-2 border-[#2c3e6b]/50 bg-white px-4 py-2 text-left font-semibold text-[#1f2233] shadow-sm hover:border-[#b5533c] hover:bg-[#fff8ea];
+    font-size: var(--dialog-sub);
+  }
+  .arena-root .btn-top {
+    @apply rounded-md bg-[#f7efdd]/90 px-2.5 py-1 text-sm font-bold text-[#2c3e6b] shadow hover:bg-white;
+  }
+  .arena-root .chip {
+    @apply rounded-full border border-[#2c3e6b]/40 bg-white px-3 py-1 text-sm font-semibold text-[#2c3e6b] hover:border-[#b5533c] hover:bg-[#fff8ea];
+  }
+  .arena-root .chip-muted {
+    @apply border-dashed text-[#6b5e4e];
+  }
+}
+
+.arena-root { color: #1f2233; font-family: "Atkinson Hyperlegible", "Segoe UI", sans-serif; }
+.arena-dialog { max-height: 64dvh; overflow-y: auto; }
+.arena-root .a1-story { padding: 1rem; color: #fff8eb; }
+.arena-root .a1-story-panel { color: #322721; }

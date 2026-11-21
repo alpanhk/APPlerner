@@ -15,6 +15,10 @@ interface PanelProps {
   onListen: () => void;
   isSpeaking: boolean;
   audioStatus?: string;
+  /** Transkrip tugas menyimak (node spokenText) — dibuka hanya atas permintaan. */
+  transcript?: string;
+  showTranscript?: boolean;
+  onToggleTranscript?: () => void;
   children: ReactNode; // area tindakan utama
 }
 
@@ -46,6 +50,11 @@ export function DialogPanel(p: PanelProps) {
                 {p.isSpeaking ? "■ Berhenti" : "▶ Dengar lagi"}
               </button>
             )}
+            {p.transcript && p.onToggleTranscript && (
+              <button type="button" onClick={p.onToggleTranscript} className="btn-ghost" aria-pressed={p.showTranscript}>
+                {p.showTranscript ? "Tutup transkrip" : "Buka transkrip"}
+              </button>
+            )}
             {p.translation && (
               <button type="button" onClick={p.onToggleTranslation} className="btn-ghost" aria-pressed={p.showTranslation}>
                 {p.showTranslation ? "Sembunyikan arti" : "Arti"}
@@ -57,6 +66,14 @@ export function DialogPanel(p: PanelProps) {
           <p className={`dialog-text leading-snug text-[#1f2233] ${isNarr ? "italic" : "font-medium"}`} lang={p.lang}>
             {p.text}
           </p>
+          {p.showTranscript && p.transcript && (
+            <p className="mt-1 rounded-lg border border-[#2c3e6b]/30 bg-[#2c3e6b]/8 px-3 py-1.5 text-sm text-[#1f2233]" lang="de">
+              „{p.transcript}“
+              <span className="mt-1 block text-xs text-[#6b5e4e]">
+                Transkrip terbuka — percobaan ini akan tercatat sebagai bantuan baca, bukan menyimak mandiri.
+              </span>
+            </p>
+          )}
           {p.showTranslation && p.translation && (
             <p className="mt-1 border-l-4 border-[#b5533c]/60 pl-3 text-[#4b4238] dialog-sub">{p.translation}</p>
           )}
@@ -115,11 +132,28 @@ export function ChoiceList({
 }
 
 // ===== Kolom jawaban pemain =====
+export interface MicState {
+  /** Sedang merekam. */
+  recording: boolean;
+  /** Ada rekaman siap dikirim/diputar. */
+  hasRecording: boolean;
+  /** Mulai/berhenti merekam. */
+  onToggleRecord: () => void;
+  /** Putar rekaman milik pemain sendiri. */
+  onPlayRecording: () => void;
+  /** Hapus rekaman (U07: penghapusan dapat diperiksa). */
+  onDeleteRecording: () => void;
+  /** Putar contoh suara avatar sebagai model dengar (Mandat §6.B). */
+  onPlayModel?: () => void;
+  /** Izin mikrofon ditolak/tidak tersedia — jalur mengetik tetap berjalan. */
+  error?: string;
+}
+
 interface AnswerProps {
   prompt: string;
   value: string;
   onChange: (v: string) => void;
-  onSubmit: () => void;
+  onSubmit: (spoken?: boolean) => void;
   chips: string[];
   hints: string[];
   hintLevel: number;
@@ -127,10 +161,14 @@ interface AnswerProps {
   feedback?: string;
   skip?: { label: string; onSkip: () => void };
   busy?: boolean;
+  /** Giliran menulis panjang (pesan Bab 12): textarea. */
+  multiline?: boolean;
+  /** Giliran lisan: rekam jawaban ATAU gunakan teks (U07). */
+  mic?: MicState;
 }
 
 export function AnswerInput(a: AnswerProps) {
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
   useEffect(() => {
     inputRef.current?.focus({ preventScroll: true });
   }, [a.prompt]);
@@ -138,7 +176,8 @@ export function AnswerInput(a: AnswerProps) {
   const submit = (e: FormEvent) => {
     e.preventDefault();
     if (a.busy) return;
-    a.onSubmit();
+    // Bila ada rekaman siap kirim, kirim sebagai jawaban lisan (U07).
+    a.onSubmit(a.mic?.hasRecording ? true : false);
   };
   const addChip = (c: string) => {
     const v = a.value;
@@ -154,50 +193,106 @@ export function AnswerInput(a: AnswerProps) {
         <span className="rounded bg-[#b5533c] px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-white">Giliranmu</span>
         <p className="text-sm font-semibold text-[#4b4238]">{a.prompt}</p>
       </div>
-      <div className="flex flex-wrap gap-1.5" aria-label="Susun jawaban dari kata">
-        {a.chips.map((c) => (
-          <button key={c} type="button" onClick={() => addChip(c)} className="chip" tabIndex={0}>
-            {c}
-          </button>
-        ))}
-        {a.value && (
-          <button type="button" onClick={() => a.onChange("")} className="chip chip-muted">
-            Hapus
-          </button>
-        )}
-      </div>
-      <div className="flex gap-2">
-        <input
-          ref={inputRef}
+      {!a.multiline && (
+        <div className="flex flex-wrap gap-1.5" aria-label="Susun jawaban dari kata">
+          {a.chips.map((c) => (
+            <button key={c} type="button" onClick={() => addChip(c)} className="chip" tabIndex={0}>
+              {c}
+            </button>
+          ))}
+          {a.value && (
+            <button type="button" onClick={() => a.onChange("")} className="chip chip-muted">
+              Hapus
+            </button>
+          )}
+        </div>
+      )}
+      {a.multiline ? (
+        <textarea
+          ref={inputRef as React.RefObject<HTMLTextAreaElement>}
           data-answer-input
-          type="text"
+          data-testid="answer-multiline"
+          rows={5}
           lang="de"
-          autoComplete="off"
-          autoCapitalize="sentences"
           spellCheck={false}
           value={a.value}
           onChange={(e) => a.onChange(e.target.value)}
-          placeholder="Ketik jawabanmu dalam bahasa Jerman…"
-          aria-label="Jawabanmu dalam bahasa Jerman"
-          className="dialog-sub min-w-0 flex-1 rounded-lg border-2 border-[#2c3e6b]/40 bg-white px-3 py-2 text-[#1f2233] focus:border-[#2c3e6b] focus:outline-none focus:ring-2 focus:ring-[#b5533c]/50"
+          placeholder="Tulis pesanmu dalam bahasa Jerman…"
+          aria-label="Pesanmu dalam bahasa Jerman"
+          className="dialog-sub w-full rounded-lg border-2 border-[#2c3e6b]/40 bg-white px-3 py-2 text-[#1f2233] focus:border-[#2c3e6b] focus:outline-none focus:ring-2 focus:ring-[#b5533c]/50"
         />
-        <button type="submit" className="btn-primary" disabled={a.busy}>
+      ) : (
+        <div className="flex gap-2">
+          <input
+            ref={inputRef as React.RefObject<HTMLInputElement>}
+            data-answer-input
+            type="text"
+            lang="de"
+            autoComplete="off"
+            autoCapitalize="sentences"
+            spellCheck={false}
+            value={a.value}
+            onChange={(e) => a.onChange(e.target.value)}
+            placeholder="Ketik jawabanmu dalam bahasa Jerman…"
+            aria-label="Jawabanmu dalam bahasa Jerman"
+            className="dialog-sub min-w-0 flex-1 rounded-lg border-2 border-[#2c3e6b]/40 bg-white px-3 py-2 text-[#1f2233] focus:border-[#2c3e6b] focus:outline-none focus:ring-2 focus:ring-[#b5533c]/50"
+          />
+        </div>
+      )}
+      {a.mic && (
+        <div className="flex flex-wrap items-center gap-2 rounded-lg bg-[#2c3e6b]/8 p-2" data-testid="mic-controls">
+          <button
+            type="button"
+            onClick={a.mic.onToggleRecord}
+            className={a.mic.recording ? "btn-primary !bg-[#b5533c]" : "btn-secondary"}
+            aria-pressed={a.mic.recording}
+            data-testid="mic-toggle"
+          >
+            {a.mic.recording ? "■ Berhenti merekam" : "🎙 Rekam jawaban"}
+          </button>
+          {a.mic.hasRecording && (
+            <>
+              <button type="button" onClick={a.mic.onPlayRecording} className="btn-ghost" data-testid="mic-play">
+                ▶ Dengarkan rekaman
+              </button>
+              <button type="button" onClick={a.mic.onDeleteRecording} className="btn-ghost" data-testid="mic-delete">
+                Hapus rekaman
+              </button>
+            </>
+          )}
+          {a.mic.onPlayModel && (
+            <button type="button" onClick={a.mic.onPlayModel} className="btn-ghost" data-testid="mic-model">
+              ▶ Dengar contoh
+            </button>
+          )}
+          <span className="text-xs text-[#6b5e4e]">
+            Tanpa mikrofon? Gunakan teks — cerita tetap berjalan; jawaban ketik tercatat sebagai latihan tertulis.
+          </span>
+          {a.mic.error && (
+            <p role="alert" className="w-full rounded border-l-4 border-[#b5533c] bg-[#b5533c]/10 px-2 py-1 text-xs text-[#5a2a22]">
+              {a.mic.error}
+            </p>
+          )}
+        </div>
+      )}
+      <div className="flex gap-2">
+        <button type="submit" className="btn-primary" disabled={a.busy} data-testid="answer-submit">
           Kirim
         </button>
+        <span className="flex flex-wrap items-center gap-2">
+          {a.hintLevel < a.hints.length && (
+            <button type="button" onClick={a.onHint} className="btn-ghost">
+              ? Petunjuk {a.hintLevel > 0 ? `(${a.hintLevel}/${a.hints.length})` : ""}
+            </button>
+          )}
+          {a.skip && (
+            <button type="button" onClick={a.skip.onSkip} className="btn-ghost">
+              {a.skip.label}
+            </button>
+          )}
+        </span>
       </div>
-      <div className="flex flex-wrap items-center gap-2">
-        {a.hintLevel < a.hints.length && (
-          <button type="button" onClick={a.onHint} className="btn-ghost">
-            ? Petunjuk {a.hintLevel > 0 ? `(${a.hintLevel}/${a.hints.length})` : ""}
-          </button>
-        )}
-        {a.skip && (
-          <button type="button" onClick={a.skip.onSkip} className="btn-ghost">
-            {a.skip.label}
-          </button>
-        )}
-        <span className="text-xs text-[#6b5e4e]">ß boleh ditulis „ss“. Huruf besar/kecil & tanda baca bebas.</span>
-      </div>
+      <span className="block text-xs text-[#6b5e4e]">ß boleh ditulis „ss“. Huruf besar/kecil & tanda baca bebas.</span>
       {a.hintLevel > 0 && (
         <ul className="space-y-1 rounded-lg bg-[#2c3e6b]/8 p-2 text-sm text-[#2c3e6b]" aria-label="Petunjuk tutor">
           {a.hints.slice(0, a.hintLevel).map((h, i) => (

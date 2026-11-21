@@ -1,0 +1,189 @@
+{
+  "d_post_again": {
+    "file": "d_post_again.mp3",
+    "sentence": "Okay… aber wie heißt du?",
+    "speaker": "pos",
+    "voiceId": "supertonic3-M2",
+    "clipIds": [
+      "pos/d_post_again-s01"
+    ]
+  },
+  "d_post_ja_mia": {
+    "file": "d_post_ja_mia.wav",
+    "sentence": "Mia? Hier steht „Für die neue Nachbarin“. Wie heißt du?",
+    "speaker": "pos",
+    "voiceId": "supertonic3-M2",
+    "clipIds": [
+      "pos/d_post_ja_mia-s01",
+      "pos/d_post_ja_mia-s02",
+      "pos/d_post_ja_mia-s03"
+    ]
+  },
+  "d_post_nein": {
+    "file": "d_post_nein.wav",
+    "sentence": "Hm. Wie heißt du?",
+    "speaker": "pos",
+    "voiceId": "supertonic3-M2",
+    "clipIds": [
+      "pos/d_post_nein-s01",
+      "pos/d_post_nein-s02"
+    ]
+  },
+  "d_post_greet": {
+    "file": "d_post_greet.wav",
+    "sentence": "Hallo! Also — bist du Mia?",
+    "speaker": "pos",
+    "voiceId": "supertonic3-M2",
+    "clipIds": [
+      "pos/d_post_greet-s01",
+      "pos/d_post_greet-s02"
+    ]
+  },
+  "d_post_q": {
+    "file": "d_post_q.wav",
+    "sentence": "Hallo! Bist du Mia?",
+    "speaker": "pos",
+    "voiceId": "supertonic3-M2",
+    "clipIds": [
+      "pos/d_post_q-s01",
+      "pos/d_post_q-s02"
+    ]
+  },
+  "d_nb_ok": {
+    "file": "d_nb_ok.mp3",
+    "sentence": "Schönen Tag noch!",
+    "speaker": "tetangga",
+    "voiceId": "supertonic3-M4",
+    "clipIds": [
+      "tetangga/d_nb_ok-s01"
+    ]
+  },
+  "d_nb_hm": {
+    "file": "d_nb_hm.wav",
+    "sentence": "Wie bitte? Guten Morgen!",
+    "speaker": "tetangga",
+    "voiceId": "supertonic3-M4",
+    "clipIds": [
+      "tetangga/d_nb_hm-s01",
+      "tetangga/d_nb_hm-s02"
+    ]
+  },
+  "d_nb1": {
+    "file": "d_nb1.mp3",
+    "sentence": "Guten Morgen!",
+    "speaker": "tetangga",
+    "voiceId": "supertonic3-M4",
+    "clipIds": [
+      "tetangga/d_nb1-s01"
+    ]
+  },
+  "c_tutor": {
+    "file": "c_tutor.wav",
+    "sentence": "Kamu baru saja berkenalan dengan tetangga. Udara pagi di luar segar — ayo lihat jalan di depan rumah.",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/c_tutor-s01",
+      "tutor/c_tutor-s02"
+    ]
+  },
+  "c_bye": {
+    "file": "c_bye.wav",
+    "sentence": "Ich wohne nebenan. Bis später!",
+    "speaker": "mia",
+    "voiceId": "supertonic3-F2",
+    "clipIds": [
+      "mia/c_bye-s01",
+      "mia/c_bye-s02"
+    ]
+  },
+  "c_wrongname": {
+    "file": "c_wrongname.wav",
+    "sentence": "Oh? Ich bin Mia. Und wie heißt du?",
+    "speaker": "mia",
+    "voiceId": "supertonic3-F2",
+    "clipIds": [
+      "mia/c_wrongname-s01",
+      "mia/c_wrongname-s02",
+      "mia/c_wrongname-s03"
+    ]
+  },
+  "c_janein": {
+    "file": "c_janein.wav",
+    "sentence": "Hm? Wie heißt du?",
+    "speaker": "mia",
+    "voiceId": "supertonic3-F2",
+    "clipIds": [
+      "mia/c_janein-s01",
+      "mia/c_janein-s02"
+    ]
+  },
+  "c_greet": {
+    "file": "c_greet.wav",
+    "sentence": "Hallo! Und wie heißt du?",
+    "speaker": "mia",
+    "voiceId": "supertonic3-F2",
+    "clipIds": [
+      "mia/c_greet-s01",
+      "mia/c_greet-s02"
+    ]
+  },
+  "c_mia1": {
+    "file": "c_mia1.wav",
+    "sentence": "Hallo! Ich bin Mia. Und du?",
+    "speaker": "mia",
+    "voiceId": "supertonic3-F2",
+    "clipIds": [
+      "mia/c_mia1-s01",
+      "mia/c_mia1-s02",
+      "mia/c_mia1-s03"
+    ]
+  },
+  "b_ok": {
+    "file": "b_ok.wav",
+    "sentence": "Tepat sekali. Kalau nanti ditanya „Und du?“ artinya „Dan kamu?“ — itu saatnya kamu menyebut nama.",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/b_ok-s01",
+      "tutor/b_ok-s02"
+    ]
+  },
+  "b_hallo": {
+    "file": "b_hallo.mp3",
+    "sentence": "Hallo!",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/b_hallo-s01"
+    ]
+  },
+  "b_intro": {
+    "file": "b_intro.wav",
+    "sentence": "Ada yang mengetuk. Mari belajar menyapa supaya kamu sendiri bisa membuka pintu.",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/b_intro-s01",
+      "tutor/b_intro-s02"
+    ]
+  },
+  "a_tutor3": {
+    "file": "a_tutor3.mp3",
+    "sentence": "Kita mulai dari yang paling dekat: orang yang tinggal di sebelahmu.",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/a_tutor3-s01"
+    ]
+  },
+  "a_tutor2": {
+    "file": "a_tutor2.mp3",
+    "sentence": "Misimu sederhana tapi panjang: belajar bahasa Jerman supaya kamu bisa mengenal orang-orang di sini dan hidup mandiri.",
+    "speaker": "tutor",
+    "voiceId": "supertonic3-F4",
+    "clipIds": [
+      "tutor/a_tutor2-s01"
+    ]
+  }
+}

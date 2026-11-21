@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pratinjau pemain Prolog A1</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:24px;font:16px system-ui,sans-serif;color:#2a2024;background:#f5ece2}h1{margin:0 0 12px;font-size:26px}h2{font-size:18px}.row{display:grid;grid-template-columns:repeat(5,minmax(105px,1fr));gap:10px;overflow-x:auto}figure{margin:0;text-align:center}img{display:block;width:100%;aspect-ratio:2/3;object-fit:contain;background:#d6c4b6}figcaption{padding:5px}.preview{width:min(220px,100%)}button{font:inherit;padding:8px 12px;margin:8px 0;background:#472f3a;color:white;border:0;border-radius:5px}.sheet #motion{display:none}
+</style>
+<h1>Prolog A1 · pemain</h1>
+<div id="sheets"></div>
+<section id="motion">
+<h2>Uji perubahan frame saat bicara</h2>
+<label>Pemain <select id="actor"><option>player-01</option><option>player-02</option></select></label>
+<button id="play" type="button">Putar sekali</button>
+<img class="preview" id="current" alt="Potret pemain">
+<p id="status" aria-live="polite"></p>
+</section>
+<script>
+const ids=['player-01','player-02'];
+const poses=[['neutral','Netral'],['speak-small','Bicara ringan'],['speak-open','Bicara terbuka'],['smile','Senyum tertutup'],['question','Bertanya / ragu']];
+const file=(id,pose)=>id+'/'+pose+'.webp';
+if(location.search.includes('sheet')) document.body.classList.add('sheet');
+const sheets=document.querySelector('#sheets');
+for(const id of ids){
+  const section=document.createElement('section');
+  section.innerHTML='<h2>'+id+'</h2><div class="row">'+poses.map(([pose,label])=>'<figure><img src="'+file(id,pose)+'" alt="'+id+' '+label+'"><figcaption>'+label+'</figcaption></figure>').join('')+'</div>';
+  sheets.append(section);
+}
+const actor=document.querySelector('#actor'), play=document.querySelector('#play'), current=document.querySelector('#current'), status=document.querySelector('#status');
+const show=(pose)=>{
+  current.src=file(actor.value,pose);
+  status.textContent=poses.find(([key])=>key===pose)[1];
+};
+actor.addEventListener('change',()=>show('neutral'));
+play.addEventListener('click',async()=>{
+  play.disabled=true;actor.disabled=true;
+  try{
+    const sequence=['neutral','speak-small','speak-open','speak-small','neutral'];
+    await Promise.all(sequence.map(pose=>{const im=new Image();im.src=file(actor.value,pose);return im.decode();}));
+    for(const pose of sequence){show(pose);await new Promise(done=>setTimeout(done,pose==='neutral'?390:240));}
+  }catch{status.textContent='Berkas frame tidak dapat dibuka.';}
+  finally{play.disabled=false;actor.disabled=false;}
+});
+show('neutral');
+</script>
+</html>

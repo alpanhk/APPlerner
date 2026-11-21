@@ -1,0 +1,704 @@
+{
+  "styleReference": "../../aset-im-cafe-produksi-2026-11-20/review/komposit-normal.webp",
+  "tool": "ImageGen bawaan; nama model Sunburst tidak tersedia untuk verifikasi.",
+  "chapters": [
+    {
+      "chapterId": "a1-ch01",
+      "title": "Bab 01 · Tanda cangkir di balik surat",
+      "preview": "a1-ch01/index.html",
+      "index": "a1-ch01/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch02",
+      "title": "Bab 02 · Jam yang terlipat",
+      "preview": "a1-ch02/index.html",
+      "index": "a1-ch02/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch03",
+      "title": "Bab 03 · Siapa di foto ini?",
+      "preview": "a1-ch03/index.html",
+      "index": "a1-ch03/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch04",
+      "title": "Bab 04 · Dua cangkir, satu meja",
+      "preview": "a1-ch04/index.html",
+      "index": "a1-ch04/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch05",
+      "title": "Bab 05 · Jaket yang tertukar",
+      "preview": "a1-ch05/index.html",
+      "index": "a1-ch05/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch06",
+      "title": "Bab 06 · Kunci ruang bersama",
+      "preview": "a1-ch06/index.html",
+      "index": "a1-ch06/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch07",
+      "title": "Bab 07 · Peta untuk tamu yang tersesat",
+      "preview": "a1-ch07/index.html",
+      "index": "a1-ch07/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch08",
+      "title": "Bab 08 · Giliran pertama",
+      "preview": "a1-ch08/index.html",
+      "index": "a1-ch08/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch09",
+      "title": "Bab 09 · Suara Mia serak",
+      "preview": "a1-ch09/index.html",
+      "index": "a1-ch09/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch10",
+      "title": "Bab 10 · Satu kursi kosong di klub",
+      "preview": "a1-ch10/index.html",
+      "index": "a1-ch10/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch11",
+      "title": "Bab 11 · Peron berubah",
+      "preview": "a1-ch11/index.html",
+      "index": "a1-ch11/index.json",
+      "ready": 5,
+      "total": 5
+    },
+    {
+      "chapterId": "a1-ch12",
+      "title": "Bab 12 · Sekarang kamu yang menyambut",
+      "preview": "a1-ch12/index.html",
+      "index": "a1-ch12/index.json",
+      "ready": 5,
+      "total": 5
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "ambang-rumah",
+      "status": "baru",
+      "path": "master/ambang-rumah.webp",
+      "source": "master/ambang-rumah.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u1-o1",
+            "a1-u1-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u12-o5"
+          ]
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "ba5c1acbe7f1a00575cb064760b9bd5550babdf49ba16855b958592a89445970"
+    },
+    {
+      "assetId": "teras-kafe",
+      "status": "baru",
+      "path": "master/teras-kafe.webp",
+      "source": "master/teras-kafe.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u1-o3"
+          ]
+        },
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u1-o4",
+            "a1-u1-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch01",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "c7d170fae836e0da7941b8d5665eef67288a109252f6d69b9be321308fd9b3a1"
+    },
+    {
+      "assetId": "kios-pasar",
+      "status": "baru",
+      "path": "master/kios-pasar.webp",
+      "source": "master/kios-pasar.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u2-o1",
+            "a1-u2-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u2-o3",
+            "a1-u2-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u2-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch02",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "a8a4c59e3e48ed1d644b7b5ce447d504c76f11f6bc5d8587b6e42f71b001f120"
+    },
+    {
+      "assetId": "dapur-warga",
+      "status": "baru",
+      "path": "master/dapur-warga.webp",
+      "source": "master/dapur-warga.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u3-o1",
+            "a1-u3-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u9-o1",
+            "a1-u9-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "2097784b55767eb58379a1ee18dd1e5a7896d6aa802aff4b79a557c4c9c67170"
+    },
+    {
+      "assetId": "dapur-bauer",
+      "status": "baru",
+      "path": "master/dapur-bauer.webp",
+      "source": "master/dapur-bauer.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u3-o3",
+            "a1-u3-o4"
+          ]
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "466b41ce7074fc5d35c0bb0c99e1f8558411198283e5b73b5f9778dc63bc4851"
+    },
+    {
+      "assetId": "pagar-taman",
+      "status": "baru",
+      "path": "master/pagar-taman.webp",
+      "source": "master/pagar-taman.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u3-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch03",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "64bcdd36de81572a8fb463f9836653f3dab21529c7440a6602ea5939901a6a05"
+    },
+    {
+      "assetId": "cafe-background",
+      "status": "dipakai-ulang",
+      "path": "../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+      "source": null,
+      "uses": [
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u4-o1",
+            "a1-u4-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u4-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch04",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "80607bce1c45519734adee5239e57c6251e826e1e75cf98802cdb73fd11593c5"
+    },
+    {
+      "assetId": "toko-pakaian",
+      "status": "baru",
+      "path": "master/toko-pakaian.webp",
+      "source": "master/toko-pakaian.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch05",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ]
+        },
+        {
+          "chapterId": "a1-ch05",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u5-o2",
+            "a1-u5-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch05",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u5-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch05",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch05",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "15a5e7c8fa6415a064b2426b9827acedc6d4e4354f4d1f95f415a74f29eb830f"
+    },
+    {
+      "assetId": "ruang-warga",
+      "status": "baru",
+      "path": "master/ruang-warga.webp",
+      "source": "master/ruang-warga.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch06",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u6-o1",
+            "a1-u6-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch06",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch06",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u6-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch06",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch06",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u11-o1",
+            "a1-u11-o2",
+            "a1-u11-o3"
+          ]
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u12-o3",
+            "a1-u12-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch12",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "248c80bcdeb5f8216cdc840061beb576bb17fc890da56d2d4bd1a8ca7a2ae379"
+    },
+    {
+      "assetId": "simpang-halte",
+      "status": "baru",
+      "path": "master/simpang-halte.webp",
+      "source": "master/simpang-halte.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u7-o1",
+            "a1-u7-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u7-o3",
+            "a1-u7-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u7-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch07",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "f5a9b7a2803219fcd66ce0c7b388719b818b1213d2823f81afe4444310880d06"
+    },
+    {
+      "assetId": "kantor-warga",
+      "status": "baru",
+      "path": "master/kantor-warga.webp",
+      "source": "master/kantor-warga.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u8-o1",
+            "a1-u8-o2",
+            "a1-u8-o3"
+          ]
+        },
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u8-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u8-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch08",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "619c5cef89709a011e3ff713de1708d0cf3f04cff22d18f23eb77972811e8799"
+    },
+    {
+      "assetId": "praktik",
+      "status": "baru",
+      "path": "master/praktik.webp",
+      "source": "master/praktik.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "9a9e3261db0e39768f30258cac2fbf1052931fee3d293f762742d5f85cabe0c3"
+    },
+    {
+      "assetId": "apotek",
+      "status": "baru",
+      "path": "master/apotek.webp",
+      "source": "master/apotek.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch09",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u9-o5"
+          ]
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "b6d9d2712936260817a57de99e7dedb6556b0f75c038e410a515b80b9675562f"
+    },
+    {
+      "assetId": "ruang-klub",
+      "status": "dipakai-ulang",
+      "path": "../../stok-aset-materi-2026-11-20/latar-properti/latar/ruang-klub/aset.webp",
+      "source": null,
+      "uses": [
+        {
+          "chapterId": "a1-ch10",
+          "sceneId": "s01",
+          "objectiveIds": [
+            "a1-u10-o1",
+            "a1-u10-o2"
+          ]
+        },
+        {
+          "chapterId": "a1-ch10",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u10-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch10",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "b5631692b37298c7bf33b33f9743dac33bbe2566af9228978778a9262b982fef"
+    },
+    {
+      "assetId": "taman-waktu-luang",
+      "status": "dipakai-ulang",
+      "path": "../../stok-aset-materi-2026-11-20/latar-properti/latar/taman-waktu-luang/aset.webp",
+      "source": null,
+      "uses": [
+        {
+          "chapterId": "a1-ch10",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u10-o3",
+            "a1-u10-o4"
+          ]
+        },
+        {
+          "chapterId": "a1-ch10",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "f83036f331d812d41079de585a05422102b03c1864242f87a59019475f150098"
+    },
+    {
+      "assetId": "peron",
+      "status": "baru",
+      "path": "master/peron.webp",
+      "source": "master/peron.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "s02",
+          "objectiveIds": [
+            "a1-u11-o4"
+          ]
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "7d6f3d36432c7e1ae31d8bec185e19831b498c42057582b7198f1c2f0251494e"
+    },
+    {
+      "assetId": "stasiun",
+      "status": "baru",
+      "path": "master/stasiun.webp",
+      "source": "master/stasiun.original.png",
+      "uses": [
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "s03",
+          "objectiveIds": [
+            "a1-u11-o5"
+          ]
+        },
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "transfer",
+          "objectiveIds": []
+        },
+        {
+          "chapterId": "a1-ch11",
+          "sceneId": "penutup",
+          "objectiveIds": []
+        }
+      ],
+      "width": 1600,
+      "height": 900,
+      "format": "WEBP",
+      "sha256": "d926fc84c18ae5ec7c0bf8b2fc4d69fe3b119c7e5b404a75c88c231759fec4b1"
+    }
+  ]
+}

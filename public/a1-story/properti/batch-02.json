@@ -1,0 +1,785 @@
+{
+  "bab": [
+    {
+      "id": "a1-ch05",
+      "judul": "Bab 05 · Jaket yang tertukar",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-05.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Farben und Größen",
+          "tujuan": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ],
+          "aset": [
+            "jaket-biru",
+            "gaun-merah",
+            "kemeja-hijau",
+            "cermin"
+          ],
+          "awal": "Blau · Rot · Grün",
+          "variasi": "Eine blaue Jacke · ein rotes Kleid · ein grünes Hemd"
+        },
+        {
+          "id": "s02",
+          "judul": "Im Geschäft",
+          "tujuan": [
+            "a1-u5-o2",
+            "a1-u5-o4"
+          ],
+          "aset": [
+            "jaket-biru",
+            "cermin"
+          ],
+          "awal": "Größe S · zu klein",
+          "variasi": "Größe M · passt"
+        },
+        {
+          "id": "s03",
+          "judul": "Bezahlen und umtauschen",
+          "tujuan": [
+            "a1-u5-o5"
+          ],
+          "aset": [
+            "struk",
+            "jaket-biru",
+            "kunci",
+            "terminal-bayar",
+            "kartu-bank"
+          ],
+          "awal": "Quittung · Jacke umtauschen",
+          "variasi": "Bar / Karte"
+        }
+      ],
+      "transfer": "Ulangi pertukaran dengan struk dan metode bayar lain.",
+      "penutup": "Kunci menjadi properti lintas bab."
+    },
+    {
+      "id": "a1-ch06",
+      "judul": "Bab 06 · Kunci ruang bersama",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-06.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Zimmer und Möbel",
+          "tujuan": [
+            "a1-u6-o1",
+            "a1-u6-o2"
+          ],
+          "aset": [
+            "kursi",
+            "lampu",
+            "sofa"
+          ],
+          "awal": "Wohnzimmer · Küche",
+          "variasi": "Ein Tisch · eine Lampe · ein Sofa · zwei Stühle"
+        },
+        {
+          "id": "s02",
+          "judul": "Wo steht was?",
+          "tujuan": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ],
+          "aset": [
+            "kunci",
+            "kursi",
+            "buku-tamu-terbuka"
+          ],
+          "awal": "Die Lampe steht im Wohnzimmer.",
+          "variasi": "Der Schlüssel liegt auf dem Stuhl."
+        },
+        {
+          "id": "s03",
+          "judul": "Arbeit im Haushalt",
+          "tujuan": [
+            "a1-u6-o5"
+          ],
+          "aset": [
+            "papan-giliran",
+            "kursi"
+          ],
+          "awal": "Tisch → Küche",
+          "variasi": "Der Tisch steht in der Küche."
+        }
+      ],
+      "transfer": "Tukar keadaan denah dan sebutkan Wo? serta Wohin?",
+      "penutup": "Denah akhir menyimpan susunan sesudah pindah."
+    },
+    {
+      "id": "a1-ch07",
+      "judul": "Bab 07 · Peta untuk tamu yang tersesat",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-07.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Orte in der Stadt",
+          "tujuan": [
+            "a1-u7-o1",
+            "a1-u7-o2"
+          ],
+          "aset": [
+            "peta-lipat"
+          ],
+          "awal": "Peta titik awal dan tujuan",
+          "variasi": "Rute variasi untuk transfer"
+        },
+        {
+          "id": "s02",
+          "judul": "Nach dem Weg fragen",
+          "tujuan": [
+            "a1-u7-o3",
+            "a1-u7-o4"
+          ],
+          "aset": [
+            "peta-lipat"
+          ],
+          "awal": "Geradeaus → links → erste Straße rechts",
+          "variasi": "zur Post · zum Rathaus"
+        },
+        {
+          "id": "s03",
+          "judul": "Mit Bus und Bahn",
+          "tujuan": [
+            "a1-u7-o5"
+          ],
+          "aset": [
+            "papan-peron",
+            "peta-lipat",
+            "trem"
+          ],
+          "awal": "Straßenbahn → Markt",
+          "variasi": "Bus → Rathaus"
+        }
+      ],
+      "transfer": "Gunakan rute alternatif menuju apotek.",
+      "penutup": "Titik kedatangan mengikuti rute dan halte yang dipilih."
+    },
+    {
+      "id": "a1-ch08",
+      "judul": "Bab 08 · Giliran pertama",
+      "sumber": "lernen-app/docs/naskah-visual-novel-a1/bab-08.md",
+      "adegan": [
+        {
+          "id": "s01",
+          "judul": "Ein Arbeitstag",
+          "tujuan": [
+            "a1-u8-o1",
+            "a1-u8-o2",
+            "a1-u8-o3"
+          ],
+          "aset": [
+            "papan-giliran"
+          ],
+          "awal": "Erst → dann → danach",
+          "variasi": "Geöffnet · pemain 08:00 · Leon 09:00"
+        },
+        {
+          "id": "s02",
+          "judul": "Aufgaben und Kollegen",
+          "tujuan": [
+            "a1-u8-o4"
+          ],
+          "aset": [
+            "map-lamaran"
+          ],
+          "awal": "Bewerbung · Lebenslauf · Besprechung",
+          "variasi": "Abteilung für Information"
+        },
+        {
+          "id": "s03",
+          "judul": "Arbeitszeit und Pflichten",
+          "tujuan": [
+            "a1-u8-o5"
+          ],
+          "aset": [
+            "papan-giliran",
+            "kalender"
+          ],
+          "awal": "08:00–10:00 · Pause 10:00–10:15",
+          "variasi": "Jadwal sore · waktu dari sesi"
+        }
+      ],
+      "transfer": "Coba urutan penutupan dan jadwal sore.",
+      "penutup": "Konfirmasi shift dan jeda pada papan yang sama."
+    }
+  ],
+  "aset": {
+    "buku-tamu-terbuka": {
+      "file": "gambar/buku-tamu-terbuka.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 4,
+      "pemakaian": [
+        {
+          "bab": "a1-ch01",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u1-o1",
+            "a1-u1-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch02",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u2-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch06",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u11-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u12-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        389,
+        275
+      ],
+      "sha256": "7e9cef1a8e4300962efd29ea22f62b61f948d6b7adca5abfec3fbf62995375e8"
+    },
+    "cermin": {
+      "file": "gambar/cermin.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 5,
+      "ukuran": [
+        202,
+        367
+      ],
+      "sha256": "17a7c5cfc2dc36c750733ba72d43430e3ec79d51ac88ac4d93e4b0276bbe9c71",
+      "pemakaian": [
+        {
+          "bab": "a1-ch05",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u5-o2",
+            "a1-u5-o4"
+          ]
+        }
+      ]
+    },
+    "gaun-merah": {
+      "file": "gambar/gaun-merah.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 2,
+      "pemakaian": [
+        {
+          "bab": "a1-ch05",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ]
+        }
+      ],
+      "ukuran": [
+        255,
+        362
+      ],
+      "sha256": "a6f528b720779166c8466791f51f26210974d7365543f888f586d30fe6c3c8c6"
+    },
+    "jaket-biru": {
+      "file": "gambar/jaket-biru.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 1,
+      "pemakaian": [
+        {
+          "bab": "a1-ch05",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u5-o2",
+            "a1-u5-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        319,
+        332
+      ],
+      "sha256": "7753681ed2ffd9d3f365db2e5333a138d050b8d935c6ab6ce292f3e93cada065"
+    },
+    "kalender": {
+      "file": "gambar/kalender.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 7,
+      "pemakaian": [
+        {
+          "bab": "a1-ch02",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u2-o3",
+            "a1-u2-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch02",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u2-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch08",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u8-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch10",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u10-o3",
+            "a1-u10-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch12",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u12-o1",
+            "a1-u12-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        335,
+        306
+      ],
+      "sha256": "d6a3978805a28aac0e703dc7115b6890bf888c4f525c839daefa55b1c039e3ab"
+    },
+    "kartu-bank": {
+      "file": "gambar/kartu-bank.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 4,
+      "ukuran": [
+        301,
+        182
+      ],
+      "sha256": "6c310128a170deb2058fccc060d4a633e2458fd5dc480d42f22918b726ad70d8",
+      "pemakaian": [
+        {
+          "bab": "a1-ch04",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch09",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u9-o3",
+            "a1-u9-o4"
+          ]
+        }
+      ]
+    },
+    "kemeja-hijau": {
+      "file": "gambar/kemeja-hijau.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 3,
+      "pemakaian": [
+        {
+          "bab": "a1-ch05",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u5-o1",
+            "a1-u5-o3"
+          ]
+        }
+      ],
+      "ukuran": [
+        309,
+        344
+      ],
+      "sha256": "b045c5583b7a5a983f163ee27698dd7f426b614ece537e162973060f665bb141"
+    },
+    "kunci": {
+      "file": "../../sampel-aset-uiux-lernen-2026-11-20/kosakata/sampel.png",
+      "status": "pakai ulang",
+      "sumber": "outputs/sampel-aset-uiux-lernen-2026-11-20/kosakata/sampel.png",
+      "pemakaian": [
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch06",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        256,
+        256
+      ],
+      "sha256": "1b60aa54aa51ee600db6849f3832e9a8d777f368303e1a0d55a1ea729cc75473"
+    },
+    "kursi": {
+      "file": "gambar/kursi.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 4,
+      "pemakaian": [
+        {
+          "bab": "a1-ch06",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u6-o1",
+            "a1-u6-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch06",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u6-o3",
+            "a1-u6-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch06",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u6-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        311,
+        337
+      ],
+      "sha256": "be58c8beca5355df8730314436dbd0dde36ce7d6c35036e789a47a670e98a025"
+    },
+    "lampu": {
+      "file": "gambar/lampu.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 5,
+      "pemakaian": [
+        {
+          "bab": "a1-ch06",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u6-o1",
+            "a1-u6-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        154,
+        375
+      ],
+      "sha256": "1fc8b59f308d0b643946bdd3a2c322a7aeff911bea2a76a383ea8045fdec97a8"
+    },
+    "map-lamaran": {
+      "file": "gambar/map-lamaran.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 9,
+      "pemakaian": [
+        {
+          "bab": "a1-ch08",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u8-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        353,
+        295
+      ],
+      "sha256": "21fd66ad0b622ebb6061ffcdf2e8a93684b615f65bf292188c5a58eae5549d1e"
+    },
+    "papan-giliran": {
+      "file": "gambar/papan-giliran.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 8,
+      "pemakaian": [
+        {
+          "bab": "a1-ch06",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u6-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch08",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u8-o1",
+            "a1-u8-o2",
+            "a1-u8-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch08",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u8-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        250,
+        356
+      ],
+      "sha256": "bd1d4e5463c43ce167c779f4dc3a881abcb9627758bc8f7cb095bdbdd89ffd18"
+    },
+    "papan-peron": {
+      "file": "gambar/papan-peron.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-04.png",
+      "sel": 6,
+      "pemakaian": [
+        {
+          "bab": "a1-ch07",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u7-o5"
+          ]
+        },
+        {
+          "bab": "a1-ch11",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u11-o4"
+          ]
+        }
+      ],
+      "ukuran": [
+        369,
+        319
+      ],
+      "sha256": "bc79a6acd73202ff10b1d641ef9e9152b91ea866f58e2af8e4033ef429c1dd47"
+    },
+    "peta-lipat": {
+      "file": "gambar/peta-lipat.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 7,
+      "pemakaian": [
+        {
+          "bab": "a1-ch01",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u1-o3"
+          ]
+        },
+        {
+          "bab": "a1-ch07",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u7-o1",
+            "a1-u7-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch07",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u7-o3",
+            "a1-u7-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch07",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u7-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        343,
+        315
+      ],
+      "sha256": "02b3ce51837aeb1077d898da7b02939b70a1d1e16ebc2709d2a5b2a83f4fbecb"
+    },
+    "sofa": {
+      "file": "gambar/sofa.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-03.png",
+      "sel": 6,
+      "pemakaian": [
+        {
+          "bab": "a1-ch06",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u6-o1",
+            "a1-u6-o2"
+          ]
+        }
+      ],
+      "ukuran": [
+        390,
+        240
+      ],
+      "sha256": "14654c4cc4c429d3e8d1a3ef6109904f052f28e83a2b4f95b077c45e00dfed8f"
+    },
+    "struk": {
+      "file": "gambar/struk.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-01.png",
+      "sel": 9,
+      "pemakaian": [
+        {
+          "bab": "a1-ch02",
+          "adegan": "s01",
+          "tujuan": [
+            "a1-u2-o1",
+            "a1-u2-o2"
+          ]
+        },
+        {
+          "bab": "a1-ch04",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        }
+      ],
+      "ukuran": [
+        263,
+        321
+      ],
+      "sha256": "29973a6156c159651ed231ce74d3f5bff4bbf07ea0dfe07bacdd3cfa20b6050b"
+    },
+    "terminal-bayar": {
+      "file": "gambar/terminal-bayar.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 3,
+      "ukuran": [
+        283,
+        287
+      ],
+      "sha256": "1705940d6da21f93cf0f21f3ea429af7afd517d217654c2c8d3ddd00def330d4",
+      "pemakaian": [
+        {
+          "bab": "a1-ch04",
+          "adegan": "s02",
+          "tujuan": [
+            "a1-u4-o3",
+            "a1-u4-o4"
+          ]
+        },
+        {
+          "bab": "a1-ch05",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u5-o5"
+          ]
+        }
+      ]
+    },
+    "trem": {
+      "file": "gambar/trem.webp",
+      "status": "baru",
+      "sumber": "sumber/atlas-05.png",
+      "sel": 8,
+      "ukuran": [
+        407,
+        263
+      ],
+      "sha256": "814303ddade70e94d89769b534ff9ac67f2aabbc6508f2c3e95579877785277d",
+      "pemakaian": [
+        {
+          "bab": "a1-ch07",
+          "adegan": "s03",
+          "tujuan": [
+            "a1-u7-o5"
+          ]
+        }
+      ]
+    }
+  }
+}

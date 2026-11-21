@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch01",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Hallo! Ich heiße …",
+    "assetId": "ambang-rumah",
+    "storyContext": "Ambang rumah, keesokan pagi. Pemain membalik surat «Bis morgen!». Di balik gambar cangkir, Mia menggambar bangku di depan kafe. Rupanya ia mengundangmu bertemu di sana.",
+    "objectiveIds": [
+      "a1-u1-o1",
+      "a1-u1-o2"
+    ],
+    "status": "baru",
+    "path": "../master/ambang-rumah.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch01",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Woher kommen Sie?",
+    "assetId": "teras-kafe",
+    "storyContext": "Bangku kafe. Mia ingin membuat buku tamu kecil untuk pertemuan warga. Tulis asal dan tempat tinggal tokoh pilihanmu di halaman pertama.",
+    "objectiveIds": [
+      "a1-u1-o3"
+    ],
+    "status": "baru",
+    "path": "../master/teras-kafe.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch01",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Freunde & Alter",
+    "assetId": "teras-kafe",
+    "storyContext": "Papan foto. Herr Bauer membawa foto tetangga yang keterangannya terlepas. Bantu Mia memasangkan label dan memperkenalkan seorang teman.",
+    "objectiveIds": [
+      "a1-u1-o4",
+      "a1-u1-o5"
+    ],
+    "status": "baru",
+    "path": "../master/teras-kafe.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch01",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "teras-kafe",
+    "storyContext": "Saat penjaga buku berganti, sapa dia dengan Sie, tanyakan namanya, lalu kenalkan teman dari kartu baru. Ia menaruh foto di bawah nama yang benar.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/teras-kafe.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch01",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "teras-kafe",
+    "storyContext": "Mia menyelipkan secarik daftar belanja ke buku. Besok kalian akan mencari bahan untuk pertemuan pertama.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/teras-kafe.webp"
+  }
+]

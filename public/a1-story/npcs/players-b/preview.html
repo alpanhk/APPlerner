@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uji bicara · Player 03 dan 04</title>
+<style>
+body{font:16px system-ui;background:#f6ece0;color:#392029;margin:24px}main{display:flex;gap:24px;flex-wrap:wrap}
+figure{margin:0;width:min(320px,100%)}img{display:block;width:100%;height:auto;background:#e9d9c8;border-radius:8px}button{margin-top:8px;padding:10px;font:inherit}
+</style>
+<h1>Uji bicara</h1>
+<main>
+<figure><img width="320" height="480" src="player-03/neutral.webp" alt="Player 03"><figcaption>player-03</figcaption><button type="button">Putar bicara</button></figure>
+<figure><img width="320" height="480" src="player-04/neutral.webp" alt="Player 04"><figcaption>player-04</figcaption><button type="button">Putar bicara</button></figure>
+</main>
+<script>
+const pause = (ms) => new Promise(resolve => setTimeout(resolve, ms))
+for (const figure of document.querySelectorAll('figure')) {
+  const sprite = figure.querySelector('img')
+  const button = figure.querySelector('button')
+  const dir = figure.querySelector('figcaption').textContent
+  const sequence = [['neutral', 550], ['talk-small', 130], ['talk-open', 190],
+                    ['talk-small', 135], ['talk-open', 180], ['talk-small', 130]]
+  button.addEventListener('click', async () => {
+    button.disabled = true
+    try {
+      await Promise.all(['neutral','talk-small','talk-open'].map(frame => {
+        const image = new Image()
+        image.src = dir + '/' + frame + '.webp'
+        return image.decode()
+      }))
+      for (const [frame, ms] of sequence) {
+        sprite.src = dir + '/' + frame + '.webp'
+        await pause(ms)
+      }
+    } finally {
+      sprite.src = dir + '/neutral.webp'
+      button.disabled = false
+    }
+  })
+}
+</script>
+</html>

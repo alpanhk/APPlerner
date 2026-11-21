@@ -11,6 +11,8 @@ export function TitleScreen({
   onContinue,
   onSettings,
   onLibrary,
+  onOpenMaterials,
+  onPractice,
 }: {
   hasSave: boolean;
   saveName?: string;
@@ -18,6 +20,10 @@ export function TitleScreen({
   onContinue: () => void;
   onSettings: () => void;
   onLibrary: () => void;
+  /** Membuka aplikasi KLAB lama: materi A1–B2, SRS, statistik, backup (U12). */
+  onOpenMaterials?: () => void;
+  /** Latih keterampilan: misi dapat dipilih langsung dari jalur pengguna biasa. */
+  onPractice?: () => void;
 }) {
   const [loaded, setLoaded] = useState(false);
   const first = useRef<HTMLButtonElement>(null);
@@ -50,10 +56,20 @@ export function TitleScreen({
           <button ref={hasSave ? undefined : first} type="button" onClick={onStart} className={`${hasSave ? "btn-secondary" : "btn-primary"} w-full justify-center text-lg`}>
             Mulai cerita{hasSave ? " baru" : ""}
           </button>
-          <div className="flex gap-2">
+          {onPractice && (
+            <button type="button" onClick={onPractice} className="btn-secondary w-full justify-center" data-testid="title-practice">
+              Latih keterampilan · Peron berubah
+            </button>
+          )}
+          <div className="flex flex-wrap gap-2">
             <button type="button" onClick={onLibrary} className="btn-secondary flex-1 justify-center">
               Perpustakaan
             </button>
+            {onOpenMaterials && (
+              <button type="button" onClick={onOpenMaterials} className="btn-secondary flex-1 justify-center">
+                Materi A1–B2
+              </button>
+            )}
             <button type="button" onClick={onSettings} className="btn-secondary flex-1 justify-center">
               Pengaturan
             </button>

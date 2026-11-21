@@ -1,0 +1,34 @@
+{
+  "player-01": {
+    "neutral": "actors/player-01/neutral.png",
+    "open": "actors/player-01/speak-open.png"
+  },
+  "player-02": {
+    "neutral": "actors/player-02/neutral.png",
+    "open": "actors/player-02/speak-open.png"
+  },
+  "player-03": {
+    "neutral": "actors/player-03/neutral.png",
+    "open": "actors/player-03/talk-open.png"
+  },
+  "player-04": {
+    "neutral": "actors/player-04/neutral.png",
+    "open": "actors/player-04/talk-open.png"
+  },
+  "mia": {
+    "neutral": "actors/mia/neutral.png",
+    "open": "actors/mia/talk-open.png"
+  },
+  "tutor": {
+    "neutral": "actors/tutor/neutral.png",
+    "open": "actors/tutor/talk-open.png"
+  },
+  "pos": {
+    "neutral": "actors/pos/neutral.png",
+    "open": "actors/pos/talk-open.png"
+  },
+  "tetangga": {
+    "neutral": "actors/tetangga/neutral.png",
+    "open": "actors/tetangga/talk-open.png"
+  }
+}

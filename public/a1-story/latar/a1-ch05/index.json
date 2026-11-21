@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch05",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Farben und Größen",
+    "assetId": "toko-pakaian",
+    "storyContext": "Toko pakaian bekas. Dua jaket biru tergantung berdampingan. Cari jaket untuk giliran pertama di meja informasi.",
+    "objectiveIds": [
+      "a1-u5-o1",
+      "a1-u5-o3"
+    ],
+    "status": "baru",
+    "path": "../master/toko-pakaian.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch05",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Im Geschäft",
+    "assetId": "toko-pakaian",
+    "storyContext": "Kamar pas. Penjaga toko memberi dua ukuran. Pilih yang cocok berdasarkan kartu ukuran tokoh dan pengalaman mencoba.",
+    "objectiveIds": [
+      "a1-u5-o2",
+      "a1-u5-o4"
+    ],
+    "status": "baru",
+    "path": "../master/toko-pakaian.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch05",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Bezahlen und umtauschen",
+    "assetId": "toko-pakaian",
+    "storyContext": "Kasir. Setelah membayar, kamu melihat label pada tas belanja milik pelanggan lain. Struk menjadi petunjuk untuk menukar barang.",
+    "objectiveIds": [
+      "a1-u5-o5"
+    ],
+    "status": "baru",
+    "path": "../master/toko-pakaian.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch05",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "toko-pakaian",
+    "storyContext": "Dari kartu pesanan baru, cari pakaian dengan warna dan ukuran tepat, coba, bayar, lalu tukarkan satu barang memakai struk.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/toko-pakaian.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch05",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "toko-pakaian",
+    "storyContext": "Jaket yang tepat punya kantong lebar untuk menyimpan kunci ruang pertemuan dari Herr Bauer.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/toko-pakaian.webp"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "chapterId": "a1-ch04",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Essen & Trinken",
+    "assetId": "cafe-background",
+    "storyContext": "Dapur kafe. Dari balik etalase, Mia melambaikan tangan ke meja yang kosong. Kalian harus memilih kudapan dan minuman sebelum tamu foto datang.",
+    "objectiveIds": [
+      "a1-u4-o1",
+      "a1-u4-o2"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+    "correctionStage": "tetap pada latar adegan aktif",
+    "layers": [
+      "cafe-background",
+      "potret",
+      "counter",
+      "properti interaktif sesuai giliran",
+      "dialog HTML"
+    ]
+  },
+  {
+    "chapterId": "a1-ch04",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Im Restaurant bestellen",
+    "assetId": "cafe-background",
+    "storyContext": "Meja dekat jendela, adegan Im Café. Pelayan menunggu pesananmu. Cangkir hanya diletakkan setelah ada pesanan yang cocok.",
+    "objectiveIds": [
+      "a1-u4-o3",
+      "a1-u4-o4"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+    "correctionStage": "tetap pada latar adegan aktif",
+    "layers": [
+      "cafe-background",
+      "potret",
+      "counter",
+      "properti interaktif sesuai giliran",
+      "dialog HTML"
+    ]
+  },
+  {
+    "chapterId": "a1-ch04",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Mahlzeiten & Verben",
+    "assetId": "cafe-background",
+    "storyContext": "Papan sarapan. Pemilik kafe ingin menyiapkan jamuan berikutnya. Ia menuliskan kebiasaan makan tamu yang kamu sampaikan.",
+    "objectiveIds": [
+      "a1-u4-o5"
+    ],
+    "status": "dipakai-ulang",
+    "path": "../../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+    "correctionStage": "tetap pada latar adegan aktif",
+    "layers": [
+      "cafe-background",
+      "potret",
+      "counter",
+      "properti interaktif sesuai giliran",
+      "dialog HTML"
+    ]
+  },
+  {
+    "chapterId": "a1-ch04",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "cafe-background",
+    "storyContext": "Pesankan teh dan roti untuk seorang tamu baru, tanyakan rekomendasi, lalu bayar terpisah. Sebutkan satu kebiasaan sarapan untuk daftar besok.",
+    "objectiveIds": [],
+    "status": "dipakai-ulang",
+    "path": "../../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus.",
+    "layers": [
+      "cafe-background",
+      "potret",
+      "counter",
+      "properti interaktif sesuai giliran",
+      "dialog HTML"
+    ]
+  },
+  {
+    "chapterId": "a1-ch04",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "cafe-background",
+    "storyContext": "Ada undangan membantu meja informasi dalam acara warga. Mia menatap jaket tipismu dan menunjuk ramalan hujan di koran.",
+    "objectiveIds": [],
+    "status": "dipakai-ulang",
+    "path": "../../../aset-im-cafe-produksi-2026-11-20/scene/cafe-background.webp",
+    "layers": [
+      "cafe-background",
+      "potret",
+      "counter",
+      "properti interaktif sesuai giliran",
+      "dialog HTML"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "chapterId": "a1-ch03",
+    "sceneId": "s01",
+    "title": "Adegan 1 · Meine Familie",
+    "assetId": "dapur-warga",
+    "storyContext": "Meja makan Mia. Dua bingkai foto tertukar saat dipindah. Mia mengizinkanmu memakai album keluarganya untuk menemukan pemilik foto.",
+    "objectiveIds": [
+      "a1-u3-o1",
+      "a1-u3-o2"
+    ],
+    "status": "baru",
+    "path": "../master/dapur-warga.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch03",
+    "sceneId": "s02",
+    "title": "Adegan 2 · Eltern, Geschwister & Status",
+    "assetId": "dapur-bauer",
+    "storyContext": "Dapur Herr Bauer. Satu kartu keluarga bergambar, tanpa info pribadi pemain. Cocokkan jumlah saudara dan keterangan rumah tangga dengan kartu.",
+    "objectiveIds": [
+      "a1-u3-o3",
+      "a1-u3-o4"
+    ],
+    "status": "baru",
+    "path": "../master/dapur-bauer.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch03",
+    "sceneId": "s03",
+    "title": "Adegan 3 · Possessiv & besuchen",
+    "assetId": "pagar-taman",
+    "storyContext": "Pagar taman. Dua kerabat menunggu foto. Dengarkan siapa mengunjungi siapa sebelum menyerahkan amplop.",
+    "objectiveIds": [
+      "a1-u3-o5"
+    ],
+    "status": "baru",
+    "path": "../master/pagar-taman.webp",
+    "correctionStage": "tetap pada latar adegan aktif"
+  },
+  {
+    "chapterId": "a1-ch03",
+    "sceneId": "transfer",
+    "title": "Pertemuan mandiri",
+    "assetId": "pagar-taman",
+    "storyContext": "Dengan kartu keluarga fiktif baru, perkenalkan dua orang, jawab pertanyaan jumlah saudara dan jelaskan siapa mengunjungi pamannya. Serahkan bingkai kepada keluarga yang cocok.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/pagar-taman.webp",
+    "objectiveNote": "Gunakan tujuan yang benar-benar dilatih pada sesi transfer; naskah tidak mencantumkan ID khusus."
+  },
+  {
+    "chapterId": "a1-ch03",
+    "sceneId": "penutup",
+    "title": "Penutup",
+    "assetId": "pagar-taman",
+    "storyContext": "Pemilik foto menulis ucapan terima kasih dan mengundang kalian mencicipi kue di kafe.",
+    "objectiveIds": [],
+    "status": "baru",
+    "path": "../master/pagar-taman.webp"
+  }
+]
