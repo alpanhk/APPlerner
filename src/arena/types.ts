@@ -1,6 +1,6 @@
 // ===== Tipe bersama Lernen =====
 
-export type CharId = "player" | "tutor" | "mia" | "pos" | "tetangga" | "penjual-pasar";
+export type CharId = "player" | "tutor" | "mia" | "pos" | "tetangga" | "penjual-pasar" | "penjual-mandiri-ch02";
 export type SpeakerId = CharId | "narator";
 export type Expression = "neutral" | "smile" | "question" | "think";
 export type Side = "left" | "right" | "center";

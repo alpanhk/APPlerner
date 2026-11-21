@@ -34,5 +34,9 @@
   "penjual-pasar": {
     "neutral": "actors/penjual-pasar/neutral.png",
     "open": "actors/penjual-pasar/talk-open.png"
+  },
+  "penjual-mandiri-ch02": {
+    "neutral": "actors/penjual-mandiri-ch02/neutral.png",
+    "open": "actors/penjual-mandiri-ch02/talk-open.png"
   }
 }

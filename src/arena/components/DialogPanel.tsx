@@ -24,7 +24,7 @@ export function DialogPanel(p: PanelProps) {
   return (
     <section
       aria-live="polite"
-      className="arena-dialog absolute inset-x-0 bottom-0 z-10 mx-auto w-full max-w-6xl px-2 pb-2 sm:px-4 sm:pb-4"
+      className="arena-dialog absolute inset-x-0 bottom-0 z-10 mx-auto w-full max-w-6xl max-h-[85%] overflow-y-auto px-2 pb-2 sm:px-4 sm:pb-4"
     >
       <div className="rounded-2xl border-2 border-[#2c3e6b]/40 bg-[#f7efdd]/95 shadow-[0_-6px_30px_rgba(20,25,50,.35)] backdrop-blur-sm">
         <div className="flex items-center gap-3 px-4 pt-3 sm:px-6">

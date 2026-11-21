@@ -12,7 +12,7 @@ export function continueDestination(saved: Progress | null): ContinueDestination
   return localStorage.getItem(profileKey('lernen.chapter02.active')) === '1' ? 'kiosk' : 'chapter-one';
 }
 export function checkpointTitle(destination: ContinueDestination): {label:string; title:string; scene?:string} {
-  if (destination === 'chapter-three') return {label:'Bab 03', title:CHAPTER_THREE.title, scene:CHAPTER_THREE.scenes[0].title};
+  if (destination === 'chapter-three') return {label:'Bab 03', title:CHAPTER_THREE.title, scene:CHAPTER_THREE.scenes[localStorage.getItem(profileKey('lernen.chapter03.family-count.v1')) ? 1 : 0].title};
   if (destination === 'chapter-one') return {label:'Bab 01', title:CHAPTER_ONE.title};
   if (destination === 'kiosk') return {label:'Bab 02', title:CHAPTER_TWO.title, scene:sceneTitleForStep(savedChapterTwoStep())};
   return {label:'Prolog', title:PROLOG_META.title};
