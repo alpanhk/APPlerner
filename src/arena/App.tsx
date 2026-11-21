@@ -13,10 +13,11 @@ import { HistoryPanel, Journal, Library, Modal, SettingsPanel } from "./componen
 import { ResultScreen } from "./components/ResultScreen";
 
 import StoryPage, { beginStoryForPlayer } from "../klab/StoryPage";
+import { ChapterOne } from "./components/ChapterOne";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters" | "station";
+type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -179,6 +180,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     setScreen("create");
   };
   const onCharacterDone = (p: typeof DEFAULT_PLAYER) => {
+    localStorage.removeItem("lernen.chapter01.v1");
     const g = newGame(p, PROLOG_START);
     setScreen("story");
     // masuk ke node awal
@@ -192,7 +194,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     if (saved.prologCompleted && saved.flags?.letterOpened) {
       setGame(fromProgress(saved));
       beginStoryForPlayer(saved.player.portrait, saved.player.name);
-      setScreen("chapters");
+      setScreen("chapter-one");
       return;
     }
     audio.unlock();
@@ -315,6 +317,8 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
       {screen === "station" && <StationMission soundOn={settings.soundOn} onBack={backToTitle} />}
 
+      {screen === "chapter-one" && game && <ChapterOne player={game.player} soundOn={settings.soundOn} reducedMotion={settings.reducedMotion} onBack={backToTitle} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} />}
+
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
           <button className="btn-top" onClick={backToTitle}>Judul</button>
@@ -422,7 +426,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                 setSaved(progress);
                 beginStoryForPlayer(game.player.portrait, game.player.name);
                 leave();
-                setScreen("chapters");
+                setScreen("chapter-one");
               } : undefined}
             />
           )}
