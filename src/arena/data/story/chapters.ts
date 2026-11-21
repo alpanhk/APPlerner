@@ -8,4 +8,5 @@ function chapter(id: string) {
 }
 export const CHAPTER_ONE = chapter('a1-ch01');
 export const CHAPTER_TWO = chapter('a1-ch02');
+export const CHAPTER_THREE = chapter('a1-ch03');
 export const KIOSK_SCENE = CHAPTER_TWO.scenes.find(scene => scene.id === 's01')!;

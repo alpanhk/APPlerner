@@ -15,12 +15,13 @@ import { HistoryPanel, Journal, Library, Modal, SettingsPanel } from "./componen
 import { ResultScreen } from "./components/ResultScreen";
 
 import StoryPage, { beginStoryForPlayer } from "../klab/StoryPage";
+import { ChapterThreeStart } from "./components/ChapterThreeStart";
 import { ChapterTwoKiosk } from "./components/ChapterTwoKiosk";
 import { ChapterOne } from "./components/ChapterOne";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "station";
+type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "chapter-three" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -324,7 +325,9 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
       {screen === "chapter-one" && game && <ChapterOne player={game.player} soundOn={settings.soundOn} reducedMotion={settings.reducedMotion} onBack={backToTitle} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter02.active"), "1"); setScreen("kiosk"); }} />}
 
-      {screen === "kiosk" && game && <ChapterTwoKiosk player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => { localStorage.removeItem(profileKey("lernen.chapter02.active")); setScreen("chapter-one"); }} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} />}
+      {screen === "kiosk" && game && <ChapterTwoKiosk player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => { localStorage.removeItem(profileKey("lernen.chapter02.active")); setScreen("chapter-one"); }} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter03.active"), "1"); setScreen("chapter-three"); }} />}
+
+      {screen === "chapter-three" && game && <ChapterThreeStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => {localStorage.removeItem(profileKey("lernen.chapter03.active")); setScreen("kiosk");}} onLegacy={() => {setStoryChapter(3);setScreen("chapters");}} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">

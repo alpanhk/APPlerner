@@ -1,16 +1,19 @@
 import type { Progress } from '../types';
 import { PROLOG_META } from '../data/story/prolog';
-import { CHAPTER_ONE, CHAPTER_TWO, KIOSK_SCENE } from '../data/story/chapters';
+import { CHAPTER_ONE, CHAPTER_TWO, CHAPTER_THREE } from '../data/story/chapters';
 import { profileKey } from './profiles';
+import { savedChapterTwoStep, sceneTitleForStep } from './chapterTwoCheckpoint';
 
-export type ContinueDestination = 'story' | 'chapter-one' | 'kiosk';
+export type ContinueDestination = 'story' | 'chapter-one' | 'kiosk' | 'chapter-three';
 /** Exactly the recovery path used by Continue, including pre-profile saves. */
 export function continueDestination(saved: Progress | null): ContinueDestination {
   if (!saved?.prologCompleted || !saved.flags?.letterOpened) return 'story';
+  if (localStorage.getItem(profileKey('lernen.chapter03.active')) === '1') return 'chapter-three';
   return localStorage.getItem(profileKey('lernen.chapter02.active')) === '1' ? 'kiosk' : 'chapter-one';
 }
 export function checkpointTitle(destination: ContinueDestination): {label:string; title:string; scene?:string} {
+  if (destination === 'chapter-three') return {label:'Bab 03', title:CHAPTER_THREE.title, scene:CHAPTER_THREE.scenes[0].title};
   if (destination === 'chapter-one') return {label:'Bab 01', title:CHAPTER_ONE.title};
-  if (destination === 'kiosk') return {label:'Bab 02', title:CHAPTER_TWO.title, scene:KIOSK_SCENE.title};
+  if (destination === 'kiosk') return {label:'Bab 02', title:CHAPTER_TWO.title, scene:sceneTitleForStep(savedChapterTwoStep())};
   return {label:'Prolog', title:PROLOG_META.title};
 }
