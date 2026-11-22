@@ -1,0 +1,10 @@
+=== Pratinjau live (sesi ini) ===
+Dev server root: `DATABASE_URL=postgresql://…:5433/app_db npm run dev -- -H 0.0.0.0 -p 3000`
+- GET / -> 200 (0.11 s), <title>Lernen — Belajar Bahasa Jerman lewat Cerita</title>
+- GET /api/health -> {"ok":true}   (Postgres terisolasi 127.0.0.1:5433)
+- GET /media/actors/tutor.webp -> 200
+Postgres: embedded-postgres 18.7, data /tmp/lernen-preview-pg-data, hanya lokal.
+
+Catatan: dev server menampilkan overlay Next DevTools hanya saat ada galat; alur normal
+sudah diverifikasi pada build produksi (`next start`) seperti tercatat di
+BROWSER-INTERACTION.txt dan CLEAN-CHECKOUT.txt.
