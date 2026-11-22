@@ -5,6 +5,14 @@ Dev server root: `DATABASE_URL=postgresql://…:5433/app_db npm run dev -- -H 0.
 - GET /media/actors/tutor.webp -> 200
 Postgres: embedded-postgres 18.7, data /tmp/lernen-preview-pg-data, hanya lokal.
 
-Catatan: dev server menampilkan overlay Next DevTools hanya saat ada galat; alur normal
-sudah diverifikasi pada build produksi (`next start`) seperti tercatat di
+Verifikasi tambahan pada dev server ini:
+- GET / dengan Host: 3000-abc123.e2b.app -> 200 (origin pratinjau Arena diterima)
+- GET /media/scenes/u01-perkenalan.webp dengan Host e2b -> 200
+- Chromium headless: Title -> buat profil -> prolog terbuka, latar /media/bg/kamar.jpg
+  naturalWidth=1400, overflow horizontal 0 px, tanpa galat halaman.
+- Peringatan "Blocked cross-origin request ... /_next/hmr" sudah hilang setelah
+  next.config.ts mengizinkan localhost/127.0.0.1/*.e2b.app.
+
+Alur penuh (bantuan bertingkat, revisi, NPC, jurnal, Result, reload, dua pemain,
+layar kecil) diverifikasi pada build produksi (`next start`) seperti tercatat di
 BROWSER-INTERACTION.txt dan CLEAN-CHECKOUT.txt.
