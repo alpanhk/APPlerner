@@ -1,0 +1,51 @@
+=== bg/cover refs vs files ===
+jalan                OK       public/media/bg/jalan.jpg (241408 byte)
+jendela              OK       public/media/bg/jendela.jpg (227315 byte)
+kamar                OK       public/media/bg/kamar.jpg (185356 byte)
+pintu                OK       public/media/bg/pintu.jpg (144567 byte)
+u01-perkenalan       OK       public/media/scenes/u01-perkenalan.webp (90152 byte)
+u02-jadwal           OK       public/media/scenes/u02-jadwal.webp (72824 byte)
+u02-pasar            OK       public/media/scenes/u02-pasar.webp (110496 byte)
+u03-keluarga         OK       public/media/scenes/u03-keluarga.webp (73172 byte)
+u04-makan            OK       public/media/scenes/u04-makan.webp (68720 byte)
+u05-toko             OK       public/media/scenes/u05-toko.webp (56994 byte)
+u06-rumah            OK       public/media/scenes/u06-rumah.webp (54986 byte)
+u07-kota-arah        OK       public/media/scenes/u07-kota-arah.webp (94890 byte)
+u08-hari-kerja       OK       public/media/scenes/u08-hari-kerja.webp (65930 byte)
+u09-klinik           OK       public/media/scenes/u09-klinik.webp (63822 byte)
+u10-renang           OK       public/media/scenes/u10-renang.webp (94426 byte)
+u11-stasiun          OK       public/media/scenes/u11-stasiun.webp (158186 byte)
+u12-telepon-pesan    OK       public/media/scenes/u12-telepon-pesan.webp (41446 byte)
+
+=== cast imgs vs files ===
+tutor                     base=OK       open=OK
+mia                       base=OK       open=OK
+pos                       base=OK       open=OK
+tetangga                  base=OK       open=OK
+penjaga-buku-ch01         base=OK       open=OK
+tamu-kafe-ch04            base=OK       open=tidak ada (benar bila open tidak diset)
+penjual-pasar             base=OK       open=OK
+penjual-mandiri-ch02      base=OK       open=OK
+pemilik-foto-ch03         base=OK       open=OK
+kerabat-ch03              base=OK       open=tidak ada (benar bila open tidak diset)
+barista                   base=OK       open=OK
+penjual-pakaian           base=OK       open=OK
+kasir                     base=OK       open=OK
+eva                       base=OK       open=OK
+tamu-kota                 base=OK       open=OK
+rekan-panitia             base=OK       open=OK
+petugas-praktik           base=OK       open=OK
+apoteker                  base=OK       open=OK
+petugas-klub              base=OK       open=OK
+petugas-stasiun           base=OK       open=OK
+pendatang-baru            base=OK       open=OK
+
+=== avatars ===
+player-01.webp        OK
+player-01-open.webp   OK
+player-02.webp        OK
+player-02-open.webp   OK
+player-03.webp        OK
+player-03-open.webp   OK
+player-04.webp        OK
+player-04-open.webp   OK

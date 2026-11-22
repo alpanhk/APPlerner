@@ -1,0 +1,27 @@
+[synthetic] backup sintetis ditulis ke /tmp/lernen-backup-sintetis.json
+[synthetic] rencana: {
+  "profile": {
+    "name": "Rina",
+    "avatar": "player-01"
+  },
+  "progress": [
+    {
+      "chapterId": "bab01",
+      "status": "selesai"
+    },
+    {
+      "chapterId": "bab02",
+      "status": "aktif"
+    }
+  ],
+  "skipped": [
+    "lesson_progress unit_no=99 (di luar 1–12)"
+  ],
+  "notMigrated": [
+    "decks",
+    "config",
+    "lesson_drafts"
+  ],
+  "oldAttempts": 1
+}
+[synthetic] OK (validasi pemetaan saja; tanpa DATABASE_URL tidak ada penulisan DB).

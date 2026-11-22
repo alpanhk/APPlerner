@@ -1,4 +1,26 @@
-# ----- Rust / Cargo (dari remote) -----
+# ----- Next.js (aplikasi utama di root) -----
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+.env
+.env.*.local
+.env.local
+!.env.example
+.vercel
+
+# ----- Legacy Vite/Tauri (di legacy/vite-tauri/) -----
+# Build lama tidak lagi menjadi entry root; artefaknya tetap diabaikan.
+legacy/vite-tauri/dist/
+legacy/vite-tauri/dist-ssr/
+legacy/vite-tauri/.vite/
+legacy/vite-tauri/node_modules/
+legacy/vite-tauri/target/
+legacy/vite-tauri/*.tsbuildinfo
+
+# ----- Rust / Cargo (legacy) -----
 debug
 target
 **/*.rs.bk
@@ -7,8 +29,7 @@ target
 rustc-ice-*.txt
 .idea/
 
-# ----- Node / frontend -----
-node_modules/
+# ----- Node / frontend (umum) -----
 dist/
 dist-ssr/
 .vite/
@@ -28,6 +49,7 @@ lerna-debug.log*
 *.local
 .env
 .env.*
+!.env.example
 
 # ----- Data pengguna / QA / host config -----
 *.db
