@@ -164,8 +164,45 @@ DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5433/app_db node scripts/m
 
 ## 8. Bukti build ini
 
-- SHA ZIP terverifikasi (§1).
-- `npm install`, `npm run build`, `npm run audit`, dan uji browser
-  (profil baru → pilih avatar → prolog → bantu/revisi → interaksi NPC →
-  jurnal/kelanjutan bab → reload) dijalankan dari root pada build ini.
-  Hasil dan kekurangan dicatat di PR draft penggantian.
+Semua dijalankan dari root pada build ini; berkas bukti di
+`docs/build-evidence/arena-replacement-20261122/`.
+
+| Berkas | Isi |
+|---|---|
+| `SHA-VERIFICATION.txt` | verifikasi SHA-256 lampiran & isi ZIP (255804 byte, 50 berkas) |
+| `AUDIT.txt` | `npm run audit` — 13 bab, konsistensi lima langkah, simulasi tamat semua bab |
+| `BUILD.txt` | `npm install` + `npm run build` (rute `/`, `/pola`, 6 API) |
+| `TYPECHECK.txt`, `LINT.txt` | `tsc --noEmit` bersih; ESLint 0 error (12 peringatan `no-img-element` sesuai ZIP) |
+| `API-BROWSER-CHECK.txt` | entri root, `/pola`, health/audit, semua URL `/media/**` 200, alur API profil/checkpoint/attempt + isolasi & validasi |
+| `BROWSER-INTERACTION.txt` | uji browser nyata (Chromium headless) desktop 1280×900 dan layar kecil 390×844 |
+| `MEDIA-MAP.txt` | pemetaan disk: 17 latar + 21 pemeran + 4 avatar, termasuk bingkai `-open` |
+| `MEDIA-MAP-STORY.md` | aset yang benar-benar dirujuk mesin cerita per bab (17 latar, 0 hilang) |
+| `MEDIA-MAP-SCREEN.md` | aset yang benar-benar dirender per bab + identitas 21 tokoh di layar |
+| `MIGRATE-SYNTHETIC.txt` | migrasi konservatif diuji dengan backup sintetis (tanpa menyentuh data pengguna) |
+| `screens/` | 21 tangkapan layar alur (desktop + layar kecil), 13 layar panggung per bab, montase 21 tokoh |
+
+Alur yang diuji di browser (bukan hanya API): buat profil → pilih avatar → prolog →
+bantuan bertingkat (petunjuk 1→2→3) → jawaban salah lalu revisi → interaksi NPC →
+buku catatan → Result ("Yang kamu buktikan") → lanjut ke Bab 1 → kembali ke peta →
+reload (langsung ke peta pemain, checkpoint utuh) → lanjutkan cerita → profil kedua
+(draf & bukti terpisah) → kembali ke pemain pertama → layar kecil 390×844
+(tanpa overflow horizontal, laci jurnal 359 px).
+
+## 9. Kekurangan yang diketahui
+
+- **Cakupan bahasa masih A1** (prolog + 12 bab). A2–B2 belum ada di aplikasi baru;
+  materi/sumbernya masih di `legacy/vite-tauri/`, `docs/`, `PRD-*.md`, `GLOSSARY.md`,
+  `all-readings.txt`, `arena-pilot/`.
+- **Suara masih sintetis** (`speechSynthesis` de-DE + WebAudio). 759 rekaman berizin di
+  `legacy/vite-tauri/public/a1-story/audio/` belum dihubungkan; izin distribusi klip
+  barista (M-AILABS via Eva K) perlu diperiksa sebelum rilis publik.
+- **Tidak offline-first**: butuh Node ≥20 + Postgres. Tauri/SQLite offline tetap ada di
+  `legacy/` untuk pengguna desktop Windows.
+- **Font Google** (Fraunces/Nunito/Caveat) dimuat dari jaringan; offline jatuh ke font
+  sistem. Di sandbox pratinjau, `fonts.googleapis.com` diblokir sehingga tangkapan layar
+  memakai font cadangan.
+- **Kedua tokoh tanpa bingkai mulut** (`jonas`, `stefan`) tidak beranimasi bicara karena
+  repo tidak punya `*-open` untuk mereka.
+- **Migrasi lama bersifat konservatif**: SRS, drills, teks bacaan, dan attempts lama tidak
+  dipindahkan (tidak ada pemetaan jujur) — hanya status `lesson_progress`.
+- **Rekaman layar/video belum dibuat**; bukti berupa tangkapan layar + log uji.

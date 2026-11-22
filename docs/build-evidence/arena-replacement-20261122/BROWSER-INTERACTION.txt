@@ -1,0 +1,23 @@
+Entri root: <title>Lernen — Belajar Bahasa Jerman lewat Cerita</title> · layar Title memuat form profil dan 4 avatar
+Avatar dipilih: player-03
+Prolog terbuka langsung setelah profil dibuat (judul bab terlihat: true)
+Interaksi NPC: tokoh tampil di panggung ["/media/actors/tutor.webp:768px","/media/actors/tutor-open.webp:768px"]
+Bantuan bertingkat pada giliran "Ich…": Petunjuk 0/3 → 2 petunjuk tampil ["1 Kamu ingin memberi tahu siapa namamu.","2 Mulai dengan: „Ich heiße …“"]
+Revisi: jawaban salah → umpan balik "Belum pas. Kalimat perkenalan diawali „Ich heiße“ atau „Ich bin“, lalu namamu."
+Jurnal: buku catatan berisi 2 kalimat ["Hallo! Halo! — sapaan santai, cocok kapan saja.","Ich heiße Bukti Browser. Nama saya Bukti Browser. (ich = saya, heiße = bernama)"]
+Prolog tamat di browser: true (37 baris, 5 pilihan, 3 jawaban)
+Layar Result: "Prolog selesai"=true · "Yang kamu buktikan"=true · kalimat Jerman tercatat=true
+Bab 1 terbuka dari Result: true
+Peta perjalanan: "Lanjutkan cerita"=true · hitungan bab=1/13 · "Selesai ✓"=true
+Server sebelum reload: prolog:selesai, bab-01:aktif@bab-01.0.i0 · attempts=3
+Reload: langsung kembali ke peta pemain (bukan form profil baru)=true · nama tetap=true · bab aktif="BAB 1 · APARTEMEN MIA"
+Keluar→lanjut setelah reload: bab 1 dilanjutkan dari checkpoint, latar=["/media/bg/kamar.jpg"]
+Jurnal setelah reload masih berisi 1 kalimat
+Layar Title tanpa profil aktif: "BAHASA JERMAN · A1 Lernen Kamu terbangun di kota asing. Seseorang mengetuk pintu. Satu surat, tiga belas bab, dan setiap bab mengajar dengan cara yang sama. LANJUTKAN PERJALANAN Bukti Browser Lanjut ▸ Hapus + Mulai sebag"
+Profil kedua (Pemain Kedua, avatar player-04) mulai dengan progres=1 & attempts=0; pemain pertama tetap 2 baris progres & 3 attempt
+Beralih kembali ke pemain pertama: nama "Tanda Cangkir"
+Layar kecil (390×844) peta: overflow horizontal=0px · judul="Tanda Cangkir"
+Layar kecil play: overflow X=0px · tokoh termuat=[] · tinggi panggung=640px
+Layar kecil laci jurnal: {"w":359,"vw":390,"overflowX":0}
+Layar kecil peta bab: overflow X=0px
+Masalah konsol/jaringan (selain Google Fonts yang diblokir sandbox): tidak ada
