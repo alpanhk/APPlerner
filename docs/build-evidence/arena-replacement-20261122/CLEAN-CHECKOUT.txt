@@ -1,0 +1,27 @@
+=== Checkout bersih: klon baru dari cabang ini ===
+git clone --branch arena/fc58e5ee-applerner --single-branch <repo> /tmp/clean-check
+HEAD: 0557c9b (setelah commit bukti)
+
+$ npm ci
+added 0 packages / installed from package-lock.json  -> exit 0
+
+$ npm run audit
+13 bab OK, "Semua bab mengikuti Pola Prolog.", simulasi tamat semua bab -> exit 0
+
+$ DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5433/app_db npm run build
+Compiled successfully; Route (app): / , /_not-found , /api/audit , /api/health ,
+/api/profiles , /api/profiles/[id] , /api/profiles/[id]/attempts ,
+/api/profiles/[id]/progress , /pola  -> exit 0
+
+$ DATABASE_URL=... npx next start -p 3002 -H 0.0.0.0
+GET /api/health -> {"ok":true}          (koneksi PostgreSQL terisolasi bekerja)
+GET / -> <title>Lernen — Belajar Bahasa Jerman lewat Cerita</title>
+GET /media/actors/tutor.webp -> 200
+
+=== Browser dari checkout bersih (Chromium headless, 1280x900) ===
+Layar Title memuat form profil (id=nama) dan 4 avatar; buat profil "Checkout Bersih"
+(avatar player-02) -> prolog terbuka langsung ("← Peta / PROLOG").
+Latar panggung termuat: /media/bg/kamar.jpg naturalWidth=1400.
+Overflow horizontal: 0px.
+Galat halaman / berkas media gagal: none.
+Tangkapan layar: screens/21-clean-checkout.jpg
