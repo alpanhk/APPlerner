@@ -5,6 +5,7 @@ import { arenaPortrait, playerIds } from "../portraits";
 
 // ===== Layar judul =====
 export function TitleScreen({
+  checkpoint, profiles, activeId, onSelectProfile,
   hasSave,
   saveName,
   onStart,
@@ -12,7 +13,10 @@ export function TitleScreen({
   onSettings,
   onLibrary,
   onLearning,
+  onPractice,
 }: {
+  checkpoint: {label:string;title:string;scene?:string};
+  profiles: {id:string;name:string;portrait?:string}[]; activeId:string|null; onSelectProfile:(id:string)=>void;
   hasSave: boolean;
   saveName?: string;
   onStart: () => void;
@@ -20,6 +24,7 @@ export function TitleScreen({
   onSettings: () => void;
   onLibrary: () => void;
   onLearning: () => void;
+  onPractice: () => void;
 }) {
   const [loaded, setLoaded] = useState(false);
   const first = useRef<HTMLButtonElement>(null);
@@ -27,7 +32,7 @@ export function TitleScreen({
     first.current?.focus();
   }, []);
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[#1f2740]">
+    <div className="relative h-full w-full overflow-x-hidden overflow-y-auto bg-[#1f2740]">
       <img src={bgSrc("judul")} alt="" onLoad={() => setLoaded(true)} className="absolute inset-0 h-full w-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-b from-[#1b2033]/20 via-transparent to-[#1b2033]/80" />
       {!loaded && (
@@ -35,14 +40,16 @@ export function TitleScreen({
           Memuat ilustrasi…
         </p>
       )}
-      <div className="relative flex h-full flex-col items-center justify-end gap-4 px-6 pb-10 sm:justify-center sm:pb-0">
+      <div className="relative flex min-h-full flex-col items-center justify-end gap-4 px-6 pb-10 pt-6 sm:justify-center sm:pb-6">
         <div className="text-center drop-shadow-[0_2px_8px_rgba(0,0,0,.6)]">
           <p className="text-sm font-semibold uppercase tracking-[.3em] text-[#f7efdd]/90">Visual novel bahasa Jerman</p>
           <h1 className="mt-1 text-6xl font-black tracking-tight text-[#f7efdd] sm:text-7xl">Lernen</h1>
-          <p className="mt-2 text-lg text-[#f7efdd]/95">
-            Prolog: <span className="font-semibold italic">Surat untuk Siapa?</span>
+          <p data-testid="checkpoint-title" className="mx-auto mt-2 max-w-sm break-words rounded bg-[#1b2033]/80 px-3 py-1 text-lg text-[#f7efdd]">
+            {checkpoint.label}: <span className="font-semibold italic">{checkpoint.title}</span>
           </p>
+          {checkpoint.scene && <p data-testid="checkpoint-scene" className="mx-auto mt-1 max-w-sm break-words rounded bg-[#1b2033]/80 px-3 py-1 text-sm text-[#f7efdd]">{checkpoint.scene}</p>}
         </div>
+        {profiles.length > 0 && <label className="rounded bg-[#1b2033]/90 p-2 text-white">Pemain aktif <select aria-label="Pemain aktif" className="ml-2 rounded bg-white p-1 text-[#1f2233]" value={activeId ?? ""} onChange={e=>onSelectProfile(e.target.value)}>{profiles.map((p,i)=><option value={p.id} key={p.id}>{p.name} · profil {i+1}</option>)}</select></label>}
         <nav className="mt-4 flex w-full max-w-sm flex-col gap-2" aria-label="Menu utama">
           {hasSave && (
             <button ref={first} type="button" onClick={onContinue} className="btn-primary w-full justify-center text-lg">
@@ -60,6 +67,7 @@ export function TitleScreen({
               Pengaturan
             </button>
           </div>
+          <button type="button" onClick={onPractice} className="btn-secondary justify-center">Latih keterampilan · Peron berubah</button>
           <button type="button" onClick={onLearning} className="btn-secondary justify-center">Ruang belajar A1–B2</button>
         </nav>
         <p className="mt-2 text-xs text-[#f7efdd]/70">Untuk penutur bahasa Indonesia</p>
@@ -75,12 +83,14 @@ export function CharacterCreator({
   onBack,
   onPractice,
   onHear,
+  onStop,
 }: {
   initial: PlayerProfile;
   onDone: (p: PlayerProfile) => void;
   onBack: () => void;
   onPractice: () => void;
   onHear: (portrait: string) => void;
+  onStop: () => void;
 }) {
   const [p, setP] = useState<PlayerProfile>({ ...initial, portrait: initial.portrait ?? playerIds[0] });
   const nameRef = useRef<HTMLInputElement>(null);
@@ -125,7 +135,7 @@ export function CharacterCreator({
             submit();
           }}
         >
-          <h2 className="text-2xl font-black text-[#2c3e6b]">Siapa kamu di kota ini?</h2>
+          <h2 className="text-2xl font-black text-[#2c3e6b]">Profil baru · Siapa kamu di kota ini?</h2>
           <label className="block">
             <span className="text-sm font-semibold text-[#4b4238]">Nama panggilan</span>
             <input
@@ -154,7 +164,7 @@ export function CharacterCreator({
             <div className="grid grid-cols-4 gap-2">
               {playerIds.map((id, index) => <label key={id} className="rounded-lg border border-[#2c3e6b]/40 p-2 text-center">
                 <img src={arenaPortrait(id)} alt="" className="mx-auto h-20 object-contain" />
-                <input type="radio" name="portrait" checked={p.portrait === id} onChange={() => setP({ ...p, portrait: id })} />
+                <input type="radio" name="portrait" checked={p.portrait === id} onChange={() => { onStop(); setP({ ...p, portrait: id }); }} />
                 <span className="ml-1">{index + 1}</span>
               </label>)}
             </div>

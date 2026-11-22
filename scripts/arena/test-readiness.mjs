@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {readiness} from '../../src/arena/engine/readiness.ts';
+const base={kind:'receptive',support:'none',first:true,correct:true,at:Date.UTC(2026,0,1,12),context:'a'};
+const make=(i, extra={})=>({...base,stimulus:`s${i}`,...extra});
+const four=[0,1,2,3].map(i=>make(i));
+assert.equal(readiness([...four,make(3)],'receptive'),false);
+assert.equal(readiness([...four,make(4)],'receptive'),false);
+const varied=[...four,make(4,{context:'b',at:Date.UTC(2026,0,2,12)})];
+assert.equal(readiness(varied,'receptive'),true);
+assert.equal(readiness(varied.map((x,i)=>i===1?{...x,correct:false}:x),'receptive'),true);
+assert.equal(readiness([make(0,{first:false,correct:false}),...varied],'receptive'),true);
+assert.equal(readiness(varied.map((x,i)=>i===4?{...x,support:'transcript'}:x),'receptive'),false);
+const prod=(i,extra={})=>make(i,{kind:'productive',reviewed:true,scores:[2,2,2,2],...extra});
+assert.equal(readiness([prod(1),prod(2,{context:'b',at:Date.UTC(2026,0,2,12)})],'productive'),true);
+assert.equal(readiness([prod(1),prod(2,{context:'b',at:Date.UTC(2026,0,2,12),reviewed:false})],'productive'),false);
+console.log('Regresi kelayakan: 8 pemeriksaan lulus');

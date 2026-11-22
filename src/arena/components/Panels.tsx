@@ -251,7 +251,7 @@ export function Library({ initialTextId, speak, stopSpeech, speakingKey }: { ini
 export function HistoryPanel({ items, playerName, speak, speakingKey }: { items: HistoryItem[]; playerName: string; speak: (text: string, key: string, asset?: string) => void; speakingKey: string | null }) {
   const [openIdx, setOpenIdx] = useState<Set<number>>(new Set());
   const endRef = useRef<HTMLDivElement>(null);
-  useEffect(() => endRef.current?.scrollIntoView({ block: "end" }), []);
+  useEffect(() => { endRef.current?.scrollIntoView({ block: "end" }); }, []);
   if (items.length === 0) return <p>Belum ada percakapan.</p>;
   return (
     <ol className="space-y-2">

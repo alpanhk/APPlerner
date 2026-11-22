@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {assessChapter as a} from '../../src/arena/engine/chapterAnswers.ts';
+assert(a('a1-u1-o2','Mein Name ist Rina. Wie heißen Sie?','Rina').ok);
+assert(a('a1-u1-o2','Ich heiße Rina. Wie heißen Sie?','Rina').ok);
+assert(a('a1-u1-o2','Rina','Rina').partial);
+assert(!a('a1-u1-o2','Ich heiße Mia. Wie heißen Sie?','Rina').ok);
+assert(a('a1-u1-o3','Ich komme aus Leipzig und wohne in Bandung','Rina').reason.includes('tertukar'));
+assert(a('a1-u1-o3','Ich komme aus Stuttgart und wohne in Bonn','Rina',true).ok);
+assert(a('a1-u1-o4','Das ist meine Freundin Mia. Sie ist 22 Jahre alt. Wie alt bist du?','Rina').ok);
+assert(a('a1-u1-o5','der Name, die Frau, das Land, die Namen, die Freunde','Rina').ok);
+assert(!a('a1-u1-o5','der Name, die Frau, das Land, die Namen','Rina').ok);
+assert(a('a1-u1-o2','Mein Name ist Mia. Wie heißen Sie?','Mia').ok);
+assert(!a('a1-u1-o1','Nicht guten Morgen','Mia').ok);
+assert(!a('a1-u1-o3','Ich komme aus Bandung und wohne in Leipzig. Ich komme aus Leipzig','Mia').ok);
+assert(a('a1-u1-o5','der Freund, die Freundin, das Jahr, die Länder, die Jahre','Mia',true).ok);
+console.log('Penilaian Bab 01: 13 kasus lulus');

@@ -4,10 +4,10 @@ import type { Attempt, Flags, ObjectiveId, ResultLevel } from "../types";
 // Bukti kemampuan hanya dari jawaban pemain (tulis/susun), bukan klik "Lanjut".
 // Dua sinyal sengaja dipisah:
 //  - conversationSucceeded: percakapan berjalan; menyebut nama saja diterima wajar.
-//  - objectiveLevel "mandiri": bukti kemampuan, bukan sekadar kelancaran dialog.
-//    Syaratnya: kalimat lengkap (full), tanpa petunjuk (hintsUsed === 0), dan di
-//    konteks penggunaan nyata (bukan latihan bersama tutor). Nama saja atau latihan
-//    tutor tetap "petunjuk" — bukti mandirinya tertunda sampai ada jawaban lengkap.
+//  - objectiveLevel "mandiri": kandidat mandiri awal hanya bila bukti lengkap,
+//    tanpa bantuan, dengan identitas stimulus dan bukan latihan tutor. Bukti lama
+//    tanpa provenance tetap tercatat sebagai latihan, bukan bukti mandiri.
+//    Ini belum menggantikan rubrik karya dan cek tertunda untuk layak lanjut.
 
 export function conversationSucceeded(attempts: Attempt[], id: ObjectiveId): boolean {
   return attempts.some((a) => a.objective === id && a.text.trim().length > 0);
@@ -16,7 +16,7 @@ export function conversationSucceeded(attempts: Attempt[], id: ObjectiveId): boo
 export function objectiveLevel(attempts: Attempt[], id: ObjectiveId): ResultLevel {
   const rel = attempts.filter((a) => a.objective === id);
   if (rel.length === 0) return "belum";
-  if (rel.some((a) => a.full && a.hintsUsed === 0 && a.where !== "tutor")) return "mandiri";
+  if (rel.some((a) => a.full && a.hintsUsed === 0 && a.where !== "tutor" && a.support === "none" && !!a.stimulusId && a.reviewStatus !== "pending-review")) return "mandiri";
   return "petunjuk";
 }
 
@@ -26,8 +26,8 @@ export function demonstratedFullSentence(attempts: Attempt[], id: ObjectiveId): 
 
 export const LEVEL_LABEL: Record<ResultLevel, string> = {
   belum: "Belum dicoba",
-  petunjuk: "Berhasil dengan petunjuk",
-  mandiri: "Berhasil mandiri",
+  petunjuk: "Latihan tercatat · bukti mandiri belum cukup",
+  mandiri: "Mandiri awal · perlu cek tertunda",
 };
 
 const WHERE_LABEL: Record<string, string> = {
@@ -77,10 +77,10 @@ export function buildSummary(attempts: Attempt[], flags: Flags, name: string): {
     next = "Mulai dengan berlatih „Ich heiße …“ bersama tutor, lalu jawab pertanyaan Mia di pintu dengan namamu sendiri.";
   } else if (!demonstratedFullSentence(attempts, "introduce")) {
     next = "Berikutnya, ulangi perkenalan dengan kalimat lengkap „Ich heiße …“ — nama saja sudah dipahami, tetapi kalimat utuh membuatmu lebih siap saat ditanya orang asing.";
-  } else if (greets.length === 0) {
-    next = "Berikutnya, coba sapa tetangga di jalan dengan „Guten Morgen!“ sebelum lanjut ke asal-usul (Pelajaran 2).";
   } else if (objectiveLevel(attempts, "introduce") === "petunjuk") {
-    next = "Berikutnya, ulangi perkenalan dengan petugas pos tanpa membuka petunjuk, lalu lanjut ke „Ich komme aus …“.";
+    next = "Nama sudah dipahami. Coba perkenalkan diri dengan kalimat lengkap dalam situasi baru tanpa contoh, lalu cek lagi pada hari lain.";
+  } else if (greets.length === 0) {
+    next = "Berikutnya, coba sapa tetangga di jalan dengan „Guten Morgen!“.";
   }
   return { lines, next };
 }

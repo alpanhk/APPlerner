@@ -1,0 +1,1649 @@
+{
+  "baseCommit": "96806ba571769fc9733f696227de8262dbf46a7f",
+  "assets": [
+    {
+      "id": "player-01/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-01/neutral.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-01/neutral.webp",
+      "characterId": "player-01",
+      "frameId": "neutral",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "65598d1ecb9fa363163d881c1bd10d82f81e3ddae2578892d84fdee381225e55"
+    },
+    {
+      "id": "player-01/speak-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-01/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-01/speak-small.webp",
+      "characterId": "player-01",
+      "frameId": "speak-small",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "34a2b3de3ff7dc1a7a55ec6a8b8efcac5cfdd1787fe20e0428676ea4c23400ef"
+    },
+    {
+      "id": "player-01/speak-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-01/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-01/speak-open.webp",
+      "characterId": "player-01",
+      "frameId": "speak-open",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "34320c379c03c3f2b771e33ee25eea29c937cad0b62e7a09d7ebbbef764c1cd4"
+    },
+    {
+      "id": "player-01/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-01/smile.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-01/smile.webp",
+      "characterId": "player-01",
+      "frameId": "smile",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "dbdf9a0fca4a3148d4bace40b5058c139b3b0bcb88dae526c29f7b18acad502b"
+    },
+    {
+      "id": "player-01/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-01/question.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-01/question.webp",
+      "characterId": "player-01",
+      "frameId": "question",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "8102593160b1b177237b191c3eee7838eec31f9e4117f44eeb91f0cec2c9ec8a"
+    },
+    {
+      "id": "player-02/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-02/neutral.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-02/neutral.webp",
+      "characterId": "player-02",
+      "frameId": "neutral",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "9066036d9327798bf1d37d25dfe1bf04562e8c100f2aabd8a6d47b63e1095a8c"
+    },
+    {
+      "id": "player-02/speak-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-02/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-02/speak-small.webp",
+      "characterId": "player-02",
+      "frameId": "speak-small",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "9a198f0210fcafda61fecafaf259b527e62597d5a10d3bc709f0a0a19812c528"
+    },
+    {
+      "id": "player-02/speak-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-02/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-02/speak-open.webp",
+      "characterId": "player-02",
+      "frameId": "speak-open",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "56a784f7b08b828cf681052334c0932da406752058fce69e7132d31ee002c8f6"
+    },
+    {
+      "id": "player-02/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-02/smile.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-02/smile.webp",
+      "characterId": "player-02",
+      "frameId": "smile",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "d810c0838ec83888e160363edf93ddd30fe0d1579ae18ed9ae8bd527468ca506"
+    },
+    {
+      "id": "player-02/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-02/question.webp",
+      "source": "pemeran-visual-novel-a1/players-a/player-02/question.webp",
+      "characterId": "player-02",
+      "frameId": "question",
+      "pivot": {
+        "x": 384,
+        "y": 1152
+      },
+      "sha256": "e155203bfd72bee8bdba5226053c1742eb3784c7abcf4452f3125a165d40dc2f"
+    },
+    {
+      "id": "player-03/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-03/neutral.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-03/neutral.webp",
+      "characterId": "player-03",
+      "frameId": "neutral",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "726c42e266dbd76e529209683802139e371bd5b7ba3c1d3f110209bba2423608"
+    },
+    {
+      "id": "player-03/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-03/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-03/talk-small.webp",
+      "characterId": "player-03",
+      "frameId": "talk-small",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "c97fc4b3f5b337272d3ece4af5dac9c5ebfa51635c8f8f510470b3e56202e914"
+    },
+    {
+      "id": "player-03/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-03/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-03/talk-open.webp",
+      "characterId": "player-03",
+      "frameId": "talk-open",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "3695c444bbf2e4fe3fb83e40dad1521256472e863a788340c37dcbf5f956ad7f"
+    },
+    {
+      "id": "player-03/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-03/smile.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-03/smile.webp",
+      "characterId": "player-03",
+      "frameId": "smile",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "b1e9d9f24608de1ae144568d8e0ca479471faed52c13ed0baddf2e94627b14b5"
+    },
+    {
+      "id": "player-03/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-03/question.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-03/question.webp",
+      "characterId": "player-03",
+      "frameId": "question",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "39316ee2b8e74ec5a3cf38f91e6c2a0fb3d03c01f35c6d3edf0beb20eaea925d"
+    },
+    {
+      "id": "player-04/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-04/neutral.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-04/neutral.webp",
+      "characterId": "player-04",
+      "frameId": "neutral",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "aa8eebfa68abf3317925b97b04cf2f12e6e35dc6d07f280733627bcb1b1b7d12"
+    },
+    {
+      "id": "player-04/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-04/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-04/talk-small.webp",
+      "characterId": "player-04",
+      "frameId": "talk-small",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "2f33fcb0f43291e3e415ff488ca0945857cbfd37ea4d812cf36002c92eb178e9"
+    },
+    {
+      "id": "player-04/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-04/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-04/talk-open.webp",
+      "characterId": "player-04",
+      "frameId": "talk-open",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "62724be8d74ccbc6ba05d1627391bca200a590963768f1ab9c3add96805ca476"
+    },
+    {
+      "id": "player-04/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-04/smile.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-04/smile.webp",
+      "characterId": "player-04",
+      "frameId": "smile",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "febebfc4b5a8972324ba06929daba4a7e58c6c716a4040e9529584fe6499d23d"
+    },
+    {
+      "id": "player-04/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/player-04/question.webp",
+      "source": "pemeran-visual-novel-a1/players-b/player-04/question.webp",
+      "characterId": "player-04",
+      "frameId": "question",
+      "pivot": {
+        "x": 384,
+        "y": 1140,
+        "unit": "px",
+        "origin": "top-left"
+      },
+      "sha256": "3effcab71b16a399126600b241b6e0dad22a11ed79ef03a3fe197f71f62136ba"
+    },
+    {
+      "id": "tutor/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tutor/neutral.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tutor/neutral.webp",
+      "characterId": "tutor",
+      "frameId": "neutral",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "54a59885710bc363782362c8cca1004514f28ae80a32e6bd4a08f0c37bc6fce4"
+    },
+    {
+      "id": "tutor/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tutor/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tutor/talk-small.webp",
+      "characterId": "tutor",
+      "frameId": "talk-small",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "3ef4cb6743b2c0f866ed987d5265e8a9476654aa9f9db70d6f5029c136866e05"
+    },
+    {
+      "id": "tutor/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tutor/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tutor/talk-open.webp",
+      "characterId": "tutor",
+      "frameId": "talk-open",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "a2250c63effaee335240fa0520b9184eb9bbeac5732201ebec4d018b893cef91"
+    },
+    {
+      "id": "tutor/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tutor/smile.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tutor/smile.webp",
+      "characterId": "tutor",
+      "frameId": "smile",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "a450b6f2cae8afda8daf0a430cc2a1baa1bc3b444cd73fc428d161d97bb81baf"
+    },
+    {
+      "id": "tutor/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tutor/question.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tutor/question.webp",
+      "characterId": "tutor",
+      "frameId": "question",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "35685223b5520906188f77a29f494261c545e4c83605463345adc34823358fdb"
+    },
+    {
+      "id": "mia/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/mia/neutral.webp",
+      "source": "pemeran-visual-novel-a1/npcs/mia/neutral.webp",
+      "characterId": "mia",
+      "frameId": "neutral",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "f763f3b02dac428a241df5a063761b4cd18bc3b1a22effb8ba726c83aeb7a8be"
+    },
+    {
+      "id": "mia/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/mia/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/npcs/mia/talk-small.webp",
+      "characterId": "mia",
+      "frameId": "talk-small",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "5886d1e76fe941cfb47be874faab84656c5fa774ab1ae1e691b8beb2a716da5f"
+    },
+    {
+      "id": "mia/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/mia/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/npcs/mia/talk-open.webp",
+      "characterId": "mia",
+      "frameId": "talk-open",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "a242e015c0e1dd72298c3ce82acd53fe69e1dcbc47ca4280389b11a4e0c30a60"
+    },
+    {
+      "id": "mia/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/mia/smile.webp",
+      "source": "pemeran-visual-novel-a1/npcs/mia/smile.webp",
+      "characterId": "mia",
+      "frameId": "smile",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "017920eb8c03830b8892da61af6e32904e4efb8fcb59d447073bbaa9527756b4"
+    },
+    {
+      "id": "mia/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/mia/question.webp",
+      "source": "pemeran-visual-novel-a1/npcs/mia/question.webp",
+      "characterId": "mia",
+      "frameId": "question",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "ec557e8483d373907a0f3fdf5a2d4916165e4d9d6c5f8788757c528873e40ee1"
+    },
+    {
+      "id": "pos/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/pos/neutral.webp",
+      "source": "pemeran-visual-novel-a1/npcs/pos/neutral.webp",
+      "characterId": "pos",
+      "frameId": "neutral",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "44d956d5b4b3cf6cb83aac0fe9f222ade432f67dd7f68e757e333990fb836070"
+    },
+    {
+      "id": "pos/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/pos/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/npcs/pos/talk-small.webp",
+      "characterId": "pos",
+      "frameId": "talk-small",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "5d3ea343ab117563444bde0710bc9969738cb3b0a12b148275bc1ad35bfd5558"
+    },
+    {
+      "id": "pos/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/pos/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/npcs/pos/talk-open.webp",
+      "characterId": "pos",
+      "frameId": "talk-open",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "659ef62ca999e7a5587be3fa4d9250ebc0a696e039e15d8a5acbb5bef8a4d164"
+    },
+    {
+      "id": "pos/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/pos/smile.webp",
+      "source": "pemeran-visual-novel-a1/npcs/pos/smile.webp",
+      "characterId": "pos",
+      "frameId": "smile",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "816bb588c7aebd423ac44f94f4539eeb2f99f6a1e8515b3a66201557f6ed0831"
+    },
+    {
+      "id": "pos/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/pos/question.webp",
+      "source": "pemeran-visual-novel-a1/npcs/pos/question.webp",
+      "characterId": "pos",
+      "frameId": "question",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "b9e47e8379aad9e4ac5f70edaebb1325764956ea025d18e67e38e2c2e5b0d3d0"
+    },
+    {
+      "id": "tetangga/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tetangga/neutral.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tetangga/neutral.webp",
+      "characterId": "tetangga",
+      "frameId": "neutral",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "4890d7a788c6a171211c541eecc536d54f0ed4acede52fb302ef22e8ac19cdc1"
+    },
+    {
+      "id": "tetangga/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tetangga/speakSmall.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tetangga/talk-small.webp",
+      "characterId": "tetangga",
+      "frameId": "talk-small",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "5927bb1ac93f732ca421bf6aab5d1f546eafcb089862d8c3a1a994a720ca0847"
+    },
+    {
+      "id": "tetangga/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tetangga/speakOpen.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tetangga/talk-open.webp",
+      "characterId": "tetangga",
+      "frameId": "talk-open",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "9709300eb670a1ac6e5eeb42edc1e48890d334e83368a593e92a8b8a51df4dc1"
+    },
+    {
+      "id": "tetangga/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tetangga/smile.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tetangga/smile.webp",
+      "characterId": "tetangga",
+      "frameId": "smile",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "9194450ebccfbc0956d6e5bd093612a8e820fd2ca1097f8b0c9d6cd254fb5839"
+    },
+    {
+      "id": "tetangga/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/tetangga/question.webp",
+      "source": "pemeran-visual-novel-a1/npcs/tetangga/question.webp",
+      "characterId": "tetangga",
+      "frameId": "question",
+      "pivot": [
+        384,
+        1064
+      ],
+      "sha256": "38bc5a8561f93130054ce482003fd4623a09c2cf99d006c89651eee9854687f7"
+    },
+    {
+      "id": "envelope",
+      "category": "prop",
+      "path": "arena-pilot/media/envelope.webp",
+      "source": "pemeran-visual-novel-a1/npcs/props/envelope.webp",
+      "sha256": "18fcca6d5b1c11c34a5d2c9ad97e04545e321a458af63e453d9f3b32fda9b8df"
+    },
+    {
+      "id": "tutor/a_tutor1-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/a_tutor1-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/a_tutor1-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Aku Frau Lehmann.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "d7076ace727f4c34aa65daba48e93dca396f598c8696c66d85160bdb5aa74c75"
+    },
+    {
+      "id": "tutor/a_tutor1-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/a_tutor1-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/a_tutor1-s03.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Mulai hari ini kamu tinggal di kota ini.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "1d896bbdb983f805d898b7649d9ed10753b4c98495d939ae6d0989ed75330b19"
+    },
+    {
+      "id": "tutor/a_tutor2-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/a_tutor2-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/a_tutor2-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Misimu sederhana tapi panjang: belajar bahasa Jerman supaya kamu bisa mengenal orang-orang di sini dan hidup mandiri.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "16921b47dbdce658340838e7ffcb35fffcfa6e1cc8e24c6f67b0576a2219d4e5"
+    },
+    {
+      "id": "tutor/a_tutor3-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/a_tutor3-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/a_tutor3-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Kita mulai dari yang paling dekat: orang yang tinggal di sebelahmu.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "7282ebfcd964b0aae6708048e362825b7afc0f301c69b0be77f9350e2fc04172"
+    },
+    {
+      "id": "tutor/b_intro-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_intro-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_intro-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Ada yang mengetuk.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "5853b7d1fbad3a2b912f74ffa7351560ab1e3a66143f10c908a6d7a664f21f70"
+    },
+    {
+      "id": "tutor/b_intro-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_intro-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_intro-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Mari belajar menyapa supaya kamu sendiri bisa membuka pintu.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "1f49c3c0a264b21d25c883106c7eb299ab00a9fca3a999ce946368b7ca1d8d5b"
+    },
+    {
+      "id": "tutor/b_hallo-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_hallo-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_hallo-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "7ac6d85fb2ec2bf4aeb64489e60f469fc41930430990ced4884be7ceaad51604"
+    },
+    {
+      "id": "tutor/b_contoh1-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_contoh1-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_contoh1-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Hallo, ich heiße Budi.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "65b980446e2554b26d7cac167ef7e538600b188fa1d1271d0bbddef63dbe85c1"
+    },
+    {
+      "id": "tutor/b_contoh2-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_contoh2-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_contoh2-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Ich heiße Alex.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "7ea9c65e954d4e7985d57f7c244371b7250b26dc5e049dfdb6e4586827a7c158"
+    },
+    {
+      "id": "tutor/b_tip-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_tip-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_tip-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Sekarang giliranmu mencoba.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "05b0a1d6219f6202ab04bac93a7c7e458d5e9e63a23b324d29129f03de17be66"
+    },
+    {
+      "id": "tutor/b_tip-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_tip-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_tip-s03.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Ketik atau susun kalimatnya.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "77764e45d51dabc59cd4ba4ac17311ab0b30710c1a3e88b415ca5ee4192ed310"
+    },
+    {
+      "id": "tutor/b_wrongname-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_wrongname-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_wrongname-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Susunannya sudah benar!",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "1f9c325893865f75a1f6d99ba5a63b2eefa8257f80269bd8473054990593864e"
+    },
+    {
+      "id": "tutor/b_wrongname-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_wrongname-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_wrongname-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Tapi nama itu bukan namamu.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "928df6a8cba159875bd2ea4e0dce322b79160e7783df12a381a4127961454a9e"
+    },
+    {
+      "id": "tutor/b_nameonly-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_nameonly-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_nameonly-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Namamu sudah terdengar.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "92ee4ea2b87914804344f8dcdfbf6bcdc9ab76f50863364a5d586baa130f3ee9"
+    },
+    {
+      "id": "tutor/b_greetonly-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_greetonly-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_greetonly-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Sapaanmu bagus.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "a782e75aaad27f8c6de3222bbde394d052ce920e30b4198e62756eba631df4d0"
+    },
+    {
+      "id": "tutor/b_ok-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_ok-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_ok-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Tepat sekali.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b8ec531efde4f0e5e88bcaa0782f0269fba15359bed217f9594debd05867cb12"
+    },
+    {
+      "id": "tutor/b_ok-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/b_ok-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/b_ok-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Kalau nanti ditanya „Und du?“ artinya „Dan kamu?“ — itu saatnya kamu menyebut nama.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "8c46661f9d8591c3390fee54e4b54de4ff0e2cab38f04cd40efee8a1ee4f1cf4"
+    },
+    {
+      "id": "mia/c_mia1-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_mia1-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_mia1-s01.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "6540950689c50ee5a0ae6c4300e48c95867df7999e4a386bc96edd6e71aa0f59"
+    },
+    {
+      "id": "mia/c_mia1-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_mia1-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_mia1-s02.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Ich bin Mia.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "755d4461587c3d89b9047f7894c6f5faaf6a173f3e7231d6f96807a50b225937"
+    },
+    {
+      "id": "mia/c_mia1-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_mia1-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_mia1-s03.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Und du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b3d8e9cb766813a98f0d3f7600e2fc18395304c7ad1d58bd2b1fdbcd7550c935"
+    },
+    {
+      "id": "mia/c_greet-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_greet-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_greet-s01.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "1215fb91a2bcdc041348c74fb8ed6842a20188a832eac37ac4ed57100835b1e1"
+    },
+    {
+      "id": "mia/c_greet-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_greet-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_greet-s02.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Und wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "8274ace5b585bb59804871128fdb657936307968c75012bf3ba757f02c12d179"
+    },
+    {
+      "id": "mia/c_janein-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_janein-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_janein-s01.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Hm?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "e72c22dd0f7130ed3ebae0af615e75ac8ca579f3bb974ba6e836c8725a0ba16d"
+    },
+    {
+      "id": "mia/c_janein-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_janein-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_janein-s02.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "a3fe0485a636d80cf6541294067b204ccc2e07eceb713281b9414987c214bf13"
+    },
+    {
+      "id": "mia/c_wrongname-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_wrongname-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_wrongname-s01.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Oh?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "528575acbb71c2feae56016147e1e0039d85cd7cb9c80dac05ce84684cb0e3d0"
+    },
+    {
+      "id": "mia/c_wrongname-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_wrongname-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_wrongname-s02.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Ich bin Mia.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "02f89d8615c4681d2ad10080afd9828df7b161ea20d0e54903cf8a1b992724a0"
+    },
+    {
+      "id": "mia/c_wrongname-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_wrongname-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_wrongname-s03.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Und wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "2f7e7bbbf51037d574969c6a10897958e249388a766ae7fce7049e6eda8dfc52"
+    },
+    {
+      "id": "mia/c_bye-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_bye-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_bye-s01.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Ich wohne nebenan.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "22a8be4e624337c0d3de893565b4c2e477664210182a5ee87e54fc43e48da821"
+    },
+    {
+      "id": "mia/c_bye-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/mia/c_bye-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/mia/c_bye-s02.mp3",
+      "characterId": "mia",
+      "voiceId": "supertonic3-F2",
+      "transcript": "Bis später!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "9b1a197b2ec04cbe7d24c3a4287634c9a334a51c9435b6a0175c44133a78aac1"
+    },
+    {
+      "id": "tutor/c_tutor-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/c_tutor-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/c_tutor-s01.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Kamu baru saja berkenalan dengan tetangga.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "5d187cc5393887bd334869c6a3b464e2052dd9fdb9905052782a3631ecdc8bfe"
+    },
+    {
+      "id": "tutor/c_tutor-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tutor/c_tutor-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tutor/c_tutor-s02.mp3",
+      "characterId": "tutor",
+      "voiceId": "supertonic3-F4",
+      "transcript": "Udara pagi di luar segar — ayo lihat jalan di depan rumah.",
+      "language": "id",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b9ce959fd892e0fb3616df79f2820881f6f67aafd567cf7a07d1d42b55e678dd"
+    },
+    {
+      "id": "tetangga/d_nb1-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tetangga/d_nb1-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tetangga/d_nb1-s01.mp3",
+      "characterId": "tetangga",
+      "voiceId": "supertonic3-M4",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "6b6c9466ed526e58bed3cdba0f5f4228799d7b4b8047f8bc284da7eea30c268a"
+    },
+    {
+      "id": "tetangga/d_nb_hm-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tetangga/d_nb_hm-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tetangga/d_nb_hm-s01.mp3",
+      "characterId": "tetangga",
+      "voiceId": "supertonic3-M4",
+      "transcript": "Wie bitte?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b54456afb0bb9531a6674c5eadeb5a5b270f62b42855b4551486e0fa46fdc7b3"
+    },
+    {
+      "id": "tetangga/d_nb_hm-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tetangga/d_nb_hm-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tetangga/d_nb_hm-s02.mp3",
+      "characterId": "tetangga",
+      "voiceId": "supertonic3-M4",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "99236238db45bb6d5147764fc7f07793da61af6e309355101f06b645d409392c"
+    },
+    {
+      "id": "tetangga/d_nb_ok-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/tetangga/d_nb_ok-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/tetangga/d_nb_ok-s01.mp3",
+      "characterId": "tetangga",
+      "voiceId": "supertonic3-M4",
+      "transcript": "Schönen Tag noch!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "4564222fecbd3345ce23bc39dd4aaeec31c326e6209880ad824f0ec91b120b12"
+    },
+    {
+      "id": "pos/d_post_q-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_q-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_q-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "2ee060ddd8206e6a0b73e73f027587359c808ac7993cf8244b36b2ebafe029b6"
+    },
+    {
+      "id": "pos/d_post_q-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_q-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_q-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Bist du Mia?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "107f8456386d87a95139a06a681f53bc7b661e58870dc160f8e54b59fa3bf1e6"
+    },
+    {
+      "id": "pos/d_post_greet-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_greet-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_greet-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "020dd116d2fbc556e75b4e6f377bbdc6586ef8ed1020324ca02e3a3fed19356f"
+    },
+    {
+      "id": "pos/d_post_greet-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_greet-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_greet-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Also — bist du Mia?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "210cf1b99fe1939f98a454e9dff3b23f11e03acae53d0e88dd05c4859d93119e"
+    },
+    {
+      "id": "pos/d_post_nein-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_nein-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_nein-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hm.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "79100787eb813aa1f9325ffb04d3608b22206b06cff3383e891707a9b40456a0"
+    },
+    {
+      "id": "pos/d_post_nein-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_nein-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_nein-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "9a083733054d31969bd199dc843f5b95310f551adc495ba9c86571f5900ee4df"
+    },
+    {
+      "id": "pos/d_post_ja-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_ja-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_ja-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Mia?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b2e6698f7124d40fae20a909775f394b1aa8d77fde3580e72a7ced42df27ce2c"
+    },
+    {
+      "id": "pos/d_post_ja-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_ja-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_ja-s03.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "723cfa14086a004f2964d6e37f4ca7b548c8edb935e71f09bf1a0057ecbd924a"
+    },
+    {
+      "id": "pos/d_post_ja_mia-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_ja_mia-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_ja_mia-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Mia?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "9d23c937a54e4f8574fa3532d4db891c8f47aaa7a839d0f965346e73d1489798"
+    },
+    {
+      "id": "pos/d_post_ja_mia-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_ja_mia-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_ja_mia-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hier steht „Für die neue Nachbarin“.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "0db09a437d393d1c1bf604ba7ebdd7f1794b5211616464ba26c059d7a8973b37"
+    },
+    {
+      "id": "pos/d_post_ja_mia-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_ja_mia-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_ja_mia-s03.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "9b44e9063688df6b0dd8eba1d82cddb75d97f80eb654530cd5588a751d1b8d50"
+    },
+    {
+      "id": "pos/d_post_other-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_other-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_other-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hm, so heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "3ef325472be17ce0c565199e3fb09a15f394eb9cba60c0a3cb2b50ecd145b9f5"
+    },
+    {
+      "id": "pos/d_post_again-s01",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_again-s01.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_again-s01.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Okay… aber wie heißt du?",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "6d7c94584d2c38cff7752ffe7ad3efc0e612a1cd8a74bdea6b5cacdf89262959"
+    },
+    {
+      "id": "pos/d_post_give-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_give-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_give-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Hier, für dich.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "172a265e2895f9e10968d89b2de00ad69be7a21b66a54c7ca64f6cba6be359c0"
+    },
+    {
+      "id": "pos/d_post_already-s02",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_already-s02.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_already-s02.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Den Brief hast du ja schon.",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "503ea4802b6ed26bacf82f5b58c5f387c229b16a5485e9722c6765eddd41b204"
+    },
+    {
+      "id": "pos/d_post_already-s03",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/prolog/pos/d_post_already-s03.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/pos/d_post_already-s03.mp3",
+      "characterId": "pos",
+      "voiceId": "supertonic3-M2",
+      "transcript": "Schönen Tag!",
+      "language": "de",
+      "nodes": null,
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "a08c5b899d80e56ce3e275c21cd0c9917279d4c1164bcaac076993e87a64b73c"
+    },
+    {
+      "id": "player-01/respons-hallo",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-01/respons-hallo.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-01/respons-hallo.mp3",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b67d0c360dd508436d9d329b3627dbe584696443e86ed2b11b60a3c493a697fe"
+    },
+    {
+      "id": "player-01/respons-guten-morgen",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-01/respons-guten-morgen.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-01/respons-guten-morgen.mp3",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "2e6005ab36549780f4af4e0536912554874399221126f3d61d78f3979ba35a4e"
+    },
+    {
+      "id": "player-01/respons-ja",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-01/respons-ja.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-01/respons-ja.mp3",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "transcript": "Ja",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "dde953812ba212aebe024826a778bc4bed6add3b8f8b7fe91aa3dc5645b71d78"
+    },
+    {
+      "id": "player-01/respons-nein",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-01/respons-nein.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-01/respons-nein.mp3",
+      "characterId": "player-01",
+      "voiceId": "supertonic3-F1",
+      "transcript": "Nein",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "e07e11c284185642987776efd1d9edafe21ea4d2c998782f10e090038d38519a"
+    },
+    {
+      "id": "player-02/respons-hallo",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-02/respons-hallo.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-02/respons-hallo.mp3",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "2ea97f0b3e6fa5693f6efd24c337f7e1e396b405a28c104f401059d5415b8a69"
+    },
+    {
+      "id": "player-02/respons-guten-morgen",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-02/respons-guten-morgen.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-02/respons-guten-morgen.mp3",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "c45e4944a8d2142efec723aa49aa61054790bb8fde0457dfa8e5d552f042e9dc"
+    },
+    {
+      "id": "player-02/respons-ja",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-02/respons-ja.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-02/respons-ja.mp3",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "transcript": "Ja",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "5864fd5cb9e6d9e388f5ca9a625b6916244babcbd56552e2aef803db3f620b59"
+    },
+    {
+      "id": "player-02/respons-nein",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-02/respons-nein.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-02/respons-nein.mp3",
+      "characterId": "player-02",
+      "voiceId": "supertonic3-M1",
+      "transcript": "Nein",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "8c0ee289fc6e7213d73b2b4e805244a831175b23874d4c28a1f553a793fed5f9"
+    },
+    {
+      "id": "player-03/respons-hallo",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-03/respons-hallo.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-03/respons-hallo.mp3",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "f701eb2aa0f582f6f9badbeedf84c4da168a538f875571359c444bc826e8e514"
+    },
+    {
+      "id": "player-03/respons-guten-morgen",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-03/respons-guten-morgen.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-03/respons-guten-morgen.mp3",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "5494442322211b2e314295a52339eacc0f8ce19c87e50239d3f519ec6e47b110"
+    },
+    {
+      "id": "player-03/respons-ja",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-03/respons-ja.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-03/respons-ja.mp3",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "transcript": "Ja",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "543f9ff105676fde016c34a6f0052917c400483f2b9b48618f8a00ebca76ce99"
+    },
+    {
+      "id": "player-03/respons-nein",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-03/respons-nein.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-03/respons-nein.mp3",
+      "characterId": "player-03",
+      "voiceId": "supertonic3-F3",
+      "transcript": "Nein",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "5e929dfc7070e75dab3430953bf3e66c1c352034b9994c7248dd7f25bbb48c8d"
+    },
+    {
+      "id": "player-04/respons-hallo",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-04/respons-hallo.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-04/respons-hallo.mp3",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "transcript": "Hallo!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "b5fe6f08f31d27928bfb93701d4e9e3549be7858967b5201b175730de6dc9346"
+    },
+    {
+      "id": "player-04/respons-guten-morgen",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-04/respons-guten-morgen.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-04/respons-guten-morgen.mp3",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "transcript": "Guten Morgen!",
+      "language": "de",
+      "nodes": [
+        "b_practice",
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "1dd8133bdba2c32e584a5796b061f020649506026cb451b4adcea1fdba70c949"
+    },
+    {
+      "id": "player-04/respons-ja",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-04/respons-ja.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-04/respons-ja.mp3",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "transcript": "Ja",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "a97e5ef1f699dd5d4a28db12432f5554b16dffd9913f7fc6eeee65eaee889323"
+    },
+    {
+      "id": "player-04/respons-nein",
+      "category": "speech",
+      "path": "src/klab/novel/assets/voices/avatar/player-04/respons-nein.mp3",
+      "source": "pemeran-visual-novel-a1/voices/runtime/player-04/respons-nein.mp3",
+      "characterId": "player-04",
+      "voiceId": "supertonic3-M3",
+      "transcript": "Nein",
+      "language": "de",
+      "nodes": [
+        "c_answer",
+        "d_nb_answer",
+        "d_post_a1",
+        "d_post_a2"
+      ],
+      "rights": "BigScience OpenRAIL-M; suara sintetis",
+      "sha256": "793b9143e8efca0318afafad9beb53bdb1dc691a870fc0420bcf61eb12b5182f"
+    },
+    {
+      "id": "ambang-rumah",
+      "category": "background",
+      "path": "src/klab/novel/assets/bg-story/ambang-rumah.webp",
+      "source": "aset-chapter-a1/latar/master/ambang-rumah.webp",
+      "sha256": "ba5c1acbe7f1a00575cb064760b9bd5550babdf49ba16855b958592a89445970"
+    },
+    {
+      "id": "ruang-warga",
+      "category": "background",
+      "path": "src/klab/novel/assets/bg-story/ruang-warga.webp",
+      "source": "aset-chapter-a1/latar/master/ruang-warga.webp",
+      "sha256": "248c80bcdeb5f8216cdc840061beb576bb17fc890da56d2d4bd1a8ca7a2ae379"
+    },
+    {
+      "id": "peron",
+      "category": "background",
+      "path": "src/klab/novel/assets/bg-story/peron.webp",
+      "source": "aset-chapter-a1/latar/master/peron.webp",
+      "sha256": "7d6f3d36432c7e1ae31d8bec185e19831b498c42057582b7198f1c2f0251494e"
+    },
+    {
+      "id": "stasiun",
+      "category": "background",
+      "path": "src/klab/novel/assets/bg-story/stasiun.webp",
+      "source": "aset-chapter-a1/latar/master/stasiun.webp",
+      "sha256": "d926fc84c18ae5ec7c0bf8b2fc4d69fe3b119c7e5b404a75c88c231759fec4b1"
+    },
+    {
+      "id": "a1-ch11.s02.a1-u11-o4.transisi-01.petugas-stasiun",
+      "category": "announcement",
+      "path": "src/klab/novel/assets/voices/story/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-transisi-01-petugas-stasiun.mp3",
+      "source": "aset-chapter-a1/audio/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-transisi-01-petugas-stasiun.mp3",
+      "transcript": "Achtung, der Zug fährt heute von Gleis vier ab.",
+      "rights": "BigScience OpenRAIL-M. Output tunduk ketentuan, termasuk identifikasi suara sintetis. Bobot tidak disertakan.",
+      "characterId": "petugas-stasiun",
+      "sha256": "a122e1ea37e0fb6fcd0bb94124354ec08c72f027a772f1fca8fc6e5e3e057c88"
+    },
+    {
+      "id": "a1-ch11.s02.a1-u11-o4.pengumuman-variasi-01.petugas-stasiun",
+      "category": "announcement",
+      "path": "src/klab/novel/assets/voices/story/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-pengumuman-variasi-01-petugas-stasiun.mp3",
+      "source": "aset-chapter-a1/audio/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-pengumuman-variasi-01-petugas-stasiun.mp3",
+      "transcript": "Achtung, der Zug fährt heute von Gleis fünf ab.",
+      "rights": "BigScience OpenRAIL-M. Output tunduk ketentuan, termasuk identifikasi suara sintetis. Bobot tidak disertakan.",
+      "characterId": "petugas-stasiun",
+      "sha256": "ccba5bf06a4ee0e85f59b3d22aec8bd31355d605c85a95589150dd43e4e52f12"
+    },
+    {
+      "id": "a1-ch11.s02.a1-u11-o4.dialog-01.petugas-stasiun",
+      "category": "announcement",
+      "path": "src/klab/novel/assets/voices/story/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-dialog-01-petugas-stasiun.mp3",
+      "source": "aset-chapter-a1/audio/a1-ch11/speech/s02/a1-ch11-s02-a1-u11-o4-dialog-01-petugas-stasiun.mp3",
+      "transcript": "Der Zug hat zehn Minuten Verspätung. Er fährt heute von Gleis vier ab.",
+      "rights": "BigScience OpenRAIL-M. Output tunduk ketentuan, termasuk identifikasi suara sintetis. Bobot tidak disertakan.",
+      "characterId": "petugas-stasiun",
+      "sha256": "16e9a0072ba0f35fa6ef69912bef3a5569c8eff683c418e965dea1ed2553fae3"
+    },
+    {
+      "id": "kalender",
+      "category": "prop",
+      "path": "arena-pilot/media/kalender.webp",
+      "source": "aset-chapter-a1/properti/gambar/kalender.webp",
+      "sha256": "d6a3978805a28aac0e703dc7115b6890bf888c4f525c839daefa55b1c039e3ab"
+    },
+    {
+      "id": "kartu-cangkir",
+      "category": "prop",
+      "path": "arena-pilot/media/kartu-cangkir.webp",
+      "source": "aset-chapter-a1/properti/gambar/kartu-cangkir.webp",
+      "sha256": "950314b017ff25fbce56a442357d3b34cebb3046da32112eac6665e4131fd30a"
+    },
+    {
+      "id": "papan-peron",
+      "category": "prop",
+      "path": "arena-pilot/media/papan-peron.webp",
+      "source": "aset-chapter-a1/properti/gambar/papan-peron.webp",
+      "sha256": "bc79a6acd73202ff10b1d641ef9e9152b91ea866f58e2af8e4033ef429c1dd47"
+    },
+    {
+      "id": "telepon",
+      "category": "prop",
+      "path": "arena-pilot/media/telepon.webp",
+      "source": "aset-chapter-a1/properti/gambar/telepon.webp",
+      "sha256": "3cc6ecf20315f2e761ef5cae54a253a8f905538433e17199a29c20f3857f672b"
+    },
+    {
+      "id": "tiket",
+      "category": "prop",
+      "path": "arena-pilot/media/tiket.webp",
+      "source": "aset-chapter-a1/properti/gambar/tiket.webp",
+      "sha256": "831898d6f010063415d61f049c2dddbd102552e0def040f57001d885cb452639"
+    },
+    {
+      "id": "petugas-stasiun/neutral",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/petugas-stasiun/neutral.webp",
+      "source": "aset-chapter-a1/karakter/petugas-stasiun/neutral.webp",
+      "characterId": "petugas-stasiun",
+      "frameId": "neutral",
+      "sha256": "7b4666802e57f52b2e5b2da70634b6d1834d28aaf5a7e2c20ea8a80fe9e7a662"
+    },
+    {
+      "id": "petugas-stasiun/smile",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/petugas-stasiun/smile.webp",
+      "source": "aset-chapter-a1/karakter/petugas-stasiun/smile.webp",
+      "characterId": "petugas-stasiun",
+      "frameId": "smile",
+      "sha256": "f6626fce3b3048c7919aa7a4d202086fd96188c8135ea3f9d7daa908cbc34fa1"
+    },
+    {
+      "id": "petugas-stasiun/question",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/petugas-stasiun/question.webp",
+      "source": "aset-chapter-a1/karakter/petugas-stasiun/question.webp",
+      "characterId": "petugas-stasiun",
+      "frameId": "question",
+      "sha256": "0dcda40668df9f5f8a2bd4c61521549dd58e6a29ea1b74bc1e4ef8c0d3d5e7f3"
+    },
+    {
+      "id": "petugas-stasiun/talk-small",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/petugas-stasiun/speakSmall.webp",
+      "source": "aset-chapter-a1/karakter/petugas-stasiun/talk-small.webp",
+      "characterId": "petugas-stasiun",
+      "frameId": "talk-small",
+      "sha256": "9a9dbbf47349f8ceeaec41b39b81dd2cbcf208a888dc0b0b9fac122ba7e78974"
+    },
+    {
+      "id": "petugas-stasiun/talk-open",
+      "category": "frame",
+      "path": "src/klab/novel/assets/characters/petugas-stasiun/speakOpen.webp",
+      "source": "aset-chapter-a1/karakter/petugas-stasiun/talk-open.webp",
+      "characterId": "petugas-stasiun",
+      "frameId": "talk-open",
+      "sha256": "bf430abe3eff16355eb948b297079278b4b6cd05534ba26b24a8387ed0551f94"
+    }
+  ]
+}

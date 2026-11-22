@@ -30,5 +30,33 @@
   "tetangga": {
     "neutral": "actors/tetangga/neutral.png",
     "open": "actors/tetangga/talk-open.png"
+  },
+  "penjual-pasar": {
+    "neutral": "actors/penjual-pasar/neutral.png",
+    "open": "actors/penjual-pasar/talk-open.png"
+  },
+  "penjual-mandiri-ch02": {
+    "neutral": "actors/penjual-mandiri-ch02/neutral.png",
+    "open": "actors/penjual-mandiri-ch02/talk-open.png"
+  },
+  "barista": {
+    "neutral": "actors/barista/neutral.png",
+    "open": "actors/barista/speaking.png"
+  },
+  "penjual-pakaian": {
+    "neutral": "actors/penjual-pakaian/neutral.png",
+    "open": "actors/penjual-pakaian/talk-open.png"
+  },
+  "kasir": {
+    "neutral": "actors/kasir/neutral.png",
+    "open": "actors/kasir/talk-open.png"
+  },
+  "tamu-kota": {
+    "neutral": "actors/tamu-kota/neutral.png",
+    "open": "actors/tamu-kota/talk-open.png"
+  },
+  "rekan-panitia": {
+    "neutral": "actors/rekan-panitia/neutral.png",
+    "open": "actors/rekan-panitia/talk-open.png"
   }
 }

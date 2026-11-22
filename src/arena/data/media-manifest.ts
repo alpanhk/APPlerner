@@ -82,7 +82,7 @@ export const MEDIA: Record<string, MediaAsset> = {
       sentence: "Hallo!", speaker: pid,
     } satisfies MediaAsset];
   })),
-  // Latar bab dan adegan dari public/a1-story/latar/master.
+  // Latar bab dan adegan dari public/a1-story/backgrounds (WebP).
   ...Object.fromEntries(Object.entries({
     ch01: "ambang-rumah", ch02: "kios-pasar", ch03: "dapur-warga", ch04: "dapur-warga",
     ch05: "pagar-taman", ch06: "ruang-warga", ch07: "simpang-halte", ch08: "kantor-warga",
@@ -96,7 +96,7 @@ export const MEDIA: Record<string, MediaAsset> = {
     {
       id: `bg:${id}`,
       kind: "background",
-      src: import.meta.env.BASE_URL + "a1-story/latar/master/" + file + ".webp",
+      src: import.meta.env.BASE_URL + "a1-story/backgrounds/" + file + ".webp",
       status: "generated",
       note: `Latar ${id}`,
     } satisfies MediaAsset,

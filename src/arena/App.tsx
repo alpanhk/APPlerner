@@ -1,10 +1,19 @@
+import {ChapterNineIntro} from './components/ChapterNineIntro';
+import {ChapterEightIntro} from './components/ChapterEightIntro';
+import {ChapterSevenIntro} from './components/ChapterSevenIntro';
+import {ChapterSixIntro} from './components/ChapterSixIntro';
+import {ChapterFiveStart} from './components/ChapterFiveStart';
+import {ChapterFourStart} from './components/ChapterFourStart';
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Attempt, CharId, ChoiceOption, InputNode, Progress, Settings } from "./types";
 import { AudioController, type SpeechState } from "./audio/AudioController";
+import { checkpointTitle, continueDestination } from "./storage/storyCheckpoint";
+import { createProfile, initProfiles, profileKey, selectProfile } from "./storage/profiles";
 import { DEFAULT_PLAYER, localStore } from "./storage/progress";
 import { PROLOG_START } from "./data/story/prolog";
 import { detectIntents, fillTemplate, resolveInputHandler } from "./engine/matchers";
 import { INITIAL_STAGE, newGame, nodeOf, transition, type Effect, type Game } from "./engine/story";
+import { StationMission } from "./components/StationMission";
 import { Stage } from "./components/Stage";
 import { AnswerInput, ChoiceList, DialogPanel, NextButton } from "./components/DialogPanel";
 import { CharacterCreator, TitleScreen } from "./components/TitleScreen";
@@ -12,10 +21,13 @@ import { HistoryPanel, Journal, Library, Modal, SettingsPanel } from "./componen
 import { ResultScreen } from "./components/ResultScreen";
 
 import StoryPage, { beginStoryForPlayer } from "../klab/StoryPage";
+import { ChapterThreeStart } from "./components/ChapterThreeStart";
+import { ChapterTwoKiosk } from "./components/ChapterTwoKiosk";
+import { ChapterOne } from "./components/ChapterOne";
 import type { Route } from "../klab/routes";
 import "./arena.css";
 
-type Screen = "title" | "create" | "story" | "chapters";
+type Screen = "title" | "create" | "story" | "chapters" | "chapter-one" | "kiosk" | "chapter-three" | "chapter-four" | "chapter-five" | "chapter-six" | "chapter-seven" | "chapter-eight" | "chapter-nine" | "station";
 type PanelId = null | "journal" | "library" | "history" | "settings";
 
 const PROGRESS_VERSION = 1;
@@ -66,6 +78,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
   const [screen, setScreen] = useState<Screen>("title");
   const [storyChapter, setStoryChapter] = useState<number | undefined>(undefined);
+  const [registry, setRegistry] = useState(() => initProfiles());
   const [saved, setSaved] = useState<Progress | null>(() => localStore.loadProgress());
   const [game, setGame] = useState<Game | null>(null);
   const [panel, setPanel] = useState<PanelId>(null);
@@ -159,7 +172,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   const go = useCallback(
     (targetId: string, extra?: Parameters<typeof transition>[2], base?: Game) => {
       const g = base ?? gameRef.current;
-      if (!g) return;
+      if (!g || g.nodeId === targetId) return;
       const { g: ng, effects } = transition(g, targetId, extra);
       gameRef.current = ng;
       setGame(ng);
@@ -178,6 +191,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     setScreen("create");
   };
   const onCharacterDone = (p: typeof DEFAULT_PLAYER) => {
+    try { setRegistry(createProfile(p.name, p.portrait)); } catch { window.alert("Profil baru tidak dapat disimpan; profil lama tidak diubah."); return; }
     const g = newGame(p, PROLOG_START);
     setScreen("story");
     // masuk ke node awal
@@ -188,10 +202,11 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   };
   const continueSaved = () => {
     if (!saved) return;
-    if (saved.prologCompleted && saved.flags?.letterOpened) {
+    const destination = continueDestination(saved);
+    if (destination !== "story") {
       setGame(fromProgress(saved));
       beginStoryForPlayer(saved.player.portrait, saved.player.name);
-      setScreen("chapters");
+      setScreen(destination);
       return;
     }
     audio.unlock();
@@ -229,6 +244,8 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   // Jika baris saat ini langsung diikuti giliran pemain, tampilkan kolom jawaban tanpa klik "Lanjut" tambahan
   const inputNode: InputNode | null =
     node?.kind === "input" ? node : node?.kind === "line" && nodeOf(node.next).kind === "input" ? (nodeOf(node.next) as InputNode) : null;
+  const draftKey = inputNode ? profileKey(`lernen.prolog.draft.${inputNode.id}`) : null;
+  useEffect(() => { setDraft(draftKey ? localStorage.getItem(draftKey) ?? "" : ""); }, [draftKey]);
   const name = game?.player.name ?? "";
   const lastLine = useMemo(() => {
     if (!game) return null;
@@ -238,7 +255,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
 
   // ----- Jawaban pemain -----
   const submitAnswer = (n: InputNode) => {
-    if (!game) return;
+    if (!game || gameRef.current !== game) return;
     const intents = detectIntents(draft, name);
     if (intents.includes("empty")) {
       setFeedback("Ketik atau susun jawabanmu dulu, lalu tekan Kirim.");
@@ -273,6 +290,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
     });
     // Sapaan yang menyertai jawaban (mis. "Hallo! Ich heiße …") juga menjadi bukti tujuan "menyapa"
     if (intents.includes("greet") && h.record?.objective !== "greet") newAttempts.push({ objective: "greet", where: n.where, text: draft.trim(), hintsUsed, full: true, at: Date.now() });
+    if (draftKey) localStorage.removeItem(draftKey);
     const base: Game = newAttempts.length ? { ...game, attempts: [...game.attempts, ...newAttempts] } : game;
     go(h.next, { setFlags: flags, playerLine: draft.trim() }, base);
   };
@@ -305,9 +323,23 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
   return (
     <div className={`arena-root relative h-dvh w-full overflow-hidden bg-[#1f2740] font-sans ${textSizeClass}`}>
       {screen === "title" && (
-        <TitleScreen hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} />
+        <TitleScreen checkpoint={checkpointTitle(continueDestination(saved))} profiles={registry.profiles} activeId={registry.active} onSelectProfile={(id) => { try { setRegistry(selectProfile(id)); setSaved(localStore.loadProgress()); setGame(null); } catch { window.alert("Profil tidak dapat dibuka; data tidak diubah."); } }} hasSave={!!saved} saveName={saved?.player.name} onStart={startNew} onContinue={continueSaved} onSettings={() => openPanel("settings")} onLibrary={() => openPanel("library")} onLearning={() => { leave(); onDesktop(); }} onPractice={() => { leave(); setScreen("station"); }} />
       )}
-      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => setScreen("title")} onPractice={() => { leave(); setScreen("chapters"); }} onHear={(portrait) => { audio.unlock(); const next = { ...settings, soundOn: true }; audio.updateSettings(next); setSettings(next); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
+      {screen === "create" && <CharacterCreator initial={{ ...DEFAULT_PLAYER, ...(saved?.player ?? {}), name: "" }} onDone={onCharacterDone} onBack={() => { leave(); setScreen("title"); }} onStop={() => audio.stopSpeech()} onPractice={() => { leave(); setScreen("station"); }} onHear={(portrait) => { audio.unlock(); void audio.speak("Hallo!", "avatar-hallo:" + portrait); }} />}
+
+      {screen === "station" && <StationMission soundOn={settings.soundOn} onBack={backToTitle} />}
+
+      {screen === "chapter-one" && game && <ChapterOne player={game.player} soundOn={settings.soundOn} reducedMotion={settings.reducedMotion} onBack={backToTitle} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter02.active"), "1"); setScreen("kiosk"); }} />}
+
+      {screen === "kiosk" && game && <ChapterTwoKiosk player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => { localStorage.removeItem(profileKey("lernen.chapter02.active")); setScreen("chapter-one"); }} onLegacy={() => { setStoryChapter(2); setScreen("chapters"); }} onNext={() => { localStorage.setItem(profileKey("lernen.chapter03.active"), "1"); setScreen("chapter-three"); }} />}
+
+      {screen === "chapter-three" && game && <ChapterThreeStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onJournal={() => {localStorage.removeItem(profileKey("lernen.chapter03.active")); setScreen("kiosk");}} onLegacy={() => {setStoryChapter(3);setScreen("chapters");}} onNextChapter={() => {try{localStorage.setItem(profileKey("lernen.chapter04.active"),"1");setScreen("chapter-four");}catch{window.alert("Progres Bab 04 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-four" && game && <ChapterFourStart player={game.player} reducedMotion={settings.reducedMotion} soundOn={settings.soundOn} dialogVolume={settings.volDialog} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter04.active"));setScreen("chapter-three");}} onNextChapter={() => {try{localStorage.setItem(profileKey("lernen.chapter05.active"),"1");setScreen("chapter-five");}catch{window.alert("Progres Bab 05 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-five" && game && <ChapterFiveStart player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter05.active"));setScreen("chapter-four");}} onNextChapter={() => {try{localStorage.setItem(profileKey("lernen.chapter06.active"),"1");setScreen("chapter-six");}catch{window.alert("Progres Bab 06 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-six" && game && <ChapterSixIntro player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter06.active"));setScreen("chapter-five");}} onNext={() => {try{localStorage.setItem(profileKey("lernen.chapter07.active"),"1");setScreen("chapter-seven");}catch{window.alert("Progres Bab 07 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-seven" && game && <ChapterSevenIntro player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter07.active"));setScreen("chapter-six");}} onNext={() => {try{localStorage.setItem(profileKey("lernen.chapter08.active"),"1");setScreen("chapter-eight");}catch{window.alert("Progres Bab 08 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-eight" && game && <ChapterEightIntro player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter08.active"));setScreen("chapter-seven");}} onNext={() => {try{localStorage.setItem(profileKey("lernen.chapter09.active"),"1");setScreen("chapter-nine");}catch{window.alert("Progres Bab 09 tidak dapat disimpan.");}}} />}
+      {screen === "chapter-nine" && game && <ChapterNineIntro player={game.player} reducedMotion={settings.reducedMotion} onBack={backToTitle} onPrevious={() => {localStorage.removeItem(profileKey("lernen.chapter09.active"));setScreen("chapter-eight");}} />}
 
       {screen === "chapters" && <main className="h-full overflow-y-auto bg-[#1f2740] text-[#f7efdd]">
         <header className="mx-auto flex max-w-4xl flex-wrap gap-2 p-3">
@@ -375,11 +407,14 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                 />
               )}
               {inputNode && (
+                <>
+                {game.stage.chars.some((c) => c.id === "player") && <button type="button" className="btn-ghost mb-2" onClick={() => speakLine("Hallo!", `avatar-${game.nodeId}`, `avatar-hallo:${game.player.portrait ?? "player-01"}`, "player")}>Dengar sapaan tokohmu: Hallo!</button>}
                 <AnswerInput
                   prompt={fillTemplate(inputNode.prompt, name)}
                   value={draft}
                   onChange={(v) => {
                     setDraft(v);
+                    if (draftKey) localStorage.setItem(draftKey, v);
                     if (feedback) setFeedback("");
                   }}
                   onSubmit={() => submitAnswer(inputNode)}
@@ -390,6 +425,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                   feedback={feedback}
                   skip={inputNode.skip ? { label: inputNode.skip.label, onSkip: () => go(inputNode.skip!.next) } : undefined}
                 />
+                </>
               )}
             </DialogPanel>
           )}
@@ -412,7 +448,7 @@ export default function Arena({ onDesktop }: { onDesktop: (route?: Route) => voi
                 setSaved(progress);
                 beginStoryForPlayer(game.player.portrait, game.player.name);
                 leave();
-                setScreen("chapters");
+                setScreen("chapter-one");
               } : undefined}
             />
           )}

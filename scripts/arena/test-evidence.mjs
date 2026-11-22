@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import { objectiveLevel } from '../../src/arena/engine/evaluate.ts';
+import { detectIntents } from '../../src/arena/engine/matchers.ts';
+const a = { objective: 'introduce', where: 'tutor', text: 'Rina', full: false, hintsUsed: 0, at: 1 };
+assert.equal(objectiveLevel([a], 'introduce'), 'petunjuk');
+assert.deepEqual(detectIntents('Rina', 'Rina'), ['name_only']);
+assert.deepEqual(detectIntents('Hallo!', 'Rina'), ['greet']);
+assert.deepEqual(detectIntents('Ich heiße Rina', 'Rina'), ['intro_full']);
+assert.deepEqual(detectIntents('Ich bin Rina', 'Rina'), ['intro_full']);
+assert.equal(objectiveLevel([{...a, where:'mia', full:true}], 'introduce'), 'petunjuk');
+assert.equal(objectiveLevel([{...a, where:'mia', full:true, stimulusId:'new', support:'example'}], 'introduce'), 'petunjuk');
+assert.equal(objectiveLevel([{...a, where:'mia', full:true, stimulusId:'new', support:'none', reviewStatus:'pending-review'}], 'introduce'), 'petunjuk');
+assert.equal(objectiveLevel([{...a, where:'mia', full:true, stimulusId:'new', support:'none'}], 'introduce'), 'mandiri');
+console.log('Regresi intent dan bukti: lulus (9 pemeriksaan)');

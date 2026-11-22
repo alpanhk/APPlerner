@@ -2,6 +2,7 @@
 // Antarmuka ProgressStore memungkinkan penggantian localStorage → SQLite
 // pada aplikasi Windows tanpa mengubah komponen UI.
 
+import { profileKey } from "./profiles";
 import type { Progress, Settings, PlayerProfile } from "../types";
 
 export const PROGRESS_KEY = "lernen.progress.v1";
@@ -45,19 +46,19 @@ function safeParse<T>(raw: string | null): T | null {
 
 export const localStore: ProgressStore = {
   loadProgress() {
-    const p = safeParse<Progress>(localStorage.getItem(PROGRESS_KEY));
+    const p = safeParse<Progress>(localStorage.getItem(profileKey(PROGRESS_KEY)));
     if (!p || p.version !== PROGRESS_VERSION || !p.player?.name) return null;
     return p;
   },
   saveProgress(p: Progress) {
     try {
-      localStorage.setItem(PROGRESS_KEY, JSON.stringify({ ...p, updatedAt: Date.now() }));
+      localStorage.setItem(profileKey(PROGRESS_KEY), JSON.stringify({ ...p, updatedAt: Date.now() }));
     } catch {
       /* penyimpanan penuh / dinonaktifkan: lanjutkan tanpa simpan */
     }
   },
   clearProgress() {
-    localStorage.removeItem(PROGRESS_KEY);
+    localStorage.removeItem(profileKey(PROGRESS_KEY));
   },
   loadSettings() {
     const s = safeParse<Partial<Settings>>(localStorage.getItem(SETTINGS_KEY));
