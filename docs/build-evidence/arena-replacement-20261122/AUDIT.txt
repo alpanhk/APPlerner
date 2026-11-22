@@ -1,0 +1,32 @@
+
+> lernen@1.0.0 audit
+> tsx scripts/audit.ts
+
+OK   prolog   58 node,  5 giliran — Surat untuk Siapa?
+OK   bab-01   55 node,  6 giliran — Tanda Cangkir
+OK   bab-02   59 node,  6 giliran — Jam yang Terlipat
+OK   bab-03   64 node,  6 giliran — Foto Keluarga
+OK   bab-04   60 node,  6 giliran — Meja untuk Tiga
+OK   bab-05   62 node,  7 giliran — Jaket Biru
+OK   bab-06   61 node,  6 giliran — Kunci Lindenstraße
+OK   bab-07   60 node,  6 giliran — Peta Bertanda Silang
+OK   bab-08   58 node,  6 giliran — Hari Pertama
+OK   bab-09   59 node,  6 giliran — Catatan Dokter
+OK   bab-10   58 node,  6 giliran — Sabtu di Kolam
+OK   bab-11   63 node,  7 giliran — Peron Tiga
+OK   bab-12   68 node,  7 giliran — Surat dari Kamu
+SIM  prolog  tamat dalam 36 langkah, 4 bukti tercatat, 2 kalimat di buku catatan
+SIM  bab-01  tamat dalam 43 langkah, 6 bukti tercatat, 5 kalimat di buku catatan
+SIM  bab-02  tamat dalam 42 langkah, 6 bukti tercatat, 5 kalimat di buku catatan
+SIM  bab-03  tamat dalam 45 langkah, 6 bukti tercatat, 7 kalimat di buku catatan
+SIM  bab-04  tamat dalam 43 langkah, 6 bukti tercatat, 7 kalimat di buku catatan
+SIM  bab-05  tamat dalam 44 langkah, 7 bukti tercatat, 6 kalimat di buku catatan
+SIM  bab-06  tamat dalam 45 langkah, 6 bukti tercatat, 6 kalimat di buku catatan
+SIM  bab-07  tamat dalam 43 langkah, 6 bukti tercatat, 6 kalimat di buku catatan
+SIM  bab-08  tamat dalam 43 langkah, 6 bukti tercatat, 6 kalimat di buku catatan
+SIM  bab-09  tamat dalam 44 langkah, 6 bukti tercatat, 7 kalimat di buku catatan
+SIM  bab-10  tamat dalam 43 langkah, 6 bukti tercatat, 7 kalimat di buku catatan
+SIM  bab-11  tamat dalam 44 langkah, 7 bukti tercatat, 6 kalimat di buku catatan
+SIM  bab-12  tamat dalam 49 langkah, 7 bukti tercatat, 6 kalimat di buku catatan
+
+Semua bab mengikuti Pola Prolog.

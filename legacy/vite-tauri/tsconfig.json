@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  /* PAKET V17: jalur aktif adalah src/main.tsx -> src/DesktopEntry.tsx ->
+     src/arena/App.tsx (Arena + StoryPage). src/klab/novel dipertahankan
+     sebagai modul tidur/acuan clone-persis dan tidak ikut typecheck. */
+  "exclude": ["src/klab/novel"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

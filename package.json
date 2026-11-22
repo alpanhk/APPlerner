@@ -1,31 +1,45 @@
 {
-  "name": "lernen-app",
+  "name": "lernen",
   "private": true,
-  "version": "0.1.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Lernen — belajar bahasa Jerman lewat cerita (A1). Next.js + PostgreSQL, penggantian total basis aplikasi dari paket Arena refining-applerner-material-consistency.zip.",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "tauri": "tauri"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "audit": "tsx scripts/audit.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "preview:db": "node scripts/preview-db.mjs",
+    "migrate:legacy": "node scripts/migrate-legacy.mjs"
   },
   "dependencies": {
-    "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-opener": "^2",
-    "@tauri-apps/plugin-sql": "^2.6.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "ts-fsrs": "^5.4.2",
-    "zustand": "^5.1.0"
+    "dotenv": "17.3.1",
+    "drizzle-orm": "0.45.2",
+    "next": "16.4.2",
+    "pg": "8.20.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "4.1.17",
-    "@tauri-apps/cli": "^2",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^6.0.2",
+    "@tailwindcss/postcss": "4.1.17",
+    "@types/node": "22.19.15",
+    "@types/pg": "8.18.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "drizzle-kit": "0.31.10",
+    "embedded-postgres": "^18.7.0-beta.19",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.2",
+    "postcss": "8.5.23",
     "tailwindcss": "4.1.17",
-    "typescript": "~6.0.3",
-    "vite": "^8.0.16"
+    "tsx": "^4.19.2",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

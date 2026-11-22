@@ -1,107 +1,92 @@
-# APPlerner
-Aplikasi Belajar Bahasa German
+# Lernen — belajar bahasa Jerman lewat cerita (A1)
 
-Aplikasi desktop Windows offline-first untuk belajar bahasa Jerman (A1–B2),
-berbasis **Tauri 2 + React + TypeScript + Vite + Tailwind v4** dan SQLite
-(`tauri-plugin-sql`). Dokumen inti ada di **root repo**:
-`PRD-Aplikasi-Belajar-Bahasa-Jerman.md` dan `GLOSSARY.md`. Catatan pengembangan
-lengkap di `docs/README-PROYEK.md` dan arsitektur di `docs/architecture/`.
+Novel visual berbasis Next.js + PostgreSQL. Dibangun ulang dari cabang `arena` repo APPlerner dengan satu tujuan:
+**setiap bab membawakan materi seperti prolog.**
 
-## Prasyarat
+> **Penggantian total basis aplikasi (Arena).** Root repo ini sekarang adalah aplikasi
+> Next.js dari paket `refining-applerner-material-consistency.zip`
+> (SHA-256 `6f18aba7b901e737cc11385148ca0b7cdde1f878061af28abc219577150da1de`,
+> 255804 byte, 50 berkas). Aplikasi Vite/Tauri lama dipindahkan utuh ke
+> `legacy/vite-tauri/` (tidak dihapus; `main` dan PR #4 tetap sebagai riwayat).
+> Detail penggantian, pemetaan media, status Windows/offline, dan cakupan A2–B2 ada di
+> `docs/STATUS-ARENA-REPLACEMENT.md`. Perintah `dev`/`build`/`preview` di root mengarah
+> ke aplikasi Next.js ini — bukan skin baru di Vite.
 
-- Windows 10/11 64-bit, **WebView2 Runtime**, **Microsoft Visual C++ Build Tools**
-  (komponen “Desktop development with C++”).
-- **Node.js `^20.19.0 || >=22.12.0`** (sesuai field `engines` Vite 8) dan **pnpm**
-  (disarankan lewat Corepack: `corepack enable`). Transfer ini diverifikasi dengan
-  Node 26.8.1 + pnpm 11.7.0; seluruh perintah di bawah memakai `pnpm`.
-- **Rust toolchain** stabil via [rustup](https://rustup.rs) (diperlukan hanya untuk
-  build/desktop Tauri, bukan untuk build frontend saja).
+## Menjalankan (preview terisolasi)
 
-## Clone
-
-```powershell
-git clone https://github.com/alpanhk/APPlerner.git
-cd APPlerner
+```bash
+npm install
+npm run preview:db          # Postgres tertanam di port 5433 (terminal 1, biarkan berjalan)
+# terminal 2:
+export DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5433/app_db
+npm run db:push
+npm run dev                 # http://localhost:3000
 ```
 
-Repo ini **privat** — autentikasi HTTPS memakai Git Credential Manager
-(akun `alpanhk`). Jangan menyimpan token di dalam repo.
+Untuk build produksi:
 
-## Install
-
-```powershell
-pnpm install
+```bash
+export DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5433/app_db
+npm run build
+npm run preview             # next start
 ```
 
-## Development
+`DATABASE_URL` dibaca dari environment (lihat `.env.example`). Jangan memasukkan
+rahasia ke Git. Kredensial `postgres:postgres` di atas hanya untuk preview lokal
+terisolasi.
 
-```powershell
-pnpm dev            # Vite dev server (frontend saja, http://localhost:5173)
-pnpm tauri dev      # aplikasi desktop Tauri + hot reload
-```
+## Masalah yang diperbaiki
 
-## Build
+Di versi sebelumnya hanya prolog yang mengajar dengan rapi. Bab 1 dan 2 langsung menguji tanpa mengajar, teks
+Indonesia ditandai sebagai Jerman, beberapa giliran menerima jawaban apa pun, dan ada tautan node yang putus.
+Bab 3–8 ditulis sebagai komponen terpisah dengan alur masing-masing.
 
-```powershell
-pnpm build          # tsc --noEmit types + vite build -> dist/
-pnpm tauri build    # bundel desktop Windows (MSI + NSIS) -> src-tauri/target/release/bundle/
-```
+## Pola Prolog
 
-> `pnpm tauri build` memerlukan WebView2, MSVC Build Tools, dan Rust.
-> Artefak build (`dist/`, `src-tauri/target/`, installer, EXE) sengaja **tidak**
-> dimasukkan ke git; hasilkan dari perintah di atas.
+Prolog mengajar dengan lima langkah. Lima langkah itu kini menjadi cetakan di `src/story/dsl.ts`:
 
-## Struktur sumber
+| # | Langkah | Cetakan | Isi |
+|---|---------|---------|-----|
+| 1 | Tiba | `opening()` | Narasi + benda berbahasa Jerman yang diperiksa pemain |
+| 2 | Belajar | `lesson()` | Frau Lehmann memodelkan, memberi kiat, lalu latihan terbimbing |
+| 3 | Bertemu | `encounter()` | Kalimat yang sama dipakai kepada tokoh; tokoh bereaksi dalam bahasa Jerman |
+| 4 | Menjelajah | `hub()` | Pertemuan pilihan (ulangan bab lama) + misi utama yang berkelok |
+| 5 | Temuan | `payoff()` | Benda cerita yang menarik ke bab berikutnya |
 
-- `src/` — aplikasi React, data JSON, aset UI/audio (`src/assets/`, `src/klab/`).
-- `public/` — aset runtime berlisensi (audio, sampul, latar, ikon).
-- `src-tauri/src/` — kode Rust, migrasi, dan logika SQLite.
-- `src-tauri/capabilities/`, `src-tauri/icons/` — izin Tauri dan ikon aplikasi.
-- `scripts/` — generator konten, aset, dan pengujian (kecuali `scripts/qa/` yang
-  memakai profil/host lokal sengaja tidak diikutsertakan).
-- `docs/` — dokumentasi desain dan arsitektur.
+Penulis materi tidak menulis node. Ia mengisi cetakan, dan cetakan menjamin petunjuk tiga tingkat
+(makna → awal kalimat → contoh lengkap), tombol „Minta bantuan Frau Lehmann“, pilihan mengulang penjelasan,
+serta pencatatan bukti. Prolog sendiri ditulis ulang lewat cetakan yang sama.
 
-Aset di `public/` dan `src/assets/` adalah aset proyek; hak cipta melekat pada
-pemilik proyek dan tidak boleh dipublikasikan terpisah.
+## Menambah bab
 
-## Catatan transfer
+1. Salin salah satu berkas di `src/story/chapters/` dan ubah isinya.
+2. Daftarkan di `src/story/chapters/index.ts`.
+3. Jalankan `npm run audit`.
 
-Snapshot awal diimpor sebagai satu commit di atas commit awal remote agar riwayat
-tetap linier (fast-forward). Riwayat lokal yang tidak teraudit, profil/DB pengguna,
-log, kredensial, EXE, `node_modules`, `target`, dan `dist` tidak dibawa.
+Auditor (`src/story/audit.ts`, juga tampil di `/pola` dan `/api/audit`) menolak bab yang:
+menguji sebelum mengajar, tidak punya pertemuan nyata untuk suatu tujuan, contoh lengkapnya tidak diterima
+gilirannya sendiri, kepingan katanya tidak cukup, kalimat Jermannya tanpa arti, atau alurnya putus.
 
-## Pratinjau terisolasi (frontend preview)
+## Pola jawaban
 
-Tiga konfigurasi Vite berikut memakai HTML di `frontend-preview/` dan entry point
-di `src/klab/`. Masing-masing punya port dan direktori keluaran sendiri sehingga
-tidak mengganggu build utama:
+Setiap giliran menulis polanya sendiri (`src/story/match.ts`):
 
-```powershell
-pnpm vite build --config vite.frontend.config.ts     # output: manifest + dist preview KLAB
-pnpm vite --config vite.frontend.config.ts           # http://127.0.0.1:1425
-pnpm vite --config vite.lanjutpilot.config.ts        # http://127.0.0.1:1427
-pnpm vite --config vite.rpg.config.ts                # http://127.0.0.1:1432
-```
+- `ich komme aus ~` — `~` = satu sampai empat kata bebas
+- `ich heisse {name}` — `{name}` = nama pemain
+- `(guten )?morgen`, `(ein|eine)` — kurung, `|`, dan `?` seperti regex
 
-InputHTML: `frontend-preview/index.html` → `src/klab/preview.tsx`,
-`frontend-preview/pilot.html` → `src/klab/pilotPreview.tsx`, dan
-`frontend-preview/rpg.html` → `src/klab/rpg/rpgPreview.tsx`.
+Huruf besar, tanda baca, ß, dan umlaut diseragamkan (`moechte` = `möchte`). Jawaban yang hampir benar mendapat
+umpan balik khusus: salah urutan atau salah eja.
 
-Pratinjau RPG membaca data dan aset dari `outputs/preview-dialog-rpg/`,
-`outputs/aset-bacaan-percakapan-review/Im-Cafe/v01|v02/`, dan
-`outputs/penyelesaian-windows/dialog-catalog/`. Direktori `outputs/` pada
-umumnya diabaikan git, tetapi **subset tepat** di atas sengaja di-`force-add`
-karena merupakan input build/runtime, bukan artefak hasil build. Jangan hapus.
+## Penilaian
 
-## Catatan untuk agen yang bekerja dari clone
+Hanya kalimat yang ditulis pemain yang dihitung. „Mandiri“ = kalimat utuh kepada tokoh, tanpa petunjuk
+(`src/story/evaluate.ts`). Latihan bersama Frau Lehmann tercatat, tetapi tidak dihitung sebagai bukti mandiri.
 
-- Transfer ini memakai klon staging terpisah; **jangan** commit, checkout, reset,
-  clean, atau push dari working tree sumber di `lernen-app` / `lernen-design`.
-- Seluruh perubahan sumber setelah saat snapshot dicatat sebagai HANDOFF di
-  `STATUS.md` pada folder koordinasi `outputs/koordinasi-opencode/transfer-github/`
-  di working tree sumber. Periksa berkas itu sebelum melanjutkan integrasi.
-- Profil QA, `scripts/qa/`, `tauri.qa.conf.json`, `tauri.design.conf.json`, DB,
-  log, EXE, `node_modules`, `target`, dan `dist` sengaja tidak ikut. Hasilkan
-  kembali dengan perintah install/build di atas.
-- Push hanya dilakukan oleh agen transfer tunggal. Repository bersifat privat;
-  autentikasi memakai Git Credential Manager, bukan token di dalam repo.
+## Data
+
+Tabel `profiles`, `chapter_progress`, dan `attempts` (`src/db/schema.ts`). Terapkan dengan `npm run db:push`.
+
+Migrasi konservatif dari backup SQLite lama tersedia di `scripts/migrate-legacy.mjs`
+(lihat `docs/STATUS-ARENA-REPLACEMENT.md`). Skrip itu tidak memalsukan bukti dan
+tidak menghapus data lama.

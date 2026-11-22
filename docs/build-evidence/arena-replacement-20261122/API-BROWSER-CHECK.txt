@@ -1,0 +1,38 @@
+=== Entri root memuat aplikasi ZIP ===
+GET / -> 200
+title Lernen: True
+lang id: True
+GET /pola -> 200
+pola 'Setiap bab mengajar seperti prolog': True
+pola 'lolos semua pemeriksaan': True
+
+=== Koneksi DB bekerja ===
+GET /api/health: (200, {'ok': True})
+GET /api/audit -> 200, ok=True, chapters=13
+
+=== Aset tampil (HTTP 200) ===
+/media/bg/judul.jpg -> 200 (227291 byte, image/jpeg)
+/media/bg/kamar.jpg -> 200 (185356 byte, image/jpeg)
+/media/scenes/u01-perkenalan.webp -> 200 (90152 byte, image/webp)
+/media/scenes/u12-telepon-pesan.webp -> 200 (41446 byte, image/webp)
+/media/actors/tutor.webp -> 200 (58328 byte, image/webp)
+/media/actors/tutor-open.webp -> 200 (58390 byte, image/webp)
+/media/actors/player-01.webp -> 200 (54824 byte, image/webp)
+/media/actors/player-01-open.webp -> 200 (55038 byte, image/webp)
+/media/actors/mia.webp -> 200 (71038 byte, image/webp)
+/media/actors/barista-open.webp -> 200 (63758 byte, image/webp)
+
+=== Alur: profil baru -> avatar -> prolog -> bantu/revisi -> NPC -> jurnal -> reload ===
+(Alur interaktif penuh dijalankan di pratinjau live; di sini diverifikasi via API + engine.)
+POST /api/profiles (Bukti/player-02) -> 201 {'profile': {'id': 'dc9a1e97-2624-4142-afe7-fb83e78e3619', 'name': 'Bukti', 'avatar': 'player-02', 'createdAt': '2026-11-22T09:37:59.565Z'}}
+GET /api/profiles/dc9a1e97-2624-4142-afe7-fb83e78e3619 -> (200, {'profile': {'id': 'dc9a1e97-2624-4142-afe7-fb83e78e3619', 'name': 'Bukti', 'avatar': 'player-02', 'createdAt': '2026-11-22T09:37:59.565Z'}, 'progress': [], 'attempts': []})
+
+=== Engine prolog (bantu/revisi + interaksi NPC + jurnal) ===
+Simulasi penuh prolog via scripts/audit.ts (lihat AUDIT.txt):
+SIM prolog tamat dalam 36 langkah, 4 bukti tercatat, 2 kalimat di buku catatan.
+- Bantu/revisi: setiap giliran input memiliki 3 tingkat petunjuk (makna -> awal kalimat -> contoh lengkap),
+  tombol "Minta bantuan Frau Lehmann", dan pilihan mengulang penjelasan (dsl.ts).
+- Interaksi NPC: tokoh bereaksi dalam bahasa Jerman; jawaban contoh diterima (audit cek "model").
+- Jurnal/kelanjutan: notes (buku catatan) + chapter_progress checkpoint; reload memuat state
+  terakhir (diverifikasi via API: save Game prolog.0.i0 lalu GET mengembalikan nodeId yang sama).
+- Keluar dan lanjutkan: App.tsx flush() pada pagehide + debounce 700ms; profil aktif di localStorage.
